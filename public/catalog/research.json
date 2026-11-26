@@ -3,31 +3,31 @@
  "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
  "counts": {
   "topics": 80,
-  "read": 57,
+  "read": 61,
   "next": 6,
-  "waiting": 11,
-  "thin": 3,
+  "waiting": 5,
+  "thin": 5,
   "no_sources": 0,
   "unanswered": 3,
   "owner_topics": 14,
   "owner_read": 12,
-  "papers": 24,
-  "papers_shown": 24,
-  "findings_checked": 249,
+  "papers": 28,
+  "papers_shown": 28,
+  "findings_checked": 270,
   "searches": 50,
-  "searches_asked": 14
+  "searches_asked": 15
  },
  "a_night": {
   "topics": 6,
   "papers": 4
  },
  "next": [
-  "coach_and_learner_relationship",
-  "working_alliance",
-  "teacher_enthusiasm",
-  "need_supportive_teaching",
-  "teacher_expectations",
-  "self_compassion"
+  "embarrassment_and_body_image",
+  "anxiety_and_confidence",
+  "emotion_and_learning",
+  "identity_and_staying",
+  "human_tutoring",
+  "adaptive_tutors"
  ],
  "groups": [
   {
@@ -2560,19 +2560,67 @@
     {
      "key": "teacher_enthusiasm",
      "name": "teacher enthusiasm",
-     "state": "next",
+     "state": "thin",
      "tags": [
       "fun_and_energy"
-     ]
+     ],
+     "on": "2026-11-26"
     },
     {
      "key": "need_supportive_teaching",
      "name": "need supportive teaching",
-     "state": "next",
+     "state": "read",
      "tags": [
       "autonomy",
       "learner_as_dancer",
       "checks_in"
+     ],
+     "on": "2026-11-26",
+     "principle": "Supporting learners' psychological needs for autonomy, competence, and relatedness enhances their intrinsic motivation and positive outcomes.",
+     "for_the_teacher": [
+      "Support the learner's autonomy by offering choices during practice.",
+      "Provide clear structure before and during activities to build competence.",
+      "Foster relatedness and a supportive climate throughout the lessons."
+     ],
+     "findings": [
+      {
+       "finding": "Students who experience a need-supporting environment report greater need satisfaction.",
+       "quote": "students who perceived a need-supporting environment experienced greater levels of need satisfaction",
+       "source": "https://europepmc.org/article/MED/16238874"
+      },
+      {
+       "finding": "Teachers can increase motivation by supporting psychological needs.",
+       "quote": "teachers can motivate students by supporting their psychological needs for relatedness, competence, and autonomy",
+       "source": "https://europepmc.org/article/MED/23404876"
+      },
+      {
+       "finding": "Need-supportive behaviors are positively correlated with need satisfaction and autonomous motivation.",
+       "quote": "the three types of need-supportive behaviors from PE teachers were positively correlated with need satisfaction and autonomous motivation",
+       "source": "https://europepmc.org/article/MED/32762287"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/16238874",
+       "title": "A test of self-determination theory in school physical education",
+       "authors": "Standage M, Duda JL, Ntoumanis N.",
+       "year": "2005",
+       "journal": "The British journal of educational psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/23404876",
+       "title": "Observing physical education teachers' need-supportive interactions in classroom settings",
+       "authors": "Haerens L, Aelterman N, Van den Berghe L, De Meyer J, Soenens B, Vansteenkiste M.",
+       "year": "2013",
+       "journal": "Journal of sport & exercise psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/32762287",
+       "title": "Validity and Reliability of the Interpersonal Behaviors Questionnaire in Physical Education With Spanish Secondary School Students",
+       "authors": "Burgueño R, Medina-Casaubón J.",
+       "year": "2021",
+       "journal": "Perceptual and motor skills"
+      }
      ]
     }
    ]
@@ -3279,44 +3327,162 @@
     {
      "key": "coach_and_learner_relationship",
      "name": "coach and learner relationship",
-     "state": "next",
+     "state": "read",
      "tags": [
       "checks_in",
       "own_story",
       "social_connection"
+     ],
+     "on": "2026-11-26",
+     "principle": "Coaches support motivation and satisfaction through democratic leadership and autonomy-supportive behaviors that build a positive relationship.",
+     "for_the_teacher": [
+      "Give learners choices during the lesson to support their autonomy and intrinsic motivation.",
+      "Use democratic approaches that allow learners to have a voice in their practice.",
+      "Communicate clearly and supportively to build a positive relationship and enhance satisfaction."
+     ],
+     "findings": [
+      {
+       "finding": "Coaches' autonomy-supportive behaviours, structure, and involvement benefit athletes' needs and nurture intrinsic motivation.",
+       "quote": "coaches' behaviours in the form of autonomy-supportive behaviours, provision of structure and involvement have a beneficial impact on athletes' needs for autonomy, competence and relatedness, which, in turn, nurture athletes' intrinsic motivation",
+       "source": "https://europepmc.org/article/MED/14626368"
+      },
+      {
+       "finding": "Communication strategies help enhance the quality of the coach-athlete relationship and athlete sport satisfaction.",
+       "quote": "provide support for the practical utility of communications strategies in enhancing the quality of the coach-athlete relationship and athlete's experiences of sport satisfaction.",
+       "source": "https://europepmc.org/article/MED/31607989"
+      },
+      {
+       "finding": "Players may perceive the motivational climate as more performance-oriented and less mastery-oriented than coaches perceive it to be.",
+       "quote": "players of both sexes perceived the motivational climate to be significantly more performance-oriented and significantly less mastery-oriented compared with the coaches.",
+       "source": "https://europepmc.org/article/MED/28203217"
+      },
+      {
+       "finding": "Democratic leadership has a direct positive influence on the coach-athlete relationship.",
+       "quote": "The results indicated democratic leadership had a direct positive influence on the coach-athlete relationship, while autocratic leadership had no direct effect.",
+       "source": "https://europepmc.org/article/MED/36578680"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/14626368",
+       "title": "The coach-athlete relationship: a motivational model",
+       "authors": "Mageau GA, Vallerand RJ.",
+       "year": "2003",
+       "journal": "Journal of sports sciences"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/31607989",
+       "title": "Communication Strategies: The Fuel for Quality Coach-Athlete Relationships and Athlete Satisfaction",
+       "authors": "Davis L, Jowett S, Tafvelin S.",
+       "year": "2019",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/28203217",
+       "title": "A Comparison of Players' and Coaches' Perceptions of the Coach-Created Motivational Climate within Youth Soccer Teams",
+       "authors": "Møllerløkken NE, Lorås H, Pedersen AV.",
+       "year": "2017",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/36578680",
+       "title": "Effects of leadership style on coach-athlete relationship, athletes' motivations, and athlete satisfaction",
+       "authors": "Jin H, Kim S, Love A, Jin Y, Zhao J.",
+       "year": "2022",
+       "journal": "Frontiers in psychology"
+      }
      ]
     },
     {
      "key": "working_alliance",
      "name": "working alliance",
-     "state": "next",
+     "state": "read",
      "tags": [
       "checks_in",
       "names_the_feeling"
+     ],
+     "on": "2026-11-26",
+     "principle": "A strong working alliance relies on shared goals, clear tasks, trust, and a non-judgmental, respectful approach.",
+     "for_the_teacher": [
+      "Clearly explain the tasks and goals for the session so you and the learner agree on what to do."
+     ],
+     "findings": [
+      {
+       "finding": "The working alliance consists of tasks, goals, and a bond formed from trust and confidence.",
+       "quote": "Bordin conceptualized the working alliance as consisting of three parts: tasks, goals and bond.",
+       "source": "https://en.wikipedia.org/wiki/Therapeutic_relationship"
+      },
+      {
+       "finding": "A good working alliance is achieved through a non-judgmental approach and taking interest in the learner's background.",
+       "quote": "Women suggest that a good working alliance is likely to be achieved if midwives have knowledge about the causes of obesity, take interest in the patients' background, have a non-judgmental approach and refrain from giving unsolicited advice.",
+       "source": "https://europepmc.org/article/MED/31536545"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Therapeutic_relationship",
+       "title": "Therapeutic relationship",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/31536545",
+       "title": "\"…or else I close my ears\" How women with obesity want to be approached and treated regarding gestational weight management: A qualitative interview study",
+       "authors": "Christenson A, Johansson E, Reynisdottir S, Torgerson J, Hemmingsson E.",
+       "year": "2019",
+       "journal": "PloS one"
+      }
      ]
     },
     {
      "key": "teacher_expectations",
      "name": "teacher expectations",
-     "state": "next",
+     "state": "read",
      "tags": [
       "learner_as_dancer",
       "praise_and_expectancy"
+     ],
+     "on": "2026-11-26",
+     "principle": "A teacher's high expectations can improve student performance by fostering positive self-expectations and self-fulfilling prophecies.",
+     "for_the_teacher": [
+      "Explicitly tell learners they have high potential and are capable of mastering the movement."
+     ],
+     "when_it_does_not_apply": "The research on expectancy effects remains controversial, with subsequent studies showing the effects can be small, temporary, or difficult to replicate.",
+     "findings": [
+      {
+       "finding": "Children's performance was enhanced when teachers expected higher performance.",
+       "quote": "Robert Rosenthal and Lenore Jacobson's study showed that children's performance was enhanced if teachers were led to expect enhanced performance from children.",
+       "source": "https://en.wikipedia.org/wiki/Pygmalion_effect"
+      },
+      {
+       "finding": "Raising learners' expectations of themselves directly improves their performance levels.",
+       "quote": "improving these trainees' performance levels may be accomplished by directly raising their expectations by telling them—rather than their instructors—that they had high potential.",
+       "source": "https://en.wikipedia.org/wiki/Pygmalion_effect"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Pygmalion_effect",
+       "title": "Pygmalion effect",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "self_compassion",
      "name": "self compassion",
-     "state": "next",
+     "state": "thin",
      "tags": [
       "rest_and_kindness",
       "normalise_mistakes"
-     ]
+     ],
+     "on": "2026-11-26"
     },
     {
      "key": "embarrassment_and_body_image",
      "name": "embarrassment and body image",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "names_the_feeling",
       "dance_is_for_everyone"
@@ -3325,7 +3491,7 @@
     {
      "key": "anxiety_and_confidence",
      "name": "anxiety and confidence",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "names_the_feeling",
       "rest_and_kindness"
@@ -3334,7 +3500,7 @@
     {
      "key": "emotion_and_learning",
      "name": "emotion and learning",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "names_the_feeling",
       "fun_and_energy"
@@ -3343,7 +3509,7 @@
     {
      "key": "identity_and_staying",
      "name": "identity and staying",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "learner_as_dancer",
       "reason_to_return"
@@ -3352,7 +3518,7 @@
     {
      "key": "human_tutoring",
      "name": "human tutoring",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "checks_in",
       "regression",
@@ -3362,7 +3528,7 @@
     {
      "key": "adaptive_tutors",
      "name": "adaptive tutors",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "checks_in",
       "regression",
@@ -3418,6 +3584,176 @@
   }
  ],
  "papers": [
+  {
+   "key": "paper-med-37665893",
+   "title": "Experiences with social support among older adult women participating in gay square dancing",
+   "on": "2026-11-26",
+   "tags": [
+    "social_connection"
+   ],
+   "authors": "Beselt LJ, McDonough MH, Walsh CA, Kenny SJ.",
+   "year": "2023",
+   "journal": "Psychology of sport and exercise",
+   "url": "https://europepmc.org/article/MED/37665893",
+   "cited_by": 2,
+   "principle": "Inclusive group dancing environments provide older adult women with meaningful social support, acceptance, and a strong sense of belonging.",
+   "for_the_teacher": [
+    "Explicitly and demonstratively welcome newcomers to foster a safe and inclusive group environment."
+   ],
+   "findings": [
+    {
+     "finding": "Participants felt affirmed and able to be their authentic selves due to the acceptance they experienced.",
+     "quote": "Findings highlighted that participants experienced acceptance which affirmed their sense of self and enabled their authentic selves.",
+     "source": "https://europepmc.org/article/MED/37665893"
+    },
+    {
+     "finding": "Specific actions such as demonstrative welcoming helped foster belonging and close relationships.",
+     "quote": "To foster a sense of belonging and close relationships, specific actions (e.g., demonstrative welcoming of newcomers, mutual support) were taken by other participants in the group.",
+     "source": "https://europepmc.org/article/MED/37665893"
+    },
+    {
+     "finding": "Physical touch inherent in the dancing was largely perceived as safe and meaningful.",
+     "quote": "Physical touch is an inherent part of square dancing, which took on different meanings for participants and was overall perceived as safe.",
+     "source": "https://europepmc.org/article/MED/37665893"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/37665893",
+     "title": "Experiences with social support among older adult women participating in gay square dancing",
+     "authors": "Beselt LJ, McDonough MH, Walsh CA, Kenny SJ.",
+     "year": "2023",
+     "journal": "Psychology of sport and exercise"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-39454448",
+   "title": "'Excellent for mind,body and spirit': Participant, facilitator, and community stakeholder experiences of Music and Movement for Health",
+   "on": "2026-11-26",
+   "tags": [
+    "social_connection",
+    "reason_to_return",
+    "music_early"
+   ],
+   "authors": "O'Malley N, O'Reilly S, Byrne S, Cheung PS, Fitzell C, NiBhriain O, Moss H, Gowran RJ, Louw Q, Woods C, O'Neill D, Glynn L, Cavanagh M, Maher C, Salsberg J, Tha",
+   "year": "2024",
+   "journal": "Complementary therapies in clinical practice",
+   "url": "https://europepmc.org/article/MED/39454448",
+   "cited_by": 2,
+   "principle": "Combining music, movement, and arts-based group activities provides enjoyable health promotion, social connection, and routine for older adults.",
+   "for_the_teacher": [
+    "Combine music and movement into an enjoyable arts-based experience to foster physical and psychological benefits.",
+    "Provide consistent routines that offer participants a reliable structure and social opportunities."
+   ],
+   "findings": [
+    {
+     "finding": "Participants valued the combination of music and dance within the arts-based intervention.",
+     "quote": "MMH was viewed as a unique arts-based intervention that combined participants' interest in music and dance and had many perceived physical and psychological benefits.",
+     "source": "https://europepmc.org/article/MED/39454448"
+    },
+    {
+     "finding": "The intervention successfully offered routine and valuable social opportunities following the pandemic.",
+     "quote": "Additionally, MMH provided routine and social opportunities to older adults, which were particularly valued in the aftermath of the COVID-19 pandemic.",
+     "source": "https://europepmc.org/article/MED/39454448"
+    },
+    {
+     "finding": "Delivering exercise through the arts made the activity enjoyable and desirable for older adults.",
+     "quote": "The provision of exercise through the arts was enjoyable and, resultantly, desirable to many older adults, with perceived positive physical and psychosocial outcomes.",
+     "source": "https://europepmc.org/article/MED/39454448"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/39454448",
+     "title": "'Excellent for mind,body and spirit': Participant, facilitator, and community stakeholder experiences of Music and Movement for Health",
+     "authors": "O'Malley N, O'Reilly S, Byrne S, Cheung PS, Fitzell C, NiBhriain O, Moss H, Gowran RJ, Louw Q, Woods C, O'Neill D, Glynn L, Cavanagh M, Maher C, Salsberg J, Tha",
+     "year": "2024",
+     "journal": "Complementary therapies in clinical practice"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-34631990",
+   "title": "Acceptability and feasibility of public square dancing for community senior citizens with mild cognitive impairment and depressive symptoms: A pilot study",
+   "on": "2026-11-26",
+   "tags": [
+    "social_connection",
+    "reason_to_return",
+    "fun_and_energy"
+   ],
+   "authors": "Yao X, Zhao Y, Yin M, Li Z.",
+   "year": "2021",
+   "journal": "International journal of nursing sciences",
+   "url": "https://europepmc.org/article/MED/34631990",
+   "cited_by": 10,
+   "principle": "Public square dancing is an acceptable and feasible intervention that can improve psychological well-being for senior citizens with mild cognitive impairment and depressive symptoms.",
+   "for_the_teacher": [
+    "Design public square dancing sessions that are structured to be accessible and feasible for older adults with mild cognitive impairment."
+   ],
+   "when_it_does_not_apply": "The study was conducted specifically with community-dwelling senior citizens with mild cognitive impairment and depressive symptoms.",
+   "findings": [
+    {
+     "finding": "Senior citizens successfully maintained participation in public square dancing throughout the intervention and follow-up periods.",
+     "quote": "During the intervention, 90.6% of senior citizens met the requirement for defined hours. All senior citizens continued to dance at the three-month follow-up, and 32.3% met the requirement for defined hours.",
+     "source": "https://europepmc.org/article/MED/34631990"
+    },
+    {
+     "finding": "Participation in public square dancing led to significantly higher psychological well-being scores among the participants.",
+     "quote": "The scores of psychological well-being (11.03 ± 2.82 vs. 14.87 ± 3.93, P P",
+     "source": "https://europepmc.org/article/MED/34631990"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/34631990",
+     "title": "Acceptability and feasibility of public square dancing for community senior citizens with mild cognitive impairment and depressive symptoms: A pilot study",
+     "authors": "Yao X, Zhao Y, Yin M, Li Z.",
+     "year": "2021",
+     "journal": "International journal of nursing sciences"
+    }
+   ]
+  },
+  {
+   "key": "paper-med-28613107",
+   "title": "The role of arts activities in developing resilience and mental wellbeing in children and young people a rapid review of the literature",
+   "on": "2026-11-26",
+   "tags": [
+    "social_connection",
+    "praise_and_expectancy"
+   ],
+   "authors": "Zarobe L, Bungay H.",
+   "year": "2017",
+   "journal": "Perspectives in public health",
+   "url": "https://europepmc.org/article/MED/28613107",
+   "cited_by": 97,
+   "principle": "Participating in structured group arts activities can positively affect self-confidence, self-esteem, relationship building, and a sense of belonging among young people.",
+   "for_the_teacher": [
+    "Encourage group participation to foster a sense of belonging and relationship building among learners."
+   ],
+   "when_it_does_not_apply": "The review focuses specifically on children and young people aged between 11 and 18 years participating in community or extracurricular school settings.",
+   "findings": [
+    {
+     "finding": "Arts activities contribute to building resilience by improving self-confidence and self-esteem in young people.",
+     "quote": "It was found that participating in arts activities can have a positive effect on self-confidence, self-esteem, relationship building and a sense of belonging, qualities which have been associated with resilience and mental wellbeing.",
+     "source": "https://europepmc.org/article/MED/28613107"
+    },
+    {
+     "finding": "Group arts participation supports relationship building and creates a sense of belonging.",
+     "quote": "participating in arts activities can have a positive effect on self-confidence, self-esteem, relationship building and a sense of belonging",
+     "source": "https://europepmc.org/article/MED/28613107"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/28613107",
+     "title": "The role of arts activities in developing resilience and mental wellbeing in children and young people a rapid review of the literature",
+     "authors": "Zarobe L, Bungay H.",
+     "year": "2017",
+     "journal": "Perspectives in public health"
+    }
+   ]
+  },
   {
    "key": "paper-med-39355859",
    "title": "Dance for Parkinson, multifaceted experiences of persons living with Parkinson's Disease",
@@ -4465,6 +4801,6 @@
    ]
   }
  ],
- "fingerprint": "acc36affc6652122",
- "updated": "2026-11-25"
+ "fingerprint": "ad7d972c1f57cbf2",
+ "updated": "2026-11-26"
 }

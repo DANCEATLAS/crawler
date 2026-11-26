@@ -85,7 +85,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 2,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -105,43 +105,81 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "805341b2dc625061",
- "updated": "2026-11-25"
+ "performances": [
+  {
+   "youtube_id": "SXolUCcj3UA",
+   "url": "https://www.youtube.com/watch?v=SXolUCcj3UA",
+   "analysed_on": "2026-11-26",
+   "observation": {
+    "setting": "A scenic, lush green forest with tall trees and dirt ground outdoors.",
+    "dancers": "One solo female dancer.",
+    "formation_and_space": "Solo performance, stationary or turning within a small space.",
+    "posture": "Upright torso, relaxed posture, slight knee flexion during turns and drops to the floor.",
+    "footwork": "Fast steps, pivoting and turning on balls of feet, cannot see precise weight changes due to wide skirt and low resolution.",
+    "arms_and_hands": "Arms held out at shoulder or overhead height, hands moving fluidly or holding a metal tray/prop.",
+    "hips_and_torso": "Subtle rotation and swaying of the torso, hips moving with the turning steps.",
+    "partnering": "None",
+    "levels_jumps_turns": "Continuous spinning turns, dropping down to a seated position on the floor and rising back up.",
+    "costume_and_props": "Traditional-style folkloric outfit with a white head covering, red blouse, dark vest with colorful embroidery, and a long flared skirt with horizontal colored stripes at the hem; holds a small metal tray/plate as a prop.",
+    "cannot_infer": "Exact footwork details and precise weight distribution are obscured by the long, full flared skirt and digital video compression/resolution.",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "synthesizer",
+      "string instrument"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 2,
+      "end_s": 15,
+      "what": "Solo dancer spinning in place with arms extended, then lowering to the ground while holding a plate."
+     },
+     {
+      "start_s": 32,
+      "end_s": 42,
+      "what": "Fast circular turning steps with arms moving gracefully overhead."
+     },
+     {
+      "start_s": 48,
+      "end_s": 58,
+      "what": "Full body 360-degree spins making the colorful striped skirt flare out."
+     },
+     {
+      "start_s": 100,
+      "end_s": 110,
+      "what": "Kneeling on the ground with the full skirt spread in a circle while moving hands expressively."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "87fdac279f5cf4ab",
+ "updated": "2026-11-26"
 }

@@ -1,6 +1,6 @@
 # Changa tuki — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -300,7 +300,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: the teacher does not use a formal counting scheme, but the m
 Demonstration: views used by most teachers: front; tempo progression: full
 Cues: dale dale; eso eso

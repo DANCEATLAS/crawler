@@ -1,13 +1,64 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Used to manipulate and interlock hoops.",
+      "difficulty": "advanced",
+      "footwork": "Small, restrained steps.",
+      "formation_and_space": "Solo dancer moving in clockwise or counterclockwise circles.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; it is a solo dance.",
+      "posture": "Restrained and upright.",
+      "signature_moves": [
+        {
+          "description": "Using hoops to form shapes representing birds, snakes, or other animals.",
+          "name": "Animal mimicry"
+        }
+      ],
+      "tempo_feel": "Varies from very rapid to slower, depending on the number of hoops used.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "drum",
+        "flute"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "spiritual",
+        "energetic",
+        "rhythmic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is driven by a steady drumbeat and flute, providing a rhythmic foundation for the dancer's rapid movements.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Small, restrained steps while standing",
+        "Manipulating hoops into interlocking shapes",
+        "Moving in clockwise or counterclockwise circles"
+      ],
+      "formation": "Solo dancer.",
+      "level_notes": "Requires years of practice to master the complexity of hoop manipulation.",
+      "rhythm": "Variable; ranges from fast drumbeats to slower, steady rhythms."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "783f478c9b715e7ee8ee359166ba3f9bf9198214dfadd5b4ff1773e87de2565c",
+  "fingerprint": "d021b1aad158487450afa50886129f700951122a3f60a5f956c7a1c34c8771eb",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +66,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns or counts used in competitive hoop dance? Evidence needed: Instructional manuals or technical dance analysis of competitive hoop dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +96,18 @@
   ],
   "music_options": [],
   "name": "Native American Hoop Dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c97efe57815a12b1",
+      "next_evidence": "Instructional manuals or technical dance analysis of competitive hoop dance.",
+      "question": "What are the specific footwork patterns or counts used in competitive hoop dance?",
+      "source": "https://en.wikipedia.org/wiki/Native_American_Hoop_Dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide actionable teaching material for the movement_profile."
+    }
+  ],
+  "research_file": "research_results/native-american-hoop-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +119,9 @@
   "slug": "native-american-hoop-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Native_American_Hoop_Dance",
-    "Source: Native American Hoop Dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Native_American_Hoop_Dance"
+    "https://www.wikidata.org/wiki/Q1661347",
+    "https://de.wikipedia.org/wiki/Indianischer_Reifentanz"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

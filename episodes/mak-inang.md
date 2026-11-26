@@ -1,8 +1,8 @@
 # Mak Inang — episode pack
 
-*Status: draft · built 2026-11-25 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Cultural historian and expert in traditional Malay court dance
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Echoes of the Malacca Sultanate
 NARRATION: This is Mak Inang. 15th–16th century (Malacca Sultanate).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (4TsXiaOZ_uk)
 ON SCREEN: Title card: Mak Inang · Malaysia · 15th–16th century (Malacca Sultanate)
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage: File:Tari Mak Inang Pulau Kampai 2.webm (https://upload.wiki
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (4TsXiaOZ_uk)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -100,7 +100,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -161,7 +161,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -222,7 +222,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -273,7 +273,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '4TsXiaOZ_uk', 'checked_by_vision_model': True, 'title': 'Tarian Inang - Nyala Dance Theatre - Ekspresi Tari'}
 Images: 1 licensed — Mhd Tri Dewantara / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Tari Mak Inang Pulau Kampai 2.webm — https://upload.wikimedia.org/wikipedia/commons/7/78/Tari_Mak_Inang_Pulau_Kampai_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Tari Mak Inang Pulau Kampai 1.webm — https://upload.wikimedia.org/wikipedia/commons/e/e8/Tari_Mak_Inang_Pulau_Kampai_1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Tari Mak Inang Pulau Kampai tanpa musik.webm — https://upload.wikimedia.org/wikipedia/commons/4/41/Tari_Mak_Inang_Pulau_Kampai_tanpa_musik.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Malacca royal court motifs, Traditional Malaysian wedding reception decor, Classical Malay palace attire
@@ -283,9 +283,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Mak_Inang; https://www.wikidata.org/wiki/Q6738543

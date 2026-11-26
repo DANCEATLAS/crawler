@@ -1,6 +1,6 @@
 # Salegy — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section
 
@@ -122,7 +122,7 @@ NARRATION: Step 1: Begin with a steady bounce matching the rapid 6/8 or 12/4 rhy
 NARRATION: Step 2: Incorporate foot taps or steps on accented beats (3rd or 7th)
 NARRATION: Footwork from the sources: Foot taps or steps on accented beats (3rd or 7th) within a rapid 6/8 or 12/4 meter
 NARRATION: Drill: Bounce steadily to 6/8 rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -193,7 +193,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Women may perform mbiwy hand rhythms alongside footwork
 NARRATION: Drill: Practice folaka hand clapping patterns
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -266,7 +266,7 @@ NEEDS: tempo
 NARRATION: Step 1: Practice call-and-response vocal phrases if singing
 NARRATION: Step 2: Women may perform mbiwy hand rhythms alongside footwork
 NARRATION: Drill: Master complex polyrhythmic clapping
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (3): https://en.wikipedia.org/wiki/Salegy; https://www.wikidata.org/wiki/Q3032090; https://fr.wikipedia.org/wiki/Salegy

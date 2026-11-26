@@ -1,6 +1,6 @@
 # Queer Tango — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the music & instruments section; the costume & setting section; lineage; two or more connections
 
@@ -305,9 +305,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: the teacher does not use a specific counting scheme, but rat
-Demonstration: views used by most teachers: front; tempo progression: slow
+Demonstration: views used by most teachers: front; tempo progression: slow → full
 Cues: forward; sideways; backwards; pivot
 Common mistakes the studied teachers name: stepping diagonally; changing the hips too much during the follower cross
 

@@ -1,0 +1,137 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "Highly energetic and synchronized",
+      "formation_and_space": "Processional and group synchronized",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; group synchronization under a conductor",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The piercing of the skin to draw symbolic or real blood representing wounded soldiers.",
+          "name": "Ritual Piercing"
+        }
+      ],
+      "tempo_feel": "Highly energetic and fast-paced",
+      "what_to_avoid": "Avoid casual or non-ritualistic performance; respect the ascetic requirements."
+    },
+    "music_profile": {
+      "instruments": [
+        "Drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Energetic",
+        "Sacred",
+        "Intense",
+        "Rhythmic"
+      ],
+      "musical_form": "Synchronized with the legends of the goddess",
+      "reference_recordings": [],
+      "rhythm_pattern": "Paced to the beat of drums",
+      "sound_description": "The soundscape is dominated by the loud, rhythmic pulse of traditional drums, overlaid with the collective chanting of the young dancers. The music is designed to be driving and high-energy to match the physical intensity of the ritual.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanting and singing by the dancers"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Ascetic preparation: Living in the temple and eating simple food",
+        "Rhythmic chanting: Learning the songs of the goddess under an asan",
+        "Synchronized footwork: Pacing movements to the drum beat",
+        "Processional dance: Executing high-energy steps during the temple circuit"
+      ],
+      "formation": "Group synchronization led by a conductor (asan)",
+      "level_notes": "Requires high physical stamina and the ability to maintain rhythm while singing.",
+      "rhythm": "Fast-paced, driving drum beats"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "6b9ce241f5f1b592eff8020ffa377318a246d3caf4518ccd49d62b7cf726a07d",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns (talas) used in the drumming for Kuthiyottam? Evidence needed: https://en.wikipedia.org/wiki/Kuthiyottam"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there specific synchronized hand gestures (mudras) used by the boys during the dance? Evidence needed: https://en.wikipedia.org/wiki/Kuthiyottam"
+    ]
+  },
+  "id": "atlas:kuthiyottam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Kuthiyottam",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5e4793412829ed06",
+      "next_evidence": "https://en.wikipedia.org/wiki/Kuthiyottam",
+      "question": "What are the specific rhythmic patterns (talas) used in the drumming for Kuthiyottam?",
+      "source": "https://en.wikipedia.org/wiki/Kuthiyottam",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately recreate the music profile for teaching or documentary purposes."
+    },
+    {
+      "domain": "video",
+      "id": "de35d955cd23cf91",
+      "next_evidence": "https://en.wikipedia.org/wiki/Kuthiyottam",
+      "question": "Are there specific synchronized hand gestures (mudras) used by the boys during the dance?",
+      "source": "https://en.wikipedia.org/wiki/Kuthiyottam",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions synchronization with legends but does not describe the physical gestures."
+    }
+  ],
+  "research_file": "research_results/kuthiyottam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "kuthiyottam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kuthiyottam",
+    "https://www.wikidata.org/wiki/Q6448441"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

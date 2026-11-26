@@ -60,7 +60,20 @@
   "profile_long": "Adana is a traditional Macedonian Oro, a form of folk dance deeply rooted in the cultural landscape of the town of Veles. As a men's dance, it is defined by a specific progression of intensity and physical engagement. The performance begins with a controlled, balanced movement, performed while the dancers are arranged in a half-circle formation. During this initial phase, the dancers maintain a connection by holding each other's shoulders, a posture that suggests a collective, unified movement. As the dance progresses and the tempo increases, the physical demands shift significantly. The dancers transition from the shoulder-hold to holding hands, allowing for more dynamic movement. This faster phase of the dance incorporates more athletic elements, including jumping, kneeling, and turning. The rhythmic structure of the dance is set to a 2/4 meter. The transition from the initial balancing phase to the more vigorous, faster phase marks the primary structure of the performance. The dance is categorized as a type of Macedonian Oro, a family of dances that typically involve circular or semi-circular formations. The specific movements—balancing, jumping, kneeling, and turning—require a degree of physical coordination and stamina, particularly as the tempo accelerates. Because the dance is described as a 'man dance', it is traditionally performed by men, though the sources do not specify if this is a strict gender restriction or a cultural convention. The dance's origins in Veles connect it to the broader tradition of Macedonian folk dance, which is characterized by its rhythmic complexity and communal nature. The progression from a static, balanced start to an active, high-energy finish is a hallmark of the Adana, reflecting a narrative of building intensity within the performance. The use of the half-circle formation at the start provides a clear spatial orientation for the dancers, which then evolves as the dance accelerates. The transition from shoulder-holding to hand-holding is a key indicator of the change in the dance's energy and the nature of the connection between the participants. The dance remains a documented part of the Macedonian folk tradition, with its specific movements and structure preserved through the cultural practices of the Veles region.",
   "publish_gate": "publish",
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "tutorials": [
+   {
+    "youtube_id": "AVomw_YvdTQ",
+    "title": "Adana-Teental//Dance tutorial//Classical dance//Bong lady Sanita",
+    "channel": "Bong lady Sanita",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ]
  },
  "profile": {
   "sections": {
@@ -330,6 +343,93 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "rZUxnVERks8",
+   "url": "https://www.youtube.com/watch?v=rZUxnVERks8",
+   "title": "Los Mo Dance Class (Adana)",
+   "channel": "Chas Konopka",
+   "analysed_on": "2026-11-26",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "2 fast, 4 slow",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher reads instructions from a paper explaining Adana dance steps"
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "breakdown",
+     "note": "Teacher explains arm placement and right/left footwork"
+    },
+    {
+     "t": "1:13",
+     "seconds": 73,
+     "segment": "follow_along",
+     "note": "Students line up with hands on shoulders and practice the steps"
+    },
+    {
+     "t": "2:46",
+     "seconds": 166,
+     "segment": "other",
+     "note": "Teacher directs students to form a circle"
+    },
+    {
+     "t": "3:35",
+     "seconds": 215,
+     "segment": "music_practice",
+     "note": "Students practice the dance in a circle formation to music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Adana basic step",
+     "counts": "2 fast 4 slow",
+     "description": "Step forward right, bring left forward, then step left two hops left"
+    }
+   ],
+   "cues": [
+    "left right left left",
+    "step forward your right",
+    "get in a circle"
+   ],
+   "teacher_style": "The teacher explains the steps verbally while reading from a paper, then demonstrates the line and circle formations with the group. She breaks down the footwork counts and directions clearly before having the students practice together.",
+   "distinctive_method": "Reading dance steps directly from a paper list to instruct students",
+   "what_works": [
+    "breaking down the steps slowly before music"
+   ],
+   "what_hinders": [
+    "reading from a paper instead of demonstrating face-to-face"
+   ],
+   "evidence": [
+    {
+     "start_s": 32,
+     "end_s": 42,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates arm positions and foot direction while talking",
+     "viewpoint": "front",
+     "cannot_infer": "exact foot placement details",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 113,
+     "end_s": 130,
+     "topic": "movement",
+     "observation": "Students line up holding shoulders and step side-to-side",
+     "viewpoint": "front-side",
+     "cannot_infer": "exact weight transfer",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "episodes": {
@@ -341,6 +441,6 @@
   "polished": true,
   "file": "episodes/adana.json"
  },
- "fingerprint": "4baed223189db35a",
- "updated": "2026-11-25"
+ "fingerprint": "33e5a91990efccb1",
+ "updated": "2026-11-26"
 }

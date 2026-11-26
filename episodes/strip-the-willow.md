@@ -1,6 +1,6 @@
 # Strip the willow — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
 
@@ -113,7 +113,7 @@ NARRATION: Step 1: Top couple link right arms and spin in the center for 16 beat
 NARRATION: Step 2: Lady turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.
 NARRATION: Footwork from the sources: Skip-change step or relaxed rhythmic walking turn step
 NARRATION: Drill: Practice linking right elbows and spinning in place for 16 beats
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 or 6/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -183,7 +183,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Top couple link right arms and spin in the center for 16 beats.
 NARRATION: Step 2: Lady turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.
 NARRATION: Drill: Practice alternating left elbow turn with line dancer and right elbow turn with partner
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 or 6/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -255,7 +255,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Gentleman turns line dancer anti-clockwise with left arm, then partner clockwise with right arm.
 NARRATION: Step 2: Both partners simultaneously turn line dancers anti-clockwise and each other clockwise down the set.
 NARRATION: Drill: Both partners strip down opposing lines simultaneously without colliding in the aisle
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 9/8 or 6/8 bar out loud, then in pairs of bars · repetitions: 3
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: count the 9/8 or 6/8 bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Strip_the_willow; https://www.wikidata.org/wiki/Q7624100

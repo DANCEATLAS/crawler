@@ -1,6 +1,6 @@
 # redowa — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
@@ -116,7 +116,7 @@ NARRATION: Step 1: Small leap step on count 1
 NARRATION: Step 2: Long gliding step on count 2
 NARRATION: Footwork from the sources: Six-count pattern consisting of long glides and small leaps.
 NARRATION: Drill: Count 1-6 in 3/4 time
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -186,7 +186,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Long reaching step on count 5
 NARRATION: Step 2: Small leap step on count 6
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -254,7 +254,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Long reaching step on count 5
 NARRATION: Step 2: Small leap step on count 6
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
+Cues: say the count before the move; name the body part, then the direction; one correction at a time
 
 Sources (8): https://en.wikipedia.org/wiki/Redowa; https://www.wikidata.org/wiki/Q3422966; https://es.wikipedia.org/wiki/Redova; https://fr.wikipedia.org/wiki/Redowa; https://it.wikipedia.org/wiki/Redova; https://archive.org/details/danceman098; https://archive.org/details/danceman084; https://archive.org/details/danceman020

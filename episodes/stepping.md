@@ -1,6 +1,6 @@
 # stepping — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -341,9 +341,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 82 tutorial(s) of the street-urban family studied · videos studied: 82
+Source: 86 tutorial(s) of the street-urban family studied · videos studied: 86
 Counting: count the Polyrhythmic acapella meter bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
+Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (4): https://en.wikipedia.org/wiki/Stepping_(African-American); https://www.wikidata.org/wiki/Q7611114; https://fr.wikipedia.org/wiki/Stepping_(danse); https://archive.org/details/smash-hits-1980-06-12

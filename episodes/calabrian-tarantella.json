@@ -1,0 +1,835 @@
+{
+ "slug": "calabrian-tarantella",
+ "name": "Calabrian tarantella",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T20:08:06Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable community dance leader grounded in Calabrian traditions.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Calabrian tarantella",
+   "tarantella calabrese",
+   "sonu a ballu",
+   "tirantella",
+   "taranteja"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Calabrian tarantella",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Inside the Rota: Calabria's Living Circle",
+     "This is Calabrian tarantella. traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Calabrian tarantella · Italy · traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Calabrian tarantella traces its roots to ancient Greek dance traditions, characterized by upright postures, a waist-level center of gravity, and expressive freedom rather than rigid codification.",
+     "Unlike the tarantellas of Naples or the Apulian phenomenon of tarantism, it evolved as a festive and religious-processional expression with deep cultural roots.",
+     "Traditional instruments like the ancient aulos and tympanon eventually gave way to the zampogna, organetto, and tamburello."
+    ],
+    "on_screen": [
+     "Map: Italy · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The rota symbolizes the community's territory, with the dance representing the conquest and sharing of that space.",
+     "Same-sex dances symbolize a duel for territorial dominance, while mixed-gender dances enact traditional courtship rituals characterized by female modesty and male displays of agility.",
+     "Today it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Performed by couples—man-woman, man-man, or woman-woman—within a circular community space called a rota.",
+     "The master of dance (u mastru i ballu) manages turns and selects participants.",
+     "Movement features an upright, static trunk combined with frantic lower-body footwork based on terzine.",
+     "Watch for Soprappasso (Intricciata), Tagghjapassu, Illi adornu."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Couples dance counter-clockwise inside a single circular space called a rota."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music is driven by terzine rhythms in 12/8 and sometimes 6/8 time.",
+     "Primary instruments include the zampogna (bagpipe) and its common modern replacement the organetto (diatonic accordion), accompanied by the tamburello (frame drum).",
+     "Listen for the zampogna, organetto, tamburello, pipita.",
+     "The pulse is 12/8 and 6/8 time.",
+     "Driven by terzine rhythms in 12/8 or 6/8 time, featuring the reedy drone of the zampogna or organetto underpinned by the sharp acoustic pulse of the tamburello."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally danced in public piazze during religious festivals and community celebrations.",
+     "Dancers utilize everyday festive attire, with women frequently incorporating a foulard as a choreographic prop and challenge symbol.",
+     "In Vibonese, the 6/8 rhythm of the tarantella traditionally accompanies the dance of the Giganti—enormous papier-mâché figures operated from within by dancers."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The tradition is anchored by community elders, traditional musicians playing 'ad usu anticu', and the u mastru i ballu (master of dance) who arbitrates social dynamics and manages turn-taking within the rota.",
+     "Geographical variants include the libera in east Catanzarese, the sonu a ballu in Aspromonte, the zumparieddu in Sila, and the viddanedda in Reggio Calabria.",
+     "A distinct branch of southern Italian tarantella descending from ancient Greek choreographic forms, entirely separate from Neapolitan tarantella and tarantism rituals."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Calabrian tarantella is parent of tarantella: Broad category of southern Italian dances from which Calabrian tarantella is distinguished by rhythm and form.",
+     "Calabrian tarantella is influence of ballu sardu: Shares uncodified traditional Greek-derived spatial and bodily movement characteristics.",
+     "Calabrian tarantella is influence of sirtaki: Shares ancient Greek dance roots emphasizing earth contact and community circle formations."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Forming the circular rota space and walking counter-clockwise",
+     "Executing the basic swaying and double steps on terzine timing",
+     "Count it: count the 12/8 and 6/8 time bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the dynamic couple dances and terzine rhythms of the Calabrian tarantella within the traditional rota.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the rota formation and basic terzine timing.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the rota formation and basic terzine timing..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable community dance leader grounded in Calabrian traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright posture with the center of gravity positioned at the waist and a static trunk.",
+      "Men elevate and move arms expansively (miming knife fights in male pairings); women keep arms below shoulder height or resting on hips with palms outward.",
+      "Independent movement from the waist down, while the trunk remains static."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12/8 and 6/8 time bar out loud, then in pairs of bars. The meter is 12/8 and 6/8 time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Forming the circular rota space and walking counter-clockwise",
+      "Step 2: Executing the basic swaying and double steps on terzine timing",
+      "Footwork from the sources: Double and swaying steps, soprappasso (intricciata) alternating foot crossings, and tagghjapassu step-cutters.",
+      "Drill: Forming the circular rota space"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12/8 and 6/8 time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Performing the soprappasso (intricciata) foot-crossing pattern",
+      "Step 4: Executing the illi adornu spiral approach toward the center",
+      "Drill: Clapping to 12/8 terzine rhythms"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12/8 and 6/8 time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic stationary swaying steps"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated tapping of the terzine rhythm with feet and hands, maintaining upper body posture. · For children: A friendly circle game where children move counter-clockwise in a rota and take turns stepping to the center."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated tapping of the terzine rhythm with feet and hands, maintaining upper body posture.",
+      "For children: A friendly circle game where children move counter-clockwise in a rota and take turns stepping to the center."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12/8 and 6/8 time bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the rota formation and basic terzine timing..",
+      "The rota symbolizes the community's territory, with the dance representing the conquest and sharing of that space.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute footwork patterns and upper/lower body independence.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute footwork patterns and upper/lower body independence..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable community dance leader grounded in Calabrian traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright posture with the center of gravity positioned at the waist and a static trunk.",
+      "Men elevate and move arms expansively (miming knife fights in male pairings); women keep arms below shoulder height or resting on hips with palms outward.",
+      "Independent movement from the waist down, while the trunk remains static."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12/8 and 6/8 time bar out loud, then in pairs of bars. The meter is 12/8 and 6/8 time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Practicing the tagghjapassu step-cutter to interrupt movement paths",
+      "Drill: Practicing the soprappasso (intricciata) foot cross"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12/8 and 6/8 time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Soprappasso (Intricciata): Steps are interlaced by beating one foot to the outside of the other in an alternating manner.",
+      "Tagghjapassu: A step-cutter used to interrupt the spiral movement path, often deployed by women to escape courtship.",
+      "Drill: Maintaining a static trunk while moving legs"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12/8 and 6/8 time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Executing the illi adornu spiral approach"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated tapping of the terzine rhythm with feet and hands, maintaining upper body posture. · For children: A friendly circle game where children move counter-clockwise in a rota and take turns stepping to the center."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated tapping of the terzine rhythm with feet and hands, maintaining upper body posture.",
+      "For children: A friendly circle game where children move counter-clockwise in a rota and take turns stepping to the center."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12/8 and 6/8 time bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Couples dance counter-clockwise inside a single circular space called a rota."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute footwork patterns and upper/lower body independence..",
+      "The tradition is anchored by community elders, traditional musicians playing 'ad usu anticu', and the u mastru i ballu (master of dance) who arbitrates social dynamics and manages turn-taking within the rota.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Master stylistic interactions and master-led transitions.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Master stylistic interactions and master-led transitions..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable community dance leader grounded in Calabrian traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright posture with the center of gravity positioned at the waist and a static trunk.",
+      "Men elevate and move arms expansively (miming knife fights in male pairings); women keep arms below shoulder height or resting on hips with palms outward.",
+      "Independent movement from the waist down, while the trunk remains static."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12/8 and 6/8 time bar out loud, then in pairs of bars. The meter is 12/8 and 6/8 time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Executing the illi adornu spiral approach toward the center",
+      "Step 2: Practicing the tagghjapassu step-cutter to interrupt movement paths",
+      "Drill: Executing the tagghjapassu step-cutter"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12/8 and 6/8 time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Illi adornu: A spiral movement mimicking a bird of prey circling a target to draw the partner toward the center of the rota.",
+      "Drill: Navigating master-managed turn sequences"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12/8 and 6/8 time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Expressive arm placement (amphora pose or challenge gestures)"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated tapping of the terzine rhythm with feet and hands, maintaining upper body posture. · For children: A friendly circle game where children move counter-clockwise in a rota and take turns stepping to the center."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated tapping of the terzine rhythm with feet and hands, maintaining upper body posture.",
+      "For children: A friendly circle game where children move counter-clockwise in a rota and take turns stepping to the center."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12/8 and 6/8 time bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Couples dance counter-clockwise inside a single circular space called a rota."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master stylistic interactions and master-led transitions..",
+      "A distinct branch of southern Italian tarantella descending from ancient Greek choreographic forms, entirely separate from Neapolitan tarantella and tarantism rituals.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "12/8 and 6/8 time",
+  "rhythm_pattern": null,
+  "instruments": [
+   "zampogna",
+   "organetto",
+   "tamburello",
+   "pipita",
+   "fischiotta",
+   "Calabrian lira"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "lively",
+   "festive",
+   "energetic"
+  ],
+  "sound_description": "Driven by terzine rhythms in 12/8 or 6/8 time, featuring the reedy drone of the zampogna or organetto underpinned by the sharp acoustic pulse of the tamburello.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Calabrian tarantella (Italy). Meter 12/8 and 6/8 time. Instruments: zampogna, organetto, tamburello, pipita, fischiotta, Calabrian lira. Mood: lively, festive, energetic. It should sound like this: Driven by terzine rhythms in 12/8 or 6/8 time, featuring the reedy drone of the zampogna or organetto underpinned by the sharp acoustic pulse of the tamburello. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Traditionally danced in public piazze during religious festivals and community celebrations. Dancers utilize everyday festive attire, with women frequently incorporating a foulard as a choreographic prop and challenge symbol. In Vibonese, the 6/8 rhythm of the tarantella traditionally accompanies the dance of the Giganti—enormous papier-mâché figures operated from within by dancers.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ASuonatori_di_tarantella_2.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Suonatori_di_tarantella_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Suonatori_di_tarantella_2.JPG/1280px-Suonatori_di_tarantella_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "No machine-readable author provided. Marcuscalabresus assumed (based on copyright claims). / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASuonatori_di_tarantella_2.JPG",
+    "description": ""
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "A single moving circle of participants in a cobblestone piazza",
+   "Traditional instruments like the organetto and tamburello",
+   "Upright posture with energetic leg work",
+   "Expressive hand movements and foulards"
+  ],
+  "costume_notes": "Traditionally danced in public piazze during religious festivals and community celebrations. Dancers utilize everyday festive attire, with women frequently incorporating a foulard as a choreographic prop and challenge symbol. In Vibonese, the 6/8 rhythm of the tarantella traditionally accompanies the dance of the Giganti—enormous papier-mâché figures operated from within by dancers.",
+  "setting_notes": "The rota symbolizes the community's territory, with the dance representing the conquest and sharing of that space. Same-sex dances symbolize a duel for territorial dominance, while mixed-gender dances enact traditional courtship rituals characterized by female modesty and male displays of agility.",
+  "map": {
+   "country": "Italy",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "111 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 111,
+  "counting": "count the 12/8 and 6/8 time bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch",
+   "left together left touch",
+   "spin out"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Calabrian_tarantella",
+  "https://www.wikidata.org/wiki/Q576172",
+  "https://it.wikipedia.org/wiki/Tarantella_calabrese",
+  "https://es.wikipedia.org/wiki/Tarantella_calabresa"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "9b4aaf07441ad27739fb3b34dd466269d44d38ec6b2a2204cf80953fed092b92",
+ "hero_checked": null
+}

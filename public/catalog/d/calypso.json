@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "calypso",
  "name": "Calypso",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "TT"
@@ -11,7 +11,10 @@
   "slug": "calypso",
   "name": "Calypso",
   "country": "Trinidad and Tobago",
+  "country_code": "TT",
+  "flag_emoji": "🇹🇹",
   "region": "Caribbean",
+  "family": "african-diaspora",
   "era": "19th century African-Trinidadian roots",
   "tagline": "Trinidad's witty social commentary dance — calypsonians lampoon politicians, lovers, and scandals; couples wine and step to the steelpan rhythm.",
   "profile": "Calypso is the foundational music and dance genre of Trinidad and Tobago — born in the 19th century from enslaved African Trinidadians' use of song as veiled social commentary and resistance under the British colonial regime. The dance is partnered and earth-low, featuring relaxed hip articulations, controlled steps, and call-and-response with the calypsonian (singer). Calypso songs are renowned for their sharp wit — lampooning politicians, lovers, and scandals — and the genre produced global stars from Lord Kitchener and Mighty Sparrow to Harry Belafonte. The steelpan, invented in 1940s Trinidad, became calypso's signature instrument.",
@@ -42,9 +45,16 @@
    "rumba"
   ],
   "sources": [
-   "https://en.wikipedia.org/wiki/Calypso_music"
+   "https://en.wikipedia.org/wiki/Calypso_music",
+   "https://www.wikidata.org/wiki/Q752785",
+   "https://es.wikipedia.org/wiki/Calipso_(música)",
+   "https://fr.wikipedia.org/wiki/Calypso_(musique)",
+   "https://pt.wikipedia.org/wiki/Calipso_(gênero_musical)",
+   "https://de.wikipedia.org/wiki/Calypso_(Musik)",
+   "https://archive.org/details/BNA-DIG-ARUBIANA-3835"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Calypso_music",
+  "wikidata_qid": "Q752785",
   "unesco": false,
   "hero_video_youtube_id": "0b2Z_mafwN8",
   "image_significance": {
@@ -93,6 +103,57 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 8.25,
+  "last_researched_at": "2026-11-26T20:30:28Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Calypso is a foundational music and dance style that emerged from the Afro-Trinadian communities of Trinidad and Tobago during the early- to mid-19th century. Its complex rhythms trace their lineage back to West African kaiso and the musical traditions introduced by French planters and their enslaved populations in the 18th century. Stripped of their native communication networks, enslaved Africans utilized song as a veiled tool for resistance, sharing news, mocking overseers, and forging a strong sense of community. Over time, these musical expressions coalesced around Carnival celebrations, particularly after the abolition of slavery in 1834. The tradition was led by figures historically known as griots, later called chantuelles, and eventually evolved into the modern calypsonian. As English replaced French patois as the dominant language, calypso lyrics expanded into biting social and political commentary, allowing the working classes to challenge unelected colonial authorities and critique local scandals.\n\nThroughout the 20th century, calypso underwent significant institutional and technological developments. In the 1920s, entrepreneurs established 'calypso tents'—performance venues where calypsonians competed and shared new compositions during the Carnival season. Despite heavy government censorship and attempts by colonial authorities to suppress the music, calypsonians evaded scrutiny using double entendres and metaphorical storytelling. The physical soundscape of calypso was radically transformed by the invention of the steelpan—percussive instruments fashioned from discarded oil drums during World War II, which provided a distinct melodic and harmonic foundation alongside traditional rhythm sections featuring the bumbac, charrasca, cencerro, and cuatro. Recordings by early pioneers such as Roaring Lion, Attila the Hun, and Lord Invader brought the genre beyond the West Indies, setting the stage for an international craze in the 1950s propelled by mainstream crossovers from Harry Belafonte, Robert Mitchum, and the Andrews Sisters.\n\nWhile calypso's cultural epicenter remains Trinidad and Tobago, the genre spread widely across the Caribbean Antilles, South America, and Central America, spawning regional variants such as Venezuelan calipso de El Callao, Antiguan benna, Barbadian spouge, and Dominican cadence-lypso. In the late 1970s, calypso fused with East Indian music, soul, and funk to create soca music, characterized by faster tempos and dance-oriented production. Women also broke barriers in the traditionally male-dominated calypso arena, with Calypso Rose capturing major competition titles in the late 1970s. From political protest anthems addressing independence movements to global film soundtracks and UNESCO recognitions, calypso has endured as a flexible, razor-sharp medium of cultural identity and public discourse.",
+  "albums": [
+   {
+    "title": "Calypso",
+    "artist": "Harry Belafonte",
+    "year": "1956",
+    "mbid": "e984cd67-c053-386f-a912-a873c4fc9ded",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/e984cd67-c053-386f-a912-a873c4fc9ded",
+    "type": "Album",
+    "source": "https://en.wikipedia.org/wiki/Calypso_music",
+    "verified": true
+   }
+  ],
+  "album_candidates": [
+   {
+    "title": "Calypso...Is Like So",
+    "artist": "Robert Mitchum",
+    "source": "https://en.wikipedia.org/wiki/Calypso_music",
+    "verified": false
+   }
+  ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Calypso22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Calypso22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 791,
+    "height": 640,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "U. S. Government / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACalypso22.jpg",
+    "description": "Left to right: Lord Invader, The Mighty Growler, Atilla the Hun, and The Roaring Lion. Atilla's dress and hat are probably in reference to his song, \"The Modern Girl\"."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Calypso_Mama%2C_singer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Calypso_Mama%2C_singer.jpg/1280px-Calypso_Mama%2C_singer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2074,
+    "height": 3072,
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Gasybeaugosse2020 / Wikimedia Commons / CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACalypso_Mama%2C_singer.jpg",
+    "description": "Singer Calypso Mama, real name Maureen Verlene Duvalier performing in a show."
+   }
+  ],
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -141,6 +202,348 @@
    "cuban-rumba"
   ]
  },
- "fingerprint": "9ead5363c863be5d",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Calypso music has its roots in Trinidad in the 17th century from the West African Kaiso and Canboulay familiar to the enslaved Africans brought to the Caribbean islands to work on sugar plantations. Modern calypso began in the 19th century as a fusion of disparate elements ranging from the masquerade song lavway, French Creole belair, and the calinda stick-fighting chantwell. Its early rise was closely connected with the adoption of Carnival by Trinidadian slaves, growing significantly after the abolition of slavery in 1834.",
+   "how_it_is_danced": "not described in sources",
+   "music_and_instruments": "Calypso music is characterized by highly rhythmic and harmonic vocals, traditionally accompanied by steel drums (tambores metálicos) manufactured from recycled oil barrels. Venezuelan variants utilize a rhythmic percussion battery based on the bumbac, charrasca, cencerro, and cuatro, while modern adaptations incorporate keyboards, electric basses, and horn sections.",
+   "costume_and_setting": "Calypso performances historically center around seasonal 'calypso tents' and large-scale Carnival celebrations. Performers and participants wear vibrant Carnival costumes, and competition winners traditionally join pageantry winners in the annual costume parade on Carnival Monday.",
+   "occasions_and_meaning": "Calypso serves as a vital medium for sociopolitical commentary, news dissemination, and protest against authoritarian colonial culture. Singers use the genre to lampoon politicians, critique economic inequalities, and voice community concerns during Carnival and national elections.",
+   "notable_figures": "Key historical and contemporary figures include Attila the Hun, Roaring Lion, Lord Invader, Lord Kitchener, Mighty Sparrow, Calypso Rose, and Harry Belafonte, who popularized the genre globally in the 1950s.",
+   "regional_variants": "Regional expressions include benna in Antigua and Barbuda, spouge in Barbados, Dominica cadence-lypso, Venezuelan calipso de El Callao, Jamaican mento, and soca music.",
+   "lineage": "Derived from West African Kaiso, French Creole belair, and calinda stick-fighting chants, calypso subsequently influenced international genres like ska and evolved directly into soca music."
+  },
+  "teaching": {
+   "basic_steps": [],
+   "rhythm": "2/4 synkopierten Calypsorhythmus",
+   "formation": "not described in sources",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "Calypso originated in Trinidad and Tobago during the 19th century from Afro-Trinidadian communities.",
+    "source": "https://en.wikipedia.org/wiki/Calypso_music"
+   },
+   {
+    "text": "The name calypso is thought to derive from the Efik term kaiso.",
+    "source": "https://en.wikipedia.org/wiki/Calypso_music"
+   },
+   {
+    "text": "Steel drums are idioform instruments fabricated from recycled oil barrels used in Trinidadian carnivals.",
+    "source": "https://es.wikipedia.org/wiki/Calipso_(música)"
+   },
+   {
+    "text": "Calypso remains an active and important musical tradition in Trinidad and Tobago today.",
+    "source": "https://de.wikipedia.org/wiki/Calypso_(Musik)"
+   },
+   {
+    "text": "Harry Belafonte popularized a commercial variant of calypso worldwide with the Banana Boat Song.",
+    "source": "https://en.wikipedia.org/wiki/Calypso_music"
+   },
+   {
+    "text": "Calypso songs historically allowed the masses to challenge colonial government officials.",
+    "source": "https://en.wikipedia.org/wiki/Calypso_music"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "albums": [
+   {
+    "title": "Calypso",
+    "artist": "Harry Belafonte",
+    "year": "1956",
+    "mbid": "e984cd67-c053-386f-a912-a873c4fc9ded",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/e984cd67-c053-386f-a912-a873c4fc9ded",
+    "type": "Album",
+    "source": "https://en.wikipedia.org/wiki/Calypso_music",
+    "verified": true
+   }
+  ],
+  "images": [
+   {
+    "title": "File:Calypso22.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Calypso22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Calypso22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 791,
+    "height": 640,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "U. S. Government",
+    "description": "Left to right: Lord Invader, The Mighty Growler, Atilla the Hun, and The Roaring Lion. Atilla's dress and hat are probably in reference to his song, \"The Modern Girl\".",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACalypso22.jpg",
+    "attribution": "U. S. Government / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Calypso Mama, singer.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Calypso_Mama%2C_singer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Calypso_Mama%2C_singer.jpg/1280px-Calypso_Mama%2C_singer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2074,
+    "height": 3072,
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Gasybeaugosse2020",
+    "description": "Singer Calypso Mama, real name Maureen Verlene Duvalier performing in a show.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACalypso_Mama%2C_singer.jpg",
+    "attribution": "Gasybeaugosse2020 / Wikimedia Commons / CC0"
+   }
+  ],
+  "gaps": [
+   "Detailed step-by-step choreographic footwork and spatial formations are absent from standard music-history and ethnographic sources.",
+   "Exact tempo ranges in BPM are not specified in the primary texts."
+  ],
+  "confidence": 0.95,
+  "music_profile": {
+   "tempo_bpm": "",
+   "meter": "2/4",
+   "rhythm_pattern": "syncopated calypso rhythm",
+   "instruments": [
+    "steel drums",
+    "bumbac",
+    "charrasca",
+    "cencerro",
+    "cuatro",
+    "maracas",
+    "keyboard",
+    "electric bass"
+   ],
+   "vocal_style": "highly rhythmic and harmonic vocals with pidgin English inflections",
+   "musical_form": "verse-chorus with call-and-response",
+   "mood_keywords": [
+    "joyful",
+    "satirical",
+    "energetic"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Day-O (The Banana Boat Song)",
+     "artist": "Harry Belafonte"
+    },
+    {
+     "title": "Jean and Dinah",
+     "artist": "Mighty Sparrow"
+    }
+   ],
+   "sound_description": "A syncopated 2/4 rhythm anchored by steel drums and percussive chatter, driven by witty, narrative-led vocal delivery and call-and-response structures."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "not described in sources",
+   "partnering": "not described in sources",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Sound of Protest",
+   "logline": "Discover how enslaved Trinidadians transformed banned drumming into witty global social commentary.",
+   "beats": [
+    "Opening scene of Trinidad carnival preparations and street processions.",
+    "Historical overview of 19th-century plantation resistance and West African Kaiso origins.",
+    "The clandestine evolution of steel drums from recycled oil barrels.",
+    "The golden era of calypsonians, double entendres, and political satire in calypso tents.",
+    "The mid-century international explosion via Harry Belafonte and global crossover hits."
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Steelpan instruments gleaming in the sun",
+    "Colorful Carnival costume parades",
+    "Archival photographs of historic calypso tents"
+   ],
+   "instructor_persona": "A knowledgeable Trinidadian music historian and cultural archivist.",
+   "music_cue": "A syncopated steelpan intro transitioning into a classic 2/4 calypso rhythm."
+  },
+  "connections": [
+   {
+    "name": "Soca",
+    "relation": "child",
+    "note": "Soca emerged in the late 1970s from the blending of calypso with East Indian music, soul, and funk."
+   },
+   {
+    "name": "Mento",
+    "relation": "sibling",
+    "note": "Jamaican folk music style sharing roots and mid-century Caribbean popularity with calypso."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "0",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-26T20:30:28Z",
+  "qc_score": 8.25
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 12,
+  "of": 15,
+  "missing": [
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "arms",
+    "label": "arms and hands"
+   },
+   {
+    "key": "formation",
+    "label": "formation and use of space"
+   }
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "lesson_plan": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
+  }
+ },
+ "lessons": [
+  {
+   "youtube_id": "EGlU79WJ6Dg",
+   "url": "https://www.youtube.com/watch?v=EGlU79WJ6Dg",
+   "title": "Dance Leap Tutorial I Center, Reverse, Firebird, Calyspo, Stag with @trainwithkendall",
+   "channel": "BodyKinect by Kendall",
+   "analysed_on": "2026-11-26",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "5-6-7-and",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to dance leaps tutorial"
+    },
+    {
+     "t": "0:21",
+     "seconds": 21,
+     "segment": "full_demo",
+     "note": "Demonstration of center, reverse, firebird, barreled calypso, and double stag leaps"
+    },
+    {
+     "t": "0:35",
+     "seconds": 35,
+     "segment": "breakdown",
+     "note": "Breakdown of the center leap with a student"
+    },
+    {
+     "t": "2:50",
+     "seconds": 170,
+     "segment": "breakdown",
+     "note": "Breakdown of the reverse leap with a second student"
+    },
+    {
+     "t": "5:02",
+     "seconds": 302,
+     "segment": "breakdown",
+     "note": "Breakdown of the firebird leap with the first student"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Center Leap",
+     "counts": "5-6-7-and",
+     "description": "Chasse, step, leap off front foot with square hips and arms in T"
+    },
+    {
+     "name": "Reverse Leap",
+     "counts": "5-6-7-and",
+     "description": "Chasse, step, flip hips and leap with opposite foot forward"
+    },
+    {
+     "name": "Firebird",
+     "counts": "5-6-7-and",
+     "description": "Chasse, step, developpe with bent back leg and arched back"
+    }
+   ],
+   "cues": [
+    "<short verbal cue the teacher repeats (<= 8 words)>",
+    "Square your hips",
+    "Start as low as you can",
+    "Spot the side you will be landing at"
+   ],
+   "images": [
+    "<image or comparison the teacher uses>"
+   ],
+   "common_mistakes": [
+    "<mistake the teacher names and corrects>",
+    "Not squaring hips to the front",
+    "Crunching the head back on firebirds"
+   ],
+   "safety": [
+    "<body or safety advice given>",
+    "Start as low as you can and build up height"
+   ],
+   "teacher_style": "The teacher breaks down each leap step-by-step with guest dancers demonstrating. She uses encouraging commentary and visual imagery to explain body alignment.",
+   "distinctive_method": "Breaking down leaps into specific pre-requisite elements like hip alignment and gaze direction before executing the full jump.",
+   "what_works": [
+    "<what makes this lesson easy to absorb>",
+    "Clear demonstrations with another dancer",
+    "Detailed breakdown of mechanics like hip squaring and arm pathways"
+   ],
+   "what_hinders": [
+    "<what gets in the way>",
+    "Multiple steps introduced quickly without much repetition of the full combination"
+   ],
+   "evidence": [
+    {
+     "start_s": 35,
+     "end_s": 53,
+     "topic": "teaching",
+     "observation": "Teacher stands beside the student, explaining foot placement and arm positions while the student performs a chasse and step.",
+     "viewpoint": "front, unknown",
+     "cannot_infer": "exact weight transfer details during fast movements",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 114,
+     "end_s": 134,
+     "topic": "movement",
+     "observation": "Teacher demonstrates hip squaring and arm placement in a T shape.",
+     "viewpoint": "front, unknown",
+     "cannot_infer": "tension in specific muscle groups",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 6,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/calypso.json"
+ },
+ "fingerprint": "cd43e3a71e191b93",
+ "updated": "2026-11-26"
 }

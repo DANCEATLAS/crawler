@@ -1,6 +1,6 @@
 # Bwola — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; signature moves; notable figures; lineage; two or more connections; what to avoid / common mistakes
 

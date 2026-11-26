@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Breakable clay pots",
+          "Heavy jewelry that might cause tripping"
+        ],
+        "counts": "Simple 1-2-1-2 marching steps.",
+        "duration_minutes": "3",
+        "game_version": "A 'statue' game where children must stop moving when the dhol stops, keeping a beanbag balanced on their heads."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Heavy earthenware pots",
+          "Veils that fully obscure vision",
+          "Rapid turns"
+        ],
+        "counts": "Simple 1-2-3-4 walking counts.",
+        "seated_version": "Perform hand and arm gestures while seated, using a lightweight prop (like a plastic bowl) to practice head steadiness.",
+        "standing_version": "Walk in a small circle with a hand near a wall or chair for support, focusing on posture rather than heavy pots.",
+        "tempo_and_range": "Slow the dhol beat significantly; limit the circle to a 3-foot diameter."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Used for balance or holding the edges of the veil",
+      "difficulty": "advanced",
+      "footwork": "Steps following a circular path",
+      "formation_and_space": "Solo performance in a circular area",
+      "hips_and_torso": "Controlled movements to avoid jarring the head",
+      "levels_and_jumps": "Primarily ground-level movement; no jumps described",
+      "partnering": "None (Solo)",
+      "posture": "Upright and rigid through the neck and spine to support the balanced pot",
+      "signature_moves": [
+        {
+          "description": "A specific rhythmic subtype of the Malwa regional dance",
+          "name": "Aada Nach"
+        },
+        {
+          "description": "A vertical or standing rhythmic subtype of the dance",
+          "name": "Khada Nach"
+        }
+      ],
+      "tempo_feel": "Steady and controlled",
+      "what_to_avoid": "Sudden head movements or tilting the neck, which would dislodge the balanced pot."
+    },
+    "music_profile": {
+      "instruments": [
+        "Dhol"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "celebratory",
+        "rhythmic",
+        "festive",
+        "steady"
+      ],
+      "musical_form": "Rhythmic cycles that may increase in tempo",
+      "reference_recordings": [],
+      "rhythm_pattern": "Dhol-based folk rhythms",
+      "sound_description": "The sound is dominated by the deep, resonant thumping of the dhol, a double-headed barrel drum. The rhythm is steady and driving, providing a clear pulse for the dancer to follow. There is a lack of melodic instrumentation in the primary description, focusing the auditory experience entirely on the percussion.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Balance a single earthen pot (matki) on the crown of the head",
+        "Lower the veil (ghunghat) over the face",
+        "Step in time with the dhol drum beats",
+        "Execute circular walking patterns while maintaining a level head",
+        "Transition between Aada and Khada Nach rhythmic variations"
+      ],
+      "formation": "Solo dancer within a circular gathering of spectators",
+      "level_notes": "Beginners should practice balancing the pot while standing still before attempting the circular movement or adding the veil.",
+      "rhythm": "Rhythmic beats provided by the dhol"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f6bb53539b01a29e3e555d44556f3967c58aee933b9bb0aeee86fb591fb31bd6",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific songs or vocal calls used alongside the dhol in Malwa? Evidence needed: https://en.wikipedia.org/wiki/Matki_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork differences between Aada Nach and Khada Nach? Evidence needed: https://en.wikipedia.org/wiki/Matki_dance"
+    ]
+  },
+  "id": "atlas:matki-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Matki Dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "272988447a1d0ed8",
+      "next_evidence": "https://en.wikipedia.org/wiki/Matki_dance",
+      "question": "What are the specific footwork differences between Aada Nach and Khada Nach?",
+      "source": "https://en.wikipedia.org/wiki/Matki_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for the two recognized subtypes."
+    },
+    {
+      "domain": "research",
+      "id": "879f7145e65e3104",
+      "next_evidence": "https://en.wikipedia.org/wiki/Matki_dance",
+      "question": "Are there specific songs or vocal calls used alongside the dhol in Malwa?",
+      "source": "https://en.wikipedia.org/wiki/Matki_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To complete the music profile for a composer or student."
+    }
+  ],
+  "research_file": "research_results/matki-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "matki-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Matki_dance",
+    "https://www.wikidata.org/wiki/Q6787644"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

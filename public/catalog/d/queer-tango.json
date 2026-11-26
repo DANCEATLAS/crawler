@@ -100,6 +100,19 @@
    "checked_at": "2026-11-16T22:02:12Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "csVSyLaSfew",
+    "title": "Learn Queer Tango for Smoqua 2020",
+    "channel": "LORI",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "argentine-tango"
   ]
@@ -286,6 +299,47 @@
  },
  "lessons": [
   {
+   "youtube_id": "_0KFKUGih5I",
+   "url": "https://www.youtube.com/watch?v=_0KFKUGih5I",
+   "title": "Private class. Tango. Tango queer con Elvira Malishevskaya",
+   "channel": "Elvira Malishevskaya",
+   "analysed_on": "2026-11-26",
+   "level": "intermediate",
+   "language": "Russian",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "Demonstration of queer tango in a studio space"
+    }
+   ],
+   "teacher_style": "The teacher demonstrates the tango with a partner while speaking to explain the concepts. She maintains close physical connection and guides the movement rhythmically.",
+   "what_works": [
+    "Clear full-body demonstration"
+   ],
+   "what_hinders": [
+    "No breakdown or spoken instruction of individual steps"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "movement",
+     "observation": "Two dancers in close embrace moving across the wooden floor in tango steps",
+     "viewpoint": "front",
+     "cannot_infer": "exact weight transfer details due to camera angle",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "csVSyLaSfew",
    "url": "https://www.youtube.com/watch?v=csVSyLaSfew",
    "title": "Learn Queer Tango for Smoqua 2020",
@@ -435,6 +489,6 @@
   "polished": false,
   "file": "episodes/queer-tango.json"
  },
- "fingerprint": "6890f3738bda0bb7",
- "updated": "2026-11-25"
+ "fingerprint": "b7c845075c66ebb2",
+ "updated": "2026-11-26"
 }

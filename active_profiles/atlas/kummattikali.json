@@ -1,0 +1,144 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Manipulating long sticks made of agricultural residue",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Processional movement through village streets and house courtyards",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; individual characters in a troupe",
+      "posture": "Upright but heavy due to the weight of the grass and mask",
+      "signature_moves": [
+        {
+          "description": "The lead character (old woman) walks at the front of the troupe using a support stick.",
+          "name": "Thamma's Walk"
+        }
+      ],
+      "tempo_feel": "Rhythmic and steady",
+      "what_to_avoid": "Avoid disrespecting the masks as they represent deities; ensure the grass suit does not obstruct movement in narrow spaces."
+    },
+    "music_profile": {
+      "instruments": [
+        "Onavillu (areca nut wood bow)",
+        "Bamboo stick"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "rhythmic",
+        "vibrant",
+        "devotional",
+        "joyful"
+      ],
+      "musical_form": "Episodic songs based on Ramayana and folk tales",
+      "reference_recordings": [
+        {
+          "artist": "Traditional",
+          "title": "Manjan Nayare Pattu"
+        }
+      ],
+      "rhythm_pattern": "Vibrating string pulses created by striking a bow with bamboo",
+      "sound_description": "The sound is dominated by the unique, resonant vibration of the Onavillu, a wooden bow whose string is struck to create a rhythmic drone. This is accompanied by the chanting or singing of mythological verses.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Folk singing of mythological stories"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Don the grass suit and wooden mask",
+        "Hold the Kummattikali (agricultural stick)",
+        "Follow the lead of the Thamma character",
+        "Step in rhythm with the Onavillu bow vibration",
+        "Process from house to house in a communal line"
+      ],
+      "formation": "Processional; moving from house to house",
+      "level_notes": "Requires physical endurance to carry heavy wooden masks and thick grass costumes.",
+      "rhythm": "Rhythm provided by the vibrating string of the Onavillu bow"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "31aaf904ec9c044071c40724a79b47ded6ba834c0220ba9db103166391dcbb2d",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific songs or chants associated with each mask character (e.g., Krishna vs. Darika)? Evidence needed: https://en.wikipedia.org/wiki/Kummattikali"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific rhythmic stepping patterns used by the dancers in Thrissur versus Palakkad? Evidence needed: https://en.wikipedia.org/wiki/Kummattikali"
+    ]
+  },
+  "id": "atlas:kummattikali",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Kummattikali",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "440c3e977841ebea",
+      "next_evidence": "https://en.wikipedia.org/wiki/Kummattikali",
+      "question": "What are the specific rhythmic stepping patterns used by the dancers in Thrissur versus Palakkad?",
+      "source": "https://en.wikipedia.org/wiki/Kummattikali",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instruction for the 'how_it_is_danced' section which currently lacks specific footwork."
+    },
+    {
+      "domain": "research",
+      "id": "da3eee26cd6c54ae",
+      "next_evidence": "https://en.wikipedia.org/wiki/Kummattikali",
+      "question": "Are there specific songs or chants associated with each mask character (e.g., Krishna vs. Darika)?",
+      "source": "https://en.wikipedia.org/wiki/Kummattikali",
+      "status": "candidate_unreviewed",
+      "why_needed": "To differentiate the performance style and music profile for different mythological roles."
+    }
+  ],
+  "research_file": "research_results/kummattikali.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "kummattikali",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kummattikali",
+    "https://www.wikidata.org/wiki/Q6443971"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

@@ -1,0 +1,161 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-extension of the spine",
+          "Prolonged high-intensity vibration"
+        ],
+        "counts": "Fast 1-2-1-2 counts.",
+        "duration_minutes": "2",
+        "game_version": "A 'freeze dance' where children must vibrate their hips when the music plays and stop when it hits a silent beat."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid vibrations",
+          "Deep squats",
+          "Unsupported twisting"
+        ],
+        "counts": "1-2-3-4 steady counts.",
+        "seated_version": "Perform hip isolations and gentle vibrations while seated in a firm chair.",
+        "standing_version": "Hold onto a stable barre or chair for balance while performing slow hip sways.",
+        "tempo_and_range": "Reduce tempo by half; limit the range of hip motion to avoid lower back strain."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Performed at weddings in a communal, celebratory social setting.",
+          "source": "https://en.wikipedia.org/wiki/M%27alayah"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Social gatherings and weddings",
+      "hips_and_torso": "Rapid movements of the hips and buttocks",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Rapid, rhythmic shaking of the hips and buttocks in time with folk music.",
+          "name": "Hip Vibration"
+        }
+      ],
+      "tempo_feel": "Rapid and high-energy",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Percussion",
+        "Vocals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Energetic",
+        "Celebratory",
+        "Rhythmic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music consists of local popular folk songs from the Gulf region, characterized by strong rhythmic foundations that drive the dancer's movements.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Local popular folk songs"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Assume a stable stance with knees slightly bent",
+        "Isolate the pelvic region from the upper torso",
+        "Initiate a rapid vibration of the gluteal muscles",
+        "Coordinate the hip oscillations with the percussive beat of the folk song"
+      ],
+      "formation": "Usually performed individually or in informal groups within a social setting",
+      "level_notes": "Requires high physical stamina and muscle isolation of the lower body.",
+      "rhythm": "Fast-paced, synchronized with local folk percussion"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "fdb38d004ed5cc3677cd2298ef9368744ac02f9c9e73b0000e9c49c2b4434dce",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What specific percussion instruments define the rhythm of M'alayah folk songs? Evidence needed: https://en.wikipedia.org/wiki/M%27alayah"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific arm and hand positions used to balance the body during the rapid hip vibrations? Evidence needed: https://en.wikipedia.org/wiki/M%27alayah"
+    ]
+  },
+  "id": "atlas:m-alayah",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "M'alayah",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "4c51e05990093eb5",
+      "next_evidence": "https://en.wikipedia.org/wiki/M%27alayah",
+      "question": "What are the specific arm and hand positions used to balance the body during the rapid hip vibrations?",
+      "source": "https://en.wikipedia.org/wiki/M%27alayah",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a complete movement profile for instructional purposes, as the current sources focus only on the hips."
+    },
+    {
+      "domain": "research",
+      "id": "be129d7480f5c69a",
+      "next_evidence": "https://en.wikipedia.org/wiki/M%27alayah",
+      "question": "What specific percussion instruments define the rhythm of M'alayah folk songs?",
+      "source": "https://en.wikipedia.org/wiki/M%27alayah",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately recreate the music profile for composers and students."
+    }
+  ],
+  "research_file": "research_results/m-alayah.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "m-alayah",
+  "sources": [
+    "https://en.wikipedia.org/wiki/M%27alayah",
+    "https://www.wikidata.org/wiki/Q6711892"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

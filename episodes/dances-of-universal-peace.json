@@ -1,0 +1,376 @@
+{
+ "slug": "dances-of-universal-peace",
+ "name": "Dances of Universal Peace",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T20:36:04Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A welcoming DUP dance leader playing an acoustic guitar, drum, or flute",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Dances of Universal Peace",
+   "DUP"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Dances of Universal Peace",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Circle of One Joy",
+     "This is Dances of Universal Peace. 1960s."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (AgZ__EBy4FM)",
+     "Title card: Dances of Universal Peace · United States · 1960s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Dances of Universal Peace were first formulated by Samuel L. Lewis, also known as Sufi Ahmed Murad Chisti.",
+     "The very first dance took place on 16 March 1968 in San Francisco, California.",
+     "The original dances were strongly influenced by Samuel Lewis's spiritual relationships with modern dance pioneer Ruth St. Denis and Sufi master Hazrat Inayat Khan."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The intention of the DUP is to raise consciousness and promote peace between diverse religions.",
+     "Dance leaders tend to believe peace can be promoted through experiencing the same One Joy through diverse dance steps, chants, and languages.",
+     "Dancing is seen as an opportunity to develop participants' spiritual awareness, hand-eye-body coordination, and competency in harmonizing with others.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Five to 500 dancers stand in a circle, often around a leader and musicians with acoustic instruments in the center.",
+     "All dances are participatory and spectating is somewhat discouraged because joy is the goal.",
+     "Dances are facilitated by a dance leader who often plays a drum, guitar, flute, or other stringed instrument.",
+     "Watch for Whirling."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (AgZ__EBy4FM)",
+     "Captions name each signature move as it appears",
+     "Formation: five to 500 dancers stand in a circle around a leader and musicians with acoustic instruments in the center"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music relies on chants put to traditional, contemporary, or occasionally improvised melodies using inspirational poetry, quotes, and sacred phrases.",
+     "Facilitators play acoustic instruments such as drums, guitars, flutes, or other stringed instruments in the center of the circle.",
+     "Listen for the drum, guitar, flute, stringed instrument.",
+     "Acoustic instruments centered within a large circle accompanying multi-lingual vocal chants and poetry."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dances were originally performed at camps and meetings with a distinctly New Age and alternative feel.",
+     "Over time, they have increasingly been offered in diverse places of worship and more secular places such as schools, colleges, prisons, hospices, residential homes for those with special needs, and holistic health centers."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Samuel L. Lewis (Sufi Ahmed Murad Chisti) formulated the dances.",
+     "Ruth St. Denis and Hazrat Inayat Khan influenced Lewis's work.",
+     "The dances have developed into a global movement with members in 28 countries.",
+     "The tradition is of North American Sufic origin, drawing significant influence from Sufi practices such as Sema and The Whirling Dervishes, modern dance pioneers like Ruth St. Denis, and Rinzai Zen teachings."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Dances of Universal Peace is influence of Whirling Dervishes: Sufi practices such as Sema and The Whirling Dervishes heavily influenced the creation of the dances."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dances employ sacred phrases of the world's religions and are approached as a spiritual practice designed to raise consciousness rather than as a theatrical performance."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Five to five hundred participants gather in a circle to sing and dance sacred phrases from the world's religions.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "drum",
+   "guitar",
+   "flute",
+   "stringed instrument"
+  ],
+  "vocal_style": "singing sacred phrases, quotes, and inspirational poetry in multiple languages",
+  "musical_form": "traditional, contemporary, or occasionally improvised melodies",
+  "mood": [
+   "joy",
+   "spiritual awareness",
+   "peace"
+  ],
+  "sound_description": "Acoustic instruments centered within a large circle accompanying multi-lingual vocal chants and poetry.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Dances of Universal Peace (United States). Instruments: drum, guitar, flute, stringed instrument. Vocal style: singing sacred phrases, quotes, and inspirational poetry in multiple languages. Form: traditional, contemporary, or occasionally improvised melodies. Mood: joy, spiritual awareness, peace. It should sound like this: Acoustic instruments centered within a large circle accompanying multi-lingual vocal chants and poetry. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "AgZ__EBy4FM",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The dances were originally performed at camps and meetings with a distinctly New Age and alternative feel. Over time, they have increasingly been offered in diverse places of worship and more secular places such as schools, colleges, prisons, hospices, residential homes for those with special needs, and holistic health centers.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADances_of_Universal_Peace.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dances_of_Universal_Peace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Dances_of_Universal_Peace.jpg/1280px-Dances_of_Universal_Peace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Joebrodnik / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADances_of_Universal_Peace.jpg",
+    "description": "Photo by Bobby Burke"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "A large circle of diverse participants",
+   "Acoustic instruments positioned in the center",
+   "Hands joined or moving in symbolic gestures",
+   "Participants whirling within the circle"
+  ],
+  "costume_notes": "The dances were originally performed at camps and meetings with a distinctly New Age and alternative feel. Over time, they have increasingly been offered in diverse places of worship and more secular places such as schools, colleges, prisons, hospices, residential homes for those with special needs, and holistic health centers.",
+  "setting_notes": "The intention of the DUP is to raise consciousness and promote peace between diverse religions. Dance leaders tend to believe peace can be promoted through experiencing the same One Joy through diverse dance steps, chants, and languages. Dancing is seen as an opportunity to develop participants' spiritual awareness, hand-eye-body coordination, and competency in harmonizing with others.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 19,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dances_of_Universal_Peace",
+  "https://www.wikidata.org/wiki/Q5215412"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "e1e70fa6b114ea4f5a508d8d3979cb52c54f1779b83bab47d4943a47929e217b",
+ "hero_checked": "pass"
+}

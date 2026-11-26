@@ -1,6 +1,6 @@
 # Isos Sinasos — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the costume & setting section; two or more connections
 
@@ -119,7 +119,7 @@ NARRATION: Step 1: Step into paired formation facing partner
 NARRATION: Step 2: Shift weight onto one primary leg
 NARRATION: Footwork from the sources: Identical steps to the Varasos handkerchief and spoon dance.
 NARRATION: Drill: Practice single-leg weight emphasis
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -189,7 +189,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Step into paired formation facing partner
 NARRATION: Step 2: Shift weight onto one primary leg
 NARRATION: Drill: Form Holy Trinity hand gesture
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -261,7 +261,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Join three fingers together on each hand to represent the Holy Trinity
 NARRATION: Step 2: Swing waist gently left and right while expressing beat through hands and arms
 NARRATION: Drill: Perform full sequence with a partner in tempo with communal singing
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Isos_Sinasos; https://www.wikidata.org/wiki/Q16887488

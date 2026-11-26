@@ -2,18 +2,27 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [],
-        "counts": "not derivable yet",
-        "duration_minutes": "not derivable yet",
-        "game_version": "not derivable yet"
+        "avoid": [
+          "acrobatics",
+          "high-speed lifts",
+          "hard floor impacts"
+        ],
+        "counts": "1-6 basic steps",
+        "duration_minutes": "1",
+        "game_version": "Non-acrobatic rhythmic stepping game to fast music"
       },
       "derived": true,
       "seniors": {
-        "avoid": [],
-        "counts": "not derivable yet",
-        "seated_version": "not derivable yet",
-        "standing_version": "not derivable yet",
-        "tempo_and_range": "not derivable yet"
+        "avoid": [
+          "balance challenges",
+          "knees stress",
+          "spine twists",
+          "jumps"
+        ],
+        "counts": "1-6 slow counts",
+        "seated_version": "Seated upper-body arm and torso waves at a reduced tempo",
+        "standing_version": "Supported stepping without jumps or kicks",
+        "tempo_and_range": "Slowed down to 100 bpm with minimal range of motion"
       }
     },
     "interaction_profile": {
@@ -23,57 +32,58 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Active, used for balance and partner connection.",
+      "arms_and_hands": "Active arm movements coordinated with leg kicks at clear, regular angles",
       "difficulty": "advanced",
-      "footwork": "Kick-ball-change, kick-step (left/right).",
-      "formation_and_space": "Linear movement, pairs or formation groups.",
-      "hips_and_torso": "Controlled, with specific body wave movements used to initiate lifts.",
-      "levels_and_jumps": "Includes lifts, jumps, throws, and flips (varies by class).",
-      "partnering": "Close contact, high-speed coordination for lifts and throws.",
-      "posture": "Upright, precise, and athletic.",
+      "footwork": "6-basic and 9-basic kick-ball-change with sharp, linear kicks",
+      "formation_and_space": "Linear progression across the competition floor or stationary placement during acrobatics",
+      "hips_and_torso": "Body wave movements used to initiate partner lifts and throws",
+      "levels_and_jumps": "No acrobatics in Youth class limited acrobatics in Juniors full free style flips in Main Class",
+      "partnering": "Close contact during dance sequences transitioning into powerful throws, lifts, and catches",
+      "posture": "Upright, tightly controlled core, dancing almost exclusively on the balls of the feet",
       "signature_moves": [
         {
-          "description": "A vaulting move where the male forms a step with his hands for the female to jump off.",
+          "description": "A sport variation where the lady springs off the man's hands to be catapulted into a high jump or flip.",
           "name": "Einsteiger"
         },
         {
-          "description": "A body wave movement used to lift the partner.",
-          "name": "Körperwelle"
+          "description": "An advanced high-level death drop acrobatic movement.",
+          "name": "Todessturz"
         }
       ],
-      "tempo_feel": "Very fast, precise, and energetic.",
-      "what_to_avoid": "Acrobatics without proper safety training or in unauthorized classes."
+      "tempo_feel": "Extremely rapid and snappy, between 176 and 208 bpm",
+      "what_to_avoid": "Unregulated acrobatics without safety protocols; landing without proper shock absorption."
     },
     "music_profile": {
       "instruments": [
-        "Modern pop/disco instrumentation"
+        "synthesizers",
+        "electronic percussion",
+        "modern pop instrumentation"
       ],
       "meter": "4/4",
       "mood_keywords": [
-        "fast",
-        "energetic",
-        "athletic"
+        "high-energy",
+        "frantic",
+        "exhilarating"
       ],
-      "musical_form": "not described in sources",
+      "musical_form": "verse-chorus structure",
       "reference_recordings": [],
-      "rhythm_pattern": "Stress on beats 1 and 3",
-      "sound_description": "High-tempo, driving beat with a clear, consistent pulse designed to support rapid footwork and athletic movement.",
+      "rhythm_pattern": "Fast-paced offbeat phrasing with deliberate stress on the 1st and 3rd beats",
+      "sound_description": "Very fast modern pop and disco tracks with a heavy 4/4 driving rhythm, synthesized basslines, and punchy percussion designed to sustain rapid athletic movement.",
       "tempo_bpm": "176-208",
-      "vocal_style": "not described in sources"
+      "vocal_style": "commercial pop or disco vocals"
     },
     "teaching": {
       "basic_steps": [
-        "Kick-ball-change",
-        "Kick-step (left)",
-        "Kick-step (right)"
+        "6-basic step",
+        "9-basic step with kick-ball-change"
       ],
-      "formation": "Pairs or groups (4-8 couples)",
-      "level_notes": "Beginners start with the 6-basic step in dance schools before progressing to the 9-basic tournament step.",
-      "rhythm": "4/4 meter, 176-208 bpm"
+      "formation": "Couples or groups (four to eight couples, or triples)",
+      "level_notes": "Categories range from non-acrobatic Youth divisions to Main Class Free Style with advanced flips and throws.",
+      "rhythm": "4/4 measure with stress on the first and third beats"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "333b50a2b39c22000770abdff9a113db6052ebe882e8bd331c9a6cf89f23d73d",
+  "fingerprint": "4818b641601e9f159dbc877ff35c7f6bdbdbf0858d41d010168540c51f0042c3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -82,7 +92,7 @@
     ],
     "research": [
       "interaction: learning_units, feedback_rules, social_formats, prerequisites",
-      "Investigate: What are the specific safety protocols for the 'Todessturz' (death drop) move? Evidence needed: WRRC safety regulation manual."
+      "Investigate: What are the exact biomechanical shock loads experienced by female dancers during high-level landings? Evidence needed: WRRC medical committee injury study reports."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -112,12 +122,12 @@
   "open_questions": [
     {
       "domain": "research",
-      "id": "d6212661f5974232",
-      "next_evidence": "WRRC safety regulation manual.",
-      "question": "What are the specific safety protocols for the 'Todessturz' (death drop) move?",
-      "source": "https://de.wikipedia.org/wiki/Rock_’n’_Roll_(Tanz)",
+      "id": "0585ebc0e6457e24",
+      "next_evidence": "WRRC medical committee injury study reports.",
+      "question": "What are the exact biomechanical shock loads experienced by female dancers during high-level landings?",
+      "source": "https://fr.wikipedia.org/wiki/Rock_acrobatique",
       "status": "candidate_unreviewed",
-      "why_needed": "To ensure safe teaching practices for advanced students."
+      "why_needed": "To optimize injury prevention protocols for joints and tibias."
     }
   ],
   "research_file": "research_results/acrobatic-rock-n-roll.json",

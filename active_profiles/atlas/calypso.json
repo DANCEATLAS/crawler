@@ -1,13 +1,82 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "steel drums",
+        "bumbac",
+        "charrasca",
+        "cencerro",
+        "cuatro",
+        "maracas",
+        "keyboard",
+        "electric bass"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "joyful",
+        "satirical",
+        "energetic"
+      ],
+      "musical_form": "verse-chorus with call-and-response",
+      "reference_recordings": [
+        {
+          "artist": "Harry Belafonte",
+          "title": "Day-O (The Banana Boat Song)"
+        },
+        {
+          "artist": "Mighty Sparrow",
+          "title": "Jean and Dinah"
+        }
+      ],
+      "rhythm_pattern": "syncopated calypso rhythm",
+      "sound_description": "A syncopated 2/4 rhythm anchored by steel drums and percussive chatter, driven by witty, narrative-led vocal delivery and call-and-response structures.",
+      "tempo_bpm": "",
+      "vocal_style": "highly rhythmic and harmonic vocals with pidgin English inflections"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "2/4 synkopierten Calypsorhythmus"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f5c1a1e7217b364f1c83699f159da6f7264c5a9281bc6ef1ee15511af7dce5d8",
+  "fingerprint": "95eb952f6bec9a5d5f00c8d69f0e20ea1a1d5e7b0ec4315382047d02fa561f86",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +84,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the precise footwork patterns and partner connection styles practiced during traditional calypso dances in Trinidadian carnival tents? Evidence needed: Field recordings and ethnographic movement studies of Trinidadian carnival dancers."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -33,7 +101,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -45,8 +112,18 @@
   ],
   "music_options": [],
   "name": "Calypso",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "3815fe828e232418",
+      "next_evidence": "Field recordings and ethnographic movement studies of Trinidadian carnival dancers.",
+      "question": "What are the precise footwork patterns and partner connection styles practiced during traditional calypso dances in Trinidadian carnival tents?",
+      "source": "https://en.wikipedia.org/wiki/Calypso_music",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources focus predominantly on lyrical content, musical evolution, and sociopolitical history rather than kinesthetic choreography."
+    }
+  ],
+  "research_file": "research_results/calypso.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +134,20 @@
   },
   "slug": "calypso",
   "sources": [
-    "https://en.wikipedia.org/wiki/Calypso_music"
+    "https://en.wikipedia.org/wiki/Calypso_music",
+    "https://www.wikidata.org/wiki/Q752785",
+    "https://es.wikipedia.org/wiki/Calipso_(música)",
+    "https://fr.wikipedia.org/wiki/Calypso_(musique)",
+    "https://pt.wikipedia.org/wiki/Calipso_(gênero_musical)",
+    "https://de.wikipedia.org/wiki/Calypso_(Musik)",
+    "https://archive.org/details/BNA-DIG-ARUBIANA-3835"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/EGlU79WJ6Dg.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=EGlU79WJ6Dg"
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 # Marfa — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rhythmic historian with deep ties to the Hyderabadi Siddi community
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Drums of the Deccan
 NARRATION: This is Marfa. 18th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (odxM6gSikJY)
 ON SCREEN: Title card: Marfa · India · 18th century to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: The dance involves 'jiggling' and rhythmic movements performed with janbiya daggers, talwars (swords), or latts (canes).
 NARRATION: It is based on the tempo of the music, with both men and women participating in the dancing, though only men typically play the instruments.
 NARRATION: Watch for Weapon Jiggling.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (odxM6gSikJY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group performance, often in open celebratory spaces
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -76,7 +76,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand with feet shoulder-width apart, holding a cane or sword in the dominant hand
 NARRATION: Engage in a rhythmic 'jiggling' motion of the torso and knees in time with the kettledrum
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -105,7 +105,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 98 bpm
@@ -116,10 +116,10 @@ NARRATION: Step 1: Stand with feet shoulder-width apart, holding a cane or sword
 NARRATION: Step 2: Engage in a rhythmic 'jiggling' motion of the torso and knees in time with the kettledrum
 NARRATION: Footwork from the sources: Rhythmic stepping aligned with the three-beat cycle
 NARRATION: Drill: Clapping the teen maar rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step in coordination with the 'teen maar' (three-beat) rhythmic cycle
@@ -127,7 +127,7 @@ NARRATION: Step 4: Swing the cane or sword in synchronized patterns following th
 NARRATION: Drill: Basic rhythmic jiggling of the knees
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -146,7 +146,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic jiggling and arm movements with canes while seated · For children: Rhythm imitation game using plastic pots and sticks (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -177,7 +177,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 98 bpm
@@ -186,10 +186,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand with feet shoulder-width apart, holding a cane or sword in the dominant hand
 NARRATION: Step 2: Engage in a rhythmic 'jiggling' motion of the torso and knees in time with the kettledrum
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step in coordination with the 'teen maar' (three-beat) rhythmic cycle
@@ -198,7 +198,7 @@ NARRATION: Weapon Jiggling: Rhythmic shaking of the body while holding daggers o
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,7 +216,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic jiggling and arm movements with canes while seated · For children: Rhythm imitation game using plastic pots and sticks (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Group performance, often in open celebratory spaces
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -247,7 +247,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 98 bpm
@@ -256,17 +256,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step in coordination with the 'teen maar' (three-beat) rhythmic cycle
 NARRATION: Step 2: Swing the cane or sword in synchronized patterns following the high-tempo percussion
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Weapon Jiggling: Rhythmic shaking of the body while holding daggers or swords to the beat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -284,7 +284,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic jiggling and arm movements with canes while seated · For children: Rhythm imitation game using plastic pots and sticks (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Group performance, often in open celebratory spaces
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers often carry traditional weapons like the janbiya or talwar. The dance is performed in public squares, at weddings, and officially at the Red Fort in New Delhi during national holidays.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'odxM6gSikJY', 'checked_by_vision_model': True, 'title': 'Dance Mohammed Siraj Hyderabadi Marfa'}
 Images: 1 licensed — Department of Language and Culture, Government of Telangana / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Steel pots, Janbiya daggers, Wooden thapi strips, Siddi percussionists
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 2
+Cues: 1 2 3 start; simple
 
 Sources (2): https://en.wikipedia.org/wiki/Marfa_(music); https://www.wikidata.org/wiki/Q6759033

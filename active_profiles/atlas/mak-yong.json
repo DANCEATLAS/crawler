@@ -1,13 +1,61 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "delicate movements, gentle gestures",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "performed on a temporary open stage built of wood and palm leaves",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "delicate movements, gentle gestures and refined speech",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "rebab",
+        "gendang",
+        "gongs",
+        "serunai",
+        "keduk drums",
+        "kesi"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "mystical",
+        "reverent",
+        "dramatic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Led by the three-stringed spiked lute (rebab), accompanied by double-headed barrel drums (gendang) and hanging knobbed gongs, creating a distinct traditional Malay theatrical sound.",
+      "tempo_bpm": "",
+      "vocal_style": "Unique regional singing repertoire accompanied by improvised monologues and dialogues."
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Audience sits on three sides of the stage, the fourth side being reserved for the orchestra.",
+      "level_notes": "Requires long years of training and rigorous apprenticeship.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "09dcccde8792d9ac7881dc8aeb5d1ac105476a4332eafb4005b8ce2f42400022",
+  "fingerprint": "33acf62e1e46a568a60dab729a1c2377d921183a09d10a1662e434fcc8206ce4",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +63,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How do the specific footwork patterns and bodily postures of rural Kelantanese troupes differ from urban commercialized adaptations? Evidence needed: Field recordings and interviews with surviving veteran performers in Kelantan villages."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +93,18 @@
   ],
   "music_options": [],
   "name": "Mak Yong",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f6531e16de10ae10",
+      "next_evidence": "Field recordings and interviews with surviving veteran performers in Kelantan villages.",
+      "question": "How do the specific footwork patterns and bodily postures of rural Kelantanese troupes differ from urban commercialized adaptations?",
+      "source": "https://en.wikipedia.org/wiki/Mak_yong",
+      "status": "candidate_unreviewed",
+      "why_needed": "Detailed movement profiles require granular technical documentation missing from general encyclopedic entries."
+    }
+  ],
+  "research_file": "research_results/mak-yong.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +115,13 @@
   },
   "slug": "mak-yong",
   "sources": [
-    "https://en.wikipedia.org/wiki/Mak_Yong"
+    "https://en.wikipedia.org/wiki/Mak_yong",
+    "https://www.wikidata.org/wiki/Q1901441",
+    "https://es.wikipedia.org/wiki/Mak_Yong",
+    "https://fr.wikipedia.org/wiki/Mak_Yong",
+    "https://pt.wikipedia.org/wiki/Mak_Yong",
+    "https://ich.unesco.org/en/RL/00167"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

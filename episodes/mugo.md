@@ -1,8 +1,8 @@
 # Mugo — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional Korean dance master focused on precision and historical accuracy
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Born from a log raft during a 13th-century exile, Mugo transforms a single large drum into a ritual compass where dancers embody the four cardinal directions.
 NARRATION: This is Mugo. 13th century (Goryeo period).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (I0CkA4esxCo)
 ON SCREEN: Title card: Mugo · South Korea · 13th century (Goryeo period)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is performed by eight dancers around a central large drum.
 NARRATION: Four main dancers (wonmu) strike the drum with sticks, while four assisting dancers (hyeopmu) circle them holding flower-shaped sticks.
 NARRATION: Dancers move in circular patterns, their positions dictated by the cardinal directions and their corresponding colors.
 NARRATION: Watch for Wonmu drum strike, Hyeopmu circling.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (I0CkA4esxCo)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Eight dancers; four inner (wonmu) and four outer (hyeopmu) surrounding a central drum
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'I0CkA4esxCo', 'checked_by_vision_model': False, 'title': '#4k 북의 깊은 울림과 위엄, 예술적 세련미로 춤을 추는 장대한 궁중무용, 무고(舞鼓) 🇰🇷 #gyeongbokgung #mugo #무고 #세종의음악'}
 Images: 1 licensed — Unknown court painters / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: The large central drum, The four colors: Black, Red, Blue, White, Flower-shaped sticks, Circular floor patterns
@@ -321,7 +321,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the classical-court family studied · videos studied: 17
+Source: 18 tutorial(s) of the classical-court family studied · videos studied: 18
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow

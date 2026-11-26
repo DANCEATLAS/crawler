@@ -31,6 +31,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mahari_dance",
   "wikidata_qid": "Q6733395",
   "unesco": false,
+  "hero_video_youtube_id": "KvTno3xfI5Q",
+  "video_stack": [
+   {
+    "youtube_id": "KvTno3xfI5Q",
+    "role": "hero",
+    "title": "Mahari Dance - Baisakhi Festival - Chinta O Chetana",
+    "channel": "OdishaLIVE",
+    "hd": true
+   },
+   {
+    "youtube_id": "TCcpes4OoRA",
+    "role": "rendition",
+    "title": "Mahari Dance-Geeta Govinda by Kasturi Pattanaik",
+    "channel": "Kasturi Pattanaik",
+    "hd": false
+   },
+   {
+    "youtube_id": "jsHkOuj1IZk",
+    "role": "rendition",
+    "title": "Mahari Dance by Kasturi Pattanaik",
+    "channel": "Kasturi Pattanaik",
+    "hd": false
+   },
+   {
+    "youtube_id": "AhOgjuJbsxk",
+    "role": "rendition",
+    "title": "MAHARI DANCE by Guru Rupashree Mohapatra and Troup, Video-5",
+    "channel": "Ama Utkal TV",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -70,6 +101,12 @@
   "sacred_note": "Mahari was a sacred temple ritual performed exclusively inside the sanctum sanctorum of the Jagannath Temple for Lord Jagannath by dedicated devadasis; outsiders should respect its sacred historical context and ritual origins.",
   "movie_ready": false,
   "tradition_status": "revived",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-26T20:40:52Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "odissi",
    "gotipua"
@@ -206,16 +243,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 5,
   "of": 6,
   "missing": [
    {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    }
   ]
  },
@@ -224,11 +257,11 @@
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/mahari-dance.json"
  },
- "fingerprint": "7fc6b8db28a498c0",
- "updated": "2026-11-25"
+ "fingerprint": "c1dd5257337417c2",
+ "updated": "2026-11-26"
 }

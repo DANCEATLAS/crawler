@@ -1,0 +1,820 @@
+{
+ "slug": "lezim",
+ "name": "Lezim",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T19:32:11Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A disciplined but energetic physical education teacher or a village elder who emphasizes both strength and rhythm",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Lezim",
+   "Lezium",
+   "Lazium"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Lezim",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Iron Rhythm of Maharashtra",
+     "This is Lezim. 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Lezim · India · 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Lezim originated in the rural villages of Maharashtra and Gujarat as a form of physical conditioning and martial practice.",
+     "Historically, it involved heavier implements like the Reedh (a 2.5-foot bamboo pole with iron chains) or the Koyande (a weighted wooden pole), which were used for strength training.",
+     "Over time, these evolved into the lighter musical instruments used today."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Lezim is performed during the Ganesh festival (Ganeshotsav) and village Jatras.",
+     "It serves as a communal celebration and a display of physical fitness.",
+     "In educational and military contexts, it is used as a discipline-building exercise and a rhythmic drill.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by a minimum of 20 dancers, usually in two rows, four rows, or concentric circles.",
+     "Dancers follow a sequence of steps that change every few beats, often totaling 25 different movements in a short performance.",
+     "The 'ring leader' uses a whistle to announce changes in the choreography.",
+     "Watch for Nartakasamuhanni, Samuhanrtyanta nartakam."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Linear rows or concentric circles; dancers often interact with partners in opposite rows"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The central instrument is the Lezim, a wooden pole (todanna bandhaleli) with a chain (adakavalelya) and metal discs.",
+     "Percussion is provided by the dholki (a narrow drum) and the halagi.",
+     "Listen for the Lezim (wooden idiophone), Dholki (drum), Halagi (carmavadya), Cymbals (talasarakhe).",
+     "The pulse is 4/4 or 2/4 at about 140 beats a minute.",
+     "A dense, percussive soundscape dominated by the deep, resonant thuds of the dholki drum and the sharp, shimmering metallic clatter of dozens of Lezim instruments striking in unison."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear vibrant, colorful costumes typical of Maharashtrian folk traditions.",
+     "The dance is performed outdoors in various settings, including school grounds for fitness drills, village streets during Jatras (religious processions), and public squares during the Ganesh festival."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "While individual dancers are rarely named in folk traditions, the 400 Maharashtrian players who performed at the 1982 Asian Games in Delhi are cited as a significant collective that brought the dance to international attention.",
+     "Three main types exist: military lezim (martial art focus, popular in Baroda), talathekya, and samanyajananna.",
+     "Lezim is classified as an Indian folk dance and a 'game and martial dance.' It shares formation characteristics with the Garba of Gujarat, particularly in its concentric circle variants (samuhanrtyanta nartakam)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Lezim is variant of Garbha: Shares the concentric circle formation (samuhanrtyanta nartakam).",
+     "Lezim is same region of Phugadi: Another folk dance from Maharashtra often performed in similar festive contexts."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Hold the Lezim instrument with both hands, one on the wooden pole and one near the chain",
+     "Strike the chain against the pole in time with the dholki beat to produce a jingle",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a heavy martial exercise transformed into the shimmering, rhythmic heartbeat of India's Ganesh festival.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the Basic Strike",
+   "level": "1",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the Basic Strike.",
+      "Level: 1. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A disciplined but energetic physical education teacher or a village elder who emphasizes both strength and rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and athletic, transitioning into deep squats or lunges",
+      "Active manipulation of the Lezim instrument; arms swing and strike the chain against the wood in synchronized patterns",
+      "Torso rotates with the swing of the instrument; hips remain stable during calisthenic maneuvers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.",
+      "Rhythm pattern: Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 98 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Hold the Lezim instrument with both hands, one on the wooden pole and one near the chain",
+      "Step 2: Strike the chain against the pole in time with the dholki beat to produce a jingle",
+      "Footwork from the sources: Repetitive sequences of steps, often involving forward marches, side steps, and rhythmic hopping",
+      "Drill: Hold the Lezim correctly with a firm grip"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Step forward with the right foot while swinging the instrument to the right",
+      "Step 4: Step forward with the left foot while swinging the instrument to the left",
+      "Drill: Practice the basic 'jingle' strike on the downbeat"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinate the strike with a simple march-in-place"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid losing synchronization with the whistle; ensure the instrument is held securely to prevent injury during vigorous striking"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation. · For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation.",
+      "For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 140 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the Basic Strike.",
+      "Lezim is performed during the Ganesh festival (Ganeshotsav) and village Jatras.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Synchronized Stepping",
+   "level": "2",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Synchronized Stepping.",
+      "Level: 2. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A disciplined but energetic physical education teacher or a village elder who emphasizes both strength and rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and athletic, transitioning into deep squats or lunges",
+      "Active manipulation of the Lezim instrument; arms swing and strike the chain against the wood in synchronized patterns",
+      "Torso rotates with the swing of the instrument; hips remain stable during calisthenic maneuvers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.",
+      "Rhythm pattern: Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 98 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute a rhythmic crouch or 'baithak' while striking the instrument",
+      "Step 2: Transition into a circle formation, twirling the body while maintaining the rhythmic strike",
+      "Drill: Perform the forward-swing step with the instrument"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Nartakasamuhanni: A single circle formation where dancers move in unison",
+      "Samuhanrtyanta nartakam: Concentric circle formation similar to Garba",
+      "Drill: Practice the side-to-side transition in a row formation"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Respond to a whistle signal to change direction"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid losing synchronization with the whistle; ensure the instrument is held securely to prevent injury during vigorous striking"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation. · For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation.",
+      "For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Linear rows or concentric circles; dancers often interact with partners in opposite rows"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 140 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Synchronized Stepping.",
+      "While individual dancers are rarely named in folk traditions, the 400 Maharashtrian players who performed at the 1982 Asian Games in Delhi are cited as a significant collective that brought the dance to international attention.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "The Circle Formation",
+   "level": "3",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: The Circle Formation.",
+      "Level: 3. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A disciplined but energetic physical education teacher or a village elder who emphasizes both strength and rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and athletic, transitioning into deep squats or lunges",
+      "Active manipulation of the Lezim instrument; arms swing and strike the chain against the wood in synchronized patterns",
+      "Torso rotates with the swing of the instrument; hips remain stable during calisthenic maneuvers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 or 2/4.",
+      "Rhythm pattern: Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 98 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute a rhythmic crouch or 'baithak' while striking the instrument",
+      "Step 2: Transition into a circle formation, twirling the body while maintaining the rhythmic strike",
+      "Drill: Maintain the rhythm while walking in a circle"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Nartakasamuhanni: A single circle formation where dancers move in unison",
+      "Samuhanrtyanta nartakam: Concentric circle formation similar to Garba",
+      "Drill: Execute a twirl while striking the Lezim"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Perform a mock-combat strike with a partner"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid losing synchronization with the whistle; ensure the instrument is held securely to prevent injury during vigorous striking"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation. · For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation.",
+      "For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Linear rows or concentric circles; dancers often interact with partners in opposite rows"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 140 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: The Circle Formation.",
+      "Lezim is classified as an Indian folk dance and a 'game and martial dance.' It shares formation characteristics with the Garba of Gujarat, particularly in its concentric circle variants (samuhanrtyanta nartakam).",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 140,
+  "meter": "4/4 or 2/4",
+  "rhythm_pattern": "Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim",
+  "instruments": [
+   "Lezim (wooden idiophone)",
+   "Dholki (drum)",
+   "Halagi (carmavadya)",
+   "Cymbals (talasarakhe)"
+  ],
+  "vocal_style": "Primarily instrumental; occasional rhythmic shouts or whistle signals",
+  "musical_form": "Sectional, with rhythmic shifts every few beats as signaled by the leader",
+  "mood": [
+   "vigorous",
+   "energetic",
+   "martial",
+   "rhythmic",
+   "celebratory"
+  ],
+  "sound_description": "A dense, percussive soundscape dominated by the deep, resonant thuds of the dholki drum and the sharp, shimmering metallic clatter of dozens of Lezim instruments striking in unison.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Lezim (India). Meter 4/4 or 2/4. Tempo about 140 bpm. Rhythm pattern: Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim. Instruments: Lezim (wooden idiophone), Dholki (drum), Halagi (carmavadya), Cymbals (talasarakhe). Vocal style: Primarily instrumental; occasional rhythmic shouts or whistle signals. Form: Sectional, with rhythmic shifts every few beats as signaled by the leader. Mood: vigorous, energetic, martial, rhythmic, celebratory. It should sound like this: A dense, percussive soundscape dominated by the deep, resonant thuds of the dholki drum and the sharp, shimmering metallic clatter of dozens of Lezim instruments striking in unison. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 98
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 140
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers wear vibrant, colorful costumes typical of Maharashtrian folk traditions. The dance is performed outdoors in various settings, including school grounds for fitness drills, village streets during Jatras (religious processions), and public squares during the Ganesh festival.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALezim-dancers.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lezim-dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lezim-dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Runabhattacharjee / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALezim-dancers.jpg",
+    "description": "Group of dancers from Maharashtra, India in a formation performing a local folk dance with Lezim (cymbal like musical instruments)."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The shimmering blur of metal discs",
+   "The white and saffron colors of traditional Maharashtrian attire",
+   "The sharp silhouette of the Lezim pole against the sky",
+   "The rhythmic dust clouds from synchronized footwork"
+  ],
+  "costume_notes": "Dancers wear vibrant, colorful costumes typical of Maharashtrian folk traditions. The dance is performed outdoors in various settings, including school grounds for fitness drills, village streets during Jatras (religious processions), and public squares during the Ganesh festival.",
+  "setting_notes": "Lezim is performed during the Ganesh festival (Ganeshotsav) and village Jatras. It serves as a communal celebration and a display of physical fitness. In educational and military contexts, it is used as a discipline-building exercise and a rhythmic drill.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "111 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 111,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch",
+   "left together left touch",
+   "spin out"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Lezim",
+  "https://www.wikidata.org/wiki/Q6538197",
+  "https://es.wikipedia.org/wiki/Lezim",
+  "https://archive.org/details/celebrationoflif0000pani"
+ ],
+ "claims_verified": 7,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "8359e2e0bc1f1c00a364e5fc1cd167418384af87ea8dd73e1b5fac37dc0a9024",
+ "hero_checked": null
+}

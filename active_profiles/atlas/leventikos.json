@@ -1,13 +1,80 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex speed accelerations"
+        ],
+        "counts": "Simplified 5-beat count focusing on the slow-quick pattern.",
+        "duration_minutes": "3",
+        "game_version": "Group hand-holding circle game stepping to asymmetric claps."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "fast tempo shifts",
+          "sharp directional changes"
+        ],
+        "counts": "1-2 (slow), 3 (quick), 4 (quick), 5-6 (slow), 7 (quick)",
+        "seated_version": "Seated rhythmic foot tapping following the slow-quick-quick-slow-quick timing.",
+        "standing_version": "Supported circle hold with reduced step range and slower tempo.",
+        "tempo_and_range": "Reduced tempo, minimal spatial travel."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "slow-quick-quick-slow-quick pattern matching five beats of varying length",
+      "formation_and_space": "circle dance",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "variable speed affecting metric accent distribution",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "12/8 and 16/8 asymmetric",
+      "mood_keywords": [
+        "lively",
+        "asymmetric",
+        "traditional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "traditional",
+          "title": "Ibraim Odza"
+        }
+      ],
+      "rhythm_pattern": "3+2+2+3+2 or 4+2+3+4+3",
+      "sound_description": "Asymmetric Balkan dance tunes featuring shifting accents across five irregular beats, with ornamented melodies adaptable to both 12/8 and 16/8 time signatures.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Slow step on the first primary beat",
+        "Quick step on the second beat",
+        "Quick step on the third beat",
+        "Slow step on the fourth beat",
+        "Quick step on the final beat"
+      ],
+      "formation": "Circle dance (hora family)",
+      "level_notes": "Not described in sources beyond the basic slow-quick step correlation.",
+      "rhythm": "Five-beat asymmetric meter in 12/8 (3+2+2+3+2) or 16/8 (4+2+3+4+3)"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a4a4807fb260cdba7327cff5255a0cc85ecd384692999f05648e4fc0b648a6ee",
+  "fingerprint": "e44958cdf7e4ce77782464545842d01c759eb4ccde65c6d3a1a6d1190da37258",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +82,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific archival field recordings document the physical hand holds and upper body posture during Leventikos in Florina? Evidence needed: Local ethnographic field notes from Florina dance societies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +100,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How do dancers physically negotiate the transition between 12/8 and 16/8 metric variations in live performance? Evidence needed: Synchronized video footage of traditional festival performances in Bitola."
     ]
   },
   "id": "atlas:leventikos",
@@ -45,8 +112,27 @@
   ],
   "music_options": [],
   "name": "Leventikos",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "01915832a78b683d",
+      "next_evidence": "Local ethnographic field notes from Florina dance societies.",
+      "question": "What specific archival field recordings document the physical hand holds and upper body posture during Leventikos in Florina?",
+      "source": "https://en.wikipedia.org/wiki/Leventikos",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources lack detailed movement profiles for posture and upper limbs."
+    },
+    {
+      "domain": "video",
+      "id": "5d0f92e5ef398c5e",
+      "next_evidence": "Synchronized video footage of traditional festival performances in Bitola.",
+      "question": "How do dancers physically negotiate the transition between 12/8 and 16/8 metric variations in live performance?",
+      "source": "https://en.wikipedia.org/wiki/Leventikos",
+      "status": "candidate_unreviewed",
+      "why_needed": "Clarifies the precise kinematic adjustment during tempo acceleration."
+    }
+  ],
+  "research_file": "research_results/leventikos.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +144,7 @@
   "slug": "leventikos",
   "sources": [
     "https://en.wikipedia.org/wiki/Leventikos",
-    "Source: Leventikos on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Leventikos"
+    "https://www.wikidata.org/wiki/Q12291773"
   ],
   "state": "researching",
   "video_evidence": []

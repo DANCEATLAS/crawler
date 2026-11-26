@@ -5,7 +5,7 @@
  "title": "DANCEHALL TUTORIAL & CHOREGRAPHY | FOR BEGINNERS",
  "channel": "Tara's body",
  "viewer_ratio": 3.0,
- "analysed_at": "2026-11-24T22:31:48Z",
+ "analysed_at": "2026-11-26T20:53:57Z",
  "url": "https://www.youtube.com/watch?v=JxyzExqQ2sM",
  "evidence_version": 2,
  "observation_window": {
@@ -15,6 +15,139 @@
   "sampling": "provider default; not continuous motion capture",
   "human_verified": false
  },
- "status": "failed",
- "attempts": 1
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor is energetic, humorous, and breaks down choreography step-by-step with frequent humor. He uses verbal counts and vocalizations while demonstrating facing the front.",
+  "language": "French",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Tara introduces guest teacher Jiggy."
+   },
+   {
+    "t": "0:56",
+    "segment": "full_demo",
+    "note": "Full choreography demonstration with music."
+   },
+   {
+    "t": "2:08",
+    "segment": "breakdown",
+    "note": "Explanation of the basic posture in Dance Soul."
+   },
+   {
+    "t": "2:19",
+    "segment": "breakdown",
+    "note": "Breakdown of the first step, Room Run."
+   },
+   {
+    "t": "2:44",
+    "segment": "slow_practice",
+    "note": "Practicing Room Run at a slower pace."
+   },
+   {
+    "t": "3:08",
+    "segment": "recap",
+    "note": "Practicing from the start with counts."
+   },
+   {
+    "t": "3:14",
+    "segment": "breakdown",
+    "note": "Breakdown of the second phrase with look and arm movement."
+   },
+   {
+    "t": "4:06",
+    "segment": "breakdown",
+    "note": "Breakdown of the third phrase with slow motion and thigh touch."
+   },
+   {
+    "t": "4:32",
+    "segment": "recap",
+    "note": "Putting parts together slowly."
+   },
+   {
+    "t": "5:23",
+    "segment": "recap",
+    "note": "Reviewing previous parts before adding speed guidance."
+   },
+   {
+    "t": "6:24",
+    "segment": "music_practice",
+    "note": "Practicing with music."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "kick, pause, 1, 2",
+   "left, right, left, slow mo",
+   "touch, touch, pause"
+  ],
+  "metaphors": [
+   "the Matrix"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "doing the arm movement too fast instead of slow motion"
+  ],
+  "safety": [
+   "take a deep breath before starting"
+  ],
+  "steps_taught": [
+   {
+    "name": "Room Run",
+    "counts": "1-2-3-4",
+    "description": "Kick, pause, step left left, then right right."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "breaking movements down into slow motion",
+    "recapitulating from the start frequently"
+   ],
+   "what_hinders": [
+    "fast pacing on some counts without prior drill"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:49",
+    "text": "ne vous en faites pas, on vous l'explique pas à pas"
+   },
+   {
+    "t": "2:10",
+    "text": "la position de base, elle est là, fléchi"
+   },
+   {
+    "t": "3:02",
+    "text": "Le flow, ça s'achète pas, c'est soit tu l'as, soit bon chance"
+   },
+   {
+    "t": "6:04",
+    "text": "quand tu commences la coré, tu respires plus jusqu'à la fin"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 221,
+    "end_s": 235,
+    "topic": "movement",
+    "observation": "Teacher demonstrates kicking out with right leg then stepping left-left, mirroring the counts.",
+    "viewpoint": "front",
+    "cannot_infer": "exact weight shift details due to wide camera shot",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining comedic banter and partner interaction (Tara tying shoes, banter about buying flow) directly into the instructional flow."
+ },
+ "attempts": 2
 }

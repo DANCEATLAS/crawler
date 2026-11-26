@@ -1,6 +1,6 @@
 # Set Dance — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -122,7 +122,7 @@ NARRATION: Step 1: Square formation: Arrange four couples along the edges of a s
 NARRATION: Step 2: Identification: Identify First Tops (back to band), Second Tops (opposite), First Sides, and Second Sides.
 NARRATION: Footwork from the sources: Flat-footed traveling and percussive battering steps kept low to the floor.
 NARRATION: Drill: Walk the perimeter square and return to home station
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -193,7 +193,7 @@ NEEDS: tempo
 NARRATION: Step 1: Chorus figure: Dance the opening repeated sequence simultaneously with all four couples.
 NARRATION: Step 2: Couple feature: First Tops dance the core figure, followed in order by First Sides, Second Tops, and Second Sides.
 NARRATION: Drill: Low-to-the-floor gliding steps across the set
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -265,7 +265,7 @@ NEEDS: tempo
 NARRATION: Step 1: Chorus figure: Dance the opening repeated sequence simultaneously with all four couples.
 NARRATION: Step 2: Couple feature: First Tops dance the core figure, followed in order by First Sides, Second Tops, and Second Sides.
 NARRATION: Drill: Basic low battering tap drills on accented counts
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (5): https://en.wikipedia.org/wiki/Irish_set_dancing; https://www.wikidata.org/wiki/Q1425009; https://fr.wikipedia.org/wiki/Set_dance; https://de.wikipedia.org/wiki/Set_Dance; https://archive.org/details/AncientIrishMusic

@@ -1,0 +1,163 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex poetic interpretation",
+          "Long periods of static posture",
+          "Adult-oriented lyrical themes"
+        ],
+        "counts": "Simple 1-2-3-4 rhythmic stepping.",
+        "duration_minutes": "15",
+        "game_version": "A 'Salute and Story' game where children use hand gestures to act out simple poems."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid Kathak spins",
+          "Heavy foot stomping",
+          "Deep knee bends"
+        ],
+        "counts": "Use slow 4-count movements for the gestures.",
+        "seated_version": "Focus on the expressive hand gestures (mudras) and facial expressions while seated in a chair.",
+        "standing_version": "Perform the deferential salute and slow arm movements while using a chair for balance.",
+        "tempo_and_range": "Reduce the speed of the music and limit the range of arm extensions to avoid shoulder strain."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Sophisticated gestures used to interpret poetry and pay respects.",
+      "difficulty": "advanced",
+      "footwork": "Consolidates elements of classical Kathak dance.",
+      "formation_and_space": "Solo performance in a salon (kotha) or gathering (mehfil).",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; solo female dancer interacting with a male audience.",
+      "posture": "Elegant and artistic, emphasizing a feminine and fluent carriage.",
+      "signature_moves": [
+        {
+          "description": "A deferential salute or payment of respects to the audience.",
+          "name": "Mujra"
+        }
+      ],
+      "tempo_feel": "Elegant and tasteful.",
+      "what_to_avoid": "Vulgarity or lack of artistic taste, as true mujra is defined by sophistication."
+    },
+    "music_profile": {
+      "instruments": [
+        "Tabla",
+        "Sarangi",
+        "Harmonium"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "elegant",
+        "sophisticated",
+        "artistic",
+        "tasteful"
+      ],
+      "musical_form": "Poetic cycles from the Mughal era",
+      "reference_recordings": [
+        {
+          "artist": "Pakeezah Soundtrack",
+          "title": "Inhi logon ne le leena"
+        }
+      ],
+      "rhythm_pattern": "Hindustani classical rhythms",
+      "sound_description": "A blend of Hindustani classical music featuring melodic thumris and ghazals. The sound is characterized by poetic vocals and traditional instrumentation that supports a medium of exchange between the performer and the audience.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Thumri and Ghazal singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "The Deferential Salute (Mujra): A formal opening gesture of respect to the audience.",
+        "Kathak-based footwork: Rhythmic stepping derived from classical Indian dance.",
+        "Interpretive hand gestures: Expressing the meaning of the ghazal or thumri lyrics.",
+        "The feminine glide: Fluent, artistic movements across the performance space."
+      ],
+      "formation": "Solo female dancer centered before an audience (mehfil).",
+      "level_notes": "Requires training in Kathak and an understanding of Urdu/Hindi poetry for expression.",
+      "rhythm": "Hindustani classical cycles (taals) associated with thumri and ghazal."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "1830bb6a98effef4b1699d3545c20bbeee500be1ccaf4f6f838ca45589677999",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How do the 'modern forms' of Mujra in Pakistan differ technically from the 'true mujra' described as artistic and elegant? Evidence needed: https://en.wikipedia.org/wiki/Mujra"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific differences in hand gestures between a classical Kathak performance and a traditional Mujra? Evidence needed: https://en.wikipedia.org/wiki/Mujra"
+    ]
+  },
+  "id": "atlas:mujra",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Mujra",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "22f3ad2e1cd25719",
+      "next_evidence": "https://en.wikipedia.org/wiki/Mujra",
+      "question": "What are the specific differences in hand gestures between a classical Kathak performance and a traditional Mujra?",
+      "source": "https://en.wikipedia.org/wiki/Mujra",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure the interactive teaching accurately reflects the 'sophisticated and artistic' style mentioned in the source rather than generic Kathak."
+    },
+    {
+      "domain": "research",
+      "id": "77834d95e21a6409",
+      "next_evidence": "https://en.wikipedia.org/wiki/Mujra",
+      "question": "How do the 'modern forms' of Mujra in Pakistan differ technically from the 'true mujra' described as artistic and elegant?",
+      "source": "https://en.wikipedia.org/wiki/Mujra",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source notes a distinction between traditional and modern/erotic forms; teaching must distinguish these for cultural accuracy."
+    }
+  ],
+  "research_file": "research_results/mujra.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "mujra",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mujra",
+    "https://www.wikidata.org/wiki/Q6933352"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

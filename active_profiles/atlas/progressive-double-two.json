@@ -1,0 +1,141 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex turns",
+          "Close-hold positions"
+        ],
+        "counts": "Simplified 4-count shuffle",
+        "duration_minutes": "2-3 minutes",
+        "game_version": "Follow-the-leader circle game using shuffle steps"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid turns",
+          "Balance-heavy movements"
+        ],
+        "counts": "6-count pattern",
+        "seated_version": "Perform shuffle rhythm with feet while seated",
+        "standing_version": "Hold onto a partner or support for balance, reduce tempo",
+        "tempo_and_range": "Reduced tempo, limited range of motion"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Leader's right hand on follower's back or shoulder; left hand holds follower's right hand at shoulder height",
+      "difficulty": "intermediate",
+      "footwork": "Shuffle steps followed by walking steps",
+      "formation_and_space": "Progressive circle moving counterclockwise",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Leader determines patterns; follower responds to leads",
+      "posture": "Upright, partners facing each other in closed position",
+      "signature_moves": [
+        {
+          "description": "Follower is led through a quarter semicircle clockwise then counterclockwise",
+          "name": "Arching semicircle"
+        }
+      ],
+      "tempo_feel": "Steady, rhythmic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "4/4",
+      "mood_keywords": [
+        "social",
+        "progressive"
+      ],
+      "musical_form": "Common time",
+      "reference_recordings": [],
+      "rhythm_pattern": "Shuffle steps (1 and 2, 3 and 4) followed by walking steps (5, 6)",
+      "sound_description": "The music is standard country music in common time, providing a steady beat for the shuffle and walking steps.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Shuffle step (1 and 2)",
+        "Shuffle step (3 and 4)",
+        "Walking step (5)",
+        "Walking step (6)"
+      ],
+      "formation": "Progressive circle moving counterclockwise",
+      "level_notes": "Beginners should focus on the shuffle rhythm before adding the walking steps.",
+      "rhythm": "6-beat pattern"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bc66b2b8e422b22cdd2f7f9c27747d6d7f2d32c42f98cf06caff7a2c2939341a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific musical artists or songs historically associated with the Progressive Double Two? Evidence needed: Regional dance hall archives or interviews with Dallas/Fort Worth dance instructors."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:progressive-double-two",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Progressive Double Two",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "117f804ebf92df04",
+      "next_evidence": "Regional dance hall archives or interviews with Dallas/Fort Worth dance instructors.",
+      "question": "Are there specific musical artists or songs historically associated with the Progressive Double Two?",
+      "source": "https://en.wikipedia.org/wiki/Country-western_two-step",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not name specific music, which limits the ability to provide accurate musical context for learners."
+    }
+  ],
+  "research_file": "research_results/progressive-double-two.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "progressive-double-two",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Country-western_two-step",
+    "https://www.wikidata.org/wiki/Q7248738"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

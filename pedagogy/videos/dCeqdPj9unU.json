@@ -1,0 +1,132 @@
+{
+ "youtube_id": "dCeqdPj9unU",
+ "slug": "koftos",
+ "dance": "Koftos",
+ "title": "Koftos, Κοφτός, Grecia, tutorial di Juancarlos Battilani",
+ "channel": "Juan Carlos Battilani",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-26T20:51:33Z",
+ "url": "https://www.youtube.com/watch?v=dCeqdPj9unU",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "Juan Carlos Battilani teaches in an encouraging, structured manner, breaking down traditional Greek circle dances step-by-step with clear counting and verbal cues. He combines instructional explanations with full demonstrations to music, ensuring students understand both the footwork and the rhythm.",
+  "language": "italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction of the teacher and the topic of Greek folk dance."
+   },
+   {
+    "t": "0:32",
+    "segment": "context",
+    "note": "Introduction of the dance Koftos, explaining formation and general style."
+   },
+   {
+    "t": "0:56",
+    "segment": "breakdown",
+    "note": "Detailed breakdown of the 6-count sirtos steps to the right."
+   },
+   {
+    "t": "1:38",
+    "segment": "layering",
+    "note": "Explanation of the fourth sirtos ending with arms raised and a vocal cue."
+   },
+   {
+    "t": "2:30",
+    "segment": "music_practice",
+    "note": "Full practice of the dance steps to traditional music."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6",
+  "cues": [
+   "1 2 3 4 5 6",
+   "Hey!"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 4
+  },
+  "common_mistakes": [
+   "Putting weight on the right foot too early on the fourth sirtos"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Sirtos",
+    "counts": "1-2-3-4-5-6",
+    "description": "Basic side step sequence moving to the right with arms in a closed circle."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear counting and repetition of steps",
+    "Demonstrating both slowly and to full music"
+   ],
+   "what_hinders": [
+    "Fixed overhead camera angle limits foot visibility"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:37",
+    "text": "La danza che voglio presentarvi oggi si chiama Koftos."
+   },
+   {
+    "t": "1:16",
+    "text": "Il modulo del sette ottavi è sempre slow, quick, quick, slow."
+   },
+   {
+    "t": "2:24",
+    "text": "La teoria è tutta qui, andiamo a ballare Koftos."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 56,
+    "end_s": 70,
+    "topic": "movement",
+    "observation": "Teacher steps sideways demonstrating the first sirtos counting 1 to 6.",
+    "viewpoint": "overhead view, mirrored",
+    "cannot_infer": "exact foot placement details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 138,
+    "end_s": 160,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates raising arms and shouting Hey on the fourth count.",
+    "viewpoint": "overhead view, mirrored",
+    "cannot_infer": "weight distribution details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 230,
+    "end_s": 250,
+    "topic": "movement",
+    "observation": "Teacher dances the full routine to music with consistent stepping.",
+    "viewpoint": "overhead view, mirrored",
+    "cannot_infer": "floor grip or shoe type",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining verbal mnemonics of the rhythm (slow-quick-quick-slow) with direct numerical counts for each repetition."
+ },
+ "attempts": 1
+}

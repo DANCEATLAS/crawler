@@ -6,7 +6,7 @@
  "teacher": "Jessica Valant",
  "teacher_key": "jessica-valant",
  "teacher_score": 38.5,
- "analysed_at": "2026-11-24T00:31:57Z",
+ "analysed_at": "2026-11-26T20:44:44Z",
  "url": "https://www.youtube.com/watch?v=uth_9K3EmDI",
  "comments_read": 60,
  "schema": 3,
@@ -16,6 +16,194 @@
   "resolution": "low",
   "human_verified": false
  },
- "status": "failed",
- "attempts": 1
+ "method": {
+  "teacher_system": "The teacher introduces a balance routine using a chair for support. She demonstrates strengthening, mobility, and weight-shifting exercises, gradually encouraging learners to reduce support and practice mindfully.",
+  "signature": "Integrating daily physical therapy principles with explicit encouragement to progress toward unsupported balance.",
+  "screen": {
+   "views": [
+    "front",
+    "side"
+   ],
+   "on_screen": [],
+   "editing": []
+  },
+  "practices": [
+   {
+    "tag": "chunking",
+    "t": "0:47",
+    "what": "Raises up onto toes and lowers back down holding onto a chair for balance support."
+   },
+   {
+    "tag": "chunking",
+    "t": "1:46",
+    "what": "Performs small knee bends in place to build hip, knee, and ankle mobility."
+   },
+   {
+    "tag": "chunking",
+    "t": "2:52",
+    "what": "Stands facing sideways, holding a chair, and lifts the outside knee up and down."
+   },
+   {
+    "tag": "chunking",
+    "t": "3:55",
+    "what": "Marches slowly side to side, practicing weight shifting and posture control."
+   },
+   {
+    "tag": "chunking",
+    "t": "5:23",
+    "what": "Lifts the outside leg out to the side to work on hip mobility and standing leg strength."
+   },
+   {
+    "tag": "chunking",
+    "t": "6:10",
+    "what": "Lifts the knee, opens it out to the side, and brings it down forward."
+   },
+   {
+    "tag": "chunking",
+    "t": "8:38",
+    "what": "Steps into a lunge stance to stretch the back calf while holding the chair."
+   }
+  ],
+  "adaptations": [
+   {
+    "t": "1:15",
+    "difficulty": "holding onto the chair",
+    "adjustment": "try doing this without holding on to anything at all",
+    "kind": "harder"
+   },
+   {
+    "t": "1:21",
+    "difficulty": "keeping eyes open during balance work",
+    "adjustment": "close your eyes and see how it feels",
+    "kind": "harder"
+   },
+   {
+    "t": "3:34",
+    "difficulty": "doing exercises barefoot",
+    "adjustment": "wear those tennis shoes if you like having some foot support",
+    "kind": "other"
+   },
+   {
+    "t": "8:51",
+    "difficulty": "holding onto a chair for stretches",
+    "adjustment": "you don't have to hold on if you don't have anything available",
+    "kind": "other"
+   }
+  ],
+  "entry_points": [
+   "feet_first",
+   "rhythm_first"
+  ],
+  "pace": {
+   "talk_vs_move": "balanced",
+   "seconds_before_first_movement": 46,
+   "pieces_taught": 5
+  },
+  "mentor": {
+   "voice": [
+    "calm",
+    "gentle",
+    "warm",
+    "patient"
+   ],
+   "beliefs": [
+    {
+     "t": "0:12",
+     "belief": "Balance is essential for everyone's health and longevity, and short daily routines can significantly improve it.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "0:52",
+     "belief": "Balance requires integrating strength, mobility, eyesight, and the vestibular system over time.",
+     "about": "how_people_learn"
+    },
+    {
+     "t": "2:08",
+     "belief": "Falls often happen stepping off a curb or going down stairs due to stiff ankles, so daily mobility helps prevent this.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "8:26",
+     "belief": "Balance training is a long game requiring long-term consistent practice rather than a single day fix.",
+     "about": "how_people_learn"
+    }
+   ],
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:01",
+     "moment": "opening",
+     "says": "The teacher welcomes the learner to a short everyday balance routine using a chair or wall for support.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "1:45",
+     "moment": "before_hard_part",
+     "says": "The teacher introduces mini squats to build mobility in the hips, knees, and ankles.",
+     "tag": "other"
+    },
+    {
+     "t": "5:17",
+     "moment": "after_success",
+     "says": "The teacher praises the learner for completing the weight-shifting exercise and encourages bringing the leg back down.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "7:08",
+     "moment": "check_in",
+     "says": "The teacher invites the learner to take a brief break and acknowledges the hard work of the standing leg.",
+     "tag": "rest_and_kindness"
+    },
+    {
+     "t": "8:20",
+     "moment": "after_mistake",
+     "says": "The teacher demonstrates how to catch oneself and return immediately without discouragement after losing balance.",
+     "tag": "normalise_mistakes"
+    }
+   ],
+   "what_stays": "This teacher leaves the learner feeling capable of improving their balance through steady, daily practice without fear of mistakes."
+  },
+  "learner_voice": {
+   "struggles": [
+    {
+     "theme": "Poor balance due to age, medical conditions, or injuries",
+     "tag": "other",
+     "count": 18
+    }
+   ],
+   "clicked": [
+    {
+     "theme": "Straightforward instruction without fluff and easy to follow",
+     "tag": "other",
+     "count": 6
+    }
+   ],
+   "requests": [
+    {
+     "theme": "Access to full length workouts and programs",
+     "tag": "other",
+     "count": 1
+    }
+   ],
+   "meant": [
+    {
+     "theme": "Helped improve balance and daily mobility",
+     "tag": "other",
+     "count": 15
+    }
+   ]
+  },
+  "limits": "The video shows only upper and lower body movements in a home setting using a single chair and mat."
+ },
+ "kind": "lesson",
+ "status": "ok",
+ "attempts": 2,
+ "mentor_look": {
+  "at": "2026-11-26T20:47:45Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 2,
+  "feelings": 0
+ }
 }

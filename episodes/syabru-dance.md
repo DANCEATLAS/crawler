@@ -1,6 +1,6 @@
 # Syabru dance — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
@@ -111,7 +111,7 @@ NARRATION: Step 1: Gather in a communal line or circular formation alongside oth
 NARRATION: Step 2: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Footwork from the sources: Slow progression moving in a line or circle (circulus)
 NARRATION: Drill: Assemble into a continuous circular formation with balanced spacing
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -179,7 +179,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Gather in a communal line or circular formation alongside other participants
 NARRATION: Step 2: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Drill: Listen to and repeat simple traditional vocal phrases while standing in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -246,7 +246,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Step 2: Step slowly along the line or circulus in coordination with the vocal song and dramnyen accompaniment
 NARRATION: Drill: Identify the plucked strumming pattern of the dramnyen
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -309,9 +309,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Syabru_(dance); https://www.wikidata.org/wiki/Q114552797

@@ -1,21 +1,66 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "circular movement in a counter-clockwise direction around the drummers, starting slow and syncopated and progressively accelerating",
+      "formation_and_space": "circular formation around the tambourinaires",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Counter-clockwise circular movement around drummers that accelerates until dancers enter a mayal trance state.",
+          "name": "Mayal Trance Dance"
+        }
+      ],
+      "tempo_feel": "starts slow and syncopated, accelerating progressively into trance",
+      "what_to_avoid": "Treating the sacred healing ceremony as secular entertainment; disrupting ritual spaces or spirit possession."
+    },
+    "music_profile": {
+      "instruments": [
+        "kbandu",
+        "shakas",
+        "râpes",
+        "bâtons catta"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ecstatic",
+        "ceremonial",
+        "trance",
+        "reverent"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Drumming driven by the principal kbandu drum, accompanied by shakas, scrapes, and catta sticks, supporting call-and-response singing with Kikongo terms that accelerates through the night.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "call-and-response singing incorporating Kikongo terms"
+    },
     "teaching": {
       "basic_steps": [
-        "Circular movement",
-        "Counter-clockwise rotation around the drummers"
+        "Counter-clockwise circular movement around drummers",
+        "Slow syncopated stepping building into accelerated motion"
       ],
-      "formation": "Circular",
-      "level_notes": "Advanced; requires spiritual preparation and understanding of the ritual context.",
-      "rhythm": "Syncopated, accelerating tempo"
+      "formation": "Circular formation around the tambourinaires",
+      "level_notes": "Advanced practice embedded in spiritual initiation or family lineage (Bongo)",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "52beb05680b6dd8baaad4bfc4ee715c17e73c78d67c604ed08869722a25d8e0b",
+  "fingerprint": "53c8056f9af9ab81aa87536789ddb06f9d41cca1c81068460b627780cea5fee9",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -23,9 +68,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the precise polyrhythmic structures and tempo ranges of the kbandu drum patterns? Evidence needed: Ethnomusicological field recordings and detailed musical transcriptions of Jamaican Kumina ceremonies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -52,7 +98,17 @@
   ],
   "music_options": [],
   "name": "Pukkumina (Pocomania)",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "f5045e48593818c8",
+      "next_evidence": "Ethnomusicological field recordings and detailed musical transcriptions of Jamaican Kumina ceremonies.",
+      "question": "What are the precise polyrhythmic structures and tempo ranges of the kbandu drum patterns?",
+      "source": "https://en.wikipedia.org/wiki/Kumina",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow accurate musical recreation without copying copyrighted recordings."
+    }
+  ],
   "research_file": "research_results/pukkumina.json",
   "runtime_active": false,
   "scope": {

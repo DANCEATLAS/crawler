@@ -1,8 +1,8 @@
 # Mak Sa'moa — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An elder or respected practitioner of Rotuman social dance who emphasizes deliberate movement and community history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Echoes of Samoa on Rotuma
 NARRATION: This is Mak Sa'moa. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (GEKkZa6yJDQ)
 ON SCREEN: Title card: Mak Sa'moa · Fiji (Rotuma) · 19th century to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance is performed informally with interactions between male and 
 NARRATION: The core movement mechanics rely on hand movements exchanged between man and woman, accompanied by footwork where dancers shuffle and twist their feet inward and outward, recalling the movement patterns of the Siva Samoa.
 NARRATION: The overall execution follows a deliberate, generally slower pace.
 NARRATION: Watch for Foot shuffling and twisting.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (GEKkZa6yJDQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Informal group or partner placement during village festivities.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -109,7 +109,7 @@ NARRATION: Step 1: Twist and shuffle feet inward and outward in a steady, measur
 NARRATION: Step 2: Execute hand gestures interactively between male and female dancers.
 NARRATION: Footwork from the sources: Shuffling and twisting of the feet inward and outward.
 NARRATION: Drill: Practice twisting feet inward and outward to a slow tempo.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -173,7 +173,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Twist and shuffle feet inward and outward in a steady, measured tempo.
 NARRATION: Step 2: Execute hand gestures interactively between male and female dancers.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -238,7 +238,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Twist and shuffle feet inward and outward in a steady, measured tempo.
 NARRATION: Step 2: Execute hand gestures interactively between male and female dancers.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -291,7 +291,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'GEKkZa6yJDQ', 'checked_by_vision_model': True, 'title': "Siva Samoa - Samoan Men's Dance"}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Close-up footwork showing in-and-out twisting motions., Interactive hand gestures between paired dancers., Community elders singing during the fara season.
@@ -301,9 +301,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (3): https://en.wikipedia.org/wiki/Mak_Sa%CA%BBmoa; https://www.wikidata.org/wiki/Q6738541; https://de.wikipedia.org/wiki/Mak_Samoa

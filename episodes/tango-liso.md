@@ -1,6 +1,6 @@
 # Tango Liso — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
 

@@ -1,13 +1,95 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Choreographic steps inspired by the art of bullfighting",
+          "name": "Bullfighting steps"
+        }
+      ],
+      "tempo_feel": "fast and animated",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "guitar",
+        "castanets"
+      ],
+      "meter": "3/8",
+      "mood_keywords": [
+        "animated",
+        "fast",
+        "lively"
+      ],
+      "musical_form": "song and dance music",
+      "reference_recordings": [
+        {
+          "artist": "Victoria de los Ángeles and Gerald Moore",
+          "title": "El Vito"
+        },
+        {
+          "artist": "Teresa Berganza",
+          "title": "El Vito"
+        },
+        {
+          "artist": "Montserrat Caballé",
+          "title": "El Vito"
+        },
+        {
+          "artist": "John Coltrane",
+          "title": "Olé"
+        }
+      ],
+      "rhythm_pattern": "Andalusian cadence based on harmonic minor ascending and phrygian descending motives",
+      "sound_description": "A fast-paced 3/8 melody featuring ascending harmonic minor scales and descending phrygian modes that resolve into a distinct Andalusian cadence, driven by energetic guitar and castanet accompaniment.",
+      "tempo_bpm": "",
+      "vocal_style": "sung with humorous or serious lyrics"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "3/8 time signature with an Andalusian cadence"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "75e9f715fa2323a3e9d67cdea24f395790fb2e700608826d43f7878c9489a5a4",
+  "fingerprint": "539f8f1cc52db943d59a4fe1d0e39fba1ff905ffb75fc4a1526f4955525beac0",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +97,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -34,7 +114,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific archival video footage or living master classes document the exact bullfighting-inspired steps of El vito? Evidence needed: Visual field recordings of twentieth-century Andalusian dance schools or Maruja Cazalla's students."
     ]
   },
   "id": "atlas:el-vito",
@@ -45,8 +126,18 @@
   ],
   "music_options": [],
   "name": "El vito",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d3b87e8ce16aad2e",
+      "next_evidence": "Visual field recordings of twentieth-century Andalusian dance schools or Maruja Cazalla's students.",
+      "question": "What specific archival video footage or living master classes document the exact bullfighting-inspired steps of El vito?",
+      "source": "https://es.wikipedia.org/wiki/El_vito",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current text sources mention bullfighting steps generally but lack granular choreographic documentation."
+    }
+  ],
+  "research_file": "research_results/el-vito.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +149,8 @@
   "slug": "el-vito",
   "sources": [
     "https://en.wikipedia.org/wiki/El_vito",
-    "Source: El vito on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/El_vito"
+    "https://www.wikidata.org/wiki/Q8774180",
+    "https://es.wikipedia.org/wiki/El_vito"
   ],
   "state": "researching",
   "video_evidence": []

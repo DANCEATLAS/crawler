@@ -60,10 +60,32 @@
   "mentor": {
    "voice": [
     "precise",
-    "patient"
+    "patient",
+    "warm",
+    "direct"
    ],
    "beliefs": [],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:01",
+     "moment": "opening",
+     "says": "The teacher introduces himself as Khwaja from Afghanistan and welcomes friends to a tutorial on how to do Attan.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:37",
+     "moment": "before_hard_part",
+     "says": "The teacher tells the learner to concentrate on what he is doing, his legs, and his hands.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "3:59",
+     "moment": "closing",
+     "says": "The teacher invites the learner to ask questions or leave comments and messages if they need help.",
+     "tag": "reason_to_return"
+    }
+   ]
   },
   "learner_voice": {
    "struggles": [
@@ -99,5 +121,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-26T20:47:57Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

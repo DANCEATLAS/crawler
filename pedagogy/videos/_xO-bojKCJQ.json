@@ -1,0 +1,150 @@
+{
+ "youtube_id": "_xO-bojKCJQ",
+ "slug": "barn-dance",
+ "dance": "Barn dance",
+ "title": "Barn Dance Tutorial - Dick And Geneva's Western Barn Dance (P)",
+ "channel": "JR Silva",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-26T20:50:47Z",
+ "url": "https://www.youtube.com/watch?v=_xO-bojKCJQ",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "Lynn introduces the dance history and structure clearly before breaking down footwork step-by-step. She demonstrates alongside two assistants, separating leader and follower parts.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:21",
+    "segment": "intro",
+    "note": "DJ JR introduces the Barn Dance tutorial and instructor Lynn."
+   },
+   {
+    "t": "0:53",
+    "segment": "context",
+    "note": "Lynn introduces herself, assistants Fredrick and Donna, and provides dance info."
+   },
+   {
+    "t": "1:31",
+    "segment": "breakdown",
+    "note": "Demonstrating the 32-count partner dance sequence."
+   },
+   {
+    "t": "2:09",
+    "segment": "breakdown",
+    "note": "Fredrick demonstrates leader footwork."
+   },
+   {
+    "t": "3:23",
+    "segment": "breakdown",
+    "note": "Lynn demonstrates follower footwork."
+   },
+   {
+    "t": "4:36",
+    "segment": "full_demo",
+    "note": "Demonstrating the combined partner footwork."
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Right together right touch",
+   "Left together left touch",
+   "Spin out",
+   "Roll her back"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Side touch together",
+    "counts": "1-2-3-4",
+    "description": "Step side together side touch in alternating directions."
+   },
+   {
+    "name": "Turn spin out",
+    "counts": "5-6-7-8",
+    "description": "Spin partner out and back in."
+   },
+   {
+    "name": "Quarter turn step hitch",
+    "counts": "1-8",
+    "description": "Step hitch step hitch turning a quarter."
+   },
+   {
+    "name": "Rolling grapevine",
+    "counts": "1-8",
+    "description": "Grapevine with turns and hip bumps."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Showing separate leader and follower footwork makes it easier to learn individual parts"
+   ],
+   "what_hinders": [
+    "Only showing front angle can make reverse footwork harder to mirror"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:21",
+    "text": "Hey everybody it's DJ JR at the Barn in Sanford."
+   },
+   {
+    "t": "1:03",
+    "text": "Level Beginner Count 32 Partner Dance Circle."
+   },
+   {
+    "t": "1:31",
+    "text": "Here we go five six seven eight right together right touch."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 21,
+    "end_s": 51,
+    "topic": "teaching",
+    "observation": "Instructor speaks to camera introducing the dance and teachers.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 131,
+    "end_s": 152,
+    "topic": "movement",
+    "observation": "Three dancers demonstrate partner footwork while instructor counts.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "exact weight transfer details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 209,
+    "end_s": 229,
+    "topic": "movement",
+    "observation": "Leader demonstrates footwork facing forward alone.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down the partner dance by teaching leader footwork and follower footwork separately before putting them together."
+ },
+ "attempts": 1
+}

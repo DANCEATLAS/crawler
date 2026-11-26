@@ -1,8 +1,8 @@
 # Active-ready — the starting line
 
-_Measured 2026-11-25 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
+_Measured 2026-11-26 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
 
-## 39 profiles are active-ready
+## 41 profiles are active-ready
 
 Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).
 
@@ -10,46 +10,46 @@ Since 24 November 2026 a reference clip counts as the licensed picture only when
 
 | Step | Profiles |
 |---|---:|
-| In the atlas | 1,365 |
-| Researched from sources (in the atlas) | 770 |
-| Published (passed every gate) | 631 |
-| **Active-ready** | **39** |
-| One item short | 67 |
-| Two items short | 59 |
-| Three to five short | 145 |
-| Story-ready, teaching withheld (sacred or restricted) | 66 |
+| In the atlas | 1,388 |
+| Researched from sources (in the atlas) | 803 |
+| Published (passed every gate) | 664 |
+| **Active-ready** | **41** |
+| One item short | 68 |
+| Two items short | 60 |
+| Three to five short | 157 |
+| Story-ready, teaching withheld (sacred or restricted) | 69 |
 
-Video studied so far: 341 lessons, 343 performances.
+Video studied so far: 374 lessons, 393 performances.
 
-Pace over the last two weeks: +26 active-ready a week.
-Pace over the last two weeks: +212 published a week.
+Pace over the last two weeks: +25 active-ready a week.
+Pace over the last two weeks: +214 published a week.
 
 ## What holds profiles back most
 
 | Missing item | Profiles |
 |---|---:|
-| the steps with their counts | 364 |
-| a lesson or performance the machine studied, with timestamps | 234 |
-| what to avoid: common mistakes or safety | 217 |
-| a hero video that passed the vision check | 186 |
-| two or more signature moves | 165 |
-| a licensed picture or licensed footage | 152 |
-| tempo, meter or the teacher's count | 150 |
-| posture | 142 |
-| arms and hands | 108 |
-| ordered basic steps or a lesson ladder | 108 |
-| the instruments and what the music sounds like | 92 |
-| origins, meaning and occasions, dress and setting — written from sources | 84 |
+| the steps with their counts | 380 |
+| a lesson or performance the machine studied, with timestamps | 247 |
+| what to avoid: common mistakes or safety | 224 |
+| a hero video that passed the vision check | 198 |
+| two or more signature moves | 172 |
+| a licensed picture or licensed footage | 161 |
+| tempo, meter or the teacher's count | 158 |
+| posture | 144 |
+| ordered basic steps or a lesson ladder | 113 |
+| arms and hands | 111 |
+| the instruments and what the music sounds like | 95 |
+| origins, meaning and occasions, dress and setting — written from sources | 83 |
 | formation and use of space | 53 |
 | known to be living, revived or historical | 30 |
 
 ## Closest to the line
 
 - **Abbots Bromley Horn Dance** — needs: the steps with their counts
-- **Acrobatic Rock'n'Roll** — needs: the steps with their counts
 - **Aerial dance** — needs: the steps with their counts
 - **Alegrías** — needs: the steps with their counts
 - **Ballos** — needs: what to avoid: common mistakes or safety
+- **Barn dance** — needs: what to avoid: common mistakes or safety
 - **Bugg** — needs: ordered basic steps or a lesson ladder
 - **Bush dance** — needs: the steps with their counts
 - **Cariñosa** — needs: what to avoid: common mistakes or safety
@@ -82,9 +82,9 @@ Pace over the last two weeks: +212 published a week.
 - **Jacking** — needs: a licensed picture or licensed footage
 - **Jota Aragonesa** — needs: known to be living, revived or historical
 - **Kebyar duduk** — needs: the steps with their counts
+- **Kikkli** — needs: the steps with their counts
 - **loure** — needs: a licensed picture or licensed footage
 - **Luddi** — needs: known to be living, revived or historical
-- **makossa** — needs: what to avoid: common mistakes or safety
 
 ## The fifteen items
 

@@ -1,0 +1,384 @@
+{
+ "slug": "mongolian-tsam",
+ "name": "Mongolian Tsam",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T20:32:19Z",
+ "qc_score": 9.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A Mongolian cultural historian or museum archivist",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Mongolian Tsam",
+   "Tsam",
+   "Цам"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Mongolian Tsam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Hidden Masks of Mongolia",
+     "This is Mongolian Tsam. 19th century introduction · Revived post-1991."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (OP-efSivJ88)",
+     "Title card: Mongolian Tsam · Mongolia · 19th century introduction · Revived post-1991"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Tsam was not introduced to Mongolia until the early 19th century, quickly gaining popularity through celebrations and the opera Tale of the Moon Cuckoo.",
+     "It incorporated tantric and older shamanistic elements before being banned under communist rule in 1924 and severely impacted by the 1937 Stalinist purges."
+    ],
+    "on_screen": [
+     "Map: Mongolia · Central Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Performed as a form of meditation and offering to the gods, offering moral instruction and bringing merit to observers.",
+     "Today it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (OP-efSivJ88)",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Accompanied by music played by monks using traditional Tibetan musical instruments, with time kept using percussion instruments like cymbals.",
+     "Listen for the traditional Tibetan musical instruments, cymbals."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear elaborate costumes and carved masks.",
+     "Many masks and costumes survived Soviet purges by being buried, hidden, or stored in museums such as the Choijin Lama Temple Museum."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Practiced in Mongolia, Inner Mongolia, and Buryatia, sharing roots with Tibetan Cham and Bhutanese Tshechu performances.",
+     "Derived from the Tibetan Cham tradition, incorporating tantric and shamanistic elements upon its 19th-century introduction to Mongolia."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Mongolian Tsam is parent of Cham dance: Tsam is the Mongolian adaptation of the Tibetan Cham tradition."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Tsam is a sacred Vajrayana Buddhist ritual dance performed by monks as an offering and meditation; outsiders must respect its religious context."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how Mongolian lamas revived the sacred Tsam dance after decades of brutal suppression.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "traditional Tibetan musical instruments",
+   "cymbals"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "ritual",
+   "meditative",
+   "solemn"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Mongolian Tsam (Mongolia). Instruments: traditional Tibetan musical instruments, cymbals. Mood: ritual, meditative, solemn. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "OP-efSivJ88",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear elaborate costumes and carved masks. Many masks and costumes survived Soviet purges by being buried, hidden, or stored in museums such as the Choijin Lama Temple Museum.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADevil_Dance_at_Lama_Temple%2C_March_1_1919%2C_Big_Head_Dancers.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AJakar_tshechu%2C_Ging_Tsholing_Cham_%2815844504202%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Devil_Dance_at_Lama_Temple%2C_March_1_1919%2C_Big_Head_Dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Devil_Dance_at_Lama_Temple%2C_March_1_1919%2C_Big_Head_Dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Gamble, Sidney D. / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADevil_Dance_at_Lama_Temple%2C_March_1_1919%2C_Big_Head_Dancers.jpg",
+    "description": "Devil Dance at Lama Temple, March 1 1919, Big Head Dancers\nDate: 1919-03-01\n\nLocation: Beijing, China"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Jakar_tshechu%2C_Ging_Tsholing_Cham_%2815844504202%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jakar_tshechu%2C_Ging_Tsholing_Cham_%2815844504202%29.jpg/1280px-Jakar_tshechu%2C_Ging_Tsholing_Cham_%2815844504202%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Arian Zwegers from Brussels, Belgium / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJakar_tshechu%2C_Ging_Tsholing_Cham_%2815844504202%29.jpg",
+    "description": "Jakar tshechu, Ging Tsholing Cham\nIn the dance of the Ging and the Tsholing, the Tsholing are terrifying deities who are seen as protectors of the religion, and who purify the ground of evil influences. The Tsholing wear long colourful dresses and terrifying masks. The Ging make up Guru Rinpoche’s retinue, and wear tiger-skin skirts and masks with a flag on top. Each Ging dancer carries a drum in "
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Carved wooden deity masks",
+   "Monastery courtyards",
+   "Traditional cymbals"
+  ],
+  "costume_notes": "Performers wear elaborate costumes and carved masks. Many masks and costumes survived Soviet purges by being buried, hidden, or stored in museums such as the Choijin Lama Temple Museum.",
+  "setting_notes": "Performed as a form of meditation and offering to the gods, offering moral instruction and bringing merit to observers.",
+  "map": {
+   "country": "Mongolia",
+   "region": "Central Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 19,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "signature moves",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cham_dance",
+  "https://www.wikidata.org/wiki/Q138567",
+  "https://es.wikipedia.org/wiki/Cham_(baile)",
+  "https://fr.wikipedia.org/wiki/Cham_(danse)",
+  "https://pt.wikipedia.org/wiki/Cham_(dança)",
+  "https://de.wikipedia.org/wiki/Cham-Mysterien"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "dd2a824e6a23362db8030901d56fe9f5486dc0172a9b2c62ca61b24c205d72b2",
+ "hero_checked": "pass"
+}

@@ -1,8 +1,8 @@
 # Kikkli — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.65 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.65 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic cultural guide focusing on partner trust, physical balance, and athletic coordination.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Spinning on the Edge of Balance
 NARRATION: This is Kikkli.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (OvC4_lwKFSY)
 ON SCREEN: Title card: Kikkli · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Two girls stand face to face close together, cross their arms, and in
 NARRATION: Leaning their bodies backward so their arms stretch to the maximum, they use this counter balance to wheel round rapidly in continuous circular motions.
 NARRATION: It is performed primarily in pairs, though sometimes four girls execute the dance together.
 NARRATION: Watch for Interlocked Twirl.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (OvC4_lwKFSY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Small stationary circular footprint, twirling in place in pairs or groups of four.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -118,7 +118,7 @@ NARRATION: Step 1: Stand face-to-face close to a partner.
 NARRATION: Step 2: Cross arms and interlock hands firmly with the partner.
 NARRATION: Footwork from the sources: Wheeling rapidly and continuously in small circular paths while maintaining counter-balanced weight.
 NARRATION: Drill: Practice crossing arms and locking hands with a partner.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -187,7 +187,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand face-to-face close to a partner.
 NARRATION: Step 2: Cross arms and interlock hands firmly with the partner.
 NARRATION: Drill: Take slow continuous steps in a small circle while leaning back.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -257,7 +257,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Incline body backward until arms are stretched to maximum length.
 NARRATION: Step 2: Wheel round continuously in rapid circular motions while maintaining balance.
 NARRATION: Drill: Accelerate circular twirling to match fast hand-clapping tempos.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear traditional clothing with floating dupattas (scarves) and anklets. As the girls spin, their dupattas float outward in the air and their anklets produce a rhythmic tinkling sound.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'OvC4_lwKFSY', 'checked_by_vision_model': True, 'title': 'Kikkli ~ ਕਿੱਕਲੀ ਕਲੀਰ ਦੀ (Punjabi Folk)'}
 Images: 1 licensed — ਕੁਲਜੀਤ ਕੌਰ / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Interlocked crossed hands pulled taut, Dupattas billowing horizontally in mid-air, Anklets motion-blurred during fast rotational spins, Onlookers clapping rhythmically in a supportive circle
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (3): https://en.wikipedia.org/wiki/Kikkli; https://www.wikidata.org/wiki/Q6406312; https://fr.wikipedia.org/wiki/Kikkli

@@ -1,0 +1,135 @@
+{
+ "youtube_id": "pDY_yPuT6Eg",
+ "slug": "jota-aragonesa",
+ "dance": "Jota Aragonesa",
+ "title": "Pasos básicos I Jota",
+ "channel": "Educación física Fabiola Guajardo",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-26T20:49:35Z",
+ "url": "https://www.youtube.com/watch?v=pDY_yPuT6Eg",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down the basic steps step-by-step with clear verbal instructions and counts. She progresses from footwork to speed, arms, and finally full practice with music.",
+  "language": "Spanish",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to the first basic step of Jota"
+   },
+   {
+    "t": "0:06",
+    "segment": "breakdown",
+    "note": "Explanation of foot position and alternate feet crossing"
+   },
+   {
+    "t": "1:09",
+    "segment": "slow_practice",
+    "note": "Practicing the footwork a bit faster"
+   },
+   {
+    "t": "1:35",
+    "segment": "layering",
+    "note": "Adding small hops on the tips of the feet"
+   },
+   {
+    "t": "2:08",
+    "segment": "layering",
+    "note": "Adding arm and hand positions"
+   },
+   {
+    "t": "3:05",
+    "segment": "music_practice",
+    "note": "Practicing with music"
+   }
+  ],
+  "counting_scheme": "derecho-izquierdo / 1-2-3",
+  "cues": [
+   "derecho",
+   "izquierdo",
+   "vuelvo",
+   "derecho, izquierdo",
+   "arriba, arriba"
+  ],
+  "metaphors": [
+   "como si estuviéramos en una cueca"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "half",
+    "full"
+   ],
+   "repetitions_per_step": 5
+  },
+  "common_mistakes": [
+   "No se nos pueden caer los brazos"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Paso básico de la jota",
+    "counts": "derecho - izquierdo",
+    "description": "Right foot crosses in front of left, left lifts behind, then alternate."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Progressive layering from feet to hops to arms",
+    "Repetition of the basic pattern"
+   ],
+   "what_hinders": [
+    "Lack of musical counts during practice"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:01",
+    "text": "el primer paso que vamos a aprender de la jota"
+   },
+   {
+    "t": "0:30",
+    "text": "realicemos los cinco veces"
+   },
+   {
+    "t": "1:35",
+    "text": "cuando lo realicemos con la música debemos darle pequeños saltitos"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 15,
+    "topic": "teaching",
+    "observation": "Teacher stands facing front with hands together, explaining starting position.",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "exact foot weighting",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 15,
+    "end_s": 28,
+    "topic": "movement",
+    "observation": "Demonstrating right and left foot crosses behind/in front with hands behind back.",
+    "viewpoint": "side, mirrored",
+    "cannot_infer": "full body balance",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Isolating feet first, adding hops, then arms, and finally pairing with music."
+ },
+ "attempts": 1
+}

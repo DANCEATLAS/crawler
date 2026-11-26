@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "pukkumina",
  "name": "Pukkumina (Pocomania)",
- "state": "not_published",
+ "state": "teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "JM"
@@ -11,12 +11,21 @@
   "slug": "pukkumina",
   "name": "Pukkumina (Pocomania)",
   "country": "Jamaica",
+  "country_code": "JM",
+  "flag_emoji": "🇯🇲",
+  "region": "Caribbean",
+  "family": "ritual-sacred",
   "era": "Revival",
   "tagline": "Revivalist possession dance",
   "profile": "Revivalist possession dance — Pukkumina (Pocomania) (Jamaica). Full sourced 9-field A+ profile in research artifact W8; concise schema stub pending text expansion.",
   "aliases": [
    "Pukkumina (Pocomania)",
-   "Pukkumina"
+   "Pukkumina",
+   "Kumina",
+   "Cumina",
+   "Pocomania",
+   "Kalunga",
+   "Kaduunga"
   ],
   "related": [
    "jamaican-quadrille",
@@ -24,17 +33,35 @@
    "son-cubano",
    "rumba"
   ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kumina",
+   "https://www.wikidata.org/wiki/Q2425480",
+   "https://fr.wikipedia.org/wiki/Kumina"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kumina",
+  "wikidata_qid": "Q2425480",
   "unesco": false,
   "image_significance": "Revivalist possession dance. A representative image shows ceremonial regalia in a ritual context — imagery should be handled respectfully, not as spectacle — Jamaica.",
   "tier": "content_ready",
   "_is_sacred": false,
-  "research_gate": "review",
-  "qc_score": 7.75,
-  "last_researched_at": "2026-10-29T16:33:55Z",
+  "research_gate": "publish",
+  "qc_score": 9.1,
+  "last_researched_at": "2026-11-26T20:30:54Z",
   "pipeline_version": "v3.3",
+  "profile_long": "Pukkumina, also documented as Kumina, Cumina, or Kalunga, developed in Jamaica during the 19th century. It draws in large part on elements from Kongo religion introduced by enslaved and later indentured labourers brought to the island from central Africa following the abolition of slavery. In the second half of the 19th century, the tradition syncretised with Myalism, while distinguishing itself from Zion Revivalism by rejecting the Bible as the sole authority behind worship, focusing instead on ancestral veneration. \n\nThe practices of Kumina are primarily linked to healing. Healing ceremonies utilise singing, dancing, drumming, animal sacrifice, and spirit possession, with the intent of summoning spirits to heal the sick individual. Ceremonies take the form of ecstatic dances designed to receive the knowledge of the ancestors, typically unfolding at night and lasting until the rising sun. The music is driven by the principal kbandu drum, accompanied by shakas, scrapes, and catta sticks, alongside songs featuring Kikongo terms. The dance follows a circular pattern in a counter-clockwise direction around the drummers. Beginning slowly and syncopated, the movement accelerates progressively, inducing an ecstatic trance state known as mayal among participants. \n\nOrganization of Kumina communities follows the local character of African religions in Jamaica, operating as small family-based groups or nations. Nations include Mondongo, Moyenge, Machunde, Kongo, Igbo, and Yoruba, with members of Kumina families holding the title Bongo. Leadership rests with a 'King' and 'Queen', who act as knowledge custodians, psychologists, doctors, priests, and judges. Imogene 'Queenie' Kennedy, also known as Queenie III (c.1920–1998), stands out as a prominent 20th-century Kumina Queen born in St. Thomas. \n\nGeographically, Kumina is mostly associated with the parish of St. Thomas in the east of Jamaica, though its practice spread to Portland, St. Mary, St. Catherine, and Kingston. The tradition's cultural footprint extends far beyond ritual gatherings. Kumina drumming deeply influenced Rastafari music—particularly Nyabinghi drumming—as well as Jamaican popular music genres like reggae and dancehall, exemplified by Sly & Robbie's 2002 'Kumina riddim' which featured prominent artists.",
+  "album_candidates": [
+   {
+    "title": "Kumina riddim",
+    "artist": "Sly & Robbie",
+    "source": "https://en.wikipedia.org/wiki/Kumina",
+    "verified": false
+   }
+  ],
   "is_sacred": true,
   "needs_eyes_on": true,
-  "sacred_note": "Ceremonies involve spirit possession and ancestral communication; outsiders should respect the sanctity of the ritual space and the role of the Bongo families.",
+  "sacred_note": "Kumina is a sacred religious healing tradition involving spirit possession and ancestor veneration; outsiders must respect ritual boundaries and avoid treating sacred ceremonies as secular entertainment.",
+  "movie_ready": true,
+  "tradition_status": "living",
   "related_slugs": [
    "jamaican-quadrille",
    "maypole-dance-jamaica",
@@ -42,22 +69,106 @@
    "cuban-rumba"
   ]
  },
+ "profile": {
+  "sections": {
+   "origins_and_history": "Kumina emerged through the practices of indentured labourers and enslaved people brought to Jamaica from the Kongo region of central Africa. In the second half of the 19th century, it syncretised with Myalism and distinguished itself from Zion Revivalism by rejecting the Bible as the central authority behind worship.",
+   "how_in_is_danced": "Ceremonies take the form of ecstatic dances that begin in the evening and last until sunrise. The dance follows a circular pattern counter-clockwise around the drummers, starting slowly and syncopically before accelerating progressively to induce the mayal trance state.",
+   "music_and_instruments": "The musical accompaniment centres on the main kbandu drum, supported by shakas, scrapes, and catta sticks. Songs incorporate Kikongo terms and serve to communicate with the ancestral world.",
+   "costume_and_setting": "Not described in sources beyond the nocturnal setting of ceremonies and community gathering spaces in parishes such as St. Thomas.",
+   "occasions_and_meaning": "Ceremonies are primarily linked to healing sick individuals through singing, dancing, drumming, animal sacrifice, and spirit possession. Participants seek to receive knowledge and prophecies from ancestral spirits.",
+   "notable_figures": "Imogene 'Queenie' Kennedy, known as Queenie III (c.1920–1998), was a renowned Kumina Queen born in St. Thomas who later lived in Kingston and Waterloo, St. Catherine.",
+   "regional_variants": "Primarily associated with St. Thomas in eastern Jamaica, the practice also spread to Portland, St. Mary, St. Catherine, and the city of Kingston. Kumina nations include Mondongo, Moyenge, Machunde, Kongo, Igbo, and Yoruba.",
+   "lineage": "Syncretised with Myalism in the 19th century and influenced Rastafari drumming (Nyabinghi) as well as modern dancehall and reggae."
+  },
+  "claims": [
+   {
+    "text": "Kumina is a religion that developed in Jamaica during the 19th century.",
+    "source": "https://en.wikipedia.org/wiki/Kumina"
+   },
+   {
+    "text": "Kumina is also known as Pukkumina or Pocomania, although the latter term is largely pejorative.",
+    "source": "https://en.wikipedia.org/wiki/Kumina"
+   },
+   {
+    "text": "Healing ceremonies utilise singing, dancing, drumming, animal sacrifice, and spirit possession, with the intent of summoning spirits to heal the sick individual.",
+    "source": "https://en.wikipedia.org/wiki/Kumina"
+   },
+   {
+    "text": "Imogene 'Queenie' Kennedy AKA Queenie III (c1920-1998) was a well-known Kumina Queen in the 20th century",
+    "source": "https://en.wikipedia.org/wiki/Kumina"
+   },
+   {
+    "text": "L'instrument principal, le kbandu, est accompagné de shakas, de râpes et de bâtons catta, ainsi que de chants comportant des termes kikongo.",
+    "source": "https://fr.wikipedia.org/wiki/Kumina"
+   },
+   {
+    "text": "La danse suit un schéma circulaire dans le sens inverse des aiguilles d'une montre autour des tambourinaires.",
+    "source": "https://fr.wikipedia.org/wiki/Kumina"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Exact rhythmic meters, tempo BPM, and precise musical notation",
+   "Detailed individual footwork counts and posture specifications outside of the circular formation"
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "kbandu",
+    "shakas",
+    "râpes",
+    "bâtons catta"
+   ],
+   "vocal_style": "call-and-response singing incorporating Kikongo terms",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "ecstatic",
+    "ceremonial",
+    "trance",
+    "reverent"
+   ],
+   "reference_recordings": [],
+   "sound_description": "Drumming driven by the principal kbandu drum, accompanied by shakas, scrapes, and catta sticks, supporting call-and-response singing with Kikongo terms that accelerates through the night."
+  },
+  "episode_brief": {
+   "title_hook": "Vessels of the Ancestors: The Power of Kumina",
+   "logline": "Explore the Kongo-rooted healing ceremonies of Jamaica where circular dance and drumming summon ancestral spirits.",
+   "beats": [
+    "Introduction to the parish of St. Thomas and the historical roots of Kongo labourers in Jamaica.",
+    "Exploration of Kumina organization, nations, and the leadership of Kumina Queens like Queenie III.",
+    "Examination of sacred healing ceremonies, animal sacrifice, and spirit possession.",
+    "Breakdown of the instrumentation featuring the kbandu drum, shakas, and catta sticks.",
+    "Demonstration of the counter-clockwise circular dance accelerating into the mayal trance state.",
+    "Legacy and influence on Rastafari Nyabinghi drumming and modern Jamaican music."
+   ],
+   "visual_motifs": [
+    "Circular night gatherings around drummers",
+    "Shakas and kbandu drums",
+    "Historical portraits of Queenie III"
+   ],
+   "music_cue": "A building kbandu drum pattern overlaid with shakas and Kikongo vocal chanting."
+  },
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "living",
+  "researched_at": "2026-11-26T20:30:54Z",
+  "qc_score": 9.1
+ },
  "readiness": {
   "standard": "AR-1",
-  "have": 1,
+  "have": 3,
   "of": 6,
   "missing": [
    {
-    "key": "published",
-    "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "status",
-    "label": "known to be living, revived or historical"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
+    "key": "story",
+    "label": "origins, meaning and occasions, dress and setting — written from sources"
    },
    {
     "key": "hero_video",
@@ -69,7 +180,16 @@
    }
   ]
  },
- "teaching_withheld": "Ceremonies involve spirit possession and ancestral communication; outsiders should respect the sanctity of the ritual space and the role of the Bongo families.",
- "fingerprint": "61add6c687ccadfb",
- "updated": "2026-11-21"
+ "teaching_withheld": "Kumina is a sacred religious healing tradition involving spirit possession and ancestor veneration; outsiders must respect ritual boundaries and avoid treating sacred ceremonies as secular entertainment.",
+ "episodes": {
+  "status": "withheld-chapters",
+  "chapters": 0,
+  "scenes": 10,
+  "gaps": 9,
+  "runtime_min": 9,
+  "polished": false,
+  "file": "episodes/pukkumina.json"
+ },
+ "fingerprint": "fc706d723a427db9",
+ "updated": "2026-11-26"
 }

@@ -2,7 +2,7 @@
  "slug": "mak-sa-moa",
  "name": "Mak Sa'moa",
  "pack_version": "e2",
- "built_at": "2026-11-25T21:47:20Z",
+ "built_at": "2026-11-26T21:10:14Z",
  "researched_at": "2026-11-25T19:36:38Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Mak Sa'moa. 19th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (GEKkZa6yJDQ)",
      "Title card: Mak Sa'moa · Fiji (Rotuma) · 19th century to present"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Foot shuffling and twisting."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (GEKkZa6yJDQ)",
      "Captions name each signature move as it appears",
      "Formation: Informal group or partner placement during village festivities."
     ],
@@ -269,7 +269,7 @@
       "Drill: Practice twisting feet inward and outward to a slow tempo."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -414,7 +414,7 @@
       "Step 2: Execute hand gestures interactively between male and female dancers."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -559,7 +559,7 @@
       "Step 2: Execute hand gestures interactively between male and female dancers."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -696,7 +696,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "GEKkZa6yJDQ",
+   "checked_by_vision_model": true,
+   "title": "Siva Samoa - Samoan Men's Dance"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -731,14 +735,14 @@
   ]
  },
  "teaching_formula": {
-  "source": "100 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 100,
+  "source": "111 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 111,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 3"
+   "repetitions per step: about 4"
   ],
   "cues": [
    "5-6-7-8",
@@ -746,13 +750,13 @@
    "step together step",
    "1 2 3 4",
    "1-2-3",
+   "putar",
+   "mundur",
    "step to the right",
    "un dos tres",
-   "side side side side",
-   "rock step rock step",
-   "have fun",
-   "don't forget to breathe",
-   "drop your shoulders"
+   "right together right touch",
+   "left together left touch",
+   "spin out"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -773,7 +777,6 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the music & instruments section",
@@ -788,6 +791,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "6d8973d0b1e1432bf4e6ed0108c320eed5b651dfaeac73b660a7197d63940435",
- "hero_checked": null
+ "input_fingerprint": "86c33b49c6eb030c5da636ae451b34b270e0804e7c2ac43b943bfd0530d0cac0",
+ "hero_checked": "pass"
 }

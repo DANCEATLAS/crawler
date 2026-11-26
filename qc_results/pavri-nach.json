@@ -1,0 +1,127 @@
+{
+ "slug": "pavri-nach",
+ "qc_at": "2026-11-26T20:39:37Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 2.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Pavri Nach"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "47"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "93"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Pavri Nach is classified simply as a type of dance within available digital regi"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "242"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "223"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/1 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "not described in sources"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 1,
+  "respect": 5,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Pavri Nach is documented in digital repositories as a type of dance.",
+   "Pavri Nach is classified simply as a type of dance within available digital registry records."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The profile lacks any substantive content, relying entirely on statements noting the absence of information. It fails to provide usable educational value or cultural context."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "country",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=2.0",
+  "doubts=2"
+ ],
+ "citation": {
+  "claims": 1,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-11-26T19:56:46Z"
+}

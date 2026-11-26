@@ -1,6 +1,6 @@
 # Tatsia — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.25 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.25 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; notable figures; two or more connections
 
@@ -117,7 +117,7 @@ NARRATION: Step 1: Grip the top perimeter of the sieve with four fingers inside 
 NARRATION: Step 2: Execute the Basic 8 by leaning forward, twisting the wrist inward to pass the sieve under the armpit, and extending upward into a high overhead arc.
 NARRATION: Footwork from the sources: Traditional Cypriot rhythmic footwork maintaining spatial orientation while supporting continuous arm rotations.
 NARRATION: Drill: Practice four-finger inside grip with thumb outside on an empty sieve frame.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -187,7 +187,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Perform the Reverse Change by sweeping the sieve behind the back during a torso spin and transferring hands behind the body.
 NARRATION: Drill: Connect the lower armpit loop continuously with the upper overhead arc in the Basic 8.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -258,7 +258,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Perform the Change by grabbing the sieve overhead with the opposite hand at the peak of the 8 arc, continuing directly into a Reverse 8.
 NARRATION: Step 2: Perform the Reverse Change by sweeping the sieve behind the back during a torso spin and transferring hands behind the body.
 NARRATION: Drill: Perform the Basic Rotation sequence (Basic 8 - Change - Reverse 8 - Reverse Change - Basic 8) with an empty glass.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Tatsia; https://www.wikidata.org/wiki/Q7688253

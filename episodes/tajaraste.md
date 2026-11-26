@@ -1,8 +1,8 @@
 # tajaraste — episode pack
 
-*Status: draft · built 2026-11-25 · judge 8.35 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 8.35 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; signature moves; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local 'parranda' leader who emphasizes the connection between the song's story and the feet's rhythm.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythm of the Stone Echo
 NARRATION: This is tajaraste. 16th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (2FeiCeuRHFY)
 ON SCREEN: Title card: tajaraste · Spain · 16th century to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: It is a collective dance performed in pairs.
 NARRATION: The movement is upbeat and syncopated.
 NARRATION: While specific choreography changes based on the island of origin (Tenerife or La Gomera), it maintains a happy, energetic character throughout the performance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (2FeiCeuRHFY)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Collective dance performed in pairs
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -118,7 +118,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Establish the syncopated pulse with the feet
 NARRATION: Step 2: Form pairs within a collective group
 NARRATION: Drill: Clap the syncopated rhythm without moving
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -186,7 +186,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Establish the syncopated pulse with the feet
 NARRATION: Step 2: Form pairs within a collective group
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -251,7 +251,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Coordinate hand movements with the rhythm of the chácaras
 NARRATION: Step 2: Execute island-specific turns and partner changes
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -303,7 +303,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performed in communal settings like festivals. Dancers typically wear traditional Canarian folk dress. In La Gomera, the large chácaras are a central visual and functional element of the dancer's equipment.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '2FeiCeuRHFY', 'checked_by_vision_model': True, 'title': 'Jota gomera (A.C. Tajaraste)'}
 Images: 2 licensed — Koppchen / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Koppchen / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
 Footage: MISSING
 Motifs: Large wooden chácaras, Traditional wool capes, Volcanic landscapes of Tenerife, Circular group formations
@@ -313,9 +313,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (3): https://en.wikipedia.org/wiki/Tajaraste; https://www.wikidata.org/wiki/Q7676784; https://es.wikipedia.org/wiki/Tajaraste

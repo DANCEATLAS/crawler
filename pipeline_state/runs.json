@@ -1,242 +1,5 @@
 [
  {
-  "stage": "report",
-  "started": "2026-10-28T03:54:17Z",
-  "finished": "2026-10-28T03:54:19Z",
-  "counters": {
-   "review_items": 0
-  },
-  "notes": [],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "audit",
-  "started": "2026-10-28T06:20:56Z",
-  "finished": "2026-10-28T06:22:42Z",
-  "counters": {
-   "judge_retire": 25,
-   "judge_keep": 206,
-   "judge_review_capped": 17,
-   "retired_or_merged_total": 67
-  },
-  "notes": [
-   "audit: 67 entries retired/merged of 1014; judged so far 384"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "discover",
-  "started": "2026-10-28T06:22:42Z",
-  "finished": "2026-10-28T06:32:20Z",
-  "counters": {
-   "harvested": 2131,
-   "already_known": 565,
-   "dup_qid": 2,
-   "dup_name": 113,
-   "deferred": 1371,
-   "dup_fuzzy": 9,
-   "not_dance_like": 10,
-   "queued_new": 20
-  },
-  "notes": [
-   "candidate queue: 40 queued, 56 tracked"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "research",
-  "started": "2026-10-28T06:32:20Z",
-  "finished": "2026-10-28T06:35:26Z",
-  "counters": {
-   "researched_llm_failed": 2,
-   "researched_researched": 10,
-   "llm_calls": 28,
-   "llm_failures": 18
-  },
-  "notes": [
-   "targets: 12 (llm enabled=True)"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "qc",
-  "started": "2026-10-28T06:35:26Z",
-  "finished": "2026-10-28T06:35:57Z",
-  "counters": {
-   "gate_reject": 1,
-   "gate_review": 9,
-   "llm_calls": 27
-  },
-  "notes": [
-   "qc targets: 10 (judge enabled=True)"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "hero_qc",
-  "started": "2026-10-28T06:35:57Z",
-  "finished": "2026-10-28T06:41:15Z",
-  "counters": {
-   "videos_fetched": 47,
-   "verdict_pass": 15,
-   "verdict_fail": 5,
-   "replaced": 3,
-   "evicted_for_recrawl": 2,
-   "llm_calls": 43
-  },
-  "notes": [
-   "hero qc targets: 20 of 1008 heroes (vision=True)"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "build",
-  "started": "2026-10-28T06:41:15Z",
-  "finished": "2026-10-28T06:41:27Z",
-  "counters": {
-   "retired_by_audit": 67,
-   "new_rejected_hidden": 1,
-   "new_review_hidden": 3,
-   "existing_review": 6
-  },
-  "notes": [
-   "catalogue built: {'generated_at': '2026-10-28T06:41:27Z', 'count': 947, 'with_hero': 750, 'hero_qc_pass': 29, 'deep_profiles': 0, 'with_albums': 0, 'with_images': 0, 'with_tutorials': 43, 'content_ready': 533, 'new_from_pipeline': 0, 'retired': 67, 'counters': {'retired_by_audit': 67, 'new_rejected_hidden': 1, 'new_review_hidden': 3, 'existing_review': 6}, 'pipeline': 'v3.0'}"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "sync",
-  "started": "2026-10-28T06:41:27Z",
-  "finished": "2026-10-28T06:41:39Z",
-  "counters": {
-   "skipped_reject_new": 1,
-   "inserted_review": 9
-  },
-  "notes": [
-   "dances columns known: 32; pipeline columns present: []",
-   "sync targets: 10"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "report",
-  "started": "2026-10-28T06:41:39Z",
-  "finished": "2026-10-28T06:41:40Z",
-  "counters": {
-   "review_items": 10
-  },
-  "notes": [],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "audit",
-  "started": "2026-10-28T16:08:29Z",
-  "finished": "2026-10-28T16:11:21Z",
-  "counters": {
-   "judge_retire": 18,
-   "judge_keep": 62,
-   "retired_or_merged_total": 85
-  },
-  "notes": [
-   "audit: 85 entries retired/merged of 1014; judged so far 464"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "discover",
-  "started": "2026-10-28T16:11:21Z",
-  "finished": "2026-10-28T16:21:45Z",
-  "counters": {
-   "harvested": 2131,
-   "already_known": 594,
-   "dup_qid": 2,
-   "dup_name": 114,
-   "deferred": 1330,
-   "not_dance_like": 10,
-   "queued_new": 40
-  },
-  "notes": [
-   "candidate queue: 76 queued, 96 tracked"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "research",
-  "started": "2026-10-28T16:21:45Z",
-  "finished": "2026-10-28T16:30:24Z",
-  "counters": {
-   "researched_llm_failed": 6,
-   "researched_researched": 22,
-   "researched_no_sources": 2,
-   "llm_calls": 55,
-   "llm_failures": 33
-  },
-  "notes": [
-   "targets: 30 (llm enabled=True)"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "qc",
-  "started": "2026-10-28T16:30:24Z",
-  "finished": "2026-10-28T16:32:16Z",
-  "counters": {
-   "gate_reject": 6,
-   "gate_review": 16,
-   "llm_calls": 42
-  },
-  "notes": [
-   "qc targets: 22 (judge enabled=True)"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "hero_qc",
-  "started": "2026-10-28T16:32:16Z",
-  "finished": "2026-10-28T16:33:01Z",
-  "counters": {
-   "videos_fetched": 142,
-   "verdict_pass": 58,
-   "verdict_fail": 2,
-   "replaced": 2,
-   "llm_calls": 33
-  },
-  "notes": [
-   "hero qc targets: 60 of 1088 heroes (vision=True)"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
-  "stage": "build",
-  "started": "2026-10-28T16:33:01Z",
-  "finished": "2026-10-28T16:33:17Z",
-  "counters": {
-   "retired_by_audit": 85,
-   "new_rejected_hidden": 7,
-   "new_review_hidden": 9,
-   "existing_review": 16
-  },
-  "notes": [
-   "catalogue built: {'generated_at': '2026-10-28T16:33:17Z', 'count': 929, 'with_hero': 813, 'hero_qc_pass': 78, 'deep_profiles': 0, 'with_albums': 0, 'with_images': 0, 'with_tutorials': 60, 'content_ready': 530, 'new_from_pipeline': 0, 'retired': 85, 'counters': {'retired_by_audit': 85, 'new_rejected_hidden': 7, 'new_review_hidden': 9, 'existing_review': 16}, 'pipeline': 'v3.0'}"
-  ],
-  "errors": [],
-  "version": "v3.0"
- },
- {
   "stage": "sync",
   "started": "2026-10-28T16:33:17Z",
   "finished": "2026-10-28T16:33:46Z",
@@ -7200,6 +6963,296 @@
   "finished": "2026-11-25T21:48:53Z",
   "counters": {
    "review_items": 501
+  },
+  "notes": [],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "health",
+  "started": "2026-11-26T19:07:25Z",
+  "finished": "2026-11-26T19:07:25Z",
+  "counters": {
+   "scale_pct": 100
+  },
+  "notes": [
+   "tuning: models healthy (6 of 477 questions unanswered); budgets at 100%",
+   "lessons: 1143 QC records in 30 days; top gate failures [('sections_filled', 243), ('citations', 136), ('sacred_handled', 114)]; top script gaps [('a verified recording to listen to', 575), ('tempo (bpm)', 562), ('licensed reference footage', 467)]"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "audit",
+  "started": "2026-11-26T19:07:25Z",
+  "finished": "2026-11-26T19:07:25Z",
+  "counters": {
+   "retired_or_merged_total": 137
+  },
+  "notes": [
+   "audit: 137 entries retired/merged of 1014; judged so far 919"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "discover",
+  "started": "2026-11-26T19:07:25Z",
+  "finished": "2026-11-26T19:07:58Z",
+  "counters": {
+   "harvested": 3619,
+   "already_known": 2027,
+   "dup_qid": 117,
+   "dup_name": 135,
+   "not_dance_like": 10,
+   "deferred": 293,
+   "queued_new": 60
+  },
+  "notes": [
+   "candidate queue: 633 queued, 1506 tracked"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "research",
+  "started": "2026-11-26T19:07:58Z",
+  "finished": "2026-11-26T20:36:23Z",
+  "counters": {
+   "researched_researched": 64,
+   "researched_llm_failed": 3,
+   "researched_no_sources": 3,
+   "llm_calls": 118,
+   "llm_failures": 57,
+   "llm_requests": 61,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "targets: 70 (llm enabled=True)",
+   "model trouble: waited_seconds 203, overloaded 38, unusable_answer 8, day_quota_used_up 5, timeout_or_network 4, model_gone 2",
+   "refused for quota: gemini-3-flash-preview (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 44228s); gemini-3.5-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 43413s); gemini-3.7-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 42799s); gemini-3.6-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 42198s); gemini-3.8-flash (GenerateRequestsPerDayPerProjectPerModel-FreeTier limit 20, retry in 41371s)"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "qc",
+  "started": "2026-11-26T20:36:23Z",
+  "finished": "2026-11-26T20:40:36Z",
+  "counters": {
+   "gate_reject": 14,
+   "gate_publish": 37,
+   "gate_review": 8,
+   "llm_calls": 60,
+   "llm_failures": 0,
+   "llm_requests": 59,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "qc targets: 59 (judge enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "hero_qc",
+  "started": "2026-11-26T20:40:36Z",
+  "finished": "2026-11-26T20:41:51Z",
+  "counters": {
+   "videos_fetched": 28,
+   "verdict_fail": 4,
+   "evicted_for_recrawl": 3,
+   "verdict_pass": 7,
+   "replaced": 1,
+   "llm_calls": 17,
+   "llm_failures": 0,
+   "llm_requests": 16,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "hero qc targets: 11 of 1454 heroes (vision=True)"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "build",
+  "started": "2026-11-26T20:41:51Z",
+  "finished": "2026-11-26T20:42:11Z",
+  "counters": {
+   "retired_by_audit": 122,
+   "new_rejected_hidden": 218,
+   "new_publish": 496,
+   "new_review_hidden": 144,
+   "existing_research_rejected": 60,
+   "existing_reject": 60,
+   "existing_publish": 168,
+   "existing_review": 86
+  },
+  "notes": [
+   "catalogue built: {'generated_at': '2026-11-26T20:42:11Z', 'count': 1388, 'with_hero': 1142, 'hero_qc_pass': 861, 'deep_profiles': 664, 'movie_ready': 194, 'with_albums': 55, 'with_images': 464, 'with_tutorials': 263, 'content_ready': 1094, 'new_from_pipeline': 496, 'retired': 122, 'counters': {'retired_by_audit': 122, 'new_rejected_hidden': 218, 'new_publish': 496, 'new_review_hidden': 144, 'existing_research_rejected': 60, 'existing_reject': 60, 'existing_publish': 168, 'existing_review': 86}, 'pipeline': 'v3.3', 'research_gates': {'unreviewed': 578, 'publish': 664, 'review': 86, 'reject': 60}}"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "teaching",
+  "started": "2026-11-26T20:42:11Z",
+  "finished": "2026-11-26T20:49:21Z",
+  "counters": {
+   "basics_lessons_found": 2,
+   "science_ok": 4,
+   "science_thin": 2,
+   "paper_ok": 4,
+   "method_ok": 12,
+   "method_failed": 1,
+   "mentor_look_ok": 12,
+   "llm_calls": 44,
+   "llm_failures": 8,
+   "llm_requests": 35,
+   "llm_unanswered": 1
+  },
+  "notes": [
+   "teachers ranked: 712; lessons to study for method: 13 (budget 10, 3 on the basics, 0 of them a teacher's talk; 3 read once more for the practices of 21 November, 45 such lessons waiting); engine on",
+   "model trouble: waited_seconds 70, overloaded 3, unusable_answer 3, model_gone 2",
+   "refused for quota: gemini-3.5-flash-lite (GenerateContentInputTokensPerModelPerMinute-FreeTier limit 250000, retry in 24s, on a video question)",
+   "teaching research: 126 lessons of 113 teachers studied (123 with the mentor look), 61 topic notes and 28 paper notes, 29 practices with two or more kinds of evidence"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "pedagogy",
+  "started": "2026-11-26T20:49:21Z",
+  "finished": "2026-11-26T21:05:34Z",
+  "counters": {
+   "video_ok": 33,
+   "video_not_a_lesson": 7,
+   "performance_ok": 50,
+   "llm_calls": 99,
+   "llm_failures": 8,
+   "llm_requests": 90,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "lessons to study: 40 (budget 40)",
+   "performances to observe: 50",
+   "model trouble: waited_seconds 67, overloaded 4, model_gone 2, unusable_answer 2",
+   "playbook: 374 lessons across 259 dances"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "footage",
+  "started": "2026-11-26T21:05:34Z",
+  "finished": "2026-11-26T21:06:50Z",
+  "counters": {
+   "lists_read": 16,
+   "clips_kept": 25,
+   "clips_left_out": 36,
+   "lists_with_nothing_kept": 6,
+   "lists_waiting": 0,
+   "llm_calls": 17,
+   "llm_failures": 0,
+   "llm_requests": 16,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "footage lists: 447 read before, 16 to read, 16 this run"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "pictures",
+  "started": "2026-11-26T21:06:50Z",
+  "finished": "2026-11-26T21:09:48Z",
+  "counters": {
+   "searched": 60,
+   "pictures_kept": 47,
+   "pictures_left_out": 190,
+   "nothing_kept": 21,
+   "profiles_given_a_picture": 15,
+   "nothing_found": 24,
+   "waiting": 177,
+   "llm_calls": 38,
+   "llm_failures": 1,
+   "llm_requests": 36,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "profiles with a picture: 723; without one and due for a search: 237; this run: 60",
+   "model trouble: overloaded 1"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "episodes",
+  "started": "2026-11-26T21:09:48Z",
+  "finished": "2026-11-26T21:10:15Z",
+  "counters": {
+   "built": 541,
+   "polished": 4,
+   "status_draft": 498,
+   "unchanged": 131,
+   "status_withheld-chapters": 174,
+   "llm_calls": 5,
+   "llm_failures": 0,
+   "llm_requests": 4,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "episode packs: 672 (0 complete, 6 polished); gaps for 671 packs"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "translate",
+  "started": "2026-11-26T21:10:15Z",
+  "finished": "2026-11-26T21:10:57Z",
+  "counters": {
+   "translated": 6,
+   "scenes_translated": 159,
+   "scenes_master_kept": 9,
+   "llm_calls": 7,
+   "llm_failures": 0,
+   "llm_requests": 6,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "languages: es,fr,de,pt,it,ja,zh,ko,ar,hi,ru,id · translations to make: 6 (budget 6)",
+   "translations on file for the current masters: 6 across 12 languages"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "sync",
+  "started": "2026-11-26T21:10:58Z",
+  "finished": "2026-11-26T21:11:46Z",
+  "counters": {
+   "patch_nomatch": 5,
+   "patched": 7,
+   "skipped_reject_new": 10,
+   "inserted_publish": 30,
+   "inserted_review": 7
+  },
+  "notes": [
+   "dances columns known: 32; pipeline columns present: []",
+   "sync targets: 59"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "report",
+  "started": "2026-11-26T21:11:46Z",
+  "finished": "2026-11-26T21:11:48Z",
+  "counters": {
+   "review_items": 518
   },
   "notes": [],
   "errors": [],

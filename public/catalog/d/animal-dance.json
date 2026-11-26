@@ -64,7 +64,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 7,
+  "have": 8,
   "of": 15,
   "missing": [
    {
@@ -92,16 +92,13 @@
     "label": "ordered basic steps or a lesson ladder"
    },
    {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   },
-   {
     "key": "hero_video",
     "label": "a hero video that passed the vision check"
    }
   ],
   "via": {
    "rhythm": "lesson",
+   "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
@@ -155,8 +152,90 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "gHkV4E5J1lM",
+   "url": "https://www.youtube.com/watch?v=gHkV4E5J1lM",
+   "title": "KATSEYE ANIMAL Dance Tutorial | Learn the Viral Choreography Fast",
+   "channel": "Gustavo Krystal Dance",
+   "analysed_on": "2026-11-26",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "5-6-7-8 / 1-and-a-2-and-a",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to the Animal dance tutorial"
+    },
+    {
+     "t": "0:18",
+     "seconds": 18,
+     "segment": "context",
+     "note": "Explaining mirrored demonstration and orientation"
+    },
+    {
+     "t": "0:27",
+     "seconds": 27,
+     "segment": "breakdown",
+     "note": "Breaking down the first section step-by-step"
+    },
+    {
+     "t": "4:44",
+     "seconds": 284,
+     "segment": "breakdown",
+     "note": "Teaching part B and subsequent sections"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Shoulder Twists and Claws",
+     "counts": "1 & a 2 & a",
+     "description": "Twisting torso and shoulders with claw hands"
+    }
+   ],
+   "cues": [
+    "left right left",
+    "switch sides",
+    "scoop low",
+    "shimmies"
+   ],
+   "images": [
+    "milk those slow ones",
+    "move like an animal",
+    "licking your paws kind of"
+   ],
+   "common_mistakes": [
+    "starting on the wrong foot"
+   ],
+   "teacher_style": "The instructor breaks down the choreography step-by-step, focusing on upper body movements, shoulder isolations, and footwork. She uses verbal cues and counts while demonstrating the movements from the front.",
+   "distinctive_method": "Breaking down movements into separate upper body, foot, and head components before combining them into full counts.",
+   "what_works": [
+    "breaking choreography into distinct chunks",
+    "explicitly noting mirrored teaching orientation"
+   ],
+   "what_hinders": [
+    "fast pacing on intricate details"
+   ],
+   "evidence": [
+    {
+     "start_s": 27,
+     "end_s": 44,
+     "topic": "teaching",
+     "observation": "Instructor stands facing front, explaining counts and upper body positioning before adding footwork",
+     "viewpoint": "front view, mirrored",
+     "cannot_infer": "exact weight transfer on feet",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
- "fingerprint": "9ce67085d36ead49",
- "updated": "2026-11-25"
+ "fingerprint": "c3c9c9ae8b0f9e9d",
+ "updated": "2026-11-26"
 }

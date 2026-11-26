@@ -32,6 +32,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Milonguero_style",
   "wikidata_qid": "Q6860422",
   "unesco": false,
+  "hero_video_youtube_id": "6ZdaV2J8H4A",
+  "video_stack": [
+   {
+    "youtube_id": "6ZdaV2J8H4A",
+    "role": "hero",
+    "title": "Back Cruzadas for Milonguero style.",
+    "channel": "MIRIAM LEONARDO Tango",
+    "hd": true
+   },
+   {
+    "youtube_id": "u7-D5Wm0Yrk",
+    "role": "rendition",
+    "title": "MILONGUERO STYLE COMBINATION",
+    "channel": "MIRIAM LEONARDO Tango",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -57,7 +74,13 @@
    }
   ],
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:qc_failed_pending_recrawl",
+  "hero_qc": {
+   "verdict": "fail",
+   "checked_at": "2026-11-26T20:41:18Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -275,6 +298,6 @@
   "polished": false,
   "file": "episodes/milonguero-style.json"
  },
- "fingerprint": "7e76a78d7bff9db6",
- "updated": "2026-11-25"
+ "fingerprint": "e5c0d44d319a7181",
+ "updated": "2026-11-26"
 }

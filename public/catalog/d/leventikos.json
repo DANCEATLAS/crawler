@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "leventikos",
  "name": "Leventikos",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "GR"
@@ -11,13 +11,23 @@
   "slug": "leventikos",
   "name": "Leventikos",
   "country": "Greece",
+  "country_code": "GR",
+  "flag_emoji": "🇬🇷",
   "region": "Europe",
-  "tagline": "Greece — Leventikos (Greek: Λεβέντικος, Levéntikos); or Bufčansko (Macedonian: Буфчанско), also known as Litós (Λιτό…",
-  "profile": "Leventikos (Greek: Λεβέντικος, Levéntikos); or Bufčansko (Macedonian: Буфчанско), also known as Litós (Λιτός), Kucano, Nešo or Pusteno, is a dance of western Macedonia, mainly performed by Slav Macedonians and Greeks in the town of Florina, Greece and in the Resen and Bitola regions in the neighbouring North Macedonia.",
-  "insight": "Leventikos (Greek: Λεβέντικος, Levéntikos); or Bufčansko (Macedonian: Буфчанско), also known as Litós (Λιτός), Kucano, Nešo or Pusteno, is a dance of western Macedonia, mainly performed by Slav Macedonians and Greeks in the town of Florina, Greece and in the Resen and Bitola regions in the neighbouring North Macedonia..",
+  "family": "folk-circle",
+  "era": "not described in sources",
+  "tagline": "A western Macedonian circle dance performed in complex asymmetrical meters.",
+  "profile": "Leventikos, also known as Bufčansko or Litós, is a traditional circle dance originating from western Macedonia. Performed by Slav Macedonians and Greeks in regions such as Florina, Resen, and Bitola, it is characterized by intricate asymmetrical meters. The dance features a slow-quick-quick-slow-quick step pattern set to shifting musical rhythms.",
+  "insight": "Leventikos shifts between complex 12/8 and 16/8 asymmetric meters, its rapid footwork uniting communities across Florina and Bitola.",
   "aliases": [
    "Λιτός",
-   "Litós"
+   "Litós",
+   "Bufčansko",
+   "Kucano",
+   "Nešo",
+   "Pusteno",
+   "Puscheno horo",
+   "Bufsko horo"
   ],
   "related": [
    "sirtaki",
@@ -28,14 +38,31 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Leventikos",
-   "Source: Leventikos on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Leventikos"
+   "Source: Leventikos on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Leventikos",
+   "https://www.wikidata.org/wiki/Q12291773"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Leventikos",
   "wikidata_qid": "Q12291773",
   "unesco": false,
   "hero_video_youtube_id": "qe29yokZOiU",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.3,
+  "last_researched_at": "2026-11-26T20:17:56Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Leventikos, recognized under multiple names including Bufčansko, Litós, Kucano, Nešo, Pusteno, Puscheno horo, and Bufsko horo, is a traditional circle dance classified under the broader family of hora dances. It is primarily performed by Slav Macedonians and Greeks in the town of Florina in Greece, as well as the Resen and Bitola regions in neighboring North Macedonia. The origins and history of the dance are deeply tied to the regional musical traditions of the southern Balkans, reflecting cross-cultural sharing across national borders. Culturally, the dance has even crossed into global popular media, with its Buvčansko theme featured as part of Macedon's soundtrack in the strategy game Civilization VI. \n\nThe physical execution of Leventikos closely reflects its underlying rhythmic structure. The movement mirrors a foundational step sequence of slow-quick-quick-slow-quick, mapped onto a five-beat measure. Beyond this basic step description, further technical specifics of posture, arm holds, and spatial formations are not detailed in the sources, maintaining a traditional form that varies by community. Regional variants highlight this fluidity; notably, the Levendikos dance performed in Petroussa is described as very different from the version executed in Florina. \n\nMusically, Leventikos is defined by complex asymmetric meters that challenge dancers and musicians alike. The meter comprises five beats of varying length, appearing in distinct variations. One prominent meter is structured around 12/8, counted as 3+2+2+3+2, where the metric threes are divided into quadruplets, though at higher speeds the accents may shift to sound more like 3+4+3+2. Another variation utilizes a 16/8 meter counted as 4+2+3+4+3, with the metric fours broken down into sub-beats of 2+2. Traditional Balkan performance practices apply here, where the second two-beat can be lengthened relative to its written value, while the final beat is often shortened. The 12/8 meter is shared with traditional Northern and Southern Albanian ballads and other Macedonian dance tunes such as Berace, Beranče, and Bajrače. Meanwhile, the 16/8 meter has emerged more recently in tunes for Leventikos in Florina and in renditions of dances like Pušteno. Specific traditional songs, such as Ibraim Odza, demonstrate this musical versatility by being performed in both 12/8 and 16/8 meters depending on the regional interpretation. \n\nDue to the specialized nature of the documentation, certain aspects of Leventikos remain unrecorded in the primary sources. Details regarding traditional costume design, performance settings, specific notable figures, and comprehensive beginner teaching methodologies are not described in sources. Nevertheless, the living tradition persists through community practice and musical transmission, anchored by its distinctive asymmetrical rhythms and regional adaptations.",
+  "album_candidates": [
+   {
+    "title": "Ibraim Odza",
+    "artist": "Traditional",
+    "source": "https://en.wikipedia.org/wiki/Leventikos",
+    "verified": false
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -49,6 +76,259 @@
    "karsilamas"
   ]
  },
- "fingerprint": "86ab74da6414269b",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Leventikos is a traditional dance rooted in western Macedonia, practiced by Slav Macedonians and Greeks across Florina, Resen, and Bitola. It shares historical musical ties with Balkan ballads and regional dance forms.",
+   "how_it_is_danced": "The dance steps follow a slow-quick-quick-slow-quick pattern corresponding to a five-beat meter. The style performed in Petroussa differs significantly from the version in Florina. Other technical details like precise posture and arms are not described in sources.",
+   "music_and_instruments": "Music is built on asymmetric meters of 12/8 (3+2+2+3+2) and 16/8 (4+2+3+4+3). Tunes like Ibraim Odza are performed in multiple metric variations, sharing rhythmic space with dances like Pušteno and Beranče.",
+   "costume_and_setting": "not described in sources",
+   "occasions_and_meaning": "Performed in community contexts across western Macedonia, the Buvčansko theme has also entered popular culture through its inclusion in Civilization VI.",
+   "notable_figures": "not described in sources",
+   "regional_variants": "The dance performed in Petroussa is very different from the one in Florina. It is also known by local variants such as Bufčansko, Litós, Kucano, Nešo, Pusteno, Puscheno horo, and Bufsko horo.",
+   "lineage": "Classified as a subclass of the hora dance family, sharing metric structures with regional tunes like Berace, Beranče, Bajrače, and Pušteno."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Slow step on the first primary beat",
+    "Quick step on the second beat",
+    "Quick step on the third beat",
+    "Slow step on the fourth beat",
+    "Quick step on the final beat"
+   ],
+   "rhythm": "Five-beat asymmetric meter in 12/8 (3+2+2+3+2) or 16/8 (4+2+3+4+3)",
+   "formation": "Circle dance (hora family)",
+   "level_notes": "Not described in sources beyond the basic slow-quick step correlation."
+  },
+  "claims": [
+   {
+    "text": "Leventikos is a traditional dance known by multiple names in western Macedonia.",
+    "source": "https://en.wikipedia.org/wiki/Leventikos"
+   },
+   {
+    "text": "The dance steps correspond to a meter of five beats with a slow-quick-quick-slow-quick structure.",
+    "source": "https://en.wikipedia.org/wiki/Leventikos"
+   },
+   {
+    "text": "The Petroussa performance of Levendikos differs greatly from Florina's version.",
+    "source": "https://en.wikipedia.org/wiki/Leventikos"
+   },
+   {
+    "text": "Tune renditions like Ibraim Odza are performed in both 12/8 and 16/8 meters.",
+    "source": "https://en.wikipedia.org/wiki/Leventikos"
+   },
+   {
+    "text": "The Buvčansko theme is featured in Civilization VI as part of Macedon's soundtrack.",
+    "source": "https://en.wikipedia.org/wiki/Leventikos"
+   },
+   {
+    "text": "The 16/8 meter appears in recent tunes for Leventikos in the Florina region.",
+    "source": "https://en.wikipedia.org/wiki/Leventikos"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Costume descriptions and performance attire",
+   "Detailed spatial floor patterns beyond basic circle formation",
+   "Specific instrumental ensemble composition"
+  ],
+  "confidence": 0.85,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "12/8 and 16/8 asymmetric",
+   "rhythm_pattern": "3+2+2+3+2 or 4+2+3+4+3",
+   "instruments": [],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "lively",
+    "asymmetric",
+    "traditional"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Ibraim Odza",
+     "artist": "traditional"
+    }
+   ],
+   "sound_description": "Asymmetric Balkan dance tunes featuring shifting accents across five irregular beats, with ornamented melodies adaptable to both 12/8 and 16/8 time signatures."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "slow-quick-quick-slow-quick pattern matching five beats of varying length",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "circle dance",
+   "partnering": "not described in sources",
+   "tempo_feel": "variable speed affecting metric accent distribution",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "Dancing the Asymmetry: The Rhythms of Leventikos",
+   "logline": "Explore the complex 12/8 and 16/8 asymmetric rhythms of Leventikos across Florina and North Macedonia.",
+   "beats": [
+    "Introduction to western Macedonia and the dual Greek-Macedonian performance context.",
+    "Listening exercise breaking down the 3+2+2+3+2 and 4+2+3+4+3 metric structures.",
+    "Demonstrating the slow-quick-quick-slow-quick step relationship.",
+    "Comparing the Florina style with the distinct Petroussa variant.",
+    "Tracing its modern footprint from regional folk gatherings to Civilization VI."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "beginner",
+     "goal": "Clap and step the basic five-beat asymmetric pulse.",
+     "drills": [
+      "Count aloud the 12/8 asymmetric groupings.",
+      "Step slow-quick-quick-slow-quick in place to a steady drum cue."
+     ]
+    },
+    {
+     "level": "intermediate",
+     "goal": "Adapt footwork to tempo shifts between 12/8 and 16/8 variations.",
+     "drills": [
+      "Practice transitioning foot timing on the tune Ibraim Odza."
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Open community circle formations",
+    "Map of Florina and Bitola border region",
+    "Sheet music accent diagrams for 12/8 and 16/8 meters"
+   ],
+   "instructor_persona": "A regional ethnomusicology researcher grounded in Balkan folk traditions.",
+   "music_cue": "Traditional instrumental performance of Ibraim Odza in 12/8 meter."
+  },
+  "connections": [
+   {
+    "name": "Pušteno",
+    "relation": "variant",
+    "note": "Shares performance tunes and similar 16/8 metric interpretations."
+   },
+   {
+    "name": "Beranče",
+    "relation": "shares_music",
+    "note": "Utilizes the traditional 12/8 (3+2+2+3+2) meter."
+   },
+   {
+    "name": "Hora",
+    "relation": "parent",
+    "note": "Classified within the broader hora circle dance family."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Seated rhythmic foot tapping following the slow-quick-quick-slow-quick timing.",
+    "standing_version": "Supported circle hold with reduced step range and slower tempo.",
+    "tempo_and_range": "Reduced tempo, minimal spatial travel.",
+    "counts": "1-2 (slow), 3 (quick), 4 (quick), 5-6 (slow), 7 (quick)",
+    "avoid": [
+     "fast tempo shifts",
+     "sharp directional changes"
+    ]
+   },
+   "children": {
+    "game_version": "Group hand-holding circle game stepping to asymmetric claps.",
+    "duration_minutes": "3",
+    "counts": "Simplified 5-beat count focusing on the slow-quick pattern.",
+    "avoid": [
+     "complex speed accelerations"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-26T20:17:56Z",
+  "qc_score": 9.3
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 12,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
+ },
+ "performances": [
+  {
+   "youtube_id": "qe29yokZOiU",
+   "url": "https://www.youtube.com/watch?v=qe29yokZOiU",
+   "analysed_on": "2026-11-26",
+   "observation": {
+    "setting": "indoor school gymnasium or dance studio with wooden wall bars and banner in background",
+    "dancers": "one adult woman solo",
+    "formation_and_space": "solo dancer moving laterally and turning in place",
+    "posture": "upright torso, relaxed knees, weight shifting between feet",
+    "footwork": "stepping side-to-side, tapping heels and crossing feet on beat",
+    "arms_and_hands": "arms held out to sides at shoulder height with elbows slightly bent and fists clenched",
+    "hips_and_torso": "minimal torso movement, upper body relatively still while stepping",
+    "partnering": "none",
+    "levels_jumps_turns": "standing level, low turns, no jumps",
+    "costume_and_props": "black t-shirt with multicolored logo, black trousers or leggings, athletic sneakers",
+    "cannot_infer": "exact foot pressure and precise timing details due to camera framing and stationary angle",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "clarinet"
+     ],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 39,
+      "end_s": 55,
+      "what": "stepping sideways with heel taps while holding arms extended at shoulder height"
+     },
+     {
+      "start_s": 55,
+      "end_s": 63,
+      "what": "traveling step pattern moving towards the side of the room"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 11,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/leventikos.json"
+ },
+ "fingerprint": "ec403db17197477a",
+ "updated": "2026-11-26"
 }

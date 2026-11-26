@@ -1,0 +1,370 @@
+{
+ "slug": "arjuna-nritham",
+ "name": "Arjuna Nritham",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T19:08:55Z",
+ "qc_score": 10.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A respectful community practitioner from south Kerala explaining the sacred link between rhythm, epic narrative, and devotion.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Arjuna Nritham",
+   "Mayilpeeli Thookkam",
+   "Arjunanritham"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Arjuna Nritham",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dancing Warrior of Bhadrakali",
+     "This is Arjuna Nritham. Ancient / Traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Arjuna Nritham · India · Ancient / Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Arjuna Nritham, also called Mayilpeeli Thookkam, is rooted in the Bhagavathy temple traditions of south Kerala.",
+     "The dance refers to the Mahabharatha legend in which Arjuna propitiates goddess Bhadrakali through a devotional performance.",
+     "The art form has been preserved and transmitted through generations by men of the Ezhava community, as well as the Ashari and Kollan communities, predominantly in Kottayam and Alappuzha districts."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed as an all-night devotional ritual to propitiate goddess Bhadrakali.",
+     "The costume and facial cosmetics are designed to evoke the hero Arjuna performing his act of devotion.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance movements are known as Pyattu and draw directly from the martial techniques of Kalarippayattu.",
+     "Executed solo or in pairs during all-night performances, the dance is strictly tied to rhythmic songs called Kavithangal.",
+     "Dancers verbally explain the specific rhythmic structure of each song to the gathered audience before physically translating those drum patterns into stepping and stance sequences.",
+     "Watch for Pyattu."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo or paired formations within Bhagavathy temple courtyards"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for Arjuna Nritham centers on Kavithangal, rhythm-driven vocal compositions detailing stories from the Hindu Puranas.",
+     "Musical accompaniment is provided by percussion instruments characteristic of Kerala temple arts, specifically the chenda, talachenda, and ilathalam (cymbals).",
+     "Listen for the chenda, talachenda, ilathalam.",
+     "The pulse is Varies according to specific Kavitham rhythm compositions explained by the dancer.",
+     "Resonant heavy percussion driven by chenda and talachenda drums punctuated by metallic ilathalam cymbals, accompanied by vocal recital of puranic stories."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Strictly rhythm-based patterns (Kavithangal) matched directly to drum cycles"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performances occur in Bhagavathy temples.",
+     "Dancers wear green facial makeup, ornate headgear known as Nettipattom, and a distinctive lower body garment crafted from peacock feathers (mayilppeeli) fastened around the waist in the manner of Kathakali's uduthukettu."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The practice is primarily prevalent across Bhagavathy temples in the Kottayam and Alappuzha districts of south Kerala.",
+     "Historically practiced and maintained by male members of the Ezhava, Ashari, and Kollan communities of south Kerala."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Arjuna Nritham is influence of Kathakali: Shares visual elements including the green facial makeup style and uduthukettu waist garment assembly.",
+     "Arjuna Nritham is influence of Kalarippayattu: The Pyattu dance movements of Arjuna Nritham draw directly from Kalarippayattu martial techniques."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Arjuna Nritham is a sacred ritual dance performed in Bhagavathy temples to propitiate goddess Bhadrakali. Outsiders should respect temple customs and refrain from disrupting all-night ritual procedures."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In south Kerala's Bhagavathy temples, dancers paint their faces green and dawn peacock-feather skirts to perform all-night martial rituals.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "Varies according to specific Kavitham rhythm compositions explained by the dancer",
+  "rhythm_pattern": "Strictly rhythm-based patterns (Kavithangal) matched directly to drum cycles",
+  "instruments": [
+   "chenda",
+   "talachenda",
+   "ilathalam"
+  ],
+  "vocal_style": "Spoken rhythmic explanations followed by narrative singing of Puranic stories",
+  "musical_form": "Kavithangal compositions where each song suits a specific rhythm introduced by the performer",
+  "mood": [
+   "devotional",
+   "rhythmic",
+   "sacred",
+   "intense"
+  ],
+  "sound_description": "Resonant heavy percussion driven by chenda and talachenda drums punctuated by metallic ilathalam cymbals, accompanied by vocal recital of puranic stories.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Arjuna Nritham (India). Meter Varies according to specific Kavitham rhythm compositions explained by the dancer. Rhythm pattern: Strictly rhythm-based patterns (Kavithangal) matched directly to drum cycles. Instruments: chenda, talachenda, ilathalam. Vocal style: Spoken rhythmic explanations followed by narrative singing of Puranic stories. Form: Kavithangal compositions where each song suits a specific rhythm introduced by the performer. Mood: devotional, rhythmic, sacred, intense. It should sound like this: Resonant heavy percussion driven by chenda and talachenda drums punctuated by metallic ilathalam cymbals, accompanied by vocal recital of puranic stories. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performances occur in Bhagavathy temples. Dancers wear green facial makeup, ornate headgear known as Nettipattom, and a distinctive lower body garment crafted from peacock feathers (mayilppeeli) fastened around the waist in the manner of Kathakali's uduthukettu.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AArjunanritham.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Arjunanritham.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Arjunanritham.JPG/1280px-Arjunanritham.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Manoj Karingamadathil / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AArjunanritham.JPG",
+    "description": "അർജ്ജുനനൃത്തം. ഊരകം കുമ്മാട്ടി മഹോത്സവത്തില്‍ നിന്ന് .\n\n\nമഹാഭാരത കഥയുമായി ബന്ധപ്പെട്ട ഈ കലാരൂപം, അനുരഞ്ജനകല, അനുഷ്ഠാനകല, ആയോധനകല, മയിൽപ്പീലിതൂക്കം എന്നീ പേരുകളിലും അറിയപ്പെടുന്നു. ദേവീ ക്ഷേത്രങ്ങളിൽ \"തൂക്കം\" എന്ന നേർച്ച ഉത്സവത്തിന്റെ ഭാഗമായിട്ടാണ് ഈ കലാരൂപം അവതരിപ്പിച്ച് വരുന്നത്‌"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Vibrant green facial makeup catching temple oil lamp light",
+   "Swirling peacock-feather mayilppeeli waist skirts",
+   "Brass ilathalam cymbals shimmering in night performances"
+  ],
+  "costume_notes": "Performances occur in Bhagavathy temples. Dancers wear green facial makeup, ornate headgear known as Nettipattom, and a distinctive lower body garment crafted from peacock feathers (mayilppeeli) fastened around the waist in the manner of Kathakali's uduthukettu.",
+  "setting_notes": "The dance is performed as an all-night devotional ritual to propitiate goddess Bhadrakali. The costume and facial cosmetics are designed to evoke the hero Arjuna performing his act of devotion.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 19,
+  "counting": "count the Varies according to specific Kavitham rhythm compositions explained by the dancer bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mayilpeeli_Thookkam",
+  "https://www.wikidata.org/wiki/Q6797297"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "72c57ee01c53ae11e26e055de2aef9fe4c8868a44f1f1bb5cec46652936b15e8",
+ "hero_checked": null
+}

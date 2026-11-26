@@ -55,7 +55,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -63,36 +63,12 @@
     "label": "passed every quality gate and the independent judge"
    },
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
     "key": "signature_moves",
     "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
@@ -101,13 +77,58 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "fa4eb3e39baba2cd",
- "updated": "2026-11-25"
+ "performances": [
+  {
+   "youtube_id": "VMqyEFnxKTY",
+   "url": "https://www.youtube.com/watch?v=VMqyEFnxKTY",
+   "analysed_on": "2026-11-26",
+   "observation": {
+    "setting": "Indoor studio or hall with a wooden floor, high ceiling with industrial pipes, and an audience gathered in the background watching.",
+    "dancers": "Two men dancing in the foreground, with a group of onlookers and other dancers behind them.",
+    "formation_and_space": "Two dancers side-by-side facing forward in an open dance space.",
+    "posture": "Athletic and loose, knees bent with a low center of gravity and relaxed torso.",
+    "footwork": "Bouncing steps with weight shifts, stamping, and foot rolls synchronized to the heavy beat.",
+    "arms_and_hands": "Arms swing, point, and gesture loosely in coordination with the rhythm; no held objects.",
+    "hips_and_torso": "Bouncing torso with slight dips and sways accompanying leg movements.",
+    "partnering": "None; dancing side-by-side individually.",
+    "levels_jumps_turns": "Low to medium level with knee bends and slight dips, minimal jumping or turning.",
+    "costume_and_props": "Dancer on left wears an oversized green sweatshirt, dark pants, sneakers, and a cap; dancer on right wears a white graphic t-shirt, dark pants, and sneakers.",
+    "cannot_infer": "Exact foot placement and fast micro-steps are obscured by video compression and camera angle.",
+    "music_heard": {
+     "instruments": [
+      "electronic drum machine",
+      "synthesizer"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 5,
+      "what": "Dancers bounce and step side to side with loose arms, dropping low into a rhythmic leg movement."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "894977574f3f99da",
+ "updated": "2026-11-26"
 }

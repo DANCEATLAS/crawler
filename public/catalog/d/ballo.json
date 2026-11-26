@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "ballo",
  "name": "Ballo",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IT"
@@ -11,12 +11,18 @@
   "slug": "ballo",
   "name": "Ballo",
   "country": "Italy",
+  "country_code": "IT",
+  "flag_emoji": "🇮🇹",
   "region": "Europe",
-  "tagline": "Italy — The ballo was an Italian dance form during the fifteenth century, most noted for its frequent changes of tempo",
-  "profile": "The ballo was an Italian dance form during the fifteenth century, most noted for its frequent changes of tempo and meter. The name ballo has its origin in Latin ballō, ballāre, meaning \"to dance\", which in turn comes from the Greek \"βαλλίζω\" (ballizō), \"to dance, to jump about\". In Greece there is the Greek dance named Ballos.",
-  "insight": "The ballo was an Italian dance form during the fifteenth century, most noted for its frequent changes of tempo and meter.",
+  "family": "classical-court",
+  "era": "15th-18th century",
+  "tagline": "Italy — A 15th-century Italian court dance noted for frequent tempo and meter changes.",
+  "profile": "The ballo is an Italian Renaissance dance form practiced during the fifteenth century, distinguished by its shifting tempos and meters. Documented by master choreographers like Domenico da Piacenza and Guglielmo Ebreo da Pesaro, the form emphasized noble deportment, lightness on the feet, and modest execution. Over time, it evolved from courtly Quattrocento displays into Baroque theatrical productions featuring vocal numbers and instrumental suites.",
+  "insight": "Practiced by fifteenth-century Italian masters, the ballo combined swift changes in tempo with strict physical grace, serving as both courtly entertainment and physical training.",
   "aliases": [
-   "ballizō"
+   "ballizō",
+   "balli",
+   "balletto"
   ],
   "related": [
    "ballet",
@@ -27,14 +33,48 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Ballo",
-   "Source: Ballo on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ballo"
+   "Source: Ballo on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ballo",
+   "https://www.wikidata.org/wiki/Q16837390",
+   "https://archive.org/details/trattatodellarte00gugluoft",
+   "https://archive.org/details/ilballarinodimf00vatigoog",
+   "https://archive.org/details/trattatodelballo00dufo"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ballo",
   "wikidata_qid": "Q16837390",
   "unesco": false,
   "hero_video_youtube_id": "5hXxMvRDgWE",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 10.0,
+  "last_researched_at": "2026-11-26T20:20:42Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The ballo represents a cornerstone of Italian Renaissance choreography, flourishing across the courts of the Quattrocento. Rooted in the Latin terms for dancing and jumping, the form was systematically recorded by master choreographers such as Domenico da Piacenza and Guglielmo Ebreo da Pesaro. These masters composed balli that broke away from rigid medieval circle dances, introducing dramatic variations in narrative and spatial design. The dance treatises penned during this era served not merely as collections of steps, but as manuals for civilized living, posture, and courtly etiquette. In the centuries that followed, the Renaissance ballo transformed into the early Baroque ballo, expanding to incorporate vocal numbers by composers like Claudio Monteverdi and instrumental movements by George Frideric Handel. This evolution bridged intimate courtly gatherings with grand theatrical spectacles, cementing the dance's legacy in European performance history.\n\nAt the core of the fifteenth-century ballo's musical and kinetic structure were four distinct misure, or tempos, documented by Domenico da Piacenza. These included the bassadanza, which functioned as a slow foundational measure; the quadernaria, executed one-sixth faster than the bassadanza; the saltarello, performed two-sixth faster; and the piva, which moved at double the speed of the bassadanza. This mathematical relationship between tempos allowed choreographers to build dynamic tension and release within a single composition. By the Baroque period, tablatures for lute and soprano voice scores accompanied these works, reflecting an increasingly sophisticated instrumental framework.\n\nExecution of the ballo required meticulous attention to bodily carriage and modest expression. According to the writings of Guglielmo Ebreo, a dancer's movement should be gentle, moderate, and sweet, maintaining a noble and lordly persona. Dancers were instructed to remain light on their feet with well-formed gestures, keeping their eyes focused modestly toward the ground rather than wandering. Posture required holding the head upright and naturally aligned with the torso. At the conclusion of a ballo, after being released by her partner, a woman was expected to turn toward him and perform a modest, pious reverence that matched his own gesture before retiring with a composed attitude.\n\nThe spatial organization of the ballo typically involved dancers moving in structured groups or interacting in pairs across noble chambers and outdoor festival grounds. In fifteenth-century descriptions, participants entered a shared space in formation, executing precise bows and salutations before engaging in the core choreography. By the sixteenth century, as detailed in Fabritio Caroso's manuals, these spatial patterns expanded to incorporate stylistic influences from France and Spain. Dancers navigated intricate pathways that simulated dramatic pursuits, hesitation, and reconciliation, all while maintaining strict geometric alignment.\n\nWhile originally conceived as an aristocratic pursuit to cultivate personal elegance and banish awkwardness, the ballo occupied a complex cultural space. Dance masters noted that even an innocent physical activity could be misused through human vanity, yet they defended the art as a vital branch of gymnastics that fostered grace and social harmony. In later Baroque contexts, Italian balli competed with emerging French theatrical styles, leading to shifts in posture and technique that favored French perfectionism. Despite these stylistic displacements, the foundational treatises left behind by Italian masters remain essential documents for understanding the intersection of music, movement, and Renaissance humanism.",
+  "albums": [
+   {
+    "title": "Il ballo delle ingrate / Sestina",
+    "artist": "Claudio Monteverdi, Les Arts Florissants, William Christie",
+    "year": "1992",
+    "mbid": "9127d718-9d1a-3ffb-8df2-a5e4ad9cdd26",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/9127d718-9d1a-3ffb-8df2-a5e4ad9cdd26",
+    "type": "Album",
+    "source": "https://en.wikipedia.org/wiki/Ballo",
+    "verified": true
+   },
+   {
+    "title": "Handel: Suites from Rodrigo & Il pastor fido",
+    "artist": "George Frideric Handel, Michel Corboz, English Bach Festival Baroque Orchestra",
+    "year": "2023",
+    "mbid": "401b0d4f-8f8f-48db-97ec-ed90083c5c29",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/401b0d4f-8f8f-48db-97ec-ed90083c5c29",
+    "type": "Album",
+    "source": "https://en.wikipedia.org/wiki/Ballo",
+    "verified": true
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": true,
+  "tradition_status": "historical",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -50,6 +90,259 @@
    "bacchu-ber"
   ]
  },
- "fingerprint": "18b7fd82f8e03831",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "The ballo emerged during the Italian Quattrocento as a sophisticated Renaissance dance form. Fifteenth-century dance masters Domenico da Piacenza and Guglielmo Ebreo da Pesaro composed numerous balli and authored foundational treatises containing choreography and theoretical principles. By the Baroque period, the form expanded significantly, incorporating vocal numbers in works by Claudio Monteverdi and Francesco Lambardi, and instrumental interludes by composers such as George Frideric Handel.",
+   "how_it_is_danced": "Dancers move with a debita misura, maintaining a gentle, moderate, and sweet manner. The body is held with a noble and lordly carriage, remaining light on the feet with well-formed gestures. Dancers keep their gaze cast modestly toward the ground with the head held straight. At the end of the dance, participants perform reciprocal, pious reverences toward their partners before retiring with a modest attitude.",
+   "music_and_instruments": "Music for the fifteenth-century ballo was structured around four distinct misure: the slow bassadanza, the quadernaria (one-sixth faster), the saltarello (two-sixths faster), and the piva (twice as fast). Later Baroque iterations incorporated lute tablatures, soprano voice scores, two recorders, and violins as seen in Handel's revisions of Il pastor fido.",
+   "costume_and_setting": "The dance was performed in Renaissance noble courts, chambers, and civic festival spaces. Participants wore formal court attire appropriate to the Quattrocento and subsequent Baroque periods, reflecting their high social standing and the elite nature of the gatherings.",
+   "occasions_and_meaning": "Considered a vital branch of gymnastics and a study in personal elegance, the ballo was designed to bestow a gracious presence, fine posture, and smooth gait while banishing clumsiness. It was practiced during civic celebrations, courtly festivities, and elite social gatherings, though masters cautioned against the moral hazards of human vanity in such settings.",
+   "notable_figures": "Key historical figures include Domenico da Piacenza, Guglielmo Ebreo da Pesaro, Fabritio Caroso da Sermoneta, Claudio Monteverdi, Francesco Lambardi, Giambattista Dufort, and George Frideric Handel.",
+   "regional_variants": "Treatises distinguish between Italian, French, and Spanish styles of balli and balletti, noting shifts in foot positions and stylistic preferences across European courts, particularly as French theatrical dance gained prominence in the early eighteenth century.",
+   "lineage": "The ballo shares lineage with the medieval basse danse and influenced later theatrical ballet, the tarantella, and various Baroque balletti forms."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Moderate and sweet walking steps (andare con debita misura)",
+    "Light steps on the feet (leggiera in sul piede)",
+    "Final reciprocal reverence (onesta e piatosa riverenza)"
+   ],
+   "rhythm": "Four distinct misure (bassadanza, quadernaria, saltarello, piva) dictating relative speeds from slow to double-time.",
+   "formation": "Dancers walk in columns or lines (in schiera) and partner arrangements.",
+   "level_notes": "Requires mastery of posture, modesty of gaze, and precise adherence to shifting tempos."
+  },
+  "claims": [
+   {
+    "text": "The ballo is an Italian Renaissance dance form that was practiced during the fifteenth century",
+    "source": "https://en.wikipedia.org/wiki/Ballo"
+   },
+   {
+    "text": "The ballo is most noted for its frequent changes of tempo and meter.",
+    "source": "https://en.wikipedia.org/wiki/Ballo"
+   },
+   {
+    "text": "Domenico wrote of the balli as dealing with four misure",
+    "source": "https://en.wikipedia.org/wiki/Ballo"
+   },
+   {
+    "text": "L' arte del ballo dona graziosa presenza, begli atteggiamenti, nobile portamento",
+    "source": "https://archive.org/details/trattatodellarte00gugluoft"
+   },
+   {
+    "text": "Il suo andare sia con debita misura e con onestà, e allerosa",
+    "source": "https://archive.org/details/trattatodellarte00gugluoft"
+   },
+   {
+    "text": "leggiera in sul piede, et i suoi giesti bene formati",
+    "source": "https://archive.org/details/trattatodellarte00gugluoft"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "albums": [
+   {
+    "title": "Il ballo delle ingrate / Sestina",
+    "artist": "Claudio Monteverdi, Les Arts Florissants, William Christie",
+    "year": "1992",
+    "mbid": "9127d718-9d1a-3ffb-8df2-a5e4ad9cdd26",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/9127d718-9d1a-3ffb-8df2-a5e4ad9cdd26",
+    "type": "Album",
+    "source": "https://en.wikipedia.org/wiki/Ballo",
+    "verified": true
+   },
+   {
+    "title": "Handel: Suites from Rodrigo & Il pastor fido",
+    "artist": "George Frideric Handel, Michel Corboz, English Bach Festival Baroque Orchestra",
+    "year": "2023",
+    "mbid": "401b0d4f-8f8f-48db-97ec-ed90083c5c29",
+    "musicbrainz_url": "https://musicbrainz.org/release-group/401b0d4f-8f8f-48db-97ec-ed90083c5c29",
+    "type": "Album",
+    "source": "https://en.wikipedia.org/wiki/Ballo",
+    "verified": true
+   }
+  ],
+  "gaps": [
+   "Exact choreographic floor patterns for specific surviving balli tunes beyond general treatise descriptions.",
+   "Precise metronome markings or beats per minute for the four Quattrocento misure."
+  ],
+  "confidence": 0.95,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "variable across four misure (bassadanza structured as slow 64 or 32; quadernaria, saltarello, and piva at faster relative fractions)",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "lute",
+    "recorders",
+    "violin"
+   ],
+   "vocal_style": "polyphonic vocal numbers in Baroque adaptations",
+   "musical_form": "suite of measures (bassadanza, quadernaria, saltarello, piva) and theatrical vocal-instrumental numbers",
+   "mood_keywords": [
+    "courtly",
+    "majestic",
+    "dynamic",
+    "gracious"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Il ballo delle ingrate",
+     "artist": "Claudio Monteverdi"
+    },
+    {
+     "title": "Il pastor fido (Ballo)",
+     "artist": "George Frideric Handel"
+    }
+   ],
+   "sound_description": "Characterized by frequent shifts in tempo and meter, moving fluidly from a slow foundational bassadanza pulse to brisk saltarello and piva rhythms, accompanied by plucked strings and melodic wind instruments."
+  },
+  "movement_profile": {
+   "posture": "Head held upright and straight, aligned with the torso; gaze directed modestly toward the ground rather than wandering; noble and lordly carriage.",
+   "footwork": "Light on the feet (leggiera in sul piede) with smooth and measured walking steps.",
+   "arms_and_hands": "Well-formed gestures (giesti bene formati) accompanying modest and controlled body movement.",
+   "hips_and_torso": "Controlled, humble, and meek body movement (umile e mansueto) reflecting personal grace.",
+   "formation_and_space": "Walking in columns or lines (in schiera) within noble chambers or performance spaces.",
+   "partnering": "Partners interact with graceful turns, leading and following, concluding with a mutual, respectful reverence.",
+   "tempo_feel": "Shifting dynamically between slow, measured pacing and accelerated ratios (one-sixth, two-sixths, and double speed).",
+   "signature_moves": [
+    {
+     "name": "Onesta e piatosa riverenza",
+     "description": "A modest and pious bow performed toward the partner at the conclusion of the dance."
+    }
+   ],
+   "levels_and_jumps": "Grounded footwork with light stepping; origins of the name connect to jumping about (ballizō), but 15th-century court treatises emphasize measured lightness.",
+   "difficulty": "intermediate",
+   "what_to_avoid": "Avoid wandering eyes, tossing the head high, carrying the chin down in the chest, awkwardness (goffaggine), and unseemly vanity."
+  },
+  "episode_brief": {
+   "title_hook": "The Quattrocento Code: How 15th-Century Italians Danced to Changing Meters",
+   "logline": "Explore the elite Renaissance courts of Italy where dancers mastered rapid shifts in tempo and strict physical grace.",
+   "beats": [
+    "Introduction to the Renaissance court and the etymology of ballo from Latin and Greek roots.",
+    "The four misure explained: bassadanza, quadernaria, saltarello, and piva.",
+    "Guglielmo Ebreo's rules on posture, gaze, and modest carriage.",
+    "Spatial formations and walking in columns within noble chambers.",
+    "The evolution into Baroque theatrical balli with Monteverdi and Handel."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Level 1",
+     "goal": "Master noble posture and modest gaze control.",
+     "drills": [
+      "Head alignment drill maintaining an upright, natural neck position",
+      "Grounded gaze focus directed downward without dropping the chin into the chest"
+     ]
+    },
+    {
+     "level": "Level 2",
+     "goal": "Practice light footwork and measured walking.",
+     "drills": [
+      "Soft, light steps on the balls of the feet (leggiera in sul piede)",
+      "Pacing steps to a slow bassadanza meter"
+     ]
+    },
+    {
+     "level": "Level 3",
+     "goal": "Execute partner acknowledgment and final reverence.",
+     "drills": [
+      "Turning toward partner with a soft glance",
+      "Executing the reciprocal pious riverenza"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Quattrocento manuscript pages from Guglielmo Ebreo's treatise",
+    "Dancers moving in structured lines inside a noble hall",
+    "Lute tablature scores alongside early music ensembles"
+   ],
+   "instructor_persona": "A precise historical movement researcher with deep expertise in Renaissance dance treatises.",
+   "music_cue": "A transition from a slow, stately bassadanza lute melody into the brisk, energetic tempo of a saltarello."
+  },
+  "connections": [
+   {
+    "name": "Bassadanza",
+    "relation": "parent",
+    "note": "Serves as the primary slow tempo measure underpinning many early balli."
+   },
+   {
+    "name": "Saltarello",
+    "relation": "variant",
+    "note": "Employed as a faster tempo measure (two-sixths faster than the bassadanza) within ballo compositions."
+   },
+   {
+    "name": "Ballet",
+    "relation": "child",
+    "note": "Evolved from Renaissance court balli and Italian-French theatrical dance developments."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "historical",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Perform upper body posture drills and arm gestures while seated upright in a stable chair.",
+    "standing_version": "Execute gentle weight shifts and measured walking steps near a stable support without deep knee bends.",
+    "tempo_and_range": "Reduced tempo with shortened spatial range and minimized rotational turns.",
+    "counts": "Counted to a slow, steady pulse matching the bassadanza measure.",
+    "avoid": [
+     "balance strain",
+     "rapid tempo changes",
+     "deep knee flexion",
+     "sudden turns"
+    ]
+   },
+   "children": {
+    "game_version": "A royal procession game where children practice walking gracefully and freezing in a respectful bow.",
+    "duration_minutes": "3",
+    "counts": "Simple 4-count walking and bowing sequence.",
+    "avoid": [
+     "complex tempo ratios",
+     "prolonged static gazing drills"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-26T20:20:42Z",
+  "qc_score": 10.0
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 10,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ]
+ },
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 4,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/ballo.json"
+ },
+ "fingerprint": "c32b2711e2918181",
+ "updated": "2026-11-26"
 }

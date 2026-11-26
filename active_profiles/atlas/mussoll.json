@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy wooden props",
+          "Metal blades"
+        ],
+        "counts": "Simple 4-count rhythms",
+        "duration_minutes": "5",
+        "game_version": "A 'follow the leader' march with the 'bear' at the front"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Heavy lifting",
+          "Sudden downward thrusts"
+        ],
+        "counts": "1-2-1-2 marching counts",
+        "seated_version": "Perform the pounding motion with a lighter stick while seated in a circle",
+        "standing_version": "Marching in place with a staff for balance",
+        "tempo_and_range": "Reduced weight of the prop; slower tempo"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding and thrusting the pestle (musall)",
+      "difficulty": "intermediate",
+      "footwork": "Stepping forward to a specific beat in rows",
+      "formation_and_space": "Two rows transitioning into a circle in front of temples, churches, and house yards",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "None described",
+      "partnering": "None; group synchronization",
+      "posture": "Upright, carrying a heavy wooden pestle",
+      "signature_moves": [
+        {
+          "description": "Moving pestles in and out of a circle to simulate grain processing",
+          "name": "Pounding"
+        }
+      ],
+      "tempo_feel": "Rhythmic and steady",
+      "what_to_avoid": "Breaking the synchronization of the pestle strikes"
+    },
+    "music_profile": {
+      "instruments": [
+        "Ghumot",
+        "Kansaalle",
+        "Jhanjh",
+        "Dholke",
+        "Musall (pestle with internal bells)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "martial",
+        "commemorative",
+        "rhythmic",
+        "historic"
+      ],
+      "musical_form": "Oral compositions with subsequent layers of historical praise",
+      "reference_recordings": [],
+      "rhythm_pattern": "Specific beat for stepping forward and a pounding rhythm for the circle",
+      "sound_description": "The sound is dominated by the earthy resonance of the ghumot drum and the metallic jingling of the pestles' internal blades as they strike the ground.",
+      "tempo_bpm": "",
+      "vocal_style": "Oral tradition songs, praise hymns"
+    },
+    "teaching": {
+      "basic_steps": [
+        "March in two parallel rows holding the pestle vertically",
+        "Step forward in synchronization with the ghumot beat",
+        "Form a circle around a central point",
+        "Thrust the pestle downward and inward toward the center of the circle",
+        "Retract the pestle in a rhythmic 'pounding' motion"
+      ],
+      "formation": "Two rows transitioning into a circle",
+      "level_notes": "Requires coordination to manage the weight of the pestle while maintaining the group rhythm.",
+      "rhythm": "Specific percussive beat provided by ghumot and internal pestle bells"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "ec956e35868af456fca3345bd98ba04ab083b47ac2a2578bd639fe9c8ec54027",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts of the 'pounding' motion in the circle? Evidence needed: https://en.wikipedia.org/wiki/Mussoll"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How does the lead dancer manipulate the 'bear' leash during the transition from rows to circle? Evidence needed: https://en.wikipedia.org/wiki/Mussoll"
+    ]
+  },
+  "id": "atlas:mussoll",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Mussoll",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "981c3dd7487f3849",
+      "next_evidence": "https://en.wikipedia.org/wiki/Mussoll",
+      "question": "What are the specific rhythmic counts of the 'pounding' motion in the circle?",
+      "source": "https://en.wikipedia.org/wiki/Mussoll",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional counts for the signature move."
+    },
+    {
+      "domain": "video",
+      "id": "b42630802f296317",
+      "next_evidence": "https://en.wikipedia.org/wiki/Mussoll",
+      "question": "How does the lead dancer manipulate the 'bear' leash during the transition from rows to circle?",
+      "source": "https://en.wikipedia.org/wiki/Mussoll",
+      "status": "candidate_unreviewed",
+      "why_needed": "To understand the spatial coordination and theatrical elements of the performance."
+    }
+  ],
+  "research_file": "research_results/mussoll.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "mussoll",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mussoll",
+    "https://www.wikidata.org/wiki/Q6943146"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

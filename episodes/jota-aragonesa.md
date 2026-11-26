@@ -1,6 +1,6 @@
 # Jota Aragonesa — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.25 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.25 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Small, rhythmic leaps
 NARRATION: Step 2: Heel-toe footwork patterns
 NARRATION: Footwork from the sources: Small, sharp leaps and rapid heel-toe steps
 NARRATION: Drill: Basic weight transfer
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
@@ -143,6 +143,7 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slouching; maintain vertical alignment.
 NARRATION: Teachers of this dance warn against: jumping too high instead of staying in place
+NARRATION: Teachers of this dance warn against: no se nos pueden caer los brazos
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -189,7 +190,7 @@ NEEDS: tempo
 NARRATION: Step 1: Small, rhythmic leaps
 NARRATION: Step 2: Heel-toe footwork patterns
 NARRATION: Drill: Holding arms high while moving
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
@@ -214,6 +215,7 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slouching; maintain vertical alignment.
 NARRATION: Teachers of this dance warn against: jumping too high instead of staying in place
+NARRATION: Teachers of this dance warn against: no se nos pueden caer los brazos
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -260,7 +262,7 @@ NEEDS: tempo
 NARRATION: Step 1: Heel-toe footwork patterns
 NARRATION: Step 2: Circular movements reminiscent of a waltz
 NARRATION: Drill: Small vertical jumps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3 · repetitions: 3
@@ -284,6 +286,7 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slouching; maintain vertical alignment.
 NARRATION: Teachers of this dance warn against: jumping too high instead of staying in place
+NARRATION: Teachers of this dance warn against: no se nos pueden caer los brazos
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -327,10 +330,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3
-Demonstration: views used by most teachers: front, back; tempo progression: slow; repetitions per step: about 4
-Cues: piso y piso; piso apoyo; derecha; izquierda
-Common mistakes the studied teachers name: jumping too high instead of staying in place
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 5
+Cues: piso y piso; piso apoyo; derecha; izquierda; derecho; izquierdo; vuelvo; derecho izquierdo; arriba arriba
+Common mistakes the studied teachers name: jumping too high instead of staying in place; no se nos pueden caer los brazos
 
 Sources (6): https://en.wikipedia.org/wiki/Jota_(music); https://www.wikidata.org/wiki/Q252626; https://es.wikipedia.org/wiki/Jota_(música); https://fr.wikipedia.org/wiki/Jota; https://pt.wikipedia.org/wiki/Jota_(música); https://archive.org/details/birch_122up

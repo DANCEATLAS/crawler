@@ -1,6 +1,6 @@
 # Koftos — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures
 
@@ -73,7 +73,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Travel laterally using a fast two-measure Syrtos step progression.
 NARRATION: Optionally transition movement direction forward and backward or face a partner.
-NARRATION: Count it: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars.
+NARRATION: Count it: 1-2-3-4-5-6.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -101,7 +101,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars. The meter is 2-measure (sta dio) structure.
+NARRATION: Count: 1-2-3-4-5-6. The meter is 2-measure (sta dio) structure.
 NARRATION: Rhythm pattern: Fast Syrtos pattern with sudden complete rest/break measures.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -114,10 +114,10 @@ NARRATION: Step 1: Travel laterally using a fast two-measure Syrtos step progres
 NARRATION: Step 2: Optionally transition movement direction forward and backward or face a partner.
 NARRATION: Footwork from the sources: Two-measure (sta dio) fast Syrtos steps traveling sideways, forward, or backward.
 NARRATION: Drill: Practice the sta dio footwork at slow tempo without music breaks.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Upon the sudden musical cut, halt movement immediately.
@@ -125,7 +125,7 @@ NARRATION: Step 4: Shout 'Hey!' while simultaneously raising arms, dropping arms
 NARRATION: Drill: Speed up footwork to match the fast Syrtos pulse.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -137,13 +137,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Failing to stop when the music cuts; missing the vocal accent.
+NARRATION: Teachers of this dance warn against: putting weight on the right foot too early on the fourth sirtos
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated foot-tapping to the fast pulse, lifting arms and clapping with a shout of 'Hey!' on the music stops. · For children: Play as a musical statues game: dance the fast line step while the music plays, and freeze completely while yelling 'Hey!' the instant it stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated foot-tapping to the fast pulse, lifting arms and clapping with a shout of 'Hey!' on the music stops. · For children: Play as a musical statues game: dance the fast line step while the music plays, and freeze completely while yelling 'Hey!' the instant it stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -173,7 +174,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars. The meter is 2-measure (sta dio) structure.
+NARRATION: Count: 1-2-3-4-5-6. The meter is 2-measure (sta dio) structure.
 NARRATION: Rhythm pattern: Fast Syrtos pattern with sudden complete rest/break measures.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -185,10 +186,10 @@ NEEDS: tempo
 NARRATION: Step 1: Travel laterally using a fast two-measure Syrtos step progression.
 NARRATION: Step 2: Optionally transition movement direction forward and backward or face a partner.
 NARRATION: Drill: Practice halting on cue while shouting 'Hey!'.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Upon the sudden musical cut, halt movement immediately.
@@ -198,7 +199,7 @@ NARRATION: Drill: Add arm variations (arms up, down, or clapping) during the fre
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -210,13 +211,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Failing to stop when the music cuts; missing the vocal accent.
+NARRATION: Teachers of this dance warn against: putting weight on the right foot too early on the fourth sirtos
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated foot-tapping to the fast pulse, lifting arms and clapping with a shout of 'Hey!' on the music stops. · For children: Play as a musical statues game: dance the fast line step while the music plays, and freeze completely while yelling 'Hey!' the instant it stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated foot-tapping to the fast pulse, lifting arms and clapping with a shout of 'Hey!' on the music stops. · For children: Play as a musical statues game: dance the fast line step while the music plays, and freeze completely while yelling 'Hey!' the instant it stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Open circle or line, moving laterally, in/out, or with partners.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -245,7 +247,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars. The meter is 2-measure (sta dio) structure.
+NARRATION: Count: 1-2-3-4-5-6. The meter is 2-measure (sta dio) structure.
 NARRATION: Rhythm pattern: Fast Syrtos pattern with sudden complete rest/break measures.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -257,10 +259,10 @@ NEEDS: tempo
 NARRATION: Step 1: Upon the sudden musical cut, halt movement immediately.
 NARRATION: Step 2: Shout 'Hey!' while simultaneously raising arms, dropping arms, or clapping.
 NARRATION: Drill: Transition the sta dio line forward and backward.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Cut (Koftos Stop): Freezing in place during a sudden music break while shouting 'Hey!' and clapping or shifting arm positions.
@@ -268,7 +270,7 @@ NARRATION: Drill: Adapt the holding style to face and respond to a partner durin
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -280,13 +282,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Failing to stop when the music cuts; missing the vocal accent.
+NARRATION: Teachers of this dance warn against: putting weight on the right foot too early on the fourth sirtos
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated foot-tapping to the fast pulse, lifting arms and clapping with a shout of 'Hey!' on the music stops. · For children: Play as a musical statues game: dance the fast line step while the music plays, and freeze completely while yelling 'Hey!' the instant it stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated foot-tapping to the fast pulse, lifting arms and clapping with a shout of 'Hey!' on the music stops. · For children: Play as a musical statues game: dance the fast line step while the music plays, and freeze completely while yelling 'Hey!' the instant it stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Open circle or line, moving laterally, in/out, or with partners.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -323,9 +326,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
-Counting: count the 2-measure (sta dio) structure bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6
+Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 4
+Cues: 1 2 3 4 5 6; hey
+Common mistakes the studied teachers name: putting weight on the right foot too early on the fourth sirtos
 
 Sources (2): https://en.wikipedia.org/wiki/Koftos; https://www.wikidata.org/wiki/Q6425740

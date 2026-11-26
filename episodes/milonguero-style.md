@@ -1,8 +1,8 @@
 # Milonguero style — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A veteran social dancer from Buenos Aires.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Art of the Lean: Milonguero Style
 NARRATION: This is Milonguero style. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (6ZdaV2J8H4A)
 ON SCREEN: Title card: Milonguero style · Argentina · 20th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is performed in a close embrace.
 NARRATION: The woman places her left hand around the man's neck or back.
 NARRATION: The couple leans into each other (apilado).
 NARRATION: Watch for Apilado.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (6ZdaV2J8H4A)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Pairs, designed for crowded floors.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -304,7 +304,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically, dancers at milongas wore conservative clothing, though styles became more revealing in the late 1990s. It is danced in social venues known as milongas.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '6ZdaV2J8H4A', 'checked_by_vision_model': False, 'title': 'Back Cruzadas for Milonguero style.'}
 Images: 1 licensed — Pcirrus2 Piotr Cirrus / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Close-up of the embrace, Footwork in tight spaces, Dancers moving as a single unit
@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 341 tutorials across the atlas studied · videos studied: 341
+Source: 374 tutorials across the atlas studied · videos studied: 374
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; bend your knees; right left right; step touch; shift your weight; let's go; quick quick slow; one two three four; cross
+Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; bend your knees; side close side; right left right; left right left; step touch; shift your weight; let's go; quick quick slow
 
 Sources (2): https://en.wikipedia.org/wiki/Milonguero_style; https://www.wikidata.org/wiki/Q6860422

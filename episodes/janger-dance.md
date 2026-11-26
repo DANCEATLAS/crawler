@@ -1,6 +1,6 @@
 # Janger dance — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; the costume & setting section; what to avoid / common mistakes
 
@@ -112,7 +112,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Begin with a tableau vivant and welcoming song
 NARRATION: Step 2: Male group performs an elaborate kecak routine
 NARRATION: Drill: Practice sitting in two rows of six
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -178,7 +178,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Female group performs slower dance with fluid arm movements
 NARRATION: Step 2: Female dancers form two lines of six
 NARRATION: Drill: Rehearse basic kecak chanting rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -246,7 +246,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Female dancers form two lines of six
 NARRATION: Step 2: Male dancers form a boundary around the playing area
 NARRATION: Drill: Integrate facial expressions and gestures
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -310,9 +310,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Janger_dance; https://www.wikidata.org/wiki/Q1195657

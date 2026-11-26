@@ -1,0 +1,156 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Synchronized foot-thumping and clapping",
+          "source": "https://en.wikipedia.org/wiki/Poorakkali"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Physical stamina for acrobatic martial steps",
+          "source": "https://en.wikipedia.org/wiki/Poorakkali"
+        },
+        {
+          "description": "Knowledge of Ramayana and Mahabharata hymns",
+          "source": "https://en.wikipedia.org/wiki/Poorakkali"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Two competing parties in a ritual debate format",
+          "source": "https://en.wikipedia.org/wiki/Poorakkali"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Rhythmic clapping",
+      "difficulty": "advanced",
+      "footwork": "Synchronized foot-thumping movements",
+      "formation_and_space": "Circular around a multi-tiered lit lamp (nilavilukku)",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Acrobatic movements",
+      "partnering": "Competitive group vs group (two parties)",
+      "posture": "Masculine and athletic",
+      "signature_moves": [
+        {
+          "description": "Acrobatic movements derived from traditional combat training",
+          "name": "Martial art steps"
+        }
+      ],
+      "tempo_feel": "Strenuous and acrobatic",
+      "what_to_avoid": "Avoid breaking synchronization; avoid disrespecting the central lamp or the scholarly disputes."
+    },
+    "music_profile": {
+      "instruments": [
+        "None (vocal and body percussion only)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "melodious",
+        "masculine",
+        "competitive",
+        "devotional"
+      ],
+      "musical_form": "Hymns from Ramayana, Mahabharata, and Bhagavata",
+      "reference_recordings": [],
+      "rhythm_pattern": "Synchronized foot-thumping and hand clapping",
+      "sound_description": "A purely acoustic performance where the only sounds are the melodic chanting of Sanskrit and Malayalam hymns and the powerful, synchronized thudding of feet and clapping of hands.",
+      "tempo_bpm": "",
+      "vocal_style": "Call and response; leader (Panicker) sings and chorus repeats"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Observe a month of abstinence and physical conditioning",
+        "Form a circle around the nilavilukku (lamp)",
+        "Execute synchronized hand clapping to establish the beat",
+        "Perform heavy, rhythmic foot-thumping (foot-thumping movements)",
+        "Repeat the Panicker's melodic lines in chorus while moving"
+      ],
+      "formation": "Circular around a central lamp",
+      "level_notes": "Requires high physical stamina and knowledge of Hindu epics.",
+      "rhythm": "Self-generated through clapping and foot-thumping"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "94c2fd813dafd4db38c5e6c1640a26b106ec1aadd90023c5172045d1cd1b4f75",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: feedback_rules",
+      "Investigate: What are the specific rules or criteria used by the 'learned people' to judge or mediate the Marathukali disputes? Evidence needed: https://en.wikipedia.org/wiki/Poorakkali"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns and counts used during the 'synchronized foot-thumping'? Evidence needed: https://en.wikipedia.org/wiki/Poorakkali"
+    ]
+  },
+  "id": "atlas:marathukali",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Marathukali",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "6ec6083ee1a30a0c",
+      "next_evidence": "https://en.wikipedia.org/wiki/Poorakkali",
+      "question": "What are the specific footwork patterns and counts used during the 'synchronized foot-thumping'?",
+      "source": "https://en.wikipedia.org/wiki/Poorakkali",
+      "status": "candidate_unreviewed",
+      "why_needed": "To teach the dance accurately, the exact rhythmic structure and counts are required."
+    },
+    {
+      "domain": "research",
+      "id": "9b68d2718689cf71",
+      "next_evidence": "https://en.wikipedia.org/wiki/Poorakkali",
+      "question": "What are the specific rules or criteria used by the 'learned people' to judge or mediate the Marathukali disputes?",
+      "source": "https://en.wikipedia.org/wiki/Poorakkali",
+      "status": "candidate_unreviewed",
+      "why_needed": "Understanding the competitive logic is essential for recreating the 'Marathukali' variant correctly."
+    }
+  ],
+  "research_file": "research_results/marathukali.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "marathukali",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Poorakkali",
+    "https://www.wikidata.org/wiki/Q6755039"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

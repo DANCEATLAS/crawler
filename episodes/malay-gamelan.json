@@ -1,0 +1,886 @@
+{
+ "slug": "malay-gamelan",
+ "name": "Malay gamelan",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T19:27:50Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A senior cultural guardian or 'Adiguru' who emphasizes the spiritual and courtly discipline of the dance.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Malay gamelan",
+   "Joget Gamelan",
+   "Gamelan Melayu",
+   "Gamelan Pahang",
+   "Gamelan Terengganu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Malay gamelan",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Lost Gamelan of the Malay Sultans",
+     "This is Malay gamelan. 19th to 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Malay gamelan · Malaysia · 19th to 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The tradition originated in the Johor–Riau and Riau–Lingga sultanates, circulating through dynastic marriages and trade networks.",
+     "It was introduced to Pahang in 1811 for a royal wedding and later moved to Terengganu in 1915.",
+     "The most significant development occurred under Sultan Sulaiman Badrul Alam Shah (1920–1942) and Tengku Ampuan Mariam, who formalised the repertoire."
+    ],
+    "on_screen": [
+     "Map: Malaysia · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Historically, Malay gamelan was a private court entertainment performed for royal weddings, receptions, and installations.",
+     "It served as a symbol of aristocratic prestige and ceremonial refinement.",
+     "Today, it functions as a public performing art and a symbol of Malaysian intangible cultural heritage, performed at cultural festivals and institutional events.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance, historically called Joget Gamelan, features female dancers known as budak joget.",
+     "It is characterized by highly stylized, refined movements including specific hand gestures and controlled footwork.",
+     "Performances were historically held in palace settings and could last from evening until dawn.",
+     "Watch for Timang Burung, Topeng."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Performed in palace halls (Istana); dancers move in coordinated groups"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The ensemble is smaller than Javanese gamelan and consists of metallophones, gongs, drums, and xylophones.",
+     "Specific instruments include the keromong (bonang), gambang (xylophone), demung, saron, kenong, and gongs.",
+     "Listen for the keromong (bonang), gambang, demung, saron.",
+     "A refined percussion ensemble dominated by the bright, metallic ring of saron and keromong, balanced by the woody resonance of the gambang xylophone. The music is structured around rhythmic cycles marked by deep gongs, creating a sophisticated and courtly atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Interlocking percussion with specific gong cycles"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear elaborate court costumes and headdresses.",
+     "Historical accounts by Frank Swettenham describe the setting as ceremonial palace halls.",
+     "The attire was distinct to the Pahang and Terengganu courts, featuring variations in headdress styles that distinguished the repertoire from other regional dance traditions."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include Sultan Ahmad Al-Mu’adzam Shah of Pahang, his consort Che Zubedah, and their daughter Tengku Ampuan Mariam.",
+     "Sultan Sulaiman Badrul Alam Shah of Terengganu was a major patron.",
+     "Historically known as Gamelan Pahang or Joget Pahang when centered in Pekan.",
+     "It is a subclass of the wider Southeast Asian gamelan family and Malay classical music."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Malay gamelan is parent of Javanese Gamelan: Malay gamelan is part of the wider gamelan family originating from Javanese traditions.",
+     "Malay gamelan is sibling of Joget: Shares the historical name 'Joget' but is a distinct courtly form compared to the social dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Controlled walking with slight knee flexion",
+     "Synchronized head movements following the gong strikes",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the journey of a royal dance tradition from the private halls of 19th-century palaces to its modern revival as a national treasure.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic courtly posture",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic courtly posture.",
+      "Level: beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A senior cultural guardian or 'Adiguru' who emphasizes the spiritual and courtly discipline of the dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and dignified courtly posture",
+      "Highly stylised hand gestures; specific mudra-like positions not detailed in sources",
+      "Graceful, fluid movements with minimal hip oscillation"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Interlocking percussion with specific gong cycles.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Controlled walking with slight knee flexion",
+      "Step 2: Synchronized head movements following the gong strikes",
+      "Drill: Standing with slight knee bend and upright spine"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Prop manipulation (fans or scarves) for specific repertoire pieces",
+      "Drill: Slow, controlled walking to the beat of the gong"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic hand placement at waist level"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid excessive or jerky movements; maintain the 'halus' (refined) court aesthetic"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the upper body and hand gestures while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the 'bird' movements of the Timang Burung dance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the upper body and hand gestures while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the 'bird' movements of the Timang Burung dance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic courtly posture.",
+      "Historically, Malay gamelan was a private court entertainment performed for royal weddings, receptions, and installations.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Malay gamelan",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Malay gamelan.",
+      "Level: intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A senior cultural guardian or 'Adiguru' who emphasizes the spiritual and courtly discipline of the dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and dignified courtly posture",
+      "Highly stylised hand gestures; specific mudra-like positions not detailed in sources",
+      "Graceful, fluid movements with minimal hip oscillation"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Interlocking percussion with specific gong cycles.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Controlled walking with slight knee flexion",
+      "Step 2: Synchronized head movements following the gong strikes"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Prop manipulation (fans or scarves) for specific repertoire pieces",
+      "Timang Burung: A central dance piece involving movements mimicking or themed around a bird",
+      "Topeng: A masked dance piece within the repertoire"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid excessive or jerky movements; maintain the 'halus' (refined) court aesthetic"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the upper body and hand gestures while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the 'bird' movements of the Timang Burung dance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the upper body and hand gestures while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the 'bird' movements of the Timang Burung dance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Performed in palace halls (Istana); dancers move in coordinated groups"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Malay gamelan.",
+      "Key figures include Sultan Ahmad Al-Mu’adzam Shah of Pahang, his consort Che Zubedah, and their daughter Tengku Ampuan Mariam.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Malay gamelan",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Malay gamelan.",
+      "Level: advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A senior cultural guardian or 'Adiguru' who emphasizes the spiritual and courtly discipline of the dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and dignified courtly posture",
+      "Highly stylised hand gestures; specific mudra-like positions not detailed in sources",
+      "Graceful, fluid movements with minimal hip oscillation"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Interlocking percussion with specific gong cycles.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Synchronized head movements following the gong strikes",
+      "Step 2: Prop manipulation (fans or scarves) for specific repertoire pieces"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Timang Burung: A central dance piece involving movements mimicking or themed around a bird",
+      "Topeng: A masked dance piece within the repertoire"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid excessive or jerky movements; maintain the 'halus' (refined) court aesthetic"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the upper body and hand gestures while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the 'bird' movements of the Timang Burung dance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the upper body and hand gestures while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the 'bird' movements of the Timang Burung dance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Performed in palace halls (Istana); dancers move in coordinated groups"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Malay gamelan.",
+      "It is a subclass of the wider Southeast Asian gamelan family and Malay classical music.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Interlocking percussion with specific gong cycles",
+  "instruments": [
+   "keromong (bonang)",
+   "gambang",
+   "demung",
+   "saron",
+   "kenong",
+   "gongs",
+   "drums"
+  ],
+  "vocal_style": "Instrumental ensemble (vocal components not specified in sources)",
+  "musical_form": "Cyclic percussion pieces supporting specific choreographies",
+  "mood": [
+   "refined",
+   "regal",
+   "percussive",
+   "ceremonial"
+  ],
+  "sound_description": "A refined percussion ensemble dominated by the bright, metallic ring of saron and keromong, balanced by the woody resonance of the gambang xylophone. The music is structured around rhythmic cycles marked by deep gongs, creating a sophisticated and courtly atmosphere.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Malay gamelan (Malaysia). Rhythm pattern: Interlocking percussion with specific gong cycles. Instruments: keromong (bonang), gambang, demung, saron, kenong, gongs, drums. Vocal style: Instrumental ensemble (vocal components not specified in sources). Form: Cyclic percussion pieces supporting specific choreographies. Mood: refined, regal, percussive, ceremonial. It should sound like this: A refined percussion ensemble dominated by the bright, metallic ring of saron and keromong, balanced by the woody resonance of the gambang xylophone. The music is structured around rhythmic cycles marked by deep gongs, creating a sophisticated and courtly atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear elaborate court costumes and headdresses. Historical accounts by Frank Swettenham describe the setting as ceremonial palace halls. The attire was distinct to the Pahang and Terengganu courts, featuring variations in headdress styles that distinguished the repertoire from other regional dance traditions.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACOLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGamelan01.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AJoget_Gamelan_1966.webp"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/76/COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Tropenmuseum / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACOLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg",
+    "description": "Gong, hanging in a frame, part of the Gamelan Semar Pagulingan"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gamelan01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gamelan01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Fwbaker at en.wikipedia / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGamelan01.jpg",
+    "description": "I took this photo of a Gamelan musical group at the Equitoral Hotel in Kuala Lumpur, Malaysia, on July 29, 2008.  The Bonang player is to the far left.  FWBaker\nfgfg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Joget_Gamelan_1966.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/88/Joget_Gamelan_1966.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJoget_Gamelan_1966.webp",
+    "description": "Adnan Abdullah, performing Joget Gamelan, 1966."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Istana_Kolam_1933.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Istana_Kolam_1933.jpg/1280px-Istana_Kolam_1933.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AIstana_Kolam_1933.jpg",
+    "description": "Joget Gamelan Performence in 1933"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Joget_Gamelan_1937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Joget_Gamelan_1937.jpg/1280px-Joget_Gamelan_1937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJoget_Gamelan_1937.jpg",
+    "description": "Joget Gamelan 1937"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Gamelan_1933.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Gamelan_1933.jpg/1280px-Gamelan_1933.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGamelan_1933.jpg",
+    "description": "Gamelan performers, 1933, Terengganu"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Joget_Gamelan_1967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Joget_Gamelan_1967.jpg/1280px-Joget_Gamelan_1967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJoget_Gamelan_1967.jpg",
+    "description": "Joget Gamelan, Malaysia 1967"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Gamelan_Instruction_1920s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Gamelan_Instruction_1920s.jpg/1280px-Gamelan_Instruction_1920s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Tengku Ampuan Mariam / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGamelan_Instruction_1920s.jpg",
+    "description": "Gamelan Instruction 1920s"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Golden metallophones reflecting palace lights",
+   "Intricate silk costumes and traditional headdresses",
+   "The rhythmic striking of the keromong kettles",
+   "Slow-motion captures of refined hand gestures"
+  ],
+  "costume_notes": "Dancers wear elaborate court costumes and headdresses. Historical accounts by Frank Swettenham describe the setting as ceremonial palace halls. The attire was distinct to the Pahang and Terengganu courts, featuring variations in headdress styles that distinguished the repertoire from other regional dance traditions.",
+  "setting_notes": "Historically, Malay gamelan was a private court entertainment performed for royal weddings, receptions, and installations. It served as a symbol of aristocratic prestige and ceremonial refinement. Today, it functions as a public performing art and a symbol of Malaysian intangible cultural heritage, performed at cultural festivals and institutional events.",
+  "map": {
+   "country": "Malaysia",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "18 tutorial(s) of the classical-court family studied",
+  "videos_studied": 18,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "neutralize your pelvis",
+   "shoulders are dropped",
+   "squeeze your abs",
+   "keep your eyes locked",
+   "kick kick kick kick step",
+   "curtsy and bow"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "full_demo",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Malay_gamelan",
+  "https://www.wikidata.org/wiki/Q6741534"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "2026680c0b6f743ad4f369ec8469e3ce14e383bf209df29f9cee8dce75976260",
+ "hero_checked": null
+}

@@ -33,6 +33,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Kikkli",
   "wikidata_qid": "Q6406312",
   "unesco": false,
+  "hero_video_youtube_id": "OvC4_lwKFSY",
+  "video_stack": [
+   {
+    "youtube_id": "OvC4_lwKFSY",
+    "role": "hero",
+    "title": "Kikkli ~ ਕਿੱਕਲੀ ਕਲੀਰ ਦੀ (Punjabi Folk)",
+    "channel": "AWSM STUDIOS",
+    "hd": true
+   },
+   {
+    "youtube_id": "mQB-UH5z_BA",
+    "role": "rendition",
+    "title": "KIKLI___KPTAAN_FT._GHOST Dance Video Choreography",
+    "channel": "Dh Sirr",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -58,7 +75,13 @@
    }
   ],
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-26T20:40:47Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -253,40 +276,80 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "OvC4_lwKFSY",
+   "url": "https://www.youtube.com/watch?v=OvC4_lwKFSY",
+   "analysed_on": "2026-11-26",
+   "observation": {
+    "setting": "outdoor paved courtyard with grass and wooden fence in the background",
+    "dancers": "one adult woman and five young girls, mixed ages, dancing in pairs",
+    "formation_and_space": "couples dancing in pairs scattered around the paved yard, spinning in circles",
+    "posture": "upright torso, leaning slightly back against each other's weight while spinning",
+    "footwork": "quick running or stepping pattern in circles, rapid steps synchronized with the spin",
+    "arms_and_hands": "hands grasped firmly with partner in crossed-hand hold (right to right, left to left), arms extended straight",
+    "hips_and_torso": "minimal torso movement, body tilted outward as centrifugal force creates lean during spins",
+    "partnering": "coupled pairs holding hands and spinning rapidly around each other",
+    "levels_jumps_turns": "continuous fast spinning on flat feet, maintaining constant rotational movement",
+    "costume_and_props": "one woman in traditional beige salwar kameez with dupatta; girls in dresses and leggings with hair in braids",
+    "cannot_infer": "exact footwork details obscured by camera distance and rapid spinning motion",
+    "music_heard": {
+     "instruments": [
+      "dholak drum",
+      "accordion"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 22,
+      "end_s": 36,
+      "what": "Two dancers grasp crossed hands and spin rapidly in a circle while singing"
+     },
+     {
+      "start_s": 38,
+      "end_s": 51,
+      "what": "Multiple pairs of dancers simultaneously spin in circles across the courtyard"
+     },
+     {
+      "start_s": 105,
+      "end_s": 111,
+      "what": "A pair of girls spinning quickly with arms extended straight and skirts flaring out"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/kikkli.json"
  },
- "fingerprint": "17b9d4aae70ac984",
- "updated": "2026-11-25"
+ "fingerprint": "986b81aa7209e97a",
+ "updated": "2026-11-26"
 }

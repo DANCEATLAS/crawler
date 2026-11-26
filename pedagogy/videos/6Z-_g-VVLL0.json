@@ -1,0 +1,146 @@
+{
+ "youtube_id": "6Z-_g-VVLL0",
+ "slug": "the-chicken",
+ "dance": "The Chicken",
+ "title": "3 easy steps to Learn the Chicken Dance",
+ "channel": "Adventures In Dance",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-26T20:49:52Z",
+ "url": "https://www.youtube.com/watch?v=6Z-_g-VVLL0",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor uses a step-by-step breakdown method with verbal enumeration and visual demonstrations. She explains movement variations and context in a structured tutorial format.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:06",
+    "segment": "full_demo",
+    "note": "Demonstration of the dance with partners"
+   },
+   {
+    "t": "1:06",
+    "segment": "intro",
+    "note": "Introduction to the chicken dance tutorial"
+   },
+   {
+    "t": "1:32",
+    "segment": "breakdown",
+    "note": "Step 1: little chicken moves"
+   },
+   {
+    "t": "1:49",
+    "segment": "breakdown",
+    "note": "Step 2: polka steps introduction"
+   },
+   {
+    "t": "2:40",
+    "segment": "breakdown",
+    "note": "Third way of doing polka steps turning right and left"
+   },
+   {
+    "t": "3:39",
+    "segment": "full_demo",
+    "note": "Partners demonstration with music"
+   },
+   {
+    "t": "5:41",
+    "segment": "context",
+    "note": "Historical background of the chicken dance"
+   }
+  ],
+  "counting_scheme": "1-and-2 / 3-and-4 / 5-and-6 / 7-and-8",
+  "cues": [
+   "Snap your beaks",
+   "Flap your wings",
+   "Shake a tail feather",
+   "Four claps, let's go"
+  ],
+  "metaphors": [
+   "Snap your beaks like this",
+   "Flap your wings like that"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Little chicken moves",
+    "counts": "4 counts",
+    "description": "Snap beaks, flap wings, shake tail feathers, and clap four times."
+   },
+   {
+    "name": "Polka steps",
+    "counts": "8 counts",
+    "description": "Polka steps done in three different ways: with a partner, dosado, and turning in place."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear numbering for steps",
+    "Visual demonstrations with partners and solo"
+   ],
+   "what_hinders": [
+    "Rapid transition between partner and solo views"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "1:07",
+    "text": "Today we're doing the chicken dance, a line dance how to."
+   },
+   {
+    "t": "1:33",
+    "text": "Step one, our little chicken moves."
+   },
+   {
+    "t": "1:50",
+    "text": "Step two, our polka steps."
+   },
+   {
+    "t": "2:40",
+    "text": "The third way we did it was to do polka steps in place."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 132,
+    "end_s": 148,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates arm movements while facing the camera directly",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "footwork and weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 251,
+    "end_s": 313,
+    "topic": "movement",
+    "observation": "Teacher counts aloud while demonstrating foot placement in place and turning",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact weight shifts on off-beats",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down a single dance step into three distinct spatial variations: partner dance, dosado, and solo turns."
+ },
+ "attempts": 1
+}

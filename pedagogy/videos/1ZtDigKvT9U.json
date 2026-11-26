@@ -1,0 +1,109 @@
+{
+ "youtube_id": "1ZtDigKvT9U",
+ "slug": "dancehall",
+ "dance": "Dancehall",
+ "title": "30-Minute Dancehall Inspired Workout | #DanceFitness",
+ "channel": "Fit Body by Ashley",
+ "viewer_ratio": 3.0,
+ "analysed_at": "2026-11-26T20:55:53Z",
+ "url": "https://www.youtube.com/watch?v=1ZtDigKvT9U",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor guides an energetic cardio dance workout with continuous follow-along demonstration. She encourages participants warmly while maintaining the pace.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:17",
+    "segment": "intro",
+    "note": "Instructor introduces the 30-minute cardio dancehall workout"
+   },
+   {
+    "t": "1:00",
+    "segment": "warmup",
+    "note": "Instructor leads a warm-up routine to music"
+   },
+   {
+    "t": "4:00",
+    "segment": "follow_along",
+    "note": "Full follow-along dance workout continues to music"
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Get it up",
+   "Take it up",
+   "Love me love me"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [
+   "Please consult your physician before starting",
+   "Keep water and a towel nearby"
+  ],
+  "steps_taught": [],
+  "absorbability": {
+   "what_works": [
+    "Clear visual demonstration",
+    "High energy and continuous repetition"
+   ],
+   "what_hinders": [
+    "No verbal breakdown of individual steps"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:23",
+    "text": "I am super excited to bring you this 30-minute cardio dancehall workout."
+   },
+   {
+    "t": "0:42",
+    "text": "Move at your own pace, modify movements so that you are more comfortable."
+   },
+   {
+    "t": "0:49",
+    "text": "Feel free to keep water and a towel nearby in case you need it."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 17,
+    "end_s": 58,
+    "topic": "teaching",
+    "observation": "Instructor talking directly to camera in front of a garage door",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 104,
+    "end_s": 120,
+    "topic": "movement",
+    "observation": "Instructor demonstrating arm stretches and upper body movements",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Pure follow-along cardio format without verbal step breakdowns, relying entirely on visual replication and music cues."
+ },
+ "attempts": 1
+}

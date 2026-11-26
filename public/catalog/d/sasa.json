@@ -58,7 +58,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -70,21 +70,88 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
   ],
   "via": {
    "signature_moves": "performance",
-   "rhythm": "performance",
+   "rhythm": "lesson",
    "sound": "performance",
-   "study_video": "performance"
+   "mistakes": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "y5ghno2I3f8",
+   "url": "https://www.youtube.com/watch?v=y5ghno2I3f8",
+   "title": "new SASA lesson",
+   "channel": "hirochaaa",
+   "analysed_on": "2026-11-26",
+   "level": "beginner",
+   "language": "Japanese",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Instructor seated on the floor facing students"
+    },
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "breakdown",
+     "note": "Explaining the hand movements and speed of Sasa"
+    },
+    {
+     "t": "0:34",
+     "seconds": 34,
+     "segment": "follow_along",
+     "note": "Practicing the seated sasa routine with clapping and arm gestures"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Sasa hand movements",
+     "counts": "1-2-3-4-5-6-7-8",
+     "description": "Seated hand clapping and arm patterns"
+    }
+   ],
+   "cues": [
+    "ゆっくりじゃ無いよ",
+    "このスピード"
+   ],
+   "common_mistakes": [
+    "Doing the speed too slow instead of the correct rhythm"
+   ],
+   "teacher_style": "The instructor demonstrates seated dance movements on the floor while addressing students with spoken instructions. He provides rhythmic counting and verbal corrections while students practice along with him.",
+   "distinctive_method": "Teaching seated Sasa routines on the floor with rhythmic clapping and verbal pacing.",
+   "what_works": [
+    "Clear demonstration from a seated position facing the camera"
+   ],
+   "what_hinders": [
+    "Instructional explanations are brief"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "Instructor sits cross-legged on a wooden floor demonstrating hand motions to seated students.",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "exact footwork",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "joAKDTan46o",
@@ -136,6 +203,6 @@
    }
   }
  ],
- "fingerprint": "78cf4db89b8f5ddb",
- "updated": "2026-11-24"
+ "fingerprint": "a0133ef517a66191",
+ "updated": "2026-11-26"
 }

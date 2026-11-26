@@ -1,6 +1,6 @@
 # Zebola — episode pack
 
-*Status: withheld-chapters · built 2026-11-25 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-26 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the costume & setting section
 
@@ -105,9 +105,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the african-diaspora family studied · videos studied: 18
+Source: 20 tutorial(s) of the african-diaspora family studied · videos studied: 20
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: bend your knees; 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; one and two and; put all your weight on your right leg; and out and out and in and in; double double
+Cues: bend your knees; short verbal cue the teacher repeats  8 words; 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; one and two and; put all your weight on your right leg; and out and out and in and in
 
 Sources (3): https://en.wikipedia.org/wiki/Atalaku; https://www.wikidata.org/wiki/Q131160620; https://fr.wikipedia.org/wiki/Atalaku

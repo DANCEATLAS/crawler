@@ -1,34 +1,23 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-25T21:48:07Z",
+ "generated_at": "2026-11-26T21:10:57Z",
  "last_night": {
-  "date": "2026-11-25",
-  "started": "2026-11-25T19:24:13Z",
-  "finished": "2026-11-25T21:48:06Z",
-  "minutes": 144,
-  "questions": 333,
-  "unanswered": 3,
+  "date": "2026-11-26",
+  "started": "2026-11-26T19:07:25Z",
+  "finished": "2026-11-26T21:10:57Z",
+  "minutes": 124,
+  "questions": 323,
+  "unanswered": 1,
   "stages": 13,
   "errors": [],
   "trouble": [
-   "research: model trouble: waited_seconds 461, overloaded 43, day_quota_used_up 5, unusable_answer 5, model_gone 2",
-   "qc: model trouble: waited_seconds 185, overloaded 9, model_gone 2, timeout_or_network 1",
-   "hero_qc: model trouble: overloaded 2",
-   "teaching: model trouble: waited_seconds 135, overloaded 11, timeout_or_network 2, model_gone 2, unusable_answer 1",
-   "pedagogy: model trouble: waited_seconds 57, overloaded 11, model_gone 2, unusable_answer 2, timeout_or_network 1",
-   "footage: model trouble: overloaded 2",
-   "pictures: model trouble: overloaded 3",
-   "translate: model trouble: overloaded 1"
+   "research: model trouble: waited_seconds 203, overloaded 38, unusable_answer 8, day_quota_used_up 5, timeout_or_network 4, model_gone 2",
+   "teaching: model trouble: waited_seconds 70, overloaded 3, unusable_answer 3, model_gone 2",
+   "pedagogy: model trouble: waited_seconds 67, overloaded 4, model_gone 2, unusable_answer 2",
+   "pictures: model trouble: overloaded 1"
   ]
  },
  "nights": [
-  {
-   "date": "2026-10-29",
-   "minutes": 14,
-   "questions": 0,
-   "unanswered": 0,
-   "errors": 0
-  },
   {
    "date": "2026-10-29",
    "minutes": 84,
@@ -227,23 +216,30 @@
   },
   {
    "date": "2026-11-25",
-   "minutes": 144,
+   "minutes": 145,
    "questions": 333,
    "unanswered": 3,
+   "errors": 0
+  },
+  {
+   "date": "2026-11-26",
+   "minutes": 124,
+   "questions": 323,
+   "unanswered": 1,
    "errors": 0
   }
  ],
  "counts": {
-  "listed": 1365,
-  "researched": 770,
-  "published": 631,
-  "active_ready": 39,
-  "one_short": 67,
-  "two_short": 59,
-  "three_to_five_short": 145,
-  "story_ready_teaching_withheld": 66,
-  "lessons_studied": 341,
-  "performances_observed": 343
+  "listed": 1388,
+  "researched": 803,
+  "published": 664,
+  "active_ready": 41,
+  "one_short": 68,
+  "two_short": 60,
+  "three_to_five_short": 157,
+  "story_ready_teaching_withheld": 69,
+  "lessons_studied": 374,
+  "performances_observed": 393
  },
  "line": [
   {
@@ -326,76 +322,85 @@
    "active_ready": 39,
    "lessons_studied": 341,
    "performances_observed": 343
+  },
+  {
+   "date": "2026-11-26",
+   "listed": 1388,
+   "researched": 803,
+   "published": 664,
+   "active_ready": 41,
+   "lessons_studied": 374,
+   "performances_observed": 393
   }
  ],
  "pace": {
-  "days": 9,
+  "days": 10,
   "per_night": {
    "listed": 23.3,
-   "published": 30.2,
-   "active_ready": 3.8
+   "published": 30.5,
+   "active_ready": 3.6
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 364
+   "profiles": 380
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 234
+   "profiles": 247
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 217
+   "profiles": 224
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 186
+   "profiles": 198
   },
   {
    "key": "signature_moves",
    "label": "two or more signature moves",
-   "profiles": 165
+   "profiles": 172
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 152
+   "profiles": 161
   },
   {
    "key": "rhythm",
    "label": "tempo, meter or the teacher's count",
-   "profiles": 150
+   "profiles": 158
   },
   {
    "key": "posture",
    "label": "posture",
-   "profiles": 142
-  },
-  {
-   "key": "arms",
-   "label": "arms and hands",
-   "profiles": 108
+   "profiles": 144
   },
   {
    "key": "lesson_plan",
    "label": "ordered basic steps or a lesson ladder",
-   "profiles": 108
+   "profiles": 113
+  },
+  {
+   "key": "arms",
+   "label": "arms and hands",
+   "profiles": 111
   },
   {
    "key": "sound",
    "label": "the instruments and what the music sounds like",
-   "profiles": 92
+   "profiles": 95
   },
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 84
+   "profiles": 83
   },
   {
    "key": "formation",
@@ -412,16 +417,6 @@
   {
    "slug": "abbots-bromley-horn-dance",
    "name": "Abbots Bromley Horn Dance",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
-   "slug": "acrobatic-rock-n-roll",
-   "name": "Acrobatic Rock'n'Roll",
    "needs": [
     "the steps with their counts"
    ],
@@ -452,6 +447,16 @@
   {
    "slug": "ballos",
    "name": "Ballos",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
+   ]
+  },
+  {
+   "slug": "barn-dance",
+   "name": "Barn dance",
    "needs": [
     "what to avoid: common mistakes or safety"
    ],
@@ -780,6 +785,16 @@
    ]
   },
   {
+   "slug": "kikkli",
+   "name": "Kikkli",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
    "slug": "loure",
    "name": "loure",
    "needs": [
@@ -798,16 +813,6 @@
    "need_keys": [
     "status"
    ]
-  },
-  {
-   "slug": "makossa",
-   "name": "makossa",
-   "needs": [
-    "what to avoid: common mistakes or safety"
-   ],
-   "need_keys": [
-    "mistakes"
-   ]
   }
  ],
  "owner": {
@@ -817,37 +822,37 @@
  },
  "study": {
   "topics": 80,
-  "topics_read": 57,
+  "topics_read": 61,
   "first": {
    "topics": 14,
    "read": 12
   },
   "next": [
-   "coach_and_learner_relationship",
-   "working_alliance",
-   "teacher_enthusiasm",
-   "need_supportive_teaching",
-   "teacher_expectations",
-   "self_compassion"
+   "embarrassment_and_body_image",
+   "anxiety_and_confidence",
+   "emotion_and_learning",
+   "identity_and_staying",
+   "human_tutoring",
+   "adaptive_tutors"
   ],
-  "papers_read": 24,
-  "lessons_studied": 117,
-  "teachers_studied": 104,
-  "findings_checked": 249,
+  "papers_read": 28,
+  "lessons_studied": 126,
+  "teachers_studied": 113,
+  "findings_checked": 270,
   "practices": 37,
   "practices_in_dna": 29
  },
  "last_crawl": {
-  "at": "2026-11-25T18:46:16Z",
+  "at": "2026-11-26T18:32:20Z",
   "hero": {
-   "to_try": 0,
-   "tried": 0,
-   "found": 0
+   "to_try": 22,
+   "tried": 22,
+   "found": 11
   },
   "lessons": {
-   "due": 219,
-   "looked_at": 100,
-   "found": 34,
+   "due": 133,
+   "looked_at": 114,
+   "found": 38,
    "second_looks": 100
   },
   "viral": {

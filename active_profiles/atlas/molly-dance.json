@@ -1,0 +1,163 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex longways set changes"
+        ],
+        "counts": "1-2-3-4 march",
+        "duration_minutes": "15",
+        "game_version": "Roleplay winter sweeper clearing the snow while marching in pairs."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Sudden direction changes"
+        ],
+        "counts": "1-2-3-4 steady pulse",
+        "seated_version": "Perform arm patterns and upper body set steps while seated in facing rows.",
+        "standing_version": "Gentle marching in place or light longways steps with lowered impact.",
+        "tempo_and_range": "Slower tempo with short steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Basic heavy step march in longways formation",
+          "source": "https://en.wikipedia.org/wiki/Molly_dance"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Longways set formed of facing lines",
+          "source": "https://en.wikipedia.org/wiki/Molly_dance"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Natural down swings or holding set positions, free of handkerchiefs",
+      "difficulty": "beginner",
+      "footwork": "Heavy stepping rather than light leaps",
+      "formation_and_space": "Longways sets moving along street paths or open outdoor spaces",
+      "hips_and_torso": "Stiff, functional torso movement suited to winter outdoor performance",
+      "levels_and_jumps": "Grounded work with minimal jumping",
+      "partnering": "Pairs facing in longways lines",
+      "posture": "Upright yet grounded with a heavy, unrefined weight",
+      "signature_moves": [
+        {
+          "description": "Broom bearer clearing space ahead of the set",
+          "name": "Sweeper march"
+        },
+        {
+          "description": "Firm down-stepping in parallel lines",
+          "name": "Heavy longways set step"
+        }
+      ],
+      "tempo_feel": "Steady, deliberate, heavy pulse",
+      "what_to_avoid": "Avoid delicate Cotswold-style handkerchief flicks, ankle bells, or light high hops"
+    },
+    "music_profile": {
+      "instruments": [
+        "Fiddle",
+        "Concertina",
+        "Accordion",
+        "Percussion"
+      ],
+      "meter": "2/4 or 6/8",
+      "mood_keywords": [
+        "Rhythmic",
+        "Rustic",
+        "Lively",
+        "Winter"
+      ],
+      "musical_form": "Strophic popular social tunes",
+      "reference_recordings": [
+        {
+          "artist": "Ashley Hutchings",
+          "title": "Rattlebone and Ploughjack"
+        }
+      ],
+      "rhythm_pattern": "Straight marching or social dance pulse",
+      "sound_description": "A rhythmic, rustic winter sound driven by accordion, concertina, or fiddle playing popular tunes, sometimes supported by basic percussion.",
+      "tempo_bpm": "100-120",
+      "vocal_style": "Instrumental dance accompaniment"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Heavy forward stepping in longways set formation",
+        "Simple social dance turns and figure shifts",
+        "Sweeper clearance movements with a broom"
+      ],
+      "formation": "Longways set formation",
+      "level_notes": "Beginners focus on grounded, heavy stepping and simple social set patterns.",
+      "rhythm": "Standard social dance meters (2/4 or 6/8 tunes played on fiddle or accordion)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "72258398f37403391621022bc96245610736f9cd2428d551ea3fd1a69f0504f7",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What primary archival film or notation details the exact footwork collected by Needham and Peck? Evidence needed: Historical archives or publications by the English Folk Dance and Song Society."
+    ]
+  },
+  "id": "atlas:molly-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Molly dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "bc1c879617cd302a",
+      "next_evidence": "Historical archives or publications by the English Folk Dance and Song Society.",
+      "question": "What primary archival film or notation details the exact footwork collected by Needham and Peck?",
+      "source": "https://en.wikipedia.org/wiki/Molly_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To reconstruct authentic 1930s steps for modern instructional software."
+    }
+  ],
+  "research_file": "research_results/molly-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "molly-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Molly_dance",
+    "https://www.wikidata.org/wiki/Q6896703"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

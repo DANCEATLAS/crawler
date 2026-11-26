@@ -1,12 +1,12 @@
 {
  "youtube_id": "RUCbV8C9CVE",
- "slug": "swing-dance",
- "dance": "swing dance",
+ "slug": "swing",
+ "dance": "Swing",
  "title": "Beginner's Guide: How To Swing Dance (No Experience Needed)",
  "teacher": "Oleg Astakhov",
  "teacher_key": "oleg-astakhov",
- "teacher_score": 73.1,
- "analysed_at": "2026-11-17T06:29:40Z",
+ "teacher_score": 83.9,
+ "analysed_at": "2026-11-26T20:47:09Z",
  "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE",
  "comments_read": 60,
  "schema": 3,
@@ -17,8 +17,8 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher first introduces the swing dance concept, then breaks down simple side steps and rocking steps, adds counts and rhythm, and finally combines them into partner practice.",
-  "signature": "",
+  "teacher_system": "The teacher breaks down the swing dance into small, manageable chunks: side steps, rock steps, and then combining them into a rhythm. He demonstrates each piece clearly, first in isolation and then with counts, before putting them together. He emphasizes simplicity and encourages learners to focus on the basic movement and rhythm rather than complex technique.",
+  "signature": "The teacher explicitly frames the lesson as 'social dancing' rather than 'technique', focusing on the ability to move to music in a social setting rather than perfect form.",
   "screen": {
    "views": [
     "front",
@@ -30,38 +30,49 @@
   "practices": [
    {
     "tag": "chunking",
-    "t": "1:18",
-    "what": "Teach side to side stepping with upper body sway."
+    "t": "1:10",
+    "what": "The teacher breaks down the basic side-to-side step, demonstrating it slowly and clearly for the learner to follow."
    },
    {
     "tag": "counts_and_rhythm",
-    "t": "2:24",
-    "what": "Count 1, 2, 3, 4 while side stepping."
+    "t": "2:22",
+    "what": "The teacher introduces counting to the side-to-side step, helping the learner internalize the rhythm."
+   },
+   {
+    "tag": "layering",
+    "t": "2:48",
+    "what": "The teacher adds a subtle body sway to the side-to-side step, layering on a bit of styling."
    },
    {
     "tag": "chunking",
-    "t": "4:09",
-    "what": "Introduce backward rock steps with weight shift."
+    "t": "3:53",
+    "what": "The teacher introduces the rock step, breaking it down into a separate, manageable piece."
    },
    {
-    "tag": "counts_and_rhythm",
-    "t": "6:39",
-    "what": "Count 1, 2, 3, 4 combining side steps and rock steps."
+    "tag": "repetition",
+    "t": "4:53",
+    "what": "The teacher leads the learner through multiple repetitions of the combined side-to-side and rock step."
    },
    {
     "tag": "tempo_ramp",
-    "t": "8:22",
-    "what": "Speed up counts and practice with faster tempo."
+    "t": "7:46",
+    "what": "The teacher increases the speed of the counting and the movement, helping the learner transition to a more natural dance tempo."
    }
   ],
-  "adaptations": [],
+  "adaptations": [
+   {
+    "t": "4:18",
+    "difficulty": "The learner might be unsure about whether to put their heel back during the rock step.",
+    "adjustment": "The teacher clarifies that it doesn't matter, focusing on the fact of rocking rather than the specific foot placement.",
+    "kind": "easier"
+   }
+  ],
   "entry_points": [
-   "feet_first",
    "rhythm_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 118,
+   "seconds_before_first_movement": 110,
    "pieces_taught": 3
   },
   "mentor": {
@@ -69,13 +80,14 @@
     "warm",
     "patient",
     "direct",
-    "energetic"
+    "energetic",
+    "precise"
    ],
    "beliefs": [
     {
-     "t": "0:22",
-     "belief": "Anyone can dance; it is super simple and a great way to start a dancing journey.",
-     "about": "who_can_dance"
+     "t": "0:20",
+     "belief": "The teacher's role is to help people learn to dance simply and socially, not to teach complex technique.",
+     "about": "what_a_teacher_is_for"
     },
     {
      "t": "0:39",
@@ -89,6 +101,11 @@
     }
    ],
    "feelings": [
+    {
+     "t": "0:34",
+     "feeling": "afraid_of_looking_silly",
+     "response": "The teacher validates this feeling by describing the common experience of standing on the sidelines and wanting to join in."
+    },
     {
      "t": "0:34",
      "feeling": "self_doubt",
@@ -137,47 +154,43 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Applying steps when music is playing",
-     "tag": "other",
-     "count": 1
-    },
-    {
-     "theme": "Stiff body and feeling uncoordinated",
+     "theme": "Difficulty with rhythm and steps",
      "tag": "other",
      "count": 3
+    },
+    {
+     "theme": "Stiff body",
+     "tag": "other",
+     "count": 2
     }
    ],
    "clicked": [
     {
-     "theme": "Broken down into small, simple steps",
+     "theme": "Simple, clear, and broken-down instructions",
      "tag": "chunking",
-     "count": 4
-    },
-    {
-     "theme": "Clear instructions for both leaders and followers",
-     "tag": "other",
-     "count": 3
+     "count": 12
     }
    ],
-   "requests": [],
+   "requests": [
+    {
+     "theme": "More videos and practice with music",
+     "tag": "music_early",
+     "count": 2
+    }
+   ],
    "meant": [
     {
-     "theme": "Gives confidence to dance at social events and weddings",
-     "tag": "other",
+     "theme": "Feeling more confident and able to dance",
+     "tag": "praise_and_expectancy",
      "count": 5
-    },
-    {
-     "theme": "Joy of finally understanding how to dance",
-     "tag": "other",
-     "count": 4
     }
    ]
   },
-  "limits": "The video ends at 10:00 during the introduction of partner practice."
+  "limits": "The video does not show the teacher's full body in all shots, and the audio quality is sometimes inconsistent."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 3,
+ "attempts": 4,
  "mentor_look": {
   "at": "2026-11-17T06:45:44Z",
   "attempts": 1,

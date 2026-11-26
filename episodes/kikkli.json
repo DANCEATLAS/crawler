@@ -2,7 +2,7 @@
  "slug": "kikkli",
  "name": "Kikkli",
  "pack_version": "e2",
- "built_at": "2026-11-25T21:47:20Z",
+ "built_at": "2026-11-26T21:10:14Z",
  "researched_at": "2026-11-25T19:29:25Z",
  "qc_score": 9.65,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Kikkli."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (OvC4_lwKFSY)",
      "Title card: Kikkli · India · not described in sources"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Interlocked Twirl."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (OvC4_lwKFSY)",
      "Captions name each signature move as it appears",
      "Formation: Small stationary circular footprint, twirling in place in pairs or groups of four."
     ],
@@ -281,7 +281,7 @@
       "Drill: Practice crossing arms and locking hands with a partner."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -430,7 +430,7 @@
       "Drill: Take slow continuous steps in a small circle while leaning back."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -580,7 +580,7 @@
       "Drill: Accelerate circular twirling to match fast hand-clapping tempos."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -721,7 +721,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "OvC4_lwKFSY",
+   "checked_by_vision_model": true,
+   "title": "Kikkli ~ ਕਿੱਕਲੀ ਕਲੀਰ ਦੀ (Punjabi Folk)"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -768,14 +772,14 @@
   ]
  },
  "teaching_formula": {
-  "source": "100 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 100,
+  "source": "111 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 111,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 3"
+   "repetitions per step: about 4"
   ],
   "cues": [
    "5-6-7-8",
@@ -783,13 +787,13 @@
    "step together step",
    "1 2 3 4",
    "1-2-3",
+   "putar",
+   "mundur",
    "step to the right",
    "un dos tres",
-   "side side side side",
-   "rock step rock step",
-   "have fun",
-   "don't forget to breathe",
-   "drop your shoulders"
+   "right together right touch",
+   "left together left touch",
+   "spin out"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -809,7 +813,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "notable figures",
@@ -823,6 +826,6 @@
  "claims_verified": 6,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "6811e1b26fa3b3aa90cb3ea06a84c756f066f39096934d7c8772de3628e7d762",
- "hero_checked": null
+ "input_fingerprint": "407b2a2a71bdc6e8a5940da051e921662d29752fb9407cdf6e7ca435e1135870",
+ "hero_checked": "pass"
 }

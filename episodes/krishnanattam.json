@@ -1,0 +1,443 @@
+{
+ "slug": "krishnanattam",
+ "name": "Krishnanattam",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T19:09:26Z",
+ "qc_score": 10.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An esteemed master from the Guruvayur Devaswom troupe with deep reverence for ritual performance and classical Sanskrit drama.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Krishnanattam",
+   "Krishnattom",
+   "Kṛṣṇanāṭṭaṃ"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Krishnanattam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The King's Vision: Sacred Plays of Guruvayur",
+     "This is Krishnanattam. 17th century (1653 AD)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Krishnanattam · India · 17th century (1653 AD)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Krishnanattam was created by Manaveda (1585–1658 AD), the Zamorin Raja of Kozhikode in northern Kerala.",
+     "Completed on 16 November 1653 when Manaveda was 68 years old, the dance drama is rooted in his Sanskrit text, Krishnagiti.",
+     "The work draws literary inspiration from the 10th and 11th skandhas of the Bhagavata Purana, Jayadeva's Gita Govinda, the Sree Krishna Vilaasam Mahakavya, and Melpathur Narayana Bhattathiri's Narayaniyam."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The performance cycle consists of eight sequential plays: Avataram, Kaliyamardanam, Rasakrida, Kamsavadham, Swayamvaram, Banayuddham, Vividavadham, and Swargarohanam, remembered by the mnemonic \"a-ka-ra-ka-swa-bha-vi-swa\".",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: A Performance of Krishnanattam (Vol. I) (https://archive.org/details/dni.ncaa.ICCR-343-UM)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Performed exclusively by men and young boys as a nocturnal temple act, Krishnanattam synthesizes the four dramatic aspects defined by Bharata Muni: movement (Angika), vocal text (Vachika), costume/makeup (Aharya), and emotional state (Satvika).",
+     "Performers undergo rigorous training starting around age ten for dynamic roles (vesham) and music, or age five for chutti makeup application and playing the Madhalam drum.",
+     "The movement language blends physical expression with rhythmic coordination."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING",
+     "Formation: Proscenium-style temple court performance facing the sanctum sanctorum"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music in Krishnanattam relies on Sanskrit slokas and padyageethams patterned after the poetic forms of Jayadeva's Gita Govinda.",
+     "The vocal text is supported by traditional percussion, prominently featuring the Madhalam drum.",
+     "Listen for the Madhalam.",
+     "Resonant vocal recitation of Sanskrit slokas accompanied by rhythmic Madhalam drumming, creating a solemn, sacred atmosphere suited for nocturnal temple ritual."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes and makeup in Krishnanattam are handcrafted by the teachers and artists.",
+     "Male characters wear a starched gathered petticoat beneath a white skirt featuring horizontal orange/orange-red and black stripes near the bottom.",
+     "Their upper dress consists of a long-sleeved shirt open at the back, a wooden breast-plate, chest ornaments of beads and fresh flora, upper arm bands, wrist ornaments, a girdle, and shawls fitted with mirrors at each end."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The central historical figure of Krishnanattam is Samoothiri Manavedan Raja (1585–1658 AD), the Zamorin Raja of Kozhikode.",
+     "Educated by Anayath Krishna Pisharody and Desamangalath Varrier, Manaveda authored the Poorva Bharatha Champu in 1643 before completing Krishnagiti in 1653.",
+     "Krishnanattam is intrinsically bound to the Guruvayur Sri Krishna Temple in Thrissur district, Kerala.",
+     "Krishnanattam directly inspired and paved the way for Kathakali, another major classical dance-drama form of Kerala."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Krishnanattam is parent of Kathakali: Krishnanattam is a direct progenitor of Kathakali, establishing structural, aesthetic, and cosmetic foundations."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Krishnanattam is a sacred ritual dance-drama performed near the sanctum sanctorum of the Guruvayur Sri Krishna temple as an offering by devotees. The headgear, especially Sri Krishna's peacock-feathered crown, is treated with extreme sacredness. Before applying make-up, actors prostrate before an oil lamp in devotion to Lord Guruvayoorappan."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Step inside Kerala's Guruvayur temple to explore Krishnanattam, the 17th-century sacred dance drama created by King Manaveda that gave birth to Kathakali.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Madhalam"
+  ],
+  "vocal_style": "Chanted Sanskrit slokas and padyageethams",
+  "musical_form": "Sanskrit text structured into eight dramatic plays (chapters)",
+  "mood": [
+   "devotional",
+   "sacred",
+   "dramatic",
+   "reverent"
+  ],
+  "sound_description": "Resonant vocal recitation of Sanskrit slokas accompanied by rhythmic Madhalam drumming, creating a solemn, sacred atmosphere suited for nocturnal temple ritual.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Krishnanattam (India). Instruments: Madhalam. Vocal style: Chanted Sanskrit slokas and padyageethams. Form: Sanskrit text structured into eight dramatic plays (chapters). Mood: devotional, sacred, dramatic, reverent. It should sound like this: Resonant vocal recitation of Sanskrit slokas accompanied by rhythmic Madhalam drumming, creating a solemn, sacred atmosphere suited for nocturnal temple ritual. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costumes and makeup in Krishnanattam are handcrafted by the teachers and artists. Male characters wear a starched gathered petticoat beneath a white skirt featuring horizontal orange/orange-red and black stripes near the bottom. Their upper dress consists of a long-sleeved shirt open at the back, a wooden breast-plate, chest ornaments of beads and fresh flora, upper arm bands, wrist ornaments, a girdle, and shawls fitted with mirrors at each end. Female roles wear long floor-length gathered white skirts with red borders, back-tied long-sleeved blouses, wooden breast-plates covered in red cloth, and ankle bells (chilanka). Face makeup utilizes three basic colors: pazhuppu (red-dominant orange), minukku (yellow-dominant orange), and paccha (yellow-green). A chutti—two white protruding borders along the jawline—frames paccha make-up. The most sacred garment is the headgear, which comes in two primary forms: a bun (mudi) and a crown (kiriitam) topped with peacock feathers.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_%28th%C3%A9%C3%A2tre_rituel_du_Kerala%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_Mudra.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_1.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Krishnanattam_%28th%C3%A9%C3%A2tre_rituel_du_Kerala%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Krishnanattam_%28th%C3%A9%C3%A2tre_rituel_du_Kerala%29.jpg/1280px-Krishnanattam_%28th%C3%A9%C3%A2tre_rituel_du_Kerala%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Jean-Pierre Dalbéra / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_%28th%C3%A9%C3%A2tre_rituel_du_Kerala%29.jpg",
+    "description": "Le krishnattam ou krishnanattam – selon la transcription phonétique du sanscrit – une forme spectaculaire rituelle, gardant valeur d’offrande, dans le temple de Guruvayur, au Kerala, se traduirait par « le jeu de Krishna ». Le personnage central, Krishna, un avatar du dieu Vishnu, lui même considéré comme une divinité primordiale, s’exprime par la musique, le chant, la danse et des gestes d’une gr"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Krishnanattam_Mudra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/50/Krishnanattam_Mudra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Jean-Pierre Dalbéra / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_Mudra.jpg",
+    "description": "Le krishnattam ou krishnanattam – selon la transcription phonétique du sanscrit – une forme spectaculaire rituelle, gardant valeur d’offrande, dans le temple de Guruvayur, au Kerala, se traduirait par « le jeu de Krishna ». Le personnage central, Krishna, un avatar du dieu Vishnu, lui même considéré comme une divinité primordiale, s’exprime par la musique, le chant, la danse et des gestes d’une gr"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Krishnanattam_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Krishnanattam_1.jpg/1280px-Krishnanattam_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Jean-Pierre Dalbéra / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_1.jpg",
+    "description": "Le krishnattam ou krishnanattam – selon la transcription phonétique du sanscrit – une forme spectaculaire rituelle, gardant valeur d’offrande, dans le temple de Guruvayur, au Kerala, se traduirait par « le jeu de Krishna ». Le personnage central, Krishna, un avatar du dieu Vishnu, lui même considéré comme une divinité primordiale, s’exprime par la musique, le chant, la danse et des gestes d’une gr"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Krishnanattam_Guruvayur_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Krishnanattam_Guruvayur_1.jpg/1280px-Krishnanattam_Guruvayur_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Manojk / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_Guruvayur_1.jpg",
+    "description": "കൃഷ്ണനാട്ടം, ഗുരുവായൂര്‍"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Krishnanattam_Guruvayur_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Krishnanattam_Guruvayur_2.jpg/1280px-Krishnanattam_Guruvayur_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Manoj Karingamadathil / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_Guruvayur_2.jpg",
+    "description": "കൃഷ്ണനാട്ടം"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Krishnanattam_Guruvayur_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Krishnanattam_Guruvayur_3.jpg/1280px-Krishnanattam_Guruvayur_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Manoj Karingamadathil / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKrishnanattam_Guruvayur_3.jpg",
+    "description": "കൃഷ്ണനാട്ടം"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/%E0%B4%95%E0%B5%83%E0%B4%B7%E0%B5%8D%E0%B4%A3%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/%E0%B4%95%E0%B5%83%E0%B4%B7%E0%B5%8D%E0%B4%A3%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%82.jpg/1280px-%E0%B4%95%E0%B5%83%E0%B4%B7%E0%B5%8D%E0%B4%A3%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Manojk / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%E0%B4%95%E0%B5%83%E0%B4%B7%E0%B5%8D%E0%B4%A3%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%82.jpg",
+    "description": "Krishnanattam."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Monument_of_Manaveda_in_Guruvayur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Monument_of_Manaveda_in_Guruvayur.jpg/1280px-Monument_of_Manaveda_in_Guruvayur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "RAGHU.A.C / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMonument_of_Manaveda_in_Guruvayur.jpg",
+    "description": "Monunent of Manaveda in Guruvayur near panjajanyam rest house."
+   }
+  ],
+  "footage": [
+   {
+    "title": "A Performance of Krishnanattam (Vol. I)",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-343-UM",
+    "year": 1989,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "A Performance of Krishnanattam (Vol. II)",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-344-UM",
+    "year": 1989,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Oil lamps burning near the sanctum sanctorum",
+   "Peacock feather adornments on high crowns (kiriitam)",
+   "Protruding white chutti jaw borders framing green paccha face paint",
+   "Layered white skirts with orange and black stripes"
+  ],
+  "costume_notes": "Costumes and makeup in Krishnanattam are handcrafted by the teachers and artists. Male characters wear a starched gathered petticoat beneath a white skirt featuring horizontal orange/orange-red and black stripes near the bottom. Their upper dress consists of a long-sleeved shirt open at the back, a wooden breast-plate, chest ornaments of beads and fresh flora, upper arm bands, wrist ornaments, a girdle, and shawls fitted with mirrors at each end. Female roles wear long floor-length gathered white skirts with red borders, back-tied long-sleeved blouses, wooden breast-plates covered in red cloth, and ankle bells (chilanka). Face makeup utilizes three basic colors: pazhuppu (red-dominant orange), minukku (yellow-dominant orange), and paccha (yellow-green). A chutti—two white protruding borders along the jawline—frames paccha make-up. The most sacred garment is the headgear, which comes in two primary forms: a bun (mudi) and a crown (kiriitam) topped with peacock feathers.",
+  "setting_notes": "The performance cycle consists of eight sequential plays: Avataram, Kaliyamardanam, Rasakrida, Kamsavadham, Swayamvaram, Banayuddham, Vividavadham, and Swargarohanam, remembered by the mnemonic \"a-ka-ra-ka-swa-bha-vi-swa\". Each play is staged as a devotional offering with specific spiritual intentions: Avataram for the birth of a child, Kaliyamardanam to remove poison, Rasakrida for the well-being of unmarried girls and marital harmony, Kamsavadham to conquer enemies, Swayamvaram for happy matrimony, Banayuddham and Vividavadham to end poverty and ensure good harvests, and Swargarohanam for the peace of a departed soul. Because concluding with Lord Krishna's demise in Swargarohanam is deemed inauspicious, Avataram is traditionally repeated on a ninth night.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 19,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "signature moves",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Krishnanattam",
+  "https://www.wikidata.org/wiki/Q6437576",
+  "https://fr.wikipedia.org/wiki/Krishnanattam"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "054b48ea8c8f6ca052cc8ec2395ab59b3215578574a7de4b99dcd787b4124b8b",
+ "hero_checked": null
+}

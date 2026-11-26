@@ -1,6 +1,6 @@
 # Siva Tau — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.3 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.3 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; the how-it-is-danced section
 
@@ -321,7 +321,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the ritual-sacred family studied · videos studied: 18
+Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

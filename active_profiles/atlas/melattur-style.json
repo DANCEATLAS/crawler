@@ -1,0 +1,144 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Crisp adavus with fluid variations and large-scale movements.",
+      "difficulty": "advanced",
+      "footwork": "Intricate tapping that explores different time measures; discourages hard stamping against the floor.",
+      "formation_and_space": "Soloist moving across a wide scale; uses both loka dharmi and natya dharmi.",
+      "hips_and_torso": "Supported by a protective cotton belt; requires high flexibility for wide-scale movements.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None (solo tradition)",
+      "posture": "Standard Bharatanatyam araimandi (half-sit), but with larger amplitude in limb extensions.",
+      "signature_moves": [
+        {
+          "description": "Intricate tapping footwork exploring different time measures in different tempos.",
+          "name": "Suddha Nrittam"
+        },
+        {
+          "description": "Dance performed while balancing on a clay pot.",
+          "name": "Perani Natyam"
+        }
+      ],
+      "tempo_feel": "Highly dynamic, shifting between various tempos and rhythmic gaits.",
+      "what_to_avoid": "Avoid stamping the feet hard against the floor; avoid items glorifying human patrons."
+    },
+    "music_profile": {
+      "instruments": [
+        "Mridangam",
+        "Nattuvangam (cymbals)",
+        "Flute",
+        "Violin",
+        "Salangai (ankle bells)"
+      ],
+      "meter": "Complex (extensive use of pancha nadais)",
+      "mood_keywords": [
+        "spiritual",
+        "devotional",
+        "intricate",
+        "dynamic"
+      ],
+      "musical_form": "Varnam-heavy with ancient temple items",
+      "reference_recordings": [],
+      "rhythm_pattern": "Gati bhedas in every jati; intricate tapping patterns",
+      "sound_description": "The sound is defined by the sophisticated use of ankle bells which produce a rich variety of rhythmic tones without the thud of hard stamping. The music follows Carnatic structures but is marked by frequent and complex shifts in gait and time measures.",
+      "tempo_bpm": "Variable (wide scale of tempos)",
+      "vocal_style": "Carnatic devotional"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Suddha Nrittam tapping (intricate footwork exploring different time measures)",
+        "Controlled salangai usage (producing sound without hard stamping)",
+        "Large amplitude adavus (executing basic steps with wide range)",
+        "Gati bhedam (practicing gait changes within a rhythmic cycle)",
+        "Spontaneous abhinaya (linking facial expression to each body movement)"
+      ],
+      "formation": "Primarily solo performance, utilizing a wide spatial scale.",
+      "level_notes": "Considered the most physically demanding Bharatanatyam style due to tempo scales and amplitude.",
+      "rhythm": "Complex, featuring pancha nadais (five rhythms) and frequent gati bhedas."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a6d4aea9a254834bcaf33268339950b0a68581049df9261e0401d9f0ef12dc92",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific 72 items performed by the devadasis of Cheyyur that Mangudi Dorairaja Iyer sought to incorporate? Evidence needed: https://en.wikipedia.org/wiki/Melattur_style"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How exactly is the protective cotton belt tied and positioned on the waist? Evidence needed: https://en.wikipedia.org/wiki/Melattur_style"
+    ]
+  },
+  "id": "atlas:melattur-style",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Melattur style",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "764d1c10033c89e7",
+      "next_evidence": "https://en.wikipedia.org/wiki/Melattur_style",
+      "question": "How exactly is the protective cotton belt tied and positioned on the waist?",
+      "source": "https://en.wikipedia.org/wiki/Melattur_style",
+      "status": "candidate_unreviewed",
+      "why_needed": "The belt is a unique physical requirement for safety and style; its correct application is vital for authentic practice."
+    },
+    {
+      "domain": "research",
+      "id": "1d23cb01354e6002",
+      "next_evidence": "https://en.wikipedia.org/wiki/Melattur_style",
+      "question": "What are the specific 72 items performed by the devadasis of Cheyyur that Mangudi Dorairaja Iyer sought to incorporate?",
+      "source": "https://en.wikipedia.org/wiki/Melattur_style",
+      "status": "candidate_unreviewed",
+      "why_needed": "To reconstruct the full repertoire and understand the technical breadth of the style."
+    }
+  ],
+  "research_file": "research_results/melattur-style.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "melattur-style",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Melattur_style",
+    "https://www.wikidata.org/wiki/Q6811643"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

@@ -1,6 +1,6 @@
 # Cadence-lypso — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -298,7 +298,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the latin-caribbean family studied · videos studied: 3
+Source: 4 tutorial(s) of the latin-caribbean family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, overhead; tempo progression: slow → full
 Cues: mujeres; exhibela; abajo; desplazate; culebra; dile que no; dame una; sombrero; forward; sideways; backwards; pivot

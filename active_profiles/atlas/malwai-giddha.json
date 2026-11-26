@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy metal Chimtas",
+          "Complex Tumbi tuning"
+        ],
+        "counts": "Simple 4-count rhythms.",
+        "duration_minutes": "10",
+        "game_version": "A 'call and response' game where children take turns inventing funny rhymes (Boliaan) and the group responds with a clap."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid jumping",
+          "Deep knee bends"
+        ],
+        "counts": "4-count or 8-count rhythmic strikes.",
+        "seated_version": "Performers can remain seated in a circle, focusing entirely on the Boliaan recitation and the handheld instruments like the Tumbi or Kartara.",
+        "standing_version": "Minimal movement; focus on rhythmic swaying and instrument manipulation without complex footwork.",
+        "tempo_and_range": "Maintain a moderate tempo to allow for clear vocal delivery."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Active manipulation of instruments; rhythmic clapping",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Performers stand in a circle; soloists move to the center to deliver verses",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Minimal; focus is on upper body and instrumental rhythm",
+      "partnering": "None; group synchronization",
+      "posture": "Upright and dignified, characteristic of village elders",
+      "signature_moves": [
+        {
+          "description": "Pulling the strings of the wooden Kato to make the squirrel figure 'dance' on the stick in time with the beat",
+          "name": "Kato manipulation"
+        }
+      ],
+      "tempo_feel": "Steady and rhythmic, dictated by the poetic meter",
+      "what_to_avoid": "Avoid playing the instruments out of sync with the Boliaan; do not neglect the traditional 'way to carry' the instrument."
+    },
+    "music_profile": {
+      "instruments": [
+        "Tumbi",
+        "Chimta",
+        "Kato",
+        "Kartara",
+        "Sapp"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "witty",
+        "energetic",
+        "rhythmic",
+        "communal"
+      ],
+      "musical_form": "Call and response between a lead soloist and the group",
+      "reference_recordings": [],
+      "rhythm_pattern": "Punctuated by instrument strikes following the meter of the Boliaan poetry",
+      "sound_description": "The sound is dominated by the metallic jingle of the Chimta and the sharp wooden clacks of the Kato and Sapp, overlaid with high-pitched Tumbi melodies and rhythmic male chanting.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Recitation of Boliaan (folk poetry) involving teasing and social commentary"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hold the instrument (Chimta or Kato) in the prescribed traditional manner",
+        "Recite the opening line of a Boli (couplet) while standing in the circle",
+        "Step forward and strike the instrument in rhythm with the vocal delivery",
+        "Execute a rhythmic clap or instrument strike as the group joins the chorus",
+        "Return to the circle formation while maintaining the beat"
+      ],
+      "formation": "Circle or semi-circle of male performers",
+      "level_notes": "Beginners must focus on the coordination between reciting poetry and playing the percussion instruments simultaneously.",
+      "rhythm": "Rhythmic accompaniment to folk poetry (Boliaan)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e4c940a9165521fde8e411afa163ed986f2b81d22775480ba3377be17746a0f1",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the standard rhythmic meter (e.g., 4/4, 8/12) for the Boliaan in Malwai Giddha? Evidence needed: https://en.wikipedia.org/wiki/Malwai_Giddha"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand positions and string tensions required to operate the Kato squirrel mechanism correctly? Evidence needed: https://en.wikipedia.org/wiki/Malwai_Giddha"
+    ]
+  },
+  "id": "atlas:malwai-giddha",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Malwai Giddha",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "584254c588a0446e",
+      "next_evidence": "https://en.wikipedia.org/wiki/Malwai_Giddha",
+      "question": "What are the specific hand positions and string tensions required to operate the Kato squirrel mechanism correctly?",
+      "source": "https://en.wikipedia.org/wiki/Malwai_Giddha",
+      "status": "candidate_unreviewed",
+      "why_needed": "The Kato is a signature instrument and its manipulation is a key movement profile element that cannot be taught without visual mechanics."
+    },
+    {
+      "domain": "research",
+      "id": "674f7cd714331ac5",
+      "next_evidence": "https://en.wikipedia.org/wiki/Malwai_Giddha",
+      "question": "What is the standard rhythmic meter (e.g., 4/4, 8/12) for the Boliaan in Malwai Giddha?",
+      "source": "https://en.wikipedia.org/wiki/Malwai_Giddha",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a music_profile that allows a composer to recreate the sound accurately."
+    }
+  ],
+  "research_file": "research_results/malwai-giddha.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "malwai-giddha",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Malwai_Giddha",
+    "https://www.wikidata.org/wiki/Q6745146"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

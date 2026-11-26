@@ -1,0 +1,136 @@
+{
+ "youtube_id": "Gx6Os1nSn2Q",
+ "slug": "basse-danse",
+ "dance": "Basse danse",
+ "title": "Evas Tanztutorial Basse danse Teil 1 - Grundlagen, Schritte",
+ "channel": "Eva Orlich",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-26T20:52:49Z",
+ "url": "https://www.youtube.com/watch?v=Gx6Os1nSn2Q",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher introduces historical background and posture before breaking down each step of the basse danse in detail. She demonstrates movements slowly and repeats them with counting instructions.",
+  "language": "German",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:19",
+    "segment": "intro",
+    "note": "Welcome and introduction to the basse danse"
+   },
+   {
+    "t": "0:42",
+    "segment": "warmup",
+    "note": "Explanation of posture and mood"
+   },
+   {
+    "t": "1:32",
+    "segment": "breakdown",
+    "note": "Breakdown of Pas simples"
+   },
+   {
+    "t": "2:56",
+    "segment": "breakdown",
+    "note": "Breakdown of Pas doubles"
+   },
+   {
+    "t": "3:51",
+    "segment": "breakdown",
+    "note": "Breakdown of Bransle"
+   },
+   {
+    "t": "4:59",
+    "segment": "breakdown",
+    "note": "Breakdown of Référance"
+   }
+  ],
+  "counting_scheme": "links-rechts",
+  "cues": [
+   "links",
+   "rechts",
+   "erheben",
+   "senken"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Der linke Fuß bleibt hinten und wird nicht nachgezogen"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Pas simples",
+    "counts": "links-rechts",
+    "description": "Simple forward steps moving towards a goal"
+   },
+   {
+    "name": "Pas doubles",
+    "counts": "links-rechts-links",
+    "description": "Double steps lasting twice as long as a pas simple"
+   },
+   {
+    "name": "Bransle",
+    "counts": "links-rechts-links",
+    "description": "Swaying or side step movement"
+   },
+   {
+    "name": "Référance",
+    "counts": "rechts-links",
+    "description": "Bow or reverence to start or end"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal breakdown of each step",
+    "Repetition of movements in different directions"
+   ],
+   "what_hinders": [
+    "No background music during practice"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:25",
+    "text": "Die Basse danse ist ein höfischer Tanz"
+   },
+   {
+    "t": "1:35",
+    "text": "Mit den Pas simples, den einfachen Schritten, bewege ich mich auf ein Ziel zu."
+   },
+   {
+    "t": "3:01",
+    "text": "Er dauert doppelt so lang wie ein Pas simple."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 132,
+    "end_s": 150,
+    "topic": "teaching",
+    "observation": "The teacher stands sideways and explains the movement of the feet for Pas simples.",
+    "viewpoint": "side, not mirrored",
+    "cannot_infer": "exact weight distribution between feet",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Focuses on historical context and posture before teaching fundamental dance steps of the 15th century."
+ },
+ "attempts": 1
+}

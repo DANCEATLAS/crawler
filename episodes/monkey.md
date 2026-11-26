@@ -1,8 +1,8 @@
 # Monkey — episode pack
 
-*Status: draft · built 2026-11-25 · judge 8.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 8.55 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic music historian focused on the golden era of 1960s American dance crazes.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Summer of '63: When America Did the Monkey
 NARRATION: This is Monkey. 1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (cwub1m1pg0c)
 ON SCREEN: Title card: Monkey · United States · 1960s
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (cwub1m1pg0c)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -276,7 +276,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'cwub1m1pg0c', 'checked_by_vision_model': True, 'title': 'Tones and I - Dance Monkey - Choreography by Liana Blackburn'}
 Images: 1 licensed — Hochneder, Christa / Wikimedia Commons / CC BY-SA 3.0 de (CC BY-SA 3.0 de)
 Footage: MISSING
 Motifs: 1960s vinyl 45-rpm records turning, Teenagers dancing in mid-century dance halls, Animated depictions from retro television
@@ -286,9 +286,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 82 tutorial(s) of the street-urban family studied · videos studied: 82
+Source: 86 tutorial(s) of the street-urban family studied · videos studied: 86
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: down and up; step touch; one two three four; one and two; 5-6-7-8; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
+Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (3): https://en.wikipedia.org/wiki/Twist_(dance); https://www.wikidata.org/wiki/Q6900705; https://archive.org/details/smash-hits-1980-10-02

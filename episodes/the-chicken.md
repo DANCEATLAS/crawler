@@ -1,6 +1,6 @@
 # The Chicken — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.25 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.25 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed)
 
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand with feet shoulder-width apart
 NARRATION: Flap both arms at the elbows in imitation of wings
-NARRATION: Count it: 1-2-3-4.
+NARRATION: Count it: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -108,7 +108,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong backbeat on 2 and 4 with syncopated bass lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -123,7 +123,7 @@ NARRATION: Drill: Isolate elbows and flap in 4/4 time
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Kick one foot back toward the glutes
@@ -131,7 +131,7 @@ NARRATION: Step 4: Alternate feet while maintaining lateral body movement
 NARRATION: Drill: Add a slight torso lean
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -150,7 +150,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance. · For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -181,7 +181,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong backbeat on 2 and 4 with syncopated bass lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -194,7 +194,7 @@ NARRATION: Drill: Practice alternating backward kicks in place
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Wing Flap: Bending elbows and moving them vertically to mimic a chicken's wings.
@@ -203,7 +203,7 @@ NARRATION: Drill: Combine kicks with the lateral body sway
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -222,7 +222,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance. · For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Usually performed in place (stationary) or with minor lateral travel; solo social dance.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -253,7 +253,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Strong backbeat on 2 and 4 with syncopated bass lines.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -267,7 +267,7 @@ NARRATION: Drill: Combine wings and kicks simultaneously
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Wing Flap: Bending elbows and moving them vertically to mimic a chicken's wings.
@@ -276,7 +276,7 @@ NARRATION: Drill: Add the 'change of pace' transition from a basic Twist
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -295,7 +295,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm flapping while seated; tap heels or lift knees slightly instead of kicking back to maintain balance. · For children: A 'Follow the Leader' style game where children must 'cluck' and flap whenever the music gets louder. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Usually performed in place (stationary) or with minor lateral travel; solo social dance.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 1-2-3-4
-Demonstration: views used by most teachers: front; tempo progression: full; repetitions per step: about 4
-Cues: beaks; wings; tail feathers; claps; skip; slide; gallop
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 1-and-2 / 3-and-4 / 5-and-6 / 7-and-8
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: snap your beaks; flap your wings; shake a tail feather; four claps let's go; beaks; wings; tail feathers; claps; skip; slide; gallop
 
 Sources (2): https://en.wikipedia.org/wiki/Chicken_(dance); https://www.wikidata.org/wiki/Q7722408

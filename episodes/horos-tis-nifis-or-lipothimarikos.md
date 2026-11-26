@@ -1,6 +1,6 @@
 # Horos Tis Nifis or Lipothimarikos — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
@@ -121,7 +121,7 @@ NARRATION: Step 1: Begin with the group in a line or circle holding hands.
 NARRATION: Step 2: Execute the Syrto Sta Dio (two-step) pattern in unison.
 NARRATION: Footwork from the sources: Syrto Sta Dio steps (a variation of the 'two-step' common in Greek dance).
 NARRATION: Drill: Practice the basic two-step rhythm in a circle.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Alternates between 2/4 (Syrto Sta Dio) and unmetered free melody bar out loud, then in pairs of bars · repetitions: 3
@@ -193,7 +193,7 @@ NEEDS: tempo
 NARRATION: Step 1: Leader: On the musical cue (return to rhythm), jump up immediately.
 NARRATION: Step 2: Resume the Syrto Sta Dio steps as a group.
 NARRATION: Drill: Practice a controlled descent to the floor on a musical cue.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Alternates between 2/4 (Syrto Sta Dio) and unmetered free melody bar out loud, then in pairs of bars · repetitions: 3
@@ -265,7 +265,7 @@ NEEDS: tempo
 NARRATION: Step 1: Leader: On the musical cue (return to rhythm), jump up immediately.
 NARRATION: Step 2: Resume the Syrto Sta Dio steps as a group.
 NARRATION: Drill: Practice jumping from a prone position directly into the first step of the Syrto.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Alternates between 2/4 (Syrto Sta Dio) and unmetered free melody bar out loud, then in pairs of bars · repetitions: 3
@@ -332,9 +332,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: count the Alternates between 2/4 (Syrto Sta Dio) and unmetered free melody bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Lipothymiarikos; https://www.wikidata.org/wiki/Q16984880

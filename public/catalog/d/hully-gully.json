@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "hully-gully",
  "name": "Hully Gully",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -108,6 +108,19 @@
    "checked_at": "2026-11-25T20:59:35Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "wYedFJzyGO8",
+    "title": "Hully Gully Tutorial",
+    "channel": "seccubana",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "twist",
    "madison",
@@ -283,28 +296,137 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 13,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
-   }
-  ],
   "via": {
+   "footwork_counts": "lesson",
    "posture": "performance",
    "arms": "performance",
-   "signature_moves": "performance",
+   "signature_moves": "lesson",
    "rhythm": "lesson",
    "sound": "performance",
+   "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
  "lessons": [
+  {
+   "youtube_id": "BDBCZ8hdUfY",
+   "url": "https://www.youtube.com/watch?v=BDBCZ8hdUfY",
+   "title": "Learn the Hully Gully",
+   "channel": "Paulette Brockington",
+   "analysed_on": "2026-11-26",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "intro",
+     "note": "Teacher introduces herself and explains what the Hully Gully is."
+    },
+    {
+     "t": "0:56",
+     "seconds": 56,
+     "segment": "breakdown",
+     "note": "Breaks down the first 8 counts facing away from the camera."
+    },
+    {
+     "t": "1:29",
+     "seconds": 89,
+     "segment": "layering",
+     "note": "Shows the simple twist variation."
+    },
+    {
+     "t": "2:08",
+     "seconds": 128,
+     "segment": "breakdown",
+     "note": "Teaches the step-hop and walk back phrase."
+    },
+    {
+     "t": "3:25",
+     "seconds": 205,
+     "segment": "layering",
+     "note": "Introduces the augmented step version with a stomp."
+    },
+    {
+     "t": "4:51",
+     "seconds": 291,
+     "segment": "layering",
+     "note": "Teaches the third variation with California shuffle."
+    },
+    {
+     "t": "6:16",
+     "seconds": 376,
+     "segment": "music_practice",
+     "note": "Practices the dance routine with music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Hully Gully Basic",
+     "counts": "1-8",
+     "description": "Kick across and step together step to right and left"
+    },
+    {
+     "name": "Step Hop and Walk",
+     "counts": "1-8",
+     "description": "Step and hop forward ending with walk back"
+    },
+    {
+     "name": "California Shuffle Variation",
+     "counts": "1-12",
+     "description": "Adds California shuffle into the routine"
+    }
+   ],
+   "cues": [
+    "Kick across, step, together, step",
+    "Step and hop",
+    "Keep on turning to the buttercups",
+    "Walk, walk, walk"
+   ],
+   "images": [
+    "Keep on churning to the buttercups"
+   ],
+   "common_mistakes": [
+    "Starting on the wrong foot for the line dance rotation"
+   ],
+   "teacher_style": "The instructor patiently explains the background of the dance and breaks down step-by-step variations from simple to complex. She demonstrates facing away from the camera for easier mirroring and encourages student engagement through comments.",
+   "distinctive_method": "Breaking the line dance into three distinct progressive levels of difficulty, starting simple and adding specific stylistic variations like the California shuffle.",
+   "what_works": [
+    "Turning around to face away so viewers can mirror easily",
+    "Progressive layering from simple to more complex variations"
+   ],
+   "what_hinders": [
+    "Lack of slow count-in with music at first"
+   ],
+   "evidence": [
+    {
+     "start_s": 56,
+     "end_s": 65,
+     "topic": "teaching",
+     "observation": "Teacher turns her back to the camera to demonstrate footwork so students can follow along directly.",
+     "viewpoint": "back",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 210,
+     "end_s": 220,
+     "topic": "movement",
+     "observation": "Stepping and hopping forward followed by stepping back.",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "floor grip or shoe friction",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "wYedFJzyGO8",
    "url": "https://www.youtube.com/watch?v=wYedFJzyGO8",
@@ -502,11 +624,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/hully-gully.json"
  },
- "fingerprint": "059dcc19b2ca8945",
- "updated": "2026-11-25"
+ "fingerprint": "f468f882e69d8606",
+ "updated": "2026-11-26"
 }

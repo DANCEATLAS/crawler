@@ -1,8 +1,8 @@
 # mangambeu — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rhythmic specialist who emphasizes the 'explosive' energy and the history of the Ndé department
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Girl Named Mangambeu
 NARRATION: This is mangambeu. 1950s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (BT8oYj4fMPU)
 ON SCREEN: Title card: mangambeu · Cameroon · 1950s to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers move with small steps while swaying their hips.
 NARRATION: The torso is frequently leaned forward.
 NARRATION: It is a social dance performed by both men and women, characterized by rhythmic precision that matches the complex polyrhythms of the music.
 NARRATION: Watch for Déhanchement.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (BT8oYj4fMPU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancers evolve through the space using small steps
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -119,7 +119,7 @@ NARRATION: Step 1: Adopt a forward-leaning torso posture
 NARRATION: Step 2: Execute small, rhythmic steps in place or moving slowly
 NARRATION: Footwork from the sources: Small, rhythmic steps (petits pas)
 NARRATION: Drill: Practice the forward tilt without losing balance
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars · repetitions: 3
@@ -189,7 +189,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Adopt a forward-leaning torso posture
 NARRATION: Step 2: Execute small, rhythmic steps in place or moving slowly
 NARRATION: Drill: Slow hip sways to a 6/8 count
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars · repetitions: 3
@@ -261,7 +261,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Initiate a rhythmic swaying of the hips (déhanchement)
 NARRATION: Step 2: Coordinate hip movements with the 6/8 pulse of the xylophones
 NARRATION: Drill: Marching in 4 while swaying in 6
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars · repetitions: 3
@@ -319,7 +319,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'BT8oYj4fMPU', 'checked_by_vision_model': True, 'title': 'Top 10 Best Traditional Dances In Cameroon'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: The wooden keys of the xylophone, Dust rising from small steps in a courtyard, The forward-tilted silhouette of the dancers, Archival photos of 1950s Bamiléké gatherings
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: count the Polymetric (4/4 and 6/8) bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://www.wikidata.org/wiki/Q6748746; https://fr.wikipedia.org/wiki/Mangambeu

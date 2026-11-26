@@ -1,13 +1,55 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "traditional Tibetan musical instruments",
+        "cymbals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ritual",
+        "meditative",
+        "solemn"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c57716012bc8bd2ff8fe7b6f7651d206601c4961589e48225bd1accc8904852a",
+  "fingerprint": "93534b6f038c3386efc0addd9f3665c40b9c777958b0aa76288341821f91ea33",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +57,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific regional variations exist between Tsam performances in Ulaanbaatar versus rural Mongolian monasteries? Evidence needed: Monographic studies on Mongolian Buddhist ritual arts."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +87,18 @@
   ],
   "music_options": [],
   "name": "Mongolian Tsam",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "8449436b6548f7a0",
+      "next_evidence": "Monographic studies on Mongolian Buddhist ritual arts.",
+      "question": "What specific regional variations exist between Tsam performances in Ulaanbaatar versus rural Mongolian monasteries?",
+      "source": "https://en.wikipedia.org/wiki/Cham_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To capture local performance diversity supported by future sources."
+    }
+  ],
+  "research_file": "research_results/mongolian-tsam.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +109,13 @@
   },
   "slug": "mongolian-tsam",
   "sources": [
-    "https://en.wikipedia.org/wiki/Tsam_dance"
+    "https://en.wikipedia.org/wiki/Cham_dance",
+    "https://www.wikidata.org/wiki/Q138567",
+    "https://es.wikipedia.org/wiki/Cham_(baile)",
+    "https://fr.wikipedia.org/wiki/Cham_(danse)",
+    "https://pt.wikipedia.org/wiki/Cham_(dança)",
+    "https://de.wikipedia.org/wiki/Cham-Mysterien"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

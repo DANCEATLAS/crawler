@@ -2,7 +2,7 @@
  "slug": "jikey",
  "name": "Jikey",
  "pack_version": "e2",
- "built_at": "2026-11-25T21:47:19Z",
+ "built_at": "2026-11-26T21:10:14Z",
  "researched_at": "2026-11-25T19:35:35Z",
  "qc_score": 9.55,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Jikey. late 19th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (hLkPQ6y3dmA)",
      "Title card: Jikey · Malaysia · late 19th century"
     ],
     "music": "theme (30 s)"
@@ -105,7 +105,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (hLkPQ6y3dmA)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -270,7 +270,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -414,7 +414,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -557,7 +557,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -703,7 +703,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "hLkPQ6y3dmA",
+   "checked_by_vision_model": false,
+   "title": "Performance birthday party by Jikey clever boy"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -783,14 +787,14 @@
   ]
  },
  "teaching_formula": {
-  "source": "100 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 100,
+  "source": "111 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 111,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 3"
+   "repetitions per step: about 4"
   ],
   "cues": [
    "5-6-7-8",
@@ -798,13 +802,13 @@
    "step together step",
    "1 2 3 4",
    "1-2-3",
+   "putar",
+   "mundur",
    "step to the right",
    "un dos tres",
-   "side side side side",
-   "rock step rock step",
-   "have fun",
-   "don't forget to breathe",
-   "drop your shoulders"
+   "right together right touch",
+   "left together left touch",
+   "spin out"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -824,7 +828,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed reference footage",
   "posture, arms and hands",
   "the how-it-is-danced section",
@@ -841,6 +845,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "31c366cb91bca8b643962f768f085746e2a7393a2eea063e71072bdb1f0b1182",
- "hero_checked": null
+ "input_fingerprint": "4bb45b52105663f2a0ff33837c5e59b0f8ca50fc1331e68f625857a00faed505",
+ "hero_checked": "fail"
 }

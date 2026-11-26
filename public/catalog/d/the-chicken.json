@@ -84,6 +84,19 @@
     "not_vertical"
    ]
   },
+  "tutorials": [
+   {
+    "youtube_id": "ayKlFF9SOnE",
+    "title": "How to do the Chicken Dance in PE |Practicing Locomotor Movements|",
+    "channel": "The PE Specialist",
+    "level": "general",
+    "pos": 1,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "twist",
    "the-frug"
@@ -340,6 +353,116 @@
  },
  "lessons": [
   {
+   "youtube_id": "6Z-_g-VVLL0",
+   "url": "https://www.youtube.com/watch?v=6Z-_g-VVLL0",
+   "title": "3 easy steps to Learn the Chicken Dance",
+   "channel": "Adventures In Dance",
+   "analysed_on": "2026-11-26",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-and-2 / 3-and-4 / 5-and-6 / 7-and-8",
+   "parts": [
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "full_demo",
+     "note": "Demonstration of the dance with partners"
+    },
+    {
+     "t": "1:06",
+     "seconds": 66,
+     "segment": "intro",
+     "note": "Introduction to the chicken dance tutorial"
+    },
+    {
+     "t": "1:32",
+     "seconds": 92,
+     "segment": "breakdown",
+     "note": "Step 1: little chicken moves"
+    },
+    {
+     "t": "1:49",
+     "seconds": 109,
+     "segment": "breakdown",
+     "note": "Step 2: polka steps introduction"
+    },
+    {
+     "t": "2:40",
+     "seconds": 160,
+     "segment": "breakdown",
+     "note": "Third way of doing polka steps turning right and left"
+    },
+    {
+     "t": "3:39",
+     "seconds": 219,
+     "segment": "full_demo",
+     "note": "Partners demonstration with music"
+    },
+    {
+     "t": "5:41",
+     "seconds": 341,
+     "segment": "context",
+     "note": "Historical background of the chicken dance"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Little chicken moves",
+     "counts": "4 counts",
+     "description": "Snap beaks, flap wings, shake tail feathers, and clap four times."
+    },
+    {
+     "name": "Polka steps",
+     "counts": "8 counts",
+     "description": "Polka steps done in three different ways: with a partner, dosado, and turning in place."
+    }
+   ],
+   "cues": [
+    "Snap your beaks",
+    "Flap your wings",
+    "Shake a tail feather",
+    "Four claps, let's go"
+   ],
+   "images": [
+    "Snap your beaks like this",
+    "Flap your wings like that"
+   ],
+   "teacher_style": "The instructor uses a step-by-step breakdown method with verbal enumeration and visual demonstrations. She explains movement variations and context in a structured tutorial format.",
+   "distinctive_method": "Breaking down a single dance step into three distinct spatial variations: partner dance, dosado, and solo turns.",
+   "what_works": [
+    "Clear numbering for steps",
+    "Visual demonstrations with partners and solo"
+   ],
+   "what_hinders": [
+    "Rapid transition between partner and solo views"
+   ],
+   "evidence": [
+    {
+     "start_s": 132,
+     "end_s": 148,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates arm movements while facing the camera directly",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "footwork and weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 251,
+     "end_s": 313,
+     "topic": "movement",
+     "observation": "Teacher counts aloud while demonstrating foot placement in place and turning",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight shifts on off-beats",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "ayKlFF9SOnE",
    "url": "https://www.youtube.com/watch?v=ayKlFF9SOnE",
    "title": "How to do the Chicken Dance in PE |Practicing Locomotor Movements|",
@@ -453,6 +576,6 @@
   "polished": false,
   "file": "episodes/the-chicken.json"
  },
- "fingerprint": "d503ca27b3d4a580",
- "updated": "2026-11-25"
+ "fingerprint": "b0c9556e04d36f86",
+ "updated": "2026-11-26"
 }

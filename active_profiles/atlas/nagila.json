@@ -2,23 +2,18 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "Avoid over-extending the back during the forward bend."
-        ],
-        "counts": "Simplified 1-2-3-4 counts for the stamps.",
-        "duration_minutes": "5 minutes total.",
-        "game_version": "A 'follow the drum' game where children take turns in the center for 30 seconds."
+        "avoid": [],
+        "counts": "not described in sources",
+        "duration_minutes": "not described in sources",
+        "game_version": "not described in sources"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "Avoid deep forward bends if there is lower back pain.",
-          "Avoid high-impact stamping."
-        ],
-        "counts": "Use a steady 4/4 count for the stamps.",
-        "seated_version": "Perform the torso bend and arm positioning while seated in a sturdy chair.",
-        "standing_version": "Perform the torso bend while holding onto a support for balance.",
-        "tempo_and_range": "Reduce the intensity of the stamps and the duration of the dance cycles."
+        "avoid": [],
+        "counts": "not described in sources",
+        "seated_version": "not described in sources",
+        "standing_version": "not described in sources",
+        "tempo_and_range": "not described in sources"
       }
     },
     "interaction_profile": {
@@ -28,21 +23,21 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "Elbows held in front or behind the body.",
+      "arms_and_hands": "Elbows held in front or behind the torso.",
       "difficulty": "beginner",
       "footwork": "Stamping feet on the ground in a rhythmic pattern.",
-      "formation_and_space": "Solo dancer in the center.",
-      "hips_and_torso": "Hips and thighs form a right angle.",
+      "formation_and_space": "Solo act where a dancer takes the center space.",
+      "hips_and_torso": "Hips and thighs form a right angle with the forward-bent upper body.",
       "levels_and_jumps": "not described in sources",
-      "partnering": "not described in sources",
-      "posture": "Upper body bent forward, hips and thighs at a right angle.",
+      "partnering": "solo",
+      "posture": "Upper body bent forward such that hips and thighs form a right angle, elbows held in front or behind.",
       "signature_moves": [
         {
-          "description": "A rhythmic stamp performed while the torso is bent forward at a right angle.",
-          "name": "Forward-bend stamp"
+          "description": "Dancer bends upper body forward with hips and thighs at a right angle while rhythmically stamping feet.",
+          "name": "Right-Angle Forward Lean Stamp"
         }
       ],
-      "tempo_feel": "30-second bursts of dance.",
+      "tempo_feel": "not described in sources",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
@@ -52,29 +47,29 @@
       "meter": "not described in sources",
       "mood_keywords": [
         "recreational",
-        "rhythmic",
-        "festive"
+        "festive",
+        "rhythmic"
       ],
-      "musical_form": "cyclical, alternating between dance and instrumental-only sections",
+      "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "rhythmic motion in interaction with the drums",
-      "sound_description": "The music is driven by drums that interact with the dancer's footwork, featuring dynamic volume changes to signal the dancer's activity.",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Bend upper body forward until hips and thighs form a right angle.",
-        "Position elbows either in front of the body or behind the back.",
-        "Stamp feet on the ground in a rhythmic pattern."
+        "Bend upper body forward forming a right angle between hips and thighs",
+        "Hold elbows in front or behind the torso",
+        "Stamp feet on the ground in a rhythmic pattern for thirty seconds"
       ],
-      "formation": "Solo act in the center of a group.",
-      "level_notes": "Beginner: Focus on maintaining the right-angle posture while stamping.",
-      "rhythm": "Rhythmic motion interacting with drums."
+      "formation": "Solo dancer taking the center stage in interaction with drums",
+      "level_notes": "Performed in 30-second active bursts alternating with musical interludes.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "32da7bcef247c581aff6c7181b1938318a2227d0e97e42933919af5fdec5713f",
+  "fingerprint": "ccf8a0ce4ca66e775820f7e5cd8f0e6e2e6b15421afe6d6e20a0932aca376baa",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -83,7 +78,7 @@
     ],
     "research": [
       "movement: what_to_avoid",
-      "music_structure: meter",
+      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -99,7 +94,8 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific visual cues and drumming techniques associated with the volume shifts during a live Nagila performance? Evidence needed: Field recordings or documentary video from the Upper East region of Ghana."
     ]
   },
   "id": "atlas:nagila",
@@ -110,7 +106,17 @@
   ],
   "music_options": [],
   "name": "Nagila",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "ed8c89ae38154c49",
+      "next_evidence": "Field recordings or documentary video from the Upper East region of Ghana.",
+      "question": "What are the specific visual cues and drumming techniques associated with the volume shifts during a live Nagila performance?",
+      "source": "https://en.wikipedia.org/wiki/Nagila",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately capture the live interaction between the solo dancer and the percussion ensemble."
+    }
+  ],
   "research_file": "research_results/nagila.json",
   "runtime_active": false,
   "scope": {

@@ -1,6 +1,6 @@
 # Big Apple — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.65 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.65 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); teaching steps written out
 
@@ -330,7 +330,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 5-6-7-8
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full
 Cues: kick ball change on count eight; flicking your feet forward; jump backwards on seven; hit your butt on count 8

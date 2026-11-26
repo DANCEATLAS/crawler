@@ -1,13 +1,66 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "gestures encouraging dancers to explore for deeper mystical meanings",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "five to 500 dancers stand in a circle around a leader and musicians with acoustic instruments in the center",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "harmonizing with others through dance",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Rotational movement influenced by Sufi practices and the Whirling Dervishes",
+          "name": "Whirling"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "spectating (spectating is somewhat discouraged as joy and participation are the goal)"
+    },
+    "music_profile": {
+      "instruments": [
+        "drum",
+        "guitar",
+        "flute",
+        "stringed instrument"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "joy",
+        "spiritual awareness",
+        "peace"
+      ],
+      "musical_form": "traditional, contemporary, or occasionally improvised melodies",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Acoustic instruments centered within a large circle accompanying multi-lingual vocal chants and poetry.",
+      "tempo_bpm": "",
+      "vocal_style": "singing sacred phrases, quotes, and inspirational poetry in multiple languages"
+    },
+    "teaching": {
+      "basic_steps": [
+        "stand in a circle",
+        "participate in whirling",
+        "move with singing"
+      ],
+      "formation": "five to 500 dancers stand in a circle around a leader and musicians in the center",
+      "level_notes": "Dancers of all levels, including children, are able to follow along and dance together as each dance is taught afresh at each gathering.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c08905eb6975aad339bfb02ea3309ab353f8a45c99bff49f8ce5dcd7abfd9372",
+  "fingerprint": "f8ce5817e7cff514bc5197131ee2e0b052846ed4800871f29b8f3e6b9bcd76ec",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +68,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork, posture",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -34,7 +86,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact spatial pathways and footwork patterns used for specific regional chants? Evidence needed: Video documentation of DUP leader workshops"
     ]
   },
   "id": "atlas:dances-of-universal-peace",
@@ -45,8 +98,18 @@
   ],
   "music_options": [],
   "name": "Dances of Universal Peace",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "66045e154c9d043b",
+      "next_evidence": "Video documentation of DUP leader workshops",
+      "question": "What are the exact spatial pathways and footwork patterns used for specific regional chants?",
+      "source": "https://en.wikipedia.org/wiki/Dances_of_Universal_Peace",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile currently lacks specific footwork and spatial path descriptions."
+    }
+  ],
+  "research_file": "research_results/dances-of-universal-peace.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +121,8 @@
   "slug": "dances-of-universal-peace",
   "sources": [
     "https://en.wikipedia.org/wiki/Dances_of_Universal_Peace",
-    "Source: Dances of Universal Peace on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Dances_of_Universal_Peace"
+    "https://www.wikidata.org/wiki/Q5215412"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

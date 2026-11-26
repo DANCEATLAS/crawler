@@ -1,0 +1,103 @@
+{
+ "youtube_id": "y5ghno2I3f8",
+ "slug": "sasa",
+ "dance": "Sasa",
+ "title": "new SASA lesson",
+ "channel": "hirochaaa",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-26T20:52:57Z",
+ "url": "https://www.youtube.com/watch?v=y5ghno2I3f8",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor demonstrates seated dance movements on the floor while addressing students with spoken instructions. He provides rhythmic counting and verbal corrections while students practice along with him.",
+  "language": "Japanese",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Instructor seated on the floor facing students"
+   },
+   {
+    "t": "0:04",
+    "segment": "breakdown",
+    "note": "Explaining the hand movements and speed of Sasa"
+   },
+   {
+    "t": "0:34",
+    "segment": "follow_along",
+    "note": "Practicing the seated sasa routine with clapping and arm gestures"
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "ゆっくりじゃ無いよ",
+   "このスピード"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Doing the speed too slow instead of the correct rhythm"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Sasa hand movements",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "Seated hand clapping and arm patterns"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear demonstration from a seated position facing the camera"
+   ],
+   "what_hinders": [
+    "Instructional explanations are brief"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:13",
+    "text": "このスピードは、このスピードじゃないよ"
+   },
+   {
+    "t": "0:27",
+    "text": "今日の、今日は無理だから"
+   },
+   {
+    "t": "1:07",
+    "text": "もう一回やりますか"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "Instructor sits cross-legged on a wooden floor demonstrating hand motions to seated students.",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "exact footwork",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Teaching seated Sasa routines on the floor with rhythmic clapping and verbal pacing."
+ },
+ "attempts": 1
+}

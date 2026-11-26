@@ -1,0 +1,852 @@
+{
+ "slug": "calypso",
+ "name": "Calypso",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T20:30:28Z",
+ "qc_score": 8.25,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable Trinidadian music historian and cultural archivist.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Calypso",
+   "Calypso Music",
+   "Trinidad Calypso",
+   "Kaiso",
+   "Steelpan Calypso"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Calypso",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Sound of Protest",
+     "This is Calypso. 19th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (0b2Z_mafwN8)",
+     "Title card: Calypso · Trinidad and Tobago · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Calypso music has its roots in Trinidad in the 17th century from the West African Kaiso and Canboulay familiar to the enslaved Africans brought to the Caribbean islands to work on sugar plantations.",
+     "Modern calypso began in the 19th century as a fusion of disparate elements ranging from the masquerade song lavway, French Creole belair, and the calinda stick-fighting chantwell."
+    ],
+    "on_screen": [
+     "Map: Trinidad and Tobago · Caribbean",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Calypso serves as a vital medium for sociopolitical commentary, news dissemination, and protest against authoritarian colonial culture.",
+     "Singers use the genre to lampoon politicians, critique economic inequalities, and voice community concerns during Carnival and national elections.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:WILLIE WILLIE 1943 SOUNDIE MUSIC VIDEO CALYPSO MUSIC SAM MANNING and BELLE ROSETTE.webm (https://upload.wikimedia.org/wikipedia/commons/7/7f/WILLIE_WILLIE_1943_SOUNDIE_MUSIC_VIDEO_CALYPSO_MUSIC_SAM_MANNING_and_BELLE_ROSETTE.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (0b2Z_mafwN8)",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Calypso music is characterized by highly rhythmic and harmonic vocals, traditionally accompanied by steel drums (tambores metálicos) manufactured from recycled oil barrels.",
+     "Venezuelan variants utilize a rhythmic percussion battery based on the bumbac, charrasca, cencerro, and cuatro, while modern adaptations incorporate keyboards, electric basses, and horn sections.",
+     "Listen for the steel drums, bumbac, charrasca, cencerro.",
+     "The pulse is 2/4.",
+     "A syncopated 2/4 rhythm anchored by steel drums and percussive chatter, driven by witty, narrative-led vocal delivery and call-and-response structures."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Day-O (The Banana Boat Song) — Harry Belafonte; Jean and Dinah — Mighty Sparrow; Calypso — Harry Belafonte (1956)",
+     "Waveform or rhythm-pattern graphic: syncopated calypso rhythm"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Calypso performances historically center around seasonal 'calypso tents' and large-scale Carnival celebrations.",
+     "Performers and participants wear vibrant Carnival costumes, and competition winners traditionally join pageantry winners in the annual costume parade on Carnival Monday."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key historical and contemporary figures include Attila the Hun, Roaring Lion, Lord Invader, Lord Kitchener, Mighty Sparrow, Calypso Rose, and Harry Belafonte, who popularized the genre globally in the 1950s.",
+     "Regional expressions include benna in Antigua and Barbuda, spouge in Barbados, Dominica cadence-lypso, Venezuelan calipso de El Callao, Jamaican mento, and soca music.",
+     "Derived from West African Kaiso, French Creole belair, and calinda stick-fighting chants, calypso subsequently influenced international genres like ska and evolved directly into soca music."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Calypso is child of Soca: Soca emerged in the late 1970s from the blending of calypso with East Indian music, soul, and funk.",
+     "Calypso is sibling of Mento: Jamaican folk music style sharing roots and mid-century Caribbean popularity with calypso."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how enslaved Trinidadians transformed banned drumming into witty global social commentary.",
+     "Sources: 7 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "the first steps of Calypso",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: the first steps of Calypso.",
+      "Level: beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable Trinidadian music historian and cultural archivist."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-and. The meter is 2/4.",
+      "Rhythm pattern: syncopated calypso rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-and",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-and",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: <mistake the teacher names and corrects>",
+      "Teachers of this dance warn against: not squaring hips to the front",
+      "Teachers of this dance warn against: crunching the head back on firebirds"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-and.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the first steps of Calypso.",
+      "Calypso serves as a vital medium for sociopolitical commentary, news dissemination, and protest against authoritarian colonial culture.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Calypso",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Calypso.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable Trinidadian music historian and cultural archivist."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-and. The meter is 2/4.",
+      "Rhythm pattern: syncopated calypso rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-and",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-and",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: <mistake the teacher names and corrects>",
+      "Teachers of this dance warn against: not squaring hips to the front",
+      "Teachers of this dance warn against: crunching the head back on firebirds"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-and.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Calypso.",
+      "Key historical and contemporary figures include Attila the Hun, Roaring Lion, Lord Invader, Lord Kitchener, Mighty Sparrow, Calypso Rose, and Harry Belafonte, who popularized the genre globally in the 1950s.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Calypso",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Calypso.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable Trinidadian music historian and cultural archivist."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-and. The meter is 2/4.",
+      "Rhythm pattern: syncopated calypso rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-and",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-and",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Teachers of this dance warn against: <mistake the teacher names and corrects>",
+      "Teachers of this dance warn against: not squaring hips to the front",
+      "Teachers of this dance warn against: crunching the head back on firebirds"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-and.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Calypso.",
+      "Derived from West African Kaiso, French Creole belair, and calinda stick-fighting chants, calypso subsequently influenced international genres like ska and evolved directly into soca music.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4",
+  "rhythm_pattern": "syncopated calypso rhythm",
+  "instruments": [
+   "steel drums",
+   "bumbac",
+   "charrasca",
+   "cencerro",
+   "cuatro",
+   "maracas",
+   "keyboard",
+   "electric bass"
+  ],
+  "vocal_style": "highly rhythmic and harmonic vocals with pidgin English inflections",
+  "musical_form": "verse-chorus with call-and-response",
+  "mood": [
+   "joyful",
+   "satirical",
+   "energetic"
+  ],
+  "sound_description": "A syncopated 2/4 rhythm anchored by steel drums and percussive chatter, driven by witty, narrative-led vocal delivery and call-and-response structures.",
+  "listen_before_composing": [
+   "Day-O (The Banana Boat Song) — Harry Belafonte",
+   "Jean and Dinah — Mighty Sparrow",
+   "Calypso — Harry Belafonte (1956)",
+   "Jambo Caribe — Dizzy Gillespie (1964)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Calypso (Trinidad and Tobago). Meter 2/4. Rhythm pattern: syncopated calypso rhythm. Instruments: steel drums, bumbac, charrasca, cencerro, cuatro, maracas, keyboard, electric bass. Vocal style: highly rhythmic and harmonic vocals with pidgin English inflections. Form: verse-chorus with call-and-response. Mood: joyful, satirical, energetic. It should sound like this: A syncopated 2/4 rhythm anchored by steel drums and percussive chatter, driven by witty, narrative-led vocal delivery and call-and-response structures. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "0b2Z_mafwN8",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Calypso performances historically center around seasonal 'calypso tents' and large-scale Carnival celebrations. Performers and participants wear vibrant Carnival costumes, and competition winners traditionally join pageantry winners in the annual costume parade on Carnival Monday.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACalypso22.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACalypso_Mama%2C_singer.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Calypso22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Calypso22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "U. S. Government / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACalypso22.jpg",
+    "description": "Left to right: Lord Invader, The Mighty Growler, Atilla the Hun, and The Roaring Lion. Atilla's dress and hat are probably in reference to his song, \"The Modern Girl\"."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Calypso_Mama%2C_singer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Calypso_Mama%2C_singer.jpg/1280px-Calypso_Mama%2C_singer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Gasybeaugosse2020 / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACalypso_Mama%2C_singer.jpg",
+    "description": "Singer Calypso Mama, real name Maureen Verlene Duvalier performing in a show."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:WILLIE WILLIE 1943 SOUNDIE MUSIC VIDEO CALYPSO MUSIC SAM MANNING and BELLE ROSETTE.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/WILLIE_WILLIE_1943_SOUNDIE_MUSIC_VIDEO_CALYPSO_MUSIC_SAM_MANNING_and_BELLE_ROSETTE.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Sam Manning / Beryl McBurnie / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "Misc episode of ''You Asked For It'' #6",
+    "url": "https://archive.org/details/MiscEpisodeOfyouAskedForIt6",
+    "year": 1951,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Steelpan instruments gleaming in the sun",
+   "Colorful Carnival costume parades",
+   "Archival photographs of historic calypso tents"
+  ],
+  "costume_notes": "Calypso performances historically center around seasonal 'calypso tents' and large-scale Carnival celebrations. Performers and participants wear vibrant Carnival costumes, and competition winners traditionally join pageantry winners in the annual costume parade on Carnival Monday.",
+  "setting_notes": "Calypso serves as a vital medium for sociopolitical commentary, news dissemination, and protest against authoritarian colonial culture. Singers use the genre to lampoon politicians, critique economic inequalities, and voice community concerns during Carnival and national elections.",
+  "map": {
+   "country": "Trinidad and Tobago",
+   "region": "Caribbean",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "5-6-7-and",
+  "counting_basis": "studied dance-specific tutorial",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 3"
+  ],
+  "cues": [
+   "short verbal cue the teacher repeats  8 words",
+   "square your hips",
+   "start as low as you can",
+   "spot the side you will be landing at"
+  ],
+  "common_mistakes": [
+   "<mistake the teacher names and corrects>",
+   "not squaring hips to the front",
+   "crunching the head back on firebirds"
+  ],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "breakdown"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Center Leap",
+    "counts": "5-6-7-and",
+    "description": "Chasse, step, leap off front foot with square hips and arms in T"
+   },
+   {
+    "name": "Reverse Leap",
+    "counts": "5-6-7-and",
+    "description": "Chasse, step, flip hips and leap with opposite foot forward"
+   },
+   {
+    "name": "Firebird",
+    "counts": "5-6-7-and",
+    "description": "Chasse, step, developpe with bent back leg and arched back"
+   }
+  ]
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "licensed images (3 needed)",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
+  "teaching steps written out"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Calypso_music",
+  "https://www.wikidata.org/wiki/Q752785",
+  "https://es.wikipedia.org/wiki/Calipso_(música)",
+  "https://fr.wikipedia.org/wiki/Calypso_(musique)",
+  "https://pt.wikipedia.org/wiki/Calipso_(gênero_musical)",
+  "https://de.wikipedia.org/wiki/Calypso_(Musik)",
+  "https://archive.org/details/BNA-DIG-ARUBIANA-3835"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "a35db641b72cb5a4622738664e8db4bddd9502a7358480e2c7bcaf12b3a7529c",
+ "hero_checked": "pass"
+}

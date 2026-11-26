@@ -57,7 +57,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 4,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -73,39 +73,66 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "formation",
-    "label": "formation and use of space"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
- "fingerprint": "97f416762c532dc7",
- "updated": "2026-11-25"
+ "performances": [
+  {
+   "youtube_id": "HTb7ZNFOc24",
+   "url": "https://www.youtube.com/watch?v=HTb7ZNFOc24",
+   "analysed_on": "2026-11-26",
+   "observation": {
+    "setting": "an outdoor grass field during a daytime festival or competition with tents, spectators seated on the ground and in chairs, and hills in the background",
+    "dancers": "a group of men and boys",
+    "formation_and_space": "a tight linear block formation that moves forward and crouches together, with individual dancers performing solo stepping outside the main group",
+    "posture": "upright or bent forward from the waist with knees lifting high",
+    "footwork": "stamping steps with knees raised high and sharp leg extensions to the side or front, synchronized with the rhythmic chanting",
+    "arms_and_hands": "arms held raised holding long poles or sticks with streamers attached; hands also wave white cloths or tap against hips",
+    "hips_and_torso": "torso leans forward or stays upright, with stable hips and powerful leg and knee drives",
+    "partnering": "none",
+    "levels_jumps_turns": "dancers crouch low to the ground in a cluster, then rise to stand and perform high knee lifts and turns",
+    "costume_and_props": "white sleeveless shirts or vests, dark trousers with white decorative panels or stripes, and long sticks/poles with white streamers attached held in the hands",
+    "cannot_infer": "exact acoustic musical accompaniment beyond vocals is unclear; footwork details during low crouches are partially occluded by the group formation",
+    "music_heard": {
+     "instruments": [],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 113,
+      "end_s": 125,
+      "what": "a solo dancer steps out of formation, kicking his leg high to the side while holding a streamer-topped pole"
+     },
+     {
+      "start_s": 210,
+      "end_s": 220,
+      "what": "dancers in the main group interlock arms and kick their legs in unison while maintaining a tight cluster"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "2055f359ce3f2b27",
+ "updated": "2026-11-26"
 }

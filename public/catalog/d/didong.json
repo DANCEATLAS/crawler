@@ -142,6 +142,19 @@
     "not_talking_head"
    ]
   },
+  "tutorials": [
+   {
+    "youtube_id": "-ZMzeABH4EM",
+    "title": "Orang japan,belajar(DIDONG.)seni gayo.",
+    "channel": "DEGAYO REGGAE",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "saman"
   ]
@@ -481,6 +494,88 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "ZW4viijfh70",
+   "url": "https://www.youtube.com/watch?v=ZW4viijfh70",
+   "title": "Failllllll!!! Belajar Didong",
+   "channel": "Sahid Ungels",
+   "analysed_on": "2026-11-26",
+   "level": "beginner",
+   "language": "Indonesian",
+   "counting_scheme": "1-2-3-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Students sit in a circle outdoors in school uniforms, practicing rhythmic hand claps and vocalizations."
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "slow_practice",
+     "note": "Group practices chanting and synchronized hand gestures in a circle."
+    },
+    {
+     "t": "1:00",
+     "seconds": 60,
+     "segment": "music_practice",
+     "note": "Group continues practicing vocal chants with rhythmic clapping."
+    },
+    {
+     "t": "2:00",
+     "seconds": 120,
+     "segment": "other",
+     "note": "Students continue group vocal and hand practice, occasionally breaking into laughter and restarting."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Didong rhythmic clapping and chanting",
+     "counts": "1-2-3-4",
+     "description": "Seated rhythmic vocalization and synchronized hand claps in a circle."
+    }
+   ],
+   "cues": [
+    "Satu",
+    "Dua",
+    "Tiga",
+    "Empat"
+   ],
+   "teacher_style": "The instructor guides a group of students sitting in a circle in an outdoor courtyard while practicing traditional rhythmic chants and hand movements. The teaching style is informal and collaborative, with students laughing, correcting each other, and coordinating timing together.",
+   "distinctive_method": "Group circle practice where participants sit on the ground outdoors, combining vocal chants and hand percussion without a raised instructor.",
+   "what_works": [
+    "Sitting in a circle allows all participants to see and hear each other clearly."
+   ],
+   "what_hinders": [
+    "Background noise and student chatter make it difficult to hear specific instructions."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "Students sitting in a circle clapping hands rhythmically together.",
+     "viewpoint": "front",
+     "cannot_infer": "exact teacher-student hierarchy",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 30,
+     "end_s": 45,
+     "topic": "movement",
+     "observation": "Participants extending hands forward and clapping in rhythm while chanting.",
+     "viewpoint": "front",
+     "cannot_infer": "full body stance",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "episodes": {
@@ -492,6 +587,6 @@
   "polished": false,
   "file": "episodes/didong.json"
  },
- "fingerprint": "6ce67670e02558c9",
- "updated": "2026-11-25"
+ "fingerprint": "1cd0feb0c4540ef3",
+ "updated": "2026-11-26"
 }

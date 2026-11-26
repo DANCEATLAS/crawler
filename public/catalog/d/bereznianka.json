@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "bereznianka",
  "name": "Bereznianka",
- "state": "listed",
+ "state": "not_published",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "UA"
@@ -35,6 +35,10 @@
   "hero_video_youtube_id": "zEgJLfIjYwk",
   "tier": "needs_curation",
   "_is_sacred": false,
+  "research_gate": "review",
+  "qc_score": 7.15,
+  "last_researched_at": "2026-11-26T20:16:55Z",
+  "pipeline_version": "v3.3",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -48,6 +52,46 @@
    "trepak",
    "flamenco"
   ]
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 9,
+  "of": 15,
+  "missing": [
+   {
+    "key": "published",
+    "label": "passed every quality gate and the independent judge"
+   },
+   {
+    "key": "story",
+    "label": "origins, meaning and occasions, dress and setting — written from sources"
+   },
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
  "performances": [
   {
@@ -101,6 +145,6 @@
    }
   }
  ],
- "fingerprint": "4e92c731a87181d9",
- "updated": "2026-11-25"
+ "fingerprint": "6e80f28cbbf8baf6",
+ "updated": "2026-11-26"
 }

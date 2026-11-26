@@ -34,6 +34,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mak_Sa%CA%BBmoa",
   "wikidata_qid": "Q6738541",
   "unesco": false,
+  "hero_video_youtube_id": "GEKkZa6yJDQ",
+  "video_stack": [
+   {
+    "youtube_id": "GEKkZa6yJDQ",
+    "role": "hero",
+    "title": "Siva Samoa - Samoan Men's Dance",
+    "channel": "CK in OZ",
+    "hd": true
+   },
+   {
+    "youtube_id": "VrHtTOLRm1c",
+    "role": "rendition",
+    "title": "Siva Samoa - Samoan Group Dance Performance",
+    "channel": "Pride of the Pacific",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -47,6 +64,12 @@
   "profile_long": "Mak Sa'moa is an informal Rotuman dance tradition whose name translates directly as 'Samoan dance' in the Rotuman language. For generations, the dance was integrated into local custom and held to be an original Rotuman tradition. It was only after contact with Christian missionaries—specifically representatives from the London Missionary Society and the Methodist Church of Fiji and Rotuma—that Rotumans recognized the form had been inherited from early Samoan ancestors, including the legendary founder Raho, to whom islanders attribute the founding of Rotuma.\n\nThe dance movement draws directly from the movement repertoire of the Siva Samoa. Dancers execute a characteristic footwork pattern involving the inward and outward shuffling and twisting of the feet. Hand movements are performed in an interactive style between men and women, establishing a rhythmic visual counterpoint to the leg work. Compared to other regional forms, Mak Sa'moa is characterized by a measured and generally slower pace.\n\nIn contemporary practice, Mak Sa'moa is particularly popular among older generations of Rotuman people. Older dancers appreciate its unhurried tempo and the traditional style of its music and lyrics, which stand in contrast to faster borrowing styles like Mak Rarotoga, whose accelerated rhythms emulate Tahitian otea and Rarotongan tamure dances. Mak Sa'moa remains a fixture during the av' mane'a season, performed prominently during the community festivities of the Rotuman fara.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-26T20:41:00Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "siva-samoa"
   ]
@@ -209,60 +232,100 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
+  "have": 12,
   "of": 15,
   "missing": [
    {
-    "key": "story",
-    "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
    },
    {
     "key": "lesson_plan",
     "label": "ordered basic steps or a lesson ladder"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "sound": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "GEKkZa6yJDQ",
+   "url": "https://www.youtube.com/watch?v=GEKkZa6yJDQ",
+   "analysed_on": "2026-11-26",
+   "observation": {
+    "setting": "indoor stage performance with a seated audience watching a cultural show",
+    "dancers": "four men, group",
+    "formation_and_space": "line formation across the stage, occasional kneeling or dropping to the floor",
+    "posture": "upright torso with deep knee bends, wide stance",
+    "footwork": "fast stepping and stomping in place, shifting weight from side to side in time with the beat",
+    "arms_and_hands": "arms outstretched, raised overhead, or making expressive hand gestures while moving with the upper body",
+    "hips_and_torso": "energetic hip shimmies and swaying coordinated with the footwork and knee bends",
+    "partnering": "none, solo choreography performed in unison",
+    "levels_jumps_turns": "standing and kneeling levels, rapid stomping and small foot lifts, no major jumps or turns",
+    "costume_and_props": "bare chests with red and white patterned wraps or skirts tied around the waist with decorative fringe",
+    "cannot_infer": "exact foot placement on the ground is partially obscured by stage lighting and low camera angle",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "synthesizer"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 38,
+      "end_s": 44,
+      "what": "four dancers stomp in unison while clapping their hands in front of their chests"
+     },
+     {
+      "start_s": 56,
+      "end_s": 60,
+      "what": "dancers squat low with wide knees while rapidly shaking their hips and moving arms"
+     },
+     {
+      "start_s": 109,
+      "end_s": 115,
+      "what": "dancers raise one arm high while kneeling on one knee and sweeping the other hand"
+     },
+     {
+      "start_s": 139,
+      "end_s": 145,
+      "what": "group steps side to side in a line with arms extended outward, fingers flicking"
+     },
+     {
+      "start_s": 218,
+      "end_s": 225,
+      "what": "dancers face slightly sideways, stamping feet rapidly with closed fists near shoulders"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 10,
+  "gaps": 9,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/mak-sa-moa.json"
  },
- "fingerprint": "d02208fcb8a31f33",
- "updated": "2026-11-25"
+ "fingerprint": "5395fc2c3fde0e4e",
+ "updated": "2026-11-26"
 }

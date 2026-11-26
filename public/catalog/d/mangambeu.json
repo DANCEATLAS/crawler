@@ -35,6 +35,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mangambeu",
   "wikidata_qid": "Q6748746",
   "unesco": false,
+  "hero_video_youtube_id": "BT8oYj4fMPU",
+  "video_stack": [
+   {
+    "youtube_id": "BT8oYj4fMPU",
+    "role": "hero",
+    "title": "Top 10 Best Traditional Dances In Cameroon",
+    "channel": "Displore",
+    "hd": true
+   },
+   {
+    "youtube_id": "hlZXbPjEj2w",
+    "role": "rendition",
+    "title": "Compile Mangambeu  @J.E.T.ofHope",
+    "channel": "Most music School",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -62,7 +79,15 @@
   ],
   "needs_eyes_on": true,
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-26T20:41:04Z",
+   "soft_fail": [
+    "named"
+   ]
+  }
  },
  "profile": {
   "sections": {
@@ -262,7 +287,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 9,
   "of": 15,
   "missing": [
    {
@@ -282,10 +307,6 @@
     "label": "two or more signature moves"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    },
@@ -300,11 +321,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/mangambeu.json"
  },
- "fingerprint": "1948136007e34acc",
- "updated": "2026-11-25"
+ "fingerprint": "d2620da9adf7c3b3",
+ "updated": "2026-11-26"
 }

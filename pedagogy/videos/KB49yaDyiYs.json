@@ -1,0 +1,117 @@
+{
+ "youtube_id": "KB49yaDyiYs",
+ "slug": "cabbage-patch",
+ "dance": "Cabbage Patch",
+ "title": "Learn Hip Hop Dance in 5 Minutes - CABBAGE PATCH (easy to follow)",
+ "channel": "Tiger Street Dancer",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-26T20:52:42Z",
+ "url": "https://www.youtube.com/watch?v=KB49yaDyiYs",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down the dance step-by-step using clear verbal instructions combined with slow demonstrations. He uses casual, encouraging language while focusing on hand and torso coordination.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to the Cabbage Patch dance tutorial"
+   },
+   {
+    "t": "0:20",
+    "segment": "breakdown",
+    "note": "Explaining hand placement and torso movement for the Cabbage Patch"
+   },
+   {
+    "t": "2:10",
+    "segment": "music_practice",
+    "note": "Demonstrating the full Cabbage Patch dance sequence with music"
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "5-6-7-8",
+   "Bam",
+   "Lean back"
+  ],
+  "metaphors": [
+   "Circling essentially or literally actually"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Doing the wrong version of the Cabbage Patch that some people get confused about"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Cabbage Patch",
+    "counts": "5-6-7-8",
+    "description": "Fists with palms facing forward while leaning and circling torso with foot steps."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear step-by-step breakdown of hand and torso movements",
+    "Using counts and verbal cues to keep rhythm"
+   ],
+   "what_hinders": [
+    "The teacher primarily shows upper body in close-up while demonstrating footwork in a small inset video"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:06",
+    "text": "Today you're going to learn the Cabbage Patch."
+   },
+   {
+    "t": "0:19",
+    "text": "How do we do it? How do we get a groove?"
+   },
+   {
+    "t": "2:10",
+    "text": "That's the whole thing, okay? So it looks like this."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 15,
+    "topic": "teaching",
+    "observation": "Teacher speaking directly to the camera with upper body framing, introducing the lesson topic.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "full body stance or footwork",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 49,
+    "end_s": 53,
+    "topic": "movement",
+    "observation": "Split screen showing upper body demonstration on the right and full body demonstration outdoors on the left.",
+    "viewpoint": "front, not mirrored",
+    "cannot_infer": "exact weight distribution details",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using a split screen with a smaller inset video to show footwork simultaneously while explaining upper body movements in close-up."
+ },
+ "attempts": 1
+}

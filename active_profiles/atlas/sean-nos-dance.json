@@ -1,0 +1,151 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "prolonged percussive striking"
+        ],
+        "counts": "Simple 4-count rhythm",
+        "duration_minutes": "5",
+        "game_version": "Call-and-response foot-tapping rhythm game"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "rapid high-impact battering",
+          "complex balancing on one foot"
+        ],
+        "counts": "Steady 4/4 or reel timing",
+        "seated_version": "Seated foot tapping matching the musical rhythm",
+        "standing_version": "Standing with support, reduced range of foot movement",
+        "tempo_and_range": "Slower tempo, minimal floor impact"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "free movement of the arms, swinging with the natural rhythm or kept loosely at the side",
+      "difficulty": "beginner",
+      "footwork": "low to the ground footwork with percussive battering",
+      "formation_and_space": "solo or small groups dancing in turns without physical contact",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "low to the ground, no high kicks described",
+      "partnering": "solo performance or taking turns playing off each other's energy",
+      "posture": "standing up relatively straight—or at least enough to execute the steps",
+      "signature_moves": [
+        {
+          "description": "percussive footwork that sounds out more loudly the accented beat of the music",
+          "name": "batter"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "rigidly keeping arms to the side like competitive stepdance"
+    },
+    "music_profile": {
+      "instruments": [
+        "fiddle",
+        "accordion"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "lively",
+        "relaxed",
+        "impromptu"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "traditional",
+          "title": "McCleod's reel"
+        },
+        {
+          "artist": "traditional",
+          "title": "New Mown Meadows"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Lively traditional Irish band music featuring fiddle and accordion accompaniment that matches the percussive battering of the dancer's feet.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Low-to-the-ground stepping",
+        "Percussive battering of accented beats"
+      ],
+      "formation": "Solo performance or small groups taking turns",
+      "level_notes": "Improvisational focus allows beginners to start with basic stepping and natural arm movement.",
+      "rhythm": "Lively traditional reel or hornpipe rhythm"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "4766e58e098b2f331cd7f942980ea6c0954323810e133a72cce02f436bc568a3",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What exact regional footwork variations distinguish Connemara sean-nós from Munster styles? Evidence needed: Field recordings and dance manuals from the respective Gaeltacht regions."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:sean-nos-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Sean-nós dance",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "fd94fdced22b865a",
+      "next_evidence": "Field recordings and dance manuals from the respective Gaeltacht regions.",
+      "question": "What exact regional footwork variations distinguish Connemara sean-nós from Munster styles?",
+      "source": "https://de.wikipedia.org/wiki/Sean-nós-Tanz",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources mention stylistic splits without detailing specific foot mechanics."
+    }
+  ],
+  "research_file": "research_results/sean-nos-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "sean-nos-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sean-n%C3%B3s_dance",
+    "https://www.wikidata.org/wiki/Q1798339",
+    "https://de.wikipedia.org/wiki/Sean-nós-Tanz"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

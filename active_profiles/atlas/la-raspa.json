@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-extending the heel",
+          "Colliding during spins"
+        ],
+        "counts": "Simple 1, 2, 3 and freeze.",
+        "duration_minutes": "3",
+        "game_version": "The 'Chicken Scratch' game: dancers must mimic a chicken's movements during the scraping part."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Rapid spinning",
+          "Deep leaning"
+        ],
+        "counts": "Focus on a steady 1-2-3 count without the impact of jumping.",
+        "seated_version": "Perform the heel-thrusts while seated, extending legs forward alternately to the rhythm.",
+        "standing_version": "Hold onto the back of a sturdy chair for balance while performing the foot switches without the jump.",
+        "tempo_and_range": "Reduce tempo by 20%; limit the extension of the heel to a comfortable distance."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands may be held behind the back, on hips, or linked at the elbows with a partner during turns.",
+      "difficulty": "beginner",
+      "footwork": "Alternating heel-forward jumps (bleking steps) in a 'quick-quick-slow' or '1-2-3' rhythm.",
+      "formation_and_space": "Danced in pairs or a communal circle; requires enough space for elbow-link spinning.",
+      "hips_and_torso": "Minimal hip movement; torso remains mostly stable while the legs perform the scraping.",
+      "levels_and_jumps": "Low-impact jumps used to switch feet.",
+      "partnering": "Partners face each other for the scraping steps and link arms for the chorus.",
+      "posture": "Upright but relaxed, slightly leaning back during heel thrusts.",
+      "signature_moves": [
+        {
+          "description": "A rhythmic jump-kick where the heel touches the floor in front of the body.",
+          "name": "The Scraping Step"
+        }
+      ],
+      "tempo_feel": "Bouncy and brisk.",
+      "what_to_avoid": "Leaning too far forward, which disrupts the 'scraping' aesthetic and balance."
+    },
+    "music_profile": {
+      "instruments": [
+        "Güiro",
+        "Violin",
+        "Trumpet",
+        "Guitar",
+        "Vihuela"
+      ],
+      "meter": "6/8",
+      "mood_keywords": [
+        "playful",
+        "energetic",
+        "festive",
+        "rhythmic"
+      ],
+      "musical_form": "A-B (Scraping section followed by a melodic chorus)",
+      "reference_recordings": [],
+      "rhythm_pattern": "Continuous eighth notes with emphasis on the 1 and 4",
+      "sound_description": "A bright, driving 6/8 melody characterized by the prominent, rhythmic rasping sound of the Güiro scraper and brassy mariachi-style accents.",
+      "tempo_bpm": "120",
+      "vocal_style": "Usually instrumental; occasional rhythmic shouts"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Jump and extend the right heel forward while leaning slightly back.",
+        "Jump and switch, extending the left heel forward.",
+        "Jump and switch back to the right heel.",
+        "Pause or clap on the final beat of the sequence.",
+        "Link elbows with a partner and skip in a circle during the chorus."
+      ],
+      "formation": "Partners facing each other or a large circle",
+      "level_notes": "Beginner-friendly; focus on the rhythmic 'scraping' of the heels.",
+      "rhythm": "6/8 time with a '1-2-3' pulse"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "798f4d415205b942e232ac6772b9266bce493924f029ffb86d96fc557ceb8226",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific 'Strohschneider' figures mentioned in Bruegel's paintings that correlate to La Raspa? Evidence needed: https://de.wikipedia.org/wiki/Raspa"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there specific regional variations in the arm positions during the 'scraping' phase in Veracruz versus Cuba? Evidence needed: https://de.wikipedia.org/wiki/Raspa"
+    ]
+  },
+  "id": "atlas:la-raspa",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "La Raspa",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "5d581fce6a7d4236",
+      "next_evidence": "https://de.wikipedia.org/wiki/Raspa",
+      "question": "Are there specific regional variations in the arm positions during the 'scraping' phase in Veracruz versus Cuba?",
+      "source": "https://de.wikipedia.org/wiki/Raspa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate visual instruction for different cultural styles."
+    },
+    {
+      "domain": "research",
+      "id": "fae9e1bb42aa009d",
+      "next_evidence": "https://de.wikipedia.org/wiki/Raspa",
+      "question": "What are the specific 'Strohschneider' figures mentioned in Bruegel's paintings that correlate to La Raspa?",
+      "source": "https://de.wikipedia.org/wiki/Raspa",
+      "status": "candidate_unreviewed",
+      "why_needed": "To confirm the historical lineage and provide deeper context for the movement's evolution."
+    }
+  ],
+  "research_file": "research_results/la-raspa.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "la-raspa",
+  "sources": [
+    "https://en.wikipedia.org/wiki/La_Raspa",
+    "https://www.wikidata.org/wiki/Q6464763",
+    "https://de.wikipedia.org/wiki/Raspa"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

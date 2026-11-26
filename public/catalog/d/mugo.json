@@ -31,6 +31,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mugo",
   "wikidata_qid": "Q6932216",
   "unesco": false,
+  "hero_video_youtube_id": "I0CkA4esxCo",
+  "video_stack": [
+   {
+    "youtube_id": "I0CkA4esxCo",
+    "role": "hero",
+    "title": "#4k 북의 깊은 울림과 위엄, 예술적 세련미로 춤을 추는 장대한 궁중무용, 무고(舞鼓) 🇰🇷 #gyeongbokgung #mugo #무고 #세종의음악",
+    "channel": "Anggo Travel Music",
+    "hd": true
+   },
+   {
+    "youtube_id": "Hd8yZNrTAkY",
+    "role": "rendition",
+    "title": "VIRTUAL KOREA K-Performance Series(3) Korean Court Dance (Taepyeongseongdae)",
+    "channel": "YouTube KCCLA",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -42,9 +59,28 @@
   "last_researched_at": "2026-11-25T20:00:23Z",
   "pipeline_version": "v3.3",
   "profile_long": "Mugo, literally translated as 'drum dance,' emerged during the Goryeo dynasty under the reign of King Chungnyeol. Historical records in the Akji of the Goryeosa trace its creation to Lee Hon, a government official who, while in exile in the coastal region of Yonghae, fashioned a large drum from a log raft. This act of solitary musical creation evolved into a sophisticated courtly performance that was later transmitted to the Joseon dynasty, where it became a staple of palace festivities and local government ceremonies. The dance is structured around a single large drum placed at the center of the performance space, serving as both the musical heart and the physical anchor for the choreography.\n\nThe performance involves eight dancers divided into two distinct roles: the wonmu (main dancers) and the hyeopmu (assisting dancers). The four wonmu dancers directly engage with the instrument, each holding a drumstick in each hand to strike the drum. Surrounding them, the four hyeopmu dancers hold flower-shaped sticks, creating an outer ring of movement. This formation is not merely aesthetic but cosmological; the dancers wear jackets in colors that correspond to the cardinal directions: black for the north, red for the south, blue for the east, and white for the west. This alignment transforms the stage into a living compass, reflecting traditional Korean views on the harmony of the universe.\n\nMusically, Mugo was historically accompanied by the court pieces Dongdongok and Muaegok. During the Goryeo period, the dancers—typically gisaeng—would also sing the lyrics of Jeongeupsa while performing. The scale of the dance was flexible; historical records indicate that the number of dancers and drums could vary, leading to variations known as the two-drum, four-drum, or eight-drum dance. In its modern preservation, the eight-dancer format remains the standard, often integrated into the ritual dance of Seungjeonmu. The movement is characterized by a deliberate, courtly grace, where the act of striking the drum is integrated into fluid, circular paths that maintain the symmetry of the ensemble.\n\nAs a jeongjae, Mugo represents the 'offering of talent' to the court. Its survival through the transition from the Goryeo to the Joseon dynasty highlights its importance in the Korean performing arts canon. The transition from a rustic origin—a log raft drum in a coastal exile—to the refined atmosphere of the royal palace illustrates the capacity of Korean dance to elevate folk elements into high art. Today, it is maintained as a living tradition, preserving the specific rhythmic patterns and directional symbolism that have defined it for over seven centuries.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Korea-Gojong_Imin_Jinyeondobyeong-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Korea-Gojong_Imin_Jinyeondobyeong-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1024,
+    "height": 798,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Unknown court painters / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKorea-Gojong_Imin_Jinyeondobyeong-02.jpg",
+    "description": "Mugo, drum dance depicted in the picture titled \"Gojong Imin Jinyeon Dobyeong\" (literally Painting screen folder illustrating the feast for Korean Emperor Gojong in Imin year (1902)"
+   }
+  ],
   "needs_eyes_on": true,
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:qc_failed_pending_recrawl",
+  "hero_qc": {
+   "verdict": "fail",
+   "checked_at": "2026-11-26T20:41:43Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "seungjeonmu"
   ]
@@ -106,6 +142,22 @@
    "supported": 7,
    "rate": 1.0
   },
+  "images": [
+   {
+    "title": "File:Korea-Gojong Imin Jinyeondobyeong-02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Korea-Gojong_Imin_Jinyeondobyeong-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Korea-Gojong_Imin_Jinyeondobyeong-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1024,
+    "height": 798,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "Unknown court painters",
+    "description": "Mugo, drum dance depicted in the picture titled \"Gojong Imin Jinyeon Dobyeong\" (literally Painting screen folder illustrating the feast for Korean Emperor Gojong in Imin year (1902)",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKorea-Gojong_Imin_Jinyeondobyeong-02.jpg",
+    "attribution": "Unknown court painters / Wikimedia Commons / Public domain",
+    "found_in": "the Commons category of its Wikidata item"
+   }
+  ],
   "gaps": [
    "Specific footwork patterns are not detailed in the sources.",
    "Exact tempo (BPM) and meter of the accompanying music are not specified.",
@@ -271,6 +323,6 @@
   "polished": false,
   "file": "episodes/mugo.json"
  },
- "fingerprint": "4c8d844ae3c77dee",
- "updated": "2026-11-25"
+ "fingerprint": "d968a71af8550aca",
+ "updated": "2026-11-26"
 }

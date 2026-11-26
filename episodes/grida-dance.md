@@ -1,6 +1,6 @@
 # Grida Dance — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the origins & history section; the music & instruments section; the costume & setting section; notable figures; two or more connections
 
@@ -109,7 +109,7 @@ NARRATION: Step 1: Sela: Perform slow, steady rhythmic steps to establish the be
 NARRATION: Step 2: Selalarki: Increase the speed of the footwork, making the steps energetic and rapid.
 NARRATION: Footwork from the sources: Starts slow and steady (Sela), becomes fast and energetic (Selalarki), and stops during the final phase (Selabhadoni).
 NARRATION: Drill: Walking to a slow 4/4 beat with emphasis on the heel
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -177,7 +177,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Sela: Perform slow, steady rhythmic steps to establish the beat.
 NARRATION: Step 2: Selalarki: Increase the speed of the footwork, making the steps energetic and rapid.
 NARRATION: Drill: Doubling the tempo of the Sela steps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -247,7 +247,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Selalarki: Increase the speed of the footwork, making the steps energetic and rapid.
 NARRATION: Step 2: Selabhadoni: Cease all footwork and transition into a rhythmic swaying of the torso.
 NARRATION: Drill: Abruptly stopping footwork on a specific count
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -312,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Grida_dance; https://www.wikidata.org/wiki/Q5608618

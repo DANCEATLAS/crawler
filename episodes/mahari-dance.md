@@ -1,8 +1,8 @@
 # Mahari dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-25 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-26 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A deeply respectful scholar-practitioner of Odissi tradition highlighting ritual history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Spousal Devotion in the Sanctum
 NARRATION: This is Mahari dance. 12th century (codified).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (KvTno3xfI5Q)
 ON SCREEN: Title card: Mahari dance · India · 12th century (codified)
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (KvTno3xfI5Q)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Solo ritual performance in the temple sanctum sanctorum or on stage
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -100,7 +100,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'KvTno3xfI5Q', 'checked_by_vision_model': True, 'title': 'Mahari Dance - Baisakhi Festival - Chinta O Chetana'}
 Images: 2 licensed — Rajeswarmohanty / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Prachites / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Temple sanctum lighting, Floral garlands and traditional Odia brass ornaments, Textiles woven with Gita Govinda verses
@@ -110,7 +110,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the ritual-sacred family studied · videos studied: 18
+Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
 Counting: count the traditional Odissi talas bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass

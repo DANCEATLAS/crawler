@@ -1,6 +1,6 @@
 # Maringa — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; teaching steps written out; what to avoid / common mistakes
 
@@ -285,9 +285,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the african-diaspora family studied · videos studied: 18
+Source: 20 tutorial(s) of the african-diaspora family studied · videos studied: 20
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: bend your knees; 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; one and two and; put all your weight on your right leg; and out and out and in and in; double double
+Cues: bend your knees; short verbal cue the teacher repeats  8 words; 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; one and two and; put all your weight on your right leg; and out and out and in and in
 
 Sources (6): https://en.wikipedia.org/wiki/Music_of_the_Democratic_Republic_of_the_Congo; https://www.wikidata.org/wiki/Q1955040; https://pt.wikipedia.org/wiki/Música_da_República_Democrática_do_Congo; https://fr.wikipedia.org/wiki/Musique_de_la_république_démocratique_du_Congo; https://es.wikipedia.org/wiki/Música_de_la_República_Democrática_del_Congo; https://de.wikipedia.org/wiki/Musik_in_der_Demokratischen_Republik_Kongo

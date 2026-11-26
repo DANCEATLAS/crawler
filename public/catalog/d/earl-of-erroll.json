@@ -57,6 +57,19 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "tutorials": [
+   {
+    "youtube_id": "M2h0hp2qOK0",
+    "title": "Learn steps 1 and 2 of The Earl of Erroll",
+    "channel": "RSCDS Edinburgh",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "highland-fling"
   ]
@@ -414,6 +427,122 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "q50CT_guAyQ",
+   "url": "https://www.youtube.com/watch?v=q50CT_guAyQ",
+   "title": "Learn steps 5 and 6 of The Earl of Erroll",
+   "channel": "RSCDS Edinburgh",
+   "analysed_on": "2026-11-26",
+   "level": "intermediate",
+   "language": "English",
+   "counting_scheme": "hop-brush-beat-out-in-beat-beat-beat-beat-out-in-beat-beat",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to steps 5 and 6 of The Earl of Erroll."
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "breakdown",
+     "note": "Breakdown and slow demonstration of step 5."
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "segment": "music_practice",
+     "note": "Practicing step 5 with music at slow tempo."
+    },
+    {
+     "t": "1:31",
+     "seconds": 91,
+     "segment": "breakdown",
+     "note": "Further explanation and demonstration of step 5 details."
+    },
+    {
+     "t": "2:12",
+     "seconds": 132,
+     "segment": "music_practice",
+     "note": "Practicing step 5 with music at normal tempo."
+    },
+    {
+     "t": "2:53",
+     "seconds": 173,
+     "segment": "breakdown",
+     "note": "Explanation and slow demonstration of step 6."
+    },
+    {
+     "t": "3:52",
+     "seconds": 232,
+     "segment": "music_practice",
+     "note": "Practicing step 6 with music at slow tempo."
+    },
+    {
+     "t": "5:17",
+     "seconds": 317,
+     "segment": "recap",
+     "note": "Recap and explanation of both step 5 and step 6."
+    },
+    {
+     "t": "5:54",
+     "seconds": 354,
+     "segment": "music_practice",
+     "note": "Full practice of steps 5 and 6 with music at normal tempo."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Step 5",
+     "counts": "hop brush beat out in beat beat beat beat out in beat",
+     "description": "Step 5 of The Earl of Erroll."
+    },
+    {
+     "name": "Step 6",
+     "counts": "single with right and left, four changes and chorus",
+     "description": "Step 6 of The Earl of Erroll."
+    }
+   ],
+   "cues": [
+    "hop brush beat out in beat beat beat beat out in beat",
+    "four changes and chorus"
+   ],
+   "teacher_style": "The instructor explains step modifications relative to previous steps while demonstrating the choreography. She provides verbal count breakdowns alongside slow and normal tempo demonstrations.",
+   "distinctive_method": "Connecting new steps directly to previously learned steps by highlighting timing and directional differences.",
+   "what_works": [
+    "Clear verbal breakdown of counts and timing",
+    "Demonstrations from both front and back angles"
+   ],
+   "what_hinders": [
+    "None noted"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 15,
+     "topic": "teaching",
+     "observation": "Teacher stands facing the camera and introduces the lesson verbally.",
+     "viewpoint": "front, unknown",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 17,
+     "end_s": 26,
+     "topic": "movement",
+     "observation": "Teacher demonstrates footwork facing away from the camera.",
+     "viewpoint": "back, unknown",
+     "cannot_infer": "weight transfer details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "episodes": {
@@ -425,6 +554,6 @@
   "polished": false,
   "file": "episodes/earl-of-erroll.json"
  },
- "fingerprint": "b1a6c9a5028ba726",
- "updated": "2026-11-25"
+ "fingerprint": "3ca263a9519be6a9",
+ "updated": "2026-11-26"
 }

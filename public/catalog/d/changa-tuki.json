@@ -93,7 +93,20 @@
    "verdict": "pass",
    "checked_at": "2026-11-18T21:22:19Z",
    "soft_fail": []
-  }
+  },
+  "tutorials": [
+   {
+    "youtube_id": "DHJ-6io__8c",
+    "title": "Aprende a bailar changa tuky con Crew Abstractor",
+    "channel": "Tu Zona Caracas",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ]
  },
  "profile": {
   "sections": {
@@ -305,6 +318,53 @@
  },
  "lessons": [
   {
+   "youtube_id": "0skDOaZHANY",
+   "url": "https://www.youtube.com/watch?v=0skDOaZHANY",
+   "title": "Aprendiendo changa ;) [1/2]",
+   "channel": "Kayronne Frasser",
+   "analysed_on": "2026-11-26",
+   "level": "intermediate",
+   "language": "Spanish",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "full_demo",
+     "note": "Instructor and students dancing changa tuki steps outside."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Changa tuki basic",
+     "description": "Footwork involving quick foot rotations and steps to music."
+    }
+   ],
+   "teacher_style": "The instructor demonstrates Changa tuki steps while dancing alongside students in an informal outdoor setting. Instruction is primarily through visual demonstration and peer mimicry rather than verbal breakdown.",
+   "distinctive_method": "Informal group practice where students learn entirely by watching and dancing next to the instructor.",
+   "what_works": [
+    "Visual group demonstration allows students to follow along."
+   ],
+   "what_hinders": [
+    "Lack of verbal breakdown or counts makes learning specific footwork difficult."
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 5,
+     "topic": "movement",
+     "observation": "Dancers practicing footwork steps together in an outdoor courtyard.",
+     "viewpoint": "front, unknown",
+     "cannot_infer": "exact counts or weight transfer",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "DHJ-6io__8c",
    "url": "https://www.youtube.com/watch?v=DHJ-6io__8c",
    "title": "Aprende a bailar changa tuky con Crew Abstractor",
@@ -503,6 +563,6 @@
   "polished": false,
   "file": "episodes/changa-tuki.json"
  },
- "fingerprint": "751c77ec04344a9e",
- "updated": "2026-11-25"
+ "fingerprint": "1c9c6893b27796b0",
+ "updated": "2026-11-26"
 }

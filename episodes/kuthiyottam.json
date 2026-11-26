@@ -1,0 +1,381 @@
+{
+ "slug": "kuthiyottam",
+ "name": "Kuthiyottam",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T19:40:21Z",
+ "qc_score": 9.55,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A traditional Asan (conductor) who emphasizes discipline and devotion.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Kuthiyottam",
+   "Kutiyottam"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Kuthiyottam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Blood of the Goddess",
+     "This is Kuthiyottam. Ancient to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Kuthiyottam · India · Ancient to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Kuthiyottam is rooted in the ancient traditions of Kerala, specifically associated with the worship of the warrior goddess Bhadrakali.",
+     "Scholars have theorized that the ritual evolved from 'mock human sacrifice' practices that existed in the region's early history.",
+     "The dance serves as a living reenactment of the goddess's mythological battles, where the young performers represent her loyal, battle-worn soldiers."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The ritual takes place during the annual Pongala festivals.",
+     "It is a form of spiritual offering where the physical suffering and discipline of the boys are seen as a sacrifice to the goddess.",
+     "The piercing and subsequent blood are symbolic of the wounds sustained by the goddess's army.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is characterized by highly energetic, synchronized movements performed by a group of boys.",
+     "Under the direction of an asan (conductor), the performers execute steps that are paced to the rapid beat of traditional drums.",
+     "The boys act as both dancers and singers, chanting rhythmic verses while moving.",
+     "Watch for Ritual Piercing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Processional and group synchronized"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The primary musical accompaniment is provided by traditional Kerala drums, which dictate the tempo and energy of the performance.",
+     "The dancers themselves provide the vocal component, singing songs that are synchronized with the legends of the goddess.",
+     "Listen for the Drums.",
+     "The soundscape is dominated by the loud, rhythmic pulse of traditional drums, overlaid with the collective chanting of the young dancers. The music is designed to be driving and high-energy to match the physical intensity of the ritual."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Paced to the beat of drums"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "During the preparation phase, boys wear simple ascetic clothes.",
+     "For the final performance, they change into elaborate ceremonial costumes.",
+     "This often includes traditional headgear, waistbands, and ornaments."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The 'asan' is the central figure in Kuthiyottam, serving as the conductor, teacher, and spiritual guide for the young boys.",
+     "The asan is responsible for training the volunteers in the songs, steps, and the strict ascetic codes required for the ritual.",
+     "Variants of the dance and its associated piercing rituals are found in the Bhadrakali temples of the Alappuzha, Kollam, and Thiruvananthapuram districts.",
+     "The dance is passed down through temple-affiliated troupes and families."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Kuthiyottam is parent of Bhadrakali Rituals: Kuthiyottam is a specific ritual dance within the broader worship of Bhadrakali."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Kuthiyottam is a sacred ritual involving asceticism and symbolic sacrifice. Outsiders should observe with extreme respect, avoid interfering with the procession, and be aware that the ritual involves physical piercing which may be distressing to some viewers."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the heart of Kerala, young boys transform into the wounded warriors of Bhadrakali through a grueling week of asceticism and a high-energy ritual dance.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Paced to the beat of drums",
+  "instruments": [
+   "Drums"
+  ],
+  "vocal_style": "Chanting and singing by the dancers",
+  "musical_form": "Synchronized with the legends of the goddess",
+  "mood": [
+   "Energetic",
+   "Sacred",
+   "Intense",
+   "Rhythmic"
+  ],
+  "sound_description": "The soundscape is dominated by the loud, rhythmic pulse of traditional drums, overlaid with the collective chanting of the young dancers. The music is designed to be driving and high-energy to match the physical intensity of the ritual.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Kuthiyottam (India). Rhythm pattern: Paced to the beat of drums. Instruments: Drums. Vocal style: Chanting and singing by the dancers. Form: Synchronized with the legends of the goddess. Mood: Energetic, Sacred, Intense, Rhythmic. It should sound like this: The soundscape is dominated by the loud, rhythmic pulse of traditional drums, overlaid with the collective chanting of the young dancers. The music is designed to be driving and high-energy to match the physical intensity of the ritual. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "During the preparation phase, boys wear simple ascetic clothes. For the final performance, they change into elaborate ceremonial costumes. This often includes traditional headgear, waistbands, and ornaments. The setting is typically a Hindu temple dedicated to Bhadrakali or Durga, or the processional routes leading to these temples during the annual Pongala festival celebrations.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3A%E0%B4%95%E0%B5%82%E0%B4%9F%E0%B4%BF%E0%B4%AF%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%B2%E0%B5%86_%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B5%80_%E0%B4%B5%E0%B5%87%E0%B4%B7%E0%B4%82.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKuthiyottam.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/%E0%B4%95%E0%B5%82%E0%B4%9F%E0%B4%BF%E0%B4%AF%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%B2%E0%B5%86_%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B5%80_%E0%B4%B5%E0%B5%87%E0%B4%B7%E0%B4%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/%E0%B4%95%E0%B5%82%E0%B4%9F%E0%B4%BF%E0%B4%AF%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%B2%E0%B5%86_%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B5%80_%E0%B4%B5%E0%B5%87%E0%B4%B7%E0%B4%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Arayilpdas at Malayalam Wikipedia. / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%E0%B4%95%E0%B5%82%E0%B4%9F%E0%B4%BF%E0%B4%AF%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%B2%E0%B5%86_%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B5%80_%E0%B4%B5%E0%B5%87%E0%B4%B7%E0%B4%82.jpg",
+    "description": "കൂടിയാട്ടത്തിലെ സ്ത്രീ വേഷം"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kuthiyottam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Kuthiyottam.jpg/1280px-Kuthiyottam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dvellakat / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKuthiyottam.jpg",
+    "description": "കുത്തിയോട്ടത്തിന്റെ ഒരു ദൃശ്യം"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Vibrant temple colors",
+   "The intense focus of the young dancers",
+   "The rhythmic striking of traditional drums",
+   "Symbolic blood and ritual piercings"
+  ],
+  "costume_notes": "During the preparation phase, boys wear simple ascetic clothes. For the final performance, they change into elaborate ceremonial costumes. This often includes traditional headgear, waistbands, and ornaments. The setting is typically a Hindu temple dedicated to Bhadrakali or Durga, or the processional routes leading to these temples during the annual Pongala festival celebrations.",
+  "setting_notes": "The ritual takes place during the annual Pongala festivals. It is a form of spiritual offering where the physical suffering and discipline of the boys are seen as a sacrifice to the goddess. The piercing and subsequent blood are symbolic of the wounds sustained by the goddess's army. It is believed to bring protection and favor to the community and the families of the volunteers.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 19,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot",
+   "kick with emphasis",
+   "smash the grass"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kuthiyottam",
+  "https://www.wikidata.org/wiki/Q6448441"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "3c8d1e2d754b1b031ce7e45be246abe2ab27eaf7b4093ae86605c6c7720f3852",
+ "hero_checked": null
+}

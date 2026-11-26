@@ -1,6 +1,6 @@
 # Gluvo-nemo — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
@@ -118,7 +118,7 @@ NARRATION: Step 1: Form a half-circle with other dancers
 NARRATION: Step 2: Reach for the belts of neighbors, crossing left arm over the right
 NARRATION: Footwork from the sources: Rhythmic steps in a 2/4 meter
 NARRATION: Drill: Practice crossing the left arm over the right to find the neighbor's belt
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -190,7 +190,7 @@ NEEDS: tempo
 NARRATION: Step 1: Form a half-circle with other dancers
 NARRATION: Step 2: Reach for the belts of neighbors, crossing left arm over the right
 NARRATION: Drill: Step in place to a 2/4 count without music
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -263,7 +263,7 @@ NEEDS: tempo
 NARRATION: Step 1: Listen for the collective rhythm of the chest coins
 NARRATION: Step 2: Step in a 2/4 meter, ensuring the coins strike on the beat
 NARRATION: Drill: Execute steps with enough torso movement to engage the chest ornaments
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Gluvo-nemo; https://www.wikidata.org/wiki/Q24469739

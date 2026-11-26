@@ -1,6 +1,6 @@
 # Angloise — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed reference footage; posture, arms and hands
 
@@ -331,7 +331,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the ballroom-partner family studied · videos studied: 14
+Source: 15 tutorial(s) of the ballroom-partner family studied · videos studied: 15
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; walk walk; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side

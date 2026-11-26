@@ -61,6 +61,19 @@
    "checked_at": "2026-11-16T22:04:34Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "2dtCThQOqiY",
+    "title": "\"Troika\" - 1º Período B APRENDIZ 2018",
+    "channel": "FÁBIO SENA",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "trojak"
   ]
@@ -242,7 +255,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 8,
   "of": 15,
   "missing": [
    {
@@ -262,16 +275,8 @@
     "label": "two or more signature moves"
    },
    {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
    },
    {
     "key": "hero_video",
@@ -283,6 +288,8 @@
    }
   ],
   "via": {
+   "rhythm": "lesson",
+   "mistakes": "lesson",
    "study_video": "lesson"
   }
  },
@@ -333,17 +340,92 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "F2sVt-FX-4I",
+   "url": "https://www.youtube.com/watch?v=F2sVt-FX-4I",
+   "title": "טרויקה • Troika • トロイカ • LEARN",
+   "channel": "ריקודי עם • ניסים בן עמי • Nissim Ben-Ami • Dance",
+   "analysed_on": "2026-11-26",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8 / left-right-left",
+   "parts": [
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "breakdown",
+     "note": "Teacher arranges students in groups of three and explains the starting formation."
+    },
+    {
+     "t": "0:19",
+     "seconds": 19,
+     "segment": "slow_practice",
+     "note": "Demonstrating left and right step patterns slowly with the group."
+    },
+    {
+     "t": "0:41",
+     "seconds": 41,
+     "segment": "full_demo",
+     "note": "Practicing the full sequence with music and counting."
+    },
+    {
+     "t": "1:21",
+     "seconds": 81,
+     "segment": "breakdown",
+     "note": "Explaining turns and underarm passes for groups of three."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Troika step",
+     "counts": "1-8",
+     "description": "Traveling steps in a circle of three dancers with alternating left and right leads."
+    }
+   ],
+   "cues": [
+    "Left, right, left",
+    "Turn under",
+    "Small circles"
+   ],
+   "common_mistakes": [
+    "Incorrect circle size during group turns"
+   ],
+   "teacher_style": "The instructor teaches in a large group setting, demonstrating steps alongside students while counting aloud and giving verbal corrections. He explains movements clearly, organizing dancers into small groups in a circle.",
+   "distinctive_method": "Teaching in trios ('Troika' formation) with structured turning and wheeling patterns.",
+   "what_works": [
+    "Clear verbal counts and direct visual demonstration."
+   ],
+   "what_hinders": [
+    "Group formations can obscure visibility depending on camera angle."
+   ],
+   "evidence": [
+    {
+     "start_s": 4,
+     "end_s": 15,
+     "topic": "teaching",
+     "observation": "Teacher organizes participants into groups of three holding hands in a circle.",
+     "viewpoint": "front",
+     "cannot_infer": "exact footwork details due to wide shot",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 9,
+  "gaps": 8,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/troika.json"
  },
- "fingerprint": "53d9377bb849b9f3",
- "updated": "2026-11-25"
+ "fingerprint": "27215a1fe9e6e5df",
+ "updated": "2026-11-26"
 }

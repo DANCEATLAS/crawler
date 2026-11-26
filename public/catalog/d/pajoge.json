@@ -159,6 +159,19 @@
    "checked_at": "2026-11-17T21:04:21Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "a0y4MMuhuWM",
+    "title": "BELAJAR TARI PAJOGE'",
+    "channel": "B-one Tv",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "gandrung"
   ]
@@ -436,6 +449,62 @@
  },
  "lessons": [
   {
+   "youtube_id": "UFl-hCcDrME",
+   "url": "https://www.youtube.com/watch?v=UFl-hCcDrME",
+   "title": "BELAJAR TARI PAJOGE' part 2",
+   "channel": "B-one Tv",
+   "analysed_on": "2026-11-26",
+   "level": "mixed",
+   "language": "Indonesian",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:06",
+     "seconds": 6,
+     "segment": "follow_along",
+     "note": "Teacher leads students in dancing and counting steps with a fan outdoors."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Pajoge step",
+     "counts": "1-8",
+     "description": "Traditional Pajoge dance movement involving foot positioning and fan handling."
+    }
+   ],
+   "cues": [
+    "putar",
+    "balik kanan",
+    "kunci",
+    "mundur",
+    "buka kipas"
+   ],
+   "teacher_style": "The instructor leads the group through the dance steps outdoors while counting aloud and demonstrating movements with a fan. He combines verbal counting with directional cues to guide the dancers through different formations and transitions.",
+   "distinctive_method": "Constant continuous counting accompanied by running verbal cues for transitions while the teacher performs alongside the group.",
+   "what_works": [
+    "Clear vocal counting helps dancers keep rhythm."
+   ],
+   "what_hinders": [
+    "Limited verbal breakdown of footwork mechanics."
+   ],
+   "evidence": [
+    {
+     "start_s": 6,
+     "end_s": 35,
+     "topic": "movement",
+     "observation": "Teacher demonstrates foot and arm coordination while holding a fan, counting aloud from 1 to 8 repeatedly.",
+     "viewpoint": "front",
+     "cannot_infer": "exact foot placement details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "a0y4MMuhuWM",
    "url": "https://www.youtube.com/watch?v=a0y4MMuhuWM",
    "title": "BELAJAR TARI PAJOGE'",
@@ -608,6 +677,6 @@
   "polished": false,
   "file": "episodes/pajoge.json"
  },
- "fingerprint": "6344fc12347023c9",
- "updated": "2026-11-25"
+ "fingerprint": "2a5117a30ca7498e",
+ "updated": "2026-11-26"
 }

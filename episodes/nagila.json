@@ -2,8 +2,8 @@
  "slug": "nagila",
  "name": "Nagila",
  "pack_version": "e2",
- "built_at": "2026-11-25T21:47:20Z",
- "researched_at": "2026-11-11T17:58:34Z",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T20:06:03Z",
  "qc_score": 9.85,
  "status": "draft",
  "release_status": "not_validated",
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A local cultural practitioner from the Upper East region.",
+   "persona": "A community tradition bearer from the Upper East region",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -60,7 +60,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Rhythm of the Upper East: Nagila",
+     "The Thirty-Second Drum Surge",
      "This is Nagila. 21st century."
     ],
     "on_screen": [
@@ -74,7 +74,7 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Nagila is a recreational dance of the Kassena and Frafra people in the Upper East region of Ghana."
+     "Nagila originates as a recreational dance practiced by the Kassena and Frafra people situated in the Upper East region of Ghana."
     ],
     "on_screen": [
      "Map: Ghana · Africa",
@@ -87,7 +87,7 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Performed for entertainment purposes at festivals and other social times.",
+     "Performed mostly at festivals and other times for entertainment purposes, functioning as a recreational social activity.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -100,13 +100,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dancer takes the center, bends the upper body forward to form a right angle at the hips, and stamps feet in a rhythmic pattern while holding elbows in front or behind.",
-     "Watch for Forward-bend stamp."
+     "The dance is executed as a solo act where performers take the center, bending their upper body forward so their hips and thighs form a right angle.",
+     "Elbows are held in front or behind while the dancer stamps their feet on the ground in a rhythmic pattern.",
+     "Performance occurs in 30-second intervals interspersed with instrumental breaks, resumed when the drums sound louder, cycling about six times before a new dancer enters.",
+     "Watch for Right-Angle Forward Lean Stamp."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (cR1kloYoPjs)",
      "Captions name each signature move as it appears",
-     "Formation: Solo dancer in the center."
+     "Formation: Solo act where a dancer takes the center space."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -115,15 +117,13 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music is provided by drums that interact with the dancer's footwork.",
-     "The drums signal the dancer to resume by increasing in volume.",
-     "Listen for the drums.",
-     "The music is driven by drums that interact with the dancer's footwork, featuring dynamic volume changes to signal the dancer's activity."
+     "The music relies on drums and musical instruments that interact directly with the dancer's foot-stamping and signal performance resumptions through volume increases.",
+     "Listen for the drums."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: rhythmic motion in interaction with the drums"
+     "Waveform or rhythm-pattern graphic: "
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -135,14 +135,15 @@
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
-    "narration": [],
+    "narration": [
+     "Performed mostly at festivals and other entertainment gatherings in the Upper East region of Ghana."
+    ],
     "on_screen": [
      "Images — MISSING",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
     "needs": [
-     "costume_and_setting",
      "images"
     ]
    },
@@ -178,8 +179,8 @@
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Bend upper body forward until hips and thighs form a right angle.",
-     "Position elbows either in front of the body or behind the back.",
+     "Before we go, one step. Bend upper body forward forming a right angle between hips and thighs",
+     "Hold elbows in front or behind the torso",
      "Count it: 1-2-3-4-5-6-7-8.",
      "Chapter 1 takes it slowly from here."
     ],
@@ -194,7 +195,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover the rhythmic solo dance of the Kassena and Frafra people of Ghana.",
+     "A solo dancer maintains a sharp forward lean in rhythmic dialogue with the drums.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -209,17 +210,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Master the right-angle posture.",
-   "level": "Beginner",
+   "goal": "Master the forward posture and rhythmic stamp",
+   "level": "beginner",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Master the right-angle posture..",
-      "Level: Beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local cultural practitioner from the Upper East region."
+      "Chapter 1 — First steps. Today: Master the forward posture and rhythmic stamp.",
+      "Level: beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A community tradition bearer from the Upper East region"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -231,9 +232,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body bent forward, hips and thighs at a right angle.",
-      "Elbows held in front or behind the body.",
-      "Hips and thighs form a right angle."
+      "Upper body bent forward such that hips and thighs form a right angle, elbows held in front or behind.",
+      "Elbows held in front or behind the torso.",
+      "Hips and thighs form a right angle with the forward-bent upper body."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -246,7 +247,6 @@
      "duration_s": 60,
      "narration": [
       "Count: 1-2-3-4-5-6-7-8.",
-      "Rhythm pattern: rhythmic motion in interaction with the drums.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -264,10 +264,10 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Bend upper body forward until hips and thighs form a right angle.",
-      "Step 2: Position elbows either in front of the body or behind the back.",
+      "Step 1: Bend upper body forward forming a right angle between hips and thighs",
+      "Step 2: Hold elbows in front or behind the torso",
       "Footwork from the sources: Stamping feet on the ground in a rhythmic pattern.",
-      "Drill: Practice the hip hinge to reach a right angle."
+      "Drill: Practice the right-angle hip hinge posture"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -282,8 +282,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Stamp feet on the ground in a rhythmic pattern.",
-      "Drill: Hold the elbow position while standing."
+      "Step 3: Stamp feet on the ground in a rhythmic pattern for thirty seconds",
+      "Drill: Hold arm and elbow placement steady"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
@@ -300,7 +300,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Practice rhythmic stamping in place."
+      "Drill: Execute rhythmic foot stamps for a timed 30-second interval"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -316,14 +316,10 @@
       "Teachers of this dance warn against: not getting weight on the stomp"
      ],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Perform the torso bend and arm positioning while seated in a sturdy chair. · For children: A 'follow the drum' game where children take turns in the center for 30 seconds."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform the torso bend and arm positioning while seated in a sturdy chair.",
-      "For children: A 'follow the drum' game where children take turns in the center for 30 seconds."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -345,8 +341,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master the right-angle posture..",
-      "Performed for entertainment purposes at festivals and other social times.",
+      "You can now: Master the forward posture and rhythmic stamp.",
+      "Performed mostly at festivals and other times for entertainment purposes, functioning as a recreational social activity.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -370,7 +366,7 @@
      "narration": [
       "Chapter 2 — Building the dance. Today: the building the dance of Nagila.",
       "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local cultural practitioner from the Upper East region."
+      "Your instructor: A community tradition bearer from the Upper East region"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -382,9 +378,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body bent forward, hips and thighs at a right angle.",
-      "Elbows held in front or behind the body.",
-      "Hips and thighs form a right angle."
+      "Upper body bent forward such that hips and thighs form a right angle, elbows held in front or behind.",
+      "Elbows held in front or behind the torso.",
+      "Hips and thighs form a right angle with the forward-bent upper body."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -397,7 +393,6 @@
      "duration_s": 60,
      "narration": [
       "Count: 1-2-3-4-5-6-7-8.",
-      "Rhythm pattern: rhythmic motion in interaction with the drums.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -415,8 +410,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Bend upper body forward until hips and thighs form a right angle.",
-      "Step 2: Position elbows either in front of the body or behind the back."
+      "Step 1: Bend upper body forward forming a right angle between hips and thighs",
+      "Step 2: Hold elbows in front or behind the torso"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -431,8 +426,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Stamp feet on the ground in a rhythmic pattern.",
-      "Forward-bend stamp: A rhythmic stamp performed while the torso is bent forward at a right angle."
+      "Step 3: Stamp feet on the ground in a rhythmic pattern for thirty seconds",
+      "Right-Angle Forward Lean Stamp: Dancer bends upper body forward with hips and thighs at a right angle while rhythmically stamping feet."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -465,14 +460,10 @@
       "Teachers of this dance warn against: not getting weight on the stomp"
      ],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Perform the torso bend and arm positioning while seated in a sturdy chair. · For children: A 'follow the drum' game where children take turns in the center for 30 seconds."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform the torso bend and arm positioning while seated in a sturdy chair.",
-      "For children: A 'follow the drum' game where children take turns in the center for 30 seconds."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -481,7 +472,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: 1-2-3-4-5-6-7-8.",
-      "Full tempo, the whole sequence, twice. Formation: Solo dancer in the center."
+      "Full tempo, the whole sequence, twice. Formation: Solo act where a dancer takes the center space."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -518,7 +509,7 @@
      "narration": [
       "Chapter 3 — Dancing it fully. Today: the dancing it fully of Nagila.",
       "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local cultural practitioner from the Upper East region."
+      "Your instructor: A community tradition bearer from the Upper East region"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -530,9 +521,9 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body bent forward, hips and thighs at a right angle.",
-      "Elbows held in front or behind the body.",
-      "Hips and thighs form a right angle."
+      "Upper body bent forward such that hips and thighs form a right angle, elbows held in front or behind.",
+      "Elbows held in front or behind the torso.",
+      "Hips and thighs form a right angle with the forward-bent upper body."
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -545,7 +536,6 @@
      "duration_s": 60,
      "narration": [
       "Count: 1-2-3-4-5-6-7-8.",
-      "Rhythm pattern: rhythmic motion in interaction with the drums.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -563,8 +553,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Position elbows either in front of the body or behind the back.",
-      "Step 2: Stamp feet on the ground in a rhythmic pattern."
+      "Step 1: Hold elbows in front or behind the torso",
+      "Step 2: Stamp feet on the ground in a rhythmic pattern for thirty seconds"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -579,7 +569,7 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Forward-bend stamp: A rhythmic stamp performed while the torso is bent forward at a right angle."
+      "Right-Angle Forward Lean Stamp: Dancer bends upper body forward with hips and thighs at a right angle while rhythmically stamping feet."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -612,14 +602,10 @@
       "Teachers of this dance warn against: not getting weight on the stomp"
      ],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Perform the torso bend and arm positioning while seated in a sturdy chair. · For children: A 'follow the drum' game where children take turns in the center for 30 seconds."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform the torso bend and arm positioning while seated in a sturdy chair.",
-      "For children: A 'follow the drum' game where children take turns in the center for 30 seconds."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -628,7 +614,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: 1-2-3-4-5-6-7-8.",
-      "Full tempo, the whole sequence, twice. Formation: Solo dancer in the center."
+      "Full tempo, the whole sequence, twice. Formation: Solo act where a dancer takes the center space."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -659,20 +645,20 @@
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
-  "rhythm_pattern": "rhythmic motion in interaction with the drums",
+  "rhythm_pattern": null,
   "instruments": [
    "drums"
   ],
   "vocal_style": null,
-  "musical_form": "cyclical, alternating between dance and instrumental-only sections",
+  "musical_form": null,
   "mood": [
    "recreational",
-   "rhythmic",
-   "festive"
+   "festive",
+   "rhythmic"
   ],
-  "sound_description": "The music is driven by drums that interact with the dancer's footwork, featuring dynamic volume changes to signal the dancer's activity.",
+  "sound_description": null,
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Nagila (Ghana). Rhythm pattern: rhythmic motion in interaction with the drums. Instruments: drums. Form: cyclical, alternating between dance and instrumental-only sections. Mood: recreational, rhythmic, festive. It should sound like this: The music is driven by drums that interact with the dancer's footwork, featuring dynamic volume changes to signal the dancer's activity. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Nagila (Ghana). Instruments: drums. Mood: recreational, festive, rhythmic. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -711,10 +697,10 @@
    "title": "HAVA NAGILA Jewish Punjabi Israel India Dance - Downtown Bhangra Vancouver"
   },
   "wardrobe": {
-   "policy": "neutral dress: the sources do not describe the costume yet",
-   "dress_the_narrator": false,
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": null,
+   "from_sources": "Performed mostly at festivals and other entertainment gatherings in the Upper East region of Ghana.",
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -734,12 +720,11 @@
    }
   ],
   "motifs": [
-   "Right-angle posture",
-   "Drumming hands",
-   "Dust kicking up from rhythmic stamps"
+   "Dancer in the center bent at a right angle",
+   "Drums signaling intensity shifts"
   ],
-  "costume_notes": null,
-  "setting_notes": "Performed for entertainment purposes at festivals and other social times.",
+  "costume_notes": "Performed mostly at festivals and other entertainment gatherings in the Upper East region of Ghana.",
+  "setting_notes": "Performed mostly at festivals and other times for entertainment purposes, functioning as a recreational social activity.",
   "map": {
    "country": "Ghana",
    "region": "Africa",
@@ -821,7 +806,6 @@
   "a verified recording to listen to",
   "the hero video's vision check",
   "licensed images (3 needed)",
-  "the costume & setting section",
   "notable figures",
   "lineage",
   "two or more connections"
@@ -833,6 +817,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "7f202241ba724540ee41cfd09d1f6af24d329ec93a4f7afe5cf0ea0732bad617",
+ "input_fingerprint": "a98681ae1ac85a1b6b131582135bd4aeea399e3b4d03f66ef9a71243e414ea79",
  "hero_checked": "fail"
 }

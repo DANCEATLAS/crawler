@@ -2,7 +2,7 @@
  "slug": "hully-gully",
  "name": "Hully Gully",
  "pack_version": "e2",
- "built_at": "2026-11-25T21:47:19Z",
+ "built_at": "2026-11-26T21:10:14Z",
  "researched_at": "2026-11-24T21:04:46Z",
  "qc_score": 9.55,
  "status": "draft",
@@ -317,16 +317,15 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: starting on the wrong foot for the line dance rotation"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -459,16 +458,15 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: starting on the wrong foot for the line dance rotation"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -602,16 +600,15 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: starting on the wrong foot for the line dance rotation"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -745,26 +742,33 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "7-8 / 1-2-3-4 / 5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: back",
-   "tempo progression: slow",
+   "views used by most teachers: back, front",
+   "tempo progression: slow → full",
    "repetitions per step: about 3"
   ],
   "cues": [
    "apri sinistra",
    "incrocio avanti destra",
    "calchetto col piede destro",
-   "facendo snap"
+   "facendo snap",
+   "kick across step together step",
+   "step and hop",
+   "keep on turning to the buttercups",
+   "walk walk walk"
   ],
-  "common_mistakes": [],
+  "common_mistakes": [
+   "starting on the wrong foot for the line dance rotation"
+  ],
   "segment_order": [
    "intro",
    "breakdown",
    "slow_practice",
+   "layering",
    "music_practice"
   ],
   "steps_as_taught": [
@@ -772,6 +776,21 @@
     "name": "Hully Gully",
     "counts": "1-2-3-4",
     "description": "A series of steps involving opening, crossing, and kicking."
+   },
+   {
+    "name": "Hully Gully Basic",
+    "counts": "1-8",
+    "description": "Kick across and step together step to right and left"
+   },
+   {
+    "name": "Step Hop and Walk",
+    "counts": "1-8",
+    "description": "Step and hop forward ending with walk back"
+   },
+   {
+    "name": "California Shuffle Variation",
+    "counts": "1-12",
+    "description": "Adds California shuffle into the routine"
    }
   ]
  },
@@ -782,8 +801,7 @@
   "licensed images (3 needed)",
   "posture, arms and hands",
   "signature moves",
-  "two or more connections",
-  "what to avoid / common mistakes"
+  "two or more connections"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Hully_Gully",
@@ -795,6 +813,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "2580e7e0b546daade72f97d9ccbdab0ea4acd41b0ac4540490e3b183c4d48b41",
+ "input_fingerprint": "35ed8b637de684323fa75c9d0e9b29a3f2d9fd6f4caa013b92766d28012a1ccb",
  "hero_checked": "pass"
 }

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "calabrian-tarantella",
  "name": "Calabrian tarantella",
- "state": "not_published",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IT"
@@ -11,12 +11,20 @@
   "slug": "calabrian-tarantella",
   "name": "Calabrian tarantella",
   "country": "Italy",
+  "country_code": "IT",
+  "flag_emoji": "🇮🇹",
   "region": "Europe",
+  "family": "folk-circle",
   "era": "traditional",
   "tagline": "Calabria’s rota-circle courtship dance.",
   "profile": "Calabrian tarantella in 12/8; zampogna, organetto, tamburello.",
   "aliases": [
-   "Calabrian tarantella"
+   "Calabrian tarantella",
+   "tarantella calabrese",
+   "sonu a ballu",
+   "tirantella",
+   "taranteja",
+   "u sonu"
   ],
   "related": [
    "ballet",
@@ -24,6 +32,14 @@
    "il-canto-dei-sanfedisti",
    "beguine"
   ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Calabrian_tarantella",
+   "https://www.wikidata.org/wiki/Q576172",
+   "https://it.wikipedia.org/wiki/Tarantella_calabrese",
+   "https://es.wikipedia.org/wiki/Tarantella_calabresa"
+  ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Calabrian_tarantella",
+  "wikidata_qid": "Q576172",
   "unesco": false,
   "image_significance": {
    "status": "pending",
@@ -31,34 +47,271 @@
   },
   "tier": "content_ready",
   "_is_sacred": false,
-  "research_gate": "review",
-  "qc_score": 9.5,
-  "last_researched_at": "2026-10-31T16:19:15Z",
+  "research_gate": "publish",
+  "qc_score": 10.0,
+  "last_researched_at": "2026-11-26T20:08:06Z",
   "pipeline_version": "v3.3",
+  "profile_long": "The Calabrian tarantella, known in Italian as tarantella calabrese and historically referred to as u sonu, is a diverse collection of musical and choreographic expressions originating across the Calabrian peninsula. Unlike other southern Italian tarantellas, it is entirely free of associations with tarantism and the feverish medical exorcisms linked to spider bites. Instead, it serves as an exuberant social and communal anchor performed during religious festivals, public celebrations, and processional occasions. The tradition encompasses distinct geographical variants and stylistic expressions, ranging from the libera of east Catanzarese and the sonu a ballu of Aspromonte to the zumparieddu of Sila and the viddanedda of Reggio Calabria, alongside specific execution styles designated as fimminina (female), masculina (male), and libera. \n\nAt the heart of the tradition is the rota, a dynamic circular space formed by the participating community. Within this moving wheel, couples perform their dance while musicians and onlookers surround them, actively feeding energy into the space and responding to the physical movements by modulating the musical rhythm. The orchestration relies heavily on the zampogna (traditional bagpipe), which is frequently substituted today by the organetto (diatonic accordion), accompanied by the tamburello (frame drum). Regional variations also incorporate instruments such as the pipita, fischiotta, and the rare Calabrian lira found in Locride and Monte Poro. The musical foundation is constructed around terzine patterns operating in a lively 12/8 or 6/8 meter, creating an infectious pulse that drives the dancers.\n\nOrdering and spatial navigation within the rota are governed by the u mastru i ballu, or master of dance. In private home settings, this role was traditionally held by the head of the household; in public piazza gatherings, it fell to a respected community figure attuned to local social dynamics. The master ensures that participants are paired harmoniously—matching friends or acquaintances while carefully avoiding individuals with standing interpersonal feuds. Historically, these public gatherings provided one of the few sanctioned spaces for direct social contact between unmarried men and women outside their immediate family circles.\n\nThe choreography of the Calabrian tarantella follows structured phases beginning with the formation of the rota and the master entering the center to greet the musicians. The master performs opening steps, selects the first dancer from the circle, and subsequently brings in a second partner. Upon the traditional cry of 'Fora u primu' (out with the first), the initial dancer returns to the perimeter while the master continues with the new participant. Throughout the performance, the upper and lower body operate independently. The torso remains remarkably static and upright, while the legs execute frantic, intricate footwork. The center of gravity is maintained at waist level, drawing historical links to ancient Greek earth dances.\n\nFootwork and spatial gestures carry profound symbolic meaning. Dancers utilize the soprappasso, or intricciata, where steps are woven by alternating feet to the outside. Another signature movement is the illi adornu, in which a dancer mimics a bird of prey circling its target, attempting to draw the partner toward the center of the rota. When an opposing dancer resists, they may deploy the tagghjapassu (step-cutter) to disrupt the spiral path, a maneuver frequently employed by women to evade unwanted courtship advances. In same-sex pairings, the dance mimics a spirited duel for spatial dominance, often featuring simulated knife-fighting gestures (schermijata) using the index and middle fingers. In mixed-gender pairings, women may utilize a foulard as a challenging prop, while men demonstrate agility to approach, touch the partner's face (nzigarla), dishevel their hair (scapigghjarla), or capture the foulard (n'nnopiarla). Arm placements are heavily gendered: men elevate and sweep their arms in expansive arcs, whereas women keep their arms below shoulder height or rest their hands on their hips with palms facing outward, evoking the classic silhouette of a Greek amphora.\n\nAlthough the dance began losing its primary social functionality during the twentieth century, grassroots revival movements have breathed new life into the tradition. Contemporary practitioners perform either 'ad usu anticu'—preserving ancient performance practices—or modernize the sound with basslines and new instrumentation. Major annual festivals such as Paleariza in Bova, the Kaulonia Tarantella Festival, Tarantella Power, and Radici Sonore serve as vibrant modern hubs ensuring that the Calabrian tarantella remains a living, evolving pillar of southern Italian cultural heritage.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Suonatori_di_tarantella_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Suonatori_di_tarantella_2.JPG/1280px-Suonatori_di_tarantella_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2032,
+    "height": 1524,
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "No machine-readable author provided. Marcuscalabresus assumed (based on copyright claims). / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASuonatori_di_tarantella_2.JPG",
+    "description": ""
+   }
+  ],
   "is_sacred": true,
   "needs_eyes_on": true,
+  "sacred_note": "Not a restricted sacred ritual, but performed during religious festivals and processional occasions across Calabria.",
+  "movie_ready": true,
+  "tradition_status": "revived",
   "related_slugs": [
    "ballet",
    "tarantella",
    "beguine"
   ]
  },
+ "profile": {
+  "sections": {
+   "origins_and_history": "The Calabrian tarantella traces its roots to ancient Greek dance traditions, characterized by upright postures, a waist-level center of gravity, and expressive freedom rather than rigid codification. Unlike the tarantellas of Naples or the Apulian phenomenon of tarantism, it evolved as a festive and religious-processional expression with deep cultural roots. Traditional instruments like the ancient aulos and tympanon eventually gave way to the zampogna, organetto, and tamburello. While the dance began losing its daily social function in the twentieth century, recent decades have seen extensive revivals through specialized cultural festivals.",
+   "how_it_is_danced": "Performed by couples—man-woman, man-man, or woman-woman—within a circular community space called a rota. The master of dance (u mastru i ballu) manages turns and selects participants. Movement features an upright, static trunk combined with frantic lower-body footwork based on terzine. Key steps include the soprappasso (intricciata) for foot-crossing, the illi adornu spiral approach, the tagghjapassu step-cutter, and the schermijata knife-mime gesture. Women hold arms low or on hips like an amphora; men elevate arms and engage in sweeping or challenging motions.",
+   "music_and_instruments": "Music is driven by terzine rhythms in 12/8 and sometimes 6/8 time. Primary instruments include the zampogna (bagpipe) and its common modern replacement the organetto (diatonic accordion), accompanied by the tamburello (frame drum). Regional variants utilize the pipita, fischiotta, and the Calabrian lira, which is specific to Locride and Monte Poro.",
+   "costume_and_setting": "Traditionally danced in public piazze during religious festivals and community celebrations. Dancers utilize everyday festive attire, with women frequently incorporating a foulard as a choreographic prop and challenge symbol. In Vibonese, the 6/8 rhythm of the tarantella traditionally accompanies the dance of the Giganti—enormous papier-mâché figures operated from within by dancers.",
+   "occasions_and_meaning": "The rota symbolizes the community's territory, with the dance representing the conquest and sharing of that space. Same-sex dances symbolize a duel for territorial dominance, while mixed-gender dances enact traditional courtship rituals characterized by female modesty and male displays of agility.",
+   "notable_figures": "The tradition is anchored by community elders, traditional musicians playing 'ad usu anticu', and the u mastru i ballu (master of dance) who arbitrates social dynamics and manages turn-taking within the rota.",
+   "regional_variants": "Geographical variants include the libera in east Catanzarese, the sonu a ballu in Aspromonte, the zumparieddu in Sila, and the viddanedda in Reggio Calabria. Stylistic variants include fimminina (female style), masculina (male style), and libera.",
+   "lineage": "A distinct branch of southern Italian tarantella descending from ancient Greek choreographic forms, entirely separate from Neapolitan tarantella and tarantism rituals."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Forming the circular rota space and walking counter-clockwise",
+    "Executing the basic swaying and double steps on terzine timing",
+    "Performing the soprappasso (intricciata) foot-crossing pattern",
+    "Executing the illi adornu spiral approach toward the center",
+    "Practicing the tagghjapassu step-cutter to interrupt movement paths"
+   ],
+   "rhythm": "Lively terzine in 12/8 and 6/8 time",
+   "formation": "Couples dancing inside a single moving circular space called a rota",
+   "level_notes": "Intermediate level requiring upper and lower body independence and coordination with master-led turns."
+  },
+  "claims": [
+   {
+    "text": "Calabrian tarantella is a generic term to include different musical-dancing expressions spread in Calabrian peninsula.",
+    "source": "https://en.wikipedia.org/wiki/Calabrian_tarantella"
+   },
+   {
+    "text": "Rhythm is based on terzine with time in 12/8 and sometimes in 6/8.",
+    "source": "https://en.wikipedia.org/wiki/Calabrian_tarantella"
+   },
+   {
+    "text": "U mastru i ballu ('Master of dance') decide the order of the dancers inside rota managed turns.",
+    "source": "https://en.wikipedia.org/wiki/Calabrian_tarantella"
+   },
+   {
+    "text": "In essa sono assenti i riferimenti agli esorcismi del tarantismo, ma assume più un ruolo di danza per le occasioni festive o religioso-processionali.",
+    "source": "https://it.wikipedia.org/wiki/Tarantella_calabrese"
+   },
+   {
+    "text": "Il ballo è in coppia uomo-donna, ma può essere anche uomo-uomo o donna-donna, e avviene dentro ad uno spazio circolare di persone definito rota.",
+    "source": "https://it.wikipedia.org/wiki/Tarantella_calabrese"
+   },
+   {
+    "text": "Un passo particolare è il soprappasso o 'intricciata' dove appunto i passi vengono intrecciati battendo un piede all'esterno dell'altro in maniera alternativa.",
+    "source": "https://it.wikipedia.org/wiki/Tarantella_calabrese"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Suonatori di tarantella 2.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Suonatori_di_tarantella_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Suonatori_di_tarantella_2.JPG/1280px-Suonatori_di_tarantella_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2032,
+    "height": 1524,
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "No machine-readable author provided. Marcuscalabresus assumed (based on copyright claims).",
+    "description": "",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASuonatori_di_tarantella_2.JPG",
+    "attribution": "No machine-readable author provided. Marcuscalabresus assumed (based on copyright claims). / Wikimedia Commons / CC BY-SA 3.0"
+   }
+  ],
+  "gaps": [
+   "Exact tempo in beats per minute is not specified in sources.",
+   "Detailed musical form and vocal style are not described in sources.",
+   "Specific costume details beyond foulards and general dress are not provided.",
+   "Specific reference albums or artist recordings are not cited in sources.",
+   "Levels and jumps in dance technique are not described in sources."
+  ],
+  "confidence": 0.95,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "12/8 and 6/8 time",
+   "rhythm_pattern": "terzine",
+   "instruments": [
+    "zampogna",
+    "organetto",
+    "tamburello",
+    "pipita",
+    "fischiotta",
+    "Calabrian lira"
+   ],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "lively",
+    "festive",
+    "energetic"
+   ],
+   "reference_recordings": [],
+   "sound_description": "Driven by terzine rhythms in 12/8 or 6/8 time, featuring the reedy drone of the zampogna or organetto underpinned by the sharp acoustic pulse of the tamburello."
+  },
+  "movement_profile": {
+   "posture": "Upright posture with the center of gravity positioned at the waist and a static trunk.",
+   "footwork": "Double and swaying steps, soprappasso (intricciata) alternating foot crossings, and tagghjapassu step-cutters.",
+   "arms_and_hands": "Men elevate and move arms expansively (miming knife fights in male pairings); women keep arms below shoulder height or resting on hips with palms outward.",
+   "hips_and_torso": "Independent movement from the waist down, while the trunk remains static.",
+   "formation_and_space": "Couples dance counter-clockwise inside a single circular space called a rota.",
+   "partnering": "Man-woman courtship, man-man duel, or woman-woman pairing; couples start apart and may approach to interlace hands.",
+   "tempo_feel": "Lively and dynamic",
+   "signature_moves": [
+    {
+     "name": "Soprappasso (Intricciata)",
+     "description": "Steps are interlaced by beating one foot to the outside of the other in an alternating manner."
+    },
+    {
+     "name": "Tagghjapassu",
+     "description": "A step-cutter used to interrupt the spiral movement path, often deployed by women to escape courtship."
+    },
+    {
+     "name": "Illi adornu",
+     "description": "A spiral movement mimicking a bird of prey circling a target to draw the partner toward the center of the rota."
+    }
+   ],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "Inside the Rota: Calabria's Living Circle",
+   "logline": "Discover the dynamic couple dances and terzine rhythms of the Calabrian tarantella within the traditional rota.",
+   "beats": [
+    "Musicians assemble and the single circular rota forms in the public square.",
+    "The master of dance (u mastru i ballu) steps to the center to greet the musicians and signal the start.",
+    "The master selects the first dancer from the circle, beginning the shifting partnership turns.",
+    "Dancers execute counter-clockwise rotational steps with upright posture and independent lower-body motion.",
+    "Couples enact traditional courtship or challenge gestures, including the soprappasso and tagghjapassu.",
+    "The master calls 'Fora u primu' to transition dancers in and out of the center."
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Understand the rota formation and basic terzine timing.",
+     "drills": [
+      "Forming the circular rota space",
+      "Clapping to 12/8 terzine rhythms",
+      "Basic stationary swaying steps",
+      "Counter-clockwise walking within the circle"
+     ]
+    },
+    {
+     "level": "Intermediate",
+     "goal": "Execute footwork patterns and upper/lower body independence.",
+     "drills": [
+      "Practicing the soprappasso (intricciata) foot cross",
+      "Maintaining a static trunk while moving legs",
+      "Executing the illi adornu spiral approach",
+      "Partner coordination without physical contact"
+     ]
+    },
+    {
+     "level": "Advanced",
+     "goal": "Master stylistic interactions and master-led transitions.",
+     "drills": [
+      "Executing the tagghjapassu step-cutter",
+      "Navigating master-managed turn sequences",
+      "Expressive arm placement (amphora pose or challenge gestures)",
+      "Smooth integration into the shifting rota dynamics"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "A single moving circle of participants in a cobblestone piazza",
+    "Traditional instruments like the organetto and tamburello",
+    "Upright posture with energetic leg work",
+    "Expressive hand movements and foulards"
+   ],
+   "instructor_persona": "A knowledgeable community dance leader grounded in Calabrian traditions.",
+   "music_cue": "Lively 12/8 terzine rhythm driven by the organetto and tamburello."
+  },
+  "connections": [
+   {
+    "name": "tarantella",
+    "relation": "parent",
+    "note": "Broad category of southern Italian dances from which Calabrian tarantella is distinguished by rhythm and form."
+   },
+   {
+    "name": "ballu sardu",
+    "relation": "influence",
+    "note": "Shares uncodified traditional Greek-derived spatial and bodily movement characteristics."
+   },
+   {
+    "name": "sirtaki",
+    "relation": "influence",
+    "note": "Shares ancient Greek dance roots emphasizing earth contact and community circle formations."
+   }
+  ],
+  "movie_ready": true,
+  "schema": 5,
+  "tradition_status": "revived",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Seated tapping of the terzine rhythm with feet and hands, maintaining upper body posture.",
+    "standing_version": "Standing in place with support, performing gentle weight shifts instead of fast foot crossings.",
+    "tempo_and_range": "Reduced tempo, restricted step range avoiding deep knee bends or fast turns.",
+    "counts": "12/8 or 6/8 slow count on the beat.",
+    "avoid": [
+     "fast footwork",
+     "rapid turns",
+     "deep knee flexion",
+     "balance risks"
+    ]
+   },
+   "children": {
+    "game_version": "A friendly circle game where children move counter-clockwise in a rota and take turns stepping to the center.",
+    "duration_minutes": "3",
+    "counts": "Simplified steady beat counts.",
+    "avoid": [
+     "complex foot crossings like soprappasso",
+     "aggressive challenge gestures"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-26T20:08:06Z",
+  "qc_score": 10.0
+ },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 11,
   "of": 15,
   "missing": [
    {
-    "key": "published",
-    "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "status",
-    "label": "known to be living, revived or historical"
-   },
-   {
     "key": "footwork_counts",
     "label": "the steps with their counts"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
    },
    {
     "key": "hero_video",
@@ -71,7 +324,15 @@
   ],
   "ritual_context": true
  },
- "teaching_withheld": "Sacred or restricted: the story is told, the dance is not taught.",
- "fingerprint": "2d3bc75ad6b7463c",
- "updated": "2026-11-21"
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 6,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/calabrian-tarantella.json"
+ },
+ "fingerprint": "8ea58f23a2b60a34",
+ "updated": "2026-11-26"
 }

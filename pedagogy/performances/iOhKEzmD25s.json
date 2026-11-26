@@ -1,0 +1,57 @@
+{
+ "youtube_id": "iOhKEzmD25s",
+ "slug": "fancy-dance",
+ "dance": "Fancy dance",
+ "kind": "performance",
+ "analysed_at": "2026-11-26T21:04:58Z",
+ "url": "https://www.youtube.com/watch?v=iOhKEzmD25s",
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 300,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "observation": {
+  "setting": "Indoor or evening powwow arena with a wooden dance floor and a seated audience in the background under dim lighting, featuring a spotlight on the performer.",
+  "dancers": "Solo female dancer per performance segment (part of a competition / spotlight special).",
+  "formation_and_space": "Solo dancer moving dynamically across the spotlighted dance floor, making turns and traveling patterns.",
+  "posture": "Upright torso with slight forward inclination during high-energy jumping and turning sequences, knees bending dynamically with weight transfer.",
+  "footwork": "Rhythmic high-stepping, hopping, and leaping on each beat of the music; exact foot-to-ground articulation obscured by low frame-rate and costume movement.",
+  "arms_and_hands": "Arms held out to the sides or extended to flare a large fringed shawl, creating sweeping wing-like motions.",
+  "hips_and_torso": "Torso remains upright and aligned while turning and jumping; rotation driven by core and leg drive.",
+  "partnering": "None, solo performance.",
+  "levels_jumps_turns": "Frequent jumps, single-foot hops, and fast spinning turns while maintaining balance.",
+  "costume_and_props": "Elaborate regalia including a large fringed shawl with rainbow or multi-colored fringe, dress with geometric beadwork/applique, matching leggings/moccasins, and a headpiece featuring feathers; competitor number pin visible.",
+  "cannot_infer": "Exact foot placement and rapid micro-steps are occluded by the heavy fringe and low-resolution video sampling rate.",
+  "music_heard": {
+   "instruments": [
+    "drum",
+    "shaker / rattle"
+   ],
+   "vocals": "chorus",
+   "tempo_feel": "fast",
+   "meter_feel": "duple"
+  },
+  "signature_moments": [
+   {
+    "start_s": 35,
+    "end_s": 42,
+    "what": "Fast spinning turn with arms extended wide, making the long shawl fringe fly outward"
+   },
+   {
+    "start_s": 51,
+    "end_s": 59,
+    "what": "Rhythmic high-leg hops in place while holding arms outstretched to display the shawl"
+   },
+   {
+    "start_s": 213,
+    "end_s": 221,
+    "what": "Rapid spinning pivot on one foot with the shawl flaring horizontally"
+   }
+  ]
+ },
+ "verification": "model_candidate",
+ "attempts": 1
+}

@@ -5,7 +5,7 @@
  "title": "CHA Basic Steps for Beginners / Latin Dance",
  "channel": "Egils Smagris",
  "viewer_ratio": 4.0,
- "analysed_at": "2026-11-24T00:44:10Z",
+ "analysed_at": "2026-11-26T20:53:22Z",
  "url": "https://www.youtube.com/watch?v=LcL29s6Ewic",
  "evidence_version": 2,
  "observation_window": {
@@ -15,6 +15,134 @@
   "sampling": "provider default; not continuous motion capture",
   "human_verified": false
  },
- "status": "failed",
- "attempts": 1
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor explains concepts clearly while demonstrating with a partner in a studio setting. He breaks down steps into counts and demonstrates rhythm before combining movements into a routine.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to Cha Cha basic steps"
+   },
+   {
+    "t": "0:10",
+    "segment": "breakdown",
+    "note": "Breaking down cha cha time step (chasse and 2 steps in place)"
+   },
+   {
+    "t": "0:51",
+    "segment": "breakdown",
+    "note": "Explaining the counting scheme 4 and 1, 2, 3"
+   },
+   {
+    "t": "1:37",
+    "segment": "breakdown",
+    "note": "Cha basic with rock step instead of closing"
+   },
+   {
+    "t": "2:12",
+    "segment": "breakdown",
+    "note": "Explanation of hold options (double hold or closed hold)"
+   },
+   {
+    "t": "2:58",
+    "segment": "breakdown",
+    "note": "First cha cha routine combining basic steps, check, spot turn and underarm turn"
+   }
+  ],
+  "counting_scheme": "1-2-3-4&1",
+  "cues": [
+   "side close side",
+   "rock rock"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Cha Time Step",
+    "counts": "4&1 2 3",
+    "description": "Chasse followed by two steps in place"
+   },
+   {
+    "name": "Cha Basic",
+    "counts": "4&1 2 3",
+    "description": "Chasse followed by rock steps"
+   },
+   {
+    "name": "Check",
+    "counts": "2 3 4&1",
+    "description": "Quarter turn checking to directions"
+   },
+   {
+    "name": "Spot Turn to Right",
+    "counts": "2 3 4&1",
+    "description": "Spot turn on rock steps"
+   },
+   {
+    "name": "Under Arm Turn to Right",
+    "counts": "2 3 4&1",
+    "description": "Underarm turn for the follower"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal breakdown of counts and footwork"
+   ],
+   "what_hinders": [
+    "Partner demonstrations can obscure foot placement from certain angles"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "We will start with basic in place."
+   },
+   {
+    "t": "0:51",
+    "text": "How do we count in cha-cha-cha?"
+   },
+   {
+    "t": "1:38",
+    "text": "Now we will do basic, that means instead of closing we will do small rock step."
+   },
+   {
+    "t": "2:12",
+    "text": "Now about hold, we can take double hold here low."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "Instructor stands in front of a plain background talking to the camera",
+    "viewpoint": "front, unknown",
+    "cannot_infer": "any dance movement",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 10,
+    "end_s": 50,
+    "topic": "movement",
+    "observation": "Instructor and partner demonstrate the cha time step side by side on a wooden floor",
+    "viewpoint": "front, unknown",
+    "cannot_infer": "exact weight transfer details",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down the count so that '4 and 1' are grouped together as the chasse and '2, 3' are grouped as the steps in place."
+ },
+ "attempts": 2
 }

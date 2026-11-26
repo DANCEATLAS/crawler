@@ -1,0 +1,121 @@
+{
+ "slug": "bwiti-dance",
+ "qc_at": "2026-11-26T20:39:54Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Bwiti Dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "75"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "138"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Bwiti rituals unite participants in all-night ceremonies fueled by the iboga sac"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "519"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3271"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Gabon"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'temple', 'trance', 'initiation', 'ancestor', 'spirit', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "reject",
+  "notes": "Bwiti is a comprehensive spiritual religion and sacred initiation tradition involving iboga consumption, rather than primarily a standalone dance tradition suitable for world dance profiles or teaching."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=8.7",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-26T20:17:38Z"
+}

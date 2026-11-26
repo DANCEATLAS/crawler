@@ -2,7 +2,7 @@
  "slug": "mugo",
  "name": "Mugo",
  "pack_version": "e2",
- "built_at": "2026-11-25T21:47:20Z",
+ "built_at": "2026-11-26T21:10:14Z",
  "researched_at": "2026-11-25T20:00:23Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Mugo. 13th century (Goryeo period)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (I0CkA4esxCo)",
      "Title card: Mugo · South Korea · 13th century (Goryeo period)"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Wonmu drum strike, Hyeopmu circling."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (I0CkA4esxCo)",
      "Captions name each signature move as it appears",
      "Formation: Eight dancers; four inner (wonmu) and four outer (hyeopmu) surrounding a central drum"
     ],
@@ -716,7 +716,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "I0CkA4esxCo",
+   "checked_by_vision_model": false,
+   "title": "#4k 북의 깊은 울림과 위엄, 예술적 세련미로 춤을 추는 장대한 궁중무용, 무고(舞鼓) 🇰🇷 #gyeongbokgung #mugo #무고 #세종의음악"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -763,8 +767,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "17 tutorial(s) of the classical-court family studied",
-  "videos_studied": 17,
+  "source": "18 tutorial(s) of the classical-court family studied",
+  "videos_studied": 18,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -789,6 +793,7 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
+   "warmup",
    "context",
    "breakdown",
    "slow_practice",
@@ -801,7 +806,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -813,6 +818,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "d0c36615aa78f4382bc6def6c9a7b457e0098f796d45dc0bfeddf9dc4fb0f4c8",
- "hero_checked": null
+ "input_fingerprint": "30f60139741bb61323396165be0ac1a1d5078218908b090fe029f4dfb8162c1e",
+ "hero_checked": "fail"
 }

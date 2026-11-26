@@ -1,20 +1,20 @@
 # Active Profile readiness
 
-Evaluated 2026-11-25. No model calls; existing budgets unchanged.
+Evaluated 2026-11-26. No model calls; existing budgets unchanged.
 
-1,548 dossiers; 0 ready for activation; 0 running interactive experiences.
+1,571 dossiers; 0 ready for activation; 0 running interactive experiences.
 
 ## Missing work across the catalogue
 
 | Work stream | Profiles with gaps |
 |---|---:|
-| research | 1545 |
-| video | 1500 |
-| rights | 1548 |
-| review | 1548 |
-| platform | 1548 |
+| research | 1568 |
+| video | 1516 |
+| rights | 1571 |
+| review | 1571 |
+| platform | 1571 |
 
-Technology evidence needing recheck: none in the recorded watchlist
+Technology evidence needing recheck: video_learning, pose_feedback, live_interaction, social_sync, spatial_delivery, music_rights
 
 Read ACTIVE_PROFILE_STANDARD.md and MUSIC_STRATEGY.md. Detailed gaps: pipeline_state/activation_gaps.json.
 Only research gaps enter the existing capped enrichment queue. Rights, human review and platform work need their own evidence; model retries cannot clear them.

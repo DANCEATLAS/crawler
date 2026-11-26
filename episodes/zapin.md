@@ -1,6 +1,6 @@
 # Zapin — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the how-it-is-danced section
 
@@ -121,7 +121,7 @@ NARRATION: Step 1: Step One: Begin with feet together, step forward with right f
 NARRATION: Step 2: Step Two: Step backward with left foot
 NARRATION: Footwork from the sources: Swift, simple steps with knee bends and body sway; six primary steps connected by kopak transitions
 NARRATION: Drill: Step One to Step Six repetition
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -192,7 +192,7 @@ NEEDS: tempo
 NARRATION: Step 1: Step Five: Small hop or bounce on both feet
 NARRATION: Step 2: Step Six: Return to starting position
 NARRATION: Drill: Practice stepping in pairs facing each other
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -266,7 +266,7 @@ NEEDS: tempo
 NARRATION: Step 1: Kopak: Transitional movement connecting steps with rhythmic foot taps
 NARRATION: Step 2: Wainab: Closing movement with graceful arm sweep and composed posture
 NARRATION: Drill: Refine timing and fluidity of transitions
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -332,9 +332,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (7): https://en.wikipedia.org/wiki/Zapin; https://www.wikidata.org/wiki/Q147371; https://fr.wikipedia.org/wiki/Zapin; https://de.wikipedia.org/wiki/Zapin; https://it.wikipedia.org/wiki/Zapin; https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/1036; https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/1038

@@ -1,0 +1,130 @@
+{
+ "youtube_id": "gRzWn1E8p1A",
+ "slug": "kompa",
+ "dance": "Compas",
+ "title": "Toe Compas (Grapevine) - Wizard and flowskating tutorial",
+ "channel": "Rope & Hammer",
+ "viewer_ratio": 3.0,
+ "analysed_at": "2026-11-26T20:56:01Z",
+ "url": "https://www.youtube.com/watch?v=gRzWn1E8p1A",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor provides step-by-step roller skate tutorials using on-screen text and in-video demonstrations. He progresses from basic balance exercises to full movements with props like a chair.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Title screen and introduction to Toe Compas Grapevine"
+   },
+   {
+    "t": "0:16",
+    "segment": "breakdown",
+    "note": "Demonstrating balance on the toes"
+   },
+   {
+    "t": "0:47",
+    "segment": "breakdown",
+    "note": "Using a chair to learn balance and steps"
+   },
+   {
+    "t": "2:06",
+    "segment": "breakdown",
+    "note": "Riding backwards in circles"
+   },
+   {
+    "t": "2:36",
+    "segment": "layering",
+    "note": "Adding pop, locking legs, and dragging heel to spin"
+   }
+  ],
+  "counting_scheme": "1-2-3",
+  "cues": [
+   "Keep 50% weight on each leg",
+   "Kick your foot back on toes",
+   "Tilt outwards"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Toe Compas (Grapevine)",
+    "counts": "1-2-3",
+    "description": "Balancing on toes and tilting feet outwards while moving"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Use of a chair for stability",
+    "Progressive steps from balance to spinning"
+   ],
+   "what_hinders": [
+    "Lack of spoken audio narration (only text overlay is provided)"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:17",
+    "text": "We start out by finding the balance on our toe"
+   },
+   {
+    "t": "0:36",
+    "text": "It requires some knee stretching But try to keep 50% weight on each leg"
+   },
+   {
+    "t": "0:47",
+    "text": "To help learn the balance of the trick You can use a chair"
+   },
+   {
+    "t": "1:50",
+    "text": "When you feel safe let out, And straighthen up"
+   },
+   {
+    "t": "2:36",
+    "text": "Now We add the pop and lock our legs Keep the dragin the heel across to keep spining"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 16,
+    "end_s": 27,
+    "topic": "movement",
+    "observation": "Instructor stands on roller skate toes and shifts weight side to side.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "exact weight distribution between skates",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 51,
+    "end_s": 60,
+    "topic": "teaching",
+    "observation": "Instructor holds onto a chair while practicing toe balances on skates.",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "amount of weight supported by the chair",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using a household chair as a stability prop to safely learn toe balance and foot rotation on roller skates."
+ },
+ "attempts": 1
+}

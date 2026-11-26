@@ -1,0 +1,360 @@
+{
+ "slug": "melattur-style",
+ "name": "Melattur style",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T19:17:29Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A disciplined practitioner who emphasizes the spiritual weight of every gesture and the precision of the feet.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Melattur style"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Melattur style",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Silent Bells of Melattur",
+     "This is Melattur style. 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Melattur style · India · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The style was developed by Mangudi Dorairaja Iyer (1900–1980), a sanyasi and practitioner of Srividya Upasana.",
+     "He drew inspiration from the devadasi traditions of the Cheyyur Sengalvarayar temple and the Melattur Bhagavata Mela.",
+     "Iyer was particularly moved by a devadasi performance featuring 72 different types of items, leading him to re-establish rare forms like Suddha Nrittam, Bhattasa Natyam, and Perani Natyam within the Bharatanatyam framework."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The style is deeply spiritual, rooted in Srividya Upasana.",
+     "It rejects the glorification of human patrons, focusing exclusively on deities and rishis.",
+     "The use of sringara rasa (erotic/romantic love) is common, reflecting the devadasi influence, but it is channeled toward a spiritual or devotional context rather than a neutral bhakti.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is characterized by large-amplitude movements and a wide range of tempos.",
+     "Footwork is sophisticated; dancers avoid stamping hard, instead using ankle bells to produce varied rhythmic sounds.",
+     "It features extensive use of pancha nadais and gati bhedas, with rhythmic shifts occurring frequently, such as in every jati of a varnam.",
+     "Watch for Suddha Nrittam, Perani Natyam."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Soloist moving across a wide scale; uses both loka dharmi and natya dharmi."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music follows the Carnatic tradition typical of Bharatanatyam but emphasizes complex rhythmic structures like pancha nadais.",
+     "The salangai (ankle bells) are treated as a musical instrument in their own right, used to highlight intricate rhythms through controlled tapping rather than forceful striking.",
+     "Listen for the Mridangam, Nattuvangam (cymbals), Flute, Violin.",
+     "The pulse is Complex (extensive use of pancha nadais).",
+     "The sound is defined by the sophisticated use of ankle bells which produce a rich variety of rhythmic tones without the thud of hard stamping. The music follows Carnatic structures but is marked by frequent and complex shifts in gait and time measures."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Gati bhedas in every jati; intricate tapping patterns"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear the traditional Bharatanatyam costume but with a specific addition: a special protective cotton belt worn around the waist to support the body during demanding movements.",
+     "The setting is traditionally the temple or the village square of Melattur, though it is now performed on modern stages."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Mangudi Dorairaja Iyer is the central figure who codified the style.",
+     "He was a sanyasi whose spiritual practices dictated the themes of the repertoire.",
+     "The style is a specific regional variant of Bharatanatyam originating from the village of Melattur in Tamil Nadu, India.",
+     "The lineage flows from the temple devadasi traditions and the Melattur Bhagavata Mela through Mangudi Dorairaja Iyer to his students."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Melattur style is parent of Bharatanatyam: Melattur is a specific style or school within the broader Bharatanatyam tradition.",
+     "Melattur style is influence of Kuchipudi: Shares elements like Suddha Nrittam and Perani Natyam (clay pot dance).",
+     "Melattur style is influence of Bhagavata Mela: Provides the dramatic characterization and abhinaya elements."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The repertoire is strictly limited to the glorification of deities and rishis; items praising human patrons are excluded due to the founder's Srividya Upasana spiritual practice."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the physically grueling Bharatanatyam style that replaces heavy stamping with a sophisticated language of ankle bells and spiritual devotion.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "Complex (extensive use of pancha nadais)",
+  "rhythm_pattern": "Gati bhedas in every jati; intricate tapping patterns",
+  "instruments": [
+   "Mridangam",
+   "Nattuvangam (cymbals)",
+   "Flute",
+   "Violin",
+   "Salangai (ankle bells)"
+  ],
+  "vocal_style": null,
+  "musical_form": "Varnam-heavy with ancient temple items",
+  "mood": [
+   "spiritual",
+   "devotional",
+   "intricate",
+   "dynamic"
+  ],
+  "sound_description": "The sound is defined by the sophisticated use of ankle bells which produce a rich variety of rhythmic tones without the thud of hard stamping. The music follows Carnatic structures but is marked by frequent and complex shifts in gait and time measures.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Melattur style (India). Meter Complex (extensive use of pancha nadais). Rhythm pattern: Gati bhedas in every jati; intricate tapping patterns. Instruments: Mridangam, Nattuvangam (cymbals), Flute, Violin, Salangai (ankle bells). Form: Varnam-heavy with ancient temple items. Mood: spiritual, devotional, intricate, dynamic. It should sound like this: The sound is defined by the sophisticated use of ankle bells which produce a rich variety of rhythmic tones without the thud of hard stamping. The music follows Carnatic structures but is marked by frequent and complex shifts in gait and time measures. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear the traditional Bharatanatyam costume but with a specific addition: a special protective cotton belt worn around the waist to support the body during demanding movements. The setting is traditionally the temple or the village square of Melattur, though it is now performed on modern stages.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "The protective cotton waist belt",
+   "The clay pot used in Perani Natyam",
+   "Close-ups of the salangai (ankle bells)",
+   "Temple architecture of Cheyyur"
+  ],
+  "costume_notes": "Dancers wear the traditional Bharatanatyam costume but with a specific addition: a special protective cotton belt worn around the waist to support the body during demanding movements. The setting is traditionally the temple or the village square of Melattur, though it is now performed on modern stages.",
+  "setting_notes": "The style is deeply spiritual, rooted in Srividya Upasana. It rejects the glorification of human patrons, focusing exclusively on deities and rishis. The use of sringara rasa (erotic/romantic love) is common, reflecting the devadasi influence, but it is channeled toward a spiritual or devotional context rather than a neutral bhakti.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "18 tutorial(s) of the classical-court family studied",
+  "videos_studied": 18,
+  "counting": "count the Complex (extensive use of pancha nadais) bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "neutralize your pelvis",
+   "shoulders are dropped",
+   "squeeze your abs",
+   "keep your eyes locked",
+   "kick kick kick kick step",
+   "curtsy and bow"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "full_demo",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Melattur_style",
+  "https://www.wikidata.org/wiki/Q6811643"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "d41227fcda12fa3d94ac60bc35a16c7e83fd767baf888bd304160f0753128d70",
+ "hero_checked": null
+}

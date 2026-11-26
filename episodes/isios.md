@@ -1,6 +1,6 @@
 # Isios — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures; two or more connections
 
@@ -107,7 +107,7 @@ NARRATION: Step 1: Cross arms with neighbors to form a basket weave hand hold.
 NARRATION: Step 2: Step in sequence to the 2/4 rhythm following the open circle formation.
 NARRATION: Footwork from the sources: Basic step repeated by the circle, with solo improvisation performed exclusively by the line leader.
 NARRATION: Drill: Practice linking arms in a crossed basket weave hold with adjacent dancers.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -175,7 +175,7 @@ NEEDS: tempo
 NARRATION: Step 1: Cross arms with neighbors to form a basket weave hand hold.
 NARRATION: Step 2: Step in sequence to the 2/4 rhythm following the open circle formation.
 NARRATION: Drill: Execute the basic step while navigating the curve of the open circle.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -243,7 +243,7 @@ NEEDS: tempo
 NARRATION: Step 1: Step in sequence to the 2/4 rhythm following the open circle formation.
 NARRATION: Step 2: Maintain the basic repetitive step while the line leader performs improvisations.
 NARRATION: Drill: Practice leading the line while introducing spontaneous footwork variations.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -308,9 +308,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (2): https://en.wikipedia.org/wiki/Isios; https://www.wikidata.org/wiki/Q16920791

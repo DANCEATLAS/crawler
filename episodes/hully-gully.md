@@ -1,8 +1,8 @@
 # Hully Gully — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; licensed images (3 needed); posture, arms and hands; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic dance historian
@@ -132,9 +132,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: starting on the wrong foot for the line dance rotation
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 7-8 / 1-2-3-4 / 5-6-7-8.
@@ -196,9 +196,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: starting on the wrong foot for the line dance rotation
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 7-8 / 1-2-3-4 / 5-6-7-8.
@@ -260,9 +260,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: starting on the wrong foot for the line dance rotation
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 7-8 / 1-2-3-4 / 5-6-7-8.
@@ -304,9 +304,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 7-8 / 1-2-3-4 / 5-6-7-8
-Demonstration: views used by most teachers: back; tempo progression: slow; repetitions per step: about 3
-Cues: apri sinistra; incrocio avanti destra; calchetto col piede destro; facendo snap
+Demonstration: views used by most teachers: back, front; tempo progression: slow → full; repetitions per step: about 3
+Cues: apri sinistra; incrocio avanti destra; calchetto col piede destro; facendo snap; kick across step together step; step and hop; keep on turning to the buttercups; walk walk walk
+Common mistakes the studied teachers name: starting on the wrong foot for the line dance rotation
 
 Sources (5): https://en.wikipedia.org/wiki/Hully_Gully; https://www.wikidata.org/wiki/Q5936128; https://fr.wikipedia.org/wiki/Hully-Gully; https://de.wikipedia.org/wiki/Hully_Gully; https://it.wikipedia.org/wiki/Hully_gully

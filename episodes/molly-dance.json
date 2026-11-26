@@ -1,0 +1,848 @@
+{
+ "slug": "molly-dance",
+ "name": "Molly dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-26T21:10:14Z",
+ "researched_at": "2026-11-26T19:08:32Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Grounded, historical folk dancer highlighting community tradition over rigid codification",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Molly dance",
+   "Molly dancing"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Molly dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Black Faces, Bright Ribbons: The Midwinter Molly Men",
+     "This is Molly dance. 1820s to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Molly dance · United Kingdom · 1820s to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Molly dancing originated in East Anglia as a tradition performed by out-of-work ploughboys during the harsh winter months.",
+     "First attested in the 1820s, it became strongly tied to Boxing Day and Plough Monday, a date celebrated in the region since the fifteenth century.",
+     "Unemployed farmworkers danced both to entertain themselves and to collect money during a season with little agricultural labor."
+    ],
+    "on_screen": [
+     "Map: United Kingdom · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Molly dance was tied directly to the midwinter calendar, specifically Boxing Day (26 December) and Plough Monday (the first Monday after Epiphany).",
+     "It functioned as both community entertainment and economic survival, offering seasonal income for farmworkers when fields lay dormant.",
+     "While pre-revival teams were strictly male, modern revival teams feature mixed-gender participation and perform both in traditional winter runs and at festivals throughout the year.",
+     "Today it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Molly Dancers UK 2023.webm (https://upload.wikimedia.org/wikipedia/commons/c/c6/Molly_Dancers_UK_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The traditional Molly dances recorded by collectors were mostly ordinary social dances of the 19th century adapted into simple longways sets.",
+     "Rather than light or intricate step patterns, dancers used heavy stepping.",
+     "Dancers moved in line or set formations, often led or accompanied by character figures such as a sweeper who cleared a space with a broom.",
+     "Watch for Sweeper march, Heavy longways set step."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Longways sets moving along street paths or open outdoor spaces"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for Molly dance was typically provided by a hired musician rather than an agricultural worker.",
+     "Fiddlers provided the standard accompaniment until the late nineteenth century, when concertinas and accordions became popular choices.",
+     "Listen for the Fiddle, Concertina, Accordion, Percussion.",
+     "The pulse is 2/4 or 6/8 at about 110 beats a minute.",
+     "A rhythmic, rustic winter sound driven by accordion, concertina, or fiddle playing popular tunes, sometimes supported by basic percussion."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Rattlebone and Ploughjack — Ashley Hutchings",
+     "Waveform or rhythm-pattern graphic: Straight marching or social dance pulse"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The traditional attire of Molly dancers consisted of ordinary working clothes decorated with rosettes and bright ribbons, topped with top hats or frock coats.",
+     "Dancers blackened their faces with soot as a disguise.",
+     "A key feature was cross-dressing: at least one man, and in some accounts half the team, wore women's clothing."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Historical collectors Joseph Needham, Arthur Peck, William Palmer, Russell Wortley, and Cyril Papworth documented the few remaining traditional dances in Cambridgeshire villages like Girton, Histon, Comberton, and Little Downham.",
+     "In 1976, folk musician Ashley Hutchings raised public awareness of the style through the compilation album Rattlebone and Ploughjack.",
+     "The original tradition was concentrated in the East Anglian fenlands, particularly Cambridgeshire.",
+     "Derived from 19th-century East Anglian social dances and winter plough rituals, Molly dance is a distinct variant within the broader family of English Morris display dances."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Molly dance is parent of Morris dance: Molly dance is a regional branch of the broader English Morris tradition.",
+     "Molly dance is influence of Border morris: Revival Molly dance shared stylistic traits and cross-influence with Border morris groups."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Heavy forward stepping in longways set formation",
+     "Simple social dance turns and figure shifts",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how out-of-work 19th-century farm workers turned winter survival into a distinctive English folk tradition.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the grounded heavy step in longways formation",
+   "level": "Basic",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the grounded heavy step in longways formation.",
+      "Level: Basic. Difficulty of the dance overall: beginner.",
+      "Your instructor: Grounded, historical folk dancer highlighting community tradition over rigid codification"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded with a heavy, unrefined weight",
+      "Natural down swings or holding set positions, free of handkerchiefs",
+      "Stiff, functional torso movement suited to winter outdoor performance"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 6/8.",
+      "Rhythm pattern: Straight marching or social dance pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Heavy forward stepping in longways set formation",
+      "Step 2: Simple social dance turns and figure shifts",
+      "Footwork from the sources: Heavy stepping rather than light leaps",
+      "Drill: Marching on the spot with heavy footfalls"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Sweeper clearance movements with a broom",
+      "Drill: Line formation spacing and forward-back travel"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid delicate Cotswold-style handkerchief flicks, ankle bells, or light high hops"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm patterns and upper body set steps while seated in facing rows. · For children: Roleplay winter sweeper clearing the snow while marching in pairs."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm patterns and upper body set steps while seated in facing rows.",
+      "For children: Roleplay winter sweeper clearing the snow while marching in pairs."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the grounded heavy step in longways formation.",
+      "Molly dance was tied directly to the midwinter calendar, specifically Boxing Day (26 December) and Plough Monday (the first Monday after Epiphany).",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Molly dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Molly dance.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: Grounded, historical folk dancer highlighting community tradition over rigid codification"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded with a heavy, unrefined weight",
+      "Natural down swings or holding set positions, free of handkerchiefs",
+      "Stiff, functional torso movement suited to winter outdoor performance"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 6/8.",
+      "Rhythm pattern: Straight marching or social dance pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Heavy forward stepping in longways set formation",
+      "Step 2: Simple social dance turns and figure shifts"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Sweeper clearance movements with a broom",
+      "Sweeper march: Broom bearer clearing space ahead of the set",
+      "Heavy longways set step: Firm down-stepping in parallel lines"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid delicate Cotswold-style handkerchief flicks, ankle bells, or light high hops"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm patterns and upper body set steps while seated in facing rows. · For children: Roleplay winter sweeper clearing the snow while marching in pairs."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm patterns and upper body set steps while seated in facing rows.",
+      "For children: Roleplay winter sweeper clearing the snow while marching in pairs."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Longways sets moving along street paths or open outdoor spaces"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Molly dance.",
+      "Historical collectors Joseph Needham, Arthur Peck, William Palmer, Russell Wortley, and Cyril Papworth documented the few remaining traditional dances in Cambridgeshire villages like Girton, Histon, Comberton, and Little Downham.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Molly dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Molly dance.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: Grounded, historical folk dancer highlighting community tradition over rigid codification"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded with a heavy, unrefined weight",
+      "Natural down swings or holding set positions, free of handkerchiefs",
+      "Stiff, functional torso movement suited to winter outdoor performance"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 6/8.",
+      "Rhythm pattern: Straight marching or social dance pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 77 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Simple social dance turns and figure shifts",
+      "Step 2: Sweeper clearance movements with a broom"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Sweeper march: Broom bearer clearing space ahead of the set",
+      "Heavy longways set step: Firm down-stepping in parallel lines"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid delicate Cotswold-style handkerchief flicks, ankle bells, or light high hops"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm patterns and upper body set steps while seated in facing rows. · For children: Roleplay winter sweeper clearing the snow while marching in pairs."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm patterns and upper body set steps while seated in facing rows.",
+      "For children: Roleplay winter sweeper clearing the snow while marching in pairs."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Longways sets moving along street paths or open outdoor spaces"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 110 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Molly dance.",
+      "Derived from 19th-century East Anglian social dances and winter plough rituals, Molly dance is a distinct variant within the broader family of English Morris display dances.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 110,
+  "meter": "2/4 or 6/8",
+  "rhythm_pattern": "Straight marching or social dance pulse",
+  "instruments": [
+   "Fiddle",
+   "Concertina",
+   "Accordion",
+   "Percussion"
+  ],
+  "vocal_style": "Instrumental dance accompaniment",
+  "musical_form": "Strophic popular social tunes",
+  "mood": [
+   "Rhythmic",
+   "Rustic",
+   "Lively",
+   "Winter"
+  ],
+  "sound_description": "A rhythmic, rustic winter sound driven by accordion, concertina, or fiddle playing popular tunes, sometimes supported by basic percussion.",
+  "listen_before_composing": [
+   "Rattlebone and Ploughjack — Ashley Hutchings"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Molly dance (United Kingdom). Meter 2/4 or 6/8. Tempo about 110 bpm. Rhythm pattern: Straight marching or social dance pulse. Instruments: Fiddle, Concertina, Accordion, Percussion. Vocal style: Instrumental dance accompaniment. Form: Strophic popular social tunes. Mood: Rhythmic, Rustic, Lively, Winter. It should sound like this: A rhythmic, rustic winter sound driven by accordion, concertina, or fiddle playing popular tunes, sometimes supported by basic percussion. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 77
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 110
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The traditional attire of Molly dancers consisted of ordinary working clothes decorated with rosettes and bright ribbons, topped with top hats or frock coats. Dancers blackened their faces with soot as a disguise. A key feature was cross-dressing: at least one man, and in some accounts half the team, wore women's clothing. Teams were accompanied by characters such as an umbrella man to shield the musician from the elements, a broom-bearing sweeper, and a box bearer. Modern revival sides often maintain face paint, masks, ribbons, or cross-dressing while discarding standard Cotswold morris elements like handkerchiefs and leg bells.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3APigDykeMollyBroomDance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AJoseph_Needham_in_Cambridge_1965_04.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AMolly_Dancers_on_Mill_Road_-_geograph.org.uk_-_2189725.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/PigDykeMollyBroomDance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/PigDykeMollyBroomDance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "SiGarb / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APigDykeMollyBroomDance.jpg",
+    "description": "Members of Pig Dyke Molly dance team in action at Whittlesea Straw Bear Festival 2007 in Whittlesey, Cambridgeshire, UK."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Joseph_Needham_in_Cambridge_1965_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Joseph_Needham_in_Cambridge_1965_04.jpg/1280px-Joseph_Needham_in_Cambridge_1965_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kognos / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJoseph_Needham_in_Cambridge_1965_04.jpg",
+    "description": "Joseph Needham in his office in Caius College Cambridge 1965"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Molly_Dancers_on_Mill_Road_-_geograph.org.uk_-_2189725.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/03/Molly_Dancers_on_Mill_Road_-_geograph.org.uk_-_2189725.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Keith Edkins / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMolly_Dancers_on_Mill_Road_-_geograph.org.uk_-_2189725.jpg",
+    "description": "Molly Dancers on Mill Road"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Morris_dancers_at_Sweeps_Festival_%282024%29-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Morris_dancers_at_Sweeps_Festival_%282024%29-5.jpg/1280px-Morris_dancers_at_Sweeps_Festival_%282024%29-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ninja of the Eagles / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMorris_dancers_at_Sweeps_Festival_%282024%29-5.jpg",
+    "description": "Morris dancing is a form of English folk dancing (also performed to some extent in the border counties of Wales) in the United Kingdom. Sides can be men-only, women-only or mixed. There are several major regional styles: Cotswold (South England) dancers mainly dress in white with coloured sashes and often dance with sticks or handkerchiefs; North West (of England) originated in the mill towns and "
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Molly Dancers UK 2023.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Molly_Dancers_UK_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Alexandliane / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "Molly Night 1",
+    "url": "https://archive.org/details/MollyNight1",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Ribbons and rosettes pinned to coats",
+   "Soot-blackened faces and top hats",
+   "Broom sweeping the snow or cobblestones"
+  ],
+  "costume_notes": "The traditional attire of Molly dancers consisted of ordinary working clothes decorated with rosettes and bright ribbons, topped with top hats or frock coats. Dancers blackened their faces with soot as a disguise. A key feature was cross-dressing: at least one man, and in some accounts half the team, wore women's clothing. Teams were accompanied by characters such as an umbrella man to shield the musician from the elements, a broom-bearing sweeper, and a box bearer. Modern revival sides often maintain face paint, masks, ribbons, or cross-dressing while discarding standard Cotswold morris elements like handkerchiefs and leg bells.",
+  "setting_notes": "Molly dance was tied directly to the midwinter calendar, specifically Boxing Day (26 December) and Plough Monday (the first Monday after Epiphany). It functioned as both community entertainment and economic survival, offering seasonal income for farmworkers when fields lay dormant. While pre-revival teams were strictly male, modern revival teams feature mixed-gender participation and perform both in traditional winter runs and at festivals throughout the year.",
+  "map": {
+   "country": "United Kingdom",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "111 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 111,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "5-6-7-8",
+   "1-2-3-4",
+   "step together step",
+   "1 2 3 4",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch",
+   "left together left touch",
+   "spin out"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Molly_dance",
+  "https://www.wikidata.org/wiki/Q6896703"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "f242c227ce4544a01f63bfa80618063e55692ebf731b40064272242e6ba28db2",
+ "hero_checked": null
+}

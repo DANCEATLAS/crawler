@@ -1,6 +1,6 @@
 # international folk dance — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed)
 
@@ -123,7 +123,7 @@ NARRATION: Step 1: Join hands in a circle or line depending on the specific danc
 NARRATION: Step 2: Observe the master teacher for the specific footwork pattern (e.g., grapevine, schottische, or Yemenite step)
 NARRATION: Footwork from the sources: Includes grapevines, skips, hops, and stamps specific to the source culture.
 NARRATION: Drill: Walking to a steady 2/4 beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Variable bar out loud, then in pairs of bars · repetitions: 3
@@ -194,7 +194,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Participate in the 'party' session to reinforce learned dances through repetition
 NARRATION: Drill: Slow cross-front, side, cross-back
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Variable bar out loud, then in pairs of bars · repetitions: 3
@@ -267,7 +267,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Incorporate the step into the communal floor pattern
 NARRATION: Step 2: Participate in the 'party' session to reinforce learned dances through repetition
 NARRATION: Drill: Switching from a 2/4 polka to a 7/8 Balkan step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Variable bar out loud, then in pairs of bars · repetitions: 3
@@ -337,9 +337,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: count the Variable bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (3): https://en.wikipedia.org/wiki/International_folk_dance; https://www.wikidata.org/wiki/Q6054681; https://archive.org/details/ffd-2025-02

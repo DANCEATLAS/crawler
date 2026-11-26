@@ -38,6 +38,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Twist_(dance)",
   "wikidata_qid": "Q6900705",
   "unesco": false,
+  "hero_video_youtube_id": "cwub1m1pg0c",
+  "video_stack": [
+   {
+    "youtube_id": "cwub1m1pg0c",
+    "role": "hero",
+    "title": "Tones and I - Dance Monkey - Choreography by Liana Blackburn",
+    "channel": "T.Milly TV",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -79,6 +89,12 @@
   "needs_eyes_on": true,
   "movie_ready": false,
   "tradition_status": "historical",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-26T20:41:26Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "twist",
    "the-jerk",
@@ -263,7 +279,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 4,
   "of": 15,
   "missing": [
    {
@@ -307,10 +323,6 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -321,11 +333,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 13,
+  "gaps": 12,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/monkey.json"
  },
- "fingerprint": "4e4f1b9941a9871f",
- "updated": "2026-11-25"
+ "fingerprint": "b90d9be2e1cbb488",
+ "updated": "2026-11-26"
 }

@@ -1,0 +1,122 @@
+{
+ "youtube_id": "rZUxnVERks8",
+ "slug": "adana",
+ "dance": "Adana",
+ "title": "Los Mo Dance Class (Adana)",
+ "channel": "Chas Konopka",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-26T20:51:40Z",
+ "url": "https://www.youtube.com/watch?v=rZUxnVERks8",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher explains the steps verbally while reading from a paper, then demonstrates the line and circle formations with the group. She breaks down the footwork counts and directions clearly before having the students practice together.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Teacher reads instructions from a paper explaining Adana dance steps"
+   },
+   {
+    "t": "0:30",
+    "segment": "breakdown",
+    "note": "Teacher explains arm placement and right/left footwork"
+   },
+   {
+    "t": "1:13",
+    "segment": "follow_along",
+    "note": "Students line up with hands on shoulders and practice the steps"
+   },
+   {
+    "t": "2:46",
+    "segment": "other",
+    "note": "Teacher directs students to form a circle"
+   },
+   {
+    "t": "3:35",
+    "segment": "music_practice",
+    "note": "Students practice the dance in a circle formation to music"
+   }
+  ],
+  "counting_scheme": "2 fast, 4 slow",
+  "cues": [
+   "left right left left",
+   "step forward your right",
+   "get in a circle"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 4
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Adana basic step",
+    "counts": "2 fast 4 slow",
+    "description": "Step forward right, bring left forward, then step left two hops left"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "breaking down the steps slowly before music"
+   ],
+   "what_hinders": [
+    "reading from a paper instead of demonstrating face-to-face"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:31",
+    "text": "So you're gonna be moving right."
+   },
+   {
+    "t": "1:00",
+    "text": "Alright, so we'll start two fast and four slow."
+   },
+   {
+    "t": "2:47",
+    "text": "Get them in a circle."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 32,
+    "end_s": 42,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates arm positions and foot direction while talking",
+    "viewpoint": "front",
+    "cannot_infer": "exact foot placement details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 113,
+    "end_s": 130,
+    "topic": "movement",
+    "observation": "Students line up holding shoulders and step side-to-side",
+    "viewpoint": "front-side",
+    "cannot_infer": "exact weight transfer",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Reading dance steps directly from a paper list to instruct students"
+ },
+ "attempts": 1
+}

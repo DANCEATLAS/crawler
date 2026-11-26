@@ -1,0 +1,167 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex interlocking hand gestures",
+          "Heavy costumes",
+          "Strict court etiquette requirements"
+        ],
+        "counts": "Simple 1-2-3-4 counts matching the drum beats.",
+        "duration_minutes": "15",
+        "game_version": "A 'follow the leader' game where children mimic the 'bird' movements of the Timang Burung dance."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Deep knee bends",
+          "Rapid pivots",
+          "Long periods of standing without support"
+        ],
+        "counts": "Focus on the primary gong strikes (usually count 4 or 8) rather than interlocking rhythms.",
+        "seated_version": "Perform the upper body and hand gestures while seated in a sturdy chair.",
+        "standing_version": "Perform movements with a focus on slow weight shifts; use a barre or chair for balance during footwork.",
+        "tempo_and_range": "Reduce the speed of the percussion cues; limit the range of arm extensions to shoulder height."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Highly stylised hand gestures; specific mudra-like positions not detailed in sources",
+      "difficulty": "advanced",
+      "footwork": "Controlled and stylised steps; technique not described in detail in sources",
+      "formation_and_space": "Performed in palace halls (Istana); dancers move in coordinated groups",
+      "hips_and_torso": "Graceful, fluid movements with minimal hip oscillation",
+      "levels_and_jumps": "Low to medium levels; no jumps described",
+      "partnering": "None; typically performed as a group of female dancers",
+      "posture": "Upright and dignified courtly posture",
+      "signature_moves": [
+        {
+          "description": "A central dance piece involving movements mimicking or themed around a bird",
+          "name": "Timang Burung"
+        },
+        {
+          "description": "A masked dance piece within the repertoire",
+          "name": "Topeng"
+        }
+      ],
+      "tempo_feel": "Deliberate and refined, matching the percussion tempo",
+      "what_to_avoid": "Avoid excessive or jerky movements; maintain the 'halus' (refined) court aesthetic"
+    },
+    "music_profile": {
+      "instruments": [
+        "keromong (bonang)",
+        "gambang",
+        "demung",
+        "saron",
+        "kenong",
+        "gongs",
+        "drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "refined",
+        "regal",
+        "percussive",
+        "ceremonial"
+      ],
+      "musical_form": "Cyclic percussion pieces supporting specific choreographies",
+      "reference_recordings": [],
+      "rhythm_pattern": "Interlocking percussion with specific gong cycles",
+      "sound_description": "A refined percussion ensemble dominated by the bright, metallic ring of saron and keromong, balanced by the woody resonance of the gambang xylophone. The music is structured around rhythmic cycles marked by deep gongs, creating a sophisticated and courtly atmosphere.",
+      "tempo_bpm": "",
+      "vocal_style": "Instrumental ensemble (vocal components not specified in sources)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Controlled walking with slight knee flexion",
+        "Stylized hand positioning (not described in detail in sources)",
+        "Synchronized head movements following the gong strikes",
+        "Prop manipulation (fans or scarves) for specific repertoire pieces"
+      ],
+      "formation": "Group of female dancers, often in linear or geometric patterns within a palace hall",
+      "level_notes": "Requires high levels of control and grace; historically required years of palace training.",
+      "rhythm": "Interlocking percussion patterns led by the keromong and anchored by the gong"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "91affcec4ba7a7c28705d1ea70ec708f6fac16cfb48941a5b9409ef592144f35",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the specific rhythmic cycle (tempoh) for the 'Ayak-Ayak' composition? Evidence needed: https://en.wikipedia.org/wiki/Malay_gamelan"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific named hand gestures (mudras) used in the 'Timang Burung' choreography? Evidence needed: https://en.wikipedia.org/wiki/Malay_gamelan"
+    ]
+  },
+  "id": "atlas:malay-gamelan",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Malay gamelan",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "de8e88fcea5fc771",
+      "next_evidence": "https://en.wikipedia.org/wiki/Malay_gamelan",
+      "question": "What are the specific named hand gestures (mudras) used in the 'Timang Burung' choreography?",
+      "source": "https://en.wikipedia.org/wiki/Malay_gamelan",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for the movement profile beyond 'stylized gestures'."
+    },
+    {
+      "domain": "research",
+      "id": "ac6f9e7598018aac",
+      "next_evidence": "https://en.wikipedia.org/wiki/Malay_gamelan",
+      "question": "What is the specific rhythmic cycle (tempoh) for the 'Ayak-Ayak' composition?",
+      "source": "https://en.wikipedia.org/wiki/Malay_gamelan",
+      "status": "candidate_unreviewed",
+      "why_needed": "To define the music_profile.meter and rhythm_pattern for a composer or student."
+    }
+  ],
+  "research_file": "research_results/malay-gamelan.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "malay-gamelan",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Malay_gamelan",
+    "https://www.wikidata.org/wiki/Q6741534"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

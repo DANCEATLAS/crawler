@@ -1,13 +1,95 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex tempo ratios",
+          "prolonged static gazing drills"
+        ],
+        "counts": "Simple 4-count walking and bowing sequence.",
+        "duration_minutes": "3",
+        "game_version": "A royal procession game where children practice walking gracefully and freezing in a respectful bow."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "balance strain",
+          "rapid tempo changes",
+          "deep knee flexion",
+          "sudden turns"
+        ],
+        "counts": "Counted to a slow, steady pulse matching the bassadanza measure.",
+        "seated_version": "Perform upper body posture drills and arm gestures while seated upright in a stable chair.",
+        "standing_version": "Execute gentle weight shifts and measured walking steps near a stable support without deep knee bends.",
+        "tempo_and_range": "Reduced tempo with shortened spatial range and minimized rotational turns."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Well-formed gestures (giesti bene formati) accompanying modest and controlled body movement.",
+      "difficulty": "intermediate",
+      "footwork": "Light on the feet (leggiera in sul piede) with smooth and measured walking steps.",
+      "formation_and_space": "Walking in columns or lines (in schiera) within noble chambers or performance spaces.",
+      "hips_and_torso": "Controlled, humble, and meek body movement (umile e mansueto) reflecting personal grace.",
+      "levels_and_jumps": "Grounded footwork with light stepping; origins of the name connect to jumping about (ballizō), but 15th-century court treatises emphasize measured lightness.",
+      "partnering": "Partners interact with graceful turns, leading and following, concluding with a mutual, respectful reverence.",
+      "posture": "Head held upright and straight, aligned with the torso; gaze directed modestly toward the ground rather than wandering; noble and lordly carriage.",
+      "signature_moves": [
+        {
+          "description": "A modest and pious bow performed toward the partner at the conclusion of the dance.",
+          "name": "Onesta e piatosa riverenza"
+        }
+      ],
+      "tempo_feel": "Shifting dynamically between slow, measured pacing and accelerated ratios (one-sixth, two-sixths, and double speed).",
+      "what_to_avoid": "Avoid wandering eyes, tossing the head high, carrying the chin down in the chest, awkwardness (goffaggine), and unseemly vanity."
+    },
+    "music_profile": {
+      "instruments": [
+        "lute",
+        "recorders",
+        "violin"
+      ],
+      "meter": "variable across four misure (bassadanza structured as slow 64 or 32; quadernaria, saltarello, and piva at faster relative fractions)",
+      "mood_keywords": [
+        "courtly",
+        "majestic",
+        "dynamic",
+        "gracious"
+      ],
+      "musical_form": "suite of measures (bassadanza, quadernaria, saltarello, piva) and theatrical vocal-instrumental numbers",
+      "reference_recordings": [
+        {
+          "artist": "Claudio Monteverdi",
+          "title": "Il ballo delle ingrate"
+        },
+        {
+          "artist": "George Frideric Handel",
+          "title": "Il pastor fido (Ballo)"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Characterized by frequent shifts in tempo and meter, moving fluidly from a slow foundational bassadanza pulse to brisk saltarello and piva rhythms, accompanied by plucked strings and melodic wind instruments.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "polyphonic vocal numbers in Baroque adaptations"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Moderate and sweet walking steps (andare con debita misura)",
+        "Light steps on the feet (leggiera in sul piede)",
+        "Final reciprocal reverence (onesta e piatosa riverenza)"
+      ],
+      "formation": "Dancers walk in columns or lines (in schiera) and partner arrangements.",
+      "level_notes": "Requires mastery of posture, modesty of gaze, and precise adherence to shifting tempos.",
+      "rhythm": "Four distinct misure (bassadanza, quadernaria, saltarello, piva) dictating relative speeds from slow to double-time."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ae4053d1fcdaf508cd2f7beb9790efb02d079e1600b78f059c62702e3008f967",
+  "fingerprint": "7118fa35f42ab7eced7dcf59a200123297072da4689d67b702ea60e3ac3808da",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +97,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How can the exact temporal ratios of the four Quattrocento misure (bassadanza, quadernaria, saltarello, piva) be translated into modern musical notation without speculative tempo estimates? Evidence needed: Detailed musical transcriptions from 15th-century treatises like Domenico da Piacenza's De Arte Saltandi."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +115,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What visual evidence exists for the exact execution of the 'onesta e piatosa riverenza' described by Guglielmo Ebreo? Evidence needed: Comparative iconography from 15th-century Italian court manuscripts."
     ]
   },
   "id": "atlas:ballo",
@@ -45,8 +127,27 @@
   ],
   "music_options": [],
   "name": "Ballo",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "cbd6e8b800e6b644",
+      "next_evidence": "Detailed musical transcriptions from 15th-century treatises like Domenico da Piacenza's De Arte Saltandi.",
+      "question": "How can the exact temporal ratios of the four Quattrocento misure (bassadanza, quadernaria, saltarello, piva) be translated into modern musical notation without speculative tempo estimates?",
+      "source": "https://en.wikipedia.org/wiki/Ballo",
+      "status": "candidate_unreviewed",
+      "why_needed": "Enables accurate auditory recreation of the shifting meter characteristic of the ballo."
+    },
+    {
+      "domain": "video",
+      "id": "a07dc91f4c63bc20",
+      "next_evidence": "Comparative iconography from 15th-century Italian court manuscripts.",
+      "question": "What visual evidence exists for the exact execution of the 'onesta e piatosa riverenza' described by Guglielmo Ebreo?",
+      "source": "https://archive.org/details/trattatodellarte00gugluoft",
+      "status": "candidate_unreviewed",
+      "why_needed": "Ensures precise choreographic reconstruction of the final partner bow."
+    }
+  ],
+  "research_file": "research_results/ballo.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +159,10 @@
   "slug": "ballo",
   "sources": [
     "https://en.wikipedia.org/wiki/Ballo",
-    "Source: Ballo on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Ballo"
+    "https://www.wikidata.org/wiki/Q16837390",
+    "https://archive.org/details/trattatodellarte00gugluoft",
+    "https://archive.org/details/ilballarinodimf00vatigoog",
+    "https://archive.org/details/trattatodelballo00dufo"
   ],
   "state": "researching",
   "video_evidence": []

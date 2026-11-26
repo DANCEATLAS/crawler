@@ -1,6 +1,6 @@
 # Cendrawasih — episode pack
 
-*Status: draft · built 2026-11-25 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; the music & instruments section
 
@@ -116,7 +116,7 @@ NARRATION: Step 1: Grasp trailing skirt edges with fingertips to extend wings
 NARRATION: Step 2: Rise onto toes (en pointe) while maintaining low core stability
 NARRATION: Footwork from the sources: Includes standing en pointe and light fluttering running steps across the floor.
 NARRATION: Drill: Practice holding and extending silk fabric wings
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -185,7 +185,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Grasp trailing skirt edges with fingertips to extend wings
 NARRATION: Step 2: Rise onto toes (en pointe) while maintaining low core stability
 NARRATION: Drill: Fluttering light runs while keeping wings steady
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -257,7 +257,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Perform fluttering quick runs to create skirt movement symbolizing flight
 NARRATION: Step 2: Execute responsive flirtatious head turns and glances facing partner
 NARRATION: Drill: Sustained en pointe balances with arm wing shapes
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 100 tutorial(s) of the folk-circle family studied · videos studied: 100
+Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; step to the right; un dos tres; side side side side; rock step rock step; have fun; don't forget to breathe; drop your shoulders
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
 
 Sources (3): https://en.wikipedia.org/wiki/Cendrawasih_dance; https://www.wikidata.org/wiki/Q18559945; https://fr.wikipedia.org/wiki/Cendrawasih

@@ -1,6 +1,6 @@
 # Didong — episode pack
 
-*Status: draft · built 2026-11-25 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-26 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; the origins & history section; signature moves; the costume & setting section; lineage; two or more connections; what to avoid / common mistakes
 
@@ -303,9 +303,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: the teacher does not use a formal counting scheme, instead r
 Demonstration: views used by most teachers: front; tempo progression: full
-Cues: kamu juga ikuti seperti ini; duduknya kaki seperti ini; seperti ini caranya tepukan tangannya; kamu tetap seperti itu tepukannya
+Cues: kamu juga ikuti seperti ini; duduknya kaki seperti ini; seperti ini caranya tepukan tangannya; kamu tetap seperti itu tepukannya; satu; dua; tiga; empat
 
 Sources (2): https://en.wikipedia.org/wiki/Didong; https://www.wikidata.org/wiki/Q761112

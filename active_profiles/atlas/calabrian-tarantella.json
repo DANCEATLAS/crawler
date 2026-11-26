@@ -1,78 +1,98 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex foot crossings like soprappasso",
+          "aggressive challenge gestures"
+        ],
+        "counts": "Simplified steady beat counts.",
+        "duration_minutes": "3",
+        "game_version": "A friendly circle game where children move counter-clockwise in a rota and take turns stepping to the center."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "fast footwork",
+          "rapid turns",
+          "deep knee flexion",
+          "balance risks"
+        ],
+        "counts": "12/8 or 6/8 slow count on the beat.",
+        "seated_version": "Seated tapping of the terzine rhythm with feet and hands, maintaining upper body posture.",
+        "standing_version": "Standing in place with support, performing gentle weight shifts instead of fast foot crossings.",
+        "tempo_and_range": "Reduced tempo, restricted step range avoiding deep knee bends or fast turns."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Men raise and move arms freely, sometimes miming knife fights; women keep arms below shoulder level or on hips with palms outward",
-      "difficulty": "beginner to advanced depending on mastery of steps and symbolic gestures",
-      "footwork": "Triplet-based steps with counterclockwise rotation; includes intricciata (interlaced foot crossing), doppi e ondeggiati (double and undulating steps), and spiral movements",
-      "formation_and_space": "Circular formation called rota, dancers move counterclockwise within it",
-      "hips_and_torso": "Hips emphasized especially by women; torso remains relatively still",
-      "levels_and_jumps": "Not described in sources",
-      "partnering": "Couple dance (man-woman, man-man, woman-woman); partners may hold hands or dance shoulder to shoulder depending on local custom",
-      "posture": "Upright with independent upper and lower body movement; trunk mostly static while legs move energetically",
+      "arms_and_hands": "Men elevate and move arms expansively (miming knife fights in male pairings); women keep arms below shoulder height or resting on hips with palms outward.",
+      "difficulty": "intermediate",
+      "footwork": "Double and swaying steps, soprappasso (intricciata) alternating foot crossings, and tagghjapassu step-cutters.",
+      "formation_and_space": "Couples dance counter-clockwise inside a single circular space called a rota.",
+      "hips_and_torso": "Independent movement from the waist down, while the trunk remains static.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Man-woman courtship, man-man duel, or woman-woman pairing; couples start apart and may approach to interlace hands.",
+      "posture": "Upright posture with the center of gravity positioned at the waist and a static trunk.",
       "signature_moves": [
         {
-          "description": "Interlaced foot crossing steps alternating feet outside the other",
-          "name": "Intricciata"
+          "description": "Steps are interlaced by beating one foot to the outside of the other in an alternating manner.",
+          "name": "Soprappasso (Intricciata)"
         },
         {
-          "description": "Bird-like miming step at the circle's edge to entice partner inward",
-          "name": "Illi Adornu"
-        },
-        {
-          "description": "Step to interrupt partner's spiral movement, often used by women to evade courtship",
+          "description": "A step-cutter used to interrupt the spiral movement path, often deployed by women to escape courtship.",
           "name": "Tagghjapassu"
         },
         {
-          "description": "Mimed knife fight gestures with fingers, symbolizing challenge or courtship",
-          "name": "Schermijata"
+          "description": "A spiral movement mimicking a bird of prey circling a target to draw the partner toward the center of the rota.",
+          "name": "Illi adornu"
         }
       ],
-      "tempo_feel": "Lively and energetic with triplet rhythm",
-      "what_to_avoid": "Avoid dancing outside the rota; respect the social role of the mastru i ballu; do not appropriate mimed gestures without understanding their cultural meaning"
+      "tempo_feel": "Lively and dynamic",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "zampogna (bagpipe)",
-        "organetto (button accordion)",
-        "tamburello (frame drum)",
-        "Calabrian lira",
+        "zampogna",
+        "organetto",
+        "tamburello",
         "pipita",
-        "fischiotta"
+        "fischiotta",
+        "Calabrian lira"
       ],
-      "meter": "12/8 or sometimes 6/8",
+      "meter": "12/8 and 6/8 time",
       "mood_keywords": [
         "lively",
-        "energetic",
-        "spiraling",
-        "festive"
+        "festive",
+        "energetic"
       ],
       "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "Triplet-based rhythms supporting lively, spiraling dance movements",
-      "sound_description": "The music features a lively triplet rhythm in 12/8 or 6/8 time, driven by the zampogna or organetto, punctuated by tamburello beats, with occasional melodic lines from the Calabrian lira or pipita, creating a festive and energetic soundscape that supports dynamic, spiraling dance movements.",
+      "rhythm_pattern": "terzine",
+      "sound_description": "Driven by terzine rhythms in 12/8 or 6/8 time, featuring the reedy drone of the zampogna or organetto underpinned by the sharp acoustic pulse of the tamburello.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Form a circle (rota) with other dancers.",
-        "Wait for the mastru i ballu to select partners.",
-        "Begin with triplet-based steps, moving counterclockwise.",
-        "Men raise and move arms freely; women keep arms low or on hips.",
-        "Gradually move closer to partner, optionally holding hands or dancing shoulder to shoulder.",
-        "Perform intricciata (interlaced steps) by crossing feet alternately.",
-        "Use illi adornu step to mimic bird flight, enticing partner inward.",
-        "Women may use tagghjapassu to interrupt partner's spiral movement."
+        "Forming the circular rota space and walking counter-clockwise",
+        "Executing the basic swaying and double steps on terzine timing",
+        "Performing the soprappasso (intricciata) foot-crossing pattern",
+        "Executing the illi adornu spiral approach toward the center",
+        "Practicing the tagghjapassu step-cutter to interrupt movement paths"
       ],
-      "formation": "Circular formation called rota with dancers moving counterclockwise",
-      "level_notes": "Beginners start with basic triplet steps and simple rotation; intermediate dancers add intricate foot crossing and mimed gestures; advanced dancers master spiral movements and symbolic steps.",
-      "rhythm": "12/8 or 6/8 with triplet-based patterns"
+      "formation": "Couples dancing inside a single moving circular space called a rota",
+      "level_notes": "Intermediate level requiring upper and lower body independence and coordination with master-led turns.",
+      "rhythm": "Lively terzine in 12/8 and 6/8 time"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "fae977c20f41f74c68a1583cf3520d57be05d8e851a7ed346e33888092c597ae",
+  "fingerprint": "44e15b20c937db72db3524d8854c2f6832694af1f670a4604fea92e5d1a725dd",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -80,7 +100,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What exact tempo ranges in beats per minute are used by traditional Calabrian organetto and zampogna players during live performances? Evidence needed: Field recordings and ethnomusicological archives from festivals like Paleariza or Tarantella Power."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -107,7 +129,17 @@
   ],
   "music_options": [],
   "name": "Calabrian tarantella",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "19a642174b1ddfbe",
+      "next_evidence": "Field recordings and ethnomusicological archives from festivals like Paleariza or Tarantella Power.",
+      "question": "What exact tempo ranges in beats per minute are used by traditional Calabrian organetto and zampogna players during live performances?",
+      "source": "https://en.wikipedia.org/wiki/Calabrian_tarantella",
+      "status": "candidate_unreviewed",
+      "why_needed": "To establish precise musical parameters for interactive rhythmic tracking."
+    }
+  ],
   "research_file": "research_results/calabrian-tarantella.json",
   "runtime_active": false,
   "scope": {
@@ -121,8 +153,8 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Calabrian_tarantella",
     "https://www.wikidata.org/wiki/Q576172",
-    "https://es.wikipedia.org/wiki/Tarantella_calabresa",
-    "https://it.wikipedia.org/wiki/Tarantella_calabrese"
+    "https://it.wikipedia.org/wiki/Tarantella_calabrese",
+    "https://es.wikipedia.org/wiki/Tarantella_calabresa"
   ],
   "state": "teaching_withheld",
   "video_evidence": []

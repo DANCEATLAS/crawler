@@ -1,0 +1,120 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "stamping feet with ankle bells (chilanka) attached to leather pads below knees for men or around ankles for women",
+      "formation_and_space": "Proscenium-style temple court performance facing the sanctum sanctorum",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Ensemble performance consisting entirely of men and young boys portraying both male and female roles",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "dramatic narrative rhythm",
+      "what_to_avoid": "Do not treat headgear or costume non-devotionally; sacred rituals and prayer before an oil lamp must precede performance."
+    },
+    "music_profile": {
+      "instruments": [
+        "Madhalam"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "devotional",
+        "sacred",
+        "dramatic",
+        "reverent"
+      ],
+      "musical_form": "Sanskrit text structured into eight dramatic plays (chapters)",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Resonant vocal recitation of Sanskrit slokas accompanied by rhythmic Madhalam drumming, creating a solemn, sacred atmosphere suited for nocturnal temple ritual.",
+      "tempo_bpm": "",
+      "vocal_style": "Chanted Sanskrit slokas and padyageethams"
+    },
+    "teaching": {
+      "basic_steps": [
+        "technique not described in sources"
+      ],
+      "formation": "Nocturnal ritual theater facing the temple lamp and sanctum sanctorum",
+      "level_notes": "Requires intense early training starting as early as age 5 for percussion/chutti makeup and age 10 for performance roles.",
+      "rhythm": "Accompanying Sanskrit slokas and padyageethams backed by Madhalam drumming"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "0e11cc15f747ca00153cc5e7ce6df431b453bfdb4a94cb472f4d8f260e2e446a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific mudras and body postures characterize the Angika abhinaya in Krishnanattam compared to Kathakali? Evidence needed: Video documentation or movement notation of performances at Guruvayur Temple."
+    ]
+  },
+  "id": "atlas:krishnanattam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Krishnanattam",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "445f4b7fde82352a",
+      "next_evidence": "Video documentation or movement notation of performances at Guruvayur Temple.",
+      "question": "What specific mudras and body postures characterize the Angika abhinaya in Krishnanattam compared to Kathakali?",
+      "source": "https://en.wikipedia.org/wiki/Krishnanattam",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement technical details are missing from textual sources, preventing accurate dance reconstruction."
+    }
+  ],
+  "research_file": "research_results/krishnanattam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "krishnanattam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Krishnanattam",
+    "https://www.wikidata.org/wiki/Q6437576",
+    "https://fr.wikipedia.org/wiki/Krishnanattam"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

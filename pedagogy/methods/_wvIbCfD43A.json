@@ -93,7 +93,28 @@
      "feeling": "tired",
      "response": "The teacher encourages the learner to hold their core and keep going despite the fatigue."
     }
-   ]
+   ],
+   "moments": [
+    {
+     "t": "0:04",
+     "moment": "opening",
+     "says": "The teacher introduces an arm control and dance texture warm-up routine.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "0:21",
+     "moment": "before_hard_part",
+     "says": "The teacher tells the learner to keep shoulders down and feel back muscles working for better control.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "4:56",
+     "moment": "closing",
+     "says": "The teacher celebrates the completed workout and invites the learner to subscribe.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable of improving arm control and strength through focused back and core work."
   },
   "learner_voice": {
    "struggles": [
@@ -139,5 +160,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-26T20:47:41Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }
