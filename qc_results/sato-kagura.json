@@ -1,0 +1,119 @@
+{
+ "slug": "sato-kagura",
+ "qc_at": "2026-11-27T20:14:48Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sato kagura"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "66"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "210"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Unlike the refined mikagura of the Japanese imperial court, sato kagura encompas"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "374"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3117"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Japan"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'deities', 'god', 'goddess', 'liturg', 'spirit', 'religious', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 7,
+  "teaching_value": 5,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Accurate and respectful overview of Sato kagura. Due to its broad umbrella nature and sacred context, specific technical training details are omitted as expected. Well handled."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=8.5",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-27T19:46:43Z"
+}

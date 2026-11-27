@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "kummattikali",
  "name": "Kummattikali",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -35,6 +35,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Kummattikali",
   "wikidata_qid": "Q6443971",
   "unesco": false,
+  "hero_video_youtube_id": "7z2dLYXCYgA",
+  "video_stack": [
+   {
+    "youtube_id": "7z2dLYXCYgA",
+    "role": "hero",
+    "title": "Kummattikkali - a folk art form of Kerala",
+    "channel": "Kerala Tourism",
+    "hd": false
+   },
+   {
+    "youtube_id": "mJjJv7x_fho",
+    "role": "rendition",
+    "title": "Kummattikali Dance",
+    "channel": "Kerala Tourism",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -82,6 +99,14 @@
   "sacred_note": "Kummattikali is a devotional ritual art form performed to please gods and goddesses; the original form is preserved at the Bhadrakali temple.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:16:57Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "theyyam",
    "thirra"
@@ -226,30 +251,36 @@
   "movie_ready": false,
   "schema": 5,
   "tradition_status": "living",
+  "footage": [
+   {
+    "title": "File:Kummattikali - കുമ്മാട്ടിക്കളി - Wiki Loves Onam 2024.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Kummattikali_-_%E0%B4%95%E0%B5%81%E0%B4%AE%E0%B5%8D%E0%B4%AE%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%B3%E0%B4%BF_-_Wiki_Loves_Onam_2024.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Sahya Digital Conservation Foundation / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "Kummatikali is an art performance that is widely performed during Onam in Thrissur and nearby places. Kummatikali is performed on different days in the areas around Thrissur city. The Kummatti costume consists of wearing a face mask made of wood and wrapping a particular kind of grass (Parpataka) al",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKummattikali_-_%E0%B4%95%E0%B5%81%E0%B4%AE%E0%B5%8D%E0%B4%AE%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%B3%E0%B4%BF_-_Wiki_Loves_Onam_2024.webm",
+    "source": "commons"
+   }
+  ],
   "researched_at": "2026-11-26T19:25:42Z",
   "qc_score": 9.7
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Kummattikali is a devotional ritual art form performed to please gods and goddesses; the original form is preserved at the Bhadrakali temple.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/kummattikali.json"
  },
- "fingerprint": "6621f37a5077dab1",
- "updated": "2026-11-26"
+ "fingerprint": "130347b48778ba9e",
+ "updated": "2026-11-27"
 }

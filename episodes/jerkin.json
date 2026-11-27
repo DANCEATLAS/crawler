@@ -1,0 +1,838 @@
+{
+ "slug": "jerkin",
+ "name": "Jerkin'",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:05Z",
+ "researched_at": "2026-11-27T20:08:22Z",
+ "qc_score": 9.7,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A street dance historian or experienced Jerk dancer.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Jerkin'",
+   "jerk"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Jerkin'",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Anti-Dance: How Jerkin' Changed Street Culture",
+     "This is Jerkin'. 2008-present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (-bhPauFonp0)",
+     "Title card: Jerkin' · United States · 2008-present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Jerkin' originated in Los Angeles in 2008, initially as a dance performed by gang members at parties.",
+     "It gained widespread popularity in 2009 through the music of the New Boyz and Audio Push, eventually spreading across the US and internationally."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally an 'anti-dance' within gang culture, it transitioned into a competitive performance style showcased at events and on YouTube.",
+     "It is a social dance often performed in crews.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is defined by detailed footwork.",
+     "Key moves include the 'jerk' (moving legs in and out), the 'reject' (backward leg rotation), the 'dip' (steps followed by a block), and the 'pindrop' (rapid leg rotation below the knee).",
+     "Watch for Jerk, Reject, Dip."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (-bhPauFonp0)",
+     "Captions name each signature move as it appears",
+     "Formation: Performed in crews or solo in street settings."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music, known as 'jerk rap', is characterized by upbeat, dance-oriented hip-hop.",
+     "In the 2020s, the sound evolved to include faster tempos, melodic synth layers, and abstract, off-kilter lyrics.",
+     "Listen for the Synthesizers, Drum machines.",
+     "Upbeat hip-hop tracks with dance-oriented rhythms; 2020s revival tracks feature faster tempos and melodic synth layers."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: You're a Jerk — New Boyz; Teach Me How to Jerk — Audio Push; You're a Jerk — New Boyz (2009)",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Practitioners wear skinny jeans, bright-colored clothing, graphic tees, and retro high-top sneakers.",
+     "This style is a rejection of traditional baggy hip-hop clothing."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "New Boyz, Audio Push, The Ranger$, Rej3ctz, Xaviersobased, and the 1c34 collective.",
+     "The dance spread from the US West Coast to the East Coast, France, Germany, and Latin American countries like the Dominican Republic and Panama.",
+     "A subgenre of hip-hop and street dance, with later influences from cloud rap, plugg music, and digicore."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Jerkin' is influence of Melbourne Shuffle: Influenced the development of complex footwork in later Jerkin' styles."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Jerk: In-and-out leg movement",
+     "Reject: Backward leg rotation",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the high-energy world of Los Angeles' Jerkin' movement, from its underground roots to its global influence.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic 'Jerk' leg movement",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic 'Jerk' leg movement.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A street dance historian or experienced Jerk dancer."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Jerk: In-and-out leg movement",
+      "Step 2: Reject: Backward leg rotation",
+      "Footwork from the sources: In-and-out leg movements, backward rotations, and rapid rotations below the knee.",
+      "Drill: In-and-out leg rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Dip: Small steps with a sudden stop",
+      "Step 4: Pindrop: Rapid rotation of the leg below the knee",
+      "Drill: Basic weight transfer"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic 'Jerk' leg movement.",
+      "Originally an 'anti-dance' within gang culture, it transitioned into a competitive performance style showcased at events and on YouTube.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Jerkin'",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Jerkin'.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A street dance historian or experienced Jerk dancer."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Jerk: In-and-out leg movement",
+      "Step 2: Reject: Backward leg rotation"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Dip: Small steps with a sudden stop",
+      "Step 4: Pindrop: Rapid rotation of the leg below the knee",
+      "Jerk: Moving the legs in and out.",
+      "Reject: Rotating the legs backward without turning."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Performed in crews or solo in street settings."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Jerkin'.",
+      "New Boyz, Audio Push, The Ranger$, Rej3ctz, Xaviersobased, and the 1c34 collective.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Jerkin'",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Jerkin'.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A street dance historian or experienced Jerk dancer."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Dip: Small steps with a sudden stop",
+      "Step 2: Pindrop: Rapid rotation of the leg below the knee"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Dip: Small steps followed by a sudden stop.",
+      "Pindrop: Rapid rotation of the leg below the knee."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Performed in crews or solo in street settings."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Jerkin'.",
+      "A subgenre of hip-hop and street dance, with later influences from cloud rap, plugg music, and digicore.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Synthesizers",
+   "Drum machines"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "Upbeat",
+   "High-energy",
+   "Playful"
+  ],
+  "sound_description": "Upbeat hip-hop tracks with dance-oriented rhythms; 2020s revival tracks feature faster tempos and melodic synth layers.",
+  "listen_before_composing": [
+   "You're a Jerk — New Boyz",
+   "Teach Me How to Jerk — Audio Push",
+   "You're a Jerk — New Boyz (2009)",
+   "Teach Me How to Jerk — Audio Push (2009)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Jerkin' (United States). Instruments: Synthesizers, Drum machines. Mood: Upbeat, High-energy, Playful. It should sound like this: Upbeat hip-hop tracks with dance-oriented rhythms; 2020s revival tracks feature faster tempos and melodic synth layers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "-bhPauFonp0",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Practitioners wear skinny jeans, bright-colored clothing, graphic tees, and retro high-top sneakers. This style is a rejection of traditional baggy hip-hop clothing.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AXaviersobased_%282-2-23%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Xaviersobased_%282-2-23%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Xaviersobased_%282-2-23%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Ninecalling / Wikimedia Commons / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AXaviersobased_%282-2-23%29.jpg",
+    "description": "Xaviersobased preforming at Baby's All Right in Brooklyn, NY on February 2nd, 2023."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Skinny jeans",
+   "High-top sneakers",
+   "Bright colors",
+   "Urban street backdrops"
+  ],
+  "costume_notes": "Practitioners wear skinny jeans, bright-colored clothing, graphic tees, and retro high-top sneakers. This style is a rejection of traditional baggy hip-hop clothing.",
+  "setting_notes": "Originally an 'anti-dance' within gang culture, it transitioned into a competitive performance style showcased at events and on YouTube. It is a social dance often performed in crews.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "twist it inwards",
+   "heel toe step",
+   "remember to twist your foot"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "breakdown",
+   "layering"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Advanced Reject",
+    "counts": "",
+    "description": "A normal reject where you twist your foot inwards on your toes."
+   },
+   {
+    "name": "Melbourne Shuffle",
+    "counts": "",
+    "description": "Pick your non-dominant foot, make a twist on your heel, then toe, heel, toe."
+   },
+   {
+    "name": "Heel-Toe",
+    "counts": "",
+    "description": "Carve the heel by twisting in and out with one foot while swinging the other foot up and down."
+   },
+   {
+    "name": "Heel-Toe Step",
+    "counts": "",
+    "description": "Carve with your heel again, then carve with your toe right after, followed by a step."
+   },
+   {
+    "name": "Criss-Cross",
+    "counts": "",
+    "description": "Keep feet separated, put them together, then separate them and cross the opposite way."
+   },
+   {
+    "name": "Steez Step",
+    "counts": "",
+    "description": "Turn to one side, then jump to the other side."
+   }
+  ]
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jerkin%27",
+  "https://www.wikidata.org/wiki/Q1687669",
+  "https://fr.wikipedia.org/wiki/Jerk_urbain",
+  "https://es.wikipedia.org/wiki/Jerk_(baile)",
+  "https://de.wikipedia.org/wiki/Jerk_(Raptanz)",
+  "https://it.wikipedia.org/wiki/Jerkin'"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "4cdbdcdd9815a8f4e41014fba8866a654f83579885481a06111eb5b9a75211b8",
+ "hero_checked": "pass"
+}

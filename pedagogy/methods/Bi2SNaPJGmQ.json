@@ -70,9 +70,16 @@
   "mentor": {
    "voice": [
     "precise",
-    "patient"
+    "patient",
+    "warm",
+    "playful"
    ],
    "beliefs": [
+    {
+     "t": "0:13",
+     "belief": "People learn best when complex steps are broken down step by step into simple elements.",
+     "about": "how_people_learn"
+    },
     {
      "t": "1:22",
      "belief": "The teacher expresses confidence that anyone can learn to walk, and therefore, anyone can learn to dance.",
@@ -81,11 +88,44 @@
    ],
    "feelings": [
     {
-     "t": "0:09",
+     "t": "0:08",
      "feeling": "awkward",
-     "response": "The teacher validates the feeling of being insecure on the dance floor and offers this lesson as the solution."
+     "response": "The teacher assures the learners they are in the right place if they feel insecure on the dance floor."
     }
-   ]
+   ],
+   "moments": [
+    {
+     "t": "0:05",
+     "moment": "opening",
+     "says": "The teacher welcomes learners who feel insecure on the dance floor and promises step-by-step guidance.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:39",
+     "moment": "after_success",
+     "says": "The teacher shows what the learners will master in a few minutes.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "2:48",
+     "moment": "after_success",
+     "says": "The teacher praises the learners for completing the second basic movement.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "4:27",
+     "moment": "after_success",
+     "says": "The teacher congratulates the learners on successfully dancing the discofox basic step.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "7:13",
+     "moment": "closing",
+     "says": "The teacher congratulates the learners, invites them to watch the next video, and encourages visiting their website for more practice.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable, confident, and ready to dance the discofox basic step."
   },
   "learner_voice": {
    "struggles": [
@@ -131,5 +171,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-27T20:27:05Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 1,
+  "feelings": 1
+ }
 }

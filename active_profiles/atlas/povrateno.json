@@ -1,0 +1,154 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Pulling too hard on neighboring belts"
+        ],
+        "counts": "1, 2 duple counts.",
+        "duration_minutes": "3",
+        "game_version": "Children form a half-circle holding belts and practice staying connected while marching to 2/4 music."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid directional changes",
+          "Uneven whole-foot placement"
+        ],
+        "counts": "1, 2 duple stepping counts.",
+        "seated_version": "Seated in a semi-circle, participants hold hands or lap-belts left-over-right while tapping feet on 2/4 counts.",
+        "standing_version": "Perform the half-circle step with reduced travel, maintaining stable belt hold or light hand contact.",
+        "tempo_and_range": "Slower tempo than medium-fast, smaller step range."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Establish the crossed belt hold in half-circle formation.",
+          "source": "https://en.wikipedia.org/wiki/Povrateno"
+        },
+        {
+          "description": "Execute medium-fast 2/4 steps using whole feet.",
+          "source": "https://en.wikipedia.org/wiki/Povrateno"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Women's line dance in a half-circle formation linked by belts.",
+          "source": "https://en.wikipedia.org/wiki/Povrateno"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Left hand over right hand holding neighbors' belts.",
+      "difficulty": "intermediate",
+      "footwork": "Whole feet stepping at medium-fast tempo.",
+      "formation_and_space": "Half circle line.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Flat grounded stepping on whole feet without jumps described.",
+      "partnering": "Belt hold in line formation (left hand over right hand).",
+      "posture": "Upright line stance, holding neighboring belts.",
+      "signature_moves": [
+        {
+          "description": "Dancers link by placing their left hand over the right hand while grasping adjacent dancers' belts.",
+          "name": "Belt hold (Повратено зафат)"
+        }
+      ],
+      "tempo_feel": "Medium-fast 2/4.",
+      "what_to_avoid": "Avoid dancing on toes; maintain full contact with whole feet as described."
+    },
+    "music_profile": {
+      "instruments": [
+        "Traditional Macedonian instruments"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "lively",
+        "rhythmic",
+        "traditional"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Duple meter (2/4)",
+      "sound_description": "Traditional Macedonian folk music in a steady 2/4 duple meter accompanying medium-fast line dance stepping.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a half circle with other women dancers.",
+        "Grasp the belts of adjacent dancers with the left hand crossed over the right hand.",
+        "Step on whole feet at a medium-fast tempo in 2/4 meter."
+      ],
+      "formation": "Half circle",
+      "level_notes": "Medium-fast tempo executed on whole feet while maintaining an interlocking belt hold.",
+      "rhythm": "2/4 meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "fc813fbfd9376e3e63f3d3397b1c540543f101d6ad13f321791f998a2308c65e",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the exact sequence of footwork steps performed during the 2/4 meter of Povrateno? Evidence needed: Video documentation or ethnochoreological notation of Povrateno performance from the Skopje region."
+    ]
+  },
+  "id": "atlas:povrateno",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Povrateno",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "0a289b73ba1b88f8",
+      "next_evidence": "Video documentation or ethnochoreological notation of Povrateno performance from the Skopje region.",
+      "question": "What is the exact sequence of footwork steps performed during the 2/4 meter of Povrateno?",
+      "source": "https://en.wikipedia.org/wiki/Povrateno",
+      "status": "candidate_unreviewed",
+      "why_needed": "The available text describes medium-fast steps on whole feet but does not detail the exact directional steps or counts required for interactive teaching."
+    }
+  ],
+  "research_file": "research_results/povrateno.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "povrateno",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Povrateno",
+    "https://www.wikidata.org/wiki/Q7235914"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -2,7 +2,7 @@
  "slug": "marfa",
  "name": "Marfa",
  "pack_version": "e2",
- "built_at": "2026-11-26T21:10:14Z",
+ "built_at": "2026-11-27T21:09:06Z",
  "researched_at": "2026-11-25T19:59:24Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -270,7 +270,7 @@
       "Drill: Clapping the teen maar rhythm"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -415,7 +415,7 @@
       "Step 2: Engage in a rhythmic 'jiggling' motion of the torso and knees in time with the kettledrum"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -560,7 +560,7 @@
       "Step 2: Swing the cane or sword in synchronized patterns following the high-tempo percussion"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -756,16 +756,20 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4-5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
    "views used by most teachers: front",
    "tempo progression: slow → full",
-   "repetitions per step: about 2"
+   "repetitions per step: about 8"
   ],
   "cues": [
+   "5-6-7-go",
+   "1-2-3-4",
+   "right leg",
+   "left leg",
    "1 2 3 start",
    "simple"
   ],
@@ -776,6 +780,26 @@
    "breakdown"
   ],
   "steps_as_taught": [
+   {
+    "name": "Step 1",
+    "counts": "1-8",
+    "description": "Stepping side to side with alternating arm waves overhead."
+   },
+   {
+    "name": "Step 2",
+    "counts": "1-8",
+    "description": "Turning to the side with bent knees and shoulder rolls."
+   },
+   {
+    "name": "Step 3",
+    "counts": "1-8",
+    "description": "Toe balance with shoulder shimmies and body bounce."
+   },
+   {
+    "name": "Step 4",
+    "counts": "1-8",
+    "description": "High-energy Marfa entry step with strong posture and foot taps."
+   },
    {
     "name": "Step 6",
     "counts": "1-8",
@@ -811,6 +835,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "71086e9fbf524e1fc360c5f952c73c8685900fcb54815708595f277bee454ee2",
+ "input_fingerprint": "20e554db6d5c1520a343d8c6cb76b0c54c41113f22d6695f91c87b63f1a77c6c",
  "hero_checked": "pass"
 }

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "cachua",
  "name": "Cachua",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "PE"
@@ -11,11 +11,22 @@
   "slug": "cachua",
   "name": "Cachua",
   "country": "Peru",
+  "country_code": "PE",
+  "flag_emoji": "🇵🇪",
   "region": "South America",
+  "family": "ritual-sacred",
   "era": "1788",
-  "tagline": "Peru, 1788 — The cachua (qachwa, qhaswa, kashua, kaswa, kachura) (ˈqɑt͡ʃwa or ˈχɑt͡ʃwa, diminutive form cachuita) is a L…",
-  "profile": "The cachua (qachwa, qhaswa, kashua, kaswa, kachura) (ˈqɑt͡ʃwa or ˈχɑt͡ʃwa, diminutive form cachuita) is a Latin-American baroque dance form found mainly in Peru. It still exists today as a circle dance. The term comes from the Quechua language qhachwa, meaning \"round dance\", via Spanish. It was also applied to some villancicos to Spanish texts with cachua rhythm, such as two examples in a report submitted to Charles IV of Spain c.1788-1790. It is in rapid unsyncopated 2/4 time.",
-  "insight": "The cachua (qachwa, qhaswa, kashua, kaswa, kachura) (ˈqɑt͡ʃwa or ˈχɑt͡ʃwa, diminutive form cachuita) is a Latin-American baroque dance form found mainly in Peru.",
+  "tagline": "A pre-Inca Andean circle dance of Peru and Bolivia with fast flutes.",
+  "profile": "The cachua is an indigenous Andean circle dance found in Peru, Bolivia, and Ecuador, with roots stretching back to the Inca period and earlier. Historically documented by Diego González Holguín in 1608, it is traditionally performed in rapid 2/4 time accompanied by flutes and drums. Today, it survives in regional celebrations such as the Carnaval Chico in Amantaní, Puno.",
+  "insight": "In 1608, colonial lexicographer Diego González Holguín recorded the cachua as an ancient hand-holding Andean circle dance.",
+  "aliases": [
+   "qachwa",
+   "qhaswa",
+   "kashua",
+   "kaswa",
+   "kachura",
+   "cachuita"
+  ],
   "related": [
    "marinera",
    "kantu",
@@ -25,14 +36,41 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Cachua",
-   "Source: Cachua on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Cachua"
+   "Source: Cachua on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Cachua",
+   "https://www.wikidata.org/wiki/Q5016027",
+   "https://es.wikipedia.org/wiki/Cachua",
+   "https://de.wikipedia.org/wiki/Cachua"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Cachua",
   "wikidata_qid": "Q5016027",
   "unesco": false,
   "hero_video_youtube_id": "D-z-5_R9xS4",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 10.0,
+  "last_researched_at": "2026-11-27T20:09:37Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The cachua, known variously as qachwa, qhaswa, kashua, kaswa, or kachura, is a traditional indigenous dance distributed across the central and southern Andes of Peru and Bolivia, with historical roots extending into Ecuador. As a pre-columbian indigenous tradition, its origins predate the Spanish conquest of Peru and were already practiced during the Inca period. In 1608, Diego González Holguín explicitly documented it in his lexicon as a dance where participants hold hands. During the late colonial period, the rhythm also crossed into baroque liturgical music, appearing in villancicos submitted in a report to Charles IV of Spain between 1788 and 1790. Musically, the cachua is characterized by rapid, unsyncopated two-four time where a quarter note alternates with two eighth notes across bars, accompanied by traditional pentatonic melodies. Traditional instrumentation relies heavily on indigenous flutes such as the quena and pan flutes, alongside drums, while string instruments like the charango or guitar may also be incorporated alongside paired vocal verses. Choreographically, it is executed as a circle dance involving pairs, distinguished by specific movements where men strike with their shoes and women spin around their own axis. Regional execution varies widely across the Andes. In contemporary practice, it manifests in specific localized forms such as the Qachwa de San Sebastián, a group Andean dance performed during the Carnaval Chico festival in the district of Amantaní, Puno. Whether found in historical baroque adaptations or modern Andean community celebrations, the cachua remains a vibrant connection to indigenous pre-Inca cultural expression.",
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Qachua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Qachua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1200,
+    "height": 857,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Odelon / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQachua.jpg",
+    "description": "Danza tipica de Sarhua"
+   }
+  ],
+  "publish_gate": "publish",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "not described in sources",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -48,6 +86,212 @@
    "apu-inka",
    "awki-awki"
   ]
+ },
+ "profile": {
+  "sections": {
+   "origins_and_history": "The cachua dates back to the pre-Inca era and was practiced during the Inca period as a form of courtship. In 1608, Diego González Holguín noted it in his vocabulary of the general language of Peru as a hand-holding dance. Later, the style influenced colonial baroque music, appearing in Spanish-text villancicos with cachua rhythm sent to Charles IV of Spain around 1788 to 1790.",
+   "how_it_is_danced": "The cachua is performed as a circle dance involving pairs. Men strike the ground or rhythm with their shoes while women spin around their own axis. In Amantaní, Puno, it is executed as a group Andean dance during local festivities.",
+   "music_and_instruments": "It is played in a rapid, unsyncopated two-four time signature, featuring a pattern where a quarter note alternates with two eighth notes across bars. Melodies are traditionally pentatonic. Instrumentation includes native flutes like the quena and pan flutes, drums, and string instruments such as the charango or guitar, accompanied by singing with repeated verse pairs.",
+   "costume_and_setting": "not described in sources",
+   "occasions_and_meaning": "Occasions range from betrothals and Christmas celebrations to regional festivals like the Carnaval Chico de San Sebastián in Amantaní, Puno. Historically and in contemporary contexts, it serves as a community celebration and courting ritual.",
+   "notable_figures": "Diego González Holguín, who documented the dance in 1608.",
+   "regional_variants": "Found across the central and southern Andes of Peru, Bolivia, and Ecuador with differing local choreographies and instrumentations. Specific variants include the Qachwa de San Sebastián in Amantaní, Puno.",
+   "lineage": "Directly descended from pre-Inca indigenous traditions, maintained through the Inca period, adapted into colonial baroque villancicos, and preserved today as a living Andean folk and circle dance."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Join hands in a circle formation",
+    "Step in rapid 2/4 time alternating quarter and eighth notes",
+    "Men strike with shoes while women spin on their axis"
+   ],
+   "rhythm": "Rapid unsyncopated 2/4 time",
+   "formation": "Circle dance with pairs",
+   "level_notes": "Beginner level circle formation based on historical and regional descriptions."
+  },
+  "claims": [
+   {
+    "text": "The cachua is a Latin-American baroque dance form found mainly in Peru.",
+    "source": "https://en.wikipedia.org/wiki/Cachua"
+   },
+   {
+    "text": "The dance still exists today as a circle dance.",
+    "source": "https://en.wikipedia.org/wiki/Cachua"
+   },
+   {
+    "text": "Chronicles describe the dance as a courtship practice during the Inca period.",
+    "source": "https://es.wikipedia.org/wiki/Cachua"
+   },
+   {
+    "text": "It is an Andean group dance executed during the Carnaval Chico de San Sebastián festival.",
+    "source": "https://es.wikipedia.org/wiki/Cachua"
+   },
+   {
+    "text": "The cachua is a circle dance with pairs where men strike with their shoes.",
+    "source": "https://de.wikipedia.org/wiki/Cachua"
+   },
+   {
+    "text": "Diego González Holguín documented it in 1608 as a dance where one holds hands.",
+    "source": "https://de.wikipedia.org/wiki/Cachua"
+   },
+   {
+    "text": "Traditional instruments include flutes, drums, and string instruments like charango or guitar.",
+    "source": "https://de.wikipedia.org/wiki/Cachua"
+   }
+  ],
+  "citation": {
+   "claims": 7,
+   "supported": 7,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:Qachua.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Qachua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Qachua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1200,
+    "height": 857,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Odelon",
+    "description": "Danza tipica de Sarhua",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQachua.jpg",
+    "attribution": "Odelon / Wikimedia Commons / CC BY-SA 3.0"
+   }
+  ],
+  "gaps": [
+   "Exact BPM and precise tempo numbers are not specified in the sources.",
+   "Detailed costume descriptions and upper body posture are absent from the sources."
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "not described in sources",
+   "meter": "2/4",
+   "rhythm_pattern": "quarter note alternates with two eighth notes across bars",
+   "instruments": [
+    "quena",
+    "pan flute",
+    "drums",
+    "charango",
+    "guitar"
+   ],
+   "vocal_style": "singing with repeated verse pairs",
+   "musical_form": "pentatonic melodies",
+   "mood_keywords": [
+    "festive",
+    "rapid",
+    "lively"
+   ],
+   "reference_recordings": [],
+   "sound_description": "Played in rapid unsyncopated two-four time with pentatonic melodies, featuring flutes like the quena and pan flute alongside drums, and sometimes charango or guitar."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "men strike with the shoes",
+   "arms_and_hands": "hold hands",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "circle dance with pairs",
+   "partnering": "pairs where the women spin on their own axis",
+   "tempo_feel": "rapid",
+   "signature_moves": [
+    {
+     "name": "shoe striking",
+     "description": "men strike with their shoes"
+    },
+    {
+     "name": "axis spin",
+     "description": "women spin around their own axis"
+    }
+   ],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "beginner",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Ancient Circle",
+   "logline": "Discover the pre-Inca cachua, a rapid Andean circle dance preserved across centuries.",
+   "beats": [
+    "Entering the circle in Peru",
+    "Listening to the quena flutes",
+    "Men striking with their shoes",
+    "Women spinning on their axis",
+    "Celebrating Carnaval Chico in Amantaní"
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Form a circle and grasp hands",
+     "drills": [
+      "Join hands in a circle",
+      "Walk in 2/4 time",
+      "Practice basic step alternation"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "Andean mountains",
+    "Traditional circle of dancers",
+    "Quena flutes and drums"
+   ],
+   "instructor_persona": "Andean folk dance researcher",
+   "music_cue": "Rapid pentatonic flute melody in 2/4 time"
+  },
+  "connections": [
+   {
+    "name": "Huaino",
+    "relation": "variant",
+    "note": "Played similarly in two-four time with comparable Andean roots"
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Seated hand-holding circle simulation with upper body sway",
+    "standing_version": "Supported standing circle walk without shoe strikes or fast spins",
+    "tempo_and_range": "Reduced tempo, restricted range of motion omitting rapid foot strikes and axis turns",
+    "counts": "Steady 2/4 counts at a moderate pace",
+    "avoid": [
+     "shoe strikes",
+     "fast spins",
+     "rapid turns"
+    ]
+   },
+   "children": {
+    "game_version": "Simplified hand-holding circle game focusing on walking to a 2/4 beat",
+    "duration_minutes": "3",
+    "counts": "Basic 1-2 counts matching the quarter-eighth note rhythm",
+    "avoid": [
+     "rapid spinning",
+     "forceful shoe strikes"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-27T20:09:37Z",
+  "qc_score": 10.0
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 13,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   }
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "study_video": "performance"
+  },
+  "ritual_context": true
  },
  "performances": [
   {
@@ -95,6 +339,15 @@
    }
   }
  ],
- "fingerprint": "13f78ad6c3c6bed3",
- "updated": "2026-11-25"
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 8,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/cachua.json"
+ },
+ "fingerprint": "7d4fe8468dc3c610",
+ "updated": "2026-11-27"
 }

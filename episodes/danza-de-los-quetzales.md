@@ -1,6 +1,6 @@
 # Danza de los Voladores — episode pack
 
-*Status: withheld-chapters · built 2026-11-26 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-27 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; two or more connections
 
@@ -111,9 +111,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
+Source: 20 tutorial(s) of the ritual-sacred family studied · videos studied: 20
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; 1-2-3; 1 and 2; criss-cross now; forward and back; plant the left foot
 
 Sources (5): https://en.wikipedia.org/wiki/Danza_de_los_Voladores; https://www.wikidata.org/wiki/Q1165268; https://es.wikipedia.org/wiki/Rito_de_los_voladores; https://fr.wikipedia.org/wiki/Danse_du_volador; https://de.wikipedia.org/wiki/Danza_del_Volador

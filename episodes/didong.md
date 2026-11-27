@@ -1,6 +1,6 @@
 # Didong — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; the origins & history section; signature moves; the costume & setting section; lineage; two or more connections; what to avoid / common mistakes
 

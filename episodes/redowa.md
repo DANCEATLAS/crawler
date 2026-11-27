@@ -1,6 +1,6 @@
 # redowa — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
@@ -76,7 +76,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Small leap step on count 1
 NARRATION: Long gliding step on count 2
-NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count it: 1-2-1-2-3-1.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -103,7 +103,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-1-2-3-1. The meter is 3/4.
 NARRATION: Rhythm pattern: Six-beat rotation pattern.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -116,10 +116,10 @@ NARRATION: Step 1: Small leap step on count 1
 NARRATION: Step 2: Long gliding step on count 2
 NARRATION: Footwork from the sources: Six-count pattern consisting of long glides and small leaps.
 NARRATION: Drill: Count 1-6 in 3/4 time
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-1-2-3-1 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Small leap step on count 3
@@ -127,7 +127,7 @@ NARRATION: Step 4: Small leap step on count 4
 NARRATION: Drill: Practice small leaps in place
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-1-2-3-1 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -146,7 +146,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 6-count rhythm with feet and arms while seated. · For children: A follow-the-leader game using the 6-count rhythm. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-1-2-3-1.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -175,7 +175,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-1-2-3-1. The meter is 3/4.
 NARRATION: Rhythm pattern: Six-beat rotation pattern.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -186,17 +186,17 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Long reaching step on count 5
 NARRATION: Step 2: Small leap step on count 6
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-1-2-3-1 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Pursuit: Partners hold hands and move forward and back with balance steps.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-1-2-3-1 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -214,7 +214,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 6-count rhythm with feet and arms while seated. · For children: A follow-the-leader game using the 6-count rhythm. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-1-2-3-1.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couple dance moving in a line of direction.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -243,7 +243,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-1-2-3-1. The meter is 3/4.
 NARRATION: Rhythm pattern: Six-beat rotation pattern.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -254,17 +254,17 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Long reaching step on count 5
 NARRATION: Step 2: Small leap step on count 6
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-1-2-3-1 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Pursuit: Partners hold hands and move forward and back with balance steps.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-1-2-3-1 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -282,7 +282,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 6-count rhythm with feet and arms while seated. · For children: A follow-the-leader game using the 6-count rhythm. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-1-2-3-1.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couple dance moving in a line of direction.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 1-2-1-2-3-1
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: un dos un tres un; msica
 
 Sources (8): https://en.wikipedia.org/wiki/Redowa; https://www.wikidata.org/wiki/Q3422966; https://es.wikipedia.org/wiki/Redova; https://fr.wikipedia.org/wiki/Redowa; https://it.wikipedia.org/wiki/Redova; https://archive.org/details/danceman098; https://archive.org/details/danceman084; https://archive.org/details/danceman020

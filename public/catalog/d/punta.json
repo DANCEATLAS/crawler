@@ -125,6 +125,138 @@
    "john-wall-dance"
   ]
  },
- "fingerprint": "c9377b8ba86c395a",
- "updated": "2026-11-21"
+ "lessons": [
+  {
+   "youtube_id": "hET9oNMt0CM",
+   "url": "https://www.youtube.com/watch?v=hET9oNMt0CM",
+   "title": "Just Being Garifuna -Punta Tutorial",
+   "channel": "Just Being Garifuna",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4 / beat-step",
+   "parts": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "segment": "intro",
+     "note": "The teacher introduces the dance and its cultural origin."
+    },
+    {
+     "t": "0:18",
+     "seconds": 18,
+     "segment": "context",
+     "note": "The teacher explains the importance of flat-footed technique."
+    },
+    {
+     "t": "0:28",
+     "seconds": 28,
+     "segment": "breakdown",
+     "note": "The teacher breaks down the forward and backward movement."
+    },
+    {
+     "t": "2:00",
+     "seconds": 120,
+     "segment": "breakdown",
+     "note": "The teacher explains the hip movement and the importance of the lead foot."
+    },
+    {
+     "t": "3:50",
+     "seconds": 230,
+     "segment": "layering",
+     "note": "The teacher adds arm movements to the basic step."
+    },
+    {
+     "t": "5:15",
+     "seconds": 315,
+     "segment": "context",
+     "note": "The teacher explains why some dancers use their tiptoes."
+    },
+    {
+     "t": "6:09",
+     "seconds": 369,
+     "segment": "full_demo",
+     "note": "The teacher performs the dance in traditional attire."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Basic Punta Step",
+     "counts": "1-2-3-4",
+     "description": "A flat-footed step with hip movement."
+    }
+   ],
+   "cues": [
+    "flat-footed",
+    "beat-step",
+    "even it out",
+    "move forward",
+    "move back"
+   ],
+   "images": [
+    "like ballet has first, second, third position"
+   ],
+   "common_mistakes": [
+    "dancing on tiptoes instead of flat-footed"
+   ],
+   "teacher_style": "The teacher provides clear, step-by-step instructions while explaining the cultural context of the dance. She uses simple, repetitive verbal cues and demonstrates movements from multiple angles to ensure clarity.",
+   "distinctive_method": "The teacher uses the analogy of ballet positions to explain how to incorporate arm movements into the dance.",
+   "what_works": [
+    "clear verbal explanations",
+    "demonstrations from front and back"
+   ],
+   "what_hinders": [
+    "lack of slow-motion replays"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher stands on a wooden bridge and speaks directly to the camera.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 28,
+     "end_s": 40,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the forward and backward movement of the feet.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 200,
+     "end_s": 210,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the hip movement from side to side.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 330,
+     "end_s": 340,
+     "topic": "movement",
+     "observation": "The teacher demonstrates the basic step from the back.",
+     "viewpoint": "back",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 395,
+     "end_s": 405,
+     "topic": "movement",
+     "observation": "The teacher demonstrates arm movements while performing the basic step.",
+     "viewpoint": "front",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "fingerprint": "951fe5ccf5166cfe",
+ "updated": "2026-11-27"
 }

@@ -1,6 +1,6 @@
 # Barn dance — episode pack
 
-*Status: draft · built 2026-11-26 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; posture, arms and hands; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -305,9 +305,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 5-6-7-8
-Demonstration: views used by most teachers: front; tempo progression: full
-Cues: right together right touch; left together left touch; spin out; roll her back
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full
+Cues: right together right touch; left together left touch; spin out; roll her back; 1-2-3 and kick; side-close-side-tap; turn your partner under and then you turn them back
 
 Sources (4): https://en.wikipedia.org/wiki/Barn_dance; https://www.wikidata.org/wiki/Q808399; https://archive.org/details/motorking00frana; https://archive.org/details/papapleasebuyme00mill

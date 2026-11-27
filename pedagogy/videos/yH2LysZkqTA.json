@@ -1,0 +1,130 @@
+{
+ "youtube_id": "yH2LysZkqTA",
+ "slug": "podaraki",
+ "dance": "Podaraki",
+ "title": "Podaraki, Grecia, tutorial di Juancarlos Battilani",
+ "channel": "Juan Carlos Battilani",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-27T20:33:17Z",
+ "url": "https://www.youtube.com/watch?v=yH2LysZkqTA",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "Juancarlos Battilani teaches in a structured and calm manner, directly addressing the camera while demonstrating steps from an elevated angle. He breaks down the dance into clear lateral and central variations, combining verbal explanation with physical demonstration.",
+  "language": "Italian",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction by the teacher in a red shirt and red beret"
+   },
+   {
+    "t": "0:31",
+    "segment": "context",
+    "note": "Introduction of the dance Podaraki from Greece"
+   },
+   {
+    "t": "1:12",
+    "segment": "breakdown",
+    "note": "Demonstration and counting of the lateral part"
+   },
+   {
+    "t": "1:48",
+    "segment": "breakdown",
+    "note": "Explanation and demonstration of the central part (part B)"
+   },
+   {
+    "t": "3:10",
+    "segment": "music_practice",
+    "note": "Full practice of Podaraki to music"
+   }
+  ],
+  "counting_scheme": "un e due e tre pam pam",
+  "cues": [
+   "destro libero",
+   "giro",
+   "opa"
+  ],
+  "metaphors": [
+   "la danza del tre"
+  ],
+  "demonstration": {
+   "angles": [
+    "overhead"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "parte laterale",
+    "counts": "1 e 2 e 3 pam pam",
+    "description": "lateral stepping movement starting with free right foot"
+   },
+   {
+    "name": "parte centrale",
+    "counts": "un cia un cia un cia cha",
+    "description": "central variation practicing right and left free foot leads"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "clear verbal numbering",
+    "consistent camera angle from above",
+    "repetition of steps with music"
+   ],
+   "what_hinders": [
+    "limited variety of camera angles"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:34",
+    "text": "La danza che vorrei presentarvi oggi si chiama Podaraki."
+   },
+   {
+    "t": "1:11",
+    "text": "andiamo verso destra faremo un e due e tre pam pam."
+   },
+   {
+    "t": "1:33",
+    "text": "La parte B della danza è invece può essere sul posto."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 1,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "The teacher speaks directly to the camera wearing a red shirt and red beret.",
+    "viewpoint": "overhead",
+    "cannot_infer": "exact spatial layout of the room off-camera",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 112,
+    "end_s": 130,
+    "topic": "movement",
+    "observation": "The teacher steps laterally while counting aloud with arms in W position.",
+    "viewpoint": "overhead",
+    "cannot_infer": "weight distribution on feet",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using an overhead camera view consistently throughout the instructional breakdown to clearly show foot placement and patterning on grid-like tiles."
+ },
+ "attempts": 1
+}

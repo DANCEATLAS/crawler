@@ -2,7 +2,7 @@
  "slug": "koftos",
  "name": "Koftos",
  "pack_version": "e2",
- "built_at": "2026-11-26T21:10:14Z",
+ "built_at": "2026-11-27T21:09:06Z",
  "researched_at": "2026-11-25T19:27:23Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -747,8 +747,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4-5-6",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -758,7 +758,9 @@
   ],
   "cues": [
    "1 2 3 4 5 6",
-   "hey"
+   "hey",
+   "opa",
+   "start with the right leg"
   ],
   "common_mistakes": [
    "putting weight on the right foot too early on the fourth sirtos"
@@ -766,6 +768,7 @@
   "segment_order": [
    "intro",
    "context",
+   "full_demo",
    "breakdown",
    "layering",
    "music_practice"
@@ -775,6 +778,11 @@
     "name": "Sirtos",
     "counts": "1-2-3-4-5-6",
     "description": "Basic side step sequence moving to the right with arms in a closed circle."
+   },
+   {
+    "name": "Koftos basic steps",
+    "counts": "1 to 22",
+    "description": "Step sequence starting with the right leg in a circle with a sudden stop and arms up every 22 steps"
    }
   ]
  },
@@ -796,6 +804,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "a5ac7c08bb4d2fdfde883aa8baadde48efb83b70aceaca2b5371a88a66caa451",
+ "input_fingerprint": "a91377462a676316e8bba123bc1d72267d16ec4aa8fd25ac1fc34a4e42824c56",
  "hero_checked": null
 }

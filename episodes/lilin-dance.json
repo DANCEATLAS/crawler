@@ -1,0 +1,859 @@
+{
+ "slug": "lilin-dance",
+ "name": "Lilin dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T19:57:33Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A disciplined but graceful Minang elder who emphasizes the 'inner calm' required to keep the flame alive.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Lilin dance",
+   "Tari Lilin",
+   "Candle Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Lilin dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Flame in the Palm",
+     "This is Lilin dance. Kingdom era to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Lilin dance · Indonesia · Kingdom era to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated with the Minangkabau people of West Sumatra during the era of Indonesian kingdoms.",
+     "It is traditionally linked to a folk tale about a girl searching for her lost engagement ring with a candle on a plate, whose frantic yet careful movements became the basis for the choreography."
+    ],
+    "on_screen": [
+     "Map: Indonesia · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a harvest ritual to thank God and the community's deity for prosperity, it now serves as entertainment.",
+     "It is commonly performed at weddings after the pasambahan ceremony and at public cultural events.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers hold small plates with burning candles in their palms.",
+     "The primary technique involves rotating the plates on a horizontal plane while the body bends, twists, and turns.",
+     "It is performed in groups, often by women or in male-female pairs, requiring significant balance to keep the candles lit.",
+     "Watch for Plate Rotation."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Group dancing, often involving circular or rotating paths."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is accompanied by traditional Minang music.",
+     "Key instruments include the Talempong (gongs), Saluang (flute), and Kendang (drums), which create a rhythmic and melodic backdrop for the dancers' movements.",
+     "Listen for the Talempong, Saluang, Kendang.",
+     "The sound is dominated by the metallic, melodic chiming of the Talempong gongs, supported by the rhythmic pulse of the Kendang drums and the melodic, breathy lines of the Saluang bamboo flute."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Interlocking percussive patterns"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performed in traditional Minangkabau dress, the dance was historically set in village yards or community spaces during harvest.",
+     "Today, it is frequently performed on stages for weddings and cultural festivals."
+    ],
+    "on_screen": [
+     "Image gallery: 5 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "While originating in West Sumatra, the dance has spread across Indonesia and is also recognized as a subclass of Malaysian dance traditions.",
+     "The dance is a traditional Minangkabau folk dance and shares technical similarities with the Tari Piring (Plate Dance) and the Pandanggo of the Philippines."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Lilin dance is sibling of Tari Piring: Both involve balancing plates on the palms, though Tari Piring uses plates without candles and often involves clinking them with rings.",
+     "Lilin dance is variant of Pandanggo: A Philippine dance that also involves balancing candles (often in glasses) on the head and hands."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Balance a small plate in each palm with a lit candle",
+     "Maintain a horizontal plane for the plates at all times",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a lost ring in a Sumatran yard transformed into a mesmerizing dance of fire and balance.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the flat-palm balance",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the flat-palm balance.",
+      "Level: beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A disciplined but graceful Minang elder who emphasizes the 'inner calm' required to keep the flame alive."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but flexible, with frequent bending and low-level movements.",
+      "Hands are held flat (palms up) to support plates; arms perform horizontal rotations.",
+      "Twisting and turning of the torso to maintain balance while moving."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Interlocking percussive patterns.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Balance a small plate in each palm with a lit candle",
+      "Step 2: Maintain a horizontal plane for the plates at all times",
+      "Footwork from the sources: Twisting and turning steps, often involving rushing across the floor in a controlled manner.",
+      "Drill: Walking with flat palms facing the ceiling"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute slow rotations of the wrists to keep plates steady during movement",
+      "Step 4: Perform deep knee bends and torso twists while keeping the upper body stable",
+      "Drill: Balancing an unlit candle on a plate while stationary"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Slowly extending and retracting arms while keeping the plate level"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Tilting the plates, which would cause the candle to fall or the wax to spill."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm and wrist rotations while seated, focusing on upper body flexibility and hand-eye coordination. · For children: The 'Lost Ring' game: children move through an 'obstacle yard' while balancing a beanbag on a plate."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and wrist rotations while seated, focusing on upper body flexibility and hand-eye coordination.",
+      "For children: The 'Lost Ring' game: children move through an 'obstacle yard' while balancing a beanbag on a plate."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the flat-palm balance.",
+      "Originally a harvest ritual to thank God and the community's deity for prosperity, it now serves as entertainment.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Introduce rotation and levels",
+   "level": "intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Introduce rotation and levels.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A disciplined but graceful Minang elder who emphasizes the 'inner calm' required to keep the flame alive."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but flexible, with frequent bending and low-level movements.",
+      "Hands are held flat (palms up) to support plates; arms perform horizontal rotations.",
+      "Twisting and turning of the torso to maintain balance while moving."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Interlocking percussive patterns.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Move in a group formation, often rotating or circling",
+      "Drill: Performing a 360-degree wrist rotation without tilting the plate"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Plate Rotation: Rotating the plates on a horizontal plane using wrist and arm movements to keep the candle upright.",
+      "Drill: Lowering the body into a squat while maintaining the horizontal plane"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Walking in a circle while rotating the plates"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Tilting the plates, which would cause the candle to fall or the wax to spill."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm and wrist rotations while seated, focusing on upper body flexibility and hand-eye coordination. · For children: The 'Lost Ring' game: children move through an 'obstacle yard' while balancing a beanbag on a plate."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and wrist rotations while seated, focusing on upper body flexibility and hand-eye coordination.",
+      "For children: The 'Lost Ring' game: children move through an 'obstacle yard' while balancing a beanbag on a plate."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Group dancing, often involving circular or rotating paths."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Introduce rotation and levels.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Performance with live flame",
+   "level": "advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Performance with live flame.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A disciplined but graceful Minang elder who emphasizes the 'inner calm' required to keep the flame alive."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but flexible, with frequent bending and low-level movements.",
+      "Hands are held flat (palms up) to support plates; arms perform horizontal rotations.",
+      "Twisting and turning of the torso to maintain balance while moving."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Interlocking percussive patterns.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform deep knee bends and torso twists while keeping the upper body stable",
+      "Step 2: Move in a group formation, often rotating or circling",
+      "Drill: Coordinating movements with a partner in a mirrored pattern"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Plate Rotation: Rotating the plates on a horizontal plane using wrist and arm movements to keep the candle upright.",
+      "Drill: Executing rapid turns while keeping the candle flame steady"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Full choreography with live candles and traditional music cues"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Tilting the plates, which would cause the candle to fall or the wax to spill."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm and wrist rotations while seated, focusing on upper body flexibility and hand-eye coordination. · For children: The 'Lost Ring' game: children move through an 'obstacle yard' while balancing a beanbag on a plate."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and wrist rotations while seated, focusing on upper body flexibility and hand-eye coordination.",
+      "For children: The 'Lost Ring' game: children move through an 'obstacle yard' while balancing a beanbag on a plate."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Group dancing, often involving circular or rotating paths."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Performance with live flame.",
+      "The dance is a traditional Minangkabau folk dance and shares technical similarities with the Tari Piring (Plate Dance) and the Pandanggo of the Philippines.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Interlocking percussive patterns",
+  "instruments": [
+   "Talempong",
+   "Saluang",
+   "Kendang"
+  ],
+  "vocal_style": null,
+  "musical_form": "Traditional Minang ensemble music",
+  "mood": [
+   "rhythmic",
+   "hypnotic",
+   "traditional",
+   "ceremonial"
+  ],
+  "sound_description": "The sound is dominated by the metallic, melodic chiming of the Talempong gongs, supported by the rhythmic pulse of the Kendang drums and the melodic, breathy lines of the Saluang bamboo flute.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Lilin dance (Indonesia). Rhythm pattern: Interlocking percussive patterns. Instruments: Talempong, Saluang, Kendang. Form: Traditional Minang ensemble music. Mood: rhythmic, hypnotic, traditional, ceremonial. It should sound like this: The sound is dominated by the metallic, melodic chiming of the Talempong gongs, supported by the rhythmic pulse of the Kendang drums and the melodic, breathy lines of the Saluang bamboo flute. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performed in traditional Minangkabau dress, the dance was historically set in village yards or community spaces during harvest. Today, it is frequently performed on stages for weddings and cultural festivals.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+    "description": "bali ubud danseur"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+    "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+    "description": "Seni Tari Piring"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+    "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tari_Saman_di_TMII.jpg/1280px-Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Herusutimbul / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Saman_di_TMII.jpg",
+    "description": "Tari Saman yg merupakan Tari dari daerah Aceh diperagakan pelajar Jakarta dalam peringatan Ulang tahun TMII"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Flickering orange light against dark backgrounds",
+   "The metallic sheen of the Talempong",
+   "Intricate Minangkabau embroidery",
+   "Circular hand paths"
+  ],
+  "costume_notes": "Performed in traditional Minangkabau dress, the dance was historically set in village yards or community spaces during harvest. Today, it is frequently performed on stages for weddings and cultural festivals.",
+  "setting_notes": "Originally a harvest ritual to thank God and the community's deity for prosperity, it now serves as entertainment. It is commonly performed at weddings after the pasambahan ceremony and at public cultural events.",
+  "map": {
+   "country": "Indonesia",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "step together step",
+   "1 2 3 4 5 6",
+   "1 2 3 4",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Lilin_dance",
+  "https://www.wikidata.org/wiki/Q7447193"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "aeed46c35e5fb30807441b932d46307faa5935b6eb8093e4ef967670ab258a9e",
+ "hero_checked": null
+}

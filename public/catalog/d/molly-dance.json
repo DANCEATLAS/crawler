@@ -34,6 +34,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Molly_dance",
   "wikidata_qid": "Q6896703",
   "unesco": false,
+  "hero_video_youtube_id": "LVELKeXEf8Q",
+  "video_stack": [
+   {
+    "youtube_id": "LVELKeXEf8Q",
+    "role": "hero",
+    "title": "Gog Magog Molly dance the Polychromatic Parrot at Sidmouth",
+    "channel": "Will Brooks",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -103,6 +113,12 @@
   "sacred_note": "not described in sources",
   "movie_ready": false,
   "tradition_status": "revived",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:17:43Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "morris-dance",
    "border-morris"
@@ -331,21 +347,39 @@
    },
    "derived": true
   },
+  "footage": [
+   {
+    "title": "File:Molly Dancers UK 2023.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Molly_Dancers_UK_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Alexandliane / Wikimedia Commons / CC BY-SA 4.0",
+    "description": "Dating back to the 15th century, the Plough Monday marks the end of Christmas. Born from necessity, at harshest time of the year for the plough gangs, they would disguise their identity with blackened faces, drag the plough through the parish and beg somewhat menacingly with the plough dance to rais",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMolly_Dancers_UK_2023.webm",
+    "source": "commons"
+   },
+   {
+    "title": "Molly Night 1",
+    "url": "https://archive.org/details/MollyNight1",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Molly Dance night",
+    "source": "archive"
+   }
+  ],
   "researched_at": "2026-11-26T19:08:32Z",
   "qc_score": 10.0
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 13,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    },
    {
     "key": "study_video",
@@ -358,11 +392,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 2,
+  "gaps": 1,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/molly-dance.json"
  },
- "fingerprint": "ee312c442fc40996",
- "updated": "2026-11-26"
+ "fingerprint": "c14e43d13ad041ba",
+ "updated": "2026-11-27"
 }

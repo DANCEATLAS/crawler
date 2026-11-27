@@ -32,6 +32,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Mek_Mulung",
   "wikidata_qid": "Q6810513",
   "unesco": true,
+  "hero_video_youtube_id": "KuR14Xlh7go",
+  "video_stack": [
+   {
+    "youtube_id": "KuR14Xlh7go",
+    "role": "hero",
+    "title": "MekMulungMalimBongsu(Part1).avi",
+    "channel": "ayu syuhara",
+    "hd": false
+   },
+   {
+    "youtube_id": "qe6x0adaI6E",
+    "role": "rendition",
+    "title": "MEK MULUNG - GERAK TIMPUH Tarian Pembukaan Seni Persembahan Teater Tradisonal",
+    "channel": "Kayrol MarkNann",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -46,6 +63,14 @@
   "ich_ref": "1610",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:17:40Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "mak-yong"
   ]
@@ -257,40 +282,276 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 14,
   "of": 15,
   "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "rhythm": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "XzcZ3_1NSqU",
+   "url": "https://www.youtube.com/watch?v=XzcZ3_1NSqU",
+   "title": "MWCP E-LEARNING BAWAKAN MEK MULUNG DI FASA 6",
+   "channel": "TATIHSENI TV",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "Malay",
+   "counting_scheme": "5-6-7-8 and 1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:11",
+     "seconds": 11,
+     "segment": "breakdown",
+     "note": "1. Duduk Timpuh"
+    },
+    {
+     "t": "0:25",
+     "seconds": 25,
+     "segment": "breakdown",
+     "note": "2. Angkat Sembah"
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "segment": "breakdown",
+     "note": "3&4. Sembah Kanan & Kiri"
+    },
+    {
+     "t": "1:02",
+     "seconds": 62,
+     "segment": "breakdown",
+     "note": "5. Sisir"
+    },
+    {
+     "t": "1:25",
+     "seconds": 85,
+     "segment": "breakdown",
+     "note": "6. Penyudah"
+    },
+    {
+     "t": "1:41",
+     "seconds": 101,
+     "segment": "breakdown",
+     "note": "7. Sisir"
+    },
+    {
+     "t": "2:04",
+     "seconds": 124,
+     "segment": "breakdown",
+     "note": "8. Penyudah"
+    },
+    {
+     "t": "2:14",
+     "seconds": 134,
+     "segment": "breakdown",
+     "note": "9. Anak Rambut"
+    },
+    {
+     "t": "2:38",
+     "seconds": 158,
+     "segment": "breakdown",
+     "note": "10. Penyudah"
+    },
+    {
+     "t": "2:48",
+     "seconds": 168,
+     "segment": "breakdown",
+     "note": "11. Anak Rambut"
+    },
+    {
+     "t": "3:11",
+     "seconds": 191,
+     "segment": "breakdown",
+     "note": "12. Penyudah"
+    },
+    {
+     "t": "3:22",
+     "seconds": 202,
+     "segment": "breakdown",
+     "note": "13. Ekor Pipit"
+    },
+    {
+     "t": "3:43",
+     "seconds": 223,
+     "segment": "breakdown",
+     "note": "14. Penyudah"
+    },
+    {
+     "t": "3:54",
+     "seconds": 234,
+     "segment": "breakdown",
+     "note": "15. Ekor Pipit"
+    },
+    {
+     "t": "4:16",
+     "seconds": 256,
+     "segment": "breakdown",
+     "note": "16. Penyudah"
+    },
+    {
+     "t": "4:33",
+     "seconds": 273,
+     "segment": "full_demo",
+     "note": "Full demonstration with music and costume"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Duduk Timpuh",
+     "counts": "1 x 8",
+     "description": "Sitting kneeling posture"
+    },
+    {
+     "name": "Angkat Sembah",
+     "counts": "1 x 8",
+     "description": "Raising hands in salutation while kneeling"
+    },
+    {
+     "name": "Sembah Kanan & Kiri",
+     "counts": "1 x 4",
+     "description": "Salutation to the right and left"
+    },
+    {
+     "name": "Sisir",
+     "counts": "1 x 8 & 1 x 2",
+     "description": "Combing gesture movement"
+    },
+    {
+     "name": "Penyudah",
+     "counts": "1 x 2",
+     "description": "Concluding movement"
+    },
+    {
+     "name": "Anak Rambut",
+     "counts": "1 x 8 & 1 x 2",
+     "description": "Hair strand movement"
+    },
+    {
+     "name": "Ekor Pipit",
+     "counts": "1 x 8 & 1 x 2",
+     "description": "Sparrow tail movement"
+    }
+   ],
+   "cues": [
+    "Duduk timpuh",
+    "Angkat sembah",
+    "Sembah kanan dan kiri",
+    "Sisir",
+    "Anak rambut",
+    "Ekor pipit",
+    "Penyudah"
+   ],
+   "teacher_style": "The instructor methodically names and demonstrates each traditional Mek Mulung dance step on her knees. She provides clear counts before executing each movement sequence from a stationary front-facing position.",
+   "distinctive_method": "Structuring traditional Malay dance training strictly into numbered seated steps with exact counts displayed on screen.",
+   "what_works": [
+    "On-screen text labels indicating step names and counts",
+    "Clear vocal countdowns before starting each movement"
+   ],
+   "what_hinders": [
+    "Only a front-facing angle is shown during breakdowns"
+   ],
+   "evidence": [
+    {
+     "start_s": 15,
+     "end_s": 24,
+     "topic": "movement",
+     "observation": "Teacher demonstrates sitting kneeling posture on the floor facing forward.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact lower body weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 30,
+     "end_s": 44,
+     "topic": "teaching",
+     "observation": "Teacher counts aloud 5-6-7-8 then demonstrates arm hand movements while kneeling.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "tension in hands and fingers",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 106,
+     "end_s": 123,
+     "topic": "movement",
+     "observation": "Teacher performs a combing arm gesture moving from one side to the other while seated.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "smoothness of transitions",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "KuR14Xlh7go",
+   "url": "https://www.youtube.com/watch?v=KuR14Xlh7go",
+   "analysed_on": "2026-11-27",
+   "observation": {
+    "setting": "indoor theatrical stage with traditional Malay wooden backdrop and seated musicians upstage",
+    "dancers": "mixed group of male and female dancers in traditional costumes",
+    "formation_and_space": "group arranged in rows and circles on stage, occasionally kneeling together and rising to move in formations",
+    "posture": "upright or kneeling with slight forward torso leans, bent knees when standing",
+    "footwork": "low stepping and shuffling patterns, shifting weight close to the floor",
+    "arms_and_hands": "expressive hand gestures with fluid wrist turns and outstretched arms",
+    "hips_and_torso": "minimal torso isolation, gentle swaying and bowing",
+    "partnering": "none, solo movements within a group setting",
+    "levels_jumps_turns": "frequent kneeling and rising from floor levels, small turns, no high jumps",
+    "costume_and_props": "traditional Malay attire with headpieces, patterned sarongs, and sashes; no hand props",
+    "cannot_infer": "fast footwork detail and exact weight transfer are obscured by stage distance and camera resolution",
+    "music_heard": {
+     "instruments": [
+      "drum",
+      "gong",
+      "oboe-like wind instrument",
+      "cymbals"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 44,
+      "end_s": 50,
+      "what": "dancers kneel in unison on the stage floor with hands in a respectful gesture"
+     },
+     {
+      "start_s": 120,
+      "end_s": 128,
+      "what": "lead dancer kneeling center stage framing face with hands while others kneel around her"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/mek-mulung.json"
  },
- "fingerprint": "b5e64b4c7e6fd6fe",
- "updated": "2026-11-26"
+ "fingerprint": "63545f6f90de994f",
+ "updated": "2026-11-27"
 }

@@ -62,34 +62,144 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 14,
   "of": 15,
   "missing": [
    {
     "key": "published",
     "label": "passed every quality gate and the independent judge"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
-   },
-   {
-    "key": "mistakes",
-    "label": "what to avoid: common mistakes or safety"
    }
   ],
   "via": {
+   "footwork_counts": "lesson",
    "posture": "performance",
    "arms": "performance",
-   "rhythm": "performance",
+   "rhythm": "lesson",
    "sound": "performance",
-   "study_video": "performance"
+   "lesson_plan": "lesson",
+   "mistakes": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "BwW86DjobrA",
+   "url": "https://www.youtube.com/watch?v=BwW86DjobrA",
+   "title": "Easy Street Dance Steps Tutorial | Funky Moves",
+   "channel": "Funky Moves",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to Funky Moves family dance vlog"
+    },
+    {
+     "t": "1:00",
+     "seconds": 60,
+     "segment": "breakdown",
+     "note": "Breakdown of the Funky Bounce step"
+    },
+    {
+     "t": "1:45",
+     "seconds": 105,
+     "segment": "breakdown",
+     "note": "Breakdown of the Criss Cross step"
+    },
+    {
+     "t": "2:26",
+     "seconds": 146,
+     "segment": "breakdown",
+     "note": "Breakdown of the Funky Scoop step"
+    },
+    {
+     "t": "3:03",
+     "seconds": 183,
+     "segment": "breakdown",
+     "note": "Breakdown of the Electricity Wave step"
+    },
+    {
+     "t": "4:07",
+     "seconds": 247,
+     "segment": "music_practice",
+     "note": "Practicing all steps together to music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "The Funky Bounce",
+     "counts": "1-2",
+     "description": "Hands on right knee bouncing up and down twice, then repeat on left"
+    },
+    {
+     "name": "The Criss Cross",
+     "counts": "1-2",
+     "description": "Jump feet cross in middle with right in front, then jump out to the side"
+    },
+    {
+     "name": "The Funky Scoop",
+     "counts": "1-8",
+     "description": "Scoop low to the side and bring it into the chest, alternating sides"
+    },
+    {
+     "name": "The Electricity Wave",
+     "counts": "1-8",
+     "description": "Wave arms through wrist, elbow, shoulder, body, and flick out"
+    }
+   ],
+   "cues": [
+    "Up to speed",
+    "Let's do this",
+    "Keep dancing"
+   ],
+   "images": [
+    "Electricity running through your arm and body"
+   ],
+   "common_mistakes": [
+    "Not going low then high on the bounce",
+    "Standing too straight on the wave arm movement"
+   ],
+   "teacher_style": "The teacher is energetic and enthusiastic, encouraging family participation with friendly, upbeat instructions. She breaks down movements into simple steps and demonstrates them at a steady pace before combining them with music.",
+   "distinctive_method": "Framing the tutorial as a family dance vlog inviting parents and kids to join in together.",
+   "what_works": [
+    "Clear step-by-step breakdown",
+    "Repetition of movements",
+    "Upbeat and clear verbal explanations"
+   ],
+   "what_hinders": [
+    "Only front angle shown"
+   ],
+   "evidence": [
+    {
+     "start_s": 108,
+     "end_s": 116,
+     "topic": "movement",
+     "observation": "Teacher demonstrates hand placement on knee with alternating knee bounces",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight distribution on back foot",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 198,
+     "end_s": 204,
+     "topic": "movement",
+     "observation": "Jumping with crossed legs and uncrossing to wide stance",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "impact absorption mechanics",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "3AFSdw2bitE",
@@ -141,6 +251,6 @@
    }
   }
  ],
- "fingerprint": "fac766a9d69a6033",
- "updated": "2026-11-22"
+ "fingerprint": "2611fb5b200fbc94",
+ "updated": "2026-11-27"
 }

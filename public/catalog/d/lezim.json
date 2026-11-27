@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "lezim",
  "name": "Lezim",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -37,6 +37,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lezim",
   "wikidata_qid": "Q6538197",
   "unesco": false,
+  "hero_video_youtube_id": "BzA5Rv8SMPg",
+  "video_stack": [
+   {
+    "youtube_id": "BzA5Rv8SMPg",
+    "role": "hero",
+    "title": "Gudhi Padawa 2017, Lezim-Zanj  performance",
+    "channel": "अनादिरव लेझीम पथक डोंबिवली",
+    "hd": true
+   },
+   {
+    "youtube_id": "5sJhsepcl7I",
+    "role": "rendition",
+    "title": "Republic day 2023...Best Lezim dance  performance...NES Sati Chinchghari #harshalchalke",
+    "channel": "Vlogs by Harshal",
+    "hd": true
+   },
+   {
+    "youtube_id": "Byoon_zJepE",
+    "role": "rendition",
+    "title": "Lezim Dance || Nivedita school hospet",
+    "channel": "Nivedita school Hosapete",
+    "hd": true
+   },
+   {
+    "youtube_id": "KF6-i3xMAFw",
+    "role": "rendition",
+    "title": "Lezim Dance | JNV Athletics Sports Meet 2022 | Mysore",
+    "channel": "Sports in Kannada",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -62,7 +93,13 @@
    }
   ],
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:17:09Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -281,32 +318,197 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   }
-  ]
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "8JEAKIb4XUg",
+   "url": "https://www.youtube.com/watch?v=8JEAKIb4XUg",
+   "title": "Basic Lezim Steps For Beginners | Part - 1 | Shivam Dance Academy",
+   "channel": "Shivam Dance Academy",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "Hindi",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction to basic Lezim steps"
+    },
+    {
+     "t": "0:56",
+     "seconds": 56,
+     "segment": "breakdown",
+     "note": "Explanation of Lezim sticks holding and safety"
+    },
+    {
+     "t": "1:50",
+     "seconds": 110,
+     "segment": "context",
+     "note": "Introduction of main Lezim types"
+    },
+    {
+     "t": "2:02",
+     "seconds": 122,
+     "segment": "breakdown",
+     "note": "Teaching 2 counts and 4 counts"
+    },
+    {
+     "t": "3:41",
+     "seconds": 221,
+     "segment": "breakdown",
+     "note": "Teaching 8 counts with breakdown of 1-4 and 5-8"
+    },
+    {
+     "t": "6:15",
+     "seconds": 375,
+     "segment": "breakdown",
+     "note": "Teaching second step Front Foot with footwork"
+    }
+   ],
+   "steps": [
+    {
+     "name": "8 Counts",
+     "counts": "1-2-3-4-5-6-7-8",
+     "description": "Basic stick movements with 8 counts"
+    },
+    {
+     "name": "Front Foot",
+     "counts": "1-2-3-4-5-6-7-8",
+     "description": "8 counts movement combined with forward lunges"
+    }
+   ],
+   "cues": [
+    "make sure",
+    "dhyan rakhna"
+   ],
+   "images": [
+    "plus ke symbol mein"
+   ],
+   "common_mistakes": [
+    "Lezim ko aise na bajaye",
+    "ungli upar hit na ho"
+   ],
+   "safety": [
+    "Make sure apki ungli ko dard ho sakta hai bad me",
+    "injuries hone ke chances hote hai"
+   ],
+   "teacher_style": "The teacher gives detailed anatomical breakdowns of hand and prop placement before combining steps. He divides the routine into structured counts and demonstrates variations from multiple angles.",
+   "distinctive_method": "Breaking down counts into symmetrical halves (1-4 and 5-8) and practicing upper body movements before adding footwork.",
+   "what_works": [
+    "Clear segment division",
+    "frequent demonstrations from front and back angles"
+   ],
+   "what_hinders": [
+    "Long verbal explanations before physical execution"
+   ],
+   "evidence": [
+    {
+     "start_s": 56,
+     "end_s": 75,
+     "topic": "movement",
+     "observation": "Holding sticks in left and right hands and adjusting position",
+     "viewpoint": "front",
+     "cannot_infer": "exact grip pressure",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 222,
+     "end_s": 234,
+     "topic": "movement",
+     "observation": "Striking sticks together for 2 counts",
+     "viewpoint": "front",
+     "cannot_infer": "precise force of impact",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 313,
+     "end_s": 323,
+     "topic": "movement",
+     "observation": "Executing 4-count stick opening and closing pattern",
+     "viewpoint": "front",
+     "cannot_infer": "weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 420,
+     "end_s": 436,
+     "topic": "movement",
+     "observation": "Demonstrating stick rotation from back view",
+     "viewpoint": "back",
+     "cannot_infer": "fluidity of transition",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "BzA5Rv8SMPg",
+   "url": "https://www.youtube.com/watch?v=BzA5Rv8SMPg",
+   "analysed_on": "2026-11-27",
+   "observation": {
+    "setting": "Outdoor street performance on a paved city street with onlookers watching from the sides.",
+    "dancers": "A large group of mixed female youth dancers in matching attire, accompanied by a few male leaders/musicians wearing turbans.",
+    "formation_and_space": "Initially formed in rows facing forward, later transitioning into a circle formation where dancers move in a procession and circle around.",
+    "posture": "Upright torso with slight forward leans during deep steps and knee bends.",
+    "footwork": "Stepping, marching, and high knee lifts on the upbeat/downbeat synchronised with drum beats.",
+    "arms_and_hands": "Holding lezim (wooden instruments with jingles attached by chains) in both hands, striking them together and raising them above the head in rhythmic patterns.",
+    "hips_and_torso": "Bending forward from the waist and swaying the torso in coordination with leg movements and drum beats.",
+    "partnering": "None, group choreography without physical partner contact.",
+    "levels_jumps_turns": "Varying levels from upright standing to low knee bends, high knee kicks, and occasional turning movements in circle formation.",
+    "costume_and_props": "Red long-sleeved tunics, white trousers, white shoes, white sashes around the waist, and hair tied back. Holding lezim instruments.",
+    "cannot_infer": "Exact foot placement and weight distribution are partially obscured by long tunics and camera movements.",
+    "music_heard": {
+     "instruments": [
+      "dhol",
+      "lezim jingles"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 109,
+      "end_s": 125,
+      "what": "High knee raises while striking lezim instruments rhythmically overhead in a group circle."
+     },
+     {
+      "start_s": 135,
+      "end_s": 150,
+      "what": "Dancers bend deeply at the waist and swing lezim instruments down and up while stepping in a circle."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/lezim.json"
  },
- "fingerprint": "f11b8cc05a5c9e4e",
- "updated": "2026-11-26"
+ "fingerprint": "cd397ef4a619fb3a",
+ "updated": "2026-11-27"
 }

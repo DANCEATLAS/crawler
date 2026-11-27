@@ -1,6 +1,6 @@
 # The Chicken — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.25 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.25 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed)
 

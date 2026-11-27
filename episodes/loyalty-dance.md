@@ -1,8 +1,8 @@
 # Loyalty dance — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A historical researcher specializing in 20th-century Asian cultural history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Dance of Total Devotion
 NARRATION: This is Loyalty dance. late 1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (XqPBFcp4hpg)
 ON SCREEN: Title card: Loyalty dance · People's Republic of China · late 1960s
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The performance consisted of a simple collective dance performed in p
 NARRATION: Choreographically, it did not involve much more than stretching one's arms from the heart to Mao's portrait, with basic movements originating from a folk dance popular in Xinjiang.
 NARRATION: Hand and arm movements were consistently directed toward the sky, symbolizing respect for Mao Zedong.
 NARRATION: Watch for Heart to portrait extension, Skyward reach.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (XqPBFcp4hpg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Collective mass performance in open plazas, public squares, and parades.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Place hand or hands over the heart.
 NARRATION: Extend arms outward from the heart toward a portrait of Mao.
-NARRATION: Count it: .
+NARRATION: Count it: 1-2-3 / 1-and-2.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -103,7 +103,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3 / 1-and-2.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -114,15 +114,17 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Place hand or hands over the heart.
 NARRATION: Step 2: Extend arms outward from the heart toward a portrait of Mao.
 NARRATION: Drill: Practice bringing hands to chest.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3 / 1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Reach arms and gestures upward toward the sky to display respect.
 NARRATION: Drill: Extend arms smoothly outward at shoulder height.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3 / 1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,7 +142,7 @@ OPTIONS: Seated or supported option: Perform the arm extensions from the heart o
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3 / 1-and-2.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -170,7 +172,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3 / 1-and-2.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -180,9 +182,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Place hand or hands over the heart.
 NARRATION: Step 2: Extend arms outward from the heart toward a portrait of Mao.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3 / 1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Reach arms and gestures upward toward the sky to display respect.
@@ -191,6 +194,7 @@ NARRATION: Skyward reach: Directing arm movements toward the sky to symbolize re
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3 / 1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -208,7 +212,7 @@ OPTIONS: Seated or supported option: Perform the arm extensions from the heart o
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3 / 1-and-2.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Collective mass performance in open plazas, public squares, and parades.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -238,7 +242,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3 / 1-and-2.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -248,9 +252,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Extend arms outward from the heart toward a portrait of Mao.
 NARRATION: Step 2: Reach arms and gestures upward toward the sky to display respect.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3 / 1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Heart to portrait extension: Stretching one's arms outward from the heart toward Mao's portrait.
@@ -258,6 +263,7 @@ NARRATION: Skyward reach: Directing arm movements toward the sky to symbolize re
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3 / 1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -275,7 +281,7 @@ OPTIONS: Seated or supported option: Perform the arm extensions from the heart o
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3 / 1-and-2.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Collective mass performance in open plazas, public squares, and parades.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -302,7 +308,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performances took place in everyday public settings including open plazas, public squares, and street parades. Performers wore standard daily clothing, as participation encompassed ordinary citizens from all walks of life, including industrial miners, office workers, young children, and elderly women.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'XqPBFcp4hpg', 'checked_by_vision_model': True, 'title': '[HD-CC] Red Guard perform loyalty dance: "Revolutionary Rebellion" 革命造反歌 (from The Last Emperor)'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Portraits of Mao Zedong, Open public plazas filled with mass crowds, Upward outstretched arms against the sky
@@ -312,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3 / 1-and-2
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: 1-2-3; 1 and 2
 
 Sources (2): https://en.wikipedia.org/wiki/Loyalty_dance; https://www.wikidata.org/wiki/Q6801077

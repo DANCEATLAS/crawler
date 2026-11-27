@@ -2,7 +2,7 @@
  "slug": "matki-dance",
  "name": "Matki Dance",
  "pack_version": "e2",
- "built_at": "2026-11-26T21:10:14Z",
+ "built_at": "2026-11-27T21:09:06Z",
  "researched_at": "2026-11-26T19:41:08Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Matki Dance. Contemporary/Living Tradition."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (mViKKbRk9xk)",
      "Title card: Matki Dance · India · Contemporary/Living Tradition"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Aada Nach, Khada Nach."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (mViKKbRk9xk)",
      "Captions name each signature move as it appears",
      "Formation: Solo performance in a circular area"
     ],
@@ -191,7 +191,7 @@
     "narration": [
      "Before we go, one step. Balance a single earthen pot (matki) on the crown of the head",
      "Lower the veil (ghunghat) over the face",
-     "Count it: .",
+     "Count it: 1-2-3-4-5-6.",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -256,7 +256,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2-3-4-5-6.",
       "Rhythm pattern: Dhol-based folk rhythms.",
       "Clap it first, then step it in place."
      ],
@@ -281,11 +281,11 @@
       "Drill: Place a flat-bottomed object on the head"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -301,7 +301,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -343,7 +343,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2-3-4-5-6.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -408,7 +408,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2-3-4-5-6.",
       "Rhythm pattern: Dhol-based folk rhythms.",
       "Clap it first, then step it in place."
      ],
@@ -431,11 +431,11 @@
       "Drill: Walk in a clockwise circle while maintaining balance"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -452,7 +452,7 @@
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -494,7 +494,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2-3-4-5-6.",
       "Full tempo, the whole sequence, twice. Formation: Solo performance in a circular area"
      ],
      "on_screen": [
@@ -558,7 +558,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2-3-4-5-6.",
       "Rhythm pattern: Dhol-based folk rhythms.",
       "Clap it first, then step it in place."
      ],
@@ -582,11 +582,11 @@
       "Drill: Step in time to a 4/4 drum beat"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -603,7 +603,7 @@
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -645,7 +645,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2-3-4-5-6.",
       "Full tempo, the whole sequence, twice. Formation: Solo performance in a circular area"
      ],
      "on_screen": [
@@ -724,7 +724,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "mViKKbRk9xk",
+   "checked_by_vision_model": true,
+   "title": "Dhol Matki Dance/Easy Steps/Wedding Sangeet/By Neha Harsh Udaipur"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -789,48 +793,42 @@
   ]
  },
  "teaching_formula": {
-  "source": "111 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 111,
-  "counting": "",
-  "counting_basis": "missing",
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "1-2-3-4-5-6",
+  "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front",
+   "tempo progression: slow → full"
   ],
   "cues": [
-   "5-6-7-8",
-   "1-2-3-4",
-   "step together step",
-   "1 2 3 4",
-   "1-2-3",
-   "putar",
-   "mundur",
-   "step to the right",
-   "un dos tres",
-   "right together right touch",
-   "left together left touch",
-   "spin out"
+   "1 2 1 2",
+   "1 2 3 4 5 6"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "warmup",
-   "count_in",
    "full_demo",
-   "breakdown",
-   "slow_practice",
-   "music_practice",
-   "recap"
+   "breakdown"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Hand step",
+    "counts": "1-2",
+    "description": "Arm and hand movement step"
+   },
+   {
+    "name": "Gol step",
+    "counts": "1-2-3-4-5-6",
+    "description": "Turning step"
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage",
   "notable figures",
   "lineage",
@@ -843,6 +841,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "d78ab35345ee38ad53fd5d8b36c816bc946a9611464f4b31aa474f56a7184244",
- "hero_checked": null
+ "input_fingerprint": "fe21121288f09eab0ec89e64112406c5a9ebc8eb23359fd529d3d169e24cd002",
+ "hero_checked": "pass"
 }

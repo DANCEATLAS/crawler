@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Live flames",
+          "Heavy ceramic plates",
+          "Complex wrist inversions"
+        ],
+        "counts": "Simple 1-2-3-4 walking counts.",
+        "duration_minutes": "3",
+        "game_version": "The 'Lost Ring' game: children move through an 'obstacle yard' while balancing a beanbag on a plate."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Deep squats",
+          "Rapid turns",
+          "Live flames (use LED candles)"
+        ],
+        "counts": "Simple 4-count rotations.",
+        "seated_version": "Perform the arm and wrist rotations while seated, focusing on upper body flexibility and hand-eye coordination.",
+        "standing_version": "Slow-motion walking with plates, omitting the deep bends to protect knees.",
+        "tempo_and_range": "Reduced tempo to allow for steady balancing; limited arm extension."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands are held flat (palms up) to support plates; arms perform horizontal rotations.",
+      "difficulty": "intermediate",
+      "footwork": "Twisting and turning steps, often involving rushing across the floor in a controlled manner.",
+      "formation_and_space": "Group dancing, often involving circular or rotating paths.",
+      "hips_and_torso": "Twisting and turning of the torso to maintain balance while moving.",
+      "levels_and_jumps": "Focus on low levels (bending to the ground); no jumps described.",
+      "partnering": "Sometimes performed in male-female pairs.",
+      "posture": "Upright but flexible, with frequent bending and low-level movements.",
+      "signature_moves": [
+        {
+          "description": "Rotating the plates on a horizontal plane using wrist and arm movements to keep the candle upright.",
+          "name": "Plate Rotation"
+        }
+      ],
+      "tempo_feel": "Graceful and steady, dictated by the need to balance the flame.",
+      "what_to_avoid": "Tilting the plates, which would cause the candle to fall or the wax to spill."
+    },
+    "music_profile": {
+      "instruments": [
+        "Talempong",
+        "Saluang",
+        "Kendang"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "rhythmic",
+        "hypnotic",
+        "traditional",
+        "ceremonial"
+      ],
+      "musical_form": "Traditional Minang ensemble music",
+      "reference_recordings": [],
+      "rhythm_pattern": "Interlocking percussive patterns",
+      "sound_description": "The sound is dominated by the metallic, melodic chiming of the Talempong gongs, supported by the rhythmic pulse of the Kendang drums and the melodic, breathy lines of the Saluang bamboo flute.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Balance a small plate in each palm with a lit candle",
+        "Maintain a horizontal plane for the plates at all times",
+        "Execute slow rotations of the wrists to keep plates steady during movement",
+        "Perform deep knee bends and torso twists while keeping the upper body stable",
+        "Move in a group formation, often rotating or circling"
+      ],
+      "formation": "Group formation, sometimes in pairs",
+      "level_notes": "Requires high wrist flexibility and core stability to prevent candles from falling or extinguishing.",
+      "rhythm": "Coordinated with the interlocking rhythms of the Talempong"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "43cf0315b85e6c474c1760606329b9297fed41711c01db06b92fb2cbd263a9b6",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific 'taboos' or safety rituals regarding the handling of the live flame in a modern performance context? Evidence needed: https://en.wikipedia.org/wiki/Lilin_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific wrist rotation mechanics used to keep the plate horizontal during a full arm extension? Evidence needed: https://en.wikipedia.org/wiki/Lilin_dance"
+    ]
+  },
+  "id": "atlas:lilin-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Lilin dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "8d20363cdcbdaa9f",
+      "next_evidence": "https://en.wikipedia.org/wiki/Lilin_dance",
+      "question": "What are the specific wrist rotation mechanics used to keep the plate horizontal during a full arm extension?",
+      "source": "https://en.wikipedia.org/wiki/Lilin_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The 'horizontal plane' requirement is central to the dance but the exact anatomical path of the hand is not described."
+    },
+    {
+      "domain": "research",
+      "id": "4da70ef87f863a90",
+      "next_evidence": "https://en.wikipedia.org/wiki/Lilin_dance",
+      "question": "Are there specific 'taboos' or safety rituals regarding the handling of the live flame in a modern performance context?",
+      "source": "https://en.wikipedia.org/wiki/Lilin_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "As a dance involving fire, there may be community-specific safety or ritual protocols not mentioned in general sources."
+    }
+  ],
+  "research_file": "research_results/lilin-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "lilin-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lilin_dance",
+    "https://www.wikidata.org/wiki/Q7447193"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

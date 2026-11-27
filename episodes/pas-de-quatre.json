@@ -1,0 +1,847 @@
+{
+ "slug": "pas-de-quatre",
+ "name": "pas de quatre",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T19:14:28Z",
+ "qc_score": 9.55,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An exacting ballet maître or répétiteur focused on spatial symmetry, impeccable timing, and historical styling.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "pas de quatre",
+   "pas-de-quatre"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet pas de quatre",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Four Ballerinas and a Royal Audience",
+     "This is pas de quatre. 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: pas de quatre · France · 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Pas de quatre originated in the classical ballet tradition as a dance for four performers.",
+     "During the nineteenth century, its classical structure solidified around an entrée, solo variations, and a coda.",
+     "Jules Perrot established the benchmark in 1845 with his London work for four leading Romantic ballerinas, and Marius Petipa and Lev Ivanov further cemented the format in late-nineteenth-century Russian classical repertory."
+    ],
+    "on_screen": [
+     "Map: France · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Pas de quatre are usually plotless dances performed as divertissements to display technique and artistry within larger ballets.",
+     "However, narrative works also exist, such as José Limón's The Moor's Pavane, which interprets Shakespeare's Othello, and Antony Tudor's Jardin aux Lilas, which explores emotional entanglements.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: East Meets West- Little Swans - UCI Arts (https://archive.org/details/antetvca-East_Meets_West-_Little_Swans_UCI_Arts)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "In standard classical structure, the pas de quatre begins with an entrée, transitions into individual variations for each dancer, and finishes with a shared coda.",
+     "In Lev Ivanov's 1895 Danse des petits cygnes, the four dancers perform with cross-linked hands, executing precise and dazzling footwork in strict synchronization.",
+     "Combinations can be all-female, all-male, or mixed ensembles.",
+     "Watch for Danse des petits cygnes linked line, Entrée, variations, and coda."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Quartet formation, line of four with linked hands, or alternating solo and ensemble staging."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Major compositions associated with the format include Cesare Pugni's 1845 score for Perrot, Pyotr Ilyich Tchaikovsky's music for Swan Lake (1895), Alexander Glazunov's score for Raymonda (1898), Ernest Chausson's music for Jardin aux Lilas (1936), Henry Purcell's music for The Moor's Pavane (1949), Igor Stravinsky's score for Agon (1957), and Giuseppe Verdi's music for Kenneth MacMillan's The Four Seasons (1975).",
+     "Listen for the orchestra.",
+     "The music spans Romantic, late-nineteenth-century Russian imperial, and twentieth-century neoclassical orchestral styles. Built around formal sections including an opening entrée, character variations, and an accelerating coda, the music provides clear metric support for athletic displays, lyricism, and synchronized footwork."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Pas de Quatre — Cesare Pugni; Swan Lake, Act 2: Danse des petits cygnes — Pyotr Ilyich Tchaikovsky; Raymonda, Act 3: Pas classique hongrois (Variation pour quatre danseurs) — Alexander Glazunov",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The setting depends on the theatrical context, ranging from nineteenth-century opera houses such as Her Majesty's Theatre in London to classical and modern stages worldwide.",
+     "In Danse des petits cygnes, performers appear as cygnets in the lakeside setting of Swan Lake Act 2."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key choreographers include Jules Perrot, Lev Ivanov, Marius Petipa, Antony Tudor, José Limón, George Balanchine, and Kenneth MacMillan.",
+     "Notable original performers include Marie Taglioni, Carlotta Grisi, Fanny Cerrito, Lucile Grahn, Sergei Legat, Georgi Kyasht, Nikolai Legat, Alexander Gorsky, Maude Lloyd, Hugh Laing, Peggy van Praagh, Betty Jones, Lucas Hoving, Pauline Koner, Lesley Collier, Michael Coleman, David Ashmole, and Wayne Eagling.",
+     "The pas de quatre has appeared across European, Russian, and American ballet traditions, with adaptations ranging from the French classical divertissement and British dramatic ballet to American neoclassical works and modern dance pavanes.",
+     "The pas de quatre developed directly from the structure of the classical pas de deux, expanding the architecture of entrée, variations, and coda to accommodate four dancers."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "pas de quatre is parent of pas de deux: Pas de quatre repeats the classical structural format of the pas de deux expanded for four dancers.",
+     "pas de quatre is sibling of grand pas: Both are classical ballet divertissement structures exhibiting technical virtuosity."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "How four of Europe's greatest 19th-century ballet stars were united on one London stage, forging the legendary pas de quatre.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Maintain spatial symmetry and line discipline in a four-dancer ensemble.",
+   "level": "Level 1: Classical Quartet Spacing",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Maintain spatial symmetry and line discipline in a four-dancer ensemble..",
+      "Level: Level 1: Classical Quartet Spacing. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting ballet maître or répétiteur focused on spatial symmetry, impeccable timing, and historical styling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Classical ballet carriage and alignment.",
+      "Cross-linked hands among four performers in line, or classical port de bras."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Footwork from the sources: Precise and dazzling footwork, as exemplified by the petit allegro in Danse des petits cygnes.",
+      "Drill: Establish linear and diamond four-dancer staging."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Coordinate unified head turns and ports de bras."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice simultaneous starting and ending cues."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs. · For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs.",
+      "For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Maintain spatial symmetry and line discipline in a four-dancer ensemble..",
+      "Pas de quatre are usually plotless dances performed as divertissements to display technique and artistry within larger ballets.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Recreate the cross-linked hands hold used in Danse des petits cygnes.",
+   "level": "Level 2: The Linked Hands Hold",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Recreate the cross-linked hands hold used in Danse des petits cygnes..",
+      "Level: Level 2: The Linked Hands Hold. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting ballet maître or répétiteur focused on spatial symmetry, impeccable timing, and historical styling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Classical ballet carriage and alignment.",
+      "Cross-linked hands among four performers in line, or classical port de bras."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Form a four-person line and practice alternating forearm crosses."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Danse des petits cygnes linked line: Four dancers with cross-linked hands performing synchronized, rapid footwork.",
+      "Entrée, variations, and coda: A structural suite of group entrance, individual solo exhibitions, and unified finale.",
+      "Drill: Step in unison across the floor without pulling on neighboring hands."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Match musical counts across all four performers."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs. · For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs.",
+      "For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Quartet formation, line of four with linked hands, or alternating solo and ensemble staging."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Recreate the cross-linked hands hold used in Danse des petits cygnes..",
+      "Key choreographers include Jules Perrot, Lev Ivanov, Marius Petipa, Antony Tudor, José Limón, George Balanchine, and Kenneth MacMillan.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Structure the flow between group entrance, solo sections, and final coda.",
+   "level": "Level 3: Entrée and Coda Transitions",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Structure the flow between group entrance, solo sections, and final coda..",
+      "Level: Level 3: Entrée and Coda Transitions. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting ballet maître or répétiteur focused on spatial symmetry, impeccable timing, and historical styling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Classical ballet carriage and alignment.",
+      "Cross-linked hands among four performers in line, or classical port de bras."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Execute the ensemble entrée sequence."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Danse des petits cygnes linked line: Four dancers with cross-linked hands performing synchronized, rapid footwork.",
+      "Entrée, variations, and coda: A structural suite of group entrance, individual solo exhibitions, and unified finale.",
+      "Drill: Practice clearing the stage for individual variation solos."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Re-enter in unison for the rapid coda finish."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs. · For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs.",
+      "For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Quartet formation, line of four with linked hands, or alternating solo and ensemble staging."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Structure the flow between group entrance, solo sections, and final coda..",
+      "The pas de quatre developed directly from the structure of the classical pas de deux, expanding the architecture of entrée, variations, and coda to accommodate four dancers.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "orchestra"
+  ],
+  "vocal_style": "none (instrumental/orchestral theatrical score)",
+  "musical_form": "entrée, individual variations, and coda",
+  "mood": [
+   "virtuosic",
+   "lyrical",
+   "ebullient",
+   "precise"
+  ],
+  "sound_description": "The music spans Romantic, late-nineteenth-century Russian imperial, and twentieth-century neoclassical orchestral styles. Built around formal sections including an opening entrée, character variations, and an accelerating coda, the music provides clear metric support for athletic displays, lyricism, and synchronized footwork.",
+  "listen_before_composing": [
+   "Pas de Quatre — Cesare Pugni",
+   "Swan Lake, Act 2: Danse des petits cygnes — Pyotr Ilyich Tchaikovsky",
+   "Raymonda, Act 3: Pas classique hongrois (Variation pour quatre danseurs) — Alexander Glazunov",
+   "The Moor's Pavane — Henry Purcell",
+   "Agon — Igor Stravinsky",
+   "Swan Lake — Пётр Ильич Чайковский (2017)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of pas de quatre (France). Instruments: orchestra. Vocal style: none (instrumental/orchestral theatrical score). Form: entrée, individual variations, and coda. Mood: virtuosic, lyrical, ebullient, precise. It should sound like this: The music spans Romantic, late-nineteenth-century Russian imperial, and twentieth-century neoclassical orchestral styles. Built around formal sections including an opening entrée, character variations, and an accelerating coda, the music provides clear metric support for athletic displays, lyricism, and synchronized footwork. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The setting depends on the theatrical context, ranging from nineteenth-century opera houses such as Her Majesty's Theatre in London to classical and modern stages worldwide. In Danse des petits cygnes, performers appear as cygnets in the lakeside setting of Swan Lake Act 2.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3APas_de_quatre_chant%C3%A9%2C_cr%C3%A9%C3%A9e_par_Miss_May_Belfort_dans_les_concerts_de_Paris_-illustration_couleurs_anonyme_ou_sign%C3%A9e_effac%C3%A9e-_%28M%C3%A9diHAL_587989%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AAlexandra_Danilova_-_VanVechten.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Pas_de_quatre_chant%C3%A9%2C_cr%C3%A9%C3%A9e_par_Miss_May_Belfort_dans_les_concerts_de_Paris_-illustration_couleurs_anonyme_ou_sign%C3%A9e_effac%C3%A9e-_%28M%C3%A9diHAL_587989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Pas_de_quatre_chant%C3%A9%2C_cr%C3%A9%C3%A9e_par_Miss_May_Belfort_dans_les_concerts_de_Paris_-illustration_couleurs_anonyme_ou_sign%C3%A9e_effac%C3%A9e-_%28M%C3%A9diHAL_587989%29.jpg/1280px-Pas_de_quatre_chant%C3%A9%2C_cr%C3%A9%C3%A9e_par_Miss_May_Belfort_dans_les_concerts_de_Paris_-illustration_couleurs_anonyme_ou_sign%C3%A9e_effac%C3%A9e-_%28M%C3%A9diHAL_587989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Éliane Daphy / Institut Interdisciplinaire d'Anthropologie du Contemporain\n / National Center for Scientific Research / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APas_de_quatre_chant%C3%A9%2C_cr%C3%A9%C3%A9e_par_Miss_May_Belfort_dans_les_concerts_de_Paris_-illustration_couleurs_anonyme_ou_sign%C3%A9e_effac%C3%A9e-_%28M%C3%A9diHAL_587989%29.jpg",
+    "description": "Pas de quatre sung. Created by Miss May Belfort in the Paris concerts. Lyrics Antonin Louis. Music by Meyer Lutz (1829-1903); [unsigned illustration]. Henry Wykes Publisher, Paris, 49 rue Dauphine [no rating - no date]. Dated by BNF deposit 1895."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Alexandra_Danilova_-_VanVechten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Alexandra_Danilova_-_VanVechten.jpg/1280px-Alexandra_Danilova_-_VanVechten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Carl Van Vechten / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAlexandra_Danilova_-_VanVechten.jpg",
+    "description": "Aleksandra Dionisyevna Danilova ( November 20, 1903-July 13, 1997) — a Russian-born prima ballerina assoluta who became an American citizen. \nHere she Fanny Cerrito in Pas de Quatre."
+   }
+  ],
+  "footage": [
+   {
+    "title": "East Meets West- Little Swans - UCI Arts",
+    "url": "https://archive.org/details/antetvca-East_Meets_West-_Little_Swans_UCI_Arts",
+    "year": 2016,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Four pairs of pointe shoes moving in absolute unison.",
+   "Cross-linked hands creating an unbroken chain across the stage.",
+   "Nineteenth-century theatrical playbills and lithographs of Romantic ballerinas."
+  ],
+  "costume_notes": "The setting depends on the theatrical context, ranging from nineteenth-century opera houses such as Her Majesty's Theatre in London to classical and modern stages worldwide. In Danse des petits cygnes, performers appear as cygnets in the lakeside setting of Swan Lake Act 2.",
+  "setting_notes": "Pas de quatre are usually plotless dances performed as divertissements to display technique and artistry within larger ballets. However, narrative works also exist, such as José Limón's The Moor's Pavane, which interprets Shakespeare's Othello, and Antony Tudor's Jardin aux Lilas, which explores emotional entanglements.",
+  "map": {
+   "country": "France",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the classical-court family studied",
+  "videos_studied": 19,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "neutralize your pelvis",
+   "shoulders are dropped",
+   "squeeze your abs",
+   "keep your eyes locked",
+   "kick kick kick kick step",
+   "curtsy and bow"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "full_demo",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a hero video",
+  "licensed images (3 needed)",
+  "teaching steps written out"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pas_de_quatre_(ballet)",
+  "https://www.wikidata.org/wiki/Q7141511",
+  "https://es.wikipedia.org/wiki/Pas_de_quatre_(ballet)",
+  "https://fr.wikipedia.org/wiki/Pas_de_quatre"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "141d7364a6434badc9c742b06da493985839ecd143a7ad0da75a80637d981b25",
+ "hero_checked": null
+}

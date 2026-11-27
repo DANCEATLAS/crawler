@@ -5,7 +5,7 @@
  "title": "Jingle Bell Rock Christmas Barn Dance Tutorial - Learn The Steps with Kerry & Jonathan",
  "channel": "Kerry On Dancing",
  "viewer_ratio": 0.25,
- "analysed_at": "2026-11-25T21:20:07Z",
+ "analysed_at": "2026-11-27T20:29:07Z",
  "url": "https://www.youtube.com/watch?v=A3tHhSO5zxI",
  "evidence_version": 2,
  "observation_window": {
@@ -15,6 +15,98 @@
   "sampling": "provider default; not continuous motion capture",
   "human_verified": false
  },
- "status": "failed",
- "attempts": 1
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor teaches facing away from the camera so viewers can easily mirror their movements step by step. She breaks down the choreography patiently with clear verbal counts and positive reinforcement.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Kerry and Jonathan introduce the Christmas party barn dance tutorial."
+   },
+   {
+    "t": "0:30",
+    "segment": "breakdown",
+    "note": "Instructors face away from camera to teach steps step by step."
+   },
+   {
+    "t": "2:41",
+    "segment": "full_demo",
+    "note": "Run through the full sequence from the beginning."
+   },
+   {
+    "t": "3:13",
+    "segment": "recap",
+    "note": "Closing remarks and sign-off."
+   }
+  ],
+  "counting_scheme": "5-6-7-8 and 1-2-3",
+  "cues": [
+   "1-2-3 and kick",
+   "side-close-side-tap",
+   "turn your partner under and then you turn them back"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "back"
+   ],
+   "tempo_progression": [
+    "slow"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Three walks forward and kick, three walks back and tap",
+    "counts": "1-2-3-kick-1-2-3-tap",
+    "description": "Walk forward three steps with a kick on four, then back three steps with a tap."
+   },
+   {
+    "name": "Side close side tap",
+    "counts": "side-close-side-tap",
+    "description": "Step away from partner and together, repeating to the side."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Instructors face away from the camera, allowing easy mirroring.",
+    "Clear counting and verbal descriptions matched to movements."
+   ],
+   "what_hinders": [
+    "No music during the breakdown section."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:30",
+    "text": "To make it easy, we're going to have our backs to you."
+   },
+   {
+    "t": "2:46",
+    "text": "5-6-7 and 1-2-3 and kick."
+   },
+   {
+    "t": "3:13",
+    "text": "Great work, well done!"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 32,
+    "end_s": 60,
+    "topic": "teaching",
+    "observation": "Instructors stand with their backs to the camera holding hands and walking forward on counts.",
+    "viewpoint": "back view, unmirrored",
+    "cannot_infer": "exact weight distribution",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Teaching entirely from behind with backs to the camera to facilitate direct mirroring for beginners."
+ },
+ "attempts": 2
 }

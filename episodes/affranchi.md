@@ -1,6 +1,6 @@
 # Affranchi — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.3 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-27 · judge 9.3 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -11,8 +11,7 @@
 ## Episode 1 · Meet Affranchi · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: This is Affranchi. Dance of the Free People of Color.
-NARRATION: From the colonial era to the present.
+NARRATION: This is Affranchi, the dance of the free people of color, spanning from the colonial era to the present.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Affranchi · Haiti · colonial era to present
 MUSIC: theme (30 s)
@@ -67,16 +66,15 @@ ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Affranchi is a sibling of tumba francesa. It shares African improvisation but uses drums and was developed in Cuba by Haitian refugees.
+NARRATION: Affranchi is a sibling of tumba francesa, sharing African improvisation but using drums, and developed in Cuba by Haitian refugees.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, try one step.
-NARRATION: Perform French-style figures with a straight back and held torso in line or square formation.
+NARRATION: Before we go, try one step. Perform French-style figures with a straight back and held torso in line or square formation.
 NARRATION: Transition to African-styled improvisation in the final set.
-NARRATION: Count it.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -84,7 +82,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore Affranchi, a Haitian dance blending French formality and African improvisation, revived in the 1950s with new rhythms.
-NARRATION: Sources: 2 references are listed with the profile.
+NARRATION: Two references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -98,8 +96,8 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: straight-backed, held torso
-NARRATION: held torso during French-style figures, freer movement during improvisation
+NARRATION: Keep a straight back and held torso.
+NARRATION: Hold your torso during French-style figures and use freer movement during improvisation.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -164,8 +162,8 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: straight-backed, held torso
-NARRATION: held torso during French-style figures, freer movement during improvisation
+NARRATION: Keep a straight back and held torso.
+NARRATION: Hold your torso during French-style figures and use freer movement during improvisation.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -186,8 +184,8 @@ ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: French-style figures are formal, upright movements with a held torso.
-NARRATION: African improvisation involves free, expressive movements in the final set.
+NARRATION: French-style figures use formal, upright movements with a held torso.
+NARRATION: African improvisation uses free, expressive movements in the final set.
 NARRATION: Drill: Practice transitioning from figures to improvisation.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
@@ -232,8 +230,8 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: straight-backed, held torso
-NARRATION: held torso during French-style figures, freer movement during improvisation
+NARRATION: Keep a straight back and held torso.
+NARRATION: Hold your torso during French-style figures and use freer movement during improvisation.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -254,8 +252,8 @@ ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: French-style figures are formal, upright movements with a held torso.
-NARRATION: African improvisation involves free, expressive movements in the final set.
+NARRATION: French-style figures use formal, upright movements with a held torso.
+NARRATION: African improvisation uses free, expressive movements in the final set.
 NARRATION: Drill: Develop personal improvisational style.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
@@ -313,9 +311,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
+Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
 
 Sources (2): https://en.wikipedia.org/wiki/Affranchi_(dance); https://www.wikidata.org/wiki/Q16147009

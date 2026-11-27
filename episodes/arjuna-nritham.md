@@ -1,8 +1,8 @@
 # Arjuna Nritham — episode pack
 
-*Status: withheld-chapters · built 2026-11-26 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful community practitioner from south Kerala explaining the sacred link between rhythm, epic narrative, and devotion.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dancing Warrior of Bhadrakali
 NARRATION: This is Arjuna Nritham. Ancient / Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ot3_6vl-Jg0)
 ON SCREEN: Title card: Arjuna Nritham · India · Ancient / Traditional
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance movements are known as Pyattu and draw directly from the ma
 NARRATION: Executed solo or in pairs during all-night performances, the dance is strictly tied to rhythmic songs called Kavithangal.
 NARRATION: Dancers verbally explain the specific rhythmic structure of each song to the gathered audience before physically translating those drum patterns into stepping and stance sequences.
 NARRATION: Watch for Pyattu.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ot3_6vl-Jg0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo or paired formations within Bhagavathy temple courtyards
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ot3_6vl-Jg0', 'checked_by_vision_model': True, 'title': 'അർജുന നൃത്തം | Arjuna Nritham | Virtual Onam 2021 | Kerala Tourism'}
 Images: 1 licensed — Manoj Karingamadathil / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Vibrant green facial makeup catching temple oil lamp light, Swirling peacock-feather mayilppeeli waist skirts, Brass ilathalam cymbals shimmering in night performances
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
+Source: 20 tutorial(s) of the ritual-sacred family studied · videos studied: 20
 Counting: count the Varies according to specific Kavitham rhythm compositions explained by the dancer bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; 1-2-3; 1 and 2; criss-cross now; forward and back; plant the left foot
 
 Sources (2): https://en.wikipedia.org/wiki/Mayilpeeli_Thookkam; https://www.wikidata.org/wiki/Q6797297

@@ -38,6 +38,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Malay_gamelan",
   "wikidata_qid": "Q6741534",
   "unesco": false,
+  "hero_video_youtube_id": "QQhMEHRQLOc",
+  "video_stack": [
+   {
+    "youtube_id": "QQhMEHRQLOc",
+    "role": "hero",
+    "title": "Lagu Gamelan Terengganu, Timang Burung oleh  Wan Salmah Sulaiman.",
+    "channel": "King Playground",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -141,7 +151,13 @@
   ],
   "needs_eyes_on": true,
   "movie_ready": false,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:17:23Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -433,7 +449,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 12,
   "of": 15,
   "missing": [
    {
@@ -443,10 +459,6 @@
    {
     "key": "rhythm",
     "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    },
    {
     "key": "study_video",
@@ -459,11 +471,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/malay-gamelan.json"
  },
- "fingerprint": "d172460a5f717628",
- "updated": "2026-11-26"
+ "fingerprint": "4b63b5b89828146a",
+ "updated": "2026-11-27"
 }

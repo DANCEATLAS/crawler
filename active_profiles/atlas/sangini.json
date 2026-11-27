@@ -1,0 +1,136 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding plates (Diyo) or supporting the Kalash",
+      "difficulty": "intermediate",
+      "footwork": "Slow, rhythmic steps following a circular path",
+      "formation_and_space": "Circular formation in courtyards or temples",
+      "hips_and_torso": "Stable and controlled",
+      "levels_and_jumps": "None",
+      "partnering": "None",
+      "posture": "Erect and steady to support head-loading",
+      "signature_moves": [
+        {
+          "description": "Moving while keeping a copper water vessel steady on the crown of the head.",
+          "name": "Kalash Balancing"
+        }
+      ],
+      "tempo_feel": "Slow and deliberate",
+      "what_to_avoid": "Sudden head movements or jerky steps that would displace the balanced ritual objects."
+    },
+    "music_profile": {
+      "instruments": [
+        "None (vocal only)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "devotional",
+        "melancholic",
+        "celebratory",
+        "rhythmic"
+      ],
+      "musical_form": "Sangini songs",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A purely vocal performance where a group of women sing in unison or call-and-response patterns. The sound is characterized by the absence of drums or melodic instruments, relying on the natural resonance of the singers' voices in an outdoor setting.",
+      "tempo_bpm": "",
+      "vocal_style": "Group singing by the dancers themselves"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Maintain an upright posture to balance a vessel on the head",
+        "Step in a slow, rhythmic circular path",
+        "Coordinate hand movements while holding a ritual plate",
+        "Sing the Sangini melody in unison with the group"
+      ],
+      "formation": "Circle",
+      "level_notes": "Requires high level of balance and vocal coordination.",
+      "rhythm": "Vocal-led rhythmic meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "dbd1316972f9f5cb18882393f55fc074ab2bceeecd221e5b7b8027f53cc43399",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific song structures (verse-chorus or call-and-response) that dictate the dance's direction changes? Evidence needed: https://en.wikipedia.org/wiki/Sangini"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns and synchronization counts used by the dancers? Evidence needed: https://en.wikipedia.org/wiki/Sangini"
+    ]
+  },
+  "id": "atlas:sangini",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Sangini",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "6ad9c3a7b2148979",
+      "next_evidence": "https://en.wikipedia.org/wiki/Sangini",
+      "question": "What are the specific footwork patterns and synchronization counts used by the dancers?",
+      "source": "https://en.wikipedia.org/wiki/Sangini",
+      "status": "candidate_unreviewed",
+      "why_needed": "To create an accurate instructional model, the exact stepping pattern (e.g., 4-step or 6-step) must be known."
+    },
+    {
+      "domain": "research",
+      "id": "d4064cf0985dfc71",
+      "next_evidence": "https://en.wikipedia.org/wiki/Sangini",
+      "question": "Are there specific song structures (verse-chorus or call-and-response) that dictate the dance's direction changes?",
+      "source": "https://en.wikipedia.org/wiki/Sangini",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources state dancers sing their own music; understanding the musical cue for movement changes is vital for teaching."
+    }
+  ],
+  "research_file": "research_results/sangini.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "sangini",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sangini",
+    "https://www.wikidata.org/wiki/Q7418014"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

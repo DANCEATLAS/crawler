@@ -1,8 +1,8 @@
 # Raut Nacha — episode pack
 
-*Status: draft · built 2026-11-26 · judge 7.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 7.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; signature moves; the music & instruments section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; signature moves; the music & instruments section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An ethnographer or community member familiar with Chhattisgarh folk traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Raut Nacha: Diwali in the Village Pathways
 NARRATION: This is Raut Nacha. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ELhyoKGRmeI)
 ON SCREEN: Title card: Raut Nacha · India · 20th century
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage: Raut Nacha- Folk Dance of Cowherd Community- Film by Pankaj 
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ELhyoKGRmeI)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: group dance in village pathways
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -275,7 +275,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: During the dance, the Rauts wear a special costume. The performance takes place outdoors in the village pathways.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ELhyoKGRmeI', 'checked_by_vision_model': True, 'title': 'Raut nacha😍cg song dance performance ।। B.S.P. H.S. School Hirri Mines✨'}
 Images: 1 licensed — Atulsirmour / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Raut Nacha- Folk Dance of Cowherd Community- Film by Pankaj Oudhia — https://archive.org/details/RautNacha-FolkDanceOfCowherdCommunity-FilmByPankajOudhia_fckKwBwI8sI
 Motifs: village pathways, special costumes, sticks in hands
@@ -285,9 +285,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
+Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
 
 Sources (2): https://en.wikipedia.org/wiki/Raut_(caste); https://www.wikidata.org/wiki/Q19895794

@@ -1,6 +1,6 @@
 # siciliana — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -301,7 +301,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the classical-court family studied · videos studied: 18
+Source: 19 tutorial(s) of the classical-court family studied · videos studied: 19
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow

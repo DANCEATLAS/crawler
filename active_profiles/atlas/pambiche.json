@@ -1,0 +1,157 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Slower tempo compared to standard merengue",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "tambora",
+        "accordion"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "slower",
+        "rhythmic"
+      ],
+      "musical_form": "Slower-tempo variant of merengue típico",
+      "reference_recordings": [
+        {
+          "artist": "Juan Luis Guerra",
+          "title": "Juana Mecho"
+        },
+        {
+          "artist": "Juan Luis Guerra",
+          "title": "Pambiche de novia"
+        },
+        {
+          "artist": "Rafael Solano",
+          "title": "Dominicanita"
+        },
+        {
+          "artist": "Vicente García",
+          "title": "Palm Beach"
+        },
+        {
+          "artist": "Luys Bien",
+          "title": "Déjame Nacer"
+        },
+        {
+          "artist": "Traditional",
+          "title": "Juan Gomero"
+        }
+      ],
+      "rhythm_pattern": "Tambora rhythm based on the cinquillo",
+      "sound_description": "A slower-tempo adaptation of merengue típico characterized prominently by a tambora beat based on the cinquillo pattern, frequently featuring accordion or orchestral instrumentation.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "Considered one of the most difficult Americanized Latin American dances.",
+      "rhythm": "Slower tempo than standard merengue; tambora rhythm based on the cinquillo."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "b77aa253d0a0421a0e5f8aaaac97ca09779225191b5aa9d64208b16ad6594b21",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific step mechanics and partner connections that make pambiche one of the most difficult Americanized Latin American dances? Evidence needed: Video documentation and instructional breakdowns from Dominican dance ethnographers or traditional instructors."
+    ]
+  },
+  "id": "atlas:pambiche",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Pambiche",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "abd4d8289180fa10",
+      "next_evidence": "Video documentation and instructional breakdowns from Dominican dance ethnographers or traditional instructors.",
+      "question": "What are the specific step mechanics and partner connections that make pambiche one of the most difficult Americanized Latin American dances?",
+      "source": "https://en.wikipedia.org/wiki/Pambiche",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement technical details are absent from available textual sources, preventing accurate motion profiling or instruction."
+    }
+  ],
+  "research_file": "research_results/pambiche.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "pambiche",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pambiche",
+    "https://www.wikidata.org/wiki/Q7129072"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

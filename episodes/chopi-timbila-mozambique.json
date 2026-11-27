@@ -1,0 +1,841 @@
+{
+ "slug": "chopi-timbila-mozambique",
+ "name": "Chopi Timbila",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:05Z",
+ "researched_at": "2026-11-27T20:03:47Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A Timbila Master (Mestre), focused on the precision of the rhythm and the historical weight of the warrior steps.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Chopi Timbila",
+   "Timbila",
+   "Mbila",
+   "Ngodo"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Chopi Timbila",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Xylophone Warriors of Zavala",
+     "This is Chopi Timbila. Pre-colonial (documented since 1586; UNESCO 2005)."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (m0sjkbbe7X8)",
+     "Title card: Chopi Timbila · Mozambique · Pre-colonial (documented since 1586; UNESCO 2005)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The tradition dates back to at least the 1400s in coastal Mozambique, where Chopi ancestors experimented with wooden percussion.",
+     "The specific choreographic motifs—including the use of shields and spears—were heavily influenced by 19th-century conflicts with the Zulu people.",
+     "The Mozambican Civil War (1975–1992) significantly disrupted the practice, leading to its current status as an endangered heritage."
+    ],
+    "on_screen": [
+     "Map: Mozambique · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Timbila is performed at weddings and community gatherings to chronicle local history and social issues.",
+     "The m’zeno song within the dance serves as a humorous and sarcastic critique of contemporary life.",
+     "It is a primary marker of Chopi identity and cultural independence.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers perform in groups of two to twelve in a line or formation in front of the xylophone orchestra.",
+     "The movement style is described as 'warrior-like,' featuring rhythmic steps that synchronize with the complex polyrhythms of the timbila.",
+     "Dancers often carry shields and spears, using them to punctuate the rhythm.",
+     "Watch for Warrior Step, M'zeno Song Accompaniment."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (m0sjkbbe7X8)",
+     "Captions name each signature move as it appears",
+     "Formation: Linear or small group formation (2-12 people) positioned in front of the seated orchestra."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is produced by an orchestra of 5 to 30 timbila xylophones.",
+     "These are made from mwenje wood with calabash resonators.",
+     "Listen for the Chilanzane (xylophone), Debiinda (xylophone), Chikhulu (xylophone), Calabash resonators.",
+     "The pulse is Complex/Polyrhythmic.",
+     "A rich, buzzing nasal sound produced by wooden slats over calabash resonators. The music is characterized by dense polyrhythms where the orchestra creates a wall of sound with varying pitches and registers."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Independent rhythms for left and right hands; 9-10 movement structure (ngodo)"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear costumes inspired by Zulu military dress, which may include animal skins or fibers.",
+     "Key props include shields, spears, and wooden clubs (head-breakers).",
+     "Performances typically take place in open community spaces during weddings or social events, with the orchestra seated and the dancers positioned prominently in front."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The tradition is maintained by 'timbila masters' (mestres musicais), who are responsible for both the complex craftsmanship of the instruments and the composition of new musical works each year.",
+     "While centered in the Zavala district of Inhambane, the term 'mbila' or 'timbila' is used across Southern Africa to refer to various xylophones and lamellophones, such as the Venda 'mbila dza madeza' in South Africa.",
+     "The tradition is traditionally passed from father to son through apprenticeship."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Chopi Timbila is influence of Xibelani: Xibelani's history is linked to the early coastal Mozambican tribes and the timbila tradition.",
+     "Chopi Timbila is shares music of Makhwaya: Often performed alongside Timbila in community celebrations."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Warrior stance with shield and spear held ready",
+     "Rhythmic footwork synchronized with the lead xylophone (chilanzane)",
+     "Count it: count the Complex/Polyrhythmic bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the coastal forests of Mozambique, an orchestra of thirty xylophones powers a dance that turns 19th-century warfare into a living community newspaper.",
+     "Sources: 7 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Basic Rhythmic Stepping",
+   "level": "1",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Basic Rhythmic Stepping.",
+      "Level: 1. Difficulty of the dance overall: advanced.",
+      "Your instructor: A Timbila Master (Mestre), focused on the precision of the rhythm and the historical weight of the warrior steps."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Martial and upright; ready for combat-inspired movements.",
+      "Carrying and maneuvering shields, spears, and head-breakers."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Complex/Polyrhythmic bar out loud, then in pairs of bars. The meter is Complex/Polyrhythmic.",
+      "Rhythm pattern: Independent rhythms for left and right hands; 9-10 movement structure (ngodo).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Warrior stance with shield and spear held ready",
+      "Step 2: Rhythmic footwork synchronized with the lead xylophone (chilanzane)",
+      "Footwork from the sources: Rhythmic 'warrior steps' (pas de danses guerriers) that respond to the xylophone strikes.",
+      "Drill: Marching to the pulse of the chilanzane"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Complex/Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Coordinated shield strikes or spear thrusts on specific counts",
+      "Step 4: Slow, solemn walking during the m'zeno song section",
+      "Drill: Holding a prop shield with stability"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Complex/Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinating a single foot strike with a drum beat"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid generic 'folk' movements; the dance must maintain its specific martial and historical character."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic arm movements and shield placements while seated; focus on the m'zeno singing. · For children: A 'follow the leader' game where children mimic the warrior steps of the elders."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic arm movements and shield placements while seated; focus on the m'zeno singing.",
+      "For children: A 'follow the leader' game where children mimic the warrior steps of the elders."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Complex/Polyrhythmic bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Basic Rhythmic Stepping.",
+      "Timbila is performed at weddings and community gatherings to chronicle local history and social issues.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Martial Coordination",
+   "level": "2",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Martial Coordination.",
+      "Level: 2. Difficulty of the dance overall: advanced.",
+      "Your instructor: A Timbila Master (Mestre), focused on the precision of the rhythm and the historical weight of the warrior steps."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Martial and upright; ready for combat-inspired movements.",
+      "Carrying and maneuvering shields, spears, and head-breakers."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Complex/Polyrhythmic bar out loud, then in pairs of bars. The meter is Complex/Polyrhythmic.",
+      "Rhythm pattern: Independent rhythms for left and right hands; 9-10 movement structure (ngodo).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Warrior stance with shield and spear held ready",
+      "Step 2: Rhythmic footwork synchronized with the lead xylophone (chilanzane)",
+      "Drill: Combining warrior steps with spear thrusts"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Complex/Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Coordinated shield strikes or spear thrusts on specific counts",
+      "Step 4: Slow, solemn walking during the m'zeno song section",
+      "Warrior Step: Martial footwork inspired by 19th-century Zulu conflicts.",
+      "M'zeno Song Accompaniment: Slow, solemn movement performed while singing satirical lyrics.",
+      "Drill: Executing the slow-motion walk of the m'zeno"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Complex/Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practicing the call-and-response vocal cues while moving"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid generic 'folk' movements; the dance must maintain its specific martial and historical character."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic arm movements and shield placements while seated; focus on the m'zeno singing. · For children: A 'follow the leader' game where children mimic the warrior steps of the elders."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic arm movements and shield placements while seated; focus on the m'zeno singing.",
+      "For children: A 'follow the leader' game where children mimic the warrior steps of the elders."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Complex/Polyrhythmic bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Linear or small group formation (2-12 people) positioned in front of the seated orchestra."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Martial Coordination.",
+      "The tradition is maintained by 'timbila masters' (mestres musicais), who are responsible for both the complex craftsmanship of the instruments and the composition of new musical works each year.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Polyrhythmic Mastery",
+   "level": "3",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Polyrhythmic Mastery.",
+      "Level: 3. Difficulty of the dance overall: advanced.",
+      "Your instructor: A Timbila Master (Mestre), focused on the precision of the rhythm and the historical weight of the warrior steps."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Martial and upright; ready for combat-inspired movements.",
+      "Carrying and maneuvering shields, spears, and head-breakers."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Complex/Polyrhythmic bar out loud, then in pairs of bars. The meter is Complex/Polyrhythmic.",
+      "Rhythm pattern: Independent rhythms for left and right hands; 9-10 movement structure (ngodo).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Coordinated shield strikes or spear thrusts on specific counts",
+      "Step 2: Slow, solemn walking during the m'zeno song section",
+      "Drill: Dancing against a counter-rhythm in the orchestra"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Complex/Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Warrior Step: Martial footwork inspired by 19th-century Zulu conflicts.",
+      "M'zeno Song Accompaniment: Slow, solemn movement performed while singing satirical lyrics.",
+      "Drill: Performing the full 10-minute ngodo set sequence"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Complex/Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintaining formation while executing high-speed warrior steps"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid generic 'folk' movements; the dance must maintain its specific martial and historical character."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic arm movements and shield placements while seated; focus on the m'zeno singing. · For children: A 'follow the leader' game where children mimic the warrior steps of the elders."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic arm movements and shield placements while seated; focus on the m'zeno singing.",
+      "For children: A 'follow the leader' game where children mimic the warrior steps of the elders."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Complex/Polyrhythmic bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Linear or small group formation (2-12 people) positioned in front of the seated orchestra."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Polyrhythmic Mastery.",
+      "The tradition is traditionally passed from father to son through apprenticeship.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "Complex/Polyrhythmic",
+  "rhythm_pattern": "Independent rhythms for left and right hands; 9-10 movement structure (ngodo)",
+  "instruments": [
+   "Chilanzane (xylophone)",
+   "Debiinda (xylophone)",
+   "Chikhulu (xylophone)",
+   "Calabash resonators",
+   "Beeswax",
+   "Nkuso oil"
+  ],
+  "vocal_style": "Call-and-response; solemn, humorous, and sarcastic lyrics",
+  "musical_form": "Ngodo (9-10 sets/movements)",
+  "mood": [
+   "nasal",
+   "vibrant",
+   "solemn",
+   "sarcastic",
+   "complex"
+  ],
+  "sound_description": "A rich, buzzing nasal sound produced by wooden slats over calabash resonators. The music is characterized by dense polyrhythms where the orchestra creates a wall of sound with varying pitches and registers.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Chopi Timbila (Mozambique). Meter Complex/Polyrhythmic. Rhythm pattern: Independent rhythms for left and right hands; 9-10 movement structure (ngodo). Instruments: Chilanzane (xylophone), Debiinda (xylophone), Chikhulu (xylophone), Calabash resonators, Beeswax, Nkuso oil. Vocal style: Call-and-response; solemn, humorous, and sarcastic lyrics. Form: Ngodo (9-10 sets/movements). Mood: nasal, vibrant, solemn, sarcastic, complex. It should sound like this: A rich, buzzing nasal sound produced by wooden slats over calabash resonators. The music is characterized by dense polyrhythms where the orchestra creates a wall of sound with varying pitches and registers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "m0sjkbbe7X8",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers wear costumes inspired by Zulu military dress, which may include animal skins or fibers. Key props include shields, spears, and wooden clubs (head-breakers). Performances typically take place in open community spaces during weddings or social events, with the orchestra seated and the dancers positioned prominently in front.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AXitsonga-Xibelani-Dancers.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Xitsonga-Xibelani-Dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/Xitsonga-Xibelani-Dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Maxakadzi / Wikimedia Commons / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AXitsonga-Xibelani-Dancers.jpg",
+    "description": "Vatsonga women doing the xibelani dance"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The golden-brown wood of the timbila slats",
+   "The vibration of the calabash resonators",
+   "The silhouette of shields and spears against the Inhambane coast",
+   "Close-ups of hands playing two different rhythms simultaneously"
+  ],
+  "costume_notes": "Dancers wear costumes inspired by Zulu military dress, which may include animal skins or fibers. Key props include shields, spears, and wooden clubs (head-breakers). Performances typically take place in open community spaces during weddings or social events, with the orchestra seated and the dancers positioned prominently in front.",
+  "setting_notes": "Timbila is performed at weddings and community gatherings to chronicle local history and social issues. The m’zeno song within the dance serves as a humorous and sarcastic critique of contemporary life. It is a primary marker of Chopi identity and cultural independence.",
+  "map": {
+   "country": "Mozambique",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
+  "counting": "count the Complex/Polyrhythmic bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "step together step",
+   "1 2 3 4 5 6",
+   "1 2 3 4",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Xibelani_dance",
+  "https://www.wikidata.org/wiki/Q2159891",
+  "https://pt.wikipedia.org/wiki/Mbila",
+  "https://es.wikipedia.org/wiki/Timbila",
+  "https://fr.wikipedia.org/wiki/Timbila",
+  "https://de.wikipedia.org/wiki/Mbila",
+  "https://ich.unesco.org/en/RL/00133"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "98eeb7d7efb45b69a6807a9c54289876621944eb85f875e10d7545fea4ab7a61",
+ "hero_checked": "pass"
+}

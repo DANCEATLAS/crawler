@@ -1,0 +1,120 @@
+{
+ "slug": "sofa-dance",
+ "qc_at": "2026-11-27T20:16:28Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sofa"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "73"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "136"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Sofa translates as father of the horse or guardian of the horse, stemming from t"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "533"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3256"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Senegal, Guinea, Mali, Sierra Leone, Liberia, Ivory Coast"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 5,
+  "verdict": "reject",
+  "notes": "Subject is a historical military institution (slave soldiers), not a dance. Must be rejected as it is not a dance tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=8.3",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-27T20:11:41Z"
+}

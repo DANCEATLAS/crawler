@@ -3,31 +3,31 @@
  "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
  "counts": {
   "topics": 80,
-  "read": 61,
+  "read": 65,
   "next": 6,
-  "waiting": 5,
-  "thin": 5,
+  "waiting": 0,
+  "thin": 7,
   "no_sources": 0,
-  "unanswered": 3,
+  "unanswered": 2,
   "owner_topics": 14,
   "owner_read": 12,
   "papers": 28,
   "papers_shown": 28,
-  "findings_checked": 270,
+  "findings_checked": 285,
   "searches": 50,
-  "searches_asked": 15
+  "searches_asked": 16
  },
  "a_night": {
   "topics": 6,
   "papers": 4
  },
  "next": [
-  "embarrassment_and_body_image",
-  "anxiety_and_confidence",
-  "emotion_and_learning",
-  "identity_and_staying",
-  "human_tutoring",
-  "adaptive_tutors"
+  "virtual_coaches",
+  "mentoring",
+  "deliberate_practice",
+  "adult_learners",
+  "dance_for_everyone",
+  "part_and_whole_practice"
  ],
  "groups": [
   {
@@ -1016,7 +1016,7 @@
     {
      "key": "part_and_whole_practice",
      "name": "part and whole practice",
-     "state": "unanswered",
+     "state": "next",
      "tags": [
       "chunking",
       "layering",
@@ -3482,63 +3482,254 @@
     {
      "key": "embarrassment_and_body_image",
      "name": "embarrassment and body image",
-     "state": "next",
+     "state": "read",
      "tags": [
       "names_the_feeling",
       "dance_is_for_everyone"
+     ],
+     "on": "2026-11-27",
+     "principle": "Body-oriented movement and dance interventions help improve body image, physical efficacy, and embodied awareness.",
+     "for_the_teacher": [
+      "Focus on building the learner's sense of physical efficacy and capability through movement."
+     ],
+     "findings": [
+      {
+       "finding": "Body dissatisfaction is less pronounced in people who exercise compared to those who do not.",
+       "quote": "body dissatisfaction (as one important factor of negative body image) was most pronounced in the non-exercise group compared to all exercise groups",
+       "source": "https://europepmc.org/article/MED/33841251"
+      },
+      {
+       "finding": "Physical efficacy acts as a psychological mediator between exercise types like ballroom dance and body image.",
+       "quote": "Physical efficacy, as assessed with a standardized questionnaire, mediated the difference between type of exercise (using contrasts) and body image including perceptual, cognitive, and affective body image dimensions.",
+       "source": "https://europepmc.org/article/MED/33841251"
+      },
+      {
+       "finding": "Dance and movement therapy shows potential benefits for body image and emotional regulation in eating disorder populations.",
+       "quote": "Evidence in ED populations was more limited but suggested potential benefits for body image, emotional regulation, alexithymia, and subjective well-being.",
+       "source": "https://europepmc.org/article/MED/42109276"
+      },
+      {
+       "finding": "Interventions that incorporate dance and physical activity have positive effects on body image and pain intensity.",
+       "quote": "Interventions including physical activity (N=4) (e.g. aerobic exercise, dance, Pilates) consistently showed positive effects on BI and pain intensity.",
+       "source": "https://europepmc.org/article/MED/41884678"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/33841251",
+       "title": "Yoga, Dance, Team Sports, or Individual Sports: Does the Type of Exercise Matter? An Online Study Investigating the Relationships Between Different Types of Exercise, Body Image, and Well-Being in Regular Exercise Practitioners",
+       "authors": "Marschin V, Herbert C.",
+       "year": "2021",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/42109276",
+       "title": "Dance/movement therapy in psychotic disorders and eating disorders: a systematic review",
+       "authors": "Monaco F, Vignapiano A, Landi S, Panarello E, Malvone R, Pullano I, Fiore G, Iazzolino AM, Steardo L, Sosto G, Corrivetti G.",
+       "year": "2026",
+       "journal": "Frontiers in psychiatry"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/41884678",
+       "title": "Body Image and Body Awareness Interventions in Chronic Pain: A Systematic Review of Effects on Pain-Related Variables and Emotional Distress",
+       "authors": "Navarro-Moreno V, Zamora Á, Herrero R, Miragall M, Parola G, Saccone V, Baños RM.",
+       "year": "2026",
+       "journal": "Journal of pain research"
+      }
      ]
     },
     {
      "key": "anxiety_and_confidence",
      "name": "anxiety and confidence",
-     "state": "next",
+     "state": "read",
      "tags": [
       "names_the_feeling",
       "rest_and_kindness"
+     ],
+     "on": "2026-11-27",
+     "principle": "Performance anxiety involves both mental and physical symptoms that can be managed by helping learners feel more in control.",
+     "for_the_teacher": [
+      "Give learners choices during practice so they feel in control of their learning process.",
+      "Guide learners through deep breaths and mental preparation before trying a challenging sequence.",
+      "Help learners reframe physical nervousness as a natural and potentially helpful state of readiness."
+     ],
+     "findings": [
+      {
+       "finding": "Feeling out of control is a major theme in performance anxiety, and prevention or handling of anxiety can be accomplished by helping individuals feel in control.",
+       "quote": "Feeling out of control emerged as a major theme in both the experience of anxiety and its interpretation. As a result, prevention or handling of anxiety symptoms may be accomplished by helping dancers to feel in control.",
+       "source": "https://europepmc.org/article/MED/21703084"
+      },
+      {
+       "finding": "Cognitive anxiety is unanimously interpreted as harmful to performance, while physical anxiety symptoms are often recognized as potentially beneficial.",
+       "quote": "Results revealed that cognitive anxiety was more dominant than somatic anxiety, and was unanimously interpreted as debilitative to performance. Somatic anxiety was more likely to be interpreted as facilitative, with the majority of dancers recognizing that a certain amount of anxiety could be beneficial to performance.",
+       "source": "https://europepmc.org/article/MED/21703084"
+      },
+      {
+       "finding": "Relaxing the body with deep breaths and mentally preparing oneself are effective ways to treat performance anxiety without medication.",
+       "quote": "Relaxing the body with deep breaths, mentally preparing oneself, and redirecting one's attention are techniques that may help with minimizing stage fright.",
+       "source": "https://en.wikipedia.org/wiki/Stage_fright"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/21703084",
+       "title": "Performance anxiety experiences of professional ballet dancers: the importance of control",
+       "authors": "Walker IJ, Nordin-Bates SM.",
+       "year": "2010",
+       "journal": "Journal of dance medicine & science : official publication of the International Association for Dance Medicine & Science"
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Stage_fright",
+       "title": "Stage fright",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "emotion_and_learning",
      "name": "emotion and learning",
-     "state": "next",
+     "state": "read",
      "tags": [
       "names_the_feeling",
       "fun_and_energy"
+     ],
+     "on": "2026-11-27",
+     "principle": "Emotions and interpersonal interactions significantly influence motor learning and performance, where positive emotions correlate with peak performance and partner-assisted training fosters better outcomes than robotic training.",
+     "for_the_teacher": [
+      "Foster positive emotions and design interactions that encourage social connection to support better motor learning outcomes."
+     ],
+     "findings": [
+      {
+       "finding": "Peak movement responses in a difficult task are positively correlated with positive emotions and negatively correlated with negative emotions.",
+       "quote": "Peak frequency of movement responses was positively correlated with the frequency of positive emotions.",
+       "source": "https://europepmc.org/article/MED/27145099"
+      },
+      {
+       "finding": "Increasing positive emotions and down-regulating negative emotional responses may be important for learning complex tasks.",
+       "quote": "increasing positive emotions, and perhaps down-regulating negative emotional responses, may be important for improving performance and learning a complex operant task in infancy.",
+       "source": "https://europepmc.org/article/MED/27145099"
+      },
+      {
+       "finding": "Partner-assisted training leads to superior motor learning progress, motivation, attention, and positive emotions compared to robot-led training.",
+       "quote": "These findings suggest that partner-assisted training fosters stronger motivation, attention, and positive emotions, contributing to superior outcomes.",
+       "source": "https://europepmc.org/article/MED/40039203"
+      },
+      {
+       "finding": "Motor coordination difficulties can place strain on wellbeing and cause a range of negative emotions when unsupported.",
+       "quote": "motor coordination difficulties impacted upon social and emotional wellbeing by placing strain on relationships, prompting bullying and exclusion, putting safety at risk and causing a range of negative emotions.",
+       "source": "https://europepmc.org/article/MED/37267374"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/27145099",
+       "title": "Implicit learning and emotional responses in nine-month-old infants",
+       "authors": "Angulo-Barroso RM, Peciña S, Lin X, Li M, Sturza J, Shao J, Lozoff B.",
+       "year": "2017",
+       "journal": "Cognition & emotion"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/40039203",
+       "title": "Enhancing Motor Learning Performance by Incorporating Brain-to-brain Coupling with Affective Interaction",
+       "authors": "Pan F, Jia T, Sun J, Wang AY, Ji L, Li C.",
+       "year": "2024",
+       "journal": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/37267374",
+       "title": "From \"one big clumsy mess\" to \"a fundamental part of my character.\" Autistic adults' experiences of motor coordination",
+       "authors": "Gowen E, Earley L, Waheed A, Poliakoff E.",
+       "year": "2023",
+       "journal": "PloS one"
+      }
      ]
     },
     {
      "key": "identity_and_staying",
      "name": "identity and staying",
-     "state": "next",
+     "state": "read",
      "tags": [
       "learner_as_dancer",
       "reason_to_return"
+     ],
+     "on": "2026-11-27",
+     "principle": "Developing an exercise identity through sustained participation and support helps maintain long-term physical activity habits.",
+     "for_the_teacher": [
+      "Use language that reinforces the learner's self-perception as a dancer to build their exercise and movement identity."
+     ],
+     "findings": [
+      {
+       "finding": "Exercise identity is one of the key factors influencing adherence behavior.",
+       "quote": "Results show that three factors were particularly important in influencing adherence behavior: (i) exercise identity, (ii) support and (iii) perceived benefits of attending.",
+       "source": "https://europepmc.org/article/MED/21734226"
+      },
+      {
+       "finding": "Self-perceptions of an exercise identity help influence engagement in physical activity.",
+       "quote": "For previously active individuals, communication factors, self-perceptions of an exercise identity and experience of cardiac rehabilitation influence engagement in physical activity during cardiac rehabilitation.",
+       "source": "https://europepmc.org/article/MED/31612725"
+      },
+      {
+       "finding": "Participation in a supervised exercise intervention can increase women's exercise identity.",
+       "quote": "On average, participants experienced a statistically significant change in exercise identity over the course of the intervention, t (128) = 7.94, p p = .91.",
+       "source": "https://europepmc.org/article/MED/33633498"
+      },
+      {
+       "finding": "Greater change in exercise identity is associated with higher levels of subsequent exercise behavior.",
+       "quote": "As expected, greater change in exercise identity was associated with higher levels of exercise behavior at 6-months post-intervention follow-up",
+       "source": "https://europepmc.org/article/MED/33633498"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/21734226",
+       "title": "Understanding exercise uptake and adherence for people with chronic conditions: a new model demonstrating the importance of exercise identity, benefits of attending and support",
+       "authors": "Pentecost C, Taket A.",
+       "year": "2011",
+       "journal": "Health education research"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/31612725",
+       "title": "A systematic review and thematic synthesis exploring how a previous experience of physical activity influences engagement with cardiac rehabilitation",
+       "authors": "McHale S, Astin F, Neubeck L, Dawkes S, Hanson CL.",
+       "year": "2020",
+       "journal": "European journal of cardiovascular nursing"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/33633498",
+       "title": "Women's exercise identity increases after a 16-week exercise RCT and is linked to behavior maintenance at follow-up",
+       "authors": "Gillman AS, Stevens CJ, Bryan AD.",
+       "year": "2021",
+       "journal": "Psychology of sport and exercise"
+      }
      ]
     },
     {
      "key": "human_tutoring",
      "name": "human tutoring",
-     "state": "next",
+     "state": "thin",
      "tags": [
       "checks_in",
       "regression",
       "progression"
-     ]
+     ],
+     "on": "2026-11-27"
     },
     {
      "key": "adaptive_tutors",
      "name": "adaptive tutors",
-     "state": "next",
+     "state": "thin",
      "tags": [
       "checks_in",
       "regression",
       "progression"
-     ]
+     ],
+     "on": "2026-11-27"
     },
     {
      "key": "virtual_coaches",
      "name": "virtual coaches",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "checks_in",
       "reason_to_return"
@@ -3547,7 +3738,7 @@
     {
      "key": "mentoring",
      "name": "mentoring",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "own_story",
       "long_road"
@@ -3556,7 +3747,7 @@
     {
      "key": "deliberate_practice",
      "name": "deliberate practice",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "long_road",
       "repetition"
@@ -3565,7 +3756,7 @@
     {
      "key": "adult_learners",
      "name": "adult learners",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "long_road",
       "autonomy"
@@ -3574,7 +3765,7 @@
     {
      "key": "dance_for_everyone",
      "name": "dance for everyone",
-     "state": "waiting",
+     "state": "next",
      "tags": [
       "dance_is_for_everyone",
       "body_adaptation"
@@ -4801,6 +4992,6 @@
    ]
   }
  ],
- "fingerprint": "ad7d972c1f57cbf2",
- "updated": "2026-11-26"
+ "fingerprint": "6fc966504b920981",
+ "updated": "2026-11-27"
 }

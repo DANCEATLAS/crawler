@@ -120,6 +120,19 @@
     "hd"
    ]
   },
+  "tutorials": [
+   {
+    "youtube_id": "D4DHH5cZKM4",
+    "title": "TUTORIAL DE REDOVA... DANZA PAISA",
+    "channel": "De Danza Por Colombia",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "waltz",
    "mazurka",
@@ -326,7 +339,7 @@
   "of": 15,
   "via": {
    "posture": "performance",
-   "signature_moves": "performance",
+   "signature_moves": "lesson",
    "study_video": "lesson"
   }
  },
@@ -349,6 +362,127 @@
    ],
    "teacher_style": "The instructor uses a narrative, historical presentation style with voiceover commentary. Visual aids include archival illustrations, historical maps, and performance footage.",
    "distinctive_method": "Focuses on historical context and regional traditions rather than direct physical instruction.",
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
+   "youtube_id": "J_3O_KBCfBU",
+   "url": "https://www.youtube.com/watch?v=J_3O_KBCfBU",
+   "title": "La redova de San Félix, pasos básicos, tutorial",
+   "channel": "ESTEBAN ARREDONDO",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "Spanish",
+   "counting_scheme": "1-2-1-2-3-1",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher introduces the basic steps of La Redova de San Félix with a partner."
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates the first step (paso basico de pasito)."
+    },
+    {
+     "t": "0:28",
+     "seconds": 28,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates the second step (basico de la redova)."
+    },
+    {
+     "t": "0:50",
+     "seconds": 50,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates step with hands in prioma."
+    },
+    {
+     "t": "1:04",
+     "seconds": 64,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates step metiendo la cadera."
+    },
+    {
+     "t": "1:18",
+     "seconds": 78,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates step starting with left foot and media vuelta."
+    },
+    {
+     "t": "1:38",
+     "seconds": 98,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates el cruzado step."
+    },
+    {
+     "t": "2:01",
+     "seconds": 121,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates la vuelta with three steps and foot contact."
+    },
+    {
+     "t": "2:29",
+     "seconds": 149,
+     "segment": "music_practice",
+     "note": "Demonstration of all steps combined with live music accompaniment."
+    }
+   ],
+   "steps": [
+    {
+     "name": "paso basico de pasito",
+     "counts": "1-2-1-3-1",
+     "description": "Basic walking step with alternating feet."
+    },
+    {
+     "name": "basico de la redova",
+     "counts": "1-2-1-3-1",
+     "description": "Basic redova step progression."
+    },
+    {
+     "name": "cruzado",
+     "counts": "1-2-1-3-1",
+     "description": "Crossed step pattern."
+    }
+   ],
+   "cues": [
+    "un, dos, un, tres, un",
+    "música"
+   ],
+   "teacher_style": "The instructor demonstrates basic steps with a partner while explaining counts and footwork verbally to seated students. He breaks down each basic step sequentially before performing them with music.",
+   "distinctive_method": "Structuring the lesson into discrete numbered basic steps demonstrated with a partner before a final musical walkthrough.",
+   "what_works": [
+    "Step-by-step sequential breakdown of each variation",
+    "Clear verbal counting synchronized with footwork"
+   ],
+   "what_hinders": [
+    "Students are seated watching rather than following along interactively"
+   ],
+   "evidence": [
+    {
+     "start_s": 9,
+     "end_s": 27,
+     "topic": "movement",
+     "observation": "Teacher and partner demonstrate footwork holding hands while counting aloud.",
+     "viewpoint": "front view, not mirrored",
+     "cannot_infer": "exact weight distribution on foot strikes",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 40,
+     "end_s": 50,
+     "topic": "movement",
+     "observation": "Partners step side to side keeping upper body upright.",
+     "viewpoint": "front view, not mirrored",
+     "cannot_infer": "exact foot placement details due to distance",
+     "verification": "model_candidate"
+    }
+   ],
    "seen": {
     "from_s": 0,
     "to_s": 480,
@@ -415,6 +549,6 @@
   "polished": false,
   "file": "episodes/redowa.json"
  },
- "fingerprint": "46f3689accfa37fc",
- "updated": "2026-11-26"
+ "fingerprint": "2b3b1e92253a9842",
+ "updated": "2026-11-27"
 }

@@ -1,6 +1,6 @@
 # Bergamask — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
 
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
+Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
 
 Sources (6): https://en.wikipedia.org/wiki/Bergamask; https://www.wikidata.org/wiki/Q819325; https://it.wikipedia.org/wiki/Bergamasca_(danza); https://es.wikipedia.org/wiki/Bergamasca; https://fr.wikipedia.org/wiki/Bergamasque_(danse); https://de.wikipedia.org/wiki/Bergamasca

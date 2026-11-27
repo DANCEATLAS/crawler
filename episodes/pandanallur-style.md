@@ -1,8 +1,8 @@
 # Pandanallur style — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); signature moves; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); signature moves; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rigorous traditional nattuvanar or lineage disciple emphasizing exactness and acoustic control
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Geometry of Silence: Inside the Pandanallur Style
 NARRATION: This is Pandanallur style. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (uGG2PjfPt2A)
 ON SCREEN: Title card: Pandanallur style · India · 19th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Danced through rigorous adavu techniques emphasizing linear geometry.
 NARRATION: Hard floor stamping is replaced by controlled slow movements that maximize the acoustic output of the salangai ankle bells.
 NARRATION: Every step is distinctly marked with exactness and accuracy to achieve rhythmic vitality.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (uGG2PjfPt2A)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: linear geometry found in adavu technique
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -73,7 +73,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Linear adavu execution focusing on geometric spatial accuracy
 NARRATION: Controlled slow movements utilizing the salangai ankle bells
-NARRATION: Count it: .
+NARRATION: Count it: taiyum-tat-tat-taiyum-taha.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -101,7 +101,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: taiyum-tat-tat-taiyum-taha.
 NARRATION: Rhythm pattern: abstract adavu choreography.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -114,15 +114,17 @@ NARRATION: Step 1: Linear adavu execution focusing on geometric spatial accuracy
 NARRATION: Step 2: Controlled slow movements utilizing the salangai ankle bells
 NARRATION: Footwork from the sources: strong footwork, where every step is marked
 NARRATION: Drill: Foot placement accuracy exercises
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: taiyum-tat-tat-taiyum-taha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Marked footwork steps maintaining exact rhythmic vitality
 NARRATION: Drill: Basic postural alignment checks
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: taiyum-tat-tat-taiyum-taha · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,7 +142,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body adavu and hand gesture practice · For children: Rhythmic bell-ringing game focusing on controlled slow steps (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: taiyum-tat-tat-taiyum-taha.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -170,7 +172,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: taiyum-tat-tat-taiyum-taha.
 NARRATION: Rhythm pattern: abstract adavu choreography.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -182,15 +184,17 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Linear adavu execution focusing on geometric spatial accuracy
 NARRATION: Step 2: Controlled slow movements utilizing the salangai ankle bells
 NARRATION: Drill: Slow tempo weight transfer drills
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: taiyum-tat-tat-taiyum-taha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Marked footwork steps maintaining exact rhythmic vitality
 NARRATION: Drill: Ankle bell acoustic control practice
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: taiyum-tat-tat-taiyum-taha · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -208,7 +212,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body adavu and hand gesture practice · For children: Rhythmic bell-ringing game focusing on controlled slow steps (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: taiyum-tat-tat-taiyum-taha.
 NARRATION: Full tempo, the whole sequence, twice. Formation: linear geometry found in adavu technique
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -238,7 +242,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: taiyum-tat-tat-taiyum-taha.
 NARRATION: Rhythm pattern: abstract adavu choreography.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -250,14 +254,16 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Controlled slow movements utilizing the salangai ankle bells
 NARRATION: Step 2: Marked footwork steps maintaining exact rhythmic vitality
 NARRATION: Drill: Micro-expression facial training
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: taiyum-tat-tat-taiyum-taha · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Swara passage rhythmic integration
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: taiyum-tat-tat-taiyum-taha · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -276,7 +282,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body adavu and hand gesture practice · For children: Rhythmic bell-ringing game focusing on controlled slow steps (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: taiyum-tat-tat-taiyum-taha.
 NARRATION: Full tempo, the whole sequence, twice. Formation: linear geometry found in adavu technique
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -303,7 +309,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'uGG2PjfPt2A', 'checked_by_vision_model': True, 'title': 'Tlllana Pandanallur style by  Anurupa Aravind'}
 Images: 0 licensed
 Footage: Lecture demonstration on Pandanallur style of Bharatanatyam (Vol. I) — https://archive.org/details/dni.ncaa.IGNCA-170-UM; Lecture demonstration on Pandanallur style of Bharatanatyam (Vol. VIII) — https://archive.org/details/dni.ncaa.IGNCA-177-UM; Lecture demonstration on Pandanallur style of Bharatanatyam (Vol. X) — https://archive.org/details/dni.ncaa.IGNCA-179-UMHB; Lecture demonstration on Pandanallur style of Bharatanatyam (Vol. II) — https://archive.org/details/dni.ncaa.IGNCA-171-UM; Lecture demonstration on Pandanallur style of Bharatanatyam by Guru Subbarayya Pillai (Vol. I) — https://archive.org/details/dni.ncaa.IGNCA-182-UMHB
 Motifs: Salangai ankle bells ringing during slow movements, Linear geometric lines traced by dancer's limbs
@@ -313,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the classical-court family studied · videos studied: 18
-Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: taiyum-tat-tat-taiyum-taha
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: taiyum tat tat taiyum taha; that that
 
 Sources (2): https://en.wikipedia.org/wiki/Pandanallur_style; https://www.wikidata.org/wiki/Q7130489

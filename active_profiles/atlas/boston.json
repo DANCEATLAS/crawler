@@ -1,13 +1,89 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex turns",
+          "Closed-position partnering that requires rigid posture"
+        ],
+        "counts": "1-2-3 (Step-Slide-Pause)",
+        "duration_minutes": "5",
+        "game_version": "A 'follow-the-leader' gliding game where children move in a slow 3/4 rhythm."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping or sudden changes in direction",
+          "Deep knee bends (Dips) that strain the joints"
+        ],
+        "counts": "Use a simplified 1-2-3 count.",
+        "seated_version": "Perform the arm and torso movements while seated, focusing on the rhythmic 3/4 pulse.",
+        "standing_version": "Use a chair for support while practicing the slow, gliding weight transfers.",
+        "tempo_and_range": "Reduce tempo to a comfortable pace; limit range of motion to small, controlled steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Long sliding steps; weight kept on the same foot through two successive beats in the original version",
+      "formation_and_space": "Straight lines or turning",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Closed couple",
+      "posture": "Closed couple position",
+      "signature_moves": [
+        {
+          "description": "Steps of the dance were accentuated through a bend of the knees, with the center of gravity dipping.",
+          "name": "Boston Dip"
+        }
+      ],
+      "tempo_feel": "Slow, gliding",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "3/4",
+      "mood_keywords": [
+        "elegant",
+        "relaxing",
+        "sophisticated"
+      ],
+      "musical_form": "Slow waltz tempo",
+      "reference_recordings": [
+        {
+          "artist": "Alexander Jakowlewitsch Rosenbaum",
+          "title": "Wals-boston"
+        },
+        {
+          "artist": "From the operetta Der Vetter aus Dingsda",
+          "title": "Strahlender Mond"
+        }
+      ],
+      "rhythm_pattern": "Emphasis on the first beat of the measure",
+      "sound_description": "A slow, flowing 3/4 time signature characterized by a strong emphasis on the first beat, often featuring melodic lines that contrast with the steady, rhythmic pulse.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Closed couple hold",
+        "Long sliding step on the first beat",
+        "Weight transfer on subsequent beats",
+        "Optional knee bend (Dip) for accentuation"
+      ],
+      "formation": "Closed couple",
+      "level_notes": "Considered easier to learn than the traditional waltz.",
+      "rhythm": "Slow 3/4 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "005206cc1541deae8c0f26bace51321e06c6edb65e3a44c3b9cede97ea95ed4c",
+  "fingerprint": "9bf81a5df7c7340756eaf8ab13921278b5119f4f9c7165721d9990e5bef8b7dd",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +91,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there surviving instructional manuals or dance notation records from the 1895-1907 period that detail the specific footwork for the 'Five-Step' or 'Dip' variations? Evidence needed: Historical dance manuals from the early 20th century."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +120,18 @@
   ],
   "music_options": [],
   "name": "Boston",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "056c5f96b296b123",
+      "next_evidence": "Historical dance manuals from the early 20th century.",
+      "question": "Are there surviving instructional manuals or dance notation records from the 1895-1907 period that detail the specific footwork for the 'Five-Step' or 'Dip' variations?",
+      "source": "https://fr.wikipedia.org/wiki/Boston_(danse)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate pedagogical steps for the variations mentioned in the sources."
+    }
+  ],
+  "research_file": "research_results/boston.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +143,12 @@
   "slug": "boston",
   "sources": [
     "https://en.wikipedia.org/wiki/Boston_(dance)",
-    "Source: Boston (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Boston_(dance)"
+    "https://www.wikidata.org/wiki/Q841788",
+    "https://fr.wikipedia.org/wiki/Boston_(danse)",
+    "https://de.wikipedia.org/wiki/Boston_(Tanz)",
+    "https://archive.org/details/storyoflittlebla1903bann",
+    "https://archive.org/details/serbocroatianfol00bart",
+    "https://archive.org/details/jamaicaanansisto00beck"
   ],
   "state": "researching",
   "video_evidence": []

@@ -1,0 +1,136 @@
+{
+ "youtube_id": "yy4buT2AYvk",
+ "slug": "two-step",
+ "dance": "Two-step",
+ "title": "The Best Beginner Country Two Step Dance Moves!",
+ "channel": "Social Dance Online",
+ "viewer_ratio": 2.0,
+ "analysed_at": "2026-11-27T20:48:41Z",
+ "url": "https://www.youtube.com/watch?v=yy4buT2AYvk",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructors teach as a pair with an energetic, clear, and methodical breakdown of country two-step fundamentals. They divide explanations into leader and follower perspectives with structured step-by-step guidance.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction of instructors and the dance style."
+   },
+   {
+    "t": "0:30",
+    "segment": "breakdown",
+    "note": "Breakdown of the basic steps, timing, and frame for leaders."
+   },
+   {
+    "t": "1:48",
+    "segment": "breakdown",
+    "note": "Breakdown of framing and holds for both leaders and followers."
+   },
+   {
+    "t": "4:00",
+    "segment": "breakdown",
+    "note": "Introduction and breakdown of the promenade position."
+   },
+   {
+    "t": "6:15",
+    "segment": "breakdown",
+    "note": "Breakdown of the first half of the couples turn."
+   }
+  ],
+  "counting_scheme": "quick-quick-slow-slow",
+  "cues": [
+   "Quick quick slow slow",
+   "Don't wobble back and forth",
+   "Stay straight in your window"
+  ],
+  "metaphors": [
+   "Towels on a towel bar"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "mirror"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Stepping on partner's toes",
+   "Wobbling back and forth",
+   "Leaning down on partner's arm"
+  ],
+  "safety": [
+   "Swing your leg back so you don't get stepped on"
+  ],
+  "steps_taught": [
+   {
+    "name": "Basic Step",
+    "counts": "quick-quick-slow-slow",
+    "description": "Four walking steps in quick-quick-slow-slow rhythm."
+   },
+   {
+    "name": "Promenade",
+    "counts": "quick-quick-slow-slow",
+    "description": "Traveling variation in frame on a diagonal."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Separating leader and follower instructions clearly",
+    "Demonstrating timing with both count names and physical steps"
+   ],
+   "what_hinders": [
+    "Rapid transitions between technical alignment terms without immediate floor drill"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:03",
+    "text": "Two-step."
+   },
+   {
+    "t": "1:03",
+    "text": "The rhythm or timing of basic two step is quick-quick-slow-slow."
+   },
+   {
+    "t": "2:41",
+    "text": "I call this towel on a towel bar."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 30,
+    "end_s": 47,
+    "topic": "movement",
+    "observation": "Leader demonstrates basic footwork alone facing forward.",
+    "viewpoint": "front",
+    "cannot_infer": "follower weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 150,
+    "end_s": 170,
+    "topic": "teaching",
+    "observation": "Instructors demonstrate hand placement for the couple's frame.",
+    "viewpoint": "front",
+    "cannot_infer": "exact tension in the hold",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using visual imagery like the 'towel bar' to explain arm height and spatial framing."
+ },
+ "attempts": 1
+}

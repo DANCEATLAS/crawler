@@ -1,0 +1,854 @@
+{
+ "slug": "gending-sriwijaya",
+ "name": "Gending Sriwijaya",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:05Z",
+ "researched_at": "2026-11-27T19:53:04Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A master Palembang dance artist skilled in court rituals and historical South Sumatran traditions.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Gending Sriwijaya"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Gending Sriwijaya",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Golden Welcoming of Srivijaya",
+     "This is Gending Sriwijaya. 1940s (1943–1944)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Gending Sriwijaya · Indonesia · 1940s (1943–1944)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Gending Sriwijaya was created between 1943 and 1944 during the Japanese occupation era to meet a government request to the Information Bureau (Hatching) for a dance and song to welcome official visitors to the Palembang Residency in South Sumatra, Indonesia.",
+     "The dance choreography was developed by Tina Haji Gong and Sukadan A. Rozak, who drew upon existing traditional Palembang dance elements."
+    ],
+    "on_screen": [
+     "Map: Indonesia · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Gending Sriwijaya is a ceremonial welcoming dance designed to demonstrate hospitality, sincerity, and cultural refinement.",
+     "It is performed before heads of state, foreign ambassadors, ministers, kings, queens, and VIP guests during state dinners, luncheons, and official receptions.",
+     "The central ritual—the offering of betel nut (bersirih or menginang)—re-enacts court traditions once reserved for royal princesses.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is based on the simpler Tanggai dance and models a traditional court welcoming protocol.",
+     "A troupe of nine female dancers—representing Srivijaya princesses—performs alongside two male guards (pengawal) carrying yellow parasols and gilded spears.",
+     "At the center of the formation is a prime lady who wears the most elaborate costume and holds a tepak container filled with betel leaf, areca nut, and slaked lime (Sekapur Sirih).",
+     "Watch for Sekapur Sirih Offering."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Nine female dancers arranged with one central prime lady, flanked by two pridon carriers, guarded by two male dancers with parasols and spears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The performance is set to the Gending Sriwijaya composition, traditionally played by a live ensemble of gamelan instruments and gongs accompanied by a vocal soloist singing lyrics authored by Nungcik AR.",
+     "Composer A. Dahlan Muhabat blended local melodies with Japanese musical structural influences to craft the song.",
+     "Listen for the Gamelan, Gongs, Violin.",
+     "A stately blend of classical gamelan percussion, gongs, and vocal song, historically composed using violin and fusing traditional Palembang court melodies with mid-20th-century structural influences."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Gamelan cengkok structure combined with song melody"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear the traditional, highly ornate Aesan Gede songket costume, accented with Selendang Mantri, Paksangkong, Dodot, and gilded tanggai finger covers.",
+     "The visual style reflects a fusion of Malay, Javanese, and Chinese cultural influences.",
+     "Stage settings typically involve formal ceremonial venues, state banquets, high-level reception halls, or open-air festival stages such as the annual Festival Sriwijaya in Palembang."
+    ],
+    "on_screen": [
+     "Image gallery: 5 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures in the creation of Gending Sriwijaya include dance stylists Tina Haji Gong and Sukadan A. Rozak, composer A. Dahlan Muhabat, and lyricist Nungcik AR.",
+     "While Gending Sriwijaya itself represents a formalized Palembang state dance, it is directly based on the simpler Tanggai dance of South Sumatra and is related to other regional welcoming dances like the Kebagh dance and Melinting dance.",
+     "Rooted in historic Srivijayan court practices and Palembang folk traditions, Gending Sriwijaya evolved out of the Tanggai dance during the mid-20th century, retaining direct links to traditional Malay betel-offering rituals (Sekapur Sirih)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Gending Sriwijaya is parent of Tanggai: Gending Sriwijaya dance is based on the simpler Tanggai dance of South Sumatra.",
+     "Gending Sriwijaya is sibling of Kebagh: Related South Sumatran ceremonial welcoming dance.",
+     "Gending Sriwijaya is sibling of Melinting: Related traditional South Sumatran regional dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Processional entry in formal group formation with nine female dancers and optional male guards",
+     "Kneeling or low posture transition to present the tepak container",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a 1943 diplomatic mandate created South Sumatra's grandest royal welcoming dance.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master hand positioning with finger extensions",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master hand positioning with finger extensions.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A master Palembang dance artist skilled in court rituals and historical South Sumatran traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, graceful, and refined posture, featuring deep knee bends and formal kneeling during offering rituals",
+      "Extensive fluid arm movements emphasizing gilded tanggai finger covers; central dancer carries a tepak container"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Gamelan cengkok structure combined with song melody.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Processional entry in formal group formation with nine female dancers and optional male guards",
+      "Step 2: Kneeling or low posture transition to present the tepak container",
+      "Drill: Practice wrist rotation and finger splay wearing tanggai extensions"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Graceful arm extensions featuring gilded tanggai finger jewelry",
+      "Step 4: Presentation gesture of Sekapur Sirih betel offering to the honored guests",
+      "Drill: Basic processional walking posture"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid abrupt movements, modern casual posturing, or mishandling ceremonial prop containers during the offering."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm and hand movements while seated in a chair, executing the Sekapur Sirih offering gesture forward. · For children: 'The Princess's Gift': Children take turns acting as Srivijaya princesses delivering a symbolic gift box to guest judges."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm and hand movements while seated in a chair, executing the Sekapur Sirih offering gesture forward.",
+      "For children: 'The Princess's Gift': Children take turns acting as Srivijaya princesses delivering a symbolic gift box to guest judges."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master hand positioning with finger extensions.",
+      "Gending Sriwijaya is a ceremonial welcoming dance designed to demonstrate hospitality, sincerity, and cultural refinement.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute the offering gesture and smooth kneeling transitions",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute the offering gesture and smooth kneeling transitions.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A master Palembang dance artist skilled in court rituals and historical South Sumatran traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, graceful, and refined posture, featuring deep knee bends and formal kneeling during offering rituals",
+      "Extensive fluid arm movements emphasizing gilded tanggai finger covers; central dancer carries a tepak container"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Gamelan cengkok structure combined with song melody.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Processional entry in formal group formation with nine female dancers and optional male guards",
+      "Step 2: Kneeling or low posture transition to present the tepak container",
+      "Drill: Lowering to kneeling position while supporting the tepak container"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Graceful arm extensions featuring gilded tanggai finger jewelry",
+      "Step 4: Presentation gesture of Sekapur Sirih betel offering to the honored guests",
+      "Sekapur Sirih Offering: The central prime dancer extends the tepak container forward to present betel leaf, areca nut, and slaked lime to honored guests.",
+      "Drill: Synchronized arm gestures in a three-dancer line"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid abrupt movements, modern casual posturing, or mishandling ceremonial prop containers during the offering."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm and hand movements while seated in a chair, executing the Sekapur Sirih offering gesture forward. · For children: 'The Princess's Gift': Children take turns acting as Srivijaya princesses delivering a symbolic gift box to guest judges."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm and hand movements while seated in a chair, executing the Sekapur Sirih offering gesture forward.",
+      "For children: 'The Princess's Gift': Children take turns acting as Srivijaya princesses delivering a symbolic gift box to guest judges."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Nine female dancers arranged with one central prime lady, flanked by two pridon carriers, guarded by two male dancers with parasols and spears"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the offering gesture and smooth kneeling transitions.",
+      "Key figures in the creation of Gending Sriwijaya include dance stylists Tina Haji Gong and Sukadan A. Rozak, composer A. Dahlan Muhabat, and lyricist Nungcik AR.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Lead the nine-person ensemble as the prime lady",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Lead the nine-person ensemble as the prime lady.",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A master Palembang dance artist skilled in court rituals and historical South Sumatran traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, graceful, and refined posture, featuring deep knee bends and formal kneeling during offering rituals",
+      "Extensive fluid arm movements emphasizing gilded tanggai finger covers; central dancer carries a tepak container"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Gamelan cengkok structure combined with song melody.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Graceful arm extensions featuring gilded tanggai finger jewelry",
+      "Step 2: Presentation gesture of Sekapur Sirih betel offering to the honored guests",
+      "Drill: Full choreography integration with gamelan cue points"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Sekapur Sirih Offering: The central prime dancer extends the tepak container forward to present betel leaf, areca nut, and slaked lime to honored guests.",
+      "Drill: Diplomatic offering ritual etiquette execution"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid abrupt movements, modern casual posturing, or mishandling ceremonial prop containers during the offering."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform arm and hand movements while seated in a chair, executing the Sekapur Sirih offering gesture forward. · For children: 'The Princess's Gift': Children take turns acting as Srivijaya princesses delivering a symbolic gift box to guest judges."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm and hand movements while seated in a chair, executing the Sekapur Sirih offering gesture forward.",
+      "For children: 'The Princess's Gift': Children take turns acting as Srivijaya princesses delivering a symbolic gift box to guest judges."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Nine female dancers arranged with one central prime lady, flanked by two pridon carriers, guarded by two male dancers with parasols and spears"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Lead the nine-person ensemble as the prime lady.",
+      "Rooted in historic Srivijayan court practices and Palembang folk traditions, Gending Sriwijaya evolved out of the Tanggai dance during the mid-20th century, retaining direct links to traditional Malay betel-offering rituals (Sekapur Sirih).",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Gamelan cengkok structure combined with song melody",
+  "instruments": [
+   "Gamelan",
+   "Gongs",
+   "Violin"
+  ],
+  "vocal_style": "Solo lyric singing featuring poetry by Nungcik AR",
+  "musical_form": "Song and gamelan composition incorporating Sriwijaya Jaya and Japanese structural concepts",
+  "mood": [
+   "splendid",
+   "grand",
+   "refined",
+   "welcoming",
+   "honorable"
+  ],
+  "sound_description": "A stately blend of classical gamelan percussion, gongs, and vocal song, historically composed using violin and fusing traditional Palembang court melodies with mid-20th-century structural influences.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Gending Sriwijaya (Indonesia). Rhythm pattern: Gamelan cengkok structure combined with song melody. Instruments: Gamelan, Gongs, Violin. Vocal style: Solo lyric singing featuring poetry by Nungcik AR. Form: Song and gamelan composition incorporating Sriwijaya Jaya and Japanese structural concepts. Mood: splendid, grand, refined, welcoming, honorable. It should sound like this: A stately blend of classical gamelan percussion, gongs, and vocal song, historically composed using violin and fusing traditional Palembang court melodies with mid-20th-century structural influences. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear the traditional, highly ornate Aesan Gede songket costume, accented with Selendang Mantri, Paksangkong, Dodot, and gilded tanggai finger covers. The visual style reflects a fusion of Malay, Javanese, and Chinese cultural influences. Stage settings typically involve formal ceremonial venues, state banquets, high-level reception halls, or open-air festival stages such as the annual Festival Sriwijaya in Palembang.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+    "description": "bali ubud danseur"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+    "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+    "description": "Seni Tari Piring"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+    "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tari_Saman_di_TMII.jpg/1280px-Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Herusutimbul / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Saman_di_TMII.jpg",
+    "description": "Tari Saman yg merupakan Tari dari daerah Aceh diperagakan pelajar Jakarta dalam peringatan Ulang tahun TMII"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Gilded tanggai finger accessories shimmering under lights",
+   "Ornate Aesan Gede songket textiles",
+   "Yellow parasols and gilded spears held by male guards",
+   "The brass tepak and pridon ritual containers"
+  ],
+  "costume_notes": "Dancers wear the traditional, highly ornate Aesan Gede songket costume, accented with Selendang Mantri, Paksangkong, Dodot, and gilded tanggai finger covers. The visual style reflects a fusion of Malay, Javanese, and Chinese cultural influences. Stage settings typically involve formal ceremonial venues, state banquets, high-level reception halls, or open-air festival stages such as the annual Festival Sriwijaya in Palembang.",
+  "setting_notes": "Gending Sriwijaya is a ceremonial welcoming dance designed to demonstrate hospitality, sincerity, and cultural refinement. It is performed before heads of state, foreign ambassadors, ministers, kings, queens, and VIP guests during state dinners, luncheons, and official receptions. The central ritual—the offering of betel nut (bersirih or menginang)—re-enacts court traditions once reserved for royal princesses.",
+  "map": {
+   "country": "Indonesia",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "20 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 20,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "1-2-3",
+   "1 and 2",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gending_Sriwijaya",
+  "https://www.wikidata.org/wiki/Q7337949"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "90cdeca7e70ae8f53b8c10207437b76d4e549fb26e92ae303305514236871bea",
+ "hero_checked": null
+}

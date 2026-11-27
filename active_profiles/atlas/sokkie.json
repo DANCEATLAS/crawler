@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex lead/follow twists"
+        ],
+        "counts": "1, 2 basic counts",
+        "duration_minutes": "15",
+        "game_version": "Sock hop freeze dance where partners perform two-step until music stops."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns",
+          "Slippery floors when wearing socks"
+        ],
+        "counts": "1, 2, 3, 4 step counts",
+        "seated_version": "Seated rhythm clapping and upper body lead-follow arm movements matching duple or triple music timing.",
+        "standing_version": "Slow-tempo partner hold traveling with reduced stride length and supported turns.",
+        "tempo_and_range": "Reduced tempo with small walking steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Basic two-step traveling pattern in partner hold.",
+          "source": "https://en.wikipedia.org/wiki/Sokkie"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Standard social ballroom frame holding partner hands and shoulder/back.",
+      "difficulty": "beginner",
+      "footwork": "Mix of loopdans, two-step, swing, boogie, social foxtrot, and quickstep steps; boerewals (Viennese waltz) steps used for waltz meters.",
+      "formation_and_space": "Couples traveling counter-clockwise around a social dance floor.",
+      "hips_and_torso": "Natural social ballroom rotation during turns and traveling patterns.",
+      "levels_and_jumps": "Grounded social footwork without elevated jumps.",
+      "partnering": "Lead and follow couple interaction.",
+      "posture": "Upright ballroom posture modified for relaxed social lead and follow.",
+      "signature_moves": [
+        {
+          "description": "Viennese waltz style turning pattern executed within a sokkie framework.",
+          "name": "Boerewals"
+        },
+        {
+          "description": "A continuous walking/traveling step pattern shared with partner.",
+          "name": "Loopdans"
+        }
+      ],
+      "tempo_feel": "Varies from energetic quickstep/swing pace to smooth waltz rotation.",
+      "what_to_avoid": "Avoid footwear that slips on slick floors if dancing in socks."
+    },
+    "music_profile": {
+      "instruments": [
+        "Synthesizer",
+        "Electronic drums",
+        "Vocals"
+      ],
+      "meter": "4/4 or 3/4",
+      "mood_keywords": [
+        "upbeat",
+        "festive",
+        "social",
+        "lively"
+      ],
+      "musical_form": "Verse-chorus popular music structure",
+      "reference_recordings": [
+        {
+          "artist": "Nicholis Louw",
+          "title": "Rock Daai Lyfie"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Commercial Afrikaans pop music characterized by electronic dance beats, popular pop melodies, and translated catchy hooks designed for partner dance halls.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Afrikaans popular vocal music, often translating English hits into Afrikaans"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Adopt a closed or open social ballroom frame with partner",
+        "Step rhythmically using loopdans or two-step basic travel steps",
+        "Blend in foxtrot, quickstep, or swing turns based on musical tempo"
+      ],
+      "formation": "Partner dance on a free-flowing social floor",
+      "level_notes": "Accessible for social beginners learning basic lead and follow partner movement.",
+      "rhythm": "Variable based on track, ranging from standard duple/quadruple time pop/two-step to triple meter boerewals"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "9f549ae971b8fc90fe64e0914fc1a09a9efc8b03eea23e7bc9fbbd9c54a85aad",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: rhythm_pattern",
+      "interaction: feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork counts and step breakdowns for the loopdans and boerewals within modern sokkie? Evidence needed: Instructional video tutorials such as the referenced Sokkie Beginner tutorials."
+    ]
+  },
+  "id": "atlas:sokkie",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Sokkie",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "789645871e36c8f2",
+      "next_evidence": "Instructional video tutorials such as the referenced Sokkie Beginner tutorials.",
+      "question": "What are the specific footwork counts and step breakdowns for the loopdans and boerewals within modern sokkie?",
+      "source": "https://en.wikipedia.org/wiki/Sokkie",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to build interactive step-by-step instructional modules."
+    }
+  ],
+  "research_file": "research_results/sokkie.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "sokkie",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sokkie",
+    "https://www.wikidata.org/wiki/Q7555120"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

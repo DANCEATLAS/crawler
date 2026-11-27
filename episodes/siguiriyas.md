@@ -1,6 +1,6 @@
 # siguiriyas — episode pack
 
-*Status: draft · built 2026-11-26 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
 
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
+Source: 20 tutorial(s) of the ritual-sacred family studied · videos studied: 20
 Counting: count the 12-count compás bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; 1-2-3; 1 and 2; criss-cross now; forward and back; plant the left foot
 
 Sources (5): https://en.wikipedia.org/wiki/Siguiriyas; https://www.wikidata.org/wiki/Q2339999; https://es.wikipedia.org/wiki/Seguiriya; https://fr.wikipedia.org/wiki/Seguiriya; https://de.wikipedia.org/wiki/Seguiriya

@@ -1,6 +1,6 @@
 # Valse à deux temps — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
 
@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 15 tutorial(s) of the ballroom-partner family studied · videos studied: 15
+Source: 16 tutorial(s) of the ballroom-partner family studied · videos studied: 16
 Counting: 1-2-3, 2-2-3 (three counts a bar)
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; walk walk; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side
+Cues: walk walk; aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side
 
 Sources (2): https://en.wikipedia.org/wiki/Valse_%C3%A0_deux_temps; https://www.wikidata.org/wiki/Q4103096

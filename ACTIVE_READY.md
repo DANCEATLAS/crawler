@@ -1,8 +1,8 @@
 # Active-ready — the starting line
 
-_Measured 2026-11-26 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
+_Measured 2026-11-27 by `pipeline/readiness.py` (standard AR-1); no model calls. The goal: many thousands._
 
-## 41 profiles are active-ready
+## 45 profiles are active-ready
 
 Active-ready means the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is not human-reviewed, rights-cleared or platform-tested: that comes after this line (ACTIVE_PROFILE_STANDARD.md).
 
@@ -10,47 +10,49 @@ Since 24 November 2026 a reference clip counts as the licensed picture only when
 
 | Step | Profiles |
 |---|---:|
-| In the atlas | 1,388 |
-| Researched from sources (in the atlas) | 803 |
-| Published (passed every gate) | 664 |
-| **Active-ready** | **41** |
-| One item short | 68 |
-| Two items short | 60 |
-| Three to five short | 157 |
-| Story-ready, teaching withheld (sacred or restricted) | 69 |
+| In the atlas | 1,415 |
+| Researched from sources (in the atlas) | 838 |
+| Published (passed every gate) | 697 |
+| **Active-ready** | **45** |
+| One item short | 73 |
+| Two items short | 68 |
+| Three to five short | 164 |
+| Story-ready, teaching withheld (sacred or restricted) | 74 |
 
-Video studied so far: 374 lessons, 393 performances.
+Video studied so far: 406 lessons, 442 performances.
 
 Pace over the last two weeks: +25 active-ready a week.
-Pace over the last two weeks: +214 published a week.
+Pace over the last two weeks: +215 published a week.
 
 ## What holds profiles back most
 
 | Missing item | Profiles |
 |---|---:|
-| the steps with their counts | 380 |
-| a lesson or performance the machine studied, with timestamps | 247 |
-| what to avoid: common mistakes or safety | 224 |
-| a hero video that passed the vision check | 198 |
-| two or more signature moves | 172 |
-| a licensed picture or licensed footage | 161 |
-| tempo, meter or the teacher's count | 158 |
-| posture | 144 |
+| the steps with their counts | 394 |
+| a lesson or performance the machine studied, with timestamps | 253 |
+| what to avoid: common mistakes or safety | 232 |
+| a hero video that passed the vision check | 200 |
+| a licensed picture or licensed footage | 171 |
+| two or more signature moves | 171 |
+| tempo, meter or the teacher's count | 156 |
+| posture | 147 |
+| arms and hands | 114 |
 | ordered basic steps or a lesson ladder | 113 |
-| arms and hands | 111 |
-| the instruments and what the music sounds like | 95 |
-| origins, meaning and occasions, dress and setting — written from sources | 83 |
-| formation and use of space | 53 |
+| the instruments and what the music sounds like | 97 |
+| origins, meaning and occasions, dress and setting — written from sources | 87 |
+| formation and use of space | 56 |
 | known to be living, revived or historical | 30 |
 
 ## Closest to the line
 
 - **Abbots Bromley Horn Dance** — needs: the steps with their counts
 - **Aerial dance** — needs: the steps with their counts
+- **Agwara** — needs: the steps with their counts
 - **Alegrías** — needs: the steps with their counts
 - **Ballos** — needs: what to avoid: common mistakes or safety
 - **Barn dance** — needs: what to avoid: common mistakes or safety
 - **Bugg** — needs: ordered basic steps or a lesson ladder
+- **Bump** — needs: a licensed picture or licensed footage
 - **Bush dance** — needs: the steps with their counts
 - **Cariñosa** — needs: what to avoid: common mistakes or safety
 - **Carolina shag** — needs: a licensed picture or licensed footage
@@ -83,8 +85,6 @@ Pace over the last two weeks: +214 published a week.
 - **Jota Aragonesa** — needs: known to be living, revived or historical
 - **Kebyar duduk** — needs: the steps with their counts
 - **Kikkli** — needs: the steps with their counts
-- **loure** — needs: a licensed picture or licensed footage
-- **Luddi** — needs: known to be living, revived or historical
 
 ## The fifteen items
 

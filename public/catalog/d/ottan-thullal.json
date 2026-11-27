@@ -34,6 +34,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Ottan_Thullal",
   "wikidata_qid": "Q7109099",
   "unesco": false,
+  "hero_video_youtube_id": "9qqVdwQ_smU",
+  "video_stack": [
+   {
+    "youtube_id": "9qqVdwQ_smU",
+    "role": "hero",
+    "title": "ഇത്രയും പ്രതീക്ഷിച്ചില്ല കിടിലൻ ഓട്ടം തുള്ളൽ",
+    "channel": "Mallu Visuals",
+    "hd": true
+   },
+   {
+    "youtube_id": "0Cq0xh6lyf0",
+    "role": "rendition",
+    "title": "Ottamthullal Comedy",
+    "channel": "ambu ajay",
+    "hd": false
+   },
+   {
+    "youtube_id": "SEB7UrrPtfE",
+    "role": "rendition",
+    "title": "Homage to Kalamandalam Geethanandan,  Great exponent of Ottan Thullal - an artform of Kerala",
+    "channel": "indiavideodotorg",
+    "hd": false
+   },
+   {
+    "youtube_id": "m6bF1_brdCY",
+    "role": "rendition",
+    "title": "Kiratham l Ottanthullal l Devabhadra KS l Kalamandalam Nandakumar l Route to the Root",
+    "channel": "Route to the Root",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -126,6 +157,12 @@
   ],
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_weak",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:17:56Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "sheethankan-thullal",
    "parayan-thullal"
@@ -374,28 +411,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 6,
+  "have": 12,
   "of": 15,
   "missing": [
    {
     "key": "footwork_counts",
     "label": "the steps with their counts"
-   },
-   {
-    "key": "posture",
-    "label": "posture"
-   },
-   {
-    "key": "arms",
-    "label": "arms and hands"
-   },
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
    },
    {
     "key": "lesson_plan",
@@ -404,26 +425,86 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "signature_moves": "performance",
+   "rhythm": "performance",
+   "study_video": "performance"
+  }
  },
+ "performances": [
+  {
+   "youtube_id": "9qqVdwQ_smU",
+   "url": "https://www.youtube.com/watch?v=9qqVdwQ_smU",
+   "analysed_on": "2026-11-27",
+   "observation": {
+    "setting": "outdoor public performance space with an audience sitting on the ground",
+    "dancers": "solo male dancer",
+    "formation_and_space": "solo on a red stage, addressing the audience and microphone",
+    "posture": "upright with semi-squat or deep knee bend stances, torso expressive and dynamic",
+    "footwork": "stamping, shifting weight in rhythm with the beat, intricate footwork obscured by heavy costume skirts",
+    "arms_and_hands": "expressive hand gestures (mudras), arms moving dynamically with bells on wrists",
+    "hips_and_torso": "bends, swaying, and expressive torso movements",
+    "partnering": "none",
+    "levels_jumps_turns": "transitions between standing and kneeling/squatting levels, occasional turns",
+    "costume_and_props": "elaborate green facial makeup, ornate headdress, layered necklaces, striped skirt with large white ruffled fan-like bustle at the back, arm and wrist bands with bells",
+    "cannot_infer": "exact footwork details are obscured by the large layered skirt costume",
+    "music_heard": {
+     "instruments": [
+      "percussion",
+      "harmonium or similar drone instrument"
+     ],
+     "vocals": "solo",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 2,
+      "end_s": 7,
+      "what": "The dancer stands with arms extended and ruffled bustle flaring, stepping in place on the stage."
+     },
+     {
+      "start_s": 30,
+      "end_s": 36,
+      "what": "The dancer turns around showing the large white ruffled bustle while making expressive hand gestures."
+     },
+     {
+      "start_s": 103,
+      "end_s": 109,
+      "what": "The dancer kneels on the stage near audience members, hands clasped near face in expressive storytelling pose."
+     },
+     {
+      "start_s": 141,
+      "end_s": 146,
+      "what": "The dancer bows forward with torso bent low, arms outstretched, shaking wrist bells."
+     },
+     {
+      "start_s": 226,
+      "end_s": 236,
+      "what": "The dancer folds arms across chest then brings hands together in a respectful prayer gesture near the microphone."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 9,
+  "gaps": 8,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/ottan-thullal.json"
  },
- "fingerprint": "86e99800aa0cfe42",
- "updated": "2026-11-26"
+ "fingerprint": "f0235cfc6e4f0f71",
+ "updated": "2026-11-27"
 }

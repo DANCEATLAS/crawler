@@ -1,8 +1,8 @@
 # Kummattikali — episode pack
 
-*Status: withheld-chapters · built 2026-11-26 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-27 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional mask-maker and dancer from Thrissur who emphasizes the spiritual connection to the wood and grass.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Grass Gods of Onam
 NARRATION: This is Kummattikali. Ancient/Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (7z2dLYXCYgA)
 ON SCREEN: Title card: Kummattikali · India · Ancient/Traditional
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance involves performers moving in a procession from house to ho
 NARRATION: The movement is characterized by the manipulation of long agricultural sticks called Kummattikali.
 NARRATION: The troupe is led by a character named Thamma, who portrays an old woman walking with a stick.
 NARRATION: Watch for Thamma's Walk.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (7z2dLYXCYgA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Processional movement through village streets and house courtyards
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -105,7 +105,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '7z2dLYXCYgA', 'checked_by_vision_model': True, 'title': 'Kummattikkali - a folk art form of Kerala'}
 Images: 2 licensed — Aruna at ml.wikipedia / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Sooraj Kenoth / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:Kummattikali - കുമ്മാട്ടിക്കളി - Wiki Loves Onam 2024.webm — https://upload.wikimedia.org/wikipedia/commons/7/7e/Kummattikali_-_%E0%B4%95%E0%B5%81%E0%B4%AE%E0%B5%8D%E0%B4%AE%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%B3%E0%B4%BF_-_Wiki_Loves_Onam_2024.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Vibrant painted wooden masks, Rustling green and brown plaited grass, The curved areca nut wood of the Onavillu, Sunlight filtering through Kerala's palm trees during Onam
@@ -115,9 +115,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
+Source: 20 tutorial(s) of the ritual-sacred family studied · videos studied: 20
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; 1-2-3; 1 and 2; criss-cross now; forward and back; plant the left foot
 
 Sources (2): https://en.wikipedia.org/wiki/Kummattikali; https://www.wikidata.org/wiki/Q6443971

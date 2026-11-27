@@ -1,0 +1,125 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Dancing according to the specific quality and identity of the named mask worn.",
+          "name": "Mask characterisation"
+        },
+        {
+          "description": "Theatrical movement enacting a competition to win the Pot of Foolishness.",
+          "name": "Contest of foolishness"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Avoid dancing generic movements; the dancer must express the specific persona and quality of the mask."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "humorous",
+        "satirical",
+        "theatrical"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "technique not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Performers embody the specific character and quality assigned to their individual named mask.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "7dfe57c9c32ea8636d2d339887f2042cc692cbf10c04e4fb60d80f6a9f6b567f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, formation_and_space",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific choreography patterns and character-specific gestures associated with each named Okumkpa mask? Evidence needed: Consult Herbert M. Cole's detailed fieldwork records or Afikpo community elders on specific mask names and associated movement repertoires."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:okumkpa",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Okumkpa",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "3559e61d06371d6e",
+      "next_evidence": "Consult Herbert M. Cole's detailed fieldwork records or Afikpo community elders on specific mask names and associated movement repertoires.",
+      "question": "What are the specific choreography patterns and character-specific gestures associated with each named Okumkpa mask?",
+      "source": "https://en.wikipedia.org/wiki/Okumkpa",
+      "status": "candidate_unreviewed",
+      "why_needed": "Accurate teaching of Okumkpa movement requires primary ethnographic detail on how distinct mask personas translate into physical footwork and posturing."
+    }
+  ],
+  "research_file": "research_results/okumkpa.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "okumkpa",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Okumkpa",
+    "https://www.wikidata.org/wiki/Q7082742"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

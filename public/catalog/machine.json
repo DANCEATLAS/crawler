@@ -1,30 +1,22 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-26T21:10:57Z",
+ "generated_at": "2026-11-27T21:09:52Z",
  "last_night": {
-  "date": "2026-11-26",
-  "started": "2026-11-26T19:07:25Z",
-  "finished": "2026-11-26T21:10:57Z",
-  "minutes": 124,
-  "questions": 323,
-  "unanswered": 1,
+  "date": "2026-11-27",
+  "started": "2026-11-27T19:03:24Z",
+  "finished": "2026-11-27T21:09:50Z",
+  "minutes": 126,
+  "questions": 341,
+  "unanswered": 0,
   "stages": 13,
   "errors": [],
   "trouble": [
-   "research: model trouble: waited_seconds 203, overloaded 38, unusable_answer 8, day_quota_used_up 5, timeout_or_network 4, model_gone 2",
-   "teaching: model trouble: waited_seconds 70, overloaded 3, unusable_answer 3, model_gone 2",
-   "pedagogy: model trouble: waited_seconds 67, overloaded 4, model_gone 2, unusable_answer 2",
-   "pictures: model trouble: overloaded 1"
+   "research: model trouble: overloaded 7, day_quota_used_up 5, unusable_answer 3, model_gone 1",
+   "teaching: model trouble: waited_seconds 57",
+   "pedagogy: model trouble: timeout_or_network 3, unusable_answer 3"
   ]
  },
  "nights": [
-  {
-   "date": "2026-10-29",
-   "minutes": 84,
-   "questions": 0,
-   "unanswered": 0,
-   "errors": 1
-  },
   {
    "date": "2026-10-30",
    "minutes": 142,
@@ -227,19 +219,26 @@
    "questions": 323,
    "unanswered": 1,
    "errors": 0
+  },
+  {
+   "date": "2026-11-27",
+   "minutes": 126,
+   "questions": 341,
+   "unanswered": 0,
+   "errors": 0
   }
  ],
  "counts": {
-  "listed": 1388,
-  "researched": 803,
-  "published": 664,
-  "active_ready": 41,
-  "one_short": 68,
-  "two_short": 60,
-  "three_to_five_short": 157,
-  "story_ready_teaching_withheld": 69,
-  "lessons_studied": 374,
-  "performances_observed": 393
+  "listed": 1415,
+  "researched": 838,
+  "published": 697,
+  "active_ready": 45,
+  "one_short": 73,
+  "two_short": 68,
+  "three_to_five_short": 164,
+  "story_ready_teaching_withheld": 74,
+  "lessons_studied": 406,
+  "performances_observed": 442
  },
  "line": [
   {
@@ -331,13 +330,22 @@
    "active_ready": 41,
    "lessons_studied": 374,
    "performances_observed": 393
+  },
+  {
+   "date": "2026-11-27",
+   "listed": 1415,
+   "researched": 838,
+   "published": 697,
+   "active_ready": 45,
+   "lessons_studied": 406,
+   "performances_observed": 442
   }
  ],
  "pace": {
-  "days": 10,
+  "days": 11,
   "per_night": {
-   "listed": 23.3,
-   "published": 30.5,
+   "listed": 23.6,
+   "published": 30.7,
    "active_ready": 3.6
   }
  },
@@ -345,42 +353,47 @@
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 380
+   "profiles": 394
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 247
+   "profiles": 253
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 224
+   "profiles": 232
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 198
-  },
-  {
-   "key": "signature_moves",
-   "label": "two or more signature moves",
-   "profiles": 172
+   "profiles": 200
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 161
+   "profiles": 171
+  },
+  {
+   "key": "signature_moves",
+   "label": "two or more signature moves",
+   "profiles": 171
   },
   {
    "key": "rhythm",
    "label": "tempo, meter or the teacher's count",
-   "profiles": 158
+   "profiles": 156
   },
   {
    "key": "posture",
    "label": "posture",
-   "profiles": 144
+   "profiles": 147
+  },
+  {
+   "key": "arms",
+   "label": "arms and hands",
+   "profiles": 114
   },
   {
    "key": "lesson_plan",
@@ -388,24 +401,19 @@
    "profiles": 113
   },
   {
-   "key": "arms",
-   "label": "arms and hands",
-   "profiles": 111
-  },
-  {
    "key": "sound",
    "label": "the instruments and what the music sounds like",
-   "profiles": 95
+   "profiles": 97
   },
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 83
+   "profiles": 87
   },
   {
    "key": "formation",
    "label": "formation and use of space",
-   "profiles": 53
+   "profiles": 56
   },
   {
    "key": "status",
@@ -427,6 +435,16 @@
   {
    "slug": "aerial-dance",
    "name": "Aerial dance",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
+   "slug": "agwara",
+   "name": "Agwara",
    "needs": [
     "the steps with their counts"
    ],
@@ -472,6 +490,16 @@
    ],
    "need_keys": [
     "lesson_plan"
+   ]
+  },
+  {
+   "slug": "bump",
+   "name": "Bump",
+   "needs": [
+    "a licensed picture or licensed footage"
+   ],
+   "need_keys": [
+    "picture"
    ]
   },
   {
@@ -793,26 +821,6 @@
    "need_keys": [
     "footwork_counts"
    ]
-  },
-  {
-   "slug": "loure",
-   "name": "loure",
-   "needs": [
-    "a licensed picture or licensed footage"
-   ],
-   "need_keys": [
-    "picture"
-   ]
-  },
-  {
-   "slug": "luddi",
-   "name": "Luddi",
-   "needs": [
-    "known to be living, revived or historical"
-   ],
-   "need_keys": [
-    "status"
-   ]
   }
  ],
  "owner": {
@@ -822,38 +830,38 @@
  },
  "study": {
   "topics": 80,
-  "topics_read": 61,
+  "topics_read": 65,
   "first": {
    "topics": 14,
    "read": 12
   },
   "next": [
-   "embarrassment_and_body_image",
-   "anxiety_and_confidence",
-   "emotion_and_learning",
-   "identity_and_staying",
-   "human_tutoring",
-   "adaptive_tutors"
+   "virtual_coaches",
+   "mentoring",
+   "deliberate_practice",
+   "adult_learners",
+   "dance_for_everyone",
+   "part_and_whole_practice"
   ],
   "papers_read": 28,
-  "lessons_studied": 126,
-  "teachers_studied": 113,
-  "findings_checked": 270,
+  "lessons_studied": 136,
+  "teachers_studied": 122,
+  "findings_checked": 285,
   "practices": 37,
-  "practices_in_dna": 29
+  "practices_in_dna": 31
  },
  "last_crawl": {
-  "at": "2026-11-26T18:32:20Z",
+  "at": "2026-11-27T18:12:26Z",
   "hero": {
-   "to_try": 22,
-   "tried": 22,
-   "found": 11
+   "to_try": 27,
+   "tried": 27,
+   "found": 18
   },
   "lessons": {
-   "due": 133,
-   "looked_at": 114,
-   "found": 38,
-   "second_looks": 100
+   "due": 33,
+   "looked_at": 32,
+   "found": 14,
+   "second_looks": 19
   },
   "viral": {
    "found": 0

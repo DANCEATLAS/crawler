@@ -1,6 +1,6 @@
 # Bugg — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections; teaching steps written out
 
@@ -314,9 +314,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 374 tutorials across the atlas studied · videos studied: 374
+Source: 406 tutorials across the atlas studied · videos studied: 406
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; bend your knees; side close side; right left right; left right left; step touch; shift your weight; let's go; quick quick slow
+Cues: 5-6-7-8; 1-2-3-4; rock step; side to side; bend your knees; let's go; 1-2-3; side close side; right left right; left right left; step touch; shift your weight
 
 Sources (3): https://en.wikipedia.org/wiki/Bugg; https://www.wikidata.org/wiki/Q1002441; https://de.wikipedia.org/wiki/Bugg

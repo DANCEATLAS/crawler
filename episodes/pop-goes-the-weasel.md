@@ -1,6 +1,6 @@
 # Pop Goes the Weasel — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; two or more connections; what to avoid / common mistakes
 

@@ -277,32 +277,133 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 12,
+  "have": 14,
   "of": 15,
   "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
-   },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    }
   ],
   "via": {
+   "footwork_counts": "lesson",
    "posture": "performance",
    "arms": "performance",
    "formation": "performance",
-   "signature_moves": "performance",
-   "rhythm": "performance",
+   "signature_moves": "lesson",
+   "rhythm": "lesson",
    "sound": "performance",
-   "study_video": "performance"
+   "lesson_plan": "lesson",
+   "study_video": "lesson"
   }
  },
+ "lessons": [
+  {
+   "youtube_id": "qIU-j3xojHU",
+   "url": "https://www.youtube.com/watch?v=qIU-j3xojHU",
+   "title": "Tutorial Tari Mak Inang Pulau Kampai | Lengkap",
+   "channel": "Betandang Channel (BC)",
+   "analysed_on": "2026-11-27",
+   "level": "intermediate",
+   "language": "Indonesian",
+   "counting_scheme": "8 x 8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Greeting and channel introduction"
+    },
+    {
+     "t": "0:34",
+     "seconds": 34,
+     "segment": "context",
+     "note": "Explanation of the history, tempo, and structure of Tari Mak Inang Pulau Kampai"
+    },
+    {
+     "t": "2:36",
+     "seconds": 156,
+     "segment": "breakdown",
+     "note": "Introduction and demonstration of Ragam 1"
+    },
+    {
+     "t": "3:58",
+     "seconds": 238,
+     "segment": "breakdown",
+     "note": "Introduction and demonstration of Ragam 2"
+    },
+    {
+     "t": "5:14",
+     "seconds": 314,
+     "segment": "breakdown",
+     "note": "Introduction and demonstration of Ragam 3"
+    },
+    {
+     "t": "6:31",
+     "seconds": 391,
+     "segment": "breakdown",
+     "note": "Introduction and demonstration of Ragam 4"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Ragam 1",
+     "counts": "8 x 8",
+     "description": "Portrays the initial meeting of young people who do not yet know each other."
+    },
+    {
+     "name": "Ragam 2",
+     "counts": "8 x 8",
+     "description": "Depicts acquaintances getting to know each other and probing their feelings."
+    },
+    {
+     "name": "Ragam 3",
+     "counts": "8 x 8",
+     "description": "Shows the expression of character combined with flower-picking and silat/pencak movements."
+    },
+    {
+     "name": "Ragam 4",
+     "counts": "8 x 8",
+     "description": "Represents mutual understanding and seeking parental blessings for marriage."
+    }
+   ],
+   "teacher_style": "The instructor provides detailed contextual background and textual descriptions before each dance sequence. They present complete demonstrations of the choreography in a studio setting using two dancers.",
+   "distinctive_method": "Instead of verbal counting or step-by-step breakdown, the instructor relies entirely on written textual explanations of the dance's narrative meaning preceding each full demonstration.",
+   "what_works": [
+    "Clear textual overlays describing the meaning of each section",
+    "Full-body framing of dancers in a clean studio environment"
+   ],
+   "what_hinders": [
+    "No spoken verbal instructions or breakdown of footwork",
+    "Lack of slow-tempo practice or counts spoken aloud"
+   ],
+   "evidence": [
+    {
+     "start_s": 236,
+     "end_s": 256,
+     "topic": "teaching",
+     "observation": "Text overlay on screen explains the meaning of Ragam 1 while two dancers perform the movements.",
+     "viewpoint": "front view, unknown mirror status",
+     "cannot_infer": "exact weight transfer details due to distance",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 398,
+     "end_s": 420,
+     "topic": "movement",
+     "observation": "Dancers transition from standing steps to crouching and stepping in synchronization.",
+     "viewpoint": "front view, unknown mirror status",
+     "cannot_infer": "precise foot placement mechanics",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "performances": [
   {
    "youtube_id": "4TsXiaOZ_uk",
@@ -364,6 +465,6 @@
   "polished": false,
   "file": "episodes/mak-inang.json"
  },
- "fingerprint": "d68201ee2fb97a64",
- "updated": "2026-11-26"
+ "fingerprint": "856b14d1ab23ed53",
+ "updated": "2026-11-27"
 }

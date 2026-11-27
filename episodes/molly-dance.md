@@ -1,8 +1,8 @@
 # Molly dance — episode pack
 
-*Status: draft · built 2026-11-26 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Grounded, historical folk dancer highlighting community tradition over rigid codification
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Black Faces, Bright Ribbons: The Midwinter Molly Men
 NARRATION: This is Molly dance. 1820s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (LVELKeXEf8Q)
 ON SCREEN: Title card: Molly dance · United Kingdom · 1820s to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The traditional Molly dances recorded by collectors were mostly ordin
 NARRATION: Rather than light or intricate step patterns, dancers used heavy stepping.
 NARRATION: Dancers moved in line or set formations, often led or accompanied by character figures such as a sweeper who cleared a space with a broom.
 NARRATION: Watch for Sweeper march, Heavy longways set step.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (LVELKeXEf8Q)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Longways sets moving along street paths or open outdoor spaces
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -319,7 +319,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'LVELKeXEf8Q', 'checked_by_vision_model': True, 'title': 'Gog Magog Molly dance the Polychromatic Parrot at Sidmouth'}
 Images: 4 licensed — SiGarb / Wikimedia Commons / Public domain (Public domain); Kognos / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Keith Edkins / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Ninja of the Eagles / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Molly Dancers UK 2023.webm — https://upload.wikimedia.org/wikipedia/commons/c/c6/Molly_Dancers_UK_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Molly Night 1 — https://archive.org/details/MollyNight1
 Motifs: Ribbons and rosettes pinned to coats, Soot-blackened faces and top hats, Broom sweeping the snow or cobblestones
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
+Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
 
 Sources (2): https://en.wikipedia.org/wiki/Molly_dance; https://www.wikidata.org/wiki/Q6896703

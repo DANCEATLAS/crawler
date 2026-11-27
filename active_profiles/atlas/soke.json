@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy wooden sticks (use foam or light bamboo dowels)",
+          "Overly fast row exchanges"
+        ],
+        "counts": "1-2-3-4 rhythmic drum count.",
+        "duration_minutes": "15",
+        "game_version": "Play 'Boat Captain' where four-child vaka teams try to complete 4 consecutive striking rounds without dropping rhythm."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns on count 4",
+          "Heavy floor strikes",
+          "Long 2-meter stick extensions"
+        ],
+        "counts": "Counts 1-2-3 for soft stick contact, count 4 for pause.",
+        "seated_version": "Performers sit in facing pairs, using shortened sticks to tap counts 1-3 on partner's stick and resting on count 4.",
+        "standing_version": "Perform stationary stick contact without row-exchanging movements.",
+        "tempo_and_range": "Reduce tempo to comfortable pace; restrict stick reach to shoulder height."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Learn basic 4-beat stick striking pattern within a vaka boat unit.",
+          "source": "https://en.wikipedia.org/wiki/Soke_(dance)"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Four-person vaka units consisting of two men and two women facing each other in structured rows.",
+          "source": "https://en.wikipedia.org/wiki/Soke_(dance)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Men hold one 2-meter long stick; women hold two 40-cm short sticks.",
+      "difficulty": "intermediate",
+      "footwork": "Transitions and turns performed on the 4th beat of each stick-striking phrase.",
+      "formation_and_space": "Vaka (boat) units of 4 dancers in rows; Eke nou stays within unit, Eke loa exchanges rows.",
+      "hips_and_torso": "Controlled torso orientation facing partners or shifting diagonally.",
+      "levels_and_jumps": "Occasional floor strikes with sticks; jumps not described in sources.",
+      "partnering": "Paired stick contact between men and women facing or positioned diagonally.",
+      "posture": "Upright facing partner in four-person vaka unit.",
+      "signature_moves": [
+        {
+          "description": "Short stick dance where each four-person vaka interacts strictly within its own group.",
+          "name": "Eke nou"
+        },
+        {
+          "description": "Long stick dance where four-person boats exchange row positions across the floor.",
+          "name": "Eke loa"
+        }
+      ],
+      "tempo_feel": "Rhythmic and punctuated on every drum beat.",
+      "what_to_avoid": "Avoid misaligned stick strikes to ensure safety during rapid four-beat contact patterns."
+    },
+    "music_profile": {
+      "instruments": [
+        "drum"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "rhythmic",
+        "dazzling",
+        "ceremonial"
+      ],
+      "musical_form": "Stanza recitation (stationary) alternating with refrain (stick striking).",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady drum beat driving 4-count stick-striking refrains alternated with un-struck vocal verses.",
+      "sound_description": "Percussive rhythmic beating of wooden sticks striking together and hitting the ground over a driving drum pulse, punctuated by vocal group refrain chants.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Group chant and recited stanzas alternating with refrain songs."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a four-person vaka with two men facing two women.",
+        "Stand stationary during the recited vocal stanzas.",
+        "On count 1 of refrain, women strike right stick to the top of the man's long stick.",
+        "On count 2, women strike left stick to the bottom of the man's long stick.",
+        "On count 3, women strike right stick back to the top of the man's long stick.",
+        "On count 4, execute a quarter turn to transition to the next stick interaction."
+      ],
+      "formation": "Four-person rectangular units (vaka) arranged in lines",
+      "level_notes": "Beginners focus on four-beat timing and stick alignment in Eke nou before attempting row exchanges in Eke loa.",
+      "rhythm": "Four-beat pulse aligned with drum rhythm"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "cc248cea5781d97bfb19df446b7876d797a12ce1929f76ed26423dbee0b0adf1",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What exact footwork and spatial pathways are used during the beat 4 transitions in Eke loa? Evidence needed: Field video recordings of Eke loa performances in Maʻufanga or ʻEua."
+    ]
+  },
+  "id": "atlas:soke",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "soke",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "651ba627aa59776b",
+      "next_evidence": "Field video recordings of Eke loa performances in Maʻufanga or ʻEua.",
+      "question": "What exact footwork and spatial pathways are used during the beat 4 transitions in Eke loa?",
+      "source": "https://en.wikipedia.org/wiki/Soke_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to program multi-user spatial tracking and visual step instruction accurately."
+    }
+  ],
+  "research_file": "research_results/soke.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "soke",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Soke_(dance)",
+    "https://www.wikidata.org/wiki/Q7555085"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

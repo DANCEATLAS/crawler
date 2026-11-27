@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "isukuti",
  "name": "Isukuti",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "KE"
@@ -12,11 +12,13 @@
   "name": "Isukuti",
   "country": "Kenya",
   "country_code": "KE",
+  "flag_emoji": "🇰🇪",
   "region": "Western Kenya (Luhya)",
+  "family": "folk-circle",
   "era": "Traditional",
-  "tagline": "Luhya drum dance, UNESCO urgent-safeguarding heritage",
-  "profile": "Isukuti is a fast-paced, energetic celebratory dance of the Isukha and Idakho communities (Luhya) of Western Kenya, accompanied by drumming and singing (UNESCO). The dance derives its name from the isukuti drums, played in sets of three (big, medium and small) and accompanied by an antelope horn and metal rattles; a soloist leads thematic songs as dancers form separate rows for men and women. It permeates childbirths, initiations, weddings, funerals, inaugurations and religious festivities.",
-  "insight": "In 2014 UNESCO inscribed the Isukuti dance on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding, warning that transmission is weakening as bearers age and younger generations turn to more commercial genres (UNESCO).",
+  "tagline": "Fast-paced Kenyan celebratory drum dance inscribed for urgent safeguarding in 2014.",
+  "profile": "Isukuti is a fast-paced, energetic celebratory dance of the Isukha and Idakho communities of Western Kenya, accompanied by drumming and singing. The dance derives its name from isukuti drums played in sets of three alongside an antelope horn and metal rattles, with men and women forming separate rows. It permeates major life events including childbirths, initiations, weddings, and funerals.",
+  "insight": "In 2014, UNESCO inscribed Isukuti on the Urgent Safeguarding List as elderly bearers struggle to find successors amid a shift to commercial genres.",
   "aliases": [
    "Isukuti dance",
    "Isikuti",
@@ -31,8 +33,13 @@
   ],
   "sources": [
    "https://ich.unesco.org/en/USL/isukuti-dance-of-isukha-and-idakho-communities-of-western-kenya-00981",
-   "https://artsandculture.google.com/story/isukha-music-and-dance-national-museums-of-kenya/cgUxiOiEOZ8QwA"
+   "https://artsandculture.google.com/story/isukha-music-and-dance-national-museums-of-kenya/cgUxiOiEOZ8QwA",
+   "https://en.wikipedia.org/wiki/Idakho",
+   "https://www.wikidata.org/wiki/Q96213124",
+   "https://fr.wikipedia.org/wiki/Isukuti",
+   "https://ich.unesco.org/en/USL/00981"
   ],
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Idakho",
   "wikidata_qid": "Q96213124",
   "unesco": true,
   "hero_video_youtube_id": "KP11NBH9dkQ",
@@ -44,10 +51,20 @@
   },
   "lat": 0.2827,
   "lng": 34.7519,
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "updated_at": "2026-06-08",
   "_is_sacred": false,
   "publish_gate": "publish",
+  "research_gate": "publish",
+  "qc_score": 9.55,
+  "last_researched_at": "2026-11-27T20:12:32Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Isukuti is a traditional celebratory performance practiced among the Isukha and Idakho communities of Western Kenya. The dance derives its name from the isukuti drums used in the performance, which are played in sets of three—comprising a big, a medium, and a small drum—and normally accompanied by an antelope horn and assorted metal rattles. Mwitakho and his brother Mwisukha are widely believed to have founded the two subtribes, Idakho and Isukha, in the fertile Kakamega District of Western Kenya. The dance takes the form of a fast-paced, energetic, and passionate movement style accompanied by drumming and singing. It serves as an integral tool for cultural transmission and harmonious coexistence between families and communities, permeating most occasions and stages in life including childbirths, initiations, weddings, funerals, commemorations, inaugurations, religious festivities, sporting events, and other public congregations. A soloist leads the dance, singing thematic texts in tandem with the rhythm of the drumbeats and the steps of the dancers, who are arranged in separate rows for men and women. The costumes worn by dancers have evolved and modernized over time, driven partly by community members seeking to maintain modesty and decency during the vigorous performances. Presently, the transmission of the Isukuti dance is weakening and the frequency of performances is diminishing. Many tradition bearers are elderly and lack successors to whom they can pass on their knowledge. Financial constraints, a lack of materials to make instruments and costumes, and the preference of many composers to work in commercial genres or contemporary entertainment present significant obstacles to its survival, leading to its 2014 inscription on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding.",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "not described in sources",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -55,6 +72,191 @@
    "soft_fail": []
   }
  },
- "fingerprint": "84781ede3a620f35",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Mwitakho and his brother Mwisukha are widely believed to have founded the two subtribes, Idakho and Isukha, residing primarily in the Kakamega District of Western Kenya. The Isukuti dance has long been practiced among these communities as a vital cultural performance and social glue. Due to aging bearers, declining frequency of performances, financial obstacles, and the rise of commercial genres, the tradition faced severe threats, leading to its inscription in 2014 on UNESCO's List of Intangible Cultural Heritage in Need of Urgent Safeguarding.",
+   "how_it_is_danced": "The dance takes the form of a fast-paced, energetic, and passionate performance. Dancers are arranged in separate rows for men and women. A soloist leads the dance, singing thematic texts in tandem with the rhythm of the drumbeats and the footwork of the dancers. Detailed footwork counts and spatial pathways are not described in sources.",
+   "music_and_instruments": "The musical accompaniment is centered around isukuti drums, which are played in sets of three consisting of a big drum, a medium drum, and a small drum. These drums are normally accompanied by an antelope horn and assorted metal rattles. A soloist leads the performance by singing thematic texts that match the rhythm of the drumbeats.",
+   "costume_and_setting": "Costumes worn by the dancers have evolved and modernized over time, driven by community discussions around maintaining modesty and cultural decency during performances. Performances take place across public gatherings, open spaces, or event grounds during community milestones.",
+   "occasions_and_meaning": "Isukuti permeates most occasions and stages in life, functioning as an integral tool for cultural transmission and harmonious coexistence between families and communities. Specific occasions include childbirths, initiations, weddings, funerals, commemorations, inaugurations, religious festivities, sporting events, and other public congregations.",
+   "notable_figures": "Mwitakho and Mwisukha are the ancestral figures widely believed to have founded the Idakho and Isukha subtribes. Specific individual master dancers or contemporary composers are not named in the sources.",
+   "regional_variants": "Practiced primarily among the Isukha and Idakho communities of Western Kenya within the Kakamega District. Specific internal regional variants are not described in sources.",
+   "lineage": "The dance originates directly from the cultural heritage of the Isukha and Idakho Luhya sub-groups in Western Kenya, linked historically through ancestral founders Mwitakho and Mwisukha."
+  },
+  "teaching": {
+   "basic_steps": [
+    "not described in sources"
+   ],
+   "rhythm": "not described in sources",
+   "formation": "separate rows for men and women",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "La danse traditionnelle Isukuti est une pratique kenyane des communautés Isukha et Idakho qui vivent dans l'ouest de ce pays.",
+    "source": "https://fr.wikipedia.org/wiki/Isukuti"
+   },
+   {
+    "text": "The Isukuti dance is a traditional celebratory performance practised among the Isukha and Idakho communities of Western Kenya.",
+    "source": "https://ich.unesco.org/en/USL/00981"
+   },
+   {
+    "text": "Isukuti drums are played in sets of three—big, medium and small—accompanied by an antelope horn and metal rattles.",
+    "source": "https://ich.unesco.org/en/USL/00981"
+   },
+   {
+    "text": "Dancers are arranged in separate rows for men and women.",
+    "source": "https://ich.unesco.org/en/USL/00981"
+   },
+   {
+    "text": "Mwitakho and his brother Mwisukha are widely believed to have founded the Idakho and Isukha subtribes.",
+    "source": "https://en.wikipedia.org/wiki/Idakho"
+   },
+   {
+    "text": "Many tradition bearers are elderly and lack successors to pass on their knowledge.",
+    "source": "https://ich.unesco.org/en/USL/00981"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Detailed footwork counts and step-by-step teaching choreography are not described in sources.",
+   "Specific musical tempo in BPM and exact rhythm patterns are not documented in sources."
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "0",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "isukuti drums (big, medium, small)",
+    "antelope horn",
+    "metal rattles"
+   ],
+   "vocal_style": "soloist singing thematic texts in tandem with drum rhythms",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "energetic",
+    "passionate",
+    "fast-paced",
+    "celebratory"
+   ],
+   "reference_recordings": [],
+   "sound_description": "not described in sources"
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "separate rows for men and women",
+   "partnering": "not described in sources",
+   "tempo_feel": "fast-paced",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Drums of Western Kenya",
+   "logline": "Explore the energetic Isukuti dance of the Isukha and Idakho communities and its fight against fading transmission.",
+   "beats": [
+    "Introduction to the Kakamega District and the Isukha and Idakho communities.",
+    "The three-drum ensemble, antelope horn, and metal rattles.",
+    "The vocal soloist and the arrangement of men and women in separate rows.",
+    "Occasions of performance from childbirths to funerals.",
+    "The 2014 UNESCO urgent safeguarding inscription and modern challenges."
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Set of three isukuti drums",
+    "Separate rows of dancers",
+    "Metal rattles and antelope horn"
+   ],
+   "instructor_persona": "A knowledgeable cultural bearer or community dance researcher from Western Kenya.",
+   "music_cue": "Fast-paced Isukuti drum ensemble with solo vocals."
+  },
+  "connections": [
+   {
+    "name": "Lipala dance",
+    "relation": "variant",
+    "note": "Mentioned alongside Isukuti in regional cultural arts."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "0",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-27T20:12:32Z",
+  "qc_score": 9.55
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 7,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "arms",
+    "label": "arms and hands"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ],
+  "ritual_context": true
+ },
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 10,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/isukuti.json"
+ },
+ "fingerprint": "294a2118b8c96d32",
+ "updated": "2026-11-27"
 }

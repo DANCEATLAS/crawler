@@ -1,0 +1,120 @@
+{
+ "slug": "chopi-timbila-mozambique",
+ "qc_at": "2026-11-27T20:15:55Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Chopi Timbila"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "61"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "184"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Dancers carry shields and spears to perform 'warrior steps' that recount 19th-ce"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "704"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2676"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "7"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Mozambique"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'god', 'ancestor']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Exceptional, fully verified profile detailing the Chopi Timbila music and dance tradition with precise cultural context."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=9.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-27T20:03:47Z"
+}

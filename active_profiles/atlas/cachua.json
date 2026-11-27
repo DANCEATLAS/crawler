@@ -1,13 +1,90 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "rapid spinning",
+          "forceful shoe strikes"
+        ],
+        "counts": "Basic 1-2 counts matching the quarter-eighth note rhythm",
+        "duration_minutes": "3",
+        "game_version": "Simplified hand-holding circle game focusing on walking to a 2/4 beat"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "shoe strikes",
+          "fast spins",
+          "rapid turns"
+        ],
+        "counts": "Steady 2/4 counts at a moderate pace",
+        "seated_version": "Seated hand-holding circle simulation with upper body sway",
+        "standing_version": "Supported standing circle walk without shoe strikes or fast spins",
+        "tempo_and_range": "Reduced tempo, restricted range of motion omitting rapid foot strikes and axis turns"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "hold hands",
+      "difficulty": "beginner",
+      "footwork": "men strike with the shoes",
+      "formation_and_space": "circle dance with pairs",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "pairs where the women spin on their own axis",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "men strike with their shoes",
+          "name": "shoe striking"
+        },
+        {
+          "description": "women spin around their own axis",
+          "name": "axis spin"
+        }
+      ],
+      "tempo_feel": "rapid",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "quena",
+        "pan flute",
+        "drums",
+        "charango",
+        "guitar"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "festive",
+        "rapid",
+        "lively"
+      ],
+      "musical_form": "pentatonic melodies",
+      "reference_recordings": [],
+      "rhythm_pattern": "quarter note alternates with two eighth notes across bars",
+      "sound_description": "Played in rapid unsyncopated two-four time with pentatonic melodies, featuring flutes like the quena and pan flute alongside drums, and sometimes charango or guitar.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "singing with repeated verse pairs"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Join hands in a circle formation",
+        "Step in rapid 2/4 time alternating quarter and eighth notes",
+        "Men strike with shoes while women spin on their axis"
+      ],
+      "formation": "Circle dance with pairs",
+      "level_notes": "Beginner level circle formation based on historical and regional descriptions.",
+      "rhythm": "Rapid unsyncopated 2/4 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9ed76603b8b8c3487c1be8f149964f5482ffcffb473692cec62bde109749f132",
+  "fingerprint": "bd598743ad09f5cbd60282caf896e7b1c89c4c83e3504d9f3445e703e69485cf",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +92,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific regional costume pieces distinguish the Amantaní Qachwa from other Andean variants? Evidence needed: Local ethnographic monographs on Puno festive textiles."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +121,18 @@
   ],
   "music_options": [],
   "name": "Cachua",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "c72579e54d917c0b",
+      "next_evidence": "Local ethnographic monographs on Puno festive textiles.",
+      "question": "What specific regional costume pieces distinguish the Amantaní Qachwa from other Andean variants?",
+      "source": "https://es.wikipedia.org/wiki/Cachua",
+      "status": "candidate_unreviewed",
+      "why_needed": "Costume and setting details are entirely unmentioned in current sources."
+    }
+  ],
+  "research_file": "research_results/cachua.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +144,10 @@
   "slug": "cachua",
   "sources": [
     "https://en.wikipedia.org/wiki/Cachua",
-    "Source: Cachua on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Cachua"
+    "https://www.wikidata.org/wiki/Q5016027",
+    "https://es.wikipedia.org/wiki/Cachua",
+    "https://de.wikipedia.org/wiki/Cachua"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

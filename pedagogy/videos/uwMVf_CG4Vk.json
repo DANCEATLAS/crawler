@@ -1,0 +1,171 @@
+{
+ "youtube_id": "uwMVf_CG4Vk",
+ "slug": "sean-nos-dance",
+ "dance": "Sean-nós dance",
+ "title": "Sean-Nós Dance Back to Basics: The Connemara Step",
+ "channel": "Siobhan Butler",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-27T20:31:58Z",
+ "url": "https://www.youtube.com/watch?v=uwMVf_CG4Vk",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down variations step by step, explaining weight shifts and variations clearly. She demonstrates each movement from a back view on a wooden dance floor.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:01",
+    "segment": "intro",
+    "note": "Introduction to the Connemara step"
+   },
+   {
+    "t": "0:26",
+    "segment": "breakdown",
+    "note": "First version breakdown: two heel scuffs and a toe tap"
+   },
+   {
+    "t": "1:15",
+    "segment": "breakdown",
+    "note": "Second version breakdown: stomp and hop transition"
+   },
+   {
+    "t": "3:03",
+    "segment": "breakdown",
+    "note": "Third version breakdown: three heel scuffs and a hop"
+   },
+   {
+    "t": "4:09",
+    "segment": "breakdown",
+    "note": "Fourth version breakdown: heel drop before toe tap"
+   },
+   {
+    "t": "6:05",
+    "segment": "music_practice",
+    "note": "Practicing steps with slow tempo music"
+   },
+   {
+    "t": "7:12",
+    "segment": "music_practice",
+    "note": "Practicing steps with fast tempo music"
+   }
+  ],
+  "counting_scheme": "heel down, heel down, tap / 1-2-3",
+  "cues": [
+   "heel down heel down tap",
+   "stomp and lean",
+   "heel drop"
+  ],
+  "metaphors": [
+   "almost like a little wave motion"
+  ],
+  "demonstration": {
+   "angles": [
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Connemara Step Version 1",
+    "counts": "heel-down heel-down tap",
+    "description": "Two heel scuffs with a toe tap transition."
+   },
+   {
+    "name": "Connemara Step Version 2",
+    "counts": "heel-down heel-down stomp",
+    "description": "Two heel scuffs with a stomp and hop transition."
+   },
+   {
+    "name": "Connemara Step Version 3",
+    "counts": "heel-1 heel-2 heel-3 hop",
+    "description": "Three heel scuffs with a hop transition."
+   },
+   {
+    "name": "Connemara Step Version 4",
+    "counts": "heel-drop heel-drop heel-drop tap",
+    "description": "Heel drops incorporated into the scuffs."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "clear visual demonstration from the back",
+    "progressive variation breakdown"
+   ],
+   "what_hinders": [
+    "no front-facing view for facial cues"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:02",
+    "text": "So the Connemara step, this might be one of the first steps that you learn."
+   },
+   {
+    "t": "0:57",
+    "text": "So the only difference between this and then the next version is that my weight is staying more back."
+   },
+   {
+    "t": "2:28",
+    "text": "So rhythmically, they're exactly the same."
+   },
+   {
+    "t": "5:56",
+    "text": "So you get the gist."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 2,
+    "end_s": 17,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates the basic Connemara step from behind on a wooden board.",
+    "viewpoint": "back, mirror",
+    "cannot_infer": "exact weight distribution without audio cues",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 122,
+    "end_s": 130,
+    "topic": "movement",
+    "observation": "Teacher demonstrates stomp and lean variation.",
+    "viewpoint": "back, mirror",
+    "cannot_infer": "subtle foot pressure",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 308,
+    "end_s": 328,
+    "topic": "movement",
+    "observation": "Teacher demonstrates three heel scuffs.",
+    "viewpoint": "back, mirror",
+    "cannot_infer": "upper body posture from front",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 430,
+    "end_s": 453,
+    "topic": "teaching",
+    "observation": "Teacher explains heel drop before toe tap.",
+    "viewpoint": "back, mirror",
+    "cannot_infer": "tension in ankle joints",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down a single traditional step into four distinct weight-shift and articulation variations."
+ },
+ "attempts": 1
+}

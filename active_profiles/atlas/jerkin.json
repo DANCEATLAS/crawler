@@ -1,13 +1,98 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "In-and-out leg movements, backward rotations, and rapid rotations below the knee.",
+      "formation_and_space": "Performed in crews or solo in street settings.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Moving the legs in and out.",
+          "name": "Jerk"
+        },
+        {
+          "description": "Rotating the legs backward without turning.",
+          "name": "Reject"
+        },
+        {
+          "description": "Small steps followed by a sudden stop.",
+          "name": "Dip"
+        },
+        {
+          "description": "Rapid rotation of the leg below the knee.",
+          "name": "Pindrop"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Synthesizers",
+        "Drum machines"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Upbeat",
+        "High-energy",
+        "Playful"
+      ],
+      "musical_form": "Jerk rap",
+      "reference_recordings": [
+        {
+          "artist": "New Boyz",
+          "title": "You're a Jerk"
+        },
+        {
+          "artist": "Audio Push",
+          "title": "Teach Me How to Jerk"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Upbeat hip-hop tracks with dance-oriented rhythms; 2020s revival tracks feature faster tempos and melodic synth layers.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Rap"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Jerk: In-and-out leg movement",
+        "Reject: Backward leg rotation",
+        "Dip: Small steps with a sudden stop",
+        "Pindrop: Rapid rotation of the leg below the knee"
+      ],
+      "formation": "Crews or solo dancers in street or party settings",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "da44247418f05bb40b1e4f18a80d566cb4337438f9739097b40de7d8ee22ab17",
+  "fingerprint": "476405f20806cb91c1e9b898f0bf5a7be8a984e9db5e356bfb9d325ea87999ab",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +100,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -46,7 +130,7 @@
   "music_options": [],
   "name": "Jerkin'",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/jerkin.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +142,18 @@
   "slug": "jerkin",
   "sources": [
     "https://en.wikipedia.org/wiki/Jerkin%27",
-    "Source: Jerkin' on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Jerkin%27"
+    "https://www.wikidata.org/wiki/Q1687669",
+    "https://fr.wikipedia.org/wiki/Jerk_urbain",
+    "https://es.wikipedia.org/wiki/Jerk_(baile)",
+    "https://de.wikipedia.org/wiki/Jerk_(Raptanz)",
+    "https://it.wikipedia.org/wiki/Jerkin'"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/RPW0I93G20Q.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=RPW0I93G20Q"
+    }
+  ]
 }

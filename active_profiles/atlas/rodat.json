@@ -1,0 +1,144 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      " what_to_avoid": "Avoid incorrect pronunciation of the zikir verses where possible, despite historical corruption of the text.",
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Group-based with 20-26 performers divided into three functional sections",
+      "hips_and_torso": "Swaying and rhythmic movement (pelenggok)",
+      "levels_and_jumps": "Low (kneeling/sitting) to high (standing)",
+      "partnering": "None; group synchronization",
+      "posture": "Transitions between kneeling, squatting, and standing",
+      "signature_moves": [
+        {
+          "description": "The rhythmic swaying and movement performed by the 12 male dancers",
+          "name": "Pelenggok"
+        }
+      ],
+      "tempo_feel": "Rhythmic and corresponding to the drum",
+      "what_to_avoid": ""
+    },
+    "music_profile": {
+      "instruments": [
+        "Rebana"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "devotional",
+        "rhythmic",
+        "celebratory",
+        "contemplative"
+      ],
+      "musical_form": "Call and response (correspondence)",
+      "reference_recordings": [
+        {
+          "artist": "Uji Rashid",
+          "title": "Inang Rodat"
+        }
+      ],
+      "rhythm_pattern": "Rhythmic patterns of the rebana drum",
+      "sound_description": "A percussive foundation of rebana drums supports a vocal dialogue between male and female choruses. The melodies blend traditional Arabic zikir with 20th-century Malay and Hindustani popular influences.",
+      "tempo_bpm": "",
+      "vocal_style": "Corresponding male and female chorus members singing zikir and popular tunes"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Sitting-kneeling position with rebana accompaniment",
+        "Rhythmic swaying of the upper body (pelenggok)",
+        "Transition from squatting to standing (primarily male dancers)",
+        "Call-and-response vocalization between male and female groups",
+        "Full standing synchronized movements"
+      ],
+      "formation": "Three groups: 12 male dancers (pelenggok), 8 drummers (pengadi), and 4-6 female dancers (mak inang)",
+      "level_notes": "Requires coordination between large groups and the ability to transition smoothly from kneeling to standing while maintaining vocal rhythm.",
+      "rhythm": "Rhythmic patterns provided by the rebana drum"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "cba94aba3d915fac9d7ea240e16c41864223effe853aabd19abfde9f95205d7e",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic patterns played by the eight pengadi drummers? Evidence needed: https://en.wikipedia.org/wiki/Rodat_(dance)"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand gestures used by the mak inang and pelenggok during the standing phase? Evidence needed: https://en.wikipedia.org/wiki/Rodat_(dance)"
+    ]
+  },
+  "id": "atlas:rodat",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Rodat",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "35c8ec0795d331dc",
+      "next_evidence": "https://en.wikipedia.org/wiki/Rodat_(dance)",
+      "question": "What are the specific hand gestures used by the mak inang and pelenggok during the standing phase?",
+      "source": "https://en.wikipedia.org/wiki/Rodat_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources mention 'basic dance movements' but do not detail the upper body or hand choreography necessary for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "ca70a7fb99eb5b89",
+      "next_evidence": "https://en.wikipedia.org/wiki/Rodat_(dance)",
+      "question": "What are the specific rhythmic patterns played by the eight pengadi drummers?",
+      "source": "https://en.wikipedia.org/wiki/Rodat_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate the music profile accurately, the specific interlocking or unison patterns of the rebana must be identified."
+    }
+  ],
+  "research_file": "research_results/rodat.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "rodat",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rodat_(dance)",
+    "https://www.wikidata.org/wiki/Q7356449"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

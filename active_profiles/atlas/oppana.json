@@ -1,0 +1,160 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Overly complex song lyrics"
+        ],
+        "counts": "1-2 step-clap count.",
+        "duration_minutes": "3",
+        "game_version": "Children form a circle around a designated 'bride' or 'groom' on a chair, taking turns being lead singers and chorus clappers."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid turns",
+          "Prolonged standing without support"
+        ],
+        "counts": "Simple 1-2 step and clap rhythm.",
+        "seated_version": "Perform the rhythmic hand clapping patterns and chorus singing while seated in a circle surrounding a focal point.",
+        "standing_version": "Walk slowly in a wide circular path with gentle step-claps, reducing circle speed.",
+        "tempo_and_range": "Maintain a comfortable walking pace without sharp turns or sudden level changes."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Execute rhythmic hand clapping synchronized with circular stepping in Oppana murukkam.",
+          "source": "https://en.wikipedia.org/wiki/Oppana"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Circle of dancers surrounding a central seated chief spectator on a peetam.",
+          "source": "https://en.wikipedia.org/wiki/Oppana"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Rhythmic hand clapping in front of the body (omitted in Chayal style).",
+      "difficulty": "beginner",
+      "footwork": "Simple stepping along a circular path.",
+      "formation_and_space": "Circular formation centered around a seated individual on a peetam.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Seated central focus (bride on peetam) surrounded by standing dancers; no jumps described.",
+      "partnering": "Group circle dance facing inward toward a central bride or groom.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A style of Oppana danced continuously without hand clapping.",
+          "name": "Oppana chayal"
+        },
+        {
+          "description": "A style of Oppana featuring rhythmic hand clapping.",
+          "name": "Oppana murukkam"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Clapping hands during an Oppana chayal performance."
+    },
+    "music_profile": {
+      "instruments": [
+        "Harmonium",
+        "Tabla",
+        "Ganjira",
+        "Elathaalam"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "playful",
+        "celebratory",
+        "teasing"
+      ],
+      "musical_form": "Call-and-response vocal structure singing Mappilapaattu in Arabi Malayalam.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic clapping patterns paired with percussion.",
+      "sound_description": "A vibrant blend of vocal call-and-response in Arabi Malayalam supported by harmonium melodies, steady tabla and ganjira drumming, sharp elathaalam cymbals, and rhythmic hand clapping.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Lead singer (2-3 vocalists) followed by full chorus response."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circular path facing inward toward the seated focal person.",
+        "Step rhythmically along the circle using simple footwork while maintaining the group ring.",
+        "Execute synchronized hand claps matching the meter of the Mappilapaattu song (omitted in Oppana chayal style)."
+      ],
+      "formation": "Circle surrounding a central seated spectator (the bride on a peetam).",
+      "level_notes": "Beginners focus on simple circular walking steps while maintaining steady call-and-response singing and hand clapping.",
+      "rhythm": "Rhythmic clapping matching the live musical accompaniment (harmonium, tabla, ganjira, elathaalam)."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a6e412537adb87d35c2c0ca82d8e9751db5b8955302c0202e1538ccee3c4b55f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture",
+      "music_structure: meter",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific step patterns and arm gestures differentiate Oppana murukkam from Oppana chayal besides the omission of clapping? Evidence needed: Video documentation or instructional manuals from the Kerala Folklore Academy."
+    ]
+  },
+  "id": "atlas:oppana",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Oppana",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "c5a4e7cce7a92aab",
+      "next_evidence": "Video documentation or instructional manuals from the Kerala Folklore Academy.",
+      "question": "What specific step patterns and arm gestures differentiate Oppana murukkam from Oppana chayal besides the omission of clapping?",
+      "source": "https://en.wikipedia.org/wiki/Oppana",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profiles require detailed footwork and hand position descriptions to build interactive step lessons."
+    }
+  ],
+  "research_file": "research_results/oppana.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "oppana",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Oppana",
+    "https://www.wikidata.org/wiki/Q7098537"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

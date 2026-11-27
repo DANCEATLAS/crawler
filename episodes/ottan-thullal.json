@@ -2,7 +2,7 @@
  "slug": "ottan-thullal",
  "name": "Ottan thullal",
  "pack_version": "e2",
- "built_at": "2026-11-26T21:10:14Z",
+ "built_at": "2026-11-27T21:09:06Z",
  "researched_at": "2026-11-26T19:46:08Z",
  "qc_score": 9.55,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Ottan thullal. 18th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (9qqVdwQ_smU)",
      "Title card: Ottan thullal · India · 18th century"
     ],
     "music": "theme (30 s)"
@@ -107,7 +107,7 @@
      "A chorus repeats each sentence as it is completed."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (9qqVdwQ_smU)",
      "Signature moves — MISSING",
      "Formation: Solo performer on stage."
     ],
@@ -693,7 +693,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "9qqVdwQ_smU",
+   "checked_by_vision_model": true,
+   "title": "ഇത്രയും പ്രതീക്ഷിച്ചില്ല കിടിലൻ ഓട്ടം തുള്ളൽ"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -790,8 +794,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "111 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 111,
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -800,25 +804,24 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "5-6-7-8",
    "1-2-3-4",
+   "5-6-7-8",
    "step together step",
+   "1 2 3 4 5 6",
    "1 2 3 4",
+   "opa",
    "1-2-3",
    "putar",
    "mundur",
    "step to the right",
    "un dos tres",
-   "right together right touch",
-   "left together left touch",
-   "spin out"
+   "right together right touch"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
-   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -831,7 +834,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage",
   "posture, arms and hands",
   "signature moves",
@@ -845,6 +847,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "585578acedc3269ef3c88a46c5159ab3d47351006d3803698a738d317fc023a4",
- "hero_checked": null
+ "input_fingerprint": "984b692114a2ee539478adce8f393ebfc4910b9233b0825386413d8b062f15a1",
+ "hero_checked": "pass"
 }

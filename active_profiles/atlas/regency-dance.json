@@ -1,0 +1,170 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex setting footwork",
+          "Extended hour-long sets"
+        ],
+        "counts": "Simple 1-2 skipping counts.",
+        "duration_minutes": "15",
+        "game_version": "Follow-the-leader longways progression game where top dancers invent simple skipping patterns."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps or leaps (sauteuse)",
+          "High relevé on balls of feet",
+          "Rapid directional turns"
+        ],
+        "counts": "Standard 2/4 or 3/4 steady walking counts.",
+        "seated_version": "Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated.",
+        "standing_version": "Perform longways figures at a slow walking pace without jumping or rising high on the balls of the feet.",
+        "tempo_and_range": "Reduced tempo with small steps to maintain balance."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Executing longways country dance progression",
+          "source": "https://en.wikipedia.org/wiki/Regency_dance"
+        },
+        {
+          "description": "Executing Scotch reel setting and heying",
+          "source": "https://en.wikipedia.org/wiki/Regency_dance"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Longways set of couples performing figures and progressing",
+          "source": "https://en.wikipedia.org/wiki/Regency_dance"
+        },
+        {
+          "description": "Square set of four couples for cotillion or quadrille",
+          "source": "https://en.wikipedia.org/wiki/Regency_dance"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Held in a variety of graceful positions during waltzing and turns",
+      "difficulty": "intermediate",
+      "footwork": "Ranging from simple skipping steps to elaborate ballet-style movements and fancy setting steps",
+      "formation_and_space": "Longways facing lines, square sets, or linear reels",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes leaps in variants like the sauteuse waltz",
+      "partnering": "Couples dancing figures together, progressing along lines, or turning in closed waltz hold",
+      "posture": "Up on the balls of the feet with graceful arm positions",
+      "signature_moves": [
+        {
+          "description": "Fancy steps danced in place during reels or country dances.",
+          "name": "Setting"
+        },
+        {
+          "description": "Interlacing paths woven through a line of three or four dancers.",
+          "name": "Heying"
+        },
+        {
+          "description": "A right-hand or left-hand star figure performed in square cotillion sets.",
+          "name": "Moulinet"
+        }
+      ],
+      "tempo_feel": "Lively and bouncy rather than smooth and stately",
+      "what_to_avoid": "Avoid dancing in a smooth, slow, or stately manner, which misrepresents authentic period technique."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4 or 3/4 depending on the specific dance",
+      "mood_keywords": [
+        "lively",
+        "bouncy",
+        "social",
+        "bright"
+      ],
+      "musical_form": "Sectional sets of figures (quadrilles) or repeated tunes with chorus and changes (cotillions)",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Bright, structured dance music supporting energetic skipping, setting, and stepping across various meters.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Marching in procession",
+        "Skipping steps",
+        "Setting (fancy footwork in place)",
+        "Heying (interlacing through lines)",
+        "Moulinet / Star (right-hand or left-hand turn in square or set)"
+      ],
+      "formation": "Longways sets (couples in two facing lines), squares (cotillions and quadrilles), or lines of 3-4 (reels).",
+      "level_notes": "Beginners start with basic line progressions and skips; advanced dancers execute ballet-style setting footwork.",
+      "rhythm": "Variable by dance format; includes 2/4 for sauteuse and 3/4 for waltz."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e96f64c8afc90082d71a26d028b29e36e6ebedfacc1a63be46f4992a5e9c3d76",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: rhythm_pattern",
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: What are the exact step manual counts for setting in Peacock's Scotch reel descriptions? Evidence needed: Consult Francis Peacock's dance manual in the US Library of Congress online collection."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:regency-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Regency dance",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "4043a72750b9cf4b",
+      "next_evidence": "Consult Francis Peacock's dance manual in the US Library of Congress online collection.",
+      "question": "What are the exact step manual counts for setting in Peacock's Scotch reel descriptions?",
+      "source": "https://en.wikipedia.org/wiki/Regency_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To construct exact digital footwork interactive drills for the Scotch reel setting step."
+    }
+  ],
+  "research_file": "research_results/regency-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "regency-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Regency_dance",
+    "https://www.wikidata.org/wiki/Q7308026"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

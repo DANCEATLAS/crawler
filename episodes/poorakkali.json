@@ -1,0 +1,425 @@
+{
+ "slug": "poorakkali",
+ "name": "Poorakkali",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T19:29:02Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned Panicker from North Malabar, rigorous in discipline, deeply learned in epic poetry, and respectful of ancient temple codes.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Poorakkali"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Poorakkali",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Fire, Myth, and Martial Rhythm: The Ritual Circle of Poorakkali",
+     "This is Poorakkali. Traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Poorakkali · India · Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Poorakkali originates as a traditional ritual dance performed across North Malabar in Kerala during the nine-day Pooram Thiyya festival.",
+     "The practice is anchored in the myth of Kamadeva, who was reduced to ashes by Shiva's third eye when intervening on behalf of Parvati.",
+     "Following Vishnu's instructions to the heavenly goddess Rambha to create an image of Kama using flowers and restore worldly joy through song and dance, women on earth initially perpetuated the ritual celebrations."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Poorakkali is enacted exclusively during the nine-day Pooram festival held in the Malayalam month of Meenam (corresponding to the Karthika through Pooram asterisms), honoring the god of love, Kamadeva.",
+     "Its ritual foundation recalls the Vasanthapooja performed by dwellers of celestial and earthly realms.",
+     "The performance combines sacred education with entertainment, celebrating love's renewal and seasonal revival.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Poorakkali-Kerala School Kalolsavam 2026 Day 3.webm (https://upload.wikimedia.org/wikipedia/commons/e/e6/Poorakkali-Kerala_School_Kalolsavam_2026_Day_3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by an ensemble of young men moving in circular formation around a towering, multi-tiered lit lamp called a nilavilukku.",
+     "The dancers execute masculine, acrobatic, and martial art steps characterized by deep physical commitments and agility.",
+     "No independent musical players accompany the performance; rhythm is produced entirely by the dancers through synchronized foot-thumping against the ground, hand-clapping, and responsorial singing.",
+     "Watch for Synchronised foot-thumping, Panicker call-and-clap."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circular spatial path revolving around a central multi-tiered brass lamp"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Poorakkali uses no external instruments, seated percussionists, or separate vocalists.",
+     "All musical rhythm and melodic accompaniment are created directly by the performing dancers.",
+     "Listen for the Nil (acappella; no musical instruments used; body percussion via clapping and foot-thumping).",
+     "A purely acoustic, vocal-and-percussive soundscape stripped of drums or melodic instruments. The Panicker chants episodic verses from classical epics in a ringing voice, immediately mirrored by the deep, unified roar of the male chorus, propelled by loud, sharp clapping and forceful, synchronized floor-strikes."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic pulses produced exclusively by hand-clapping and synchronized foot-thumping"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The performance takes place within Bhagavathy temple courtyards in North Malabar, centered around a huge, multi-tiered brass lamp (nilavilukku) lit for the occasion.",
+     "The dancers are described in sources as young men decked in lion costumes.",
+     "Ritual protocols precede the performance, and the dancers undergo a month of rigorous practice alongside strict personal abstinence before stepping into the temple space."
+    ],
+    "on_screen": [
+     "Image gallery: 7 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The masters and leaders of Poorakkali are titled Panickers.",
+     "They lead the ensemble in song, oversee choreography, direct rehearsals, and are recognized for their historical role in the survival and expansion of the art form.",
+     "Marathukali is a distinct, competitive variant of Poorakkali.",
+     "Poorakkali reflects generations of artistic transmission among communities in North Malabar such as the Thiyya, Maniyani, and Nambiar, led by lineage masters known as Panickers who preserve the epic hymns, martial choreographies, and temple ritual protocols."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Poorakkali is variant of Marathukali: A highly competitive form of Poorakkali enacted by two opposing parties who engage in heated scholarly and performative disputes."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Poorakkali is a sacred temple ritual dedicated to Kamadeva and Bhagavathy; performers observe a month of strict abstinence and perform initial consecration rituals prior to dancing."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the sacred temple courtyards of North Malabar, young men dedicate a month of abstinence and martial training to revive the god of love through pure voice, clapping, and thunderous footwork.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic pulses produced exclusively by hand-clapping and synchronized foot-thumping",
+  "instruments": [
+   "Nil (acappella; no musical instruments used; body percussion via clapping and foot-thumping)"
+  ],
+  "vocal_style": "Antiphonal call-and-response chanting, led by the Panicker and answered by the dancing chorus",
+  "musical_form": "Call-and-response hymnody based on verses from the Ramayana, Mahabharata, and Bhagavata",
+  "mood": [
+   "devotional",
+   "martial",
+   "resonant",
+   "vigorous",
+   "epic"
+  ],
+  "sound_description": "A purely acoustic, vocal-and-percussive soundscape stripped of drums or melodic instruments. The Panicker chants episodic verses from classical epics in a ringing voice, immediately mirrored by the deep, unified roar of the male chorus, propelled by loud, sharp clapping and forceful, synchronized floor-strikes.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Poorakkali (India). Rhythm pattern: Rhythmic pulses produced exclusively by hand-clapping and synchronized foot-thumping. Instruments: Nil (acappella; no musical instruments used; body percussion via clapping and foot-thumping). Vocal style: Antiphonal call-and-response chanting, led by the Panicker and answered by the dancing chorus. Form: Call-and-response hymnody based on verses from the Ramayana, Mahabharata, and Bhagavata. Mood: devotional, martial, resonant, vigorous, epic. It should sound like this: A purely acoustic, vocal-and-percussive soundscape stripped of drums or melodic instruments. The Panicker chants episodic verses from classical epics in a ringing voice, immediately mirrored by the deep, unified roar of the male chorus, propelled by loud, sharp clapping and forceful, synchronized floor-strikes. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The performance takes place within Bhagavathy temple courtyards in North Malabar, centered around a huge, multi-tiered brass lamp (nilavilukku) lit for the occasion. The dancers are described in sources as young men decked in lion costumes. Ritual protocols precede the performance, and the dancers undergo a month of rigorous practice alongside strict personal abstinence before stepping into the temple space.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APoorakkali_02.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APoorakkaliIMG_1143.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Poorakkali_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Poorakkali_02.jpg/1280px-Poorakkali_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dvellakat / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoorakkali_02.jpg",
+    "description": "Poorakkali is a traditional art in north Kerala. Krishna bhakti is main theme. Influence of kalari is significant."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/PoorakkaliIMG_1143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/PoorakkaliIMG_1143.jpg/1280px-PoorakkaliIMG_1143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kannan Shanmugam, Shanmugam Studio, kollam / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoorakkaliIMG_1143.jpg",
+    "description": "Poorakkali (meaning Festival Performance) is a traditional dance ritual performed by men during the nine-day Pooram festival in Bhagavathy temples across North Malabar in Kerala State of south India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Poorakkali_IMG_1165.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Poorakkali_IMG_1165.jpg/1280px-Poorakkali_IMG_1165.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kannan Shanmugam, Shanmugam Studio, kollam / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoorakkali_IMG_1165.jpg",
+    "description": "Poorakkali (meaning Festival Performance) is a traditional dance ritual performed by men during the nine-day Pooram festival in Bhagavathy temples across North Malabar in Kerala State of south India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Poorakkali_IMG_1168.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Poorakkali_IMG_1168.jpg/1280px-Poorakkali_IMG_1168.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kannan Shanmugam, Shanmugam Studio, kollam / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoorakkali_IMG_1168.jpg",
+    "description": "Poorakkali (meaning Festival Performance) is a traditional dance ritual performed by men during the nine-day Pooram festival in Bhagavathy temples across North Malabar in Kerala State of south India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Poorakkali_IMG_1150.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Poorakkali_IMG_1150.jpg/1280px-Poorakkali_IMG_1150.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kannan Shanmugam, Shanmugam Studio, kollam / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoorakkali_IMG_1150.jpg",
+    "description": "Poorakkali (meaning Festival Performance) is a traditional dance ritual performed by men during the nine-day Pooram festival in Bhagavathy temples across North Malabar in Kerala State of south India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Poorakkali_IMG_1148.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Poorakkali_IMG_1148.jpg/1280px-Poorakkali_IMG_1148.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kannan Shanmugam, Shanmugam Studio, kollam / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoorakkali_IMG_1148.jpg",
+    "description": "Poorakkali (meaning Festival Performance) is a traditional dance ritual performed by men during the nine-day Pooram festival in Bhagavathy temples across North Malabar in Kerala State of south India."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Poorakkali-Kerala School Kalolsavam 2026 Day 3.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Poorakkali-Kerala_School_Kalolsavam_2026_Day_3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Rahul Sankar / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "The glowing wick flames of the multi-tiered nilavilukku",
+   "Bare feet slamming in unison against temple courtyard stone",
+   "Young men moving in disciplined concentric circular patterns",
+   "Lion costume detailing and devotional temple architecture"
+  ],
+  "costume_notes": "The performance takes place within Bhagavathy temple courtyards in North Malabar, centered around a huge, multi-tiered brass lamp (nilavilukku) lit for the occasion. The dancers are described in sources as young men decked in lion costumes. Ritual protocols precede the performance, and the dancers undergo a month of rigorous practice alongside strict personal abstinence before stepping into the temple space.",
+  "setting_notes": "Poorakkali is enacted exclusively during the nine-day Pooram festival held in the Malayalam month of Meenam (corresponding to the Karthika through Pooram asterisms), honoring the god of love, Kamadeva. Its ritual foundation recalls the Vasanthapooja performed by dwellers of celestial and earthly realms. The performance combines sacred education with entertainment, celebrating love's renewal and seasonal revival.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "20 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 20,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "1-2-3",
+   "1 and 2",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Poorakkali",
+  "https://www.wikidata.org/wiki/Q7228847"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "input_fingerprint": "d4e4ed2a975ab0f1ecdb7467e659117e6a212d1067868c6f98fdde7af5d2192f",
+ "hero_checked": null
+}

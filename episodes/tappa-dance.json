@@ -1,0 +1,812 @@
+{
+ "slug": "tappa-dance",
+ "name": "Tappa dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T20:05:03Z",
+ "qc_score": 8.7,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A respected Magar elder from the Dang District who emphasizes the spiritual and physical link between the drum and the dancer.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Tappa dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Tappa dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Drum that Dictates the Dance",
+     "This is Tappa dance. Traditional."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (c0GR8K2mgp8)",
+     "Title card: Tappa dance · Nepal · Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Tappa is a traditional folk dance of the Magar community, an indigenous group in Nepal.",
+     "It is most prominently practiced in the Dang District within the Rapti Zone.",
+     "The dance's history is tied to the local use of the pappa drum, though specific dates of origin are not recorded in the sources."
+    ],
+    "on_screen": [
+     "Map: Nepal · South Asia",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is a traditional expression of the Magar community.",
+     "While specific festivals are not named in the sources, it is identified as a popular folk dance within its home region of the Rapti Zone.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance follows a linear progression of speed.",
+     "It begins at a slow tempo and gradually accelerates.",
+     "Dancers must synchronize their movements with the beats of the pappa hand drum, reaching a high-speed conclusion as the drummer increases the tempo.",
+     "Watch for Pappa synchronization."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (c0GR8K2mgp8)",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The primary instrument is the pappa, a local hand drum.",
+     "The rhythm of this drum drives the entire performance and is the source of the dance's name, Tappa.",
+     "Listen for the pappa (hand drum).",
+     "The tempo sits around 70 beats a minute.",
+     "The sound is dominated by the percussive strikes of the pappa hand drum. It begins with spaced, resonant beats that gradually compress into a rapid, driving pulse as the performance reaches its conclusion."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Driven by the pappa hand drum beats with a constant accelerando"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The dance is specifically noted for its popularity in the Dang District of the Rapti Zone in Nepal.",
+     "The dance is a folk tradition of the Magar people of Nepal."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Tappa dance is parent of Magar culture: The Tappa dance is a traditional expression of the Magar ethnic group."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Begin with slow, measured steps in time with the initial pappa drum beats",
+     "Maintain a steady pulse as the drummer begins the first gradual increase in speed",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the hills of Nepal's Dang District, the Magar people perform a dance that starts with a whisper and ends in a rhythmic storm, guided entirely by the pappa hand drum.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the slow tempo",
+   "level": "1",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the slow tempo.",
+      "Level: 1. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A respected Magar elder from the Dang District who emphasizes the spiritual and physical link between the drum and the dancer."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Driven by the pappa hand drum beats with a constant accelerando.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 49 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Begin with slow, measured steps in time with the initial pappa drum beats",
+      "Step 2: Maintain a steady pulse as the drummer begins the first gradual increase in speed",
+      "Footwork from the sources: The footwork mirrors the drum tempo, moving from slow steps to rapid, high-frequency movements.",
+      "Drill: Step in time with a slow, 60 BPM pappa beat"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Transition to faster footwork as the pappa tempo accelerates",
+      "Step 4: Execute rapid movements during the high-speed finale",
+      "Drill: Maintain balance during long intervals between beats"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid starting too fast, as the dance requires a gradual build-up to the finale."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform rhythmic hand clapping or lap tapping to mirror the pappa drum's acceleration while seated. · For children: A 'follow the leader' game where children must match the speed of a drum, freezing if the drum stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform rhythmic hand clapping or lap tapping to mirror the pappa drum's acceleration while seated.",
+      "For children: A 'follow the leader' game where children must match the speed of a drum, freezing if the drum stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 70 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the slow tempo.",
+      "The dance is a traditional expression of the Magar community.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Manage the transition",
+   "level": "2",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Manage the transition.",
+      "Level: 2. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A respected Magar elder from the Dang District who emphasizes the spiritual and physical link between the drum and the dancer."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Driven by the pappa hand drum beats with a constant accelerando.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 49 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Begin with slow, measured steps in time with the initial pappa drum beats",
+      "Step 2: Maintain a steady pulse as the drummer begins the first gradual increase in speed",
+      "Drill: Practice increasing step speed every 4 bars"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Transition to faster footwork as the pappa tempo accelerates",
+      "Step 4: Execute rapid movements during the high-speed finale",
+      "Pappa synchronization: The fundamental technique of matching every movement to the increasing speed of the hand drum.",
+      "Drill: Listen for the drummer's cues to accelerate"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid starting too fast, as the dance requires a gradual build-up to the finale."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform rhythmic hand clapping or lap tapping to mirror the pappa drum's acceleration while seated. · For children: A 'follow the leader' game where children must match the speed of a drum, freezing if the drum stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform rhythmic hand clapping or lap tapping to mirror the pappa drum's acceleration while seated.",
+      "For children: A 'follow the leader' game where children must match the speed of a drum, freezing if the drum stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 70 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Manage the transition.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "The high-speed finale",
+   "level": "3",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: The high-speed finale.",
+      "Level: 3. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A respected Magar elder from the Dang District who emphasizes the spiritual and physical link between the drum and the dancer."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Driven by the pappa hand drum beats with a constant accelerando.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 49 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Transition to faster footwork as the pappa tempo accelerates",
+      "Step 2: Execute rapid movements during the high-speed finale",
+      "Drill: Execute rapid footwork at double the starting tempo"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Pappa synchronization: The fundamental technique of matching every movement to the increasing speed of the hand drum.",
+      "Drill: Maintain rhythmic precision during the fastest phase of the pappa beats"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid starting too fast, as the dance requires a gradual build-up to the finale."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform rhythmic hand clapping or lap tapping to mirror the pappa drum's acceleration while seated. · For children: A 'follow the leader' game where children must match the speed of a drum, freezing if the drum stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform rhythmic hand clapping or lap tapping to mirror the pappa drum's acceleration while seated.",
+      "For children: A 'follow the leader' game where children must match the speed of a drum, freezing if the drum stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 70 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: The high-speed finale.",
+      "The dance is a folk tradition of the Magar people of Nepal.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 70,
+  "meter": null,
+  "rhythm_pattern": "Driven by the pappa hand drum beats with a constant accelerando",
+  "instruments": [
+   "pappa (hand drum)"
+  ],
+  "vocal_style": null,
+  "musical_form": "Linear acceleration from start to finish",
+  "mood": [
+   "rhythmic",
+   "energetic",
+   "progressive",
+   "traditional"
+  ],
+  "sound_description": "The sound is dominated by the percussive strikes of the pappa hand drum. It begins with spaced, resonant beats that gradually compress into a rapid, driving pulse as the performance reaches its conclusion.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Tappa dance (Nepal). Tempo about 70 bpm. Rhythm pattern: Driven by the pappa hand drum beats with a constant accelerando. Instruments: pappa (hand drum). Form: Linear acceleration from start to finish. Mood: rhythmic, energetic, progressive, traditional. It should sound like this: The sound is dominated by the percussive strikes of the pappa hand drum. It begins with spaced, resonant beats that gradually compress into a rapid, driving pulse as the performance reaches its conclusion. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 49
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 70
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "c0GR8K2mgp8",
+   "checked_by_vision_model": true,
+   "title": "Kala kurthaile tappa dance❤️ preety Ale and Shekhar Gharti Magar"
+  },
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "The surface of the pappa drum vibrating",
+   "Dust rising from the ground during the fast finale",
+   "The focused eyes of the drummer"
+  ],
+  "costume_notes": null,
+  "setting_notes": "The dance is a traditional expression of the Magar community. While specific festivals are not named in the sources, it is identified as a popular folk dance within its home region of the Rapti Zone.",
+  "map": {
+   "country": "Nepal",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "step together step",
+   "1 2 3 4 5 6",
+   "1 2 3 4",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "meter",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "the costume & setting section",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tappa_dance",
+  "https://www.wikidata.org/wiki/Q136659448"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "0ae4b16903e064fb02fe9c6688bd2f37c3bb13e182a095acd23e6808f14792cd",
+ "hero_checked": "pass"
+}

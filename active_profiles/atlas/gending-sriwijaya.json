@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Sharp metallic finger covers that may pose safety risks",
+          "Prolonged static kneeling"
+        ],
+        "counts": "Slow 4-count steps and arm waves",
+        "duration_minutes": "3",
+        "game_version": "'The Princess's Gift': Children take turns acting as Srivijaya princesses delivering a symbolic gift box to guest judges."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Deep kneeling",
+          "Rapid level changes",
+          "Heavy prop handling while standing"
+        ],
+        "counts": "4-count slow arm extensions",
+        "seated_version": "Perform arm and hand movements while seated in a chair, executing the Sekapur Sirih offering gesture forward.",
+        "standing_version": "Perform processional steps without deep knee bends or low kneeling postures.",
+        "tempo_and_range": "Maintain a slow, comfortable tempo with gentle hand and wrist extensions."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Perform the main Sekapur Sirih presentation gesture with hand extensions.",
+          "source": "https://en.wikipedia.org/wiki/Gending_Sriwijaya"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Nine female dancers forming a core unit (with one main dancer carrying the tepak and two holding pridon) flanked by two male guards holding parasols and spears.",
+          "source": "https://en.wikipedia.org/wiki/Gending_Sriwijaya"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Extensive fluid arm movements emphasizing gilded tanggai finger covers; central dancer carries a tepak container",
+      "difficulty": "intermediate",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "Nine female dancers arranged with one central prime lady, flanked by two pridon carriers, guarded by two male dancers with parasols and spears",
+      "hips_and_torso": "technique not described in sources",
+      "levels_and_jumps": "Smooth transitions between standing and seated/kneeling positions; no jumps.",
+      "partnering": "Non-contact ensemble coordination and offering gesture directed toward seated VIP guests",
+      "posture": "Upright, graceful, and refined posture, featuring deep knee bends and formal kneeling during offering rituals",
+      "signature_moves": [
+        {
+          "description": "The central prime dancer extends the tepak container forward to present betel leaf, areca nut, and slaked lime to honored guests.",
+          "name": "Sekapur Sirih Offering"
+        }
+      ],
+      "tempo_feel": "Slow, stately, and measured",
+      "what_to_avoid": "Avoid abrupt movements, modern casual posturing, or mishandling ceremonial prop containers during the offering."
+    },
+    "music_profile": {
+      "instruments": [
+        "Gamelan",
+        "Gongs",
+        "Violin"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "splendid",
+        "grand",
+        "refined",
+        "welcoming",
+        "honorable"
+      ],
+      "musical_form": "Song and gamelan composition incorporating Sriwijaya Jaya and Japanese structural concepts",
+      "reference_recordings": [],
+      "rhythm_pattern": "Gamelan cengkok structure combined with song melody",
+      "sound_description": "A stately blend of classical gamelan percussion, gongs, and vocal song, historically composed using violin and fusing traditional Palembang court melodies with mid-20th-century structural influences.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Solo lyric singing featuring poetry by Nungcik AR"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Processional entry in formal group formation with nine female dancers and optional male guards",
+        "Kneeling or low posture transition to present the tepak container",
+        "Graceful arm extensions featuring gilded tanggai finger jewelry",
+        "Presentation gesture of Sekapur Sirih betel offering to the honored guests"
+      ],
+      "formation": "Nine female dancers (with one central prime lady and two flankers carrying pridon) flanked by two male guards with spears and parasols",
+      "level_notes": "Requires high spatial coordination, smooth low-level posture transitions, and refined upper-body control while wearing heavy traditional attire and long finger extensions.",
+      "rhythm": "Slow, measured gamelan rhythm accompanied by vocal melody"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bad2b70f167564fd4c9fe11fcbb3939ab77c8e22996e3e202e6bec2963e673b7",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific lower-body footwork pattern and step counts are used by the nine dancers during the processional entry? Evidence needed: Video analysis or lab recording of authentic Palembang dance masters executing Gending Sriwijaya."
+    ]
+  },
+  "id": "atlas:gending-sriwijaya",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gending Sriwijaya",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "f4430cdbba4cd01a",
+      "next_evidence": "Video analysis or lab recording of authentic Palembang dance masters executing Gending Sriwijaya.",
+      "question": "What specific lower-body footwork pattern and step counts are used by the nine dancers during the processional entry?",
+      "source": "https://en.wikipedia.org/wiki/Gending_Sriwijaya",
+      "status": "candidate_unreviewed",
+      "why_needed": "The provided text describes upper-body gestures and props, but lacks detailed breakdown of foot movement necessary for instructional reconstruction."
+    }
+  ],
+  "research_file": "research_results/gending-sriwijaya.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gending-sriwijaya",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gending_Sriwijaya",
+    "https://www.wikidata.org/wiki/Q7337949"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

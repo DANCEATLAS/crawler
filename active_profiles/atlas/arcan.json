@@ -1,13 +1,94 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-straining the shoulders in the hold",
+          "Tripping during the back-cross"
+        ],
+        "counts": "Focus on the '1-2-3' stamp pattern as a rhythmic game.",
+        "duration_minutes": "3",
+        "game_version": "The 'Lasso Game': One child is the 'leader' who must 'capture' others into the circle by calling out their names during the stamps."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Rapid knee bends",
+          "Heavy stomping on hard surfaces"
+        ],
+        "counts": "Keep a steady 1-2-3-4 count without the syncopated double stamps.",
+        "seated_version": "Perform the side-step and cross-behind movements with feet while seated; use rhythmic hand claps on the thighs to replace the 'trii bătute' stamps.",
+        "standing_version": "Perform the circle steps while holding onto the back of a stable chair; reduce the hop to a simple heel lift.",
+        "tempo_and_range": "Reduce tempo by 30%; limit lateral travel to small steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms placed upon one another's shoulders in a circle",
+      "difficulty": "intermediate",
+      "footwork": "Side steps, back-crosses, and double stamps that build momentum",
+      "formation_and_space": "Circle dance (hora) moving around a central point, traditionally a bonfire",
+      "hips_and_torso": "Stable torso to support the weight of the circle",
+      "levels_and_jumps": "Hops on one leg with the opposite knee bent",
+      "partnering": "Collective group connection via shoulders",
+      "posture": "Upright, connected firmly to the circle through shoulder-hold",
+      "signature_moves": [
+        {
+          "description": "Three rhythmic stamps or strikes to the ground",
+          "name": "Trii bătute"
+        },
+        {
+          "description": "The ritual act of 'lassoing' a new dancer into the circle",
+          "name": "A arcăni"
+        }
+      ],
+      "tempo_feel": "Starts steady and builds to a high-momentum finish",
+      "what_to_avoid": "Breaking the circle connection or missing the count of the triple stamps, which is considered a public disgrace."
+    },
+    "music_profile": {
+      "instruments": [
+        "Lăutar (traditional fiddle or ensemble)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "vigorous",
+        "ritualistic",
+        "masculine",
+        "driving"
+      ],
+      "musical_form": "Strophic with accelerating sections",
+      "reference_recordings": [
+        {
+          "artist": "Ruslana",
+          "title": "Wild Dances"
+        }
+      ],
+      "rhythm_pattern": "Repetitive triple stamps (trii bătute) punctuated by vocal shouts",
+      "sound_description": "A driving folk melody characterized by the rhythmic scraping of feet and heavy stamps, accompanied by high-energy vocal commands that dictate the change in steps.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Shouted verses (strigături) and rhythmic recitations"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Right foot steps to the side",
+        "Left foot crosses behind the right",
+        "Right foot steps to the side again",
+        "Left foot hops in front with a bent knee",
+        "Execute 'trii bătute' (three stamps) on command"
+      ],
+      "formation": "Closed circle, arms on neighbors' shoulders",
+      "level_notes": "Requires high stamina and precise synchronization with the group's stamps.",
+      "rhythm": "Binary meter with driving stamps and syncopated hops"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "88495f2a63c61fd773f415cda1e65a36ec03c7b12f2851e224fb31dc06b6853e",
+  "fingerprint": "7143d1302a56a7c05cd921e5c3402703a939e6432b6623fa660ff1d3ecff5ce8",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +96,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific 'Lex Antiqua Valachorum' clauses that govern the organization of these dance groups? Evidence needed: https://en.wikipedia.org/wiki/Arcan_(dance)"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +114,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there visual recordings of the 'Arcanul bătrânesc' to compare its tempo and step range to the standard Arcan? Evidence needed: https://en.wikipedia.org/wiki/Arcan_(dance)"
     ]
   },
   "id": "atlas:arcan",
@@ -45,8 +126,27 @@
   ],
   "music_options": [],
   "name": "Arcan",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "75b091396b802af1",
+      "next_evidence": "https://en.wikipedia.org/wiki/Arcan_(dance)",
+      "question": "Are there visual recordings of the 'Arcanul bătrânesc' to compare its tempo and step range to the standard Arcan?",
+      "source": "https://en.wikipedia.org/wiki/Arcan_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately differentiate the 'ancient' variant from the standard version in the movement profile."
+    },
+    {
+      "domain": "research",
+      "id": "10defa65688039ee",
+      "next_evidence": "https://en.wikipedia.org/wiki/Arcan_(dance)",
+      "question": "What are the specific 'Lex Antiqua Valachorum' clauses that govern the organization of these dance groups?",
+      "source": "https://en.wikipedia.org/wiki/Arcan_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide deeper historical context for the 'ritual force' used in the dance."
+    }
+  ],
+  "research_file": "research_results/arcan.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +158,8 @@
   "slug": "arcan",
   "sources": [
     "https://en.wikipedia.org/wiki/Arcan_(dance)",
-    "Source: Arcan (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Arcan_(dance)"
+    "https://www.wikidata.org/wiki/Q4785205"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

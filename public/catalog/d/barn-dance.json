@@ -119,6 +119,19 @@
    "checked_at": "2026-10-29T17:20:52Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "_xO-bojKCJQ",
+    "title": "Barn Dance Tutorial - Dick And Geneva's Western Barn Dance (P)",
+    "channel": "JR Silva",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "hornpipe",
    "jig",
@@ -365,6 +378,84 @@
  },
  "lessons": [
   {
+   "youtube_id": "A3tHhSO5zxI",
+   "url": "https://www.youtube.com/watch?v=A3tHhSO5zxI",
+   "title": "Jingle Bell Rock Christmas Barn Dance Tutorial - Learn The Steps with Kerry & Jonathan",
+   "channel": "Kerry On Dancing",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "5-6-7-8 and 1-2-3",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Kerry and Jonathan introduce the Christmas party barn dance tutorial."
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "breakdown",
+     "note": "Instructors face away from camera to teach steps step by step."
+    },
+    {
+     "t": "2:41",
+     "seconds": 161,
+     "segment": "full_demo",
+     "note": "Run through the full sequence from the beginning."
+    },
+    {
+     "t": "3:13",
+     "seconds": 193,
+     "segment": "recap",
+     "note": "Closing remarks and sign-off."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Three walks forward and kick, three walks back and tap",
+     "counts": "1-2-3-kick-1-2-3-tap",
+     "description": "Walk forward three steps with a kick on four, then back three steps with a tap."
+    },
+    {
+     "name": "Side close side tap",
+     "counts": "side-close-side-tap",
+     "description": "Step away from partner and together, repeating to the side."
+    }
+   ],
+   "cues": [
+    "1-2-3 and kick",
+    "side-close-side-tap",
+    "turn your partner under and then you turn them back"
+   ],
+   "teacher_style": "The instructor teaches facing away from the camera so viewers can easily mirror their movements step by step. She breaks down the choreography patiently with clear verbal counts and positive reinforcement.",
+   "distinctive_method": "Teaching entirely from behind with backs to the camera to facilitate direct mirroring for beginners.",
+   "what_works": [
+    "Instructors face away from the camera, allowing easy mirroring.",
+    "Clear counting and verbal descriptions matched to movements."
+   ],
+   "what_hinders": [
+    "No music during the breakdown section."
+   ],
+   "evidence": [
+    {
+     "start_s": 32,
+     "end_s": 60,
+     "topic": "teaching",
+     "observation": "Instructors stand with their backs to the camera holding hands and walking forward on counts.",
+     "viewpoint": "back view, unmirrored",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "_xO-bojKCJQ",
    "url": "https://www.youtube.com/watch?v=_xO-bojKCJQ",
    "title": "Barn Dance Tutorial - Dick And Geneva's Western Barn Dance (P)",
@@ -545,6 +636,6 @@
   "polished": false,
   "file": "episodes/barn-dance.json"
  },
- "fingerprint": "f8d7e948ca141c11",
- "updated": "2026-11-26"
+ "fingerprint": "9f11d9bbdd51113c",
+ "updated": "2026-11-27"
 }

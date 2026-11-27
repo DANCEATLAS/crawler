@@ -1,8 +1,8 @@
 # Mujra — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned 'authority on culture' who emphasizes etiquette, poetry, and the historical dignity of the tawaif.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Once a high-status art used to teach noblemen etiquette, Mujra is a dance of 'asymmetry' where one woman commands a room of many men through poetry, song, and the refined gestures of Kathak.
 NARRATION: This is Mujra. 16th to 19th century (Mughal era) to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Uqjxz1Mraic)
 ON SCREEN: Title card: Mujra · India; Pakistan · 16th to 19th century (Mughal era) to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance combines elements of classical Kathak with sophisticated ge
 NARRATION: It is described as elegant and artistic, often involving the dancer being the center of public eye for long periods.
 NARRATION: The term 'mujra' itself refers to a deferential salute or payment of respects, which is reflected in the opening and closing movements of the performance.
 NARRATION: Watch for Mujra.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Uqjxz1Mraic)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo performance in a salon (kotha) or gathering (mehfil).
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Traditionally performed in mehfils (intimate gatherings) or kothas (special houses/salons). In historical contexts like Lahore's Heera Mandi, these settings were hubs for musicians and dancers. Costumes are typically artistic and feminine, designed to make the dancer appear fluent and elegant.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Uqjxz1Mraic', 'checked_by_vision_model': True, 'title': 'Bari Pehri Hondi Marda Di Zaat, Mahi Khan Mujra Dance Performance, SGRecords 2026'}
 Images: 1 licensed — Khushhal Khan / Wikimedia Commons / Public domain (Public domain)
 Footage: Bharat Ek Khoj, Supplement 39 — https://archive.org/details/HindSwaraj-BEK-S39
 Motifs: Intricate floor-length anarkali dresses, The rhythmic jingle of ghungroo (ankle bells), The intimate lighting of a candle-lit mehfil, Close-ups of expressive hand gestures
@@ -330,7 +330,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the classical-court family studied · videos studied: 18
+Source: 19 tutorial(s) of the classical-court family studied · videos studied: 19
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow

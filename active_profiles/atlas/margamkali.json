@@ -1,0 +1,130 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Rhythmic clapping around the central lamp, holding artificial sword and shield during Parichamuttukali",
+      "difficulty": "intermediate",
+      "footwork": "Circular stepping patterns around a central point",
+      "formation_and_space": "Circle around a lit Nilavilakku brass lamp on the floor",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Low to medium stance; jumps not described in sources",
+      "partnering": "Group circular formation; individual partner interactions not described in sources",
+      "posture": "Upright posture with gentle knee Bends during circular movements",
+      "signature_moves": [
+        {
+          "description": "Circular group stepping and clapping around a lit brass oil lamp representing Christ",
+          "name": "Nilavilakku step"
+        },
+        {
+          "description": "Martial play section incorporating artificial swords and shields",
+          "name": "Parichamuttukali segment"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Avoid disruptive movements near the lit oil lamp."
+    },
+    "music_profile": {
+      "instruments": [
+        "palm-sized cymbals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "devotional",
+        "reverent",
+        "narrative",
+        "communal"
+      ],
+      "musical_form": "Two-part performance (padham) of 14 stanzas followed by martial accompaniment",
+      "reference_recordings": [],
+      "rhythm_pattern": "Cindu song composition rhythm",
+      "sound_description": "A lead vocal narrative chanting 14 stanzas in Middle Tamil and Syriac devotional terms, punctuated solely by the metallic rhythmic strike of a pair of small, palm-sized cymbals without external drums or melodic instruments.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Vocal narration in 14 stanzas blending Middle Tamil and Syriac liturgical terms"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Circular walking step maintaining equal spacing around the central lamp",
+        "Rhythmic hand clapping in unison with vocal refrain",
+        "Side-stepping and light knee bends synchronized to cymbal meter",
+        "Martial defensive stance with artificial sword and shield during the second phase"
+      ],
+      "formation": "Circular round dance around a lit Nilavilakku",
+      "level_notes": "Beginners focus on circular group synchronization and hand claps before moving to martial shield movements.",
+      "rhythm": "Set by vocal chanting and palm-sized cymbals"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e9a276f9e76d431f1cb8e7e6a275087216ea5872d4b4b25df01aaf0619edaabb",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact footwork counts and stepping patterns specified in the 'Margam kali Aattaprakaaram' text published by Hadusa? Evidence needed: Reference text 'Margam kali Aattaprakaaram' or archival video recordings from Hadusa All India Institute of Christian Performing Arts."
+    ]
+  },
+  "id": "atlas:margamkali",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Margamkali",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "5a914080bf567f73",
+      "next_evidence": "Reference text 'Margam kali Aattaprakaaram' or archival video recordings from Hadusa All India Institute of Christian Performing Arts.",
+      "question": "What are the exact footwork counts and stepping patterns specified in the 'Margam kali Aattaprakaaram' text published by Hadusa?",
+      "source": "https://en.wikipedia.org/wiki/Margamkali",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to build precise interactive motion tracking and choreography breakdown beyond general descriptions."
+    }
+  ],
+  "research_file": "research_results/margamkali.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "margamkali",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Margamkali",
+    "https://www.wikidata.org/wiki/Q6759084"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

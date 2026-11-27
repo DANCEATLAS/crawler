@@ -1,0 +1,841 @@
+{
+ "slug": "oyilattam",
+ "name": "Oyilattam",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T19:24:32Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced Tamil folk artist from Madurai, combining grounded village tradition with clear instructional cues on row alignment and kerchief flourishes.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Oyilattam"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Oyilattam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Wings of Grace: The Thavil Rhythm of Madurai",
+     "This is Oyilattam."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Oyilattam · India · not described in sources"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Oyilattam originated in the Madurai region of southern Tamil Nadu, India, and developed as a rural folk expression.",
+     "Over time, it spread through southern districts including Tirunelveli and Tiruchirapalli.",
+     "The tradition was later identified for cultural mainstreaming by Tamil University to support its preservation and broader recognition."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Mainly performed during village festivals, Oyilattam also carries a practical agricultural purpose: it was danced following harvest times to deter birds from eating harvested grains laid out on the ground.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance begins with a small group of performers standing in a row, each holding two kerchiefs or with colored handkerchiefs secured to their fingers.",
+     "Dancers execute rhythmic steps that sync with the musical accompaniment.",
+     "As the dance proceeds, the row expands as additional dancers join the formation, intensifying the synchronized movements and footwork.",
+     "Watch for Kerchief waving, Expanding row progression."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: A row of performers that expands outward as more dancers join."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical accompaniment is typically provided by the thavil drum, whose rhythmic beats direct the timing of the performance.",
+     "The percussive soundscape is augmented by the metallic chiming of ankle bells worn on the dancers' feet.",
+     "Listen for the Thavil, Ankle bells.",
+     "A dynamic percussive texture defined by the driving, acoustic strikes of the thavil drum, overlaid with the continuous metallic chiming of the dancers' ankle bells ringing out in rhythmic synchronization."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear ankle bells and have brightly colored handkerchiefs tied to their fingers.",
+     "Oyilattam is traditionally presented in open-air settings, notably village festival grounds and outdoor agricultural clearings following the harvest."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The dance is primarily performed across southern Tamil Nadu, particularly in Madurai district, Tirunelveli district, and Tiruchirapalli district.",
+     "Historically passed down as a male folk dance tradition in rural villages, the form has evolved over the past decade as women have begun performing it alongside men."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand in a straight horizontal row holding or tying colored kerchiefs to the fingers.",
+     "Execute rhythmic steps in synchrony with the thavil beat.",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the village clearings of southern Tamil Nadu, dancers wave fluttering kerchiefs and stamp brass bells in an expanding line to the driving pulse of the thavil.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Fasten kerchiefs and maintain basic unison stepping to a drumbeat.",
+   "level": "Level 1: Pulse and Kerchief Hold",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Fasten kerchiefs and maintain basic unison stepping to a drumbeat..",
+      "Level: Level 1: Pulse and Kerchief Hold. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced Tamil folk artist from Madurai, combining grounded village tradition with clear instructional cues on row alignment and kerchief flourishes."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Waving and manipulating two colored kerchiefs tied to the fingers."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand in a straight horizontal row holding or tying colored kerchiefs to the fingers.",
+      "Step 2: Execute rhythmic steps in synchrony with the thavil beat.",
+      "Footwork from the sources: Rhythmic stepping synchronized with percussion and punctuated by ankle bells.",
+      "Drill: Tie two handkerchiefs securely to the fingers and practice soft wrist flourishes."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Wave the kerchiefs while sounding the ankle bells with each foot strike.",
+      "Step 4: Incorporate incoming dancers into the row as the ensemble expands.",
+      "Drill: Step in place on alternating feet in time with a drum pulse."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinate a downward wrist snap on each primary footfall."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm and wrist kerchief-waving movements while seated in a chair, rhythmically tapping the feet to sound ankle bells without bearing full body weight. · For children: A bird-chasing circle game where children wave bright handkerchiefs and stamp their feet to keep imaginary birds away from the center of the room."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and wrist kerchief-waving movements while seated in a chair, rhythmically tapping the feet to sound ankle bells without bearing full body weight.",
+      "For children: A bird-chasing circle game where children wave bright handkerchiefs and stamp their feet to keep imaginary birds away from the center of the room."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Fasten kerchiefs and maintain basic unison stepping to a drumbeat..",
+      "Mainly performed during village festivals, Oyilattam also carries a practical agricultural purpose: it was danced following harvest times to deter birds from eating harvested grains laid out on the ground.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute coordinated line stepping while maintaining row spacing.",
+   "level": "Level 2: The Row Progression",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute coordinated line stepping while maintaining row spacing..",
+      "Level: Level 2: The Row Progression. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced Tamil folk artist from Madurai, combining grounded village tradition with clear instructional cues on row alignment and kerchief flourishes."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Waving and manipulating two colored kerchiefs tied to the fingers."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand in a straight horizontal row holding or tying colored kerchiefs to the fingers.",
+      "Step 2: Execute rhythmic steps in synchrony with the thavil beat.",
+      "Drill: Walk forward in a synchronized line of three dancers, matching foot timing."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Wave the kerchiefs while sounding the ankle bells with each foot strike.",
+      "Step 4: Incorporate incoming dancers into the row as the ensemble expands.",
+      "Kerchief waving: Flourishing colored kerchiefs tied to the fingers in coordination with foot steps.",
+      "Expanding row progression: Stepping in a line that incorporates increasing numbers of dancers as the music continues.",
+      "Drill: Practice expanding the line by integrating two new dancers without breaking cadence."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sound ankle bells cleanly on each downbeat while keeping the row uniform."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm and wrist kerchief-waving movements while seated in a chair, rhythmically tapping the feet to sound ankle bells without bearing full body weight. · For children: A bird-chasing circle game where children wave bright handkerchiefs and stamp their feet to keep imaginary birds away from the center of the room."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and wrist kerchief-waving movements while seated in a chair, rhythmically tapping the feet to sound ankle bells without bearing full body weight.",
+      "For children: A bird-chasing circle game where children wave bright handkerchiefs and stamp their feet to keep imaginary birds away from the center of the room."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: A row of performers that expands outward as more dancers join."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute coordinated line stepping while maintaining row spacing..",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform the complete expanding-row sequence to authentic thavil tempos.",
+   "level": "Level 3: Festival Rhythm",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform the complete expanding-row sequence to authentic thavil tempos..",
+      "Level: Level 3: Festival Rhythm. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced Tamil folk artist from Madurai, combining grounded village tradition with clear instructional cues on row alignment and kerchief flourishes."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Waving and manipulating two colored kerchiefs tied to the fingers."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Wave the kerchiefs while sounding the ankle bells with each foot strike.",
+      "Step 2: Incorporate incoming dancers into the row as the ensemble expands.",
+      "Drill: Drill continuous rhythmic stepping while executing continuous hand flourishes."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Kerchief waving: Flourishing colored kerchiefs tied to the fingers in coordination with foot steps.",
+      "Expanding row progression: Stepping in a line that incorporates increasing numbers of dancers as the music continues.",
+      "Drill: Transition through an increasing ensemble size as tempo accelerates."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Finish the set in full alignment with the concluding thavil cadence."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm and wrist kerchief-waving movements while seated in a chair, rhythmically tapping the feet to sound ankle bells without bearing full body weight. · For children: A bird-chasing circle game where children wave bright handkerchiefs and stamp their feet to keep imaginary birds away from the center of the room."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and wrist kerchief-waving movements while seated in a chair, rhythmically tapping the feet to sound ankle bells without bearing full body weight.",
+      "For children: A bird-chasing circle game where children wave bright handkerchiefs and stamp their feet to keep imaginary birds away from the center of the room."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: A row of performers that expands outward as more dancers join."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform the complete expanding-row sequence to authentic thavil tempos..",
+      "Historically passed down as a male folk dance tradition in rural villages, the form has evolved over the past decade as women have begun performing it alongside men.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Thavil",
+   "Ankle bells"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "graceful",
+   "rhythmic",
+   "festive",
+   "celebratory"
+  ],
+  "sound_description": "A dynamic percussive texture defined by the driving, acoustic strikes of the thavil drum, overlaid with the continuous metallic chiming of the dancers' ankle bells ringing out in rhythmic synchronization.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Oyilattam (India). Instruments: Thavil, Ankle bells. Mood: graceful, rhythmic, festive, celebratory. It should sound like this: A dynamic percussive texture defined by the driving, acoustic strikes of the thavil drum, overlaid with the continuous metallic chiming of the dancers' ankle bells ringing out in rhythmic synchronization. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Performers wear ankle bells and have brightly colored handkerchiefs tied to their fingers. Oyilattam is traditionally presented in open-air settings, notably village festival grounds and outdoor agricultural clearings following the harvest.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ATamil_distribution.png",
+    "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "https://commons.wikimedia.org/wiki/File%3A%E0%AE%92%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Tamil_distribution.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Tamil_distribution.png/1280px-Tamil_distribution.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "w:user:Planemad / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATamil_distribution.png",
+    "description": "Detail of Image:Tamil speakers map.svg; Areas in India and Sri Lanka where Tamil is spoken (1981)."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/%E0%AE%92%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/%E0%AE%92%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D.jpg/1280px-%E0%AE%92%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Thoughlife / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%E0%AE%92%E0%AE%AF%E0%AE%BF%E0%AE%B2%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D.jpg",
+    "description": "சங்கமம்-ஒயிலாட்டம்"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Brightly colored kerchiefs fluttering in unison against open sky",
+   "Close-ups of brass ankle bells chiming against bare feet on dry earth",
+   "The expanding horizontal row of dancers stretching across the village square",
+   "Hands striking the skin of the thavil barrel drum"
+  ],
+  "costume_notes": "Performers wear ankle bells and have brightly colored handkerchiefs tied to their fingers. Oyilattam is traditionally presented in open-air settings, notably village festival grounds and outdoor agricultural clearings following the harvest.",
+  "setting_notes": "Mainly performed during village festivals, Oyilattam also carries a practical agricultural purpose: it was danced following harvest times to deter birds from eating harvested grains laid out on the ground.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "step together step",
+   "1 2 3 4 5 6",
+   "1 2 3 4",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage",
+  "notable figures",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Oyilattam",
+  "https://www.wikidata.org/wiki/Q7116273"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "8e6c6217b8f32841d9255cacfcf2f743dae7b2cfd324b59ccd7f3ec86a3f5fcb",
+ "hero_checked": null
+}

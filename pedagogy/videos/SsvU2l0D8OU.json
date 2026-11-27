@@ -1,0 +1,144 @@
+{
+ "youtube_id": "SsvU2l0D8OU",
+ "slug": "sword-dance",
+ "dance": "Sword dance",
+ "title": "Scottish Sword Dance Tutorial - Cultural Episode",
+ "channel": "Saskatoon Folkfest",
+ "viewer_ratio": 3.0,
+ "analysed_at": "2026-11-27T20:40:25Z",
+ "url": "https://www.youtube.com/watch?v=SsvU2l0D8OU",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teachers provide clear, step-by-step verbal explanations paired with physical demonstrations alongside beginners. They break down footwork and arm positions methodically before practicing with counts and music.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:04",
+    "segment": "intro",
+    "note": "Teachers introduce themselves and the dance"
+   },
+   {
+    "t": "0:31",
+    "segment": "full_demo",
+    "note": "Demonstration of the sword dance step"
+   },
+   {
+    "t": "1:23",
+    "segment": "context",
+    "note": "Introduction of guest participants"
+   },
+   {
+    "t": "1:37",
+    "segment": "breakdown",
+    "note": "Breakdown of the patty-paw step"
+   },
+   {
+    "t": "2:10",
+    "segment": "breakdown",
+    "note": "Breakdown of side-toe front-toe positions"
+   },
+   {
+    "t": "2:41",
+    "segment": "slow_practice",
+    "note": "Practicing the steps together with counts"
+   },
+   {
+    "t": "3:52",
+    "segment": "recap",
+    "note": "Explanation of repetition around the sword"
+   },
+   {
+    "t": "4:06",
+    "segment": "music_practice",
+    "note": "Dancing with music and participants"
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Patty-paw",
+   "Side toe front toe",
+   "Side turn side toe"
+  ],
+  "metaphors": [
+   "going like over the swords"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Patty-paw",
+    "counts": "5-6-7-8",
+    "description": "Extend foot to the side, hop, and meet back foot."
+   },
+   {
+    "name": "Side-toe front-toe",
+    "counts": "5-6-7-8",
+    "description": "Point foot to second position, then third and fourth positions over the swords."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal breakdown of foot and arm positions",
+    "Having beginner participants model the learning process"
+   ],
+   "what_hinders": [
+    "Fast transitions between steps without slow repetition"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "Today we're going to be teaching you the second step of the sword dance."
+   },
+   {
+    "t": "1:42",
+    "text": "Basically what happens there is you're just going to extend your foot to the side."
+   },
+   {
+    "t": "3:53",
+    "text": "You basically just repeat that whole thing four times until you get back to the top of the sword."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 1,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "Two instructors standing side by side introducing the lesson.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "weight transfer",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 31,
+    "end_s": 40,
+    "topic": "movement",
+    "observation": "Instructors demonstrating the dance over crossed swords to music.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "fast movement",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Integrating cultural pavilion guests as live students during the tutorial to demonstrate learning progression."
+ },
+ "attempts": 1
+}

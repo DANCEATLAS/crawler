@@ -1,8 +1,8 @@
 # Ottan thullal — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; posture, arms and hands; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; posture, arms and hands; signature moves; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable practitioner of Kerala performing arts.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Poet Who Danced His Way Out of Trouble
 NARRATION: This is Ottan thullal. 18th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (9qqVdwQ_smU)
 ON SCREEN: Title card: Ottan thullal · India · 18th century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: A solo performer, wearing green makeup and a colorful costume with a red and white band and wooden ornaments, dances and acts while reciting lyrics.
 NARRATION: A chorus repeats each sentence as it is completed.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (9qqVdwQ_smU)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Solo performer on stage.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -279,7 +279,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The performer wears green makeup and a colorful costume decorated with a long red and white band and painted wooden ornaments.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '9qqVdwQ_smU', 'checked_by_vision_model': True, 'title': 'ഇത്രയും പ്രതീക്ഷിച്ചില്ല കിടിലൻ ഓട്ടം തുള്ളൽ'}
 Images: 7 licensed — bobinson / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Mohanraj Kolathapilly / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Sai K shanmugam / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Edukeralam / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Green makeup, Red and white bands, Painted wooden ornaments, Mridangam drum
@@ -289,9 +289,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
+Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
 
 Sources (2): https://en.wikipedia.org/wiki/Ottan_Thullal; https://www.wikidata.org/wiki/Q7109099

@@ -1,0 +1,148 @@
+{
+ "youtube_id": "BwW86DjobrA",
+ "slug": "street-dance",
+ "dance": "Street dance",
+ "title": "Easy Street Dance Steps Tutorial | Funky Moves",
+ "channel": "Funky Moves",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-27T20:35:43Z",
+ "url": "https://www.youtube.com/watch?v=BwW86DjobrA",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher is energetic and enthusiastic, encouraging family participation with friendly, upbeat instructions. She breaks down movements into simple steps and demonstrates them at a steady pace before combining them with music.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to Funky Moves family dance vlog"
+   },
+   {
+    "t": "1:00",
+    "segment": "breakdown",
+    "note": "Breakdown of the Funky Bounce step"
+   },
+   {
+    "t": "1:45",
+    "segment": "breakdown",
+    "note": "Breakdown of the Criss Cross step"
+   },
+   {
+    "t": "2:26",
+    "segment": "breakdown",
+    "note": "Breakdown of the Funky Scoop step"
+   },
+   {
+    "t": "3:03",
+    "segment": "breakdown",
+    "note": "Breakdown of the Electricity Wave step"
+   },
+   {
+    "t": "4:07",
+    "segment": "music_practice",
+    "note": "Practicing all steps together to music"
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Up to speed",
+   "Let's do this",
+   "Keep dancing"
+  ],
+  "metaphors": [
+   "Electricity running through your arm and body"
+  ],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 2
+  },
+  "common_mistakes": [
+   "Not going low then high on the bounce",
+   "Standing too straight on the wave arm movement"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "The Funky Bounce",
+    "counts": "1-2",
+    "description": "Hands on right knee bouncing up and down twice, then repeat on left"
+   },
+   {
+    "name": "The Criss Cross",
+    "counts": "1-2",
+    "description": "Jump feet cross in middle with right in front, then jump out to the side"
+   },
+   {
+    "name": "The Funky Scoop",
+    "counts": "1-8",
+    "description": "Scoop low to the side and bring it into the chest, alternating sides"
+   },
+   {
+    "name": "The Electricity Wave",
+    "counts": "1-8",
+    "description": "Wave arms through wrist, elbow, shoulder, body, and flick out"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear step-by-step breakdown",
+    "Repetition of movements",
+    "Upbeat and clear verbal explanations"
+   ],
+   "what_hinders": [
+    "Only front angle shown"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:25",
+    "text": "We are keeping it super simple with our Funky Moves basic dance steps."
+   },
+   {
+    "t": "1:00",
+    "text": "We have got our four dance steps to learn today."
+   },
+   {
+    "t": "4:07",
+    "text": "Let's do all four dance steps two times ending in a super cool funky pose."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 108,
+    "end_s": 116,
+    "topic": "movement",
+    "observation": "Teacher demonstrates hand placement on knee with alternating knee bounces",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact weight distribution on back foot",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 198,
+    "end_s": 204,
+    "topic": "movement",
+    "observation": "Jumping with crossed legs and uncrossing to wide stance",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "impact absorption mechanics",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Framing the tutorial as a family dance vlog inviting parents and kids to join in together."
+ },
+ "attempts": 1
+}

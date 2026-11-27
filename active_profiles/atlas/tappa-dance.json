@@ -1,0 +1,166 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Over-exertion during the fast phase",
+          "Colliding with others during acceleration"
+        ],
+        "counts": "Simple 1-2-3-4 counts that get faster.",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' game where children must match the speed of a drum, freezing if the drum stops."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid pivots",
+          "High-speed footwork",
+          "Sudden stops"
+        ],
+        "counts": "Use 1-2-1-2 marching counts to stay synchronized with the drum.",
+        "seated_version": "Perform rhythmic hand clapping or lap tapping to mirror the pappa drum's acceleration while seated.",
+        "standing_version": "March in place, focusing on the rhythmic timing rather than large spatial movements.",
+        "tempo_and_range": "Cap the acceleration at a comfortable walking pace; avoid the high-speed finale."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "The footwork mirrors the drum tempo, moving from slow steps to rapid, high-frequency movements.",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The fundamental technique of matching every movement to the increasing speed of the hand drum.",
+          "name": "Pappa synchronization"
+        }
+      ],
+      "tempo_feel": "Gradual acceleration (accelerando) is the core characteristic.",
+      "what_to_avoid": "Avoid starting too fast, as the dance requires a gradual build-up to the finale."
+    },
+    "music_profile": {
+      "instruments": [
+        "pappa (hand drum)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "rhythmic",
+        "energetic",
+        "progressive",
+        "traditional"
+      ],
+      "musical_form": "Linear acceleration from start to finish",
+      "reference_recordings": [],
+      "rhythm_pattern": "Driven by the pappa hand drum beats with a constant accelerando",
+      "sound_description": "The sound is dominated by the percussive strikes of the pappa hand drum. It begins with spaced, resonant beats that gradually compress into a rapid, driving pulse as the performance reaches its conclusion.",
+      "tempo_bpm": "Starts slow (approx 60-80 BPM) and accelerates to a high speed",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Begin with slow, measured steps in time with the initial pappa drum beats",
+        "Maintain a steady pulse as the drummer begins the first gradual increase in speed",
+        "Transition to faster footwork as the pappa tempo accelerates",
+        "Execute rapid movements during the high-speed finale"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Requires high stamina for the final accelerated phase.",
+      "rhythm": "Accelerando; starting slow and ending at a very high tempo"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e27ad12494c94b5df7a49a9a3f0447d236643ba1f4db0cc3c5cab9a99de101ca",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, formation_and_space",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Is the Tappa dance performed in a circle, a line, or as a solo performance? Evidence needed: https://en.wikipedia.org/wiki/Tappa_dance",
+      "Investigate: What are the traditional garments worn by Magar dancers in the Dang District during this performance? Evidence needed: https://en.wikipedia.org/wiki/Tappa_dance"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there specific hand gestures or 'mudras' used by Magar dancers during the slow phase of Tappa? Evidence needed: https://en.wikipedia.org/wiki/Tappa_dance"
+    ]
+  },
+  "id": "atlas:tappa-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tappa dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "b49e56b73be329af",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tappa_dance",
+      "question": "Are there specific hand gestures or 'mudras' used by Magar dancers during the slow phase of Tappa?",
+      "source": "https://en.wikipedia.org/wiki/Tappa_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate movement instructions beyond just 'accelerating steps'."
+    },
+    {
+      "domain": "research",
+      "id": "a13cb3db998bed35",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tappa_dance",
+      "question": "Is the Tappa dance performed in a circle, a line, or as a solo performance?",
+      "source": "https://en.wikipedia.org/wiki/Tappa_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The formation is essential for teaching the dance and understanding the social dynamic."
+    },
+    {
+      "domain": "research",
+      "id": "a3b220e8a6c24b55",
+      "next_evidence": "https://en.wikipedia.org/wiki/Tappa_dance",
+      "question": "What are the traditional garments worn by Magar dancers in the Dang District during this performance?",
+      "source": "https://en.wikipedia.org/wiki/Tappa_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Costume details are required for the 'Costume and Setting' section and for visual accuracy in media."
+    }
+  ],
+  "research_file": "research_results/tappa-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tappa-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tappa_dance",
+    "https://www.wikidata.org/wiki/Q136659448"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

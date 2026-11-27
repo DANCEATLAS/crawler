@@ -1,8 +1,8 @@
 # Malwai Giddha — episode pack
 
-*Status: draft · built 2026-11-26 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respected village elder with a sharp wit and a deep, resonant voice.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Elders' Rhythm: Malwai Giddha
 NARRATION: This is Malwai Giddha. Traditional / Living.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (lv0_UWbmLx8)
 ON SCREEN: Title card: Malwai Giddha · India · Traditional / Living
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance involves performers reciting Boliaan, which are folk couple
 NARRATION: Performers must play instruments in rhythm while dancing.
 NARRATION: The technique requires the performer to know how to carry and manipulate specific instruments like the Kato and Chimta while maintaining the beat.
 NARRATION: Watch for Kato manipulation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (lv0_UWbmLx8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Performers stand in a circle; soloists move to the center to deliver verses
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performed in the Malwa region of Punjab, the dance is typically seen in village settings and cultural festivals. While specific costume details are not exhaustive in the primary source, traditional Punjabi male attire such as the Kurta and Chadra is standard for these folk traditions.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'lv0_UWbmLx8', 'checked_by_vision_model': True, 'title': 'Malwai Giddha | Sangeet | Indian Punjabi Wedding | Performance | Perfect Media'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: The wooden squirrel of the Kato, The colorful Turla of the turbans, Dust rising from the village ground, The metallic flash of the Chimta
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
+Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
 
 Sources (2): https://en.wikipedia.org/wiki/Malwai_Giddha; https://www.wikidata.org/wiki/Q6745146

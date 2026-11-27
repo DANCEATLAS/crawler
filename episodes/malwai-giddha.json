@@ -2,7 +2,7 @@
  "slug": "malwai-giddha",
  "name": "Malwai Giddha",
  "pack_version": "e2",
- "built_at": "2026-11-26T21:10:14Z",
+ "built_at": "2026-11-27T21:09:06Z",
  "researched_at": "2026-11-26T19:11:52Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Malwai Giddha. Traditional / Living."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (lv0_UWbmLx8)",
      "Title card: Malwai Giddha · India · Traditional / Living"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for Kato manipulation."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (lv0_UWbmLx8)",
      "Captions name each signature move as it appears",
      "Formation: Performers stand in a circle; soloists move to the center to deliver verses"
     ],
@@ -723,7 +723,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "lv0_UWbmLx8",
+   "checked_by_vision_model": true,
+   "title": "Malwai Giddha | Sangeet | Indian Punjabi Wedding | Performance | Perfect Media"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -759,8 +763,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "111 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 111,
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -769,25 +773,24 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "5-6-7-8",
    "1-2-3-4",
+   "5-6-7-8",
    "step together step",
+   "1 2 3 4 5 6",
    "1 2 3 4",
+   "opa",
    "1-2-3",
    "putar",
    "mundur",
    "step to the right",
    "un dos tres",
-   "right together right touch",
-   "left together left touch",
-   "spin out"
+   "right together right touch"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
-   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -800,7 +803,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -811,6 +813,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "cdaf6b58652227de3d9280f197c02032131021646544ac7fbbe81cd41628f860",
- "hero_checked": null
+ "input_fingerprint": "a969f5c1be4ec7bea321bc907e586300535644ab8ce5246c09bef92401248bd5",
+ "hero_checked": "pass"
 }

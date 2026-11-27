@@ -1,0 +1,133 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "carrying symbolic hatchet (mphomphwe) holding spear or walking stick holding fly-whisk",
+      "difficulty": "advanced",
+      "footwork": "Timed to drumming and iron ankle bells (mangwanda or mangenjeza)",
+      "formation_and_space": "Women and children form a circle around the patient",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Assisted by a musamu (assistant of the same sex) and directed by a diviner-healer (ng'anga)",
+      "posture": "Patient enters trance; dancers wear specific sacred garments and carry symbolic objects like hatchets, spears, or fly-whisks",
+      "signature_moves": [
+        {
+          "description": "Patient sits covered under a blanket while spirits are addressed.",
+          "name": "Kubunyisela trance seating"
+        },
+        {
+          "description": "Patient drinks blood from a sacrificed animal to satisfy possessing spirits.",
+          "name": "Chilopa blood ritual"
+        }
+      ],
+      "tempo_feel": "Varies by spirit possession stage, sessions can last up to twelve hours",
+      "what_to_avoid": "Do not interfere with sacred healing rituals, trances, or blood sacrifices; respect traditional restrictions."
+    },
+    "music_profile": {
+      "instruments": [
+        "ng'oma yikulu",
+        "mphiningu",
+        "mboza",
+        "ingubhu",
+        "iron ankle bells (mangwanda/mangenjeza)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "healing",
+        "trance",
+        "intense",
+        "ritual"
+      ],
+      "musical_form": "Call-and-response dialogue",
+      "reference_recordings": [],
+      "rhythm_pattern": "Spirit-specific drum rhythms, call-and-response pattern between dancer and chorus",
+      "sound_description": "Two or three mubale-wood drums—the large ng'oma yikulu and smaller mphiningu—provide deep, far-carrying percussion audible for several kilometres. This is layered with ringing iron ankle bells and a powerful call-and-response vocal exchange between a solo possessed dancer and a surrounding chorus of singing women and children.",
+      "tempo_bpm": "",
+      "vocal_style": "Dialogue between a soloist dancer and a responding audience chorus"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Sitting concealed under a blanket during kubunyisela",
+        "Stepping in time to drumming with goat-skin skirts and ankle bells",
+        "Call-and-response singing and clapping in a circle"
+      ],
+      "formation": "Women and children form a circle around the patient and musamu",
+      "level_notes": "Sacred ritual; instruction is restricted to traditional healing contexts and not standard dance classes.",
+      "rhythm": "Spirit-specific drum rhythms timed with iron ankle bells (mangwanda or mangenjeza)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "73320121ebb279cebf84be0f9f1dbe77fcdfee16f3ba7c9dcb1f2d5aaec5bf40",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the exact rhythmic meters and tempo ranges of the ng'oma yikulu and mphiningu drums during a Vimbuza séance? Evidence needed: Ethnomusicological field recordings and formal transcriptions."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:vimbuza-malawi",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Vimbuza healing dance",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "cbb98e59bbcee98a",
+      "next_evidence": "Ethnomusicological field recordings and formal transcriptions.",
+      "question": "What are the exact rhythmic meters and tempo ranges of the ng'oma yikulu and mphiningu drums during a Vimbuza séance?",
+      "source": "https://en.wikipedia.org/wiki/Vimbuza",
+      "status": "candidate_unreviewed",
+      "why_needed": "Musical recreation requires precise temporal data not fully detailed in the current text."
+    }
+  ],
+  "research_file": "research_results/vimbuza-malawi.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "vimbuza-malawi",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vimbuza",
+    "https://ich.unesco.org/en/RL/00158"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

@@ -1,0 +1,152 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex polyrhythms that might be frustrating"
+        ],
+        "counts": "1-2, 1-2",
+        "duration_minutes": "15",
+        "game_version": "A call-and-response game where children mimic the leader's movements."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid weight shifts",
+          "Jumps",
+          "Fast twisting"
+        ],
+        "counts": "Simple 1-2-3-4 counts.",
+        "seated_version": "Focus on upper body rhythmic pulsing and hand clapping to the beat.",
+        "standing_version": "Reduced tempo stepping with support nearby.",
+        "tempo_and_range": "Significantly slowed down to 80-90 BPM."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Social groups, often in open spaces or community halls",
+      "hips_and_torso": "Rhythmic pulsing in coordination with the drum beats",
+      "levels_and_jumps": "Low to ground",
+      "partnering": "None",
+      "posture": "Upright but relaxed, with a low center of gravity",
+      "signature_moves": [],
+      "tempo_feel": "Very fast and driving",
+      "what_to_avoid": "Stiffness; the dance requires fluid response to rapid percussion."
+    },
+    "music_profile": {
+      "instruments": [
+        "Double-skinned drums",
+        "Electric guitar",
+        "Bass guitar",
+        "Keyboards",
+        "Shakers"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "modern",
+        "driving",
+        "social"
+      ],
+      "musical_form": "Cyclical with improvised vocal leads",
+      "reference_recordings": [],
+      "rhythm_pattern": "Complex polyrhythmic drumming with a driving backbeat",
+      "sound_description": "A high-speed blend of traditional Maroon drumming and modern electric instruments, featuring a prominent lead singer answered by a unison chorus.",
+      "tempo_bpm": "120",
+      "vocal_style": "Call-and-response"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step in time with the primary drum beat",
+        "Engage in call-and-response vocalizing if part of the ensemble",
+        "Maintain a rhythmic bounce in the knees to match the fast tempo"
+      ],
+      "formation": "Social gathering, often informal circles or lines",
+      "level_notes": "The high tempo requires significant stamina and a good ear for complex polyrhythms.",
+      "rhythm": "Fast-paced, syncopated percussion"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f33f8e1d85fbaefba1a8d825ae1ff23ffb808fbaeb0776b16bdd32eddde41c61",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: How does the 'kwa-kwa bangi' idiophone specifically function within the Aleke rhythmic structure? Evidence needed: https://en.wikipedia.org/wiki/Music_of_Suriname"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns used by Ndjuka youth during an Aleke performance? Evidence needed: https://en.wikipedia.org/wiki/Music_of_Suriname"
+    ]
+  },
+  "id": "atlas:aleke",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Aleke",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "c2f09e355feb57aa",
+      "next_evidence": "https://en.wikipedia.org/wiki/Music_of_Suriname",
+      "question": "What are the specific footwork patterns used by Ndjuka youth during an Aleke performance?",
+      "source": "https://en.wikipedia.org/wiki/Music_of_Suriname",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source describes the music as 'danceable' but does not provide the mechanics of the steps needed for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "a28af84e6d05e41b",
+      "next_evidence": "https://en.wikipedia.org/wiki/Music_of_Suriname",
+      "question": "How does the 'kwa-kwa bangi' idiophone specifically function within the Aleke rhythmic structure?",
+      "source": "https://en.wikipedia.org/wiki/Music_of_Suriname",
+      "status": "candidate_unreviewed",
+      "why_needed": "Understanding the specific role of each instrument is necessary for a composer to recreate the sound profile accurately."
+    }
+  ],
+  "research_file": "research_results/aleke.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "aleke",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Music_of_Suriname",
+    "https://www.wikidata.org/wiki/Q22142599"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

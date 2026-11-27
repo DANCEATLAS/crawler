@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "krishnanattam",
  "name": "Krishnanattam",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -34,6 +34,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Krishnanattam",
   "wikidata_qid": "Q6437576",
   "unesco": false,
+  "hero_video_youtube_id": "bOVP1S6NOEk",
+  "video_stack": [
+   {
+    "youtube_id": "bOVP1S6NOEk",
+    "role": "hero",
+    "title": "Krishnanattam .... Guruvayur.",
+    "channel": "Guruvayur kazchakal",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -139,6 +149,12 @@
   "sacred_note": "Krishnanattam is a sacred ritual dance-drama performed near the sanctum sanctorum of the Guruvayur Sri Krishna temple as an offering by devotees. The headgear, especially Sri Krishna's peacock-feathered crown, is treated with extreme sacredness. Before applying make-up, actors prostrate before an oil lamp in devotion to Lord Guruvayoorappan.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:16:51Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "kathakali"
   ]
@@ -346,30 +362,46 @@
   "movie_ready": false,
   "schema": 5,
   "tradition_status": "living",
+  "footage": [
+   {
+    "title": "A Performance of Krishnanattam (Vol. I)",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-343-UM",
+    "year": 1989,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Administrative Source Indian Council for Cultural Relations, Delhi ( ICCR ) Identifier 343 Title A Performance of Krishnanattam (Vol. I) Alternative ICCR-343-UM Medium U-Matic ExtentOriginal 01:01:46 Spatial Kamani Auditorium, Delhi Created 30.05.1989 Relation 1 of 2 Rights ICCR Descriptive Subject ",
+    "source": "archive"
+   },
+   {
+    "title": "A Performance of Krishnanattam (Vol. II)",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-344-UM",
+    "year": 1989,
+    "license": "unknown (Internet Archive)",
+    "license_url": null,
+    "attribution": "Internet Archive",
+    "description": "Administrative Source Indian Council for Cultural Relations, Delhi ( ICCR ) Identifier 344 Title A Performance of Krishnanattam (Vol. II) Alternative ICCR-344-UM Medium U-Matic ExtentOriginal 00:32:03 Spatial Kamani Auditorium, Delhi Created 30.05.1989 Relation 2 of 2 Rights ICCR Descriptive Subject",
+    "source": "archive"
+   }
+  ],
   "researched_at": "2026-11-26T19:09:26Z",
   "qc_score": 10.0
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Krishnanattam is a sacred ritual dance-drama performed near the sanctum sanctorum of the Guruvayur Sri Krishna temple as an offering by devotees. The headgear, especially Sri Krishna's peacock-feathered crown, is treated with extreme sacredness. Before applying make-up, actors prostrate before an oil lamp in devotion to Lord Guruvayoorappan.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/krishnanattam.json"
  },
- "fingerprint": "b249cd770cd19cbd",
- "updated": "2026-11-26"
+ "fingerprint": "e11324c3b5a24863",
+ "updated": "2026-11-27"
 }

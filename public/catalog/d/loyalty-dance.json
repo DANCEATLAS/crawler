@@ -30,6 +30,30 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Loyalty_dance",
   "wikidata_qid": "Q6801077",
   "unesco": false,
+  "hero_video_youtube_id": "XqPBFcp4hpg",
+  "video_stack": [
+   {
+    "youtube_id": "XqPBFcp4hpg",
+    "role": "hero",
+    "title": "[HD-CC] Red Guard perform loyalty dance: \"Revolutionary Rebellion\" 革命造反歌 (from The Last Emperor)",
+    "channel": "Uncle Hồ",
+    "hd": true
+   },
+   {
+    "youtube_id": "Z6_6P_9XFW0",
+    "role": "rendition",
+    "title": "BABY ZONE | STAND BATTLE | HEAT 2 | WAR ZONE | VII | LOYALTY DANCE TEAM | 2023",
+    "channel": "PolaBear RED TV",
+    "hd": true
+   },
+   {
+    "youtube_id": "tM8pziNQM4M",
+    "role": "rendition",
+    "title": "TRIO | Round 1 | Heat 2 | War Zone | Day 1 | Loyalty Dance Team",
+    "channel": "PolaBear RED TV",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -42,7 +66,13 @@
   "pipeline_version": "v3.3",
   "profile_long": "The loyalty dance, known in Chinese as Zhōngzì wǔ, emerged in the late 1960s following the outbreak of the Cultural Revolution in 1966. Developed as an integral component of Chairman Mao Zedong's cult of personality, the dance functioned as a public, standardized expression of political discipline and total personal devotion. By 1968, the movement reached a climax under the banner of the 'Three Loyalties'—mandating loyalty to Chairman Mao, Mao Zedong Thought, and Chairman Mao's revolutionary line. Public squares, plazas, and street parades became setting stages where compliance and reverence were demonstrated en masse.\n\nThe dance relied on accessible, repetitive choreography derived originally from a folk dance popular in Xinjiang. Its defining physical gesture involved stretching one's arms outward from the heart toward a portrait of Mao, alternating with movements directed upward to the sky to symbolize elevated respect for the leader. Because the dance was intended as a universal obligation rather than a specialized artistic display, participation was required across all social classes. Miners, office workers, young toddlers, and even elderly women with bound feet engaged in the daily performance of the routine in public spaces.\n\nMusical accompaniment consisted of ubiquitous revolutionary songs of the era. Tracks such as 'The East is Red' (Dōngfāng hóng), 'Beloved Chairman Mao,' 'Golden Hill of Beijing,' and 'Sailing the Seas Depends on the Helmsman' provided the rhythmic backing for the mass performances. Lyrics explicitly reinforced political themes, including quotations from Mao and declarations that devotion to the leader superseded traditional familial ties. These songs created a uniform, structured soundtrack across cities and rural communities alike.\n\nFollowing the 9th National Congress of the Chinese Communist Party in April 1969, the widespread requirement and popularity of the loyalty dance began to wane. By the early 1970s, public performances became rare, and with the formal end of the Cultural Revolution in 1976, the loyalty dance disappeared entirely from daily public life in China.",
   "movie_ready": false,
-  "tradition_status": "historical"
+  "tradition_status": "historical",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:17:14Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -196,48 +226,159 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 8,
+  "have": 13,
   "of": 15,
   "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "sound",
-    "label": "the instruments and what the music sounds like"
-   },
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "rhythm": "lesson",
+   "sound": "performance",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "LXsukHW1sDY",
+   "url": "https://www.youtube.com/watch?v=LXsukHW1sDY",
+   "title": "LOYALTY DANCE TUTORIAL_TIKTOK_DC : Austin Ong",
+   "channel": "FB : Fiel Gonato",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "Tagalog",
+   "counting_scheme": "1-2-3 / 1-and-2",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher introduces himself and the Loyalty dance challenge"
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "breakdown",
+     "note": "Detailed breakdown of the first steps"
+    },
+    {
+     "t": "4:25",
+     "seconds": 265,
+     "segment": "music_practice",
+     "note": "Demonstration with music tempo"
+    },
+    {
+     "t": "4:41",
+     "seconds": 281,
+     "segment": "recap",
+     "note": "Review and continuation of the choreography"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Loyalty dance step 1",
+     "counts": "1 and 2",
+     "description": "Foot slant and arm movement breakdown"
+    },
+    {
+     "name": "Loyalty dance step 2",
+     "counts": "1-2-3",
+     "description": "Hip wave and arm cross"
+    }
+   ],
+   "cues": [
+    "1-2-3",
+    "1 and 2"
+   ],
+   "teacher_style": "The instructor breaks down the TikTok choreography step by step in Tagalog. He demonstrates each movement slowly before combining sections and practicing with music.",
+   "distinctive_method": "Breaking down TikTok dance challenges into detailed numerical counts with verbal repetition in Tagalog.",
+   "what_works": [
+    "Clear slow-motion breakdown of each movement",
+    "Repeated counts and combinations"
+   ],
+   "what_hinders": [
+    "Language barrier if non-Tagalog speaker"
+   ],
+   "evidence": [
+    {
+     "start_s": 42,
+     "end_s": 59,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates foot slant and upper body lean while explaining in Tagalog",
+     "viewpoint": "front",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "XqPBFcp4hpg",
+   "url": "https://www.youtube.com/watch?v=XqPBFcp4hpg",
+   "analysed_on": "2026-11-27",
+   "observation": {
+    "setting": "An outdoor street between buildings in a village or town, decorated with red banners and flags during daylight.",
+    "dancers": "A group of young adults and teenagers, primarily women in matching military-style uniforms, performing together.",
+    "formation_and_space": "Organized rows and columns moving rhythmically in unison down the street, with a flag-bearer waving a large red flag in the center.",
+    "posture": "Upright, rigid posture with straight torso and knees lifting high in a marching style.",
+    "footwork": "Marching step with high knee lifts on the beat, moving forward and in place.",
+    "arms_and_hands": "Arms swing and punch forward or raise diagonally upward, holding small red books or flags.",
+    "hips_and_torso": "Torso remains stiff and upright with no isolated hip movements.",
+    "partnering": "None, performed in unison group formation.",
+    "levels_jumps_turns": "Standing level throughout with high knee marching; no jumps or floor work, occasional turning in formation.",
+    "costume_and_props": "Matching green military-style jackets, dark trousers, caps, and red armbands, holding small red books and large red flags.",
+    "cannot_infer": "Exact foot placement and precise weight transfer cannot be determined due to distant camera angles.",
+    "music_heard": {
+     "instruments": [
+      "accordion",
+      "brass"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 10,
+      "end_s": 18,
+      "what": "Dancers march forward with high knees while chanting and pumping fists holding red books."
+     },
+     {
+      "start_s": 19,
+      "end_s": 27,
+      "what": "Dancers raise one arm diagonally upward while stepping in place in unison."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 9,
+  "gaps": 8,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/loyalty-dance.json"
  },
- "fingerprint": "59b323d2627022de",
- "updated": "2026-11-26"
+ "fingerprint": "ff686c6705a16985",
+ "updated": "2026-11-27"
 }

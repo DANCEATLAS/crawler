@@ -1,0 +1,825 @@
+{
+ "slug": "regency-dance",
+ "name": "Regency dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T19:50:45Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic historical dance specialist who brings period dance manuals to life with bounce and historical precision.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Regency dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Regency dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Bouncy Balls and Scandalous Waltzes: The Real Regency Dance",
+     "This is Regency dance. 1790–1825."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Regency dance · United Kingdom · 1790–1825"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Regency dance covers the period from roughly 1790 to 1825, extending beyond the historical 1811–1820 regency of George IV.",
+     "In the early decades, longways country dances, French cotillions, and scotch reels dominated English ballrooms.",
+     "The 1810s saw major shifts: the waltz arrived in England around 1810, causing moral debate over close partner contact, while Lady Jersey introduced the French quadrille in 1815."
+    ],
+    "on_screen": [
+     "Map: United Kingdom · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Dance served as a major social ritual for courtship, status display, and community assembly during the late Georgian and Regency eras.",
+     "Leading a longways set held high social honor, granting the top lady authority over the figures and music for the dance.",
+     "Today it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dances of this era were bouncy and lively rather than smooth or solemn.",
+     "Longways country dances featured two lines of partners performing figures, with the top lady choosing figures and steps before dancing down to the bottom of the set.",
+     "Cotillions were danced in a square, alternating standard changes (such as a right-hand star or moulinet) with unique chorus figures.",
+     "Watch for Setting, Heying, Moulinet."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Longways facing lines, square sets, or linear reels"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for Regency dances varied according to the specific format, including country dance tunes, reels, and imported French or German pieces.",
+     "Meter ranged from 3/4 time for the standard waltz to 2/4 time for the sauteuse and various meters for quadrille and country dance figures.",
+     "The pulse is 2/4 or 3/4 depending on the specific dance.",
+     "Bright, structured dance music supporting energetic skipping, setting, and stepping across various meters."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancing took place in formal ballrooms, assembly rooms, and private country houses of the era.",
+     "Modern revival groups dance in historic venues including churches, community centers, and specialized historical sites like Chawton House."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Jane Austen famously depicted assembly balls in her novels and described calling dances in her letters.",
+     "Lady Jersey introduced the quadrille to London high society in 1815.",
+     "Regional forms included the French cotillion and quadrille, the Scottish scotch reel, and late-period country dance adaptations like the Danse Espagnuole (Spanish dance) and Danse Ecossoise.",
+     "Regency country dance descended from traditional English Country Dance and contributed to later nineteenth-century social dances, including the American Virginia Reel (derived from Sir Roger de Coverley)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Regency dance is parent of English Country Dance: Regency country dance represents a specific historical era of the broader English Country Dance tradition.",
+     "Regency dance is child of Quadrille: The quadrille was introduced to England in 1815 and gradually eclipsed older longways country dances.",
+     "Regency dance is variant of Waltz: The early Regency waltz was danced on the balls of the feet with a slower tempo and distinct arm positions.",
+     "Regency dance is child of Virginia Reel: Derived from the Regency-era dance Sir Roger de Coverley."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Marching in procession",
+     "Skipping steps",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how early 19th-century ballroom dancers bounced, skipped, and caused social scandals with the waltz and quadrille.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the bouncy elevated footwork and simple progressional steps.",
+   "level": "Level 1: The Longways Step",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the bouncy elevated footwork and simple progressional steps..",
+      "Level: Level 1: The Longways Step. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic historical dance specialist who brings period dance manuals to life with bounce and historical precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Up on the balls of the feet with graceful arm positions",
+      "Held in a variety of graceful positions during waltzing and turns"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4 depending on the specific dance.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Marching in procession",
+      "Step 2: Skipping steps",
+      "Footwork from the sources: Ranging from simple skipping steps to elaborate ballet-style movements and fancy setting steps",
+      "Drill: Bouncy posture check up on the balls of the feet."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Setting (fancy footwork in place)",
+      "Step 4: Heying (interlacing through lines)",
+      "Drill: Basic skipping in progression line."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid dancing in a smooth, slow, or stately manner, which misrepresents authentic period technique."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated. · For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated.",
+      "For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the bouncy elevated footwork and simple progressional steps..",
+      "Dance served as a major social ritual for courtship, status display, and community assembly during the late Georgian and Regency eras.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute stationary setting steps and interlacing heys.",
+   "level": "Level 2: Figures and Setting",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute stationary setting steps and interlacing heys..",
+      "Level: Level 2: Figures and Setting. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic historical dance specialist who brings period dance manuals to life with bounce and historical precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Up on the balls of the feet with graceful arm positions",
+      "Held in a variety of graceful positions during waltzing and turns"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4 depending on the specific dance.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Moulinet / Star (right-hand or left-hand turn in square or set)",
+      "Drill: Stationary setting footwork practice."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Setting: Fancy steps danced in place during reels or country dances.",
+      "Heying: Interlacing paths woven through a line of three or four dancers.",
+      "Drill: Three-person interlacing hey movement path."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid dancing in a smooth, slow, or stately manner, which misrepresents authentic period technique."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated. · For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated.",
+      "For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Longways facing lines, square sets, or linear reels"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute stationary setting steps and interlacing heys..",
+      "Jane Austen famously depicted assembly balls in her novels and described calling dances in her letters.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform the original elevated 3/4 waltz and 2/4 leap-glide-close sauteuse.",
+   "level": "Level 3: The Regency Waltz & Sauteuse",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform the original elevated 3/4 waltz and 2/4 leap-glide-close sauteuse..",
+      "Level: Level 3: The Regency Waltz & Sauteuse. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic historical dance specialist who brings period dance manuals to life with bounce and historical precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Up on the balls of the feet with graceful arm positions",
+      "Held in a variety of graceful positions during waltzing and turns"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4 depending on the specific dance.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Heying (interlacing through lines)",
+      "Step 2: Moulinet / Star (right-hand or left-hand turn in square or set)",
+      "Drill: 3/4 elevated ball-of-foot waltz movement with upper body posture."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Moulinet: A right-hand or left-hand star figure performed in square cotillion sets.",
+      "Drill: 2/4 leap-glide-close sauteuse leap drill."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid dancing in a smooth, slow, or stately manner, which misrepresents authentic period technique."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated. · For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated.",
+      "For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Longways facing lines, square sets, or linear reels"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform the original elevated 3/4 waltz and 2/4 leap-glide-close sauteuse..",
+      "Regency country dance descended from traditional English Country Dance and contributed to later nineteenth-century social dances, including the American Virginia Reel (derived from Sir Roger de Coverley).",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4 or 3/4 depending on the specific dance",
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": "Sectional sets of figures (quadrilles) or repeated tunes with chorus and changes (cotillions)",
+  "mood": [
+   "lively",
+   "bouncy",
+   "social",
+   "bright"
+  ],
+  "sound_description": "Bright, structured dance music supporting energetic skipping, setting, and stepping across various meters.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Regency dance (United Kingdom). Meter 2/4 or 3/4 depending on the specific dance. Form: Sectional sets of figures (quadrilles) or repeated tunes with chorus and changes (cotillions). Mood: lively, bouncy, social, bright. It should sound like this: Bright, structured dance music supporting energetic skipping, setting, and stepping across various meters. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancing took place in formal ballrooms, assembly rooms, and private country houses of the era. Modern revival groups dance in historic venues including churches, community centers, and specialized historical sites like Chawton House.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AFive_positions_of_dancing_Wilson_1811.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ARegency_Dancing_Revival_Science_Fiction_Fantasy_Convention.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AHistorical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Five_positions_of_dancing_Wilson_1811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Five_positions_of_dancing_Wilson_1811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "T. Wilson / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFive_positions_of_dancing_Wilson_1811.jpg",
+    "description": "The five \"Positions of Dancing\" from Thomas Wilson's Analysis of Country Dancing (1811) – An analysis of country dancing, wherein all the figures used in that polite amusement are rendered familiar by engraved lines. Containing also, directions for composing almost any number of figures to one tune, with some entire new reels; together with the complete etiquette of the ball-room. By T. Wilson ..."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Regency_Dancing_Revival_Science_Fiction_Fantasy_Convention.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/69/Regency_Dancing_Revival_Science_Fiction_Fantasy_Convention.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Drhaggis at English Wikipedia / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARegency_Dancing_Revival_Science_Fiction_Fantasy_Convention.jpg",
+    "description": "Regency Dance being taught at Westercon 58 in Calgary July 2005. Photo Taken by Dr Haggis."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Historical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Historical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG/1280px-Historical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "John Hewat of Canberra, Australia / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHistorical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG",
+    "description": "Dance held at All Saints Church Hall Ainslie Canberra in November 2015. Time travellers ball with called dances from all time eras from 15th to 20th century. Dance called by group Earthly Delights Danced to live music"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Assembly room dance floor with facing lines of dancers",
+   "Feet rising onto the balls of the feet during skips",
+   "Hands joining for moulinet star figures",
+   "Satirical period caricatures depicting the controversial waltz"
+  ],
+  "costume_notes": "Dancing took place in formal ballrooms, assembly rooms, and private country houses of the era. Modern revival groups dance in historic venues including churches, community centers, and specialized historical sites like Chawton House.",
+  "setting_notes": "Dance served as a major social ritual for courtship, status display, and community assembly during the late Georgian and Regency eras. Leading a longways set held high social honor, granting the top lady authority over the figures and music for the dance.",
+  "map": {
+   "country": "United Kingdom",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "16 tutorial(s) of the ballroom-partner family studied",
+  "videos_studied": 16,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "walk walk",
+   "aprovechar la inercia",
+   "todo tiene que ir fluido",
+   "no se debera cortar el movimiento",
+   "step point",
+   "side by side",
+   "quick quick slow",
+   "side with the left",
+   "bring it in",
+   "switch weight",
+   "change weight onto the left",
+   "side close side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Regency_dance",
+  "https://www.wikidata.org/wiki/Q7308026"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "4acbcb5c0bcc33f8264420fb27a32d35d0b499edda44e177e5366dcf20777a6a",
+ "hero_checked": null
+}

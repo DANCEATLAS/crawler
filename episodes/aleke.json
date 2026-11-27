@@ -1,0 +1,802 @@
+{
+ "slug": "aleke",
+ "name": "Aleke",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:05Z",
+ "researched_at": "2026-11-27T20:02:12Z",
+ "qc_score": 9.1,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic Maroon youth leader who bridges traditional knowledge with modern style.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Aleke",
+   "aleke poku",
+   "Maroon aleke"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Aleke",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Pulse of the Rainforest",
+     "This is Aleke. 1950s-present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (vdkA3vgoWD4)",
+     "Title card: Aleke · Suriname · 1950s-present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Aleke developed in the 1950s within the Maroon communities of eastern Suriname.",
+     "It is a modern genre that evolved from traditional Ndjuka (Aukan) music.",
+     "The genre is noted for being a more recent development compared to older forms like awasa, reflecting the modernization of Maroon culture as communities interacted more frequently with urban environments and modern technology."
+    ],
+    "on_screen": [
+     "Map: Suriname · South America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Aleke is primarily a genre of entertainment and social expression.",
+     "It is played at festivities and public gatherings.",
+     "Unlike older religious forms, Aleke lyrics often focus on social commentary, daily life, and modern experiences, making it a vital part of contemporary Maroon identity.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is a high-energy social form.",
+     "While specific technical steps are not detailed in the sources, it is described as a 'popular' and 'danceable' genre that evolved from rhythmic music.",
+     "It involves responding to the fast-paced, complex drumming typical of Maroon percussion styles."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (vdkA3vgoWD4)",
+     "Signature moves — MISSING",
+     "Formation: Social groups, often in open spaces or community halls"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is characterized by a fast tempo and complex percussion.",
+     "Instruments include traditional Maroon drums, often supplemented by kawina-style double-skinned drums.",
+     "Listen for the Double-skinned drums, Electric guitar, Bass guitar, Keyboards.",
+     "The pulse is 4/4 at about 120 beats a minute.",
+     "A high-speed blend of traditional Maroon drumming and modern electric instruments, featuring a prominent lead singer answered by a unison chorus."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Complex polyrhythmic drumming with a driving backbeat"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Aleke is performed in both traditional Maroon villages in the Surinamese interior and in urban settings like Paramaribo.",
+     "Costumes for social dancing are typically contemporary everyday wear, though performance groups may wear traditional Maroon textiles like the pangi."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The genre is associated with the Ndjuka (Aukan) people of eastern Suriname.",
+     "While specific individual performers are not listed in the sources, the genre is recognized as a major popular form alongside kaseko and kawina.",
+     "Aleke is specific to the Maroon communities, particularly the Ndjuka.",
+     "Aleke is a descendant of traditional Maroon drumming and singing styles. it is a sibling to other Maroon genres like seketi and has been influenced by the instrumentation of kaseko and kawina."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Aleke is influence of Kawina: Aleke uses similar double-skinned drums and call-and-response structures.",
+     "Aleke is sibling of Awasa: Awasa is a traditional women's social dance from the same Maroon culture."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Step in time with the primary drum beat",
+     "Engage in call-and-response vocalizing if part of the ensemble",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how the Maroon communities of Suriname turned ancient drum traditions into a high-speed modern dance revolution.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Find the pulse",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Find the pulse.",
+      "Level: beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Maroon youth leader who bridges traditional knowledge with modern style."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but relaxed, with a low center of gravity",
+      "Rhythmic pulsing in coordination with the drum beats"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Complex polyrhythmic drumming with a driving backbeat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step in time with the primary drum beat",
+      "Step 2: Engage in call-and-response vocalizing if part of the ensemble",
+      "Drill: Clapping the basic 4/4 beat"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Maintain a rhythmic bounce in the knees to match the fast tempo",
+      "Drill: Walking in place to a fast tempo"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic knee bounce on every beat"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Stiffness; the dance requires fluid response to rapid percussion."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Focus on upper body rhythmic pulsing and hand clapping to the beat. · For children: A call-and-response game where children mimic the leader's movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on upper body rhythmic pulsing and hand clapping to the beat.",
+      "For children: A call-and-response game where children mimic the leader's movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Find the pulse.",
+      "Aleke is primarily a genre of entertainment and social expression.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Syncopation",
+   "level": "intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Syncopation.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Maroon youth leader who bridges traditional knowledge with modern style."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but relaxed, with a low center of gravity",
+      "Rhythmic pulsing in coordination with the drum beats"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Complex polyrhythmic drumming with a driving backbeat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step in time with the primary drum beat",
+      "Step 2: Engage in call-and-response vocalizing if part of the ensemble",
+      "Drill: Shifting weight on the off-beats"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Maintain a rhythmic bounce in the knees to match the fast tempo",
+      "Drill: Coordinating torso pulses with drum accents"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic call-and-response vocalizing while moving"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Stiffness; the dance requires fluid response to rapid percussion."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Focus on upper body rhythmic pulsing and hand clapping to the beat. · For children: A call-and-response game where children mimic the leader's movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on upper body rhythmic pulsing and hand clapping to the beat.",
+      "For children: A call-and-response game where children mimic the leader's movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Social groups, often in open spaces or community halls"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Syncopation.",
+      "The genre is associated with the Ndjuka (Aukan) people of eastern Suriname.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Aleke",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Aleke.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic Maroon youth leader who bridges traditional knowledge with modern style."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright but relaxed, with a low center of gravity",
+      "Rhythmic pulsing in coordination with the drum beats"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Complex polyrhythmic drumming with a driving backbeat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Engage in call-and-response vocalizing if part of the ensemble",
+      "Step 2: Maintain a rhythmic bounce in the knees to match the fast tempo"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Stiffness; the dance requires fluid response to rapid percussion."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Focus on upper body rhythmic pulsing and hand clapping to the beat. · For children: A call-and-response game where children mimic the leader's movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on upper body rhythmic pulsing and hand clapping to the beat.",
+      "For children: A call-and-response game where children mimic the leader's movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Social groups, often in open spaces or community halls"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Aleke.",
+      "Aleke is a descendant of traditional Maroon drumming and singing styles. it is a sibling to other Maroon genres like seketi and has been influenced by the instrumentation of kaseko and kawina.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 120,
+  "meter": "4/4",
+  "rhythm_pattern": "Complex polyrhythmic drumming with a driving backbeat",
+  "instruments": [
+   "Double-skinned drums",
+   "Electric guitar",
+   "Bass guitar",
+   "Keyboards",
+   "Shakers"
+  ],
+  "vocal_style": null,
+  "musical_form": "Cyclical with improvised vocal leads",
+  "mood": [
+   "energetic",
+   "modern",
+   "driving",
+   "social"
+  ],
+  "sound_description": "A high-speed blend of traditional Maroon drumming and modern electric instruments, featuring a prominent lead singer answered by a unison chorus.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Aleke (Suriname). Meter 4/4. Tempo about 120 bpm. Rhythm pattern: Complex polyrhythmic drumming with a driving backbeat. Instruments: Double-skinned drums, Electric guitar, Bass guitar, Keyboards, Shakers. Form: Cyclical with improvised vocal leads. Mood: energetic, modern, driving, social. It should sound like this: A high-speed blend of traditional Maroon drumming and modern electric instruments, featuring a prominent lead singer answered by a unison chorus. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 84
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 120
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "vdkA3vgoWD4",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Aleke is performed in both traditional Maroon villages in the Surinamese interior and in urban settings like Paramaribo. Costumes for social dancing are typically contemporary everyday wear, though performance groups may wear traditional Maroon textiles like the pangi.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Carved wooden drums",
+   "River landscapes",
+   "Vibrant pangi textiles",
+   "Electric guitar cables snaking through jungle grass"
+  ],
+  "costume_notes": "Aleke is performed in both traditional Maroon villages in the Surinamese interior and in urban settings like Paramaribo. Costumes for social dancing are typically contemporary everyday wear, though performance groups may wear traditional Maroon textiles like the pangi.",
+  "setting_notes": "Aleke is primarily a genre of entertainment and social expression. It is played at festivities and public gatherings. Unlike older religious forms, Aleke lyrics often focus on social commentary, daily life, and modern experiences, making it a vital part of contemporary Maroon identity.",
+  "map": {
+   "country": "Suriname",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "step together step",
+   "1 2 3 4 5 6",
+   "1 2 3 4",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "signature moves"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Music_of_Suriname",
+  "https://www.wikidata.org/wiki/Q22142599"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "817a0659c5e489692ab7817903825704bec3c70e8a62b2dda1dea2469eaa481e",
+ "hero_checked": "pass"
+}

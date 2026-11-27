@@ -199,16 +199,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 8,
   "of": 15,
   "missing": [
    {
     "key": "story",
     "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
    },
    {
     "key": "posture",
@@ -219,20 +215,8 @@
     "label": "arms and hands"
    },
    {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
-   },
-   {
-    "key": "lesson_plan",
-    "label": "ordered basic steps or a lesson ladder"
    },
    {
     "key": "mistakes",
@@ -243,15 +227,117 @@
     "label": "a hero video that passed the vision check"
    },
    {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "signature_moves": "lesson",
+   "rhythm": "lesson",
+   "lesson_plan": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "yH2LysZkqTA",
+   "url": "https://www.youtube.com/watch?v=yH2LysZkqTA",
+   "title": "Podaraki, Grecia, tutorial di Juancarlos Battilani",
+   "channel": "Juan Carlos Battilani",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "Italian",
+   "counting_scheme": "un e due e tre pam pam",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction by the teacher in a red shirt and red beret"
+    },
+    {
+     "t": "0:31",
+     "seconds": 31,
+     "segment": "context",
+     "note": "Introduction of the dance Podaraki from Greece"
+    },
+    {
+     "t": "1:12",
+     "seconds": 72,
+     "segment": "breakdown",
+     "note": "Demonstration and counting of the lateral part"
+    },
+    {
+     "t": "1:48",
+     "seconds": 108,
+     "segment": "breakdown",
+     "note": "Explanation and demonstration of the central part (part B)"
+    },
+    {
+     "t": "3:10",
+     "seconds": 190,
+     "segment": "music_practice",
+     "note": "Full practice of Podaraki to music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "parte laterale",
+     "counts": "1 e 2 e 3 pam pam",
+     "description": "lateral stepping movement starting with free right foot"
+    },
+    {
+     "name": "parte centrale",
+     "counts": "un cia un cia un cia cha",
+     "description": "central variation practicing right and left free foot leads"
+    }
+   ],
+   "cues": [
+    "destro libero",
+    "giro",
+    "opa"
+   ],
+   "images": [
+    "la danza del tre"
+   ],
+   "teacher_style": "Juancarlos Battilani teaches in a structured and calm manner, directly addressing the camera while demonstrating steps from an elevated angle. He breaks down the dance into clear lateral and central variations, combining verbal explanation with physical demonstration.",
+   "distinctive_method": "Using an overhead camera view consistently throughout the instructional breakdown to clearly show foot placement and patterning on grid-like tiles.",
+   "what_works": [
+    "clear verbal numbering",
+    "consistent camera angle from above",
+    "repetition of steps with music"
+   ],
+   "what_hinders": [
+    "limited variety of camera angles"
+   ],
+   "evidence": [
+    {
+     "start_s": 1,
+     "end_s": 10,
+     "topic": "teaching",
+     "observation": "The teacher speaks directly to the camera wearing a red shirt and red beret.",
+     "viewpoint": "overhead",
+     "cannot_infer": "exact spatial layout of the room off-camera",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 112,
+     "end_s": 130,
+     "topic": "movement",
+     "observation": "The teacher steps laterally while counting aloud with arms in W position.",
+     "viewpoint": "overhead",
+     "cannot_infer": "weight distribution on feet",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
@@ -261,6 +347,6 @@
   "polished": false,
   "file": "episodes/podaraki.json"
  },
- "fingerprint": "9759880f18d07e65",
- "updated": "2026-11-26"
+ "fingerprint": "62356fc1d0fa811c",
+ "updated": "2026-11-27"
 }

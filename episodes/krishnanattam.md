@@ -1,8 +1,8 @@
 # Krishnanattam — episode pack
 
-*Status: withheld-chapters · built 2026-11-26 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; signature moves; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An esteemed master from the Guruvayur Devaswom troupe with deep reverence for ritual performance and classical Sanskrit drama.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The King's Vision: Sacred Plays of Guruvayur
 NARRATION: This is Krishnanattam. 17th century (1653 AD).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (bOVP1S6NOEk)
 ON SCREEN: Title card: Krishnanattam · India · 17th century (1653 AD)
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Performed exclusively by men and young boys as a nocturnal temple act, Krishnanattam synthesizes the four dramatic aspects defined by Bharata Muni: movement (Angika), vocal text (Vachika), costume/makeup (Aharya), and emotional state (Satvika).
 NARRATION: Performers undergo rigorous training starting around age ten for dynamic roles (vesham) and music, or age five for chutti makeup application and playing the Madhalam drum.
 NARRATION: The movement language blends physical expression with rhythmic coordination.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (bOVP1S6NOEk)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Proscenium-style temple court performance facing the sanctum sanctorum
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -101,7 +101,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'bOVP1S6NOEk', 'checked_by_vision_model': True, 'title': 'Krishnanattam .... Guruvayur.'}
 Images: 8 licensed — Jean-Pierre Dalbéra / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Jean-Pierre Dalbéra / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Jean-Pierre Dalbéra / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Manojk / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Manoj Karingamadathil / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: A Performance of Krishnanattam (Vol. I) — https://archive.org/details/dni.ncaa.ICCR-343-UM; A Performance of Krishnanattam (Vol. II) — https://archive.org/details/dni.ncaa.ICCR-344-UM
 Motifs: Oil lamps burning near the sanctum sanctorum, Peacock feather adornments on high crowns (kiriitam), Protruding white chutti jaw borders framing green paccha face paint, Layered white skirts with orange and black stripes
@@ -111,9 +111,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
+Source: 20 tutorial(s) of the ritual-sacred family studied · videos studied: 20
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; 1-2-3; 1 and 2; criss-cross now; forward and back; plant the left foot
 
 Sources (3): https://en.wikipedia.org/wiki/Krishnanattam; https://www.wikidata.org/wiki/Q6437576; https://fr.wikipedia.org/wiki/Krishnanattam

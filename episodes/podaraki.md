@@ -1,6 +1,6 @@
 # Podaraki — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.3 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.3 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the costume & setting section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -69,7 +69,7 @@ NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. stomping with the Podia (feet)
-NARRATION: Count it: .
+NARRATION: Count it: un e due e tre pam pam.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -96,7 +96,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: un e due e tre pam pam.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -107,14 +107,16 @@ NEEDS: tempo, meter
 NARRATION: Step 1: stomping with the Podia (feet)
 NARRATION: Footwork from the sources: much stomping with the Podia (feet)
 NARRATION: Drill: Form an open circle with fellow participants
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: un e due e tre pam pam · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Practice basic foot stomping in rhythm
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: un e due e tre pam pam · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -133,7 +135,7 @@ OPTIONS: Seated or supported option: seated version with upper body posture and 
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: un e due e tre pam pam.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -162,7 +164,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: un e due e tre pam pam.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -171,15 +173,17 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: stomping with the Podia (feet)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: un e due e tre pam pam · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Podia Stomp: Heavy stomping executed with the feet by dancers in the circle.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: un e due e tre pam pam · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -197,7 +201,7 @@ OPTIONS: Seated or supported option: seated version with upper body posture and 
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: un e due e tre pam pam.
 NARRATION: Full tempo, the whole sequence, twice. Formation: open circle, rarely in straight line
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -225,7 +229,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: un e due e tre pam pam.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -234,15 +238,17 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: stomping with the Podia (feet)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: un e due e tre pam pam · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Podia Stomp: Heavy stomping executed with the feet by dancers in the circle.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: un e due e tre pam pam · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -260,7 +266,7 @@ OPTIONS: Seated or supported option: seated version with upper body posture and 
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: un e due e tre pam pam.
 NARRATION: Full tempo, the whole sequence, twice. Formation: open circle, rarely in straight line
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -297,9 +303,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: un e due e tre pam pam
+Demonstration: views used by most teachers: overhead; tempo progression: slow → full
+Cues: destro libero; giro; opa
 
 Sources (2): https://en.wikipedia.org/wiki/Podaraki; https://www.wikidata.org/wiki/Q7206621

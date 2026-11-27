@@ -1,8 +1,8 @@
 # Progressive Double Two — episode pack
 
-*Status: draft · built 2026-11-26 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Texas country dance hall instructor
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Texas Shuffle: Mastering the Progressive Double Two
 NARRATION: This is Progressive Double Two. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (7H_nkxo2-LQ)
 ON SCREEN: Title card: Progressive Double Two · United States · 20th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: The dance uses 6- and 8-count patterns.
 NARRATION: A basic 6-beat pattern consists of two shuffle steps (counted as 1 and 2, 3 and 4) followed by two walking steps (counted 5, 6).
 NARRATION: The leader guides the follower through arching movements.
 NARRATION: Watch for Arching semicircle.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (7H_nkxo2-LQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Progressive circle moving counterclockwise
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -74,7 +74,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Shuffle step (1 and 2)
 NARRATION: Shuffle step (3 and 4)
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-and-2 3-and-4 5-6.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -102,7 +102,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-and-2 3-and-4 5-6. The meter is 4/4.
 NARRATION: Rhythm pattern: Shuffle steps (1 and 2, 3 and 4) followed by walking steps (5, 6).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -115,10 +115,10 @@ NARRATION: Step 1: Shuffle step (1 and 2)
 NARRATION: Step 2: Shuffle step (3 and 4)
 NARRATION: Footwork from the sources: Shuffle steps followed by walking steps
 NARRATION: Drill: Shuffle in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 3-and-4 5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Walking step (5)
@@ -126,7 +126,7 @@ NARRATION: Step 4: Walking step (6)
 NARRATION: Drill: Shuffle forward
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 3-and-4 5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,7 +145,7 @@ OPTIONS: Seated or supported option: Perform shuffle rhythm with feet while seat
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-and-2 3-and-4 5-6.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -175,7 +175,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-and-2 3-and-4 5-6. The meter is 4/4.
 NARRATION: Rhythm pattern: Shuffle steps (1 and 2, 3 and 4) followed by walking steps (5, 6).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -187,10 +187,10 @@ NEEDS: tempo
 NARRATION: Step 1: Shuffle step (1 and 2)
 NARRATION: Step 2: Shuffle step (3 and 4)
 NARRATION: Drill: Shuffle, shuffle, walk, walk
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 3-and-4 5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Walking step (5)
@@ -200,7 +200,7 @@ NARRATION: Drill: Maintain frame while moving
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 3-and-4 5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -218,7 +218,7 @@ OPTIONS: Seated or supported option: Perform shuffle rhythm with feet while seat
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-and-2 3-and-4 5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Progressive circle moving counterclockwise
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -247,7 +247,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-and-2 3-and-4 5-6. The meter is 4/4.
 NARRATION: Rhythm pattern: Shuffle steps (1 and 2, 3 and 4) followed by walking steps (5, 6).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -258,17 +258,17 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Walking step (5)
 NARRATION: Step 2: Walking step (6)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 3-and-4 5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Arching semicircle: Follower is led through a quarter semicircle clockwise then counterclockwise
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-and-2 3-and-4 5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -286,7 +286,7 @@ OPTIONS: Seated or supported option: Perform shuffle rhythm with feet while seat
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-and-2 3-and-4 5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Progressive circle moving counterclockwise
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance is performed in country-western dance halls. Attire is generally casual, consistent with standard country-western social dance settings.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '7H_nkxo2-LQ', 'checked_by_vision_model': True, 'title': 'PD2 #1 - Introduction to Progressive Double Two Step. The Six Basic Steps.'}
 Images: 1 licensed — Hyacinth / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Counterclockwise floor movement, Close-up of footwork, Hand connection in closed position
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 15 tutorial(s) of the ballroom-partner family studied · videos studied: 15
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; walk walk; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-and-2 3-and-4 5-6
+Demonstration: views used by most teachers: front, side; tempo progression: full
+Cues: side together side; back it up; walk walk; left together left; right together right
 
 Sources (2): https://en.wikipedia.org/wiki/Country-western_two-step; https://www.wikidata.org/wiki/Q7248738

@@ -1,0 +1,164 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy wooden frames",
+          "Complex aerial beats"
+        ],
+        "counts": "1-2-3-4 hop and step",
+        "duration_minutes": "15",
+        "game_version": "Play 'Barricade': clear the path using imaginary horsehair brooms while hopping to the drum beat."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Entrexat beats",
+          "Quick twisting of ankles or knees"
+        ],
+        "counts": "1-2, 1-2 steady march count",
+        "seated_version": "Perform arm gestures and prop motions (waving flag, tapping drum pulse) while seated.",
+        "standing_version": "Perform basic stepping on the spot without vertical jumping or fast crossing steps.",
+        "tempo_and_range": "Reduced tempo with small foot movements close to the floor."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Bakun basic step execution",
+          "source": "https://fr.wikipedia.org/wiki/Mascarades_souletines"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Itinerant parade and group village display",
+          "source": "https://en.wikipedia.org/wiki/Maskarada_(carnival_of_Soule)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Held held poised at waist/chest level or manipulating props (broom, claw, flag, canteen)",
+      "difficulty": "advanced",
+      "footwork": "Intricate aerial beats, quick crossing steps, precise foot placements including bakun, frisat, and entrexat",
+      "formation_and_space": "Linear processional line changing to dynamic circle or open square spatial patterns",
+      "hips_and_torso": "Stable, restrained hips; movement concentrated in rapid, precise lower leg actions",
+      "levels_and_jumps": "Extensive high vertical jumps and elevated beats",
+      "partnering": "Solo virtuosity within structured group formations; informal comedic interactions among Beltzak",
+      "posture": "Upright, proud torso with high vertical lift and light weight placement on the balls of the feet",
+      "signature_moves": [
+        {
+          "description": "Fundamental stepping point sequence executed with crisp leg lift",
+          "name": "Bakun"
+        },
+        {
+          "description": "Crossing leg technique performed close to the ground or mid-air",
+          "name": "Frisat"
+        },
+        {
+          "description": "Vertical jump featuring rapid beating of the feet before a clean landing",
+          "name": "Entrexat"
+        }
+      ],
+      "tempo_feel": "Bouncy, sharp, light, and elevated",
+      "what_to_avoid": "Avoid heavy, flat-footed landings or sluggish leg work; respect traditional character props and roles"
+    },
+    "music_profile": {
+      "instruments": [
+        "xirula",
+        "ttun-ttun",
+        "atabal"
+      ],
+      "meter": "2/4 or 6/8",
+      "mood_keywords": [
+        "festive",
+        "carnivalesque",
+        "energetic",
+        "traditional"
+      ],
+      "musical_form": "Sectional dance tunes and marching strains repeating for processional stops",
+      "reference_recordings": [],
+      "rhythm_pattern": "Crisp driving snare beat over rhythmic string drone from the ttun-ttun",
+      "sound_description": "High pitched melodic whistling from the three-holed xirula paired with the rhythmic drone of the ttun-ttun and sharp double-headed snare hits from the atabal.",
+      "tempo_bpm": "110-130 BPM",
+      "vocal_style": "Shouted calls, satirical speeches (perediküak), and traditional Souletin singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Bakun (basic step)",
+        "Frisat (braided/crossing step)",
+        "Entrexat (jump with beating legs)"
+      ],
+      "formation": "Single file procession (Aintzindariak line) opening into open-space solos and small group displays",
+      "level_notes": "Requires high agility, balance, leg strength, and precision for vertical jumps.",
+      "rhythm": "Lively duple or triple carnival meters driven by xirula and atabal"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "13d821e185dad02b2c7ca1a71806def21361c089f0fa2b2f30c4ccf52dd4ab3c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact step-by-step breakdown counts for the 'bakun' and 'frisat' as taught by modern Souletin dance masters? Evidence needed: Instructional dance manuals or video recordings from the Souletin dance schools registered under the French UNESCO inventory."
+    ]
+  },
+  "id": "atlas:maskarada-of-soule",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Maskarada of Soule",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "d5ee08581d29fa18",
+      "next_evidence": "Instructional dance manuals or video recordings from the Souletin dance schools registered under the French UNESCO inventory.",
+      "question": "What are the exact step-by-step breakdown counts for the 'bakun' and 'frisat' as taught by modern Souletin dance masters?",
+      "source": "https://fr.wikipedia.org/wiki/Mascarades_souletines",
+      "status": "candidate_unreviewed",
+      "why_needed": "To create precise interactive visual instruction tools for learners."
+    }
+  ],
+  "research_file": "research_results/maskarada-of-soule.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "maskarada-of-soule",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Maskarada_(carnival_of_Soule)",
+    "https://www.wikidata.org/wiki/Q6783397",
+    "https://fr.wikipedia.org/wiki/Mascarades_souletines"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

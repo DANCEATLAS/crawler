@@ -1,6 +1,6 @@
 # Marfa — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
@@ -116,7 +116,7 @@ NARRATION: Step 1: Stand with feet shoulder-width apart, holding a cane or sword
 NARRATION: Step 2: Engage in a rhythmic 'jiggling' motion of the torso and knees in time with the kettledrum
 NARRATION: Footwork from the sources: Rhythmic stepping aligned with the three-beat cycle
 NARRATION: Drill: Clapping the teen maar rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -186,7 +186,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand with feet shoulder-width apart, holding a cane or sword in the dominant hand
 NARRATION: Step 2: Engage in a rhythmic 'jiggling' motion of the torso and knees in time with the kettledrum
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -256,7 +256,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step in coordination with the 'teen maar' (three-beat) rhythmic cycle
 NARRATION: Step 2: Swing the cane or sword in synchronized patterns following the high-tempo percussion
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8
-Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 2
-Cues: 1 2 3 start; simple
+Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 8
+Cues: 5-6-7-go; 1-2-3-4; right leg; left leg; 1 2 3 start; simple
 
 Sources (2): https://en.wikipedia.org/wiki/Marfa_(music); https://www.wikidata.org/wiki/Q6759033

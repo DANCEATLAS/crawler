@@ -1,0 +1,816 @@
+{
+ "slug": "boston",
+ "name": "Boston",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:05Z",
+ "researched_at": "2026-11-27T20:10:18Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A ballroom historian with a focus on early 20th-century social dance.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Boston",
+   "Boston Waltz",
+   "Boston Dip Waltz",
+   "Slow American Waltz",
+   "New York Boston"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Boston",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dance That Slowed Down the World",
+     "This is Boston. Late 19th to early 20th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (OXjyeKwXp3o)",
+     "Title card: Boston · United States · Late 19th to early 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Boston originated in the United States around 1880.",
+     "It gained significant popularity in European salons, particularly in Paris and London, between 1895 and 1907.",
+     "It is considered a precursor to the modern Slow Waltz, which developed in England by 1920."
+    ],
+    "on_screen": [
+     "Map: United States · Global",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The Boston served as a relaxing, elegant alternative to more vigorous dances like the polka.",
+     "It was valued for its ease of learning and its ability to provide a sophisticated, intimate experience for couples.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed in a closed couple position.",
+     "Dancers execute long, gliding steps, either moving in a straight line or turning.",
+     "The rhythm is a slow 3/4 time, with a characteristic emphasis on the first beat of the measure.",
+     "Watch for Boston Dip."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (OXjyeKwXp3o)",
+     "Captions name each signature move as it appears",
+     "Formation: Straight lines or turning"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is written in a slow 3/4 time, often featuring popular melodies of the era.",
+     "Key characteristics include a consistent emphasis on the first beat, sometimes contrasted with four-beat counter-rhythms.",
+     "The pulse is 3/4.",
+     "A slow, flowing 3/4 time signature characterized by a strong emphasis on the first beat, often featuring melodic lines that contrast with the steady, rhythmic pulse."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Wals-boston — Alexander Jakowlewitsch Rosenbaum; Strahlender Mond — From the operetta Der Vetter aus Dingsda",
+     "Waveform or rhythm-pattern graphic: Emphasis on the first beat of the measure"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance was typically performed in formal ballroom settings, such as salons.",
+     "It was associated with the elegant social life of the late 19th and early 20th centuries, often performed in spaces with carpets and heavy drapery."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Variations include the Long Boston (Philadelphia Boston), Walking Boston, One-Step, Short Boston, Dip Boston, Spanish Boston, French Boston, Herring Bone Boston, English Boston (Three-Step), Four-Step, Five-Step, Seven-Step, Double Boston (Cross Boston), Triple Boston, Triple Double Boston, and Russian Boston.",
+     "The Boston is a type of ballroom dance that influenced the development of the modern Slow Waltz."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Boston is child of Slow Waltz: The Boston is considered a precursor to the modern Slow Waltz, which developed in England by 1920.",
+     "Boston is parent of Waltz: The Boston is a slow, Americanized variation of the traditional waltz."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Closed couple hold",
+     "Long sliding step on the first beat",
+     "Count it: 1-2-3, 2-2-3 (three counts a bar).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the Boston, the elegant American import that transformed the ballroom culture of the early 20th century.",
+     "Sources: 7 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic gliding step",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic gliding step.",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A ballroom historian with a focus on early 20th-century social dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Closed couple position"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Emphasis on the first beat of the measure.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Closed couple hold",
+      "Step 2: Long sliding step on the first beat",
+      "Footwork from the sources: Long sliding steps; weight kept on the same foot through two successive beats in the original version",
+      "Drill: Practice the 3/4 step rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Weight transfer on subsequent beats",
+      "Step 4: Optional knee bend (Dip) for accentuation",
+      "Drill: Maintain closed position with a partner"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Focus on the first-beat emphasis"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm and torso movements while seated, focusing on the rhythmic 3/4 pulse. · For children: A 'follow-the-leader' gliding game where children move in a slow 3/4 rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and torso movements while seated, focusing on the rhythmic 3/4 pulse.",
+      "For children: A 'follow-the-leader' gliding game where children move in a slow 3/4 rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic gliding step.",
+      "The Boston served as a relaxing, elegant alternative to more vigorous dances like the polka.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Boston",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Boston.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A ballroom historian with a focus on early 20th-century social dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Closed couple position"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Emphasis on the first beat of the measure.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Closed couple hold",
+      "Step 2: Long sliding step on the first beat"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Weight transfer on subsequent beats",
+      "Step 4: Optional knee bend (Dip) for accentuation",
+      "Boston Dip: Steps of the dance were accentuated through a bend of the knees, with the center of gravity dipping."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm and torso movements while seated, focusing on the rhythmic 3/4 pulse. · For children: A 'follow-the-leader' gliding game where children move in a slow 3/4 rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and torso movements while seated, focusing on the rhythmic 3/4 pulse.",
+      "For children: A 'follow-the-leader' gliding game where children move in a slow 3/4 rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice. Formation: Straight lines or turning"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Boston.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Boston",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Boston.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A ballroom historian with a focus on early 20th-century social dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Closed couple position"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Emphasis on the first beat of the measure.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Weight transfer on subsequent beats",
+      "Step 2: Optional knee bend (Dip) for accentuation"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Boston Dip: Steps of the dance were accentuated through a bend of the knees, with the center of gravity dipping."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the arm and torso movements while seated, focusing on the rhythmic 3/4 pulse. · For children: A 'follow-the-leader' gliding game where children move in a slow 3/4 rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and torso movements while seated, focusing on the rhythmic 3/4 pulse.",
+      "For children: A 'follow-the-leader' gliding game where children move in a slow 3/4 rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice. Formation: Straight lines or turning"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Boston.",
+      "The Boston is a type of ballroom dance that influenced the development of the modern Slow Waltz.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "3/4",
+  "rhythm_pattern": "Emphasis on the first beat of the measure",
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "elegant",
+   "relaxing",
+   "sophisticated"
+  ],
+  "sound_description": "A slow, flowing 3/4 time signature characterized by a strong emphasis on the first beat, often featuring melodic lines that contrast with the steady, rhythmic pulse.",
+  "listen_before_composing": [
+   "Wals-boston — Alexander Jakowlewitsch Rosenbaum",
+   "Strahlender Mond — From the operetta Der Vetter aus Dingsda"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Boston (United States). Meter 3/4. Rhythm pattern: Emphasis on the first beat of the measure. Mood: elegant, relaxing, sophisticated. It should sound like this: A slow, flowing 3/4 time signature characterized by a strong emphasis on the first beat, often featuring melodic lines that contrast with the steady, rhythmic pulse. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "OXjyeKwXp3o",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance was typically performed in formal ballroom settings, such as salons. It was associated with the elegant social life of the late 19th and early 20th centuries, often performed in spaces with carpets and heavy drapery.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Plush carpets",
+   "Heavy drapery",
+   "Dimly lit ballrooms",
+   "Couples in formal attire"
+  ],
+  "costume_notes": "The dance was typically performed in formal ballroom settings, such as salons. It was associated with the elegant social life of the late 19th and early 20th centuries, often performed in spaces with carpets and heavy drapery.",
+  "setting_notes": "The Boston served as a relaxing, elegant alternative to more vigorous dances like the polka. It was valued for its ease of learning and its ability to provide a sophisticated, intimate experience for couples.",
+  "map": {
+   "country": "United States",
+   "region": "Global",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "16 tutorial(s) of the ballroom-partner family studied",
+  "videos_studied": 16,
+  "counting": "1-2-3, 2-2-3 (three counts a bar)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "walk walk",
+   "aprovechar la inercia",
+   "todo tiene que ir fluido",
+   "no se debera cortar el movimiento",
+   "step point",
+   "side by side",
+   "quick quick slow",
+   "side with the left",
+   "bring it in",
+   "switch weight",
+   "change weight onto the left",
+   "side close side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "instruments",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "notable figures",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Boston_(dance)",
+  "https://www.wikidata.org/wiki/Q841788",
+  "https://fr.wikipedia.org/wiki/Boston_(danse)",
+  "https://de.wikipedia.org/wiki/Boston_(Tanz)",
+  "https://archive.org/details/storyoflittlebla1903bann",
+  "https://archive.org/details/serbocroatianfol00bart",
+  "https://archive.org/details/jamaicaanansisto00beck"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "bea69ee950c845880f0567b8779bd32daa7e44fea13d527388f029d79959395f",
+ "hero_checked": "pass"
+}

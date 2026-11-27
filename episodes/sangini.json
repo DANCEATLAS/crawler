@@ -1,0 +1,367 @@
+{
+ "slug": "sangini",
+ "name": "Sangini",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T19:56:04Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An elder Brahmin woman who emphasizes the spiritual intent and the stillness of the upper body.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Sangini"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Sangini",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Weight of Devotion",
+     "This is Sangini. Ancient/Mythological origin; documented in modern era."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Sangini · Nepal · Ancient/Mythological origin; documented in modern era"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Sangini originated in the hilly regions of Nepal as a ritual practice for women of the Brahmin and Chhetri castes.",
+     "Its history is tied to the mythological dialogue between Shiva and Parvati, where the dance was established as a form of puja to prevent early widowhood.",
+     "It has since spread with the Nepali diaspora into parts of India and Bhutan."
+    ],
+    "on_screen": [
+     "Map: Nepal · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The primary occasions are the festivals of Teej and Tihar.",
+     "It serves as a social function for married daughters to reunite with their families and a religious function to seek the blessing of Lord Shiva for the long life of their husbands.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed in a circle, usually in a courtyard or temple setting.",
+     "Dancers move with a slow, rhythmic step while balancing objects such as a Kalash (water pot) on their heads or holding a Diyo (oil lamp) on a plate.",
+     "The dancers are the sole musicians, singing the accompanying songs as they move.",
+     "Watch for Kalash Balancing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circular formation in courtyards or temples"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Sangini is traditionally performed without external musical instruments.",
+     "The music consists of 'Sangini' songs sung by the dancers themselves.",
+     "Listen for the None (vocal only).",
+     "A purely vocal performance where a group of women sing in unison or call-and-response patterns. The sound is characterized by the absence of drums or melodic instruments, relying on the natural resonance of the singers' voices in an outdoor setting."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers typically wear traditional Nepali festive attire, often red saris.",
+     "The setting is usually the 'Angan' (courtyard) of a house or a temple area, typically in the sylvan surroundings of the Nepali hills.",
+     "Key props include copper or brass Kalash vessels and Diyo lamps."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The sources do not name specific historical individuals, as the dance is a communal tradition passed down through the women of the Brahmin and Chhetri communities.",
+     "While originating in the Nepali hills, the dance is also practiced by Nepali-speaking communities in India and Bhutan, though specific stylistic differences are not detailed in the sources.",
+     "Sangini is categorized as a Nepalese folk and ritual dance, specifically a subclass of the music and dance traditions of the high-caste Nepali groups."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Sangini is sibling of Dhan Nach: Another traditional Nepali folk dance mentioned as related in regional context.",
+     "Sangini is sibling of Maruni: A traditional Nepali dance often performed in similar festive contexts."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Sangini is a religious ritual performed as a puja to Lord Shiva; it is traditionally restricted to women of the Brahmin and Chhetri communities during specific festivals."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the hills of Nepal, women dance a delicate circle of prayer, balancing ancient vessels to protect their families from a mythological curse.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "None (vocal only)"
+  ],
+  "vocal_style": "Group singing by the dancers themselves",
+  "musical_form": null,
+  "mood": [
+   "devotional",
+   "melancholic",
+   "celebratory",
+   "rhythmic"
+  ],
+  "sound_description": "A purely vocal performance where a group of women sing in unison or call-and-response patterns. The sound is characterized by the absence of drums or melodic instruments, relying on the natural resonance of the singers' voices in an outdoor setting.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Sangini (Nepal). Instruments: None (vocal only). Vocal style: Group singing by the dancers themselves. Mood: devotional, melancholic, celebratory, rhythmic. It should sound like this: A purely vocal performance where a group of women sing in unison or call-and-response patterns. The sound is characterized by the absence of drums or melodic instruments, relying on the natural resonance of the singers' voices in an outdoor setting. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers typically wear traditional Nepali festive attire, often red saris. The setting is usually the 'Angan' (courtyard) of a house or a temple area, typically in the sylvan surroundings of the Nepali hills. Key props include copper or brass Kalash vessels and Diyo lamps.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ANepalese_lakhe_dancer.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nepalese_lakhe_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Nepalese_lakhe_dancer.jpg/1280px-Nepalese_lakhe_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Less than 3 / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANepalese_lakhe_dancer.jpg",
+    "description": "Nepalese Lakhe (demon) dancer."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Copper Kalash vessels",
+   "Red saris against green hills",
+   "Flickering oil lamps (Diyo)",
+   "Interlocked or circular formations of women"
+  ],
+  "costume_notes": "Dancers typically wear traditional Nepali festive attire, often red saris. The setting is usually the 'Angan' (courtyard) of a house or a temple area, typically in the sylvan surroundings of the Nepali hills. Key props include copper or brass Kalash vessels and Diyo lamps.",
+  "setting_notes": "The primary occasions are the festivals of Teej and Tihar. It serves as a social function for married daughters to reunite with their families and a religious function to seek the blessing of Lord Shiva for the long life of their husbands.",
+  "map": {
+   "country": "Nepal",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "step together step",
+   "1 2 3 4 5 6",
+   "1 2 3 4",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sangini",
+  "https://www.wikidata.org/wiki/Q7418014"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "7c6d52a0fdd9691c0acd6e01120f7431c21f1d7dc32a95f6edb12c8b7b3ac8f1",
+ "hero_checked": null
+}

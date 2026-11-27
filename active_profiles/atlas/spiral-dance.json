@@ -1,0 +1,149 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Grapevine step progression in a connected hand-holding line.",
+          "source": "https://en.wikipedia.org/wiki/Spiral_dance"
+        },
+        {
+          "description": "Executing the inward counter-clockwise spiral and turn outward to face oncoming dancers.",
+          "source": "https://en.wikipedia.org/wiki/Spiral_dance"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Ability to perform a side-stepping grapevine movement in synchronization with a group line.",
+          "source": "https://en.wikipedia.org/wiki/Spiral_dance"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Connected group line holding hands led by a single leader coiling and uncoiling.",
+          "source": "https://en.wikipedia.org/wiki/Spiral_dance"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "All members present hold hands continuously along the line.",
+      "difficulty": "beginner",
+      "footwork": "Grapevine step used throughout the progression.",
+      "formation_and_space": "Single file line entering in counter-clockwise spiral, turning inward to uncoil clockwise face-to-face.",
+      "hips_and_torso": "Facing along the path of movement, pivoting 180 degrees at the central turn.",
+      "levels_and_jumps": "Ground-level line progression without jumps.",
+      "partnering": "Connected line holding hands; brief face-to-face encounters with passing line members (sometimes including a kiss).",
+      "posture": "Upright, connected hand-to-hand in a continuous line.",
+      "signature_moves": [
+        {
+          "description": "Side-stepping footwork carrying the connected line in counter-clockwise and clockwise spirals.",
+          "name": "Grapevine line step"
+        },
+        {
+          "description": "The leader turns around near the center of the spiral to face the incoming line and lead them back out clockwise.",
+          "name": "The Center Turn"
+        }
+      ],
+      "tempo_feel": "Steady and ceremonial.",
+      "what_to_avoid": "Breaking hand contacts, disrupting line spacing, or forcing unwanted physical intimacy during face-to-face passes."
+    },
+    "music_profile": {
+      "instruments": [
+        "drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ceremonial",
+        "communal",
+        "reverent",
+        "energetic"
+      ],
+      "musical_form": "Continuous repetitive ritual chant accompanying physical winding",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic pulse supported by drumming group and singing",
+      "sound_description": "Live collective percussion and group chant that builds momentum as the spiral winds and unwinds.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chant or song sung by participants and music group"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Join hands with neighbors to form a connected line.",
+        "Execute a rhythmic grapevine step continuously.",
+        "Follow the leader counter-clockwise as the line coils inward.",
+        "Turn 180 degrees with the leader to face passing dancers and move clockwise outward."
+      ],
+      "formation": "Single-file line holding hands, coiling counter-clockwise into a spiral and uncoiling clockwise.",
+      "level_notes": "Accessible to beginners; relies on maintaining line contact and grapevine footwork.",
+      "rhythm": "Steady rhythmic pulse driven by live drumming and collective chant."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "dba785fd22755f3f59a5ce944db4dec5210ef63248a5c4f68f18497bc535ee46",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter",
+      "interaction: feedback_rules"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific choreography variations exist for the inner turn when executed in very large public gatherings versus small covens? Evidence needed: Video documentation or instructional manuals from Reclaiming ritual archives."
+    ]
+  },
+  "id": "atlas:spiral-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Spiral Dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "800361f1c8436981",
+      "next_evidence": "Video documentation or instructional manuals from Reclaiming ritual archives.",
+      "question": "What specific choreography variations exist for the inner turn when executed in very large public gatherings versus small covens?",
+      "source": "https://en.wikipedia.org/wiki/Spiral_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Needed to ensure clear spatial instruction for high-density group formations."
+    }
+  ],
+  "research_file": "research_results/spiral-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "spiral-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Spiral_dance",
+    "https://www.wikidata.org/wiki/Q7577758"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

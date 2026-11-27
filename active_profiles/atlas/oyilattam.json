@@ -1,0 +1,161 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex long-duration line formations",
+          "Tightly tied finger kerchiefs that restrict circulation"
+        ],
+        "counts": "Basic 4-beat stepping patterns synchronized with kerchief waves.",
+        "duration_minutes": "15",
+        "game_version": "A bird-chasing circle game where children wave bright handkerchiefs and stamp their feet to keep imaginary birds away from the center of the room."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid lateral stepping",
+          "Sudden direction shifts",
+          "Heavy stamping that strains knees or ankles"
+        ],
+        "counts": "Simple alternating 1-2 stepping counts.",
+        "seated_version": "Perform the arm and wrist kerchief-waving movements while seated in a chair, rhythmically tapping the feet to sound ankle bells without bearing full body weight.",
+        "standing_version": "Hold a stable barre or support with one hand while waving a single kerchief with the other, taking small rhythmic steps in place.",
+        "tempo_and_range": "Maintain a gentle, moderate drum tempo and restrict foot motion to low, soft steps."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Waving and manipulating two colored kerchiefs tied to the fingers.",
+      "difficulty": "intermediate",
+      "footwork": "Rhythmic stepping synchronized with percussion and punctuated by ankle bells.",
+      "formation_and_space": "A row of performers that expands outward as more dancers join.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Line-based ensemble coordination without individual partnering.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Flourishing colored kerchiefs tied to the fingers in coordination with foot steps.",
+          "name": "Kerchief waving"
+        },
+        {
+          "description": "Stepping in a line that incorporates increasing numbers of dancers as the music continues.",
+          "name": "Expanding row progression"
+        }
+      ],
+      "tempo_feel": "Graceful and rhythmic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Thavil",
+        "Ankle bells"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "graceful",
+        "rhythmic",
+        "festive",
+        "celebratory"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A dynamic percussive texture defined by the driving, acoustic strikes of the thavil drum, overlaid with the continuous metallic chiming of the dancers' ankle bells ringing out in rhythmic synchronization.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in a straight horizontal row holding or tying colored kerchiefs to the fingers.",
+        "Execute rhythmic steps in synchrony with the thavil beat.",
+        "Wave the kerchiefs while sounding the ankle bells with each foot strike.",
+        "Incorporate incoming dancers into the row as the ensemble expands."
+      ],
+      "formation": "A straight row that expands in number during the performance",
+      "level_notes": "Beginners start by mastering the synchronized rhythmic stepping in line while coordinating the fluttering of hand kerchiefs to the thavil tempo.",
+      "rhythm": "Rhythmic stepping guided by the thavil drum"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "98017fc58d5dec190502eacf55ab6fdd7923e2d97da51376865ef7c553cf9289",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific thavil talas (rhythmic cycles) and tempo progressions govern Oyilattam performances during village festivals? Evidence needed: Ethnomusicological recordings and rhythmic transcriptions of village festival performances in Madurai or Tirunelveli."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific step counts, spatial patterns, and body stances used in traditional Madurai Oyilattam lines? Evidence needed: Field video recordings or curriculum manuals documenting Oyilattam pedagogy from Tamil University."
+    ]
+  },
+  "id": "atlas:oyilattam",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Oyilattam",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "93c2d31b5707336f",
+      "next_evidence": "Field video recordings or curriculum manuals documenting Oyilattam pedagogy from Tamil University.",
+      "question": "What are the specific step counts, spatial patterns, and body stances used in traditional Madurai Oyilattam lines?",
+      "source": "https://en.wikipedia.org/wiki/Oyilattam",
+      "status": "candidate_unreviewed",
+      "why_needed": "The provided source specifies rhythmic steps in a row with increasing numbers, but does not detail exact footwork counts or body angles necessary for interactive instruction."
+    },
+    {
+      "domain": "research",
+      "id": "2865bce094f7592d",
+      "next_evidence": "Ethnomusicological recordings and rhythmic transcriptions of village festival performances in Madurai or Tirunelveli.",
+      "question": "What specific thavil talas (rhythmic cycles) and tempo progressions govern Oyilattam performances during village festivals?",
+      "source": "https://en.wikipedia.org/wiki/Oyilattam",
+      "status": "candidate_unreviewed",
+      "why_needed": "Accurate sound modeling and interactive feedback require concrete rhythmic meter and BPM parameters rather than general drum accompaniment."
+    }
+  ],
+  "research_file": "research_results/oyilattam.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "oyilattam",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Oyilattam",
+    "https://www.wikidata.org/wiki/Q7116273"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

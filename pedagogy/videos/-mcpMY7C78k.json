@@ -1,0 +1,120 @@
+{
+ "youtube_id": "-mcpMY7C78k",
+ "slug": "matki-dance",
+ "dance": "Matki Dance",
+ "title": "Matki Dhol | Matki Dance | मटकी ढोल पर आसान स्टेप्स | Easy Steps With Tutorial | Wedding Dhol Dance",
+ "channel": "Neha Sugandhi",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-27T20:30:05Z",
+ "url": "https://www.youtube.com/watch?v=-mcpMY7C78k",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher explains the context of the dance and encourages the viewer to subscribe. She demonstrates full choreographies first, then breaks down steps with counts.",
+  "language": "Hindi",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction and welcome to the channel"
+   },
+   {
+    "t": "0:07",
+    "segment": "context",
+    "note": "Explanation of Matki or Dhol dance in weddings"
+   },
+   {
+    "t": "0:29",
+    "segment": "full_demo",
+    "note": "Demonstration of the routine with music"
+   },
+   {
+    "t": "1:40",
+    "segment": "breakdown",
+    "note": "Step-by-step breakdown without music"
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6",
+  "cues": [
+   "1 2 1 2",
+   "1 2 3 4 5 6"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full",
+    "slow"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Hand step",
+    "counts": "1-2",
+    "description": "Arm and hand movement step"
+   },
+   {
+    "name": "Gol step",
+    "counts": "1-2-3-4-5-6",
+    "description": "Turning step"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Demonstrating with music first gives clear context"
+   ],
+   "what_hinders": [
+    "No back-facing view during breakdown"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:04",
+    "text": "आज मैं आपके लिए लाई हूँ मटकी ढोल डांस या रजवाड़ी डांस"
+   },
+   {
+    "t": "1:40",
+    "text": "अभी जो मैंने डांस किया था वो म्यूजिक के साथ किया था"
+   },
+   {
+    "t": "2:13",
+    "text": "देखिये ये घूमने वाले स्टेप थे"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 5,
+    "topic": "teaching",
+    "observation": "Teacher speaks to camera introducing herself and the dance style",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 29,
+    "end_s": 40,
+    "topic": "movement",
+    "observation": "Teacher dances full routine in a room with music playing",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "weight transfer specifics",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Demonstrates the complete dance routine with music before breaking down the steps without music."
+ },
+ "attempts": 1
+}

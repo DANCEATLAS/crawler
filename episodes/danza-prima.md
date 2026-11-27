@@ -1,6 +1,6 @@
 # Danza Prima — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.85 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.85 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
+Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
 
 Sources (5): https://en.wikipedia.org/wiki/Dance_First; https://www.wikidata.org/wiki/Q116198475; https://fr.wikipedia.org/wiki/Dance_First; https://it.wikipedia.org/wiki/Prima_danza,_poi_pensa._Alla_ricerca_di_Beckett; https://archive.org/details/poesapopularcol00pidagoog

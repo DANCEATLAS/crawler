@@ -1,0 +1,797 @@
+{
+ "slug": "skudrinka",
+ "name": "Skudrinka",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T19:47:14Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An authoritative Balkan ethnochoreologist precise about traditional line geometry and structural holds.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Skudrinka"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Skudrinka",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Stick Oro of Dolna Reka",
+     "This is Skudrinka. 20th century (documented 1977)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Skudrinka · North Macedonia · 20th century (documented 1977)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Skudrinka is a traditional Macedonian oro originating from the Dolna Reka region, located along the Radika River in western North Macedonia.",
+     "The dance forms part of the traditional village repertoire of the region's Macedonian population.",
+     "In 1977, ethnomusicologist Mihailo Dimovski formally documented the dance in his publication Macedonian Folk Dances (Македонски народни ора), issued in Skopje by Naša kniga and the Institut za folklor."
+    ],
+    "on_screen": [
+     "Map: North Macedonia · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Skudrinka is a traditional community oro (folk dance).",
+     "In modern contexts, it is performed by Macedonian folk ensembles such as 'Orce Nikolov' as part of the country's national stage dance repertoire.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance begins with performers arranged in a half-circle formation.",
+     "Rather than holding hands directly, the dancers hold sticks placed between each participant, keeping their hands in a horizontal position.",
+     "The movement is characterized by steady steps performed on the half-feet, interspersed with turns and vertical jumps.",
+     "Watch for Stick hold position, Half-foot turn and jump."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Half-circle chain formation traveling along a curved path."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Skudrinka is danced to a 2/4 meter rhythm.",
+     "Specific traditional instruments for the Dolna Reka region are not detailed in the available primary source text, though performance groups execute the piece to traditional Macedonian folk arrangements.",
+     "Listen for the Traditional Macedonian folk instruments.",
+     "The pulse is 2/4 at about 105 beats a minute.",
+     "A steady, driving 2/4 Balkan folk rhythm designed to support synchronized half-foot steps, turns, and jumps in a line formation."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Simple duple 2/4 meter"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Mihailo Dimovski documented and published the notation for Skudrinka in 1977 (pages 86–91 of Macedonian Folk Dances).",
+     "Ensemble 'Orce Nikolov' is a notable contemporary performing body of the dance.",
+     "Skudrinka is classified as a subclass of the Macedonian oro folk dance tradition."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Skudrinka is parent of Macedonian oro: Skudrinka is a specific regional subclass of the broader Macedonian oro folk dance category."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form a half-circle line holding a wooden stick horizontally between neighboring dancers.",
+     "Execute steady stepping movements weight-centered on the half-feet (balls of the feet).",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how dancers along North Macedonia's Radika River use wooden sticks and half-foot turns to construct the unique Skudrinka oro.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the half-circle line alignment and horizontal stick grip.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the half-circle line alignment and horizontal stick grip..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authoritative Balkan ethnochoreologist precise about traditional line geometry and structural holds."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright spine with arms held horizontally to grip wooden sticks between dancers.",
+      "Hands raised in a horizontal position holding a stick placed between neighboring dancers.",
+      "Stable torso aligned with the rigid horizontal arm line."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Simple duple 2/4 meter.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a half-circle line holding a wooden stick horizontally between neighboring dancers.",
+      "Step 2: Execute steady stepping movements weight-centered on the half-feet (balls of the feet).",
+      "Footwork from the sources: Steady movements on the half-feet (balls of the feet) with turns and jumps.",
+      "Drill: Practice standing in line holding a stick horizontally with a partner."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform deliberate turnings around while maintaining the horizontal stick grip.",
+      "Step 4: Incorporate upward jumps coordinated with the 2/4 rhythm.",
+      "Drill: March in place in 2/4 time on the balls of the feet."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Dropping the horizontal arm line or losing grip on the shared connecting stick."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated in a semi-circle, participants hold a lightweight dowel or stick between them horizontally, tapping heels and toes in 2/4 rhythm without jumping. · For children: The 'Stick-Pass Circle': Children hold colorful sticks in a half-circle, trying not to drop the stick while taking steady half-foot steps and jumping together on count 2."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated in a semi-circle, participants hold a lightweight dowel or stick between them horizontally, tapping heels and toes in 2/4 rhythm without jumping.",
+      "For children: The 'Stick-Pass Circle': Children hold colorful sticks in a half-circle, trying not to drop the stick while taking steady half-foot steps and jumping together on count 2."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the half-circle line alignment and horizontal stick grip..",
+      "Skudrinka is a traditional community oro (folk dance).",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Combine half-foot stepping with synchronized 180-degree turns.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Combine half-foot stepping with synchronized 180-degree turns..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authoritative Balkan ethnochoreologist precise about traditional line geometry and structural holds."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright spine with arms held horizontally to grip wooden sticks between dancers.",
+      "Hands raised in a horizontal position holding a stick placed between neighboring dancers.",
+      "Stable torso aligned with the rigid horizontal arm line."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Simple duple 2/4 meter.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a half-circle line holding a wooden stick horizontally between neighboring dancers.",
+      "Step 2: Execute steady stepping movements weight-centered on the half-feet (balls of the feet).",
+      "Drill: Execute half-foot turns while maintaining horizontal arm alignment."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform deliberate turnings around while maintaining the horizontal stick grip.",
+      "Step 4: Incorporate upward jumps coordinated with the 2/4 rhythm.",
+      "Stick hold position: Dancers maintain horizontal hand positions holding shared wooden sticks between them.",
+      "Half-foot turn and jump: Turning step executed on the balls of the feet punctuated by a vertical jump.",
+      "Drill: Practice half-circle lateral movement in duple meter."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Dropping the horizontal arm line or losing grip on the shared connecting stick."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated in a semi-circle, participants hold a lightweight dowel or stick between them horizontally, tapping heels and toes in 2/4 rhythm without jumping. · For children: The 'Stick-Pass Circle': Children hold colorful sticks in a half-circle, trying not to drop the stick while taking steady half-foot steps and jumping together on count 2."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated in a semi-circle, participants hold a lightweight dowel or stick between them horizontally, tapping heels and toes in 2/4 rhythm without jumping.",
+      "For children: The 'Stick-Pass Circle': Children hold colorful sticks in a half-circle, trying not to drop the stick while taking steady half-foot steps and jumping together on count 2."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Half-circle chain formation traveling along a curved path."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Combine half-foot stepping with synchronized 180-degree turns..",
+      "Mihailo Dimovski documented and published the notation for Skudrinka in 1977 (pages 86–91 of Macedonian Folk Dances).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Integrate jumps and full dynamic turns into the line sequence.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Integrate jumps and full dynamic turns into the line sequence..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authoritative Balkan ethnochoreologist precise about traditional line geometry and structural holds."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright spine with arms held horizontally to grip wooden sticks between dancers.",
+      "Hands raised in a horizontal position holding a stick placed between neighboring dancers.",
+      "Stable torso aligned with the rigid horizontal arm line."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Simple duple 2/4 meter.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform deliberate turnings around while maintaining the horizontal stick grip.",
+      "Step 2: Incorporate upward jumps coordinated with the 2/4 rhythm.",
+      "Drill: Perform full sequence including jumps without disrupting the neighbor's stick grip."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Stick hold position: Dancers maintain horizontal hand positions holding shared wooden sticks between them.",
+      "Half-foot turn and jump: Turning step executed on the balls of the feet punctuated by a vertical jump."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Dropping the horizontal arm line or losing grip on the shared connecting stick."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated in a semi-circle, participants hold a lightweight dowel or stick between them horizontally, tapping heels and toes in 2/4 rhythm without jumping. · For children: The 'Stick-Pass Circle': Children hold colorful sticks in a half-circle, trying not to drop the stick while taking steady half-foot steps and jumping together on count 2."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated in a semi-circle, participants hold a lightweight dowel or stick between them horizontally, tapping heels and toes in 2/4 rhythm without jumping.",
+      "For children: The 'Stick-Pass Circle': Children hold colorful sticks in a half-circle, trying not to drop the stick while taking steady half-foot steps and jumping together on count 2."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Half-circle chain formation traveling along a curved path."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate jumps and full dynamic turns into the line sequence..",
+      "Skudrinka is classified as a subclass of the Macedonian oro folk dance tradition.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 105,
+  "meter": "2/4",
+  "rhythm_pattern": "Simple duple 2/4 meter",
+  "instruments": [
+   "Traditional Macedonian folk instruments"
+  ],
+  "vocal_style": "Instrumental dance music",
+  "musical_form": "Cyclic Balkan oro form",
+  "mood": [
+   "steady",
+   "energetic",
+   "rhythmic",
+   "traditional"
+  ],
+  "sound_description": "A steady, driving 2/4 Balkan folk rhythm designed to support synchronized half-foot steps, turns, and jumps in a line formation.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Skudrinka (North Macedonia). Meter 2/4. Tempo about 105 bpm. Rhythm pattern: Simple duple 2/4 meter. Instruments: Traditional Macedonian folk instruments. Vocal style: Instrumental dance music. Form: Cyclic Balkan oro form. Mood: steady, energetic, rhythmic, traditional. It should sound like this: A steady, driving 2/4 Balkan folk rhythm designed to support synchronized half-foot steps, turns, and jumps in a line formation. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 73
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 105
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Horizontal line of wooden sticks connecting dancers' hands.",
+   "Close-up of footwork pivoting on the balls of the feet.",
+   "Wide shot of the half-circle arc sweeping across the floor."
+  ],
+  "costume_notes": null,
+  "setting_notes": "Skudrinka is a traditional community oro (folk dance). In modern contexts, it is performed by Macedonian folk ensembles such as 'Orce Nikolov' as part of the country's national stage dance repertoire.",
+  "map": {
+   "country": "North Macedonia",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "step together step",
+   "1 2 3 4 5 6",
+   "1 2 3 4",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the costume & setting section",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Skudrinka",
+  "https://www.wikidata.org/wiki/Q7536866"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "b091f3ddbc151cc2e8b7ce70f48a044bff04556f1c0b850af3ca43ee5e94889f",
+ "hero_checked": null
+}

@@ -1,0 +1,843 @@
+{
+ "slug": "oppana",
+ "name": "Oppana",
+ "pack_version": "e2",
+ "built_at": "2026-11-27T21:09:06Z",
+ "researched_at": "2026-11-27T19:45:10Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Warm, encouraging community elder or Youth Festival folk mentor celebrating Mappila heritage.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Oppana"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Oppana",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Clapping for the Bride: The Mappila Ring of Song",
+     "This is Oppana. Traditional / Revival era."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Oppana · India · Traditional / Revival era"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Oppana is a traditional form of social entertainment deeply rooted in the cultural life of the Mappila Muslim community of Kerala, South India, particularly throughout the Malabar region.",
+     "The term is believed to originate from the Arabic word 'Affna' or 'Afna'.",
+     "Historically performed during major family rites of passage, Oppana has evolved beyond private domestic spaces."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "While Oppana is most famously associated with Mappila weddings, it is also performed during other major family and life-cycle events within the Mappila community.",
+     "These include circumcision ceremonies, a girl's first menstruation, and the ritual bath following childbirth.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Oppana.webm (https://upload.wikimedia.org/wikipedia/commons/9/9b/Oppana.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Oppana is generally presented by a group of about fifteen women, which includes both dancers and musicians.",
+     "The bride, dressed in fine attire, adorned with gold ornaments, and decorated with intricate mylanchi (henna) patterns on her hands and feet, sits on a central chair known as a peetam.",
+     "She acts as the chief spectator while the dancers form a circle around her.",
+     "Watch for Oppana chayal, Oppana murukkam."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circular formation centered around a seated individual on a peetam."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is driven by Mappilapaattu, traditional songs composed in Arabi Malayalam—a unique linguistic blend of Arabic and Malayalam.",
+     "The lyrics frequently touch upon themes of married life, gently teasing the couple and highlighting the shyness of the bride.",
+     "Listen for the Harmonium, Tabla, Ganjira, Elathaalam.",
+     "A vibrant blend of vocal call-and-response in Arabi Malayalam supported by harmonium melodies, steady tabla and ganjira drumming, sharp elathaalam cymbals, and rhythmic hand clapping."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic clapping patterns paired with percussion."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The central focal point of Oppana's setting is the bride on her peetam, elaborately dressed and covered in gold jewelry with her palms and feet decorated with mylanchi.",
+     "The surrounding dancers dress in coordinated festive attire suitable for a Mappila celebration.",
+     "The setting is traditionally a domestic courtyard or hall, though modern performances frequently take place on auditorium stages."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "There are two structural styles of Oppana: Oppana chayal (performed without hand clapping) and Oppana murukkam.",
+     "Oppana developed as a social entertainment form within the Mappila Muslim community of Kerala, deriving its name from Arabic roots ('Affna'/'Afna') and incorporating Arabi Malayalam musical traditions (Mappilapaattu)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Oppana is same region of Duff Muttu: Another traditional performing art form of the Mappila Muslim community in Kerala.",
+     "Oppana is shares music of Mappila Paattu: The genre of Arabi Malayalam songs that provides the musical foundation for Oppana."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form a circular path facing inward toward the seated focal person.",
+     "Step rhythmically along the circle using simple footwork while maintaining the group ring.",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Step into the vibrant wedding circles of Malabar, where Mappila women surround the bride with rhythm, Arabi Malayalam song, and coordinated clapping.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the circular stepping while keeping steady clapping rhythm.",
+   "level": "Basic",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the circular stepping while keeping steady clapping rhythm..",
+      "Level: Basic. Difficulty of the dance overall: beginner.",
+      "Your instructor: Warm, encouraging community elder or Youth Festival folk mentor celebrating Mappila heritage."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Rhythmic hand clapping in front of the body (omitted in Chayal style)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic clapping patterns paired with percussion..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a circular path facing inward toward the seated focal person.",
+      "Step 2: Step rhythmically along the circle using simple footwork while maintaining the group ring.",
+      "Footwork from the sources: Simple stepping along a circular path.",
+      "Drill: Practice moving in a smooth circle around a central point."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute synchronized hand claps matching the meter of the Mappilapaattu song (omitted in Oppana chayal style).",
+      "Drill: Add simple rhythm hand claps synchronized with steady footsteps."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Clapping hands during an Oppana chayal performance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic hand clapping patterns and chorus singing while seated in a circle surrounding a focal point. · For children: Children form a circle around a designated 'bride' or 'groom' on a chair, taking turns being lead singers and chorus clappers."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic hand clapping patterns and chorus singing while seated in a circle surrounding a focal point.",
+      "For children: Children form a circle around a designated 'bride' or 'groom' on a chair, taking turns being lead singers and chorus clappers."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the circular stepping while keeping steady clapping rhythm..",
+      "While Oppana is most famously associated with Mappila weddings, it is also performed during other major family and life-cycle events within the Mappila community.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Integrate lead-and-chorus vocal responses into the circle movement.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Integrate lead-and-chorus vocal responses into the circle movement..",
+      "Level: Intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: Warm, encouraging community elder or Youth Festival folk mentor celebrating Mappila heritage."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Rhythmic hand clapping in front of the body (omitted in Chayal style)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic clapping patterns paired with percussion..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a circular path facing inward toward the seated focal person.",
+      "Step 2: Step rhythmically along the circle using simple footwork while maintaining the group ring.",
+      "Drill: Sing chorus lines in response to a lead singer while maintaining step rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute synchronized hand claps matching the meter of the Mappilapaattu song (omitted in Oppana chayal style).",
+      "Oppana chayal: A style of Oppana danced continuously without hand clapping.",
+      "Oppana murukkam: A style of Oppana featuring rhythmic hand clapping.",
+      "Drill: Practice switching between standard clapping and the non-clapping Chayal style."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Clapping hands during an Oppana chayal performance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic hand clapping patterns and chorus singing while seated in a circle surrounding a focal point. · For children: Children form a circle around a designated 'bride' or 'groom' on a chair, taking turns being lead singers and chorus clappers."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic hand clapping patterns and chorus singing while seated in a circle surrounding a focal point.",
+      "For children: Children form a circle around a designated 'bride' or 'groom' on a chair, taking turns being lead singers and chorus clappers."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Circular formation centered around a seated individual on a peetam."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate lead-and-chorus vocal responses into the circle movement..",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Oppana",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Oppana.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: Warm, encouraging community elder or Youth Festival folk mentor celebrating Mappila heritage."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Rhythmic hand clapping in front of the body (omitted in Chayal style)."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic clapping patterns paired with percussion..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step rhythmically along the circle using simple footwork while maintaining the group ring.",
+      "Step 2: Execute synchronized hand claps matching the meter of the Mappilapaattu song (omitted in Oppana chayal style)."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Oppana chayal: A style of Oppana danced continuously without hand clapping.",
+      "Oppana murukkam: A style of Oppana featuring rhythmic hand clapping."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Clapping hands during an Oppana chayal performance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the rhythmic hand clapping patterns and chorus singing while seated in a circle surrounding a focal point. · For children: Children form a circle around a designated 'bride' or 'groom' on a chair, taking turns being lead singers and chorus clappers."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic hand clapping patterns and chorus singing while seated in a circle surrounding a focal point.",
+      "For children: Children form a circle around a designated 'bride' or 'groom' on a chair, taking turns being lead singers and chorus clappers."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Circular formation centered around a seated individual on a peetam."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Oppana.",
+      "Oppana developed as a social entertainment form within the Mappila Muslim community of Kerala, deriving its name from Arabic roots ('Affna'/'Afna') and incorporating Arabi Malayalam musical traditions (Mappilapaattu).",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic clapping patterns paired with percussion.",
+  "instruments": [
+   "Harmonium",
+   "Tabla",
+   "Ganjira",
+   "Elathaalam"
+  ],
+  "vocal_style": "Lead singer (2-3 vocalists) followed by full chorus response.",
+  "musical_form": "Call-and-response vocal structure singing Mappilapaattu in Arabi Malayalam.",
+  "mood": [
+   "festive",
+   "playful",
+   "celebratory",
+   "teasing"
+  ],
+  "sound_description": "A vibrant blend of vocal call-and-response in Arabi Malayalam supported by harmonium melodies, steady tabla and ganjira drumming, sharp elathaalam cymbals, and rhythmic hand clapping.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Oppana (India). Rhythm pattern: Rhythmic clapping patterns paired with percussion.. Instruments: Harmonium, Tabla, Ganjira, Elathaalam. Vocal style: Lead singer (2-3 vocalists) followed by full chorus response.. Form: Call-and-response vocal structure singing Mappilapaattu in Arabi Malayalam.. Mood: festive, playful, celebratory, teasing. It should sound like this: A vibrant blend of vocal call-and-response in Arabi Malayalam supported by harmonium melodies, steady tabla and ganjira drumming, sharp elathaalam cymbals, and rhythmic hand clapping. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The central focal point of Oppana's setting is the bride on her peetam, elaborately dressed and covered in gold jewelry with her palms and feet decorated with mylanchi. The surrounding dancers dress in coordinated festive attire suitable for a Mappila celebration. The setting is traditionally a domestic courtyard or hall, though modern performances frequently take place on auditorium stages.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AOppana_%40VAST.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AOppana_at_Kerala_school_kalolsavam_2019_3.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Oppana_%40VAST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Oppana_%40VAST.jpg/1280px-Oppana_%40VAST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rider_sanu / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOppana_%40VAST.jpg",
+    "description": "Oppana dance at Vidya Academy of Science and Technology, Thrissur, Kerala, India"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Oppana_at_Kerala_school_kalolsavam_2019_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Oppana_at_Kerala_school_kalolsavam_2019_3.jpg/1280px-Oppana_at_Kerala_school_kalolsavam_2019_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Shagil Kannur / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOppana_at_Kerala_school_kalolsavam_2019_3.jpg",
+    "description": "oppana is a traditional art form of muslim culture in Kerala"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Oppana.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Oppana.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Liban Abdul Muneer / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "Mylanchi (henna) patterns on hands and feet",
+   "Gold ornaments and traditional festive attire",
+   "The bride seated centrally on a peetam chair",
+   "Close-up of elathaalam cymbals and hand clapping in unison"
+  ],
+  "costume_notes": "The central focal point of Oppana's setting is the bride on her peetam, elaborately dressed and covered in gold jewelry with her palms and feet decorated with mylanchi. The surrounding dancers dress in coordinated festive attire suitable for a Mappila celebration. The setting is traditionally a domestic courtyard or hall, though modern performances frequently take place on auditorium stages.",
+  "setting_notes": "While Oppana is most famously associated with Mappila weddings, it is also performed during other major family and life-cycle events within the Mappila community. These include circumcision ceremonies, a girl's first menstruation, and the ritual bath following childbirth.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "step together step",
+   "1 2 3 4 5 6",
+   "1 2 3 4",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right",
+   "un dos tres",
+   "right together right touch"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Oppana",
+  "https://www.wikidata.org/wiki/Q7098537"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "4684cce0026a31b899cab5864940e15fe75b1e916f6c767d2a3a4d0ff09d7f40",
+ "hero_checked": null
+}

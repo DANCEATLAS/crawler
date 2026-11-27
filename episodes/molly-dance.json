@@ -2,7 +2,7 @@
  "slug": "molly-dance",
  "name": "Molly dance",
  "pack_version": "e2",
- "built_at": "2026-11-26T21:10:14Z",
+ "built_at": "2026-11-27T21:09:06Z",
  "researched_at": "2026-11-26T19:08:32Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Molly dance. 1820s to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (LVELKeXEf8Q)",
      "Title card: Molly dance · United Kingdom · 1820s to present"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for Sweeper march, Heavy longways set step."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (LVELKeXEf8Q)",
      "Captions name each signature move as it appears",
      "Formation: Longways sets moving along street paths or open outdoor spaces"
     ],
@@ -708,7 +708,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "LVELKeXEf8Q",
+   "checked_by_vision_model": true,
+   "title": "Gog Magog Molly dance the Polychromatic Parrot at Sidmouth"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -795,8 +799,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "111 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 111,
+  "source": "122 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 122,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -805,25 +809,24 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "5-6-7-8",
    "1-2-3-4",
+   "5-6-7-8",
    "step together step",
+   "1 2 3 4 5 6",
    "1 2 3 4",
+   "opa",
    "1-2-3",
    "putar",
    "mundur",
    "step to the right",
    "un dos tres",
-   "right together right touch",
-   "left together left touch",
-   "spin out"
+   "right together right touch"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
-   "count_in",
    "full_demo",
    "breakdown",
    "slow_practice",
@@ -833,8 +836,7 @@
   "steps_as_taught": []
  },
  "gaps": [
-  "a verified recording to listen to",
-  "a hero video"
+  "a verified recording to listen to"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Molly_dance",
@@ -843,6 +845,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "f242c227ce4544a01f63bfa80618063e55692ebf731b40064272242e6ba28db2",
- "hero_checked": null
+ "input_fingerprint": "7dafbf70eb8960047fb7e16c06bc0eb8a831528c2bbf1c391808fb7968207ad3",
+ "hero_checked": "pass"
 }

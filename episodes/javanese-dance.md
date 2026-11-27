@@ -1,6 +1,6 @@
 # Javanese dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-26 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-27 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to
 
@@ -113,7 +113,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the classical-court family studied · videos studied: 18
+Source: 19 tutorial(s) of the classical-court family studied · videos studied: 19
 Counting: count the Colotomic cycles (Gamelan structure) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow

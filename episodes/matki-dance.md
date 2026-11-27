@@ -1,8 +1,8 @@
 # Matki Dance — episode pack
 
-*Status: draft · built 2026-11-26 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respected elder woman from a Malwa village, demonstrating quiet strength and perfect posture.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: A solo dancer maintains a veil over her face while balancing a stack of earthen pots on her head, moving to the rhythmic pulse of the dhol drum.
 NARRATION: This is Matki Dance. Contemporary/Living Tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (mViKKbRk9xk)
 ON SCREEN: Title card: Matki Dance · India · Contemporary/Living Tradition
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is a solo performance where a woman balances an earthen pot
 NARRATION: The dancer often covers her face with a veil, requiring significant spatial awareness and balance.
 NARRATION: The movement is coordinated with the beats of the dhol.
 NARRATION: Watch for Aada Nach, Khada Nach.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (mViKKbRk9xk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo performance in a circular area
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Balance a single earthen pot (matki) on the crown of the head
 NARRATION: Lower the veil (ghunghat) over the face
-NARRATION: Count it: .
+NARRATION: Count it: 1-2-3-4-5-6.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6.
 NARRATION: Rhythm pattern: Dhol-based folk rhythms.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,9 +120,10 @@ NARRATION: Step 1: Balance a single earthen pot (matki) on the crown of the head
 NARRATION: Step 2: Lower the veil (ghunghat) over the face
 NARRATION: Footwork from the sources: Steps following a circular path
 NARRATION: Drill: Place a flat-bottomed object on the head
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step in time with the dhol drum beats
@@ -130,6 +131,7 @@ NARRATION: Step 4: Execute circular walking patterns while maintaining a level h
 NARRATION: Drill: Walk in a straight line for 10 steps without dropping it
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -148,7 +150,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform hand and arm gestures while seated, using a lightweight prop (like a plastic bowl) to practice head steadiness. · For children: A 'statue' game where children must stop moving when the dhol stops, keeping a beanbag balanced on their heads. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -179,7 +181,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6.
 NARRATION: Rhythm pattern: Dhol-based folk rhythms.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -190,9 +192,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Transition between Aada and Khada Nach rhythmic variations
 NARRATION: Drill: Walk in a clockwise circle while maintaining balance
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Aada Nach: A specific rhythmic subtype of the Malwa regional dance
@@ -201,6 +204,7 @@ NARRATION: Drill: Incorporate basic hand gestures while walking
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,7 +223,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform hand and arm gestures while seated, using a lightweight prop (like a plastic bowl) to practice head steadiness. · For children: A 'statue' game where children must stop moving when the dhol stops, keeping a beanbag balanced on their heads. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo performance in a circular area
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -249,7 +253,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6.
 NARRATION: Rhythm pattern: Dhol-based folk rhythms.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -261,9 +265,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Execute circular walking patterns while maintaining a level head
 NARRATION: Step 2: Transition between Aada and Khada Nach rhythmic variations
 NARRATION: Drill: Step in time to a 4/4 drum beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Aada Nach: A specific rhythmic subtype of the Malwa regional dance
@@ -272,6 +277,7 @@ NARRATION: Drill: Execute a turn while keeping the head level
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -290,7 +296,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform hand and arm gestures while seated, using a lightweight prop (like a plastic bowl) to practice head steadiness. · For children: A 'statue' game where children must stop moving when the dhol stops, keeping a beanbag balanced on their heads. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo performance in a circular area
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -316,7 +322,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'mViKKbRk9xk', 'checked_by_vision_model': True, 'title': 'Dhol Matki Dance/Easy Steps/Wedding Sangeet/By Neha Harsh Udaipur'}
 Images: 3 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Sumitsurai / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Suyash Dwivedi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The texture of the earthenware pot, The rhythmic striking of the dhol, The shimmering embroidery of the lehenga, The circular boundary of the crowd
@@ -326,9 +332,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: 1 2 1 2; 1 2 3 4 5 6
 
 Sources (2): https://en.wikipedia.org/wiki/Matki_dance; https://www.wikidata.org/wiki/Q6787644

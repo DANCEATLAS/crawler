@@ -1,0 +1,137 @@
+{
+ "youtube_id": "JgiYVk8U7gE",
+ "slug": "koftos",
+ "dance": "Koftos",
+ "title": "Tutorial Koftos (Greece)",
+ "channel": "Hungry for Health Fit for Future",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-27T20:31:13Z",
+ "url": "https://www.youtube.com/watch?v=JgiYVk8U7gE",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher reads explanatory background text over slides and then demonstrates footwork slowly with a partner in a room. She also shows large group practice with music and diagrams of the steps.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:04",
+    "segment": "intro",
+    "note": "Introduction to Grace from Greece and the traditional dance Koftos"
+   },
+   {
+    "t": "0:11",
+    "segment": "context",
+    "note": "History and origin of Koftos from Ipiros"
+   },
+   {
+    "t": "0:40",
+    "segment": "full_demo",
+    "note": "Group dancing in a circle with music and shouting opa"
+   },
+   {
+    "t": "1:15",
+    "segment": "breakdown",
+    "note": "Slow motion step demonstration with partner"
+   },
+   {
+    "t": "1:59",
+    "segment": "other",
+    "note": "Step diagrams and count breakdown"
+   },
+   {
+    "t": "3:17",
+    "segment": "music_practice",
+    "note": "Music playing with static note icon"
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6 up to 22",
+  "cues": [
+   "Opa",
+   "start with the right leg"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Koftos basic steps",
+    "counts": "1 to 22",
+    "description": "Step sequence starting with the right leg in a circle with a sudden stop and arms up every 22 steps"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "combines historical context",
+    "diagrams",
+    "slow demonstration",
+    "group practice"
+   ],
+   "what_hinders": [
+    "audio voiceover is read from paper rather than spoken dynamically"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:05",
+    "text": "Hello, I am Grace from Greece and I am going to talk about our traditional dance Koftos"
+   },
+   {
+    "t": "0:12",
+    "text": "Koftos is a dance of both men and women from Ipiros"
+   },
+   {
+    "t": "1:18",
+    "text": "And now we are going to show you our steps of our dance in slow motion"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 5,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "Teacher standing in front of white board reading from paper notes",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "memorization",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 41,
+    "end_s": 53,
+    "topic": "movement",
+    "observation": "Large group dancing in a circle holding hands and raising arms on the stop",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "individual footwork details due to wide angle",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 125,
+    "end_s": 138,
+    "topic": "movement",
+    "observation": "Two people demonstrating footwork slowly on speckled floor",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "exact weight transfer timing",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combines a lecture-style introduction with slides, diagrams, slow motion partner demonstration, and a full group dance."
+ },
+ "attempts": 1
+}

@@ -33,6 +33,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Country-western_two-step",
   "wikidata_qid": "Q7248738",
   "unesco": false,
+  "hero_video_youtube_id": "7H_nkxo2-LQ",
+  "video_stack": [
+   {
+    "youtube_id": "7H_nkxo2-LQ",
+    "role": "hero",
+    "title": "PD2 #1 - Introduction to Progressive Double Two Step. The Six Basic Steps.",
+    "channel": "Jim Weber",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -58,7 +68,13 @@
    }
   ],
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:18:04Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -247,13 +263,9 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 13,
   "of": 15,
   "missing": [
-   {
-    "key": "signature_moves",
-    "label": "two or more signature moves"
-   },
    {
     "key": "sound",
     "label": "the instruments and what the music sounds like"
@@ -261,26 +273,183 @@
    {
     "key": "mistakes",
     "label": "what to avoid: common mistakes or safety"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
    }
-  ]
+  ],
+  "via": {
+   "signature_moves": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "tGMIPe_30lM",
+   "url": "https://www.youtube.com/watch?v=tGMIPe_30lM",
+   "title": "How to: Dance a Basic Step in Progressive Double Two Step",
+   "channel": "Jackie Hoermann-Elliott",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-and-2 3-and-4 5-6",
+   "parts": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "segment": "intro",
+     "note": "Teacher introduces herself and the topic of basic step in Progressive Double Two Step"
+    },
+    {
+     "t": "0:09",
+     "seconds": 9,
+     "segment": "context",
+     "note": "Overview of history and structure of Progressive Double Two Step"
+    },
+    {
+     "t": "1:07",
+     "seconds": 67,
+     "segment": "breakdown",
+     "note": "Detailed footwork breakdown for follow from front and side angles"
+    },
+    {
+     "t": "2:47",
+     "seconds": 167,
+     "segment": "breakdown",
+     "note": "Detailed footwork breakdown for lead from front and side angles"
+    },
+    {
+     "t": "4:04",
+     "seconds": 244,
+     "segment": "breakdown",
+     "note": "Explanation of upper body frame with a partner demonstration"
+    },
+    {
+     "t": "4:40",
+     "seconds": 280,
+     "segment": "full_demo",
+     "note": "Demonstration of the basic step together with a partner"
+    },
+    {
+     "t": "4:52",
+     "seconds": 292,
+     "segment": "recap",
+     "note": "Closing remarks and encouragement to practice"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Follow Footwork",
+     "counts": "1-and-2 3-and-4 5-6",
+     "description": "Side together side, back it up, walk walk"
+    },
+    {
+     "name": "Lead Footwork",
+     "counts": "1-and-2 3-and-4 5-6",
+     "description": "Left together left, right together right, walk walk"
+    }
+   ],
+   "cues": [
+    "side together side",
+    "back it up",
+    "walk walk",
+    "left together left",
+    "right together right"
+   ],
+   "images": [
+    "V-shaped pattern",
+    "cup of the leader's extended left hand"
+   ],
+   "teacher_style": "The teacher presents structured instructional content combining verbal explanation, slide graphics, and solo demonstrations. She breaks down footwork and frame systematically before showing full partner dancing.",
+   "distinctive_method": "Extensive use of on-screen text graphics and diagrams to explain floor geometry and foot placement before physical demonstration.",
+   "what_works": [
+    "Clear diagrams illustrating floor movement",
+    "Multiple camera angles for footwork"
+   ],
+   "what_hinders": [
+    "Lack of slow tempo progression during demonstration"
+   ],
+   "evidence": [
+    {
+     "start_s": 1,
+     "end_s": 5,
+     "topic": "teaching",
+     "observation": "Teacher speaks directly to the camera introducing the lesson",
+     "viewpoint": "front, unknown if mirrored",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 135,
+     "end_s": 146,
+     "topic": "movement",
+     "observation": "Dancer demonstrates follow footwork moving sideways and backwards on a wood floor",
+     "viewpoint": "back, unknown if mirrored",
+     "cannot_infer": "weight transfer detail",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "7H_nkxo2-LQ",
+   "url": "https://www.youtube.com/watch?v=7H_nkxo2-LQ",
+   "analysed_on": "2026-11-27",
+   "observation": {
+    "setting": "a wooden-floored dance studio with a mirrored wall, chairs, and dark red curtains",
+    "dancers": "one man and one woman, mixed couple",
+    "formation_and_space": "couples dancing in place and traveling slightly within the studio space",
+    "posture": "upright torso, relaxed knees, weight shifting with steps",
+    "footwork": "stepping patterns counted as six beats (1 and 2, 3 and 4, 5, 6), incorporating basic steps, turning basics, side passes, and weaves",
+    "arms_and_hands": "held in closed dance position or open hand holds, guiding turns and passes",
+    "hips_and_torso": "minimal hip isolation, upright torso with natural rotation during turns",
+    "partnering": "closed and open partner holds with lead and follow dynamics",
+    "levels_jumps_turns": "standing level throughout, no jumps, regular turns and rotational steps",
+    "costume_and_props": "man wears a cowboy hat, vest, white shirt, and jeans; woman wears a black top and black pants",
+    "cannot_infer": "exact foot placement details and subtle weight transfers due to camera angles and video resolution",
+    "music_heard": {
+     "instruments": [],
+     "vocals": "none",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 116,
+      "end_s": 123,
+      "what": "demonstrating the basic step with a six-beat count in closed position"
+     },
+     {
+      "start_s": 196,
+      "end_s": 203,
+      "what": "executing the right turning basic step"
+     },
+     {
+      "start_s": 238,
+      "end_s": 246,
+      "what": "executing a side pass with the partner"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/progressive-double-two.json"
  },
- "fingerprint": "67ad448fa48bf4e8",
- "updated": "2026-11-26"
+ "fingerprint": "ca38010fc708760e",
+ "updated": "2026-11-27"
 }

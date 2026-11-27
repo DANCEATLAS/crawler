@@ -1,13 +1,87 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Heavy metal ankle bells (use lighter shakers)",
+          "Long two-day endurance formats"
+        ],
+        "counts": "Simple 1-2, 1-2 rhythm.",
+        "duration_minutes": "5",
+        "game_version": "The 'Mud-Smearer' game: children pretend to smear mud on an imaginary wall using the twisting dance moves."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid twisting",
+          "Heavy stomping with ankle bells",
+          "Unsupported circular movement"
+        ],
+        "counts": "Slow 4-count twist (left-2-3-4, right-2-3-4).",
+        "seated_version": "Perform the waist twisting while seated in a firm chair, focusing on torso rotation.",
+        "standing_version": "Perform the leg twisting while holding onto a stable barre or chair back for balance.",
+        "tempo_and_range": "Reduce the speed of the twist and limit the range of motion to avoid strain on the lower back."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Twisting of the legs, emphasized by the sound of ankle bells.",
+      "formation_and_space": "Linear and circular formations.",
+      "hips_and_torso": "Characterized by waist twisting.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; performed as a group in communal or competitive settings.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A rhythmic twisting of the waist and legs derived from the physical action of applying mud to house walls.",
+          "name": "Mud-smearing twist"
+        }
+      ],
+      "tempo_feel": "Energetic and rhythmic, suitable for two-day competitions.",
+      "what_to_avoid": "Avoid stiff waist movements; the dance requires fluid twisting to be authentic to its origins."
+    },
+    "music_profile": {
+      "instruments": [
+        "Agwara horns (long trumpets)",
+        "Drums",
+        "Ankle bells"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "royal",
+        "celebratory",
+        "rhythmic",
+        "communal"
+      ],
+      "musical_form": "Call and response between horns and drums is common in the region, but specific form for Agwara is not described in sources.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Percussive footwork accented by ankle bells against a melodic trumpet backdrop.",
+      "sound_description": "The sound is dominated by the resonant, heraldic tones of long wooden trumpets (agwara) and the steady pulse of drums, punctuated by the sharp, metallic jingling of dancers' ankle bells.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in a linear or circular formation with ankle bells attached.",
+        "Initiate a rhythmic twisting motion of the waist.",
+        "Incorporate leg twisting that synchronizes with the waist movement.",
+        "Step firmly to sound the ankle bells in time with the agwara horns.",
+        "Maintain the twisting motion while moving along the circular or linear path."
+      ],
+      "formation": "Linear and circular formations.",
+      "level_notes": "The basic twisting is accessible, but the coordination of waist and leg twisting with heavy ankle bells requires stamina.",
+      "rhythm": "Driven by long trumpets and drums; percussive accents provided by ankle bells."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "751609080c1ad0aa1581deaa3073f513f59fa0fe0ef923879fa12cc49040c531",
+  "fingerprint": "f55b78ada5ee330e26ca88154db15a7ddb9a3807a0fa79a47db9804d5b871638",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +89,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there specific rhythmic patterns played by the agwara horns that correspond to the leg twisting counts? Evidence needed: https://en.wikipedia.org/wiki/Agwara_(dance)"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +108,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the specific angle and speed of the 'waist twist' in the Kwaya variant versus the Selewa variant? Evidence needed: https://en.wikipedia.org/wiki/Agwara_(dance)"
     ]
   },
   "id": "atlas:agwara",
@@ -45,8 +120,27 @@
   ],
   "music_options": [],
   "name": "Agwara",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "471956f044f4a85d",
+      "next_evidence": "https://en.wikipedia.org/wiki/Agwara_(dance)",
+      "question": "What is the specific angle and speed of the 'waist twist' in the Kwaya variant versus the Selewa variant?",
+      "source": "https://en.wikipedia.org/wiki/Agwara_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To distinguish between the competitive and celebratory movement qualities for accurate teaching."
+    },
+    {
+      "domain": "research",
+      "id": "35bb5049eae3621e",
+      "next_evidence": "https://en.wikipedia.org/wiki/Agwara_(dance)",
+      "question": "Are there specific rhythmic patterns played by the agwara horns that correspond to the leg twisting counts?",
+      "source": "https://en.wikipedia.org/wiki/Agwara_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To create a synchronized music-movement profile for interactive feedback."
+    }
+  ],
+  "research_file": "research_results/agwara.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +152,8 @@
   "slug": "agwara",
   "sources": [
     "https://en.wikipedia.org/wiki/Agwara_(dance)",
-    "Source: Agwara (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Agwara_(dance)"
+    "https://www.wikidata.org/wiki/Q124485431"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

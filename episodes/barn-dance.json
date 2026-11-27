@@ -2,7 +2,7 @@
  "slug": "barn-dance",
  "name": "Barn dance",
  "pack_version": "e2",
- "built_at": "2026-11-26T21:10:14Z",
+ "built_at": "2026-11-27T21:09:05Z",
  "researched_at": "2026-11-24T00:06:57Z",
  "qc_score": 8.95,
  "status": "draft",
@@ -777,26 +777,30 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front",
-   "tempo progression: full"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full"
   ],
   "cues": [
    "right together right touch",
    "left together left touch",
    "spin out",
-   "roll her back"
+   "roll her back",
+   "1-2-3 and kick",
+   "side-close-side-tap",
+   "turn your partner under and then you turn them back"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "breakdown",
-   "full_demo"
+   "full_demo",
+   "recap"
   ],
   "steps_as_taught": [
    {
@@ -818,6 +822,16 @@
     "name": "Rolling grapevine",
     "counts": "1-8",
     "description": "Grapevine with turns and hip bumps."
+   },
+   {
+    "name": "Three walks forward and kick, three walks back and tap",
+    "counts": "1-2-3-kick-1-2-3-tap",
+    "description": "Walk forward three steps with a kick on four, then back three steps with a tap."
+   },
+   {
+    "name": "Side close side tap",
+    "counts": "side-close-side-tap",
+    "description": "Step away from partner and together, repeating to the side."
    }
   ]
  },
@@ -838,6 +852,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "bb3906bb007fdde84a4d9442290dcd92162912bd27079f9b91b55a37e6f59f8c",
+ "input_fingerprint": "a20cf7ec6fc9fecc0463181ee791508ca708a1f3fa8cb68c634404bf34beea66",
  "hero_checked": "pass"
 }

@@ -1,8 +1,8 @@
 # Kuthiyottam — episode pack
 
-*Status: withheld-chapters · built 2026-11-26 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-27 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional Asan (conductor) who emphasizes discipline and devotion.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Blood of the Goddess
 NARRATION: This is Kuthiyottam. Ancient to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (DnOFDF0u1mY)
 ON SCREEN: Title card: Kuthiyottam · India · Ancient to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is characterized by highly energetic, synchronized movement
 NARRATION: Under the direction of an asan (conductor), the performers execute steps that are paced to the rapid beat of traditional drums.
 NARRATION: The boys act as both dancers and singers, chanting rhythmic verses while moving.
 NARRATION: Watch for Ritual Piercing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (DnOFDF0u1mY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Processional and group synchronized
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -104,7 +104,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'DnOFDF0u1mY', 'checked_by_vision_model': True, 'title': 'chettikulangara kuthiyottam at changayil 2013'}
 Images: 2 licensed — Arayilpdas at Malayalam Wikipedia. / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Dvellakat / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Vibrant temple colors, The intense focus of the young dancers, The rhythmic striking of traditional drums, Symbolic blood and ritual piercings
@@ -114,9 +114,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the ritual-sacred family studied · videos studied: 19
+Source: 20 tutorial(s) of the ritual-sacred family studied · videos studied: 20
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; criss-cross now; forward and back; plant the left foot; kick with emphasis; smash the grass
+Cues: uno dos; stretch one and two; lift three and four; shift your weight; move your hips side to side; scrape it along the floor; remember to breathe; 1-2-3; 1 and 2; criss-cross now; forward and back; plant the left foot
 
 Sources (2): https://en.wikipedia.org/wiki/Kuthiyottam; https://www.wikidata.org/wiki/Q6448441

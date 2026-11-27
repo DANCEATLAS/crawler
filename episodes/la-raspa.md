@@ -1,8 +1,8 @@
 # La Raspa — episode pack
 
-*Status: draft · built 2026-11-26 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-27 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic and encouraging folk dance teacher from Veracruz.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sound of the Scraper
 NARRATION: This is La Raspa. Post-1945 (Modern form).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (nGT4xXZ9ZkM)
 ON SCREEN: Title card: La Raspa · Mexico · Post-1945 (Modern form)
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance features a 'scraping' movement where dancers jump and thrus
 NARRATION: This is typically performed in a 6/8 meter.
 NARRATION: Partners often link elbows or hold hands to swing around during the melodic chorus sections between the scraping steps.
 NARRATION: Watch for The Scraping Step.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (nGT4xXZ9ZkM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced in pairs or a communal circle; requires enough space for elbow-link spinning.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Jump and extend the right heel forward while leaning slightly back.
 NARRATION: Jump and switch, extending the left heel forward.
-NARRATION: Count it: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
+NARRATION: Count it: 1-2-3-4-5-6-7-8 / y se acabó.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -108,7 +108,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.
+NARRATION: Count: 1-2-3-4-5-6-7-8 / y se acabó. The meter is 6/8.
 NARRATION: Rhythm pattern: Continuous eighth notes with emphasis on the 1 and 4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,10 +120,10 @@ NARRATION: Step 1: Jump and extend the right heel forward while leaning slightly
 NARRATION: Step 2: Jump and switch, extending the left heel forward.
 NARRATION: Footwork from the sources: Alternating heel-forward jumps (bleking steps) in a 'quick-quick-slow' or '1-2-3' rhythm.
 NARRATION: Drill: Slow motion heel touches without the jump
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / y se acabó · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Jump and switch back to the right heel.
@@ -131,7 +131,7 @@ NARRATION: Step 4: Pause or clap on the final beat of the sequence.
 NARRATION: Drill: Rhythmic clapping to the 6/8 beat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / y se acabó · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -150,7 +150,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the heel-thrusts while seated, extending legs forward alternately to the rhythm. · For children: The 'Chicken Scratch' game: dancers must mimic a chicken's movements during the scraping part. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 / y se acabó.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -181,7 +181,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.
+NARRATION: Count: 1-2-3-4-5-6-7-8 / y se acabó. The meter is 6/8.
 NARRATION: Rhythm pattern: Continuous eighth notes with emphasis on the 1 and 4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,10 +191,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Link elbows with a partner and skip in a circle during the chorus.
 NARRATION: Drill: Elbow-link positioning
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / y se acabó · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Scraping Step: A rhythmic jump-kick where the heel touches the floor in front of the body.
@@ -202,7 +202,7 @@ NARRATION: Drill: Clockwise and counter-clockwise skipping
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / y se acabó · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -221,7 +221,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the heel-thrusts while seated, extending legs forward alternately to the rhythm. · For children: The 'Chicken Scratch' game: dancers must mimic a chicken's movements during the scraping part. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 / y se acabó.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in pairs or a communal circle; requires enough space for elbow-link spinning.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -252,7 +252,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8.
+NARRATION: Count: 1-2-3-4-5-6-7-8 / y se acabó. The meter is 6/8.
 NARRATION: Rhythm pattern: Continuous eighth notes with emphasis on the 1 and 4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -263,10 +263,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Pause or clap on the final beat of the sequence.
 NARRATION: Step 2: Link elbows with a partner and skip in a circle during the chorus.
 NARRATION: Drill: Combining 4 sets of scrapes with 1 spin
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / y se acabó · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Scraping Step: A rhythmic jump-kick where the heel touches the floor in front of the body.
@@ -274,7 +274,7 @@ NARRATION: Drill: Maintaining tempo through the transition
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 / y se acabó · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -293,7 +293,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the heel-thrusts while seated, extending legs forward alternately to the rhythm. · For children: The 'Chicken Scratch' game: dancers must mimic a chicken's movements during the scraping part. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8 / y se acabó.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in pairs or a communal circle; requires enough space for elbow-link spinning.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performed in festive settings such as schools and celebrations. Dancers typically wear traditional Mexican folk attire, such as colorful ruffled skirts for women and charro-influenced clothing for men.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'nGT4xXZ9ZkM', 'checked_by_vision_model': True, 'title': 'La Raspa (Dobbs Folkloric group)'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Güiro indentations, Heels striking the dust, Spinning colorful skirts, Chicken-like scratching motions
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 111 tutorial(s) of the folk-circle family studied · videos studied: 111
-Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 5-6-7-8; 1-2-3-4; step together step; 1 2 3 4; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch; left together left touch; spin out
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8 / y se acabó
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: derecho izquierdo derecho dos palmadas; para adelante y para atrs; y se acab
 
 Sources (3): https://en.wikipedia.org/wiki/La_Raspa; https://www.wikidata.org/wiki/Q6464763; https://de.wikipedia.org/wiki/Raspa

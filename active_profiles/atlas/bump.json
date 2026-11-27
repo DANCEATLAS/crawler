@@ -1,13 +1,83 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Two partners, generally one male and one female",
+      "hips_and_torso": "Partners bump their hips or rear ends against each other",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Two partners interact by bumping hips while otherwise not touching",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Partners bump their hips against each other to the beat",
+          "name": "Hip Bump"
+        }
+      ],
+      "tempo_feel": "to the beat of the song",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "disco",
+        "funk"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "The Commodores",
+          "title": "The Bump"
+        },
+        {
+          "artist": "Penny McLean",
+          "title": "Lady Bump"
+        },
+        {
+          "artist": "Joe Tex",
+          "title": "Ain't Gonna Bump No More (With No Big Fat Woman)"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Disco-funk style music featuring rhythmic beats that drive the hip-bumping action.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Two partners bump hips against each other to the beat"
+      ],
+      "formation": "Two partners, generally one male and one female",
+      "level_notes": "not described in sources",
+      "rhythm": "to the beat of the song"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a76b4ff77c29b3eb06d9a144066c40d0bfe85ce03b556e2c17ff868c5780e59e",
+  "fingerprint": "303c32ced8fb11906770f050dbe6a11bff60640c9e7df59d9645eb6111b39e05",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +85,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -46,7 +115,7 @@
   "music_options": [],
   "name": "Bump",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/bump.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +127,16 @@
   "slug": "bump",
   "sources": [
     "https://en.wikipedia.org/wiki/Bump_(dance)",
-    "Source: Bump (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Bump_(dance)"
+    "https://www.wikidata.org/wiki/Q1004850",
+    "https://pt.wikipedia.org/wiki/Bump",
+    "https://de.wikipedia.org/wiki/Bump"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/32eR9XA6v3U.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=32eR9XA6v3U"
+    }
+  ]
 }

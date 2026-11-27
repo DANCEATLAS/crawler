@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "matki-dance",
  "name": "Matki Dance",
- "state": "building",
+ "state": "active_ready",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -30,6 +30,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Matki_dance",
   "wikidata_qid": "Q6787644",
   "unesco": false,
+  "hero_video_youtube_id": "mViKKbRk9xk",
+  "video_stack": [
+   {
+    "youtube_id": "mViKKbRk9xk",
+    "role": "hero",
+    "title": "Dhol Matki Dance/Easy Steps/Wedding Sangeet/By Neha Harsh Udaipur",
+    "channel": "Neha Harsh Udaipur",
+    "hd": true
+   },
+   {
+    "youtube_id": "bN3Ws5_WHqE",
+    "role": "rendition",
+    "title": "Matki dhol | matki dance | matki dhol dance steps | matki dhol steps | easy dhol steps | matki dance",
+    "channel": "Somya Jain",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -78,6 +95,14 @@
   ],
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-27T20:17:35Z",
+   "soft_fail": [
+    "not_vertical"
+   ]
+  },
   "related_slugs": [
    "ghoomar"
   ]
@@ -312,36 +337,162 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 15,
   "of": 15,
-  "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "rhythm",
-    "label": "tempo, meter or the teacher's count"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   }
-  ]
+  "via": {
+   "footwork_counts": "lesson",
+   "rhythm": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "-mcpMY7C78k",
+   "url": "https://www.youtube.com/watch?v=-mcpMY7C78k",
+   "title": "Matki Dhol | Matki Dance | मटकी ढोल पर आसान स्टेप्स | Easy Steps With Tutorial | Wedding Dhol Dance",
+   "channel": "Neha Sugandhi",
+   "analysed_on": "2026-11-27",
+   "level": "beginner",
+   "language": "Hindi",
+   "counting_scheme": "1-2-3-4-5-6",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Introduction and welcome to the channel"
+    },
+    {
+     "t": "0:07",
+     "seconds": 7,
+     "segment": "context",
+     "note": "Explanation of Matki or Dhol dance in weddings"
+    },
+    {
+     "t": "0:29",
+     "seconds": 29,
+     "segment": "full_demo",
+     "note": "Demonstration of the routine with music"
+    },
+    {
+     "t": "1:40",
+     "seconds": 100,
+     "segment": "breakdown",
+     "note": "Step-by-step breakdown without music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Hand step",
+     "counts": "1-2",
+     "description": "Arm and hand movement step"
+    },
+    {
+     "name": "Gol step",
+     "counts": "1-2-3-4-5-6",
+     "description": "Turning step"
+    }
+   ],
+   "cues": [
+    "1 2 1 2",
+    "1 2 3 4 5 6"
+   ],
+   "teacher_style": "The teacher explains the context of the dance and encourages the viewer to subscribe. She demonstrates full choreographies first, then breaks down steps with counts.",
+   "distinctive_method": "Demonstrates the complete dance routine with music before breaking down the steps without music.",
+   "what_works": [
+    "Demonstrating with music first gives clear context"
+   ],
+   "what_hinders": [
+    "No back-facing view during breakdown"
+   ],
+   "evidence": [
+    {
+     "start_s": 0,
+     "end_s": 5,
+     "topic": "teaching",
+     "observation": "Teacher speaks to camera introducing herself and the dance style",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "none",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 29,
+     "end_s": 40,
+     "topic": "movement",
+     "observation": "Teacher dances full routine in a room with music playing",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "weight transfer specifics",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "mViKKbRk9xk",
+   "url": "https://www.youtube.com/watch?v=mViKKbRk9xk",
+   "analysed_on": "2026-11-27",
+   "observation": {
+    "setting": "indoor living room with tiled floor, white walls, and sheer curtains",
+    "dancers": "one adult woman, solo",
+    "formation_and_space": "stationary solo dancer performing within a limited floor space in front of a window",
+    "posture": "upright torso, relaxed knees, weight shifting from foot to foot",
+    "footwork": "fast rhythmic stepping, stomping and shifting weight on the beat, feet mostly staying close to the floor",
+    "arms_and_hands": "arms held up with elbows bent, hands moving in expressive gestures and circular wrist rolls",
+    "hips_and_torso": "gentle torso sways and hip movements accompanying the footwork and arm gestures",
+    "partnering": "none",
+    "levels_jumps_turns": "frequent full spins and turns on the spot, maintaining a single level without jumps",
+    "costume_and_props": "gold sleeveless top, bright pink pleated skirt with gold trim, and a sheer pink dupatta draped over the shoulder; no props visible",
+    "cannot_infer": "exact foot placement and rapid percussion articulation are obscured by low video resolution and fixed camera angle",
+    "music_heard": {
+     "instruments": [
+      "dholak",
+      "tabla",
+      "percussion"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 0,
+      "end_s": 10,
+      "what": "rhythmic foot stomping with arms raised and bent at the elbows, framing the face and head"
+     },
+     {
+      "start_s": 11,
+      "end_s": 15,
+      "what": "spinning around in a complete circle while maintaining raised arm positions"
+     },
+     {
+      "start_s": 23,
+      "end_s": 28,
+      "what": "pivoting and spinning on the spot with flowing skirt movement"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/matki-dance.json"
  },
- "fingerprint": "13b68d11f934cb60",
- "updated": "2026-11-26"
+ "fingerprint": "22f74c9e15c916bb",
+ "updated": "2026-11-27"
 }
