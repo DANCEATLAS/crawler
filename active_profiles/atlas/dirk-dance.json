@@ -1,13 +1,71 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "brandishing a dirk or dagger with attacking and defensive techniques",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "solo dance or two or more people dancing in unison",
+      "hips_and_torso": "wrestling style kicks, trips and sweeps",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "two dancers in a lost tradition where one is killed and resurrected",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "executing knife techniques combined with wrestling style kicks, trips and sweeps while brandishing a dirk",
+          "name": "combat imitation and knife techniques"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "pipes"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "combative",
+        "martial",
+        "vigorous"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "solo dance or two or more people dancing in unison",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "09e1c75e34731a55bc64f14cc7b6fdd0f12d1244a9ff9fd4b190a12850a61f3b",
+  "fingerprint": "c21b8ec59bd2b06917e4bb8b9472227325e2a3d7c813a4eaa0a7504fa56f1ba3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +73,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific musical rhythms or pipe tunes accompanied historical dirk dance performances? Evidence needed: Examine field notes from J.F. and T.M. Flett or archives of Scottish traditional dance music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +92,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there surviving video recordings or graphical diagrams of the footwork preserved by Mary Isdale Mac Nab? Evidence needed: Access archival teaching films or Vancouver folk dance society holdings."
     ]
   },
   "id": "atlas:dirk-dance",
@@ -45,8 +104,27 @@
   ],
   "music_options": [],
   "name": "Dirk dance",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "cba34fab4070b8b8",
+      "next_evidence": "Examine field notes from J.F. and T.M. Flett or archives of Scottish traditional dance music.",
+      "question": "What specific musical rhythms or pipe tunes accompanied historical dirk dance performances?",
+      "source": "https://en.wikipedia.org/wiki/Dirk_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Current sources mention piping champion D.C. Mather but provide no specific musical meter or tempo."
+    },
+    {
+      "domain": "video",
+      "id": "9eef988cc20a1856",
+      "next_evidence": "Access archival teaching films or Vancouver folk dance society holdings.",
+      "question": "Are there surviving video recordings or graphical diagrams of the footwork preserved by Mary Isdale Mac Nab?",
+      "source": "https://en.wikipedia.org/wiki/Dirk_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile footwork and posture are entirely undescribed in current text sources."
+    }
+  ],
+  "research_file": "research_results/dirk-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +136,7 @@
   "slug": "dirk-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Dirk_dance",
-    "Source: Dirk dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Dirk_dance"
+    "https://www.wikidata.org/wiki/Q5280892"
   ],
   "state": "researching",
   "video_evidence": []

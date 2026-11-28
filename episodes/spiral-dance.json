@@ -2,7 +2,7 @@
  "slug": "spiral-dance",
  "name": "Spiral Dance",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:06Z",
+ "built_at": "2026-11-28T19:18:06Z",
  "researched_at": "2026-11-27T19:55:29Z",
  "qc_score": 10.0,
  "status": "withheld-chapters",
@@ -66,7 +66,7 @@
      "This is Spiral Dance. 1970s (1979)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (5k8EU4TeBXM)",
      "Title card: Spiral Dance · United States · 1970s (1979)"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Grapevine line step, The Center Turn."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (5k8EU4TeBXM)",
      "Captions name each signature move as it appears",
      "Formation: Single file line entering in counter-clockwise spiral, turning inward to uncoil clockwise face-to-face."
     ],
@@ -262,7 +262,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "5k8EU4TeBXM",
+   "checked_by_vision_model": true,
+   "title": "Reclaiming's Spiral Dance: Three Decades of Magic"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -344,7 +348,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed images (3 needed)",
   "two or more connections"
  ],
@@ -355,6 +358,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "2145a981fb81aab786447402497c66dea61adbf6bb07a4f38b46af94c9849011",
- "hero_checked": null
+ "input_fingerprint": "ad5206c4a43ff24b1de753b4e2dcc1065b501080838259d9a146b5116816a3fa",
+ "hero_checked": "pass"
 }

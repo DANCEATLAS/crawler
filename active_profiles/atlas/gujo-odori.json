@@ -1,0 +1,163 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Late-night sessions",
+          "Heavy wooden sandals that may cause tripping"
+        ],
+        "counts": "Simple repetitive 4 or 8 counts.",
+        "duration_minutes": "15",
+        "game_version": "Follow-the-leader in a circle, mimicking the horse-riding movements of 'Harukoma'."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "All-night dancing (Tetsuya Odori) due to fatigue",
+          "High-impact geta striking",
+          "Rapid directional changes"
+        ],
+        "counts": "Simple 4-beat walking patterns.",
+        "seated_version": "Perform the rhythmic arm gestures of 'Kawasaki' while seated in a circle.",
+        "standing_version": "Slow-paced walking in the circular formation, using a staff for balance if needed.",
+        "tempo_and_range": "Focus on the slower-paced dances among the ten; reduce the vigor of the 'Harukoma' horse-riding motions."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Circular motion in line dance formation",
+      "formation_and_space": "Circular motion around a center stage in the streets",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; communal line dance",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "One of the two most famous dances, noted for being beginner-friendly.",
+          "name": "Kawasaki"
+        },
+        {
+          "description": "A famous, easy-to-learn dance often associated with horse-mimicking movements.",
+          "name": "Harukoma"
+        },
+        {
+          "description": "The specific dance used to conclude every night of the festival.",
+          "name": "Matsusaka"
+        }
+      ],
+      "tempo_feel": "Varies across 10 dances; Harukoma is noted for being energetic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "communal",
+        "festive",
+        "rhythmic",
+        "inclusive"
+      ],
+      "musical_form": "Ten distinct songs/dances ending with Matsusaka",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The soundscape is defined by live traditional music from a central yagura stage, accompanied by the rhythmic striking of wooden geta sandals on the street pavement by thousands of dancers.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Traditional Japanese folk singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Join the circular formation around the central stage",
+        "Observe the 'Kawasaki' or 'Harukoma' steps from experienced dancers",
+        "Follow the line movement in a clockwise or counter-clockwise direction as established",
+        "Maintain the rhythm of the group's collective footwork",
+        "Conclude the night with the specific steps of the 'Matsusaka' dance"
+      ],
+      "formation": "Circular motion around a center stage",
+      "level_notes": "Beginners are encouraged to start with Kawasaki and Harukoma.",
+      "rhythm": "Traditional Japanese folk rhythm (Bon Odori style)"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "6c08bf5856133dd9e75e5c84c42c7d081158a12ea087618183201712deb75d79",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the names and characteristics of the seven dances other than Kawasaki, Harukoma, and Matsusaka? Evidence needed: https://en.wikipedia.org/wiki/Guj%C5%8D_Odori"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand gestures and arm positions for the 'Kawasaki' and 'Harukoma' dances? Evidence needed: https://en.wikipedia.org/wiki/Guj%C5%8D_Odori"
+    ]
+  },
+  "id": "atlas:gujo-odori",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gujō Odori",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "67e0a4f666030597",
+      "next_evidence": "https://en.wikipedia.org/wiki/Guj%C5%8D_Odori",
+      "question": "What are the specific hand gestures and arm positions for the 'Kawasaki' and 'Harukoma' dances?",
+      "source": "https://en.wikipedia.org/wiki/Guj%C5%8D_Odori",
+      "status": "candidate_unreviewed",
+      "why_needed": "The sources identify these as beginner-friendly but do not describe the upper-body technique required for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "bae2a596035aa05d",
+      "next_evidence": "https://en.wikipedia.org/wiki/Guj%C5%8D_Odori",
+      "question": "What are the names and characteristics of the seven dances other than Kawasaki, Harukoma, and Matsusaka?",
+      "source": "https://en.wikipedia.org/wiki/Guj%C5%8D_Odori",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a complete curriculum, all ten dances in the tradition must be identified."
+    }
+  ],
+  "research_file": "research_results/gujo-odori.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gujo-odori",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Guj%C5%8D_Odori",
+    "https://www.wikidata.org/wiki/Q6430768"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

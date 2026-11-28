@@ -6,9 +6,9 @@
  "teacher": "U Dance",
  "teacher_key": "u-dance",
  "teacher_score": 61.8,
- "analysed_at": "2026-11-17T21:40:54Z",
+ "analysed_at": "2026-11-28T18:57:21Z",
  "url": "https://www.youtube.com/watch?v=qqf1FjmIqqg",
- "comments_read": 59,
+ "comments_read": 58,
  "schema": 3,
  "window": {
   "start_s": 0,
@@ -17,10 +17,11 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher breaks down the dance into small, manageable chunks, focusing on the feet first before adding the arms. He uses a mirror view to allow learners to easily copy his movements and provides clear, repetitive practice for each section. He concludes by combining the learned segments into a continuous flow.",
-  "signature": "The teacher explicitly instructs learners to look forward rather than at their hands during specific arm movements to maintain proper posture and focus.",
+  "teacher_system": "The teacher breaks down the dance into eight-count sections, starting with the footwork and walking through each step slowly. Once the feet are secure, he introduces the arm and upper body movements separately before combining everything together.",
+  "signature": "",
   "screen": {
    "views": [
+    "back",
     "mirror"
    ],
    "on_screen": [],
@@ -28,59 +29,45 @@
   },
   "practices": [
    {
+    "tag": "mirror_view",
+    "t": "0:00",
+    "what": "The teacher stands facing a large mirror with his back to the camera, allowing learners to copy his movements directly."
+   },
+   {
     "tag": "chunking",
     "t": "0:23",
-    "what": "The teacher breaks the dance into two-bar segments, teaching the footwork first."
+    "what": "The teacher divides the dance into phrases of eight counts and focuses on learning the first two eight-count sections."
    },
    {
     "tag": "layering",
     "t": "1:31",
-    "what": "The teacher adds arm movements to the previously learned footwork."
+    "what": "The teacher adds hand and arm gestures on top of the previously learned footwork."
    },
    {
     "tag": "repetition",
-    "t": "2:15",
-    "what": "The teacher repeats the arm movement sequence four times to ensure mastery."
+    "t": "2:16",
+    "what": "The teacher repeats the specific arm movement sequence four times while counting out loud."
    },
    {
-    "tag": "repetition",
-    "t": "3:23",
-    "what": "The teacher leads a follow-along round of the first eight-count sequence."
+    "tag": "counts_and_rhythm",
+    "t": "2:59",
+    "what": "The teacher combines the feet and hands together while speaking the counts and step actions."
    },
    {
-    "tag": "chunking",
-    "t": "3:46",
-    "what": "The teacher introduces the second eight-count sequence, focusing on a new footwork pattern."
-   },
-   {
-    "tag": "layering",
-    "t": "4:00",
-    "what": "The teacher adds specific arm styling to the second sequence."
-   },
-   {
-    "tag": "repetition",
-    "t": "5:21",
-    "what": "The teacher combines the first and second sequences for a full practice run."
-   },
-   {
-    "tag": "chunking",
-    "t": "7:30",
-    "what": "The teacher introduces the final segment involving a wrist-turning arm movement."
-   },
-   {
-    "tag": "repetition",
-    "t": "9:32",
-    "what": "The teacher leads a final, continuous practice of all learned segments."
+    "tag": "tempo_ramp",
+    "t": "6:15",
+    "what": "The teacher instructs learners to slightly increase the speed while maintaining smoothness."
    }
   ],
   "adaptations": [],
   "entry_points": [
-   "feet_first"
+   "feet_first",
+   "count_first"
   ],
   "pace": {
-   "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 14,
-   "pieces_taught": 3
+   "talk_vs_move": "mostly_move",
+   "seconds_before_first_movement": 23,
+   "pieces_taught": 2
   },
   "mentor": {
    "voice": [
@@ -146,43 +133,48 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Difficulty keeping up with the pace",
+     "theme": "Some older learners or those with no background struggle to keep up with the pace",
      "tag": "other",
      "count": 2
+    },
+    {
+     "theme": "Felt tired after dancing halfway through the routine",
+     "tag": "other",
+     "count": 1
     }
    ],
    "clicked": [
     {
-     "theme": "Detailed, step-by-step breakdown",
-     "tag": "chunking",
-     "count": 12
+     "theme": "Practicing hands and feet separately made it easy to follow step by step",
+     "tag": "layering",
+     "count": 4
     },
     {
-     "theme": "Teacher's patience and clear instruction",
-     "tag": "praise_and_expectancy",
-     "count": 10
+     "theme": "Detailed and patient breakdown helped absolute beginners and self-proclaimed dance clumsy people learn",
+     "tag": "chunking",
+     "count": 15
     }
    ],
    "requests": [
     {
-     "theme": "Request for more dance tutorials",
-     "tag": "reason_to_return",
-     "count": 2
+     "theme": "Asked for a video teaching another specific song called Huohong de Sarilang",
+     "tag": "other",
+     "count": 1
     }
    ],
    "meant": [
     {
-     "theme": "Feeling healthier and more energetic",
-     "tag": "feel_and_groove",
-     "count": 2
+     "theme": "Brought happiness, helped sweat and exercise, and made learners feel they finally grasped basic dance steps",
+     "tag": "fun_and_energy",
+     "count": 12
     }
    ]
   },
-  "limits": "The video does not include music during the breakdown, which may make it harder for learners to practice the rhythm until the final run-through."
+  "limits": "Only the first 10 minutes of the video were provided, showing instruction for the first two eight-count sections."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1,
+ "attempts": 2,
  "mentor_look": {
   "at": "2026-11-17T21:48:24Z",
   "attempts": 1,

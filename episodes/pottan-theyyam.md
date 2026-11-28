@@ -1,8 +1,8 @@
 # Pottan Theyyam — episode pack
 
-*Status: withheld-chapters · built 2026-11-27 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-28 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the music & instruments section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the music & instruments section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An initiated cultural custodian or hereditary Theyyam scholar from Kannur explaining the philosophy of resistance
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The God Who Lying in Fire Defied Caste
 NARRATION: This is Pottan Theyyam. Pre-modern to contemporary.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (iwd2q0k77cM)
 ON SCREEN: Title card: Pottan Theyyam · India · Pre-modern to contemporary
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The performance combines ritual movement, spoken satire, and dramatic
 NARRATION: A core physical feature is the deity lying directly upon the glowing embers of a large ritual bonfire.
 NARRATION: The gathered community repeatedly implores the performer to get up from the fire.
 NARRATION: Watch for Resting on embers, Dialogue of equality.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (iwd2q0k77cM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Courtyard ritual space surrounding a palliyara shrine and a large bed of burning coals
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -97,7 +97,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'iwd2q0k77cM', 'checked_by_vision_model': False, 'title': 'സര്\u200dവ്വജ്ഞപീഠം കീഴടക്കിയ ശങ്കരാചാര്യരെ തിരുത്തിയ പൊട്ടന്\u200d തെയ്യം | Pottan Theyyam'}
 Images: 2 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ramesh Lalwani / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: File:Pottan Theyyam in Aati Month.webm — https://upload.wikimedia.org/wikipedia/commons/3/3d/Pottan_Theyyam_in_Aati_Month.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Glowing red embers of the ritual fire pyre, Intricate ritual mask and body adornment, The palliyara hut shrine within the tharavad compound

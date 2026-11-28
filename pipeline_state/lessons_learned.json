@@ -1,18 +1,18 @@
 {
- "updated_at": "2026-11-27T19:03:24Z",
- "qc_records_considered": 1193,
+ "updated_at": "2026-11-28T17:38:02Z",
+ "qc_records_considered": 1245,
  "gate_failures": [
   [
    "sections_filled",
-   255
+   258
   ],
   [
    "citations",
-   144
+   148
   ],
   [
    "sacred_handled",
-   116
+   126
   ],
   [
    "profile_long_len",
@@ -20,23 +20,23 @@
   ],
   [
    "insight_concrete",
-   110
+   112
   ],
   [
    "banned_phrasing",
-   107
+   112
   ],
   [
    "country",
-   102
+   103
   ],
   [
    "sources",
-   60
+   63
   ],
   [
    "not_duplicate",
-   43
+   50
   ],
   [
    "profile_len",
@@ -46,23 +46,23 @@
  "reasons": [
   [
    "sacred",
-   476
+   505
   ],
   [
    "sections_filled",
-   255
+   258
   ],
   [
    "not_a_dance",
-   216
+   220
   ],
   [
    "citations",
-   144
+   148
   ],
   [
    "sacred_handled",
-   116
+   126
   ],
   [
    "profile_long_len",
@@ -70,19 +70,19 @@
   ],
   [
    "insight_concrete",
-   110
+   112
   ],
   [
    "banned_phrasing",
-   107
+   112
   ],
   [
    "country",
-   102
+   103
   ],
   [
    "doubts=1",
-   85
+   87
   ]
  ],
  "judge_notes": [
@@ -92,11 +92,11 @@
   ],
   [
    "judge notes mention 'thin'",
-   26
+   27
   ],
   [
    "judge notes mention 'missing'",
-   25
+   27
   ],
   [
    "judge notes mention 'generic'",
@@ -130,89 +130,89 @@
  "episode_gaps_top": [
   [
    "a verified recording to listen to",
-   605
+   634
   ],
   [
    "tempo (bpm)",
-   592
+   620
   ],
   [
    "licensed reference footage",
-   492
+   519
   ],
   [
    "licensed images (3 needed)",
-   474
+   495
   ],
   [
    "meter",
-   444
+   466
   ],
   [
    "two or more connections",
-   352
+   374
   ],
   [
    "what to avoid / common mistakes",
-   232
+   240
   ],
   [
    "instruments",
-   194
+   201
   ],
   [
    "notable figures",
-   190
+   198
   ],
   [
    "a hero video",
-   190
+   196
   ],
   [
    "signature moves",
-   190
+   196
   ],
   [
    "the costume & setting section",
-   158
+   166
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (255 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (144 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (116 pages in 30 days)",
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (258 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (148 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (126 pages in 30 days)",
   "profile_long was too short — 600 to 1200 words of continuous prose from the sections (116 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (110 pages in 30 days)"
+  "the insight line was vague — put a person, a place, a year or a number in it (112 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "a verified recording to listen to",
-   "pages": 605,
+   "pages": 634,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "tempo (bpm)",
-   "pages": 592,
+   "pages": 620,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 492,
+   "pages": 519,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 474,
+   "pages": 495,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "meter",
-   "pages": 444,
+   "pages": 466,
    "what_helps": "a source that states the time signature"
   },
   {
    "gap": "two or more connections",
-   "pages": 352,
+   "pages": 374,
    "what_helps": "sources that relate the dance to its relatives"
   }
  ]

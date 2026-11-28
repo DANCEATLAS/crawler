@@ -1,13 +1,85 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Fast movement of legs, arms, and body",
+      "difficulty": "advanced",
+      "footwork": "Very fast and chaotic feet moves with twists and turns",
+      "formation_and_space": "Normally takes place in the form of a battle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Solo improvisation in a face-off battle setting",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Extremely rapid and chaotic foot steps paired with twists and turns",
+          "name": "Fast footwork"
+        }
+      ],
+      "tempo_feel": "Very fast and athletic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Roland TR-808",
+        "MPC"
+      ],
+      "meter": "Syncopated / Ternary feel",
+      "mood_keywords": [
+        "hypnotic",
+        "dark",
+        "abstract",
+        "hyper-rhythmic",
+        "menacing"
+      ],
+      "musical_form": "Cutout sampling with alternating full-time and half-time sections",
+      "reference_recordings": [
+        {
+          "artist": "RP Boo",
+          "title": "Baby Come On"
+        },
+        {
+          "artist": "DJ Rashad and DJ Thadz",
+          "title": "Child Abuse"
+        }
+      ],
+      "rhythm_pattern": "Beat-skipping kick drums, crackling snares, and offbeat claps",
+      "sound_description": "A hyper-rhythmic, fast-paced electronic music around 160 BPM featuring beat-skipping kick drums, syncopated claps, heavy sub-bass lines, and chopped vocal samples.",
+      "tempo_bpm": "150-165 BPM",
+      "vocal_style": "Repetitive vocal chops and acapellas from hip-hop, R&B, and pop, frequently pitch-shifted"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Very fast and chaotic foot movements with twists and turns"
+      ],
+      "formation": "Battle circle or face-off formation",
+      "level_notes": "Advanced difficulty due to extreme speed and physical stamina demands.",
+      "rhythm": "150-165 BPM syncopated offbeat pattern"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c9d688e03a99dfa21e59ada9ac4dbacb80e365bdf4ca5507d06cb050239b255f",
+  "fingerprint": "568d30c4c4455ceb14dfeba4d6cdf1ff313e4ea8b256cc3f2113794052b54f5e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +87,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific spatial pathways and floor patterns do footwork dancers use during battle circles? Evidence needed: Detailed ethnographic documentation or instructional masterclasses on footwork battle mechanics."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +116,18 @@
   ],
   "music_options": [],
   "name": "Footwork",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1ece973d5cfadd11",
+      "next_evidence": "Detailed ethnographic documentation or instructional masterclasses on footwork battle mechanics.",
+      "question": "What specific spatial pathways and floor patterns do footwork dancers use during battle circles?",
+      "source": "https://en.wikipedia.org/wiki/Footwork_(genre)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources note chaotic foot movements and battles, but lack detailed spatial choreography descriptions."
+    }
+  ],
+  "research_file": "research_results/footwork.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +139,13 @@
   "slug": "footwork",
   "sources": [
     "https://en.wikipedia.org/wiki/Footwork_(genre)",
-    "Source: Footwork (genre) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Footwork_(genre)"
+    "https://www.wikidata.org/wiki/Q5466607",
+    "https://es.wikipedia.org/wiki/Footwork_(música)",
+    "https://fr.wikipedia.org/wiki/Footwork_(musique)",
+    "https://pt.wikipedia.org/wiki/Footwork_(gênero)",
+    "https://archive.org/details/smash-hits-1980-10-16",
+    "https://archive.org/details/noevalleyvoice01unse_10",
+    "https://archive.org/details/NPTG19500301"
   ],
   "state": "researching",
   "video_evidence": [

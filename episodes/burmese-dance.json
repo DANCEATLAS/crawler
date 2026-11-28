@@ -1,0 +1,425 @@
+{
+ "slug": "burmese-dance",
+ "name": "Burmese dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-28T19:18:05Z",
+ "researched_at": "2026-11-28T18:36:03Z",
+ "qc_score": 10.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A disciplined graduate of the Inwa School of Performing Arts, emphasizing precision and spiritual respect.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Burmese dance",
+   "Myanmar dance",
+   "Dance in Burma",
+   "Dance of Myanmar"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Burmese dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Human Marionettes of Myanmar",
+     "This is Burmese dance. 2nd century BC to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (5-J6daq7-Xg)",
+     "Title card: Burmese dance · Myanmar · 2nd century BC to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Traced to Pyu and Mon cultures from 200 BC, with significant Thai influence following the 1767 sack of Ayutthaya.",
+     "Modern codification occurred in 1953 by Oba Thaung at the State School of Music in Mandalay."
+    ],
+    "on_screen": [
+     "Map: Myanmar · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Used for spirit propitiation (Nat), devotional offerings to Buddha (Oil Lamp), community fundraising (U Shwe Yoe), and seasonal celebrations like Thingyan.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Characterized by angular, fast-paced movements and a focus on poses.",
+     "Includes specific forms like the Oil Lamp dance (upturned hands), Nat dance (frenzied crescendo), and Yein (synchronized group movement).",
+     "Watch for Oil Lamp Balance, Zawgyi Prance."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (5-J6daq7-Xg)",
+     "Captions name each signature move as it appears",
+     "Formation: Synchronous group lines (Yein), circular or stage-based duets, and solo ritual spaces."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Accompanied by the Hsaing Waing orchestra or drums.",
+     "Music ranges from legato ritual songs to improvised lively tunes for folk dances.",
+     "Listen for the Hsaing Waing, Drums, Gongs.",
+     "A percussive and reactive soundscape dominated by the Hsaing Waing orchestra, characterized by shifts from slow, sedate tempos in Bagan-style dances to intense, rapid beats for spirit possession."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Legato transitioning to frenzied crescendo in ritual contexts."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Varies by character: red silk for Nat mediums, green regal attire for Mount Popa spirits, and wrist-attached wings for Kinnara.",
+     "Often performed in temporary bamboo theaters (Zat Pwe) or at pagoda festivals."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Oba Thaung is credited with codifying the repertoire; U Shwe Yoe and Daw Moe are famous fictitious folk characters.",
+     "Rakhine people of western Burma are noted for their specific devotional Oil Lamp dances.",
+     "Derived from Pyu and Mon traditions; influenced by Thai (Yိုးဒယား) and Khmer court styles; closely linked to Burmese marionette theater."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Burmese dance is parent of Yama Zatdaw: The Burmese version of the Ramayana which introduced Siamese court dance elements.",
+     "Burmese dance is sibling of Khon: Thai masked dance which shares historical roots and character types like the demon and monkey."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Nat dances involve spirit propitiation and mediumship; offerings of green coconut and bananas are traditionally required before performances to appease the Guardian Spirit of Land."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the high-energy world of Burmese dance, where spirit mediums dance to a frenzy and humans mimic the movements of ancient puppets.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Legato transitioning to frenzied crescendo in ritual contexts.",
+  "instruments": [
+   "Hsaing Waing",
+   "Drums",
+   "Gongs"
+  ],
+  "vocal_style": "Duet singing and ritual chanting to the 37 National Nats.",
+  "musical_form": "Improvised tunes for folk styles; structured sequences for court and ritual dance.",
+  "mood": [
+   "energetic",
+   "athletic",
+   "frenzied",
+   "devotional",
+   "jocular"
+  ],
+  "sound_description": "A percussive and reactive soundscape dominated by the Hsaing Waing orchestra, characterized by shifts from slow, sedate tempos in Bagan-style dances to intense, rapid beats for spirit possession.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Burmese dance (Myanmar). Rhythm pattern: Legato transitioning to frenzied crescendo in ritual contexts.. Instruments: Hsaing Waing, Drums, Gongs. Vocal style: Duet singing and ritual chanting to the 37 National Nats.. Form: Improvised tunes for folk styles; structured sequences for court and ritual dance.. Mood: energetic, athletic, frenzied, devotional, jocular. It should sound like this: A percussive and reactive soundscape dominated by the Hsaing Waing orchestra, characterized by shifts from slow, sedate tempos in Bagan-style dances to intense, rapid beats for spirit possession. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "5-J6daq7-Xg",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Varies by character: red silk for Nat mediums, green regal attire for Mount Popa spirits, and wrist-attached wings for Kinnara. Often performed in temporary bamboo theaters (Zat Pwe) or at pagoda festivals.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABurmese_village_ballet.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABurmese_puppetry.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABurmese_traditional_dance.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Burmese_village_ballet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/08/Burmese_village_ballet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Scott O'Connor / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABurmese_village_ballet.jpg",
+    "description": "Village maiden dance performance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Burmese_puppetry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Burmese_puppetry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Nguyen Thanh Long from Sai Gon, Viet Nam / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABurmese_puppetry.jpg",
+    "description": "Burmese traditional puppetry"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Burmese_traditional_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/77/Burmese_traditional_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Nguyen Thanh Long from Sai Gon, Viet Nam / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABurmese_traditional_dance.jpg",
+    "description": "Traditional Burmese dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Nat_pwe_in_Amarapura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/00/Nat_pwe_in_Amarapura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "vive le vélo / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANat_pwe_in_Amarapura.jpg",
+    "description": "in the evening the atmosphere in the nat festival turns even jollier, with the crowd jumping around. according to animistic belief the singer is possessed by one of the 37 nats. i wrote about the festival in the dutch newspaper ad. (Nat pwe in Amarapura)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Shan_peacock_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Shan_peacock_dance.jpg/1280px-Shan_peacock_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Daryn Nakhuda from Seattle, US / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AShan_peacock_dance.jpg",
+    "description": "Shan peacock (kinnari and kinnara) dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Burma_Dance.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Burma_Dance.JPG/1280px-Burma_Dance.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Htoo Tay Zar / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABurma_Dance.JPG",
+    "description": "Young students perform traditional Burmese Dance during opening ceremony of Thingyan Water Festival at Mandalay City Hall in Mandalay, Myanmar on 12 April 2012."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Yangon_Thingyan_2011.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Yangon_Thingyan_2011.jpeg/1280px-Yangon_Thingyan_2011.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Htoo Tay Zar / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AYangon_Thingyan_2011.jpeg",
+    "description": "Burmese women perform traditional dance during closing ceremony of Myanmar New Year Water Festival 2011 in Yangon, Myanmar on 16 April 2011."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Mandalay_Thingyan_Rehearsal_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Mandalay_Thingyan_Rehearsal_2012.JPG/1280px-Mandalay_Thingyan_Rehearsal_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Htoo Tay Zar / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMandalay_Thingyan_Rehearsal_2012.JPG",
+    "description": "Young students wear Burmese dress and perform traditional dance during rehearsal for the opening ceremony of Mandalay City Hall Thingyan Water Festival 2012 in Mandalay, Myanmar on 10 April 2012."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Peacock feathers",
+   "Lighted oil lamps",
+   "Red silk headbands",
+   "Twirling Pathein parasols"
+  ],
+  "costume_notes": "Varies by character: red silk for Nat mediums, green regal attire for Mount Popa spirits, and wrist-attached wings for Kinnara. Often performed in temporary bamboo theaters (Zat Pwe) or at pagoda festivals.",
+  "setting_notes": "Used for spirit propitiation (Nat), devotional offerings to Buddha (Oil Lamp), community fundraising (U Shwe Yoe), and seasonal celebrations like Thingyan.",
+  "map": {
+   "country": "Myanmar",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "20 tutorial(s) of the classical-court family studied",
+  "videos_studied": 20,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "neutralize your pelvis",
+   "shoulders are dropped",
+   "squeeze your abs",
+   "keep your eyes locked",
+   "kick kick kick kick step",
+   "curtsy and bow"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Burmese_dance",
+  "https://www.wikidata.org/wiki/Q4999431"
+ ],
+ "claims_verified": 6,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "55d92c2c707c163f084f339be0af44749f20f526eee7007f9752944006920f7c",
+ "hero_checked": "pass"
+}

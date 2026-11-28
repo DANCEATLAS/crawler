@@ -6,7 +6,7 @@
  "teacher": "KPOP VGK",
  "teacher_key": "kpop-vgk",
  "teacher_score": 15.9,
- "analysed_at": "2026-11-17T21:38:07Z",
+ "analysed_at": "2026-11-28T18:57:01Z",
  "url": "https://www.youtube.com/watch?v=tNYlqluy3Mk",
  "comments_read": 60,
  "schema": 3,
@@ -17,17 +17,18 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher leads the group through step-by-step dance practice, counts out rhythms, and actively reviews details and formations. He corrects positioning and lines, encourages precision, and verifies with music playback.",
-  "signature": "He uses precise count-singing ('pam-pam') to align timing across the whole group.",
+  "teacher_system": "The dance teacher observes learners closely during practice, spots misalignments in formations and timing, and steps in to demonstrate the precise correction. He uses verbal counts and vocal rhythms to guide them, then rechecks the performance with music.",
+  "signature": "Keeps watch like a hawk, meticulously adjusting positions and spacing down to the exact millimeter on stage.",
   "screen": {
    "views": [
     "front",
     "back",
-    "side"
+    "side",
+    "split_screen"
    ],
    "on_screen": [
-    "captions",
-    "counts"
+    "counts",
+    "captions"
    ],
    "editing": [
     "slow_motion",
@@ -37,41 +38,32 @@
   "practices": [
    {
     "tag": "counts_and_rhythm",
-    "t": "0:14",
-    "what": "The teacher and members count and practice the steps slowly in place."
+    "t": "0:19",
+    "what": "The teacher guides the group through the choreography counting aloud and demonstrating the movements step by step."
    },
    {
     "tag": "chunking",
-    "t": "0:57",
-    "what": "The teacher breaks down specific sections of the choreography to focus on footwork and movement."
-   },
-   {
-    "tag": "error_correction",
-    "t": "2:16",
-    "what": "The teacher steps in to rearrange positions and correct formations between members."
+    "t": "1:57",
+    "what": "The teacher stops the practice to focus specifically on the precision of a particular movement phrase."
    },
    {
     "tag": "music_early",
-    "t": "4:32",
-    "what": "The group runs through the choreography accompanied by the music to check timing."
-   },
-   {
-    "tag": "repetition",
-    "t": "6:23",
-    "what": "The teacher has the members repeat the sequence of movements multiple times."
+    "t": "4:33",
+    "what": "The group runs through the choreography with the music to check timing and synchronization."
    }
   ],
   "adaptations": [
    {
-    "t": "2:16",
-    "difficulty": "Formations and spacing getting mixed up during transitions",
-    "adjustment": "Rearranging member positions and clarifying where each person should stand",
-    "kind": "other"
+    "t": "2:50",
+    "difficulty": "Spacing and alignment are off in the formation",
+    "adjustment": "Teacher instructs a member to watch another learner and match their steps to fix the line",
+    "kind": "slower"
    }
   ],
   "entry_points": [
-   "rhythm_first",
-   "feet_first"
+   "watch_first",
+   "count_first",
+   "rhythm_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
@@ -160,32 +152,32 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Learning choreography quickly and staying in sync",
+     "theme": "Making mistakes in front of the dance leader is nerve-wracking",
      "tag": "other",
-     "count": 5
+     "count": 2
     }
    ],
    "clicked": [
     {
-     "theme": "Hobi's detailed guidance and strict teaching style",
+     "theme": "His guidance and fine adjustments are why BTS dances are so synchronized",
      "tag": "other",
-     "count": 8
+     "count": 4
     }
    ],
    "requests": [],
    "meant": [
     {
-     "theme": "Appreciation for J-Hope's crucial role as dance leader",
+     "theme": "He is the core reason for the group's synchronization and success",
      "tag": "other",
-     "count": 12
+     "count": 5
     }
    ]
   },
-  "limits": "The video consists of edited clips from reality shows and behind-the-scenes footage rather than a continuous instructional class."
+  "limits": "Audio is primarily in Korean with English subtitles; video cuts between multiple behind-the-scenes rehearsal clips rather than showing a single continuous lesson."
  },
- "kind": "lesson",
+ "kind": "teacher_talk",
  "status": "ok",
- "attempts": 1,
+ "attempts": 2,
  "mentor_look": {
   "at": "2026-11-17T21:48:46Z",
   "attempts": 1,

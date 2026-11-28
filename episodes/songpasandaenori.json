@@ -1,0 +1,363 @@
+{
+ "slug": "songpasandaenori",
+ "name": "Songpasandaenori",
+ "pack_version": "e2",
+ "built_at": "2026-11-28T19:18:06Z",
+ "researched_at": "2026-11-28T17:47:01Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An elder master from the Seoul Nori Madang preservation group, carrying the dignity of community ritual and sharp comic stagecraft.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Songpasandaenori",
+   "Songpa sandae nori",
+   "송파산대놀이"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Songpasandaenori",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Masks of the Marketplace",
+     "This is Songpasandaenori. 19th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Songpasandaenori · South Korea · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Songpasandae-nori took shape in the 19th century in the Songpa Market, then a preeminent commercial trading center in the Gyeonggi province.",
+     "It preserves the classic Joseon Dynasty form of sandae-nori.",
+     "After the severe Han River flood of 1925 submerged and ruined Songpa Village, surviving residents relocated nearby to Garak-dong and Seokchon-dong, continuing the theatrical tradition."
+    ],
+    "on_screen": [
+     "Map: South Korea · East Asia",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Historically staged during major seasonal holidays including Jeongwol daeboreum (First Full Moon), Dano (Spring festival), Baekjung (All Souls Day / mid-autumn festival), and Chuseok (Harvest festival), as well as occasional royal court command performances.",
+     "During Baekjung festivities, celebrated players gathered to perform for an entire week.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Sangjwachumnori entrance, Aesadangbuknori."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circular town procession following the yeonggi flag, moving to a circular open-air madang stage"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Listen for the small drums (buk).",
+     "A brisk open-air soundscape led by the processional gilgunak military-style marching tunes, moving into episodic rhythmic scenes punctuated by small drum strikes and spoken comedic confrontations."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: gilgunak marching rhythm"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear dramatic theatrical costumes and specialized wooden or papier-mâché masks throughout the parade and play.",
+     "There are thirty-three masks in total, notable for incorporating character types such as the dangnyeo, Haesaneomeom, Sinhalmeom, and mudang (shaman).",
+     "The traditional staging ground was the open-air Songpa Market; today, it is primarily preserved and taught at the outdoor Seoul Nori Madang performance amphitheater near Seokchon Lake."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Songpasandae-nori is the regional metropolitan variant preserved from Songpa, Seoul.",
+     "A branch of sandae-nori developed in Seoul and the central metropolitan region during the Joseon Dynasty, maintained by merchant community lineages in Garak-dong and Seokchon-dong following the 1925 Han River flood."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Songpasandaenori is sibling of Yangju byeolsandae nori: Both are sandae-nori mask dramas from the Seoul and Gyeonggi capital region, distinguished by specific mask sets.",
+     "Songpasandaenori is parent of Talchum: Songpasandae-nori is an urban tradition within the broader Korean talchum mask drama family.",
+     "Songpasandaenori is sibling of Namsadang nori: A related itinerant Korean folk performance tradition sharing festive market settings."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Includes seomakgosa, an opening jesa sacrificial rite offering food, poured liquor, and prostrations to honor the dead, accompanied by protective amulets to ward off misfortune."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "At the edge of Seoul's Seokchon Lake, performers don 33 grotesque masks to invoke ancestral spirits, parody corrupt elites, and revive the resilient theatre of old Songpa Market.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "gilgunak marching rhythm",
+  "instruments": [
+   "small drums (buk)"
+  ],
+  "vocal_style": "Spoken theatrical dialogue, comedic satire, and ceremonial chanting",
+  "musical_form": "Processional prelude followed by episodic dramatic acts (gwajang)",
+  "mood": [
+   "cheerful",
+   "ceremonial",
+   "satirical",
+   "boisterous"
+  ],
+  "sound_description": "A brisk open-air soundscape led by the processional gilgunak military-style marching tunes, moving into episodic rhythmic scenes punctuated by small drum strikes and spoken comedic confrontations.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Songpasandaenori (South Korea). Rhythm pattern: gilgunak marching rhythm. Instruments: small drums (buk). Vocal style: Spoken theatrical dialogue, comedic satire, and ceremonial chanting. Form: Processional prelude followed by episodic dramatic acts (gwajang). Mood: cheerful, ceremonial, satirical, boisterous. It should sound like this: A brisk open-air soundscape led by the processional gilgunak military-style marching tunes, moving into episodic rhythmic scenes punctuated by small drum strikes and spoken comedic confrontations. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear dramatic theatrical costumes and specialized wooden or papier-mâché masks throughout the parade and play. There are thirty-three masks in total, notable for incorporating character types such as the dangnyeo, Haesaneomeom, Sinhalmeom, and mudang (shaman). The traditional staging ground was the open-air Songpa Market; today, it is primarily preserved and taught at the outdoor Seoul Nori Madang performance amphitheater near Seokchon Lake. For the pre-performance jesa ritual, masks are laid out systematically across an offering table laden with diverse ceremonial foods and bowls of poured liquor.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "The painted expressions of the 33 masks laid in sequence on the altar table",
+   "The flapping yeonggi flag leading costumed actors through crowds",
+   "Poured ceremonial bowls of alcohol during the seomakgosa rite",
+   "The open circle of the Seoul Nori Madang arena by the water"
+  ],
+  "costume_notes": "Performers wear dramatic theatrical costumes and specialized wooden or papier-mâché masks throughout the parade and play. There are thirty-three masks in total, notable for incorporating character types such as the dangnyeo, Haesaneomeom, Sinhalmeom, and mudang (shaman). The traditional staging ground was the open-air Songpa Market; today, it is primarily preserved and taught at the outdoor Seoul Nori Madang performance amphitheater near Seokchon Lake. For the pre-performance jesa ritual, masks are laid out systematically across an offering table laden with diverse ceremonial foods and bowls of poured liquor.",
+  "setting_notes": "Historically staged during major seasonal holidays including Jeongwol daeboreum (First Full Moon), Dano (Spring festival), Baekjung (All Souls Day / mid-autumn festival), and Chuseok (Harvest festival), as well as occasional royal court command performances. During Baekjung festivities, celebrated players gathered to perform for an entire week. Theatrical themes confront moral corruption, class oppression, and the hypocrisy of Buddhist monks and yangban nobility, framed by initial talismanic blessings and rites to console departed spirits.",
+  "map": {
+   "country": "South Korea",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "132 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 132,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "1 2 3 4",
+   "step together step",
+   "up knee",
+   "hop back",
+   "1 2 3 4 5 6",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "the music & instruments section",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Songpasandae-nori",
+  "https://www.wikidata.org/wiki/Q7561302"
+ ],
+ "claims_verified": 9,
+ "claims": 9,
+ "polished": false,
+ "input_fingerprint": "e29e6b1e066a3d41fefd661c56078e91c249be68774b0006e2328d0e1f756cd1",
+ "hero_checked": null
+}

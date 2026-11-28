@@ -1,13 +1,86 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "0",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "dholak",
+        "dhantal",
+        "harmonium",
+        "bass guitar",
+        "electric guitar",
+        "synthesizer",
+        "drum machine",
+        "tassa"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "uptempo",
+        "danceable",
+        "festive"
+      ],
+      "musical_form": "fusion of traditional Indian songs over fast Caribbean beats",
+      "reference_recordings": [
+        {
+          "artist": "Ramdew Chaitoe",
+          "title": "King of Suriname"
+        },
+        {
+          "artist": "Dropati",
+          "title": "Let's Sing & Dance"
+        },
+        {
+          "artist": "Sundar Popo",
+          "title": "Nana and Nani"
+        }
+      ],
+      "rhythm_pattern": "dholak beats mixed with soca beat",
+      "sound_description": "Chutney music features a fast, driving tempo driven by the acoustic rhythm of the dholak and dhantal, accompanied by the melodic lead of the harmonium and layered with modern bass guitars, synthesizers, and soca beats.",
+      "tempo_bpm": "uptempo",
+      "vocal_style": "sung in Caribbean English, Caribbean Hindustani, and Bhojpuri"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c8b096bc609ab2cc60a437b89612d93128a5045ddbb229cebd2a30bef7404719",
+  "fingerprint": "97b409111f37ee919dedeab43493c701e61fe0551bbb54677e0d670129c9daf6",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +88,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -34,7 +106,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How are traditional Bhojpuri footwork patterns adapted into modern Caribbean wining in live performance contexts? Evidence needed: Field recordings and dance ethnography archives from Trinidad and Tobago."
     ]
   },
   "id": "atlas:chutney",
@@ -45,7 +118,17 @@
   ],
   "music_options": [],
   "name": "Chutney",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "1d27d1daca7314e1",
+      "next_evidence": "Field recordings and dance ethnography archives from Trinidad and Tobago.",
+      "question": "How are traditional Bhojpuri footwork patterns adapted into modern Caribbean wining in live performance contexts?",
+      "source": "https://en.wikipedia.org/wiki/Chutney_music",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources lack specific choreography and movement descriptions."
+    }
+  ],
   "research_file": "research_results/chutney.json",
   "runtime_active": false,
   "scope": {
@@ -57,8 +140,14 @@
   },
   "slug": "chutney",
   "sources": [
-    "https://en.wikipedia.org/wiki/Chutney_music"
+    "https://en.wikipedia.org/wiki/Chutney_music",
+    "https://www.wikidata.org/wiki/Q1090048",
+    "https://fr.wikipedia.org/wiki/Chutney_(genre_musical)",
+    "https://pt.wikipedia.org/wiki/Música_chutney",
+    "https://de.wikipedia.org/wiki/Chutney_(Musik)",
+    "https://archive.org/details/NPDP19251022",
+    "https://archive.org/details/WWU_1950053101"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

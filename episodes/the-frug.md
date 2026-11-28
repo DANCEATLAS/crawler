@@ -1,6 +1,6 @@
 # The Frug — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): licensed images (3 needed); licensed reference footage
 
@@ -121,7 +121,7 @@ NARRATION: Step 1: Stand with feet shoulder-width apart, knees slightly bent.
 NARRATION: Step 2: Shift weight subtly between feet without lifting them from the floor.
 NARRATION: Footwork from the sources: Stationary; feet stay planted on the floor.
 NARRATION: Drill: Stand still and isolate hips side-to-side.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -192,7 +192,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Incorporate improvised arm movements such as the 'Swim' or 'Monkey' gestures.
 NARRATION: Drill: Practice 'The Swim' arm strokes while fruging.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -265,7 +265,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Keep the upper torso relatively loose to absorb the hip motion.
 NARRATION: Step 2: Incorporate improvised arm movements such as the 'Swim' or 'Monkey' gestures.
 NARRATION: Drill: Practice 'The Aloof' with a frozen upper body.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (2): https://en.wikipedia.org/wiki/Frug_(dance); https://www.wikidata.org/wiki/Q7735386

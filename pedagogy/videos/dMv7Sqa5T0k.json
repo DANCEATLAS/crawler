@@ -1,0 +1,89 @@
+{
+ "youtube_id": "dMv7Sqa5T0k",
+ "slug": "podaraki",
+ "dance": "Podaraki",
+ "title": "Trying to learn the traditional dance \"Podaraki\" - Ποδαράκι",
+ "channel": "Different Together",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-28T19:00:58Z",
+ "url": "https://www.youtube.com/watch?v=dMv7Sqa5T0k",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor demonstrates the traditional dance alongside a group of children in traditional attire. The video uses text overlay to provide historical and structural context.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Title and dance name introduction"
+   },
+   {
+    "t": "0:16",
+    "segment": "context",
+    "note": "Written explanation of Podaraki dance origins and measure"
+   },
+   {
+    "t": "0:35",
+    "segment": "full_demo",
+    "note": "Group dancing Podaraki to traditional music"
+   }
+  ],
+  "counting_scheme": "6 out of 8",
+  "cues": [],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Podaraki basic step",
+    "counts": "6 out of 8",
+    "description": "Striking the foot on the ground characteristically in two alternating patterns"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear written background information about the dance structure and origin"
+   ],
+   "what_hinders": [
+    "Lack of verbal instruction or step-by-step breakdown"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:16",
+    "text": "Little foot."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 35,
+    "end_s": 50,
+    "topic": "movement",
+    "observation": "Instructor and three children in traditional costumes dancing in a circle holding hands.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact footwork details due to wide angle and long skirts",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining traditional group performance with informative text cards explaining cultural context rather than spoken instruction."
+ },
+ "attempts": 1
+}

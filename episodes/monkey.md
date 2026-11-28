@@ -1,6 +1,6 @@
 # Monkey — episode pack
 
-*Status: draft · built 2026-11-27 · judge 8.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 8.55 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
@@ -101,7 +101,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -162,7 +162,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -223,7 +223,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -286,9 +286,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (3): https://en.wikipedia.org/wiki/Twist_(dance); https://www.wikidata.org/wiki/Q6900705; https://archive.org/details/smash-hits-1980-10-02

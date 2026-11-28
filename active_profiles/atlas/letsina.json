@@ -1,0 +1,153 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Pulling too hard on neighbors' hands"
+        ],
+        "counts": "Use 'Apple-Pie-Pie' to teach the 3-2-2 rhythm.",
+        "duration_minutes": "3",
+        "game_version": "The 'Unbreakable Chain'—children try to keep the circle intact while moving to the music."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Fast rotations",
+          "Sudden stops"
+        ],
+        "counts": "Count out the 7/8 rhythm (1-2-3, 1-2, 1-2) clearly.",
+        "seated_version": "Perform the hand-by-hand grip while seated, swaying the upper body and arms to the 7/8 rhythm.",
+        "standing_version": "Dance in a smaller circle with reduced step size to maintain balance.",
+        "tempo_and_range": "Slow the music tempo to allow for deliberate weight shifts."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Dancers perform in a circle or line formation.",
+          "source": "https://en.wikipedia.org/wiki/Letsina"
+        },
+        {
+          "description": "The dance is co-ed, allowing for mixed-gender participation.",
+          "source": "https://en.wikipedia.org/wiki/Letsina"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hand-by-hand grip",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circle or line formation",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None (communal group)",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Breaking the hand-by-hand connection with the group."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "7/8",
+      "mood_keywords": [
+        "energetic",
+        "communal",
+        "rhythmic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Asymmetrical 7/8 (typically grouped as 3-2-2 or 2-2-3)",
+      "sound_description": "The music is defined by a persistent 7/8 rhythm that creates a driving, asymmetrical pulse suitable for group circle dancing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Join hands with neighbors in a circle or line",
+        "Identify the 7/8 rhythm (3+2+2 or 2+2+3)",
+        "Step in synchronization with the group (specific footwork not described in sources)"
+      ],
+      "formation": "Circle or line",
+      "level_notes": "The 7/8 rhythm requires some practice for those used to even meters, but the communal hand-hold assists beginners.",
+      "rhythm": "7/8 meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "d6f31d30d34d28b9e2a1fe14067c579f8ffc46214fb6920da33c6028a31cae68",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: Which specific instruments are traditionally used to play the Letsina in the Kars tradition? Evidence needed: https://en.wikipedia.org/wiki/Letsina"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns and step counts for the Letsina? Evidence needed: https://en.wikipedia.org/wiki/Letsina"
+    ]
+  },
+  "id": "atlas:letsina",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Letsina",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "80abc85079c50239",
+      "next_evidence": "https://en.wikipedia.org/wiki/Letsina",
+      "question": "What are the specific footwork patterns and step counts for the Letsina?",
+      "source": "https://en.wikipedia.org/wiki/Letsina",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only mention the 7/8 rhythm but do not describe the actual steps, which is essential for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "ed18bc30d6a9a4d9",
+      "next_evidence": "https://en.wikipedia.org/wiki/Letsina",
+      "question": "Which specific instruments are traditionally used to play the Letsina in the Kars tradition?",
+      "source": "https://en.wikipedia.org/wiki/Letsina",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately recreate the music profile, the specific instrumentation (e.g., Lyra vs. Tulum) needs to be confirmed."
+    }
+  ],
+  "research_file": "research_results/letsina.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "letsina",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Letsina",
+    "https://www.wikidata.org/wiki/Q106623333"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -39,6 +39,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sokkie",
   "wikidata_qid": "Q7555120",
   "unesco": false,
+  "hero_video_youtube_id": "kycRqEKMQFM",
+  "video_stack": [
+   {
+    "youtube_id": "kycRqEKMQFM",
+    "role": "hero",
+    "title": "Sokkie Basic",
+    "channel": "Lifestyle Dancing",
+    "hd": true
+   },
+   {
+    "youtube_id": "K2ln_JrX3Qc",
+    "role": "rendition",
+    "title": "WEDDING COUPLE: Johannes & Jeanri - Sokkie",
+    "channel": "DancesationStudio",
+    "hd": true
+   },
+   {
+    "youtube_id": "DPfC0ZG-7xA",
+    "role": "rendition",
+    "title": "Billy & Wendy Sokkie HBC",
+    "channel": "Billy Beyneveldt",
+    "hd": true
+   },
+   {
+    "youtube_id": "Gq0rq4URf4Q",
+    "role": "rendition",
+    "title": "How to Sokkie | Basic Sokkie Shuffle for Beginners",
+    "channel": "Sokkie Soutie",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -64,6 +95,12 @@
   ],
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-28T18:52:39Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "two-step",
    "swing",
@@ -255,7 +292,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 13,
   "of": 15,
   "missing": [
    {
@@ -263,28 +300,159 @@
     "label": "the steps with their counts"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
-   {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "Gq0rq4URf4Q",
+   "url": "https://www.youtube.com/watch?v=Gq0rq4URf4Q",
+   "title": "How to Sokkie | Basic Sokkie Shuffle for Beginners",
+   "channel": "Sokkie Soutie",
+   "analysed_on": "2026-11-28",
+   "level": "beginner",
+   "language": "English",
+   "parts": [
+    {
+     "t": "0:05",
+     "seconds": 5,
+     "segment": "intro",
+     "note": "Teacher introduces himself and the channel"
+    },
+    {
+     "t": "0:16",
+     "seconds": 16,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the basic shuffle step solo"
+    },
+    {
+     "t": "2:06",
+     "seconds": 126,
+     "segment": "breakdown",
+     "note": "Demonstration and breakdown with a partner"
+    },
+    {
+     "t": "3:37",
+     "seconds": 217,
+     "segment": "recap",
+     "note": "Summary of the basic shuffle"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Basic Shuffle",
+     "description": "Shuffling forward and backward with weight mostly on the toes."
+    }
+   ],
+   "cues": [
+    "Weight on my toes",
+    "Keep your feet on the ground",
+    "Natural sway"
+   ],
+   "common_mistakes": [
+    "Walking instead of shuffling",
+    "Shifting shoulders back and forth or up and down"
+   ],
+   "safety": [
+    "Make sure I'm not crashing into anyone"
+   ],
+   "teacher_style": "The teacher introduces concepts clearly through solo breakdown before demonstrating with a partner. He emphasizes weight placement and smooth footwork while keeping instructions conversational.",
+   "distinctive_method": "Explaining foot placement by emphasizing that heels can touch the ground but weight remains on the balls of the feet.",
+   "what_works": [
+    "Clear distinction between leader and follower roles",
+    "Demonstrating solo first before adding a partner"
+   ],
+   "what_hinders": [
+    "Lack of counts or musical accompaniment during the breakdown"
+   ],
+   "evidence": [
+    {
+     "start_s": 16,
+     "end_s": 25,
+     "topic": "teaching",
+     "observation": "Teacher stands facing front with hands on hips, explaining the basic shuffle step.",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "exact weight distribution",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 35,
+     "end_s": 45,
+     "topic": "movement",
+     "observation": "Teacher demonstrates foot shuffling with arms extended as if holding a partner.",
+     "viewpoint": "front, mirrored",
+     "cannot_infer": "floor friction",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "kycRqEKMQFM",
+   "url": "https://www.youtube.com/watch?v=kycRqEKMQFM",
+   "analysed_on": "2026-11-28",
+   "observation": {
+    "setting": "dance studio with light wood flooring and blue walls",
+    "dancers": "one adult man and one adult woman (couple)",
+    "formation_and_space": "partners dancing in close proximity, moving around the studio floor",
+    "posture": "upright torso, relaxed knees, weight carried over the feet",
+    "footwork": "stepping forward, backward, and on the spot in time with the music beats, keeping heels elevated during backward steps",
+    "arms_and_hands": "closed partner hold with the man's left hand holding the woman's right hand, right hand placed on the woman's shoulder blade",
+    "hips_and_torso": "natural movement accompanying walking and turning steps",
+    "partnering": "closed dance hold with lead and follow interaction",
+    "levels_jumps_turns": "standing level, turns executed while moving around the room",
+    "costume_and_props": "woman wears a blue and black patterned short-sleeved tunic, black leggings, and tan dance heels; man wears a black long-sleeved shirt and blue jeans",
+    "cannot_infer": "exact weight transfer subtleties and fast footwork details due to video compression and angle",
+    "music_heard": {
+     "instruments": [
+      "electric guitar",
+      "drums",
+      "synthesizer"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "moderate",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 142,
+      "end_s": 160,
+      "what": "basic step combination in closed hold moving forward and backward on the spot"
+     },
+     {
+      "start_s": 196,
+      "end_s": 215,
+      "what": "partner turning together in a circle around the dance floor"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/sokkie.json"
  },
- "fingerprint": "3b2530b64b60ff76",
- "updated": "2026-11-27"
+ "fingerprint": "4501f30921442be3",
+ "updated": "2026-11-28"
 }

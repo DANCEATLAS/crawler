@@ -1,0 +1,349 @@
+{
+ "slug": "shalako",
+ "name": "Shalako",
+ "pack_version": "e2",
+ "built_at": "2026-11-28T19:18:06Z",
+ "researched_at": "2026-11-28T18:46:57Z",
+ "qc_score": 8.95,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Shalako"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Shalako",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Descent from Greasy Hill",
+     "This is Shalako. 1990."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (36d-QFlSKl4)",
+     "Title card: Shalako · United States · 1990"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Shalako is a series of dances and ceremonies conducted by the Native American Zuni people for the Zuni people at the winter solstice, typically following the harvest.",
+     "The Shalako ceremony and feast has been closed to non-native peoples since 1990."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Conducted at the winter solstice following the harvest, the Shalakos bring good fortune, abundant crops, and many children.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Each kiva selects two men, one to portray one of the six Shalakos, and one who alternates in the role, the Shalako Anuthlona.",
+     "They appear after the Council of the Gods complete their journey around the village at dusk.",
+     "They approach the village from the south, coming down Greasy Hill."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (36d-QFlSKl4)",
+     "Signature moves — MISSING",
+     "Formation: Approach from the south, coming down Greasy Hill, entering designated houses"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Chants are learned by the participants starting at the Winter Solstice and are recited during the early December ceremony, recounting the creation of the Zuni and their search for the Middle."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Shulawitsi is portrayed by a young boy carrying cedar bark torches to light preparatory fires.",
+     "The Shalako figures approach from the south, coming down Greasy Hill to enter designated houses in the Zuni village."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The ceremony involves the Koyemshi (father Awan Tatchu and nine offspring), the Council of the Gods including Shulawitsi, Shulawatsi An Tatchu, Saiyatasha, Hututu, Yamuhakto, and the Salimopia Warriors of the Six Directions.",
+     "An indigenous American dance and Zuni ceremonial dance tradition."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The Shalako ceremony and feast has been closed to non-native peoples since 1990, and outsiders may only attend if invited by a Zuni tribal member."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "At the winter solstice, the Zuni people enact the sacred Shalako ceremony, bringing good fortune and creation chants to their village.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": "Chants recounting the creation of the Zuni and their search for the Middle",
+  "musical_form": null,
+  "mood": [
+   "sacred",
+   "ceremonial"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Shalako (United States). Vocal style: Chants recounting the creation of the Zuni and their search for the Middle. Mood: sacred, ceremonial. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "36d-QFlSKl4",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Shulawitsi is portrayed by a young boy carrying cedar bark torches to light preparatory fires. The Shalako figures approach from the south, coming down Greasy Hill to enter designated houses in the Zuni village.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "cedar bark torches",
+   "towering Shalako figures"
+  ],
+  "costume_notes": "Shulawitsi is portrayed by a young boy carrying cedar bark torches to light preparatory fires. The Shalako figures approach from the south, coming down Greasy Hill to enter designated houses in the Zuni village.",
+  "setting_notes": "Conducted at the winter solstice following the harvest, the Shalakos bring good fortune, abundant crops, and many children.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "20 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 20,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "1-2-3",
+   "1 and 2",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "signature moves",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Shalako",
+  "https://www.wikidata.org/wiki/Q17116929"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "c45b3fd0cf509fd0a828a649d97f4001542621e5a71e82039f26f4f4af315eb3",
+ "hero_checked": "pass"
+}

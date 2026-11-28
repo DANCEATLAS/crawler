@@ -1,0 +1,140 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "W-position",
+      "difficulty": "intermediate",
+      "footwork": "Leaps, hops, side steps, and crossing feet",
+      "formation_and_space": "Circle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes leaps and hops",
+      "partnering": "Group circle dance",
+      "posture": "W-position hands, facing center of the circle",
+      "signature_moves": [
+        {
+          "description": "Leap and hop on right, leap and hop on left, with left leg swaying.",
+          "name": "Regular Toulama sequence"
+        },
+        {
+          "description": "Side step right, cross left, jump on both, hop right with leg sway.",
+          "name": "Two Legged Toulama sequence"
+        }
+      ],
+      "tempo_feel": "Fast (120-150 bpm)",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4 or 6/8",
+      "mood_keywords": [
+        "energetic",
+        "rhythmic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by a high tempo and specific meter (2/4 or 6/8) that drives the repetitive, energetic movement of the circle dance.",
+      "tempo_bpm": "120-150",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "W-position hand hold",
+        "Cross right foot over left",
+        "Leap and hop on right",
+        "Leap and hop on left",
+        "Sway left leg"
+      ],
+      "formation": "Circle",
+      "level_notes": "Intermediate: requires coordination of leaps, hops, and leg sways in a group setting.",
+      "rhythm": "2/4 or 6/8"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bf79f6e745df1b95caba86afe031884dd7d8783b746855d4cb68d2ae048e4b04",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What musical instruments are traditionally used to accompany Tovlama? Evidence needed: Ethnomusicological field recordings or regional dance manuals from West Azerbaijan."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:tovlama",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tovlama",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1e119d5837465a9c",
+      "next_evidence": "Ethnomusicological field recordings or regional dance manuals from West Azerbaijan.",
+      "question": "What musical instruments are traditionally used to accompany Tovlama?",
+      "source": "https://en.wikipedia.org/wiki/Tovlama",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source does not specify instrumentation, which is essential for recreating the sound profile."
+    }
+  ],
+  "research_file": "research_results/tovlama.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tovlama",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tovlama",
+    "https://www.wikidata.org/wiki/Q116232999"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,0 +1,118 @@
+{
+ "slug": "snoa",
+ "qc_at": "2026-11-28T18:47:51Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Snoa"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "71"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "139"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Named from the northern Swedish verb meaning 'to turn or rotate', Snoa centers o"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "370"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3054"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/7 rate=0.857"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Sweden"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Well-structured profile accurately reflecting the provided claims on the Swedish Snoa dance."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.6"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 6,
+  "rate": 0.857
+ },
+ "researched_at": "2026-11-28T17:40:30Z"
+}

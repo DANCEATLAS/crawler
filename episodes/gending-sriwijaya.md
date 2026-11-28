@@ -1,8 +1,8 @@
 # Gending Sriwijaya — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A master Palembang dance artist skilled in court rituals and historical South Sumatran traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Golden Welcoming of Srivijaya
 NARRATION: This is Gending Sriwijaya. 1940s (1943–1944).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (1BQM836-e84)
 ON SCREEN: Title card: Gending Sriwijaya · Indonesia · 1940s (1943–1944)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is based on the simpler Tanggai dance and models a traditio
 NARRATION: A troupe of nine female dancers—representing Srivijaya princesses—performs alongside two male guards (pengawal) carrying yellow parasols and gilded spears.
 NARRATION: At the center of the formation is a prime lady who wears the most elaborate costume and holds a tepak container filled with betel leaf, areca nut, and slaked lime (Sekapur Sirih).
 NARRATION: Watch for Sekapur Sirih Offering.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (1BQM836-e84)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Nine female dancers arranged with one central prime lady, flanked by two pridon carriers, guarded by two male dancers with parasols and spears
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '1BQM836-e84', 'checked_by_vision_model': True, 'title': 'Tari Gending Sriwijaya'}
 Images: 5 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain); Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Herusutimbul / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Gilded tanggai finger accessories shimmering under lights, Ornate Aesan Gede songket textiles, Yellow parasols and gilded spears held by male guards, The brass tepak and pridon ritual containers

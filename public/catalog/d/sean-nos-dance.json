@@ -144,6 +144,19 @@
    "checked_at": "2026-11-27T20:18:17Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "uwMVf_CG4Vk",
+    "title": "Sean-Nós Dance Back to Basics: The Connemara Step",
+    "channel": "Siobhan Butler",
+    "level": "beginner",
+    "pos": 1,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "set-dance"
   ]
@@ -412,6 +425,96 @@
  },
  "lessons": [
   {
+   "youtube_id": "o4N0OpHyRxI",
+   "url": "https://www.youtube.com/watch?v=o4N0OpHyRxI",
+   "title": "Sean-nós Dance Lessons - Jigs",
+   "channel": "seannosdance",
+   "analysed_on": "2026-11-28",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4 / and-1-2-3-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Title screen and introduction of the lesson."
+    },
+    {
+     "t": "0:10",
+     "seconds": 10,
+     "segment": "breakdown",
+     "note": "Teacher breaks down the step from behind, counting the rhythm."
+    },
+    {
+     "t": "0:38",
+     "seconds": 38,
+     "segment": "slow_practice",
+     "note": "Practicing the step slowly with accordion accompaniment."
+    },
+    {
+     "t": "1:39",
+     "seconds": 99,
+     "segment": "full_demo",
+     "note": "Demonstrating the full dance step from the side angle to music."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Sean-nós Jig Step",
+     "counts": "1-2-3-4",
+     "description": "Basic jig footwork involving toe steps, shuffles, and hops."
+    }
+   ],
+   "cues": [
+    "toe step shuffle hop down",
+    "and one two three four"
+   ],
+   "teacher_style": "The teacher breaks down Sean-nós dance steps systematically from the back view while counting aloud. She demonstrates the rhythms clearly with her feet before practicing alongside accordion music.",
+   "distinctive_method": "Combining vocal counting with an accordion soundtrack during slow practice.",
+   "what_works": [
+    "Starting from a back-facing view allows easy mirroring of footwork",
+    "Clear verbal counting synchronized with the foot taps"
+   ],
+   "what_hinders": [
+    "No spoken instruction during the demonstration portion"
+   ],
+   "evidence": [
+    {
+     "start_s": 10,
+     "end_s": 38,
+     "topic": "teaching",
+     "observation": "Teacher demonstrates footwork step-by-step facing away from the camera while counting aloud.",
+     "viewpoint": "back, unknown mirror status",
+     "cannot_infer": "upper body posture and facial expressions",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 38,
+     "end_s": 139,
+     "topic": "movement",
+     "observation": "Practicing the routine to accordion music from a rear-facing perspective.",
+     "viewpoint": "back, unknown mirror status",
+     "cannot_infer": "weight distribution details",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 139,
+     "end_s": 213,
+     "topic": "movement",
+     "observation": "Full demonstration of the dance step from a side angle.",
+     "viewpoint": "side, unknown mirror status",
+     "cannot_infer": "exact foot pressure on the wooden floor",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "uwMVf_CG4Vk",
    "url": "https://www.youtube.com/watch?v=uwMVf_CG4Vk",
    "title": "Sean-Nós Dance Back to Basics: The Connemara Step",
@@ -607,6 +710,6 @@
   "polished": false,
   "file": "episodes/sean-nos-dance.json"
  },
- "fingerprint": "a2d6256f929690fb",
- "updated": "2026-11-27"
+ "fingerprint": "995ec7a00bb6f7d5",
+ "updated": "2026-11-28"
 }

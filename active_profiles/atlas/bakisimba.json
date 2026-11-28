@@ -1,13 +1,73 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "incorporates various hand gestures",
+      "difficulty": "not described in sources",
+      "footwork": "energetic footwork including stomps",
+      "formation_and_space": "dancers typically form a circle",
+      "hips_and_torso": "vigorous hip movements",
+      "levels_and_jumps": "incorporates jumps",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Energetic percussive foot strikes.",
+          "name": "Stomps"
+        },
+        {
+          "description": "Vigorous rhythmic movement of the hips.",
+          "name": "Hip movements"
+        }
+      ],
+      "tempo_feel": "vigorous and energetic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Nseege (gourd rattles)",
+        "engoombe (cow horn trumpets)",
+        "Mpuunyi (drum)",
+        "Nankasa (drum)",
+        "Mbuut (drum)",
+        "Ngalabi (drum)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "rhythmic",
+        "celebratory"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A percussion-heavy ensemble featuring the distinct resonance of Ngalabi and other drums, punctuated by the shaking of gourd rattles and the call of cow horn trumpets.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Singing by the group accompanying the dancers."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Circular formation",
+        "Hip movements",
+        "Stomping",
+        "Jumping"
+      ],
+      "formation": "Circle",
+      "level_notes": "not described in sources",
+      "rhythm": "Rhythmic patterns provided by drums and hand clapping."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "28aea4630c2dab3a7af2cbc35c668c1a565946ef326ff2cc0284b9f70682a887",
+  "fingerprint": "c4137d9891ba42d0a14f30f3e86d72e7657b0578eecb7a7b2a00b3d02e2c3a2f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +75,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific rhythmic counts or time signatures used in Bakisimba? Evidence needed: Musicological analysis of Baganda drum patterns."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +105,18 @@
   ],
   "music_options": [],
   "name": "Bakisimba",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "2a55af4290845de4",
+      "next_evidence": "Musicological analysis of Baganda drum patterns.",
+      "question": "What are the specific rhythmic counts or time signatures used in Bakisimba?",
+      "source": "https://en.wikipedia.org/wiki/Bakisimba",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching materials for rhythm and footwork."
+    }
+  ],
+  "research_file": "research_results/bakisimba.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +128,14 @@
   "slug": "bakisimba",
   "sources": [
     "https://en.wikipedia.org/wiki/Bakisimba",
-    "Source: Bakisimba on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Bakisimba"
+    "https://www.wikidata.org/wiki/Q124255713"
   ],
-  "state": "researching",
-  "video_evidence": []
+  "state": "teaching_withheld",
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/p0lxwccSGT8.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=p0lxwccSGT8"
+    }
+  ]
 }

@@ -1,0 +1,175 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Dizziness from over-spinning",
+          "Yanking partner arms during turns"
+        ],
+        "counts": "Counts 1, 2, 3, 4.",
+        "duration_minutes": "15",
+        "game_version": "The Spinning Top game: pairs hold hands and practice two slow turning steps, freezing on beat 4."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid continuous spinning",
+          "Sudden pivot twists that torque the knees",
+          "Unstable partner pulls"
+        ],
+        "counts": "Counts 1, 2, 3, 4 in duple meter.",
+        "seated_version": "Perform alternating foot taps to the 4/4 beat while gently rotating the upper torso in time with partner hands.",
+        "standing_version": "Execute gentle weight shifts from foot to foot on beats 1 through 4, omitting full rotations or taking slow quarter-turns.",
+        "tempo_and_range": "Moderate tempo with small, controlled steps within a narrow base of support."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [
+        {
+          "description": "Maintain duple-meter 4/4 timing during partner rotation rather than shifting into triple meter.",
+          "source": "https://en.wikipedia.org/wiki/Snoa_(dance)"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Mastering the duple-meter pivot-spin step in coordination with a partner.",
+          "source": "https://en.wikipedia.org/wiki/Snoa_(dance)"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Ability to execute continuous pivot turns without loss of balance.",
+          "source": "https://en.wikipedia.org/wiki/Snoa_(dance)"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Couple dance involving rotating pivot turns.",
+          "source": "https://en.wikipedia.org/wiki/Snoa_(dance)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Simple pivot-spin step in 4/4 time.",
+      "formation_and_space": "Couple dance travelling or rotating within a social dance space.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Couple partnering executing a shared pivot-spin.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A simple rotational step executed by the couple in 4/4 time to turn or rotate smoothly.",
+          "name": "Pivot-spin step"
+        }
+      ],
+      "tempo_feel": "Steady 4/4 duple flow.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "4/4",
+      "mood_keywords": [
+        "steady",
+        "rotational",
+        "social",
+        "folk"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "081010 Lohärad: Allspel",
+          "title": "Snurran Snoa"
+        }
+      ],
+      "rhythm_pattern": "Duple-meter 4/4 time",
+      "sound_description": "A duple-meter 4/4 musical accompaniment that provides an even, rotating pulse for social couple dancing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step into partner hold in duple meter (4/4 time)",
+        "Execute a simple pivot-spin step while turning continuously with a partner"
+      ],
+      "formation": "Couple dance",
+      "level_notes": "A beginner starts by establishing steady weight shifts on each beat of the 4/4 meter before coordinating the pivot-spin rotation with a partner.",
+      "rhythm": "4/4 duple meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "baae9151d3e0ed6d39b9d1acf5384da9e5c7fc4d533f32b556846918a0aa8b91",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "Investigate: What is the typical tempo range (BPM) for Snoa tunes such as 'Snurran Snoa' across different regional communities in northern Sweden? Evidence needed: Ethnomusicological recordings and dance tempo transcriptions from Swedish folk music archives."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What exact foot placement and handhold configuration are used by dancers during the pivot-spin step in northern Sweden? Evidence needed: Video analysis of field archival footage or instructional demonstrations of northern Swedish Snoa."
+    ]
+  },
+  "id": "atlas:snoa",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Snoa",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "c77f79307ea5d68a",
+      "next_evidence": "Video analysis of field archival footage or instructional demonstrations of northern Swedish Snoa.",
+      "question": "What exact foot placement and handhold configuration are used by dancers during the pivot-spin step in northern Sweden?",
+      "source": "https://en.wikipedia.org/wiki/Snoa_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Interactive teaching systems require explicit mechanical tracking of feet and upper-body holds during the rotation."
+    },
+    {
+      "domain": "research",
+      "id": "52ece934354540f6",
+      "next_evidence": "Ethnomusicological recordings and dance tempo transcriptions from Swedish folk music archives.",
+      "question": "What is the typical tempo range (BPM) for Snoa tunes such as 'Snurran Snoa' across different regional communities in northern Sweden?",
+      "source": "https://en.wikipedia.org/wiki/Snoa_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Music playback engines and beginner lesson ladders must provide authentic tempo settings."
+    }
+  ],
+  "research_file": "research_results/snoa.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "snoa",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Snoa_(dance)",
+    "https://www.wikidata.org/wiki/Q7547873"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,0 +1,839 @@
+{
+ "slug": "black-bottom",
+ "name": "Black Bottom",
+ "pack_version": "e2",
+ "built_at": "2026-11-28T19:18:05Z",
+ "researched_at": "2026-11-28T18:38:00Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A lively jazz dance historian",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Black Bottom"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Black Bottom",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The 1920s Craze That Dethroned the Charleston",
+     "This is Black Bottom. 1926."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (rQ9qapVmWi4)",
+     "Title card: Black Bottom · United States · 1926"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated in African American communities across the rural South, with early roots in New Orleans during the first decade of the 20th century and connections to Nashville and Atlanta.",
+     "Perry Bradford and Gus Horsley copyrighted the 'Original Black Bottom Dance' in August 1926."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "With its prominent pelvic shifts and uninhibited energy, the Black Bottom was considered provocative and daring by society at large.",
+     "It transitioned from marginalized southern communities and tent shows into a celebrated mainstream performance and social craze.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage: Black Bottom (https://archive.org/details/the-real-black-bottom-dance-1927)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The Black Bottom was danced solo or by couples to syncopated 4/4 jazz rhythms.",
+     "Basic steps included hopping down front, sliding or 'doodling' back, mooching left and right by leading with the hips, placing hands on hips to do the 'mess around', and performing a hobbling 'break a leg' step near the ground.",
+     "It was also characterized by strong pelvic movements and playful rear bumps.",
+     "Watch for The Mooch, Break a Leg."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (rQ9qapVmWi4)",
+     "Captions name each signature move as it appears",
+     "Formation: Danced solo or by couples in ballrooms, cabarets, and stages"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance was performed to upbeat jazz music in a syncopated 4/4 meter.",
+     "Key musical works associated with the dance include Jelly Roll Morton's 'Black Bottom Stomp' and the hit song 'Black Bottom' composed by Ray Henderson, Buddy DeSylva, and Lew Brown, which received numerous commercial recordings in 1926.",
+     "Listen for the piano.",
+     "The pulse is 4/4.",
+     "Syncopated 4/4 jazz music featuring prominent piano, driving rhythm, and playful stomp tempos reminiscent of 1920s revues."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Black Bottom Stomp — Jelly Roll Morton; Original Black Bottom Dance — Gus Horsley and Perry Bradford; Black Bottom Stomp / The Chant — Jelly Roll Morton’s Red Hot Peppers (1926)",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance was performed in cabarets, tent shows, Broadway revues, and mainstream ballrooms.",
+     "Costuming reflected the vibrant 1920s Jazz Age fashion, famously associated with flappers and tuxedoed dancers."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include Ann Pennington and Tom Patricola who popularized it on Broadway, African American dancer and choreographer Billy Pierce who introduced it, collaborator Buddy Bradley, and composers Jelly Roll Morton and Perry Bradford.",
+     "The dance took on many variations across semirural southern tent shows and urban centers like New Orleans, Atlanta, Nashville, and Detroit before being standardized for Broadway stages.",
+     "Rooted in African American traditional dance of the early 20th century, the Black Bottom developed alongside and eventually rivaled the Charleston, later influencing mid-century cinematic choreography and stage revivals."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Black Bottom is variant of charleston: Dance critics noted that the Black Bottom eventually resembled the Charleston and shared its exuberant solo or couple execution."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Hop down front then doodle back",
+     "Mooch to the left and right with hips leading",
+     "Count it: 5-6-7-8 / 1-2-3-4-5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the origins of the Black Bottom from southern African American communities to Broadway stages.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic mooch and hip movements",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic mooch and hip movements.",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A lively jazz dance historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Strong forward and backward movements of the pelvis, hips go first then feet during the mooch, and bumping posteriors together"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 / 1-2-3-4-5-6-7-8. The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Hop down front then doodle back",
+      "Step 2: Mooch to the left and right with hips leading",
+      "Footwork from the sources: Shuffle forward with both feet; hop down front then doodle back; hobbling break a leg step",
+      "Drill: Shuffle forward with hips leading"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 / 1-2-3-4-5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Hands on hips and do the mess around",
+      "Step 4: Break a leg hobbling step near the ground",
+      "Drill: Hands on hips weight shifts"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 / 1-2-3-4-5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic hop and doodle back"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated hip shifts and hand-on-hip upper body movements · For children: Call-and-response stepping game using the mooch and hop steps"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated hip shifts and hand-on-hip upper body movements",
+      "For children: Call-and-response stepping game using the mooch and hop steps"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 / 1-2-3-4-5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic mooch and hip movements.",
+      "With its prominent pelvic shifts and uninhibited energy, the Black Bottom was considered provocative and daring by society at large.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Black Bottom",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Black Bottom.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A lively jazz dance historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Strong forward and backward movements of the pelvis, hips go first then feet during the mooch, and bumping posteriors together"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 / 1-2-3-4-5-6-7-8. The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Hop down front then doodle back",
+      "Step 2: Mooch to the left and right with hips leading"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 / 1-2-3-4-5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Hands on hips and do the mess around",
+      "Step 4: Break a leg hobbling step near the ground",
+      "The Mooch: Shuffle forward with both feet where hips go first, then feet.",
+      "Break a Leg: A hobbling step performed until near the ground."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 / 1-2-3-4-5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated hip shifts and hand-on-hip upper body movements · For children: Call-and-response stepping game using the mooch and hop steps"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated hip shifts and hand-on-hip upper body movements",
+      "For children: Call-and-response stepping game using the mooch and hop steps"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 / 1-2-3-4-5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Danced solo or by couples in ballrooms, cabarets, and stages"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Black Bottom.",
+      "Key figures include Ann Pennington and Tom Patricola who popularized it on Broadway, African American dancer and choreographer Billy Pierce who introduced it, collaborator Buddy Bradley, and composers Jelly Roll Morton and Perry Bradford.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Black Bottom",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Black Bottom.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A lively jazz dance historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Strong forward and backward movements of the pelvis, hips go first then feet during the mooch, and bumping posteriors together"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 / 1-2-3-4-5-6-7-8. The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Hands on hips and do the mess around",
+      "Step 2: Break a leg hobbling step near the ground"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 / 1-2-3-4-5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Mooch: Shuffle forward with both feet where hips go first, then feet.",
+      "Break a Leg: A hobbling step performed until near the ground."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 / 1-2-3-4-5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Seated hip shifts and hand-on-hip upper body movements · For children: Call-and-response stepping game using the mooch and hop steps"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated hip shifts and hand-on-hip upper body movements",
+      "For children: Call-and-response stepping game using the mooch and hop steps"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 / 1-2-3-4-5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Danced solo or by couples in ballrooms, cabarets, and stages"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Black Bottom.",
+      "Rooted in African American traditional dance of the early 20th century, the Black Bottom developed alongside and eventually rivaled the Charleston, later influencing mid-century cinematic choreography and stage revivals.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": null,
+  "instruments": [
+   "piano"
+  ],
+  "vocal_style": null,
+  "musical_form": "jazz standard / stomp",
+  "mood": [
+   "exuberant",
+   "provocative"
+  ],
+  "sound_description": "Syncopated 4/4 jazz music featuring prominent piano, driving rhythm, and playful stomp tempos reminiscent of 1920s revues.",
+  "listen_before_composing": [
+   "Black Bottom Stomp — Jelly Roll Morton",
+   "Original Black Bottom Dance — Gus Horsley and Perry Bradford",
+   "Black Bottom Stomp / The Chant — Jelly Roll Morton’s Red Hot Peppers (1926)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Black Bottom (United States). Meter 4/4. Instruments: piano. Form: jazz standard / stomp. Mood: exuberant, provocative. It should sound like this: Syncopated 4/4 jazz music featuring prominent piano, driving rhythm, and playful stomp tempos reminiscent of 1920s revues. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "rQ9qapVmWi4",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance was performed in cabarets, tent shows, Broadway revues, and mainstream ballrooms. Costuming reflected the vibrant 1920s Jazz Age fashion, famously associated with flappers and tuxedoed dancers.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3A%22The_U.S.A._is_Black_Bottom_Crazy%22_%22Let%27s_Do_Black_Bottom%22_%22The_Latest_Dance_Sensation%22_ad_in_The_Film_Daily%2C_Jul-Dec_1926_%28page_1409_crop%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ASinger-actress_Edith_Wilson_performing_the_Black_Bottom_%28dance%29_in_the_London_stage_production_of_Lew_Leslie%27s_%22Blackbirds%22_%281926%29_%28cropped%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/%22The_U.S.A._is_Black_Bottom_Crazy%22_%22Let%27s_Do_Black_Bottom%22_%22The_Latest_Dance_Sensation%22_ad_in_The_Film_Daily%2C_Jul-Dec_1926_%28page_1409_crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/48/%22The_U.S.A._is_Black_Bottom_Crazy%22_%22Let%27s_Do_Black_Bottom%22_%22The_Latest_Dance_Sensation%22_ad_in_The_Film_Daily%2C_Jul-Dec_1926_%28page_1409_crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "New York, Wid's Films and Film Folks, Inc. / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%22The_U.S.A._is_Black_Bottom_Crazy%22_%22Let%27s_Do_Black_Bottom%22_%22The_Latest_Dance_Sensation%22_ad_in_The_Film_Daily%2C_Jul-Dec_1926_%28page_1409_crop%29.jpg",
+    "description": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Singer-actress_Edith_Wilson_performing_the_Black_Bottom_%28dance%29_in_the_London_stage_production_of_Lew_Leslie%27s_%22Blackbirds%22_%281926%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/52/Singer-actress_Edith_Wilson_performing_the_Black_Bottom_%28dance%29_in_the_London_stage_production_of_Lew_Leslie%27s_%22Blackbirds%22_%281926%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "NYPL Photo Archives - Helen Armstead-Johnson photograph collection - William Davis, photographer. More metadata at image link https://digitalcollections.nypl.org/items/56650ee0-cfbd-0131-5a8b-58d385a7bbd0 / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASinger-actress_Edith_Wilson_performing_the_Black_Bottom_%28dance%29_in_the_London_stage_production_of_Lew_Leslie%27s_%22Blackbirds%22_%281926%29_%28cropped%29.jpg",
+    "description": "Newspaper clipping with caption \"In the hotsy-totsy cabaret: Miss Edith Wilson in the Black Bottom Dance\""
+   }
+  ],
+  "footage": [
+   {
+    "title": "Black Bottom",
+    "url": "https://archive.org/details/the-real-black-bottom-dance-1927",
+    "year": 1927,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "1920s sheet music cover",
+   "Flappers and tuxedoed dancers",
+   "Pelvic shifts and posterior bumps"
+  ],
+  "costume_notes": "The dance was performed in cabarets, tent shows, Broadway revues, and mainstream ballrooms. Costuming reflected the vibrant 1920s Jazz Age fashion, famously associated with flappers and tuxedoed dancers.",
+  "setting_notes": "With its prominent pelvic shifts and uninhibited energy, the Black Bottom was considered provocative and daring by society at large. It transitioned from marginalized southern communities and tent shows into a celebrated mainstream performance and social craze.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "5-6-7-8 / 1-2-3-4-5-6-7-8",
+  "counting_basis": "studied dance-specific tutorial",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 2"
+  ],
+  "cues": [
+   "5-6-7-8",
+   "1-2-3-4-5-6-7-8"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Charleston basic steps",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "Basic Charleston step moving backward"
+   },
+   {
+    "name": "Mess around",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "Hip movement supporting the beat"
+   },
+   {
+    "name": "Slapping move / Slaps",
+    "counts": "8-1-2-3-4-5-6-7",
+    "description": "Off-beat slap movements with arms and legs"
+   }
+  ]
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "licensed images (3 needed)",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Black_Bottom_(dance)",
+  "https://www.wikidata.org/wiki/Q608451",
+  "https://es.wikipedia.org/wiki/Black_bottom",
+  "https://de.wikipedia.org/wiki/Black_Bottom",
+  "https://it.wikipedia.org/wiki/Black_bottom_(danza)"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "fab33b3c01c4970b2072b82dc4bf1247106070ccc45da0bfadc128cee97746e4",
+ "hero_checked": "pass"
+}

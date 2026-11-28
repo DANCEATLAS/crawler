@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "jig",
  "name": "Jig",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IE"
@@ -11,11 +11,19 @@
   "slug": "jig",
   "name": "Jig",
   "country": "Ireland",
+  "country_code": "IE",
+  "flag_emoji": "🇮🇪",
   "region": "British Isles",
+  "family": "folk-circle",
   "era": "16th century",
-  "tagline": "Spain, 16th century — The jig (Irish: port, Scottish Gaelic: port-cruinn) is a form of lively folk dance in compound metre, as we…",
-  "profile": "The jig (Irish: port, Scottish Gaelic: port-cruinn) is a form of lively folk dance in compound metre, as well as the accompanying dance tune. It first gained popularity across the British Isles in the 16th-century, and was adopted on mainland Europe where it eventually became the final movement of the mature Baroque dance suite (the French gigue; Italian and Spanish giga). It is most associated with Irish dance music, Scottish country dance, French Canadian traditional music and dance and the Métis people in Canada.",
-  "insight": "It is second in popularity only to the reel in traditional Irish dance, and in Scottish country dance jigs and reels are the two quicktime dance forms.",
+  "tagline": "Lively compound-meter folk dance spanning British roots, Baroque suites, and Irish step.",
+  "profile": "The jig is a lively folk dance in compound meter that originated across the British Isles in the 16th century before migrating into Baroque suites and global traditions. Second only to the reel in traditional Irish dance, it encompasses rapid footwork in soft shoes, hard shoes, and regional variants across Europe and North America. It bridges early modern theatrical farces and modern competitive feiseanna.",
+  "insight": "In February 1600, English actor William Kempe danced more than a hundred miles from London to Norwich, turning a humble jig into legendary endurance theater.",
+  "aliases": [
+   "port",
+   "gigue",
+   "giga"
+  ],
   "related": [
    "abbots-bromley-horn-dance",
    "acro-dance",
@@ -30,13 +38,17 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Jig",
-   "Source: Jig on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Jig"
+   "Source: Jig on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Jig",
+   "https://www.wikidata.org/wiki/Q1079270",
+   "https://fr.wikipedia.org/wiki/Jig",
+   "https://de.wikipedia.org/wiki/Jig",
+   "https://it.wikipedia.org/wiki/Giga_(danza_popolare)"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Jig",
   "wikidata_qid": "Q1079270",
   "unesco": false,
   "hero_video_youtube_id": "ZYa52bTmpB8",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_albums": [
    {
     "title": "An douar hagus an spéir",
@@ -60,6 +72,52 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 10.0,
+  "last_researched_at": "2026-11-28T18:44:16Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The jig, known in Irish as port and in Scottish Gaelic as port-cruinn, stands as one of the most enduring and vibrant folk dance forms in European and Atlantic history. In the dusty February air of 1600, English actor William Kempe strapped bells to his legs and embarked on a historic morris-style jig all the way from London to Norwich, creating an early modern spectacle that drew roaring crowds. Originally documented in 16th-century England as both a solo folk step and a post-play theatrical farce, the dance migrated rapidly across the British Isles, taking deep root in Ireland and Scotland during the 17th century. On the muddy cobblestones of early modern Irish towns and the windswept Scottish highlands, the dance evolved distinct regional vocabularies characterized by swift, rhythmic foot articulation and an upright, steady torso.\n\nAs the form crossed the English Channel into continental Europe, elite court composers adopted its brisk compound meter to form the final movement of the mature Baroque dance suite, known in France as the gigue and in Italy and Spain as the giga. While court composers stylized the rhythm into intricate polyphony, the vernacular dance persisted vigorously in rural communities. In 19th-century America, the jig underwent a profound transatlantic synthesis when Irish immigrant step dancing collided with the shuffling steps of enslaved African-Americans on minstrel stages. Performers like Master Juba electrified New York venues with syncopated heel-and-toe breaks, giving rise to tap dance, while sand dancers like Kitty O'Neil scraped across sand-strewn stages in mesmerizing rhythm.\n\nToday, the jig thrives within competitive and traditional contexts, most notably in Irish step dance where it branches into light jigs, slip jigs, single jigs, and heavy treble jigs performed in hard shoes. In the Apennine mountains of Italy, regional variants like the giga a due and the ritual Lachera of Rocca Grimalda keep community pairing traditions alive through robust village accordion and piffero accompaniment. Whether danced in soft ghillies across a tournament stage at 116 beats per minute or performed in interlocking country dance sets in Scottish halls, the jig remains an energetic masterclass in rhythmic precision and lower-limb agility.",
+  "album_candidates": [
+   {
+    "title": "Musica tradizionale dell'Appennino",
+    "artist": "I Suonatori delle quattro province",
+    "source": "https://it.wikipedia.org/wiki/Giga_(danza_popolare)",
+    "verified": false
+   },
+   {
+    "title": "I canti rituali, i balli, il piffero",
+    "artist": "Baraban",
+    "source": "https://it.wikipedia.org/wiki/Giga_(danza_popolare)",
+    "verified": false
+   }
+  ],
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/HaymakersJig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/HaymakersJig.jpg/1280px-HaymakersJig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1600,
+    "height": 1200,
+    "license": "Public domain",
+    "license_url": null,
+    "attribution": "Michael A. Zapletal\n\n\n\nPublic domainPublic domainfalsefalse\n\n\n\n\n\nThis work has been released into the public domain by its author, Cuchullain10. This applies worldwide.\nIn some countries this may not be legally possible; if so:\nCuchullain10 grants anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law. / Wikimedia Commons / Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHaymakersJig.jpg",
+    "description": "Irish Céilí Dance- Haymaker´s Jig"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Jig_shoe_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Jig_shoe_3.jpg/1280px-Jig_shoe_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1540,
+    "height": 1609,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Skubik at English Wikipedia / Wikimedia Commons / CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJig_shoe_3.jpg",
+    "description": "Irische Hard Shoes, auch Hornpipe Shoes oder Jig Shoes genannt. Jig Shoes."
+   }
+  ],
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:crowd_wisdom_confident",
   "hero_qc": {
    "verdict": "pass",
@@ -109,7 +167,286 @@
    "belly-dance"
   ]
  },
+ "profile": {
+  "sections": {
+   "origins_and_history": "The term jig derives from the French giguer, meaning to jump, or the Italian giga, with roots in the Old English giga. In 16th-century England, jigs served as popular post-play theatrical entertainments featuring dance and pantomime, exemplified by William Kempe's legendary 1600 endurance dance from London to Norwich. During the 16th and 17th centuries, the dance was adopted in Ireland and Scotland, later crossing to mainland Europe where it became the concluding movement of the Baroque suite. In 19th-century America, the form fused with African-American stepping traditions to shape early tap and sand dancing.",
+   "how_it_is_danced": "The jig is danced primarily in compound meters such as 6/8, 9/8, and 12/8 time. In Irish step dance, light jigs feature rapid footwork where feet stay close to the ground using the rising step, while slip jigs in 9/8 time utilize graceful, high-toe movements that glide across the floor. Treble jigs introduce hard shoes with loud stomps, trebles, and clicks. Regional European variants include the Italian giga danced in pairs or groups, and the Morris jig performed by soloists wielding handkerchiefs or dancing over crossed clay pipes.",
+   "music_and_instruments": "Jig music is characterized by compound time signatures, overwhelmingly structured around two eight-bar parts (AABB). Traditional melodies rely heavily on eighth notes and quarter-eighth note pairs. Historical and contemporary instrumentation includes the fiddle, pipe and tabor, melodeon, five-string banjo, and the Italian piffero, driven by a bouncing, energetic tempo.",
+   "costume_and_setting": "Costumes vary widely by tradition, ranging from modern competitive Irish solo dresses and soft ghillies or hard shoes to traditional Morris dance whites adorned with ribbons and bells. Settings span Elizabethan public theaters, 19th-century minstrel stages, competitive feiseanna halls, and village squares during regional Italian and Occitan festivals.",
+   "occasions_and_meaning": "Jigs are performed during festive community gatherings, competitive feiseanna, theatrical performances, and seasonal rituals. Historically associated with communal celebration and dramatic farce, the dance serves as a vital marker of cultural identity and physical endurance across Irish, Scottish, English, and diaspora communities.",
+   "notable_figures": "Key historical figures include William Kempe, the Elizabethan actor and dancer famous for his London-to-Norwich journey; Master Juba (William Henry Lane), the 19th-century African-American minstrel dancer who revolutionized step dancing; John Diamond, his prominent white competitor; and 19th-century sand dancers Kitty O'Neil and Howard 'Sandman' Sims.",
+   "regional_variants": "Regional expressions include the Irish light, slip, single, and treble jigs; the English Morris jig and bacca-pipes; the Scottish country jig; the French Canadian traditional jig; the Métis jig; and Italian variants such as the Emilian giga, the Quattro province giga, and the ritual Lachera of Rocca Grimalda.",
+   "lineage": "The jig descends from 16th-century British folk dance and theatrical farces, branching into Baroque concert suites (gigue/giga), Irish and Scottish traditional step and country dances, 19th-century minstrel and sand dances, and modern competitive step forms."
+  },
+  "teaching": {
+   "basic_steps": [
+    "Hop on the left foot while lifting the right foot forward",
+    "Hop on the left foot again while bringing the right foot back behind",
+    "Shift weight onto the right foot, leaving the left foot in the air"
+   ],
+   "rhythm": "Compound duple (6/8 time)",
+   "formation": "Solo or paired country dance formation",
+   "level_notes": "Beginners start with light jig rising step at moderate tempos before advancing to hard shoe treble jigs."
+  },
+  "claims": [
+   {
+    "text": "The jig (Irish: port, Scottish Gaelic: port-cruinn) is a form of lively folk dance in compound metre...",
+    "source": "https://en.wikipedia.org/wiki/Jig"
+   },
+   {
+    "text": "It first gained popularity across the British Isles in the 16th-century...",
+    "source": "https://en.wikipedia.org/wiki/Jig"
+   },
+   {
+    "text": "Der Tänzer und Schauspieler William Kempe... tanzte im Februar und März 1600 über hundert Meilen von London nach Norwich.",
+    "source": "https://de.wikipedia.org/wiki/Jig"
+   },
+   {
+    "text": "La giga... è una danza antica di andamento veloce... molto in uso nel XVII e nel XVIII secolo, in tempo ternario.",
+    "source": "https://it.wikipedia.org/wiki/Giga_(danza_popolare)"
+   },
+   {
+    "text": "A light jig is the second-fastest of all jigs. The performer's feet rarely leave the ground for long...",
+    "source": "https://en.wikipedia.org/wiki/Jig"
+   },
+   {
+    "text": "In 19th-century America, the jig was the name adopted for a form of step dancing developed by enslaved African-Americans...",
+    "source": "https://en.wikipedia.org/wiki/Jig"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "images": [
+   {
+    "title": "File:HaymakersJig.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/HaymakersJig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/HaymakersJig.jpg/1280px-HaymakersJig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1600,
+    "height": 1200,
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "Michael A. Zapletal\n\n\n\nPublic domainPublic domainfalsefalse\n\n\n\n\n\nThis work has been released into the public domain by its author, Cuchullain10. This applies worldwide.\nIn some countries this may not ",
+    "description": "Irish Céilí Dance- Haymaker´s Jig",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHaymakersJig.jpg",
+    "attribution": "Michael A. Zapletal\n\n\n\nPublic domainPublic domainfalsefalse\n\n\n\n\n\nThis work has been released into the public domain by its author, Cuchullain10. This applies worldwide.\nIn some countries this may not be legally possible; if so:\nCuchullain10 grants anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law. / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Jig shoe 3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Jig_shoe_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Jig_shoe_3.jpg/1280px-Jig_shoe_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1540,
+    "height": 1609,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Skubik at English Wikipedia",
+    "description": "Irische Hard Shoes, auch Hornpipe Shoes oder Jig Shoes genannt. Jig Shoes.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJig_shoe_3.jpg",
+    "attribution": "Skubik at English Wikipedia / Wikimedia Commons / CC BY-SA 3.0"
+   }
+  ],
+  "confidence": 1.0,
+  "music_profile": {
+   "tempo_bpm": "116",
+   "meter": "6/8",
+   "rhythm_pattern": "compound duple with triplet feel",
+   "instruments": [
+    "fiddle",
+    "pipe and tabor",
+    "five-string banjo",
+    "melodeon"
+   ],
+   "vocal_style": "instrumental or traditional folk singing",
+   "musical_form": "AABB two eight-bar parts",
+   "mood_keywords": [
+    "lively",
+    "energetic",
+    "merry"
+   ],
+   "reference_recordings": [
+    {
+     "title": "Musica tradizionale dell'Appennino",
+     "artist": "I Suonatori delle quattro province"
+    }
+   ],
+   "sound_description": "Rapid bouncing compound meter tunes driven by fiddles and accordions, pulsing with alternating strong and weak beats."
+  },
+  "movement_profile": {
+   "posture": "torso held upright and steady, arms relaxed by sides or placed on hips",
+   "footwork": "rapid toe and heel placements, light hops, and precise clicks",
+   "arms_and_hands": "held close to the sides during Irish step, or framing partners in country dances",
+   "hips_and_torso": "upper body remains largely rigid while feet articulate intricate rhythms",
+   "formation_and_space": "solo performance in competitions or linked chains in country and regional village dances",
+   "partnering": "solo, pairs, or groups in set formations",
+   "tempo_feel": "fast, bouncy compound meter",
+   "signature_moves": [
+    {
+     "name": "rising step",
+     "description": "hop on one foot while tucking the other behind, followed by weight shifts"
+    }
+   ],
+   "levels_and_jumps": "low to moderate jumps, with feet staying close to the floor in light jigs and hard strikes in treble jigs",
+   "difficulty": "intermediate",
+   "what_to_avoid": "excessive upper body movement in Irish variants; harsh landing impacts in hard shoe work"
+  },
+  "episode_brief": {
+   "title_hook": "The Endurance Step",
+   "logline": "Trace the jig from Elizabethan theatrical roads to rapid Irish feiseanna.",
+   "beats": [
+    "William Kempe's 1600 endurance march from London to Norwich",
+    "John Playford's 1651 Dancing Master country dances",
+    "Baroque transformation into the French gigue",
+    "19th-century minstrel and sand jigs in New York",
+    "Modern Irish light, slip, and treble jigs"
+   ],
+   "lesson_ladder": [
+    {
+     "level": "Beginner",
+     "goal": "Master the basic rising step rhythm",
+     "drills": [
+      "Single foot hops",
+      "Hop-back weight shifts",
+      "6/8 timing counts"
+     ]
+    }
+   ],
+   "visual_motifs": [
+    "hard shoes clicking on wooden floor",
+    "feathers on an Elizabethan hat",
+    "dust rising from a rural dance floor"
+   ],
+   "instructor_persona": "A traditional dance researcher with deep rhythmic precision",
+   "music_cue": "A brisk 6/8 fiddle tune opening with an upbeat string attack"
+  },
+  "connections": [
+   {
+    "name": "Reel",
+    "relation": "sibling",
+    "note": "Second primary quicktime dance form in Irish and Scottish traditions."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "Seated foot tapping and heel/toe articulation matching 6/8 meter",
+    "standing_version": "Light supported weight shifts holding a barre or chair",
+    "tempo_and_range": "Reduced tempo, eliminating jumps",
+    "counts": "Slowed 6/8 counts (1-2-3, 4-5-6)",
+    "avoid": [
+     "sudden jumps",
+     "heavy impact hard shoe strikes",
+     "rapid balance shifts"
+    ]
+   },
+   "children": {
+    "game_version": "Follow-the-leader bouncing hops in a circle to fast fiddle music",
+    "duration_minutes": "3",
+    "counts": "1-2-3 counts matching basic light jig hops",
+    "avoid": [
+     "complex cross-ankle footwork",
+     "extended toe-standing without support"
+    ]
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-28T18:44:16Z",
+  "qc_score": 10.0
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 14,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   }
+  ],
+  "via": {
+   "signature_moves": "performance",
+   "study_video": "lesson"
+  }
+ },
  "lessons": [
+  {
+   "youtube_id": "3N2RsCuzFPg",
+   "url": "https://www.youtube.com/watch?v=3N2RsCuzFPg",
+   "title": "Learn Your First Irish Dance Jig: START HERE!",
+   "channel": "Tyler Schwartz Dance",
+   "analysed_on": "2026-11-28",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "2-3-4",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teaser of the jig step"
+    },
+    {
+     "t": "0:14",
+     "seconds": 14,
+     "segment": "context",
+     "note": "Introduction of the instructor and focus on beginner material"
+    },
+    {
+     "t": "0:36",
+     "seconds": 36,
+     "segment": "breakdown",
+     "note": "Detailed breakdown of foot positioning, posture, and the opening step"
+    }
+   ],
+   "steps": [
+    {
+     "name": "beginner jig",
+     "counts": "2-3-4",
+     "description": "Opening step involving a straight jump, up knee, hop, and back placement"
+    }
+   ],
+   "cues": [
+    "inside ankles forward",
+    "straight jump",
+    "up knee",
+    "hop back"
+   ],
+   "images": [
+    "almost as if there's like a string connected to our knee"
+   ],
+   "common_mistakes": [
+    "letting the knee go out or over instead of in line with the belly button",
+    "sickling the foot"
+   ],
+   "teacher_style": "The teacher breaks down the beginner jig step-by-step with verbal anatomical details and close-up angles. He maintains an encouraging, instructional tone throughout.",
+   "distinctive_method": "Combining verbal anatomical alignment cues (knee aligned with belly button) with tight close-up angle shifts to lower body.",
+   "what_works": [
+    "Close-up camera shots on feet and legs",
+    "Clear anatomical references like belly button and inside ankles"
+   ],
+   "what_hinders": [
+    "None noted"
+   ],
+   "evidence": [
+    {
+     "start_s": 52,
+     "end_s": 61,
+     "topic": "movement",
+     "observation": "Instructor demonstrates foot positioning close to the ground, showing inside ankles forward.",
+     "viewpoint": "side, unknown mirror",
+     "cannot_infer": "weight distribution between feet",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
   {
    "youtube_id": "TdLxU3SuXtg",
    "url": "https://www.youtube.com/watch?v=TdLxU3SuXtg",
@@ -198,6 +535,73 @@
    }
   }
  ],
- "fingerprint": "ec61372d646c6fcd",
- "updated": "2026-11-24"
+ "performances": [
+  {
+   "youtube_id": "ZYa52bTmpB8",
+   "url": "https://www.youtube.com/watch?v=ZYa52bTmpB8",
+   "analysed_on": "2026-11-28",
+   "observation": {
+    "setting": "A television stage set designed to look like an Irish pub called 'The Celtic Tap', featuring a wooden floor, tables, chairs, bar counter, and background lighting.",
+    "dancers": "A large mixed group of men and women, appearing to be professional dancers, performing as couples and as a group.",
+    "formation_and_space": "Dynamic group formations shifting between pairs dancing across the floor, dancers standing or dancing on top of tables and the bar counter, and synchronized lines.",
+    "posture": "Upright and energetic torso posture with flexible, bent knees and weight shifting actively between feet.",
+    "footwork": "Rapid rhythmic stepping, heel clicks, leaps, and traveling steps coordinated with fast percussive sounds.",
+    "arms_and_hands": "Arms held in various positions including open out to the sides, hands on hips, clasped with partners, or gesturing dynamically in the air.",
+    "hips_and_torso": "Torso remains upright with energetic movement, spinning and turning with lively dynamic shifts.",
+    "partnering": "Couples hold each other with standard and open ballroom-style holds, spinning, lifting, and dipping each other.",
+    "levels_jumps_turns": "High jumps, leaps, rapid turns, spinning, and brief moments dropping to the floor or kneeling.",
+    "costume_and_props": "Men wear white shirts, dark trousers, and suspenders, some with waistcoats; women wear white blouses with skirts in blue, purple, or green, and dark boots. Tables, chairs, and bar furniture serve as elevated surfaces.",
+    "cannot_infer": "Exact foot articulation and individual weight distribution cannot be determined due to rapid choreography and camera cuts.",
+    "music_heard": {
+     "instruments": [
+      "fiddle",
+      "accordion",
+      "percussion",
+      "drums"
+     ],
+     "vocals": "chorus",
+     "tempo_feel": "fast",
+     "meter_feel": "compound"
+    },
+    "signature_moments": [
+     {
+      "start_s": 30,
+      "end_s": 33,
+      "what": "Dancers perform rapid foot-tapping sequences while moving across the floor in open posture."
+     },
+     {
+      "start_s": 51,
+      "end_s": 54,
+      "what": "A male dancer leaps high onto the bar counter while others cheer and clap below."
+     },
+     {
+      "start_s": 113,
+      "end_s": 116,
+      "what": "Dancers execute synchronized rapid footwork while dropping to one knee on the floor."
+     },
+     {
+      "start_s": 223,
+      "end_s": 226,
+      "what": "Dancers on the bar counter perform synchronized high kicks while partners dance below."
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 4,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/jig.json"
+ },
+ "fingerprint": "09551690f3322ba1",
+ "updated": "2026-11-28"
 }

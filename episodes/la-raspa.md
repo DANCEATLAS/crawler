@@ -1,6 +1,6 @@
 # La Raspa — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -330,7 +330,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5-6-7-8 / y se acabó
 Demonstration: views used by most teachers: front; tempo progression: slow → full
 Cues: derecho izquierdo derecho dos palmadas; para adelante y para atrs; y se acab

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "margamkali",
  "name": "Margamkali",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "IN"
@@ -32,6 +32,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Margamkali",
   "wikidata_qid": "Q6759084",
   "unesco": false,
+  "hero_video_youtube_id": "w6-3dQc05Ks",
+  "video_stack": [
+   {
+    "youtube_id": "w6-3dQc05Ks",
+    "role": "hero",
+    "title": "Margam kali - Kcym kothamangalam on Ulsav 2012",
+    "channel": "Chacko Path",
+    "hd": true
+   },
+   {
+    "youtube_id": "HhRBez6-ot4",
+    "role": "rendition",
+    "title": "Margamkali | മാർഗം കളി, ഒരു ദൃശ്യ - ശ്രാവ്യ മികവോടെ | MaacTV",
+    "channel": "MAC TV",
+    "hd": true
+   },
+   {
+    "youtube_id": "pSTOVFgGznU",
+    "role": "rendition",
+    "title": "കല്യാണത്തിനു അടിപൊളി മാർഗം കളി /Kerala Traditional Margamkali /Wedding/Music by @masterplanuae",
+    "channel": "SHADOWS DANCE STUDIO KOLLAM",
+    "hd": true
+   },
+   {
+    "youtube_id": "xFUV8jXpjBI",
+    "role": "rendition",
+    "title": "Malayalam Fusion Margam kali by Thattikkoottu Team",
+    "channel": "Ramkumar PJ",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -93,6 +124,12 @@
   "sacred_note": "Margamkali is a sacred Christian devotional art form centered on a lit lamp representing Christ. Outsiders should respect the sacred nature of the performance, lyrics, and symbolisms.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-28T18:51:28Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "parichamuttukali"
   ]
@@ -244,30 +281,36 @@
   "movie_ready": false,
   "schema": 5,
   "tradition_status": "living",
+  "footage": [
+   {
+    "title": "File:Margamkali - Saint Thomas Christian dance form.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Margamkali_-_Saint_Thomas_Christian_dance_form.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "attribution": "Mar Thoma Nasrani / Wikimedia Commons / CC BY 3.0",
+    "description": "Margamkali performed during a Syro-Malabar Nasrani wedding at Payyappilly Palakkappilly Tharavad, Arakuzha.",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMargamkali_-_Saint_Thomas_Christian_dance_form.webm",
+    "source": "commons"
+   }
+  ],
   "researched_at": "2026-11-27T19:07:39Z",
   "qc_score": 10.0
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "Margamkali is a sacred Christian devotional art form centered on a lit lamp representing Christ. Outsiders should respect the sacred nature of the performance, lyrics, and symbolisms.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/margamkali.json"
  },
- "fingerprint": "b23a60c5747ea6fe",
- "updated": "2026-11-27"
+ "fingerprint": "976ed5e802ddc427",
+ "updated": "2026-11-28"
 }

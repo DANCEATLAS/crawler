@@ -1,8 +1,8 @@
 # Regency dance — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic historical dance specialist who brings period dance manuals to life with bounce and historical precision.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Bouncy Balls and Scandalous Waltzes: The Real Regency Dance
 NARRATION: This is Regency dance. 1790–1825.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (jU5cNBrsWRI)
 ON SCREEN: Title card: Regency dance · United Kingdom · 1790–1825
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dances of this era were bouncy and lively rather than smooth or solem
 NARRATION: Longways country dances featured two lines of partners performing figures, with the top lady choosing figures and steps before dancing down to the bottom of the set.
 NARRATION: Cotillions were danced in a square, alternating standard changes (such as a right-hand star or moulinet) with unique chorus figures.
 NARRATION: Watch for Setting, Heying, Moulinet.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (jU5cNBrsWRI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Longways facing lines, square sets, or linear reels
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Marching in procession
 NARRATION: Skipping steps
-NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count it: 1-2-3-4.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -108,7 +108,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4 depending on the specific dance.
+NARRATION: Count: 1-2-3-4. The meter is 2/4 or 3/4 depending on the specific dance.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -120,10 +120,10 @@ NARRATION: Step 1: Marching in procession
 NARRATION: Step 2: Skipping steps
 NARRATION: Footwork from the sources: Ranging from simple skipping steps to elaborate ballet-style movements and fancy setting steps
 NARRATION: Drill: Bouncy posture check up on the balls of the feet.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Setting (fancy footwork in place)
@@ -131,7 +131,7 @@ NARRATION: Step 4: Heying (interlacing through lines)
 NARRATION: Drill: Basic skipping in progression line.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -149,7 +149,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated. · For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -179,7 +179,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4 depending on the specific dance.
+NARRATION: Count: 1-2-3-4. The meter is 2/4 or 3/4 depending on the specific dance.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -189,10 +189,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Moulinet / Star (right-hand or left-hand turn in square or set)
 NARRATION: Drill: Stationary setting footwork practice.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Setting: Fancy steps danced in place during reels or country dances.
@@ -201,7 +201,7 @@ NARRATION: Drill: Three-person interlacing hey movement path.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,7 +219,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated. · For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Longways facing lines, square sets, or linear reels
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -249,7 +249,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 3/4 depending on the specific dance.
+NARRATION: Count: 1-2-3-4. The meter is 2/4 or 3/4 depending on the specific dance.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -260,10 +260,10 @@ NEEDS: tempo
 NARRATION: Step 1: Heying (interlacing through lines)
 NARRATION: Step 2: Moulinet / Star (right-hand or left-hand turn in square or set)
 NARRATION: Drill: 3/4 elevated ball-of-foot waltz movement with upper body posture.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Moulinet: A right-hand or left-hand star figure performed in square cotillion sets.
@@ -271,7 +271,7 @@ NARRATION: Drill: 2/4 leap-glide-close sauteuse leap drill.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -289,7 +289,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Execute upper body hand connections, moulinet arm stars, and rhythmic foot tapping while seated. · For children: Follow-the-leader longways progression game where top dancers invent simple skipping patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Longways facing lines, square sets, or linear reels
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -316,7 +316,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'jU5cNBrsWRI', 'checked_by_vision_model': True, 'title': 'Hampshire Regency Dancers - A Ball for Jane Austen'}
 Images: 3 licensed — T. Wilson / Wikimedia Commons / Public domain (Public domain); Drhaggis at English Wikipedia / Wikimedia Commons / Public domain (Public domain); John Hewat of Canberra, Australia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Assembly room dance floor with facing lines of dancers, Feet rising onto the balls of the feet during skips, Hands joining for moulinet star figures, Satirical period caricatures depicting the controversial waltz
@@ -326,9 +326,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the ballroom-partner family studied · videos studied: 16
-Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: walk walk; aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: 4 steps left; 4 steps back to center; 4 steps right; 4 circle; 4 steps forward; 4 steps backward
 
 Sources (2): https://en.wikipedia.org/wiki/Regency_dance; https://www.wikidata.org/wiki/Q7308026

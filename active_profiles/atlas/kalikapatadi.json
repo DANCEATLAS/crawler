@@ -1,0 +1,129 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Enactment of characters representing the Hindu deities Shiva and Kali during the Gajan festival on Nilaratri.",
+          "source": "https://en.wikipedia.org/wiki/Kalikapatadi"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Dramatic enactment between characters representing the deities Kali and Shiva.",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Avoid treating sacred portrayals of deities casually or out of context."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "dramatic",
+        "devotional",
+        "ritualistic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "Technique not described in sources.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "84d17a95c5ce52aba2aea68a6d832da293c0d979af90baa42d6e298070283702",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, formation_and_space",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What specific choreography, movement patterns, and footwork delineate the roles of Kali and Shiva in Kalikapatadi? Evidence needed: Field documentation and ethnographies of Gajan festival performances in the Howrah district."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What musical instruments, rhythmic beats, and tempo accompany the performance during Nilaratri? Evidence needed: Audiovisual recordings of Kalikapatadi performances during Gajan festivities in Howrah."
+    ]
+  },
+  "id": "atlas:kalikapatadi",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Kalikapatadi",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "687b23563c75f947",
+      "next_evidence": "Field documentation and ethnographies of Gajan festival performances in the Howrah district.",
+      "question": "What specific choreography, movement patterns, and footwork delineate the roles of Kali and Shiva in Kalikapatadi?",
+      "source": "https://en.wikipedia.org/wiki/Kalikapatadi",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile and teaching curriculum cannot be developed without documentation of technical steps."
+    },
+    {
+      "domain": "video",
+      "id": "97ae0b82f97844d8",
+      "next_evidence": "Audiovisual recordings of Kalikapatadi performances during Gajan festivities in Howrah.",
+      "question": "What musical instruments, rhythmic beats, and tempo accompany the performance during Nilaratri?",
+      "source": "https://en.wikipedia.org/wiki/Kalikapatadi",
+      "status": "candidate_unreviewed",
+      "why_needed": "A composer or sound designer needs precise instrumentation and rhythmic meters to recreate the ritual music profile."
+    }
+  ],
+  "research_file": "research_results/kalikapatadi.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "kalikapatadi",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kalikapatadi",
+    "https://www.wikidata.org/wiki/Q6352672"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

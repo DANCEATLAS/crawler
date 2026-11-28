@@ -1,6 +1,6 @@
 # The Shake — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Stand independently without a partner.
 NARRATION: Step 2: Initiate a continuous trembling motion through the legs.
 NARRATION: Footwork from the sources: Basically no particular danced moves or steps; legs tremble continuously
 NARRATION: Drill: Stand solo and practice relaxed, continuous shaking through the knees and legs.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -192,7 +192,7 @@ NEEDS: tempo
 NARRATION: Step 1: Stand independently without a partner.
 NARRATION: Step 2: Initiate a continuous trembling motion through the legs.
 NARRATION: Drill: Layer arbitrary arm gesticulations over continuous leg trembling.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -267,7 +267,7 @@ NEEDS: tempo
 NARRATION: Step 1: Allow the head to shake rhythmically or erratically.
 NARRATION: Step 2: Gesticulate arbitrarily with the arms in response to the ostinato guitar beat.
 NARRATION: Drill: Freestyle continuously without using formal steps or fixed patterns.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (2): https://en.wikipedia.org/wiki/The_Shake_(dance); https://www.wikidata.org/wiki/Q25351919

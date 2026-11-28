@@ -1,6 +1,6 @@
 # urban champeta — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Stand close facing partner
 NARRATION: Step 2: Intertwine and cross legs with partner's legs
 NARRATION: Footwork from the sources: Gliding or sliding footwork maintaining continuous contact with the ground without lifting feet
 NARRATION: Drill: Practice sliding weight from side to side without lifting soles from the floor
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -188,7 +188,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand close facing partner
 NARRATION: Step 2: Intertwine and cross legs with partner's legs
 NARRATION: Drill: Step into close partner stance
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -258,7 +258,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Intertwine and cross legs with partner's legs
 NARRATION: Step 2: Shift body weight rhythmically without lifting feet off the ground
 NARRATION: Drill: Execute fluid body waves with partner while keeping feet strictly planted to urban champeta audio tracks
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (2): https://en.wikipedia.org/wiki/Urban_champeta; https://www.wikidata.org/wiki/Q17103754

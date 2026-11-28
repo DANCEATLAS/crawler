@@ -35,6 +35,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Peabody_(dance)",
   "wikidata_qid": "Q7157219",
   "unesco": false,
+  "hero_video_youtube_id": "_VOFkpsxuv0",
+  "video_stack": [
+   {
+    "youtube_id": "_VOFkpsxuv0",
+    "role": "hero",
+    "title": "Peabody",
+    "channel": "Bill Kline",
+    "hd": false
+   },
+   {
+    "youtube_id": "qyyqrpDHw8k",
+    "role": "rendition",
+    "title": "Frankie Manning Peabody",
+    "channel": "Bill Kline",
+    "hd": false
+   },
+   {
+    "youtube_id": "lqw4XJn7RSs",
+    "role": "rendition",
+    "title": "Vintage Peabody Dancing aka Fast Fox Trot from 1932",
+    "channel": "Forrest Outman Phoenix (DanceHistorian.com)",
+    "hd": false
+   },
+   {
+    "youtube_id": "CQcy1zNn6fU",
+    "role": "rendition",
+    "title": "World PeaBody Championships 2019",
+    "channel": "Bobby Tan DanZworld",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": false,
@@ -62,6 +93,14 @@
   ],
   "movie_ready": true,
   "tradition_status": "revived",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-28T18:51:52Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "foxtrot",
    "one-step",
@@ -286,36 +325,179 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 11,
+  "have": 14,
   "of": 15,
   "missing": [
-   {
-    "key": "footwork_counts",
-    "label": "the steps with their counts"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
-    "key": "study_video",
-    "label": "a lesson or performance the machine studied, with timestamps"
-   },
    {
     "key": "picture",
     "label": "a licensed picture or licensed footage"
    }
-  ]
+  ],
+  "via": {
+   "footwork_counts": "lesson",
+   "study_video": "lesson"
+  }
  },
+ "lessons": [
+  {
+   "youtube_id": "WZYjaxILj9Q",
+   "url": "https://www.youtube.com/watch?v=WZYjaxILj9Q",
+   "title": "For The Love of Dance with Sarita Lou - Learning The Peabody with Roddy Caravella",
+   "channel": "LoveofDanceTV",
+   "analysed_on": "2026-11-28",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:10",
+     "seconds": 10,
+     "segment": "context",
+     "note": "Discussion of the 1920s music and history behind the Peabody."
+    },
+    {
+     "t": "0:44",
+     "seconds": 44,
+     "segment": "breakdown",
+     "note": "Instructor explains walking on an even count of one beat per step."
+    },
+    {
+     "t": "0:55",
+     "seconds": 55,
+     "segment": "follow_along",
+     "note": "Group practices walking together to the count."
+    },
+    {
+     "t": "2:47",
+     "seconds": 167,
+     "segment": "breakdown",
+     "note": "Introduction and explanation of the 'pony' or stay-at-home step."
+    },
+    {
+     "t": "3:12",
+     "seconds": 192,
+     "segment": "follow_along",
+     "note": "Couples practice the step together on the dance floor."
+    }
+   ],
+   "steps": [
+    {
+     "name": "Peabody walk",
+     "counts": "1-8",
+     "description": "Walking step with one beat per step in dance position."
+    },
+    {
+     "name": "The pony",
+     "counts": "1-8",
+     "description": "A stay-at-home variation for crowded floors."
+    }
+   ],
+   "cues": [
+    "One beat per step",
+    "Five, six, seven and"
+   ],
+   "images": [
+    "Compression, like a pushup"
+   ],
+   "common_mistakes": [
+    "Follows leaning in and not providing enough resistance"
+   ],
+   "teacher_style": "The teacher explains historical context and breaks down steps with a lively, conversational approach. He combines verbal explanations with group walk-throughs in an outdoor setting.",
+   "distinctive_method": "Explaining steps using real-world situational analogies such as traffic on the floor and real estate.",
+   "what_works": [
+    "Clear verbal counts and direct demonstrations with a group."
+   ],
+   "what_hinders": [
+    "Outdoor ambient noise and crowds can make following specific footwork harder to see."
+   ],
+   "evidence": [
+    {
+     "start_s": 44,
+     "end_s": 54,
+     "topic": "teaching",
+     "observation": "Teacher speaks to a group of participants standing in a line outdoors, gesturing with his hands.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact foot placement of participants in the background",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 58,
+     "end_s": 65,
+     "topic": "movement",
+     "observation": "Participants walk forward together in a line following the teacher's lead.",
+     "viewpoint": "side, unmirrored",
+     "cannot_infer": "individual weight transfer details",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  }
+ ],
+ "performances": [
+  {
+   "youtube_id": "_VOFkpsxuv0",
+   "url": "https://www.youtube.com/watch?v=_VOFkpsxuv0",
+   "analysed_on": "2026-11-28",
+   "observation": {
+    "setting": "ballroom with a wooden dance floor, stage in the background with band equipment and seated audience",
+    "dancers": "one couple, a man and a woman",
+    "formation_and_space": "couple dancing together while moving in a circle and traveling around the floor",
+    "posture": "upright posture with relatively straight knees and weight carried on the balls of the feet",
+    "footwork": "quick stepping and walking patterns matched to the musical beat, including chasses and turns",
+    "arms_and_hands": "closed ballroom hold transitioning to open hand holds and individual arm extensions",
+    "hips_and_torso": "torso remains upright with natural rotational movement during turns",
+    "partnering": "partnered dancing in closed ballroom hold and open position with lead and follow",
+    "levels_jumps_turns": "standing level throughout with rotational turns and spins",
+    "costume_and_props": "man wears a white suit, shirt, bow tie, white shoes, and a straw hat; woman wears a light-colored dress, heels, and a matching hat",
+    "cannot_infer": "exact foot pressure and micro-rhythms due to low resolution and video compression",
+    "music_heard": {
+     "instruments": [
+      "brass",
+      "drums",
+      "piano"
+     ],
+     "vocals": "none",
+     "tempo_feel": "fast",
+     "meter_feel": "duple"
+    },
+    "signature_moments": [
+     {
+      "start_s": 33,
+      "end_s": 42,
+      "what": "the couple enters closed ballroom frame and travels in a rapid circular progression around the floor with quick walking and stepping patterns"
+     },
+     {
+      "start_s": 144,
+      "end_s": 150,
+      "what": "a dynamic spin turn where the woman twirls outward while maintaining a single-hand connection with the man"
+     },
+     {
+      "start_s": 213,
+      "end_s": 224,
+      "what": "the couple separates into an open arm-in-arm line while the man tips his hat to the audience"
+     }
+    ]
+   },
+   "seen": {
+    "from_s": 0,
+    "to_s": 300,
+    "checked_by_a_person": false
+   }
+  }
+ ],
  "episodes": {
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 4,
+  "gaps": 3,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/peabody.json"
  },
- "fingerprint": "345ac85a20ef000c",
- "updated": "2026-11-27"
+ "fingerprint": "9e5bc968836da26a",
+ "updated": "2026-11-28"
 }

@@ -1,6 +1,6 @@
 # Watusi — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed)
 
@@ -119,7 +119,7 @@ NARRATION: Step 1: Stand with knees slightly flexed and head aligned with upper 
 NARRATION: Step 2: Hold arms nearly straight with palms flat and aligned.
 NARRATION: Footwork from the sources: One or two small rhythmic steps forward and backward, or standing stationary simulating feet in sand.
 NARRATION: Drill: Practice slight knee bending while holding upper torso upright.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -189,7 +189,7 @@ NEEDS: tempo
 NARRATION: Step 1: Stand with knees slightly flexed and head aligned with upper torso.
 NARRATION: Step 2: Hold arms nearly straight with palms flat and aligned.
 NARRATION: Drill: Pump straight arms vertically with flat aligned palms.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -261,7 +261,7 @@ NEEDS: tempo
 NARRATION: Step 1: Alternate moving arms up and down in a vertical motion.
 NARRATION: Step 2: Optionally step forward and backward one or two small rhythmic steps.
 NARRATION: Drill: Take 1-2 small rhythmic steps forward and back while pumping arms.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (3): https://en.wikipedia.org/wiki/Watusi_(dance); https://www.wikidata.org/wiki/Q7773761; https://es.wikipedia.org/wiki/Watusi

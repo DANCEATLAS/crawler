@@ -1,0 +1,108 @@
+{
+ "youtube_id": "KP5LspIQctE",
+ "slug": "pas-de-quatre",
+ "dance": "pas de quatre",
+ "title": "Learning Grand Pas de Quatre with Miss Barbara - Robbie 15",
+ "channel": "Robbie Downey",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-28T19:00:06Z",
+ "url": "https://www.youtube.com/watch?v=KP5LspIQctE",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher guides students through ballet choreography, combining demonstration with video review on a tablet. She provides constructive feedback and encourages dancers as they practice.",
+  "language": "English",
+  "level": "intermediate",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "full_demo",
+    "note": "Dancers perform the pas de quatre choreography in the studio."
+   },
+   {
+    "t": "0:34",
+    "segment": "breakdown",
+    "note": "Teacher discusses the ending position and technique with dancers."
+   },
+   {
+    "t": "1:11",
+    "segment": "other",
+    "note": "Teacher and dancers review performance footage on a tablet."
+   },
+   {
+    "t": "1:14",
+    "segment": "full_demo",
+    "note": "Dancers perform the routine again with piano accompaniment."
+   }
+  ],
+  "counting_scheme": "",
+  "cues": [
+   "How do you stop?",
+   "Better."
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Ending position and stopping control"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Grand Pas de Quatre variation",
+    "counts": "",
+    "description": "Ballet variation performed on pointe in the studio"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Visual review of practice on tablet",
+    "Repeating full runs with music"
+   ],
+   "what_hinders": [
+    "Lack of verbal breakdown of steps"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:34",
+    "text": "The last one's not hard, but it's hard to stop."
+   },
+   {
+    "t": "0:53",
+    "text": "How do you stop?"
+   },
+   {
+    "t": "1:23",
+    "text": "Better."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 15,
+    "topic": "movement",
+    "observation": "Dancers performing ballet turns and jumps across the floor in pointe shoes",
+    "viewpoint": "front",
+    "cannot_infer": "exact weight transfer technique",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Using a tablet to review video playback of the dancers' rehearsal on the spot."
+ },
+ "attempts": 1
+}

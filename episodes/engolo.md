@@ -1,6 +1,6 @@
 # Engolo — episode pack
 
-*Status: withheld-chapters · built 2026-11-26 · judge 9.7 · 5/5 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-28 · judge 9.7 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; signature moves; two or more connections
 
@@ -97,7 +97,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 20 tutorial(s) of the african-diaspora family studied · videos studied: 20
+Source: 21 tutorial(s) of the african-diaspora family studied · videos studied: 21
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: bend your knees; short verbal cue the teacher repeats  8 words; 5-6-7-8-hold; lets build it up; now put them together; bend the knees; change the weight; turn on the heels; keep it small; one and two and; put all your weight on your right leg; and out and out and in and in

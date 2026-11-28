@@ -2,7 +2,7 @@
  "slug": "pambiche",
  "name": "Pambiche",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:06Z",
+ "built_at": "2026-11-28T19:18:06Z",
  "researched_at": "2026-11-27T19:42:19Z",
  "qc_score": 9.55,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Pambiche. 20th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (AXKzQbQH2Ps)",
      "Title card: Pambiche · Dominican Republic · 20th century"
     ],
     "music": "theme (30 s)"
@@ -105,7 +105,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (AXKzQbQH2Ps)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -701,7 +701,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "AXKzQbQH2Ps",
+   "checked_by_vision_model": true,
+   "title": "BAILE MERENGUE FOLKLORICO Edwin y Dakhóta"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -772,7 +776,6 @@
  "gaps": [
   "tempo (bpm)",
   "meter",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -790,6 +793,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "10b88a31da9d1f8321c50d50bf33714bb47d671355b0950817ff8f3b8447f234",
- "hero_checked": null
+ "input_fingerprint": "13843a25e221e117b7cb154d1685363b357571e9b8f3b86b4445d06e124ae7ae",
+ "hero_checked": "pass"
 }

@@ -1,6 +1,6 @@
 # Xuc — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; two or more connections
 
@@ -338,9 +338,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (4): https://en.wikipedia.org/wiki/Xuc; https://www.wikidata.org/wiki/Q6169362; https://es.wikipedia.org/wiki/Xuc; https://pt.wikipedia.org/wiki/Xuc

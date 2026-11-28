@@ -1,13 +1,73 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Upturned palms to hold oil lamps; flapping wrist-attached wings in bird dances; use of peacock feathers to banish darkness.",
+      "difficulty": "advanced",
+      "footwork": "Prancing, prancing with a wand, and athletic displays in male duet roles.",
+      "formation_and_space": "Synchronous group lines (Yein), circular or stage-based duets, and solo ritual spaces.",
+      "hips_and_torso": "Synchronized movement of the waist in group Yein dances.",
+      "levels_and_jumps": "Highly athletic elements in male duet dances; otherwise ground-focused with emphasis on posture.",
+      "partnering": "Lover's vows and competitive displays between male and female leads in Zat Pwe.",
+      "posture": "Angular and pose-oriented; often imitates the jointed nature of marionettes.",
+      "signature_moves": [
+        {
+          "description": "Moving with upturned hands to prevent dropping an earthenware saucer with a lighted wick.",
+          "name": "Oil Lamp Balance"
+        },
+        {
+          "description": "Jubilant gamboling and pulverizing herbs with a magic wand.",
+          "name": "Zawgyi Prance"
+        }
+      ],
+      "tempo_feel": "Fast-paced and energetic with sudden stops into static poses.",
+      "what_to_avoid": "Avoid dropping the lamp in devotional dances; avoid meat consumption when performing as the Mount Popa spirit."
+    },
+    "music_profile": {
+      "instruments": [
+        "Hsaing Waing",
+        "Drums",
+        "Gongs"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "athletic",
+        "frenzied",
+        "devotional",
+        "jocular"
+      ],
+      "musical_form": "Improvised tunes for folk styles; structured sequences for court and ritual dance.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Legato transitioning to frenzied crescendo in ritual contexts.",
+      "sound_description": "A percussive and reactive soundscape dominated by the Hsaing Waing orchestra, characterized by shifts from slow, sedate tempos in Bagan-style dances to intense, rapid beats for spirit possession.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Duet singing and ritual chanting to the 37 National Nats."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Angular pose (emphasis on static position)",
+        "Upturned hand balance (for Oil Lamp style)",
+        "Synchronized head and waist movement (Yein style)",
+        "Prancing with a wand (Zawgyi style)",
+        "Drunken mimicry (U Min Gyaw style)"
+      ],
+      "formation": "Varies from solo mediums to large synchronized troupes (Yein) and duets (Zat Pwe).",
+      "level_notes": "The traditional syllabus consists of 125 stages, each ten minutes long, taught over five years.",
+      "rhythm": "Variable; ranges from legato ritual timing to frenzied crescendos."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e2cf8a2e9e99548bd1fd458b9fcc7ec7b9dabd5b668cb38b7a6c37c65ec05910",
+  "fingerprint": "b040ef61ebfa3ddc30e0f38d77d86e44bd795f2b3d112619803206ccd41bbe43",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +75,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns for the 'athletic' male duet dances? Evidence needed: https://en.wikipedia.org/wiki/Burmese_dance"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +93,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific 125 stages of the Oba Thaung syllabus? Evidence needed: https://en.wikipedia.org/wiki/Burmese_dance"
     ]
   },
   "id": "atlas:burmese-dance",
@@ -45,7 +105,26 @@
   ],
   "music_options": [],
   "name": "Burmese dance",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "f0b3b26ab92544a0",
+      "next_evidence": "https://en.wikipedia.org/wiki/Burmese_dance",
+      "question": "What are the specific 125 stages of the Oba Thaung syllabus?",
+      "source": "https://en.wikipedia.org/wiki/Burmese_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a structured learning path for interactive users based on the official national standard."
+    },
+    {
+      "domain": "research",
+      "id": "ec9271f071f889ff",
+      "next_evidence": "https://en.wikipedia.org/wiki/Burmese_dance",
+      "question": "What are the specific footwork patterns for the 'athletic' male duet dances?",
+      "source": "https://en.wikipedia.org/wiki/Burmese_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current source describes them as 'inventive' but lacks technical footwork counts needed for choreography."
+    }
+  ],
   "research_file": "research_results/burmese-dance.json",
   "runtime_active": false,
   "scope": {
@@ -58,8 +137,8 @@
   "slug": "burmese-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Burmese_dance",
-    "Source: Burmese dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Burmese_dance"
+    "https://www.wikidata.org/wiki/Q4999431"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

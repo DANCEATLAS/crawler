@@ -1,0 +1,121 @@
+{
+ "slug": "elaz-g-dik-halay",
+ "qc_at": "2026-11-28T18:49:23Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Elazığ dik halay"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "96"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "167"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "A single folk melody from Elazığ travels across borders, surfacing as Barış Manç"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "434"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2751"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "11/11 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Turkey"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "Nazdarta",
+   "Doro Theou"
+  ],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Profile accurately adheres to the evidence claims regarding the music diaspora. Teaching value is low due to sparse technical documentation, but this is handled honestly."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.7"
+ ],
+ "citation": {
+  "claims": 11,
+  "supported": 11,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-28T18:15:28Z"
+}

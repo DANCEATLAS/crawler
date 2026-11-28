@@ -1,0 +1,125 @@
+{
+ "slug": "dance-of-wallis-and-futuna",
+ "qc_at": "2026-11-28T18:50:14Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 10.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Dance of Wallis and Futuna"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "70"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "167"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1943, the Uvea Museum Association captured the islands' first 16mm color film"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "639"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3098"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Wallis and Futuna"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"fakanau\", \"score\": 1.0, \"via_alias\": \"Mako\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ceremon', 'deities', 'ancestor', 'spirit', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally detailed, fully supported by evidence, culturally respectful, and includes safe adaptations and proper musical and movement breakdowns."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "fakanau",
+  "score": 1.0,
+  "via_alias": "Mako"
+ },
+ "is_sacred": true,
+ "reasons": [
+  "country",
+  "not_duplicate",
+  "judge_score=10.0",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-28T18:27:21Z"
+}

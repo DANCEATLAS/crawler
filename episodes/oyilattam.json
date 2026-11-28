@@ -2,7 +2,7 @@
  "slug": "oyilattam",
  "name": "Oyilattam",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:06Z",
+ "built_at": "2026-11-28T19:18:06Z",
  "researched_at": "2026-11-27T19:24:32Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Oyilattam."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (02D2cfnf05g)",
      "Title card: Oyilattam · India · not described in sources"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for Kerchief waving, Expanding row progression."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (02D2cfnf05g)",
      "Captions name each signature move as it appears",
      "Formation: A row of performers that expands outward as more dancers join."
     ],
@@ -718,7 +718,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "02D2cfnf05g",
+   "checked_by_vision_model": true,
+   "title": "தன்னானே பாட்டொன்னு பாட #கலைத்திருவிழா #oyilattam #kalaithiruvizha #tamilfolkdance#ஒயிலாட்டம்"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -783,8 +787,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "122 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 122,
+  "source": "132 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 132,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -795,24 +799,24 @@
   "cues": [
    "1-2-3-4",
    "5-6-7-8",
-   "step together step",
-   "1 2 3 4 5 6",
    "1 2 3 4",
+   "step together step",
+   "up knee",
+   "hop back",
+   "1 2 3 4 5 6",
    "opa",
    "1-2-3",
    "putar",
    "mundur",
-   "step to the right",
-   "un dos tres",
-   "right together right touch"
+   "step to the right"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -823,7 +827,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage",
   "notable figures",
   "two or more connections",
@@ -836,6 +839,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "8e6c6217b8f32841d9255cacfcf2f743dae7b2cfd324b59ccd7f3ec86a3f5fcb",
- "hero_checked": null
+ "input_fingerprint": "3c90cac3483d06aed2f6e792ace1982e859ee59772f7ab7f4149f9ce344d7d7d",
+ "hero_checked": "pass"
 }

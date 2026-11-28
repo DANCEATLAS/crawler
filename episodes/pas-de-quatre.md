@@ -1,8 +1,8 @@
 # pas de quatre — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.55 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.55 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An exacting ballet maître or répétiteur focused on spatial symmetry, impeccable timing, and historical styling.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Four Ballerinas and a Royal Audience
 NARRATION: This is pas de quatre. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (-5Yp-vToI2E)
 ON SCREEN: Title card: pas de quatre · France · 19th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: In standard classical structure, the pas de quatre begins with an ent
 NARRATION: In Lev Ivanov's 1895 Danse des petits cygnes, the four dancers perform with cross-linked hands, executing precise and dazzling footwork in strict synchronization.
 NARRATION: Combinations can be all-female, all-male, or mixed ensembles.
 NARRATION: Watch for Danse des petits cygnes linked line, Entrée, variations, and coda.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (-5Yp-vToI2E)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Quartet formation, line of four with linked hands, or alternating solo and ensemble staging.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -113,7 +113,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Footwork from the sources: Precise and dazzling footwork, as exemplified by the petit allegro in Danse des petits cygnes.
 NARRATION: Drill: Establish linear and diamond four-dancer staging.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -135,6 +135,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lack of musical synchronization among the four performers; breaking hand holds during linked formations.
+NARRATION: Teachers of this dance warn against: ending position and stopping control
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs. · For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain.
 MUSIC: silence
@@ -180,7 +181,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Drill: Form a four-person line and practice alternating forearm crosses.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -204,6 +205,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lack of musical synchronization among the four performers; breaking hand holds during linked formations.
+NARRATION: Teachers of this dance warn against: ending position and stopping control
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs. · For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain.
 MUSIC: silence
@@ -249,7 +251,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Drill: Execute the ensemble entrée sequence.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -273,6 +275,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lack of musical synchronization among the four performers; breaking hand holds during linked formations.
+NARRATION: Teachers of this dance warn against: ending position and stopping control
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform port de bras, linked hand gestures, and synchronized seated foot tapping in a row of four chairs. · For children: A mirror game where four children link hands and copy simple step-touches and head tilts together without breaking the chain.
 MUSIC: silence
@@ -308,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The setting depends on the theatrical context, ranging from nineteenth-century opera houses such as Her Majesty's Theatre in London to classical and modern stages worldwide. In Danse des petits cygnes, performers appear as cygnets in the lakeside setting of Swan Lake Act 2.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '-5Yp-vToI2E', 'checked_by_vision_model': True, 'title': 'Swan Lake - Pas de Quatre (Dance of the Little Swans) rehearsal'}
 Images: 2 licensed — Éliane Daphy / Institut Interdisciplinaire d'Anthropologie du Contemporain
  / National Center for Scientific Research / Wikimedia Commons / Public domain (Public domain); Carl Van Vechten / Wikimedia Commons / Public domain (Public domain)
 Footage: East Meets West- Little Swans - UCI Arts — https://archive.org/details/antetvca-East_Meets_West-_Little_Swans_UCI_Arts
@@ -319,9 +322,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the classical-court family studied · videos studied: 19
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: how do you stop; better
+Common mistakes the studied teachers name: ending position and stopping control
 
 Sources (4): https://en.wikipedia.org/wiki/Pas_de_quatre_(ballet); https://www.wikidata.org/wiki/Q7141511; https://es.wikipedia.org/wiki/Pas_de_quatre_(ballet); https://fr.wikipedia.org/wiki/Pas_de_quatre

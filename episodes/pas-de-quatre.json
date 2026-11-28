@@ -2,7 +2,7 @@
  "slug": "pas-de-quatre",
  "name": "pas de quatre",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:06Z",
+ "built_at": "2026-11-28T19:18:06Z",
  "researched_at": "2026-11-27T19:14:28Z",
  "qc_score": 9.55,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is pas de quatre. 19th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (-5Yp-vToI2E)",
      "Title card: pas de quatre · France · 19th century to present"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Danse des petits cygnes linked line, Entrée, variations, and coda."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (-5Yp-vToI2E)",
      "Captions name each signature move as it appears",
      "Formation: Quartet formation, line of four with linked hands, or alternating solo and ensemble staging."
     ],
@@ -273,7 +273,7 @@
       "Drill: Establish linear and diamond four-dancer staging."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -321,7 +321,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations."
+      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations.",
+      "Teachers of this dance warn against: ending position and stopping control"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -424,7 +425,7 @@
       "Drill: Form a four-person line and practice alternating forearm crosses."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -472,7 +473,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations."
+      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations.",
+      "Teachers of this dance warn against: ending position and stopping control"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -575,7 +577,7 @@
       "Drill: Execute the ensemble entrée sequence."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -623,7 +625,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations."
+      "Lack of musical synchronization among the four performers; breaking hand holds during linked formations.",
+      "Teachers of this dance warn against: ending position and stopping control"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -728,7 +731,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "-5Yp-vToI2E",
+   "checked_by_vision_model": true,
+   "title": "Swan Lake - Pas de Quatre (Dance of the Little Swans) rehearsal"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -791,45 +798,36 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the classical-court family studied",
-  "videos_studied": 19,
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, side, back",
-   "tempo progression: slow → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front",
+   "tempo progression: full"
   ],
   "cues": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5",
-   "6",
-   "neutralize your pelvis",
-   "shoulders are dropped",
-   "squeeze your abs",
-   "keep your eyes locked",
-   "kick kick kick kick step",
-   "curtsy and bow"
+   "how do you stop",
+   "better"
   ],
-  "common_mistakes": [],
+  "common_mistakes": [
+   "ending position and stopping control"
+  ],
   "segment_order": [
-   "intro",
-   "warmup",
-   "context",
    "breakdown",
-   "slow_practice",
-   "full_demo",
-   "music_practice"
+   "full_demo"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Grand Pas de Quatre variation",
+    "counts": "",
+    "description": "Ballet variation performed on pointe in the studio"
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
   "meter",
-  "a hero video",
   "licensed images (3 needed)",
   "teaching steps written out"
  ],
@@ -842,6 +840,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "141d7364a6434badc9c742b06da493985839ecd143a7ad0da75a80637d981b25",
- "hero_checked": null
+ "input_fingerprint": "cfa3cd77b34f4c1d0a3ef1936e22241ea2a1820ed46841793f1d90952131b865",
+ "hero_checked": "pass"
 }

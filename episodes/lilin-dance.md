@@ -1,8 +1,8 @@
 # Lilin dance — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A disciplined but graceful Minang elder who emphasizes the 'inner calm' required to keep the flame alive.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Flame in the Palm
 NARRATION: This is Lilin dance. Kingdom era to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (oRK2hTRfpi0)
 ON SCREEN: Title card: Lilin dance · Indonesia · Kingdom era to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Dancers hold small plates with burning candles in their palms.
 NARRATION: The primary technique involves rotating the plates on a horizontal plane while the body bends, twists, and turns.
 NARRATION: It is performed in groups, often by women or in male-female pairs, requiring significant balance to keep the candles lit.
 NARRATION: Watch for Plate Rotation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (oRK2hTRfpi0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group dancing, often involving circular or rotating paths.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'oRK2hTRfpi0', 'checked_by_vision_model': True, 'title': 'Tari Lilin Natal, dari Perkauan, 24 Desember 2023'}
 Images: 5 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain); Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Herusutimbul / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Flickering orange light against dark backgrounds, The metallic sheen of the Talempong, Intricate Minangkabau embroidery, Circular hand paths
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Lilin_dance; https://www.wikidata.org/wiki/Q7447193

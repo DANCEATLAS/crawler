@@ -1,0 +1,147 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Social gathering and performance in ethnic clubs and union halls.",
+          "source": "https://en.wikipedia.org/wiki/Slovenian-style_polka"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "ethnic clubs and union halls",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "swinging polka tempo",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "piano accordion",
+        "chromatic accordion",
+        "diatonic button accordion (button box)",
+        "half chromatic accordion",
+        "saxophone",
+        "clarinet",
+        "drums",
+        "bass",
+        "guitar",
+        "banjo",
+        "trumpet",
+        "keyboard"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "swinging",
+        "lively",
+        "communal",
+        "syncopated"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "polka beat with jazz-influenced swing",
+      "sound_description": "A driving, swinging polka rhythm anchored by drums, bass, and rhythmic strumming from a guitar or banjo. The melody and harmony feature rich accordion voicings—often from a diatonic button box or piano accordion—intertwined with fluid runs from a clarinet or saxophone. Early jazz piano influence gives the traditional polka meter a distinct swing feel.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "songs sung in English translated from original Slovene"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "technique not described in sources",
+      "rhythm": "polka beat with swing"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "03738ecb7a53998c5abab84b3b643a6cc10162b8f635e233b8b8af901c9b0f80",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What specific partner dance step patterns or figures distinguish Cleveland-style polka dancing from other regional American polka styles? Evidence needed: Field manual, instructional video, or dance ethnography detailing footwork counts and partner holds in Cleveland polka halls."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:slovenian-style-polka",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Slovenian-style polka",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "bfb9e80883eac458",
+      "next_evidence": "Field manual, instructional video, or dance ethnography detailing footwork counts and partner holds in Cleveland polka halls.",
+      "question": "What specific partner dance step patterns or figures distinguish Cleveland-style polka dancing from other regional American polka styles?",
+      "source": "https://en.wikipedia.org/wiki/Slovenian-style_polka",
+      "status": "candidate_unreviewed",
+      "why_needed": "The available text identifies it as a dance type but documents only musical instrumentation and history, lacking choreographic instruction."
+    }
+  ],
+  "research_file": "research_results/slovenian-style-polka.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "slovenian-style-polka",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Slovenian-style_polka",
+    "https://www.wikidata.org/wiki/Q7541786"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

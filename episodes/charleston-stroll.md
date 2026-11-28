@@ -1,6 +1,6 @@
 # Charleston Stroll — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to
 
@@ -122,7 +122,7 @@ NARRATION: Step 1: Stand with knees slightly bent and feet turned slightly inwar
 NARRATION: Step 2: On counts 1-2, step or touch the left foot back without shifting full weight.
 NARRATION: Footwork from the sources: Alternating weight transfers, toe touches forward and back, inward (knock-kneed) and outward (bow-legged) ankle twists.
 NARRATION: Drill: Practice touch-step forward and back slowly without music.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -193,7 +193,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: On counts 7-8, bring the right foot back into standing position, shifting weight to repeat.
 NARRATION: Drill: Alternate knock-kneed and bow-legged ankle twists on each count.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -266,7 +266,7 @@ NEEDS: tempo
 NARRATION: Step 1: On counts 5-6, touch the right foot forward while swinging left arm forward with bent elbow.
 NARRATION: Step 2: On counts 7-8, bring the right foot back into standing position, shifting weight to repeat.
 NARRATION: Drill: Drill Savoy kicks on counts 5 and 6 at 250+ BPM.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (6): https://en.wikipedia.org/wiki/Charleston_(dance); https://www.wikidata.org/wiki/Q1066703; https://es.wikipedia.org/wiki/Charlestón; https://fr.wikipedia.org/wiki/Charleston_(danse); https://pt.wikipedia.org/wiki/Charleston_(dança); https://de.wikipedia.org/wiki/Charleston_(Tanz)

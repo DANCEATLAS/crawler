@@ -2,7 +2,7 @@
  "slug": "skudrinka",
  "name": "Skudrinka",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:06Z",
+ "built_at": "2026-11-28T19:18:06Z",
  "researched_at": "2026-11-27T19:47:14Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Skudrinka. 20th century (documented 1977)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (d83uk3brHk8)",
      "Title card: Skudrinka · North Macedonia · 20th century (documented 1977)"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Stick hold position, Half-foot turn and jump."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (d83uk3brHk8)",
      "Captions name each signature move as it appears",
      "Formation: Half-circle chain formation traveling along a curved path."
     ],
@@ -706,7 +706,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "d83uk3brHk8",
+   "checked_by_vision_model": false,
+   "title": "Skudrinka (Reuploaded) | Industrial Dance | L-Rina.BAT"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -741,8 +745,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "122 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 122,
+  "source": "132 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 132,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -753,24 +757,24 @@
   "cues": [
    "1-2-3-4",
    "5-6-7-8",
-   "step together step",
-   "1 2 3 4 5 6",
    "1 2 3 4",
+   "step together step",
+   "up knee",
+   "hop back",
+   "1 2 3 4 5 6",
    "opa",
    "1-2-3",
    "putar",
    "mundur",
-   "step to the right",
-   "un dos tres",
-   "right together right touch"
+   "step to the right"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -779,7 +783,7 @@
  },
  "gaps": [
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the costume & setting section",
@@ -792,6 +796,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "b091f3ddbc151cc2e8b7ce70f48a044bff04556f1c0b850af3ca43ee5e94889f",
- "hero_checked": null
+ "input_fingerprint": "6dc0bb0332043a9f0d58e7077e3c4c4d09d0a5d6458128b4704d3ea8e48aae7d",
+ "hero_checked": "fail"
 }

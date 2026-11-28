@@ -1,8 +1,8 @@
 # Sangini — episode pack
 
-*Status: withheld-chapters · built 2026-11-27 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-28 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An elder Brahmin woman who emphasizes the spiritual intent and the stillness of the upper body.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Weight of Devotion
 NARRATION: This is Sangini. Ancient/Mythological origin; documented in modern era.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (oIdtX5zamvo)
 ON SCREEN: Title card: Sangini · Nepal · Ancient/Mythological origin; documented in modern era
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is performed in a circle, usually in a courtyard or temple 
 NARRATION: Dancers move with a slow, rhythmic step while balancing objects such as a Kalash (water pot) on their heads or holding a Diyo (oil lamp) on a plate.
 NARRATION: The dancers are the sole musicians, singing the accompanying songs as they move.
 NARRATION: Watch for Kalash Balancing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (oIdtX5zamvo)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular formation in courtyards or temples
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'oIdtX5zamvo', 'checked_by_vision_model': True, 'title': 'संगिनी लोक नृत्य || Sangini Dance 2019'}
 Images: 1 licensed — Less than 3 / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Copper Kalash vessels, Red saris against green hills, Flickering oil lamps (Diyo), Interlocked or circular formations of women
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Sangini; https://www.wikidata.org/wiki/Q7418014

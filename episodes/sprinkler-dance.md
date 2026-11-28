@@ -1,6 +1,6 @@
 # Sprinkler dance — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.6 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.6 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; the music & instruments section; two or more connections; what to avoid / common mistakes
 
@@ -103,7 +103,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand with legs slightly apart and knees slightly bent
 NARRATION: Step 2: Bend left elbow and place left hand behind head
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -165,7 +165,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Swing right arm back to the right in one motion
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -227,7 +227,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Rotate around the waist in a 180 degree sweep, pulling back three times while moving arm to the left
 NARRATION: Step 2: Swing right arm back to the right in one motion
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -287,9 +287,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (3): https://en.wikipedia.org/wiki/Sprinkler_(dance); https://www.wikidata.org/wiki/Q7581288; https://pt.wikipedia.org/wiki/Sprinkler_(dança)

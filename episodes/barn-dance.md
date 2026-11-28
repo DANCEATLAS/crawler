@@ -1,6 +1,6 @@
 # Barn dance — episode pack
 
-*Status: draft · built 2026-11-27 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 8.95 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; posture, arms and hands; signature moves; teaching steps written out; what to avoid / common mistakes
 

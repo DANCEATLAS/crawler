@@ -1,6 +1,6 @@
 # The Freddie — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.65 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.65 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
@@ -110,7 +110,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand in place with feet together and arms at sides.
 NARRATION: Step 2: Extend the left leg to the side while raising both arms above the head in rhythm.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -172,7 +172,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Repeat the sequence until the song ends.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -234,7 +234,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Extend the right leg to the side while raising both arms above the head in rhythm.
 NARRATION: Step 2: Repeat the sequence until the song ends.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -303,9 +303,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (2): https://en.wikipedia.org/wiki/Freddie_(dance); https://www.wikidata.org/wiki/Q7735184

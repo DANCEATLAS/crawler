@@ -1,6 +1,6 @@
 # Chinese square dancing — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter
 
@@ -121,7 +121,7 @@ NARRATION: Step 1: Stand facing forward in rank-and-file formation matching the 
 NARRATION: Step 2: Observe the lead dancer at the front center to mirror timing and arm elevations
 NARRATION: Footwork from the sources: Low-impact synchronized steps, weight transfers, and stepping in place in rank-and-file formation.
 NARRATION: Drill: Rank-and-file spacing check with peripheral vision
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -191,7 +191,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Coordinate weight shifts and synchronized steps with neighboring dancers across the grid
 NARRATION: Drill: Stepping in place while cycling through three basic arm postures
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -262,7 +262,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Step rhythmically in place in time with the driving pop or march beat
 NARRATION: Step 2: Coordinate weight shifts and synchronized steps with neighboring dancers across the grid
 NARRATION: Drill: Executing whole-group formation holds
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (5): https://en.wikipedia.org/wiki/Square_dancing_(China); https://www.wikidata.org/wiki/Q5100786; https://es.wikipedia.org/wiki/Baile_de_plaza_(China); https://fr.wikipedia.org/wiki/Danse_de_place; https://de.wikipedia.org/wiki/Parktanz

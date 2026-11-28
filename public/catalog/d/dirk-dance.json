@@ -2,20 +2,24 @@
  "contract": "da_dance_v1",
  "slug": "dirk-dance",
  "name": "Dirk dance",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
+  "GB",
   "ID"
  ],
  "card": {
   "slug": "dirk-dance",
   "name": "Dirk dance",
   "country": "Indonesia",
+  "country_code": "GB",
+  "flag_emoji": "🇬🇧",
   "region": "Southeast Asia",
+  "family": "ritual-sacred",
   "era": "1841",
-  "tagline": "Indonesia, 1841 — Scottish dance performed while brandishing a dirk",
-  "profile": "A dirk dance is a Scottish dance performed while brandishing a dirk. It is a solo dance but can be performed by two or more people dancing in unison. The dance is quite different in style from the better known Highland dances and in many ways imitates the use of a dirk in fighting. Research suggests that the dance may, in fact, have originated as a series of moves for training in the use of the dirk. There are records showing that a Dirk Dance was included in Highland Dance competitions in 1841. The dance was recorded by J. F. and T. M.",
-  "insight": "One version of the dance involved attacking and defensive techniques with single-sticks and targe shields and was last performed in Britain in 1850 by two brothers named MacLennan, one of whom was a colleague of Mr Mather.",
+  "tagline": "A Scottish weapon dance imitating combat techniques, recorded in 1841.",
+  "profile": "The dirk dance is a traditional Scottish weapon dance performed while brandishing a dirk. Historical records indicate its inclusion in Highland dance competitions by 1841. It imitates the combative use of a weapon, bearing similarities to martial arts movements.",
+  "insight": "In 1850, two brothers named MacLennan performed a version of the dance using single-sticks and targe shields, which was the last time it was shown in Britain.",
   "related": [
    "legong",
    "saman",
@@ -25,14 +29,23 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Dirk_dance",
-   "Source: Dirk dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Dirk_dance"
+   "Source: Dirk dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Dirk_dance",
+   "https://www.wikidata.org/wiki/Q5280892"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Dirk_dance",
   "wikidata_qid": "Q5280892",
   "unesco": false,
   "hero_video_youtube_id": "YRyakkySqnA",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 9.1,
+  "last_researched_at": "2026-11-28T18:45:31Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "The dirk dance stands as a distinct weapon dance within the Scottish tradition, characterized by its performance while brandishing a dirk. Unlike the better-known Highland dances, its style markedly imitates the use of a weapon in combat. Research suggests that the dance may have originally developed as a series of movements designed for training in the practical use of the dirk. Historical documentation shows that a Dirk Dance was officially included in Highland Dance competitions as early as 1841. Beyond the dirk alone, traditional Highland performance encompassed other weaponry, including the Lochaber axe, the broadsword, flail, and paired targe and dirk.\n\nIn terms of performance structure, the dirk dance is fundamentally a solo exhibition, though historical accounts note it could also be performed by two or more people dancing in unison. The movement vocabulary is combative, with the performer executing knife techniques combined with wrestling-style kicks, trips, and sweeps. Observers have noted that the Highland Dirk Dance closely resembles combative systems such as Indonesian Pentjak Silat. A specific historical version involved attacking and defensive techniques utilizing single-sticks and targe shields; this variant was last performed in Britain in 1850 by two brothers named MacLennan, one of whom was a professional colleague of Mr. D.C. Mather.\n\nVarious regional traditions and alternate variants have been documented over time. Another historical tradition of the dirk dance, which is now considered lost, involved two dancers enacting a dramatic narrative wherein one participant is 'killed' with the dirk before being resurrected by a sorrowful partner. Furthermore, a distinct dirk dance from the Isle of Man was successfully recovered by Manx folk researcher Mona Douglas. In this Manx variant, the dancer wields a dagger rather than a traditional Scottish dirk, demonstrating the broader geographical footprint of weapon-dancing traditions in the British Isles.\n\nThe preservation and documentation of the dirk dance rely heavily on the work of twentieth-century researchers and tradition-bearers. The dance was meticulously recorded by J. F. and T. M. Flett in their foundational book, Traditional Step-Dancing in Scotland. The Fletts learned the dance from Mary Isdale Mac Nab of Vancouver, who had originally acquired it during the 1900s from D.C. Mather, a celebrated Scottish piping and dance champion. Through these lineages, fragments of martial training routines have been preserved as structured dance forms, bridging the gap between historical combat instruction and folk performance art.",
+  "publish_gate": "publish",
+  "movie_ready": false,
+  "tradition_status": "revived",
   "hero_source": "crawler:qc_failed_pending_recrawl",
   "hero_qc": {
    "verdict": "fail",
@@ -47,6 +60,194 @@
    "balinese-dance"
   ]
  },
- "fingerprint": "9f693c51bcd0d6a8",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "The dirk dance originated in Scotland as a traditional weapon dance, with research suggesting it may have started as a series of physical movements intended for training in the use of the dirk. Records confirm that a Dirk Dance was featured in Highland Dance competitions by 1841. It was also performed alongside other weapons such as the Lochaber axe, broadsword, flail, and paired targe and dirk.",
+   "how_it_is_danced": "The dance is performed as a solo or by two or more people dancing in unison while brandishing a dirk. The style imitates combat, featuring knife techniques combined with wrestling-style kicks, trips, and sweeps, bearing resemblance to combative forms like Pentjak Silat.",
+   "music_and_instruments": "Associated with Scottish piping through piping and dance champion D.C. Mather, though specific musical accompaniment scores are not detailed in sources.",
+   "costume_and_setting": "Performers utilize a dirk, dagger, single-sticks, or targe shields depending on the specific regional variant or historical version.",
+   "occasions_and_meaning": "Included in historical Highland Dance competitions and served as a combative training method. A lost two-dancer tradition featured a dramatic narrative of killing and resurrection.",
+   "notable_figures": "Key figures include J. F. and T. M. Flett (researchers), Mary Isdale Mac Nab of Vancouver, D.C. Mather (Scottish piping and dance champion), the MacLennan brothers, and Mona Douglas (Manx folk researcher).",
+   "regional_variants": "Includes the Highland Dirk Dance, a version utilizing single-sticks and targe shields performed by the MacLennan brothers, a two-person narrative version with a resurrection theme, and a Manx variant involving a dagger recovered by Mona Douglas.",
+   "lineage": "Connected to broader Scottish Highland dancing traditions and historical combat training methods, with stylistic parallels noted to martial arts like Pentjak Silat."
+  },
+  "teaching": {
+   "basic_steps": [],
+   "rhythm": "not described in sources",
+   "formation": "solo dance or two or more people dancing in unison",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "A dirk dance is a Scottish dance performed while brandishing a dirk.",
+    "source": "https://en.wikipedia.org/wiki/Dirk_dance"
+   },
+   {
+    "text": "Research suggests that the dance may have originated as training moves for the dirk.",
+    "source": "https://en.wikipedia.org/wiki/Dirk_dance"
+   },
+   {
+    "text": "Records show a Dirk Dance was included in Highland Dance competitions in 1841.",
+    "source": "https://en.wikipedia.org/wiki/Dirk_dance"
+   },
+   {
+    "text": "The dance was recorded by J. F. and T. M. Flett in their book Traditional Step-Dancing in Scotland.",
+    "source": "https://en.wikipedia.org/wiki/Dirk_dance"
+   },
+   {
+    "text": "Another lost tradition of the dirk dance involved two dancers where one is killed and resurrected.",
+    "source": "https://en.wikipedia.org/wiki/Dirk_dance"
+   },
+   {
+    "text": "A dirk dance from the Isle of Man was recovered by Mona Douglas where the dancer wields a dagger.",
+    "source": "https://en.wikipedia.org/wiki/Dirk_dance"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Exact musical score, tempo, and rhythm patterns",
+   "Detailed step-by-step footwork, posture, and spatial floor patterns"
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [
+    "pipes"
+   ],
+   "vocal_style": "not described in sources",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "combative",
+    "martial",
+    "vigorous"
+   ],
+   "reference_recordings": [],
+   "sound_description": "not described in sources"
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "brandishing a dirk or dagger with attacking and defensive techniques",
+   "hips_and_torso": "wrestling style kicks, trips and sweeps",
+   "formation_and_space": "solo dance or two or more people dancing in unison",
+   "partnering": "two dancers in a lost tradition where one is killed and resurrected",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [
+    {
+     "name": "combat imitation and knife techniques",
+     "description": "executing knife techniques combined with wrestling style kicks, trips and sweeps while brandishing a dirk"
+    }
+   ],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "advanced",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Martial Roots of Scotland's Secret Weapon Dance",
+   "logline": "Explore the combative history of the dirk dance, from 1841 competition records to martial training roots.",
+   "beats": [
+    "Introduction to the dirk dance and its weapon-handling origins",
+    "Comparison with Highland dance and martial parallels like Pentjak Silat",
+    "The documentation by J.F. and T.M. Flett via Mary Isdale Mac Nab and D.C. Mather",
+    "The lost two-person resurrection narrative variant",
+    "The Manx dagger dance recovered by Mona Douglas"
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Traditional Scottish dirk",
+    "Targe shields and single-sticks",
+    "Archival book pages of Traditional Step-Dancing in Scotland"
+   ],
+   "instructor_persona": "A Scottish dance historian specializing in traditional step-dancing and weapon forms.",
+   "music_cue": "Traditional Scottish bagpipe music"
+  },
+  "connections": [
+   {
+    "name": "Sword dance",
+    "relation": "sibling",
+    "note": "Listed as a related weapon-based Scottish dance tradition."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "revived",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "0",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-28T18:45:31Z",
+  "qc_score": 9.1
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 6,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "posture",
+    "label": "posture"
+   },
+   {
+    "key": "signature_moves",
+    "label": "two or more signature moves"
+   },
+   {
+    "key": "rhythm",
+    "label": "tempo, meter or the teacher's count"
+   },
+   {
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "hero_video",
+    "label": "a hero video that passed the vision check"
+   },
+   {
+    "key": "study_video",
+    "label": "a lesson or performance the machine studied, with timestamps"
+   }
+  ]
+ },
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 8,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/dirk-dance.json"
+ },
+ "fingerprint": "040146f1d62be1ce",
+ "updated": "2026-11-28"
 }

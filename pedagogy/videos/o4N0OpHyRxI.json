@@ -1,0 +1,118 @@
+{
+ "youtube_id": "o4N0OpHyRxI",
+ "slug": "sean-nos-dance",
+ "dance": "Sean-nós dance",
+ "title": "Sean-nós Dance Lessons - Jigs",
+ "channel": "seannosdance",
+ "viewer_ratio": 0.25,
+ "analysed_at": "2026-11-28T19:02:48Z",
+ "url": "https://www.youtube.com/watch?v=o4N0OpHyRxI",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down Sean-nós dance steps systematically from the back view while counting aloud. She demonstrates the rhythms clearly with her feet before practicing alongside accordion music.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Title screen and introduction of the lesson."
+   },
+   {
+    "t": "0:10",
+    "segment": "breakdown",
+    "note": "Teacher breaks down the step from behind, counting the rhythm."
+   },
+   {
+    "t": "0:38",
+    "segment": "slow_practice",
+    "note": "Practicing the step slowly with accordion accompaniment."
+   },
+   {
+    "t": "1:39",
+    "segment": "full_demo",
+    "note": "Demonstrating the full dance step from the side angle to music."
+   }
+  ],
+  "counting_scheme": "1-2-3-4 / and-1-2-3-4",
+  "cues": [
+   "toe step shuffle hop down",
+   "and one two three four"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "back",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Sean-nós Jig Step",
+    "counts": "1-2-3-4",
+    "description": "Basic jig footwork involving toe steps, shuffles, and hops."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Starting from a back-facing view allows easy mirroring of footwork",
+    "Clear verbal counting synchronized with the foot taps"
+   ],
+   "what_hinders": [
+    "No spoken instruction during the demonstration portion"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:10",
+    "text": "Toe, step, shuffle, hop, down."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 10,
+    "end_s": 38,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates footwork step-by-step facing away from the camera while counting aloud.",
+    "viewpoint": "back, unknown mirror status",
+    "cannot_infer": "upper body posture and facial expressions",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 38,
+    "end_s": 139,
+    "topic": "movement",
+    "observation": "Practicing the routine to accordion music from a rear-facing perspective.",
+    "viewpoint": "back, unknown mirror status",
+    "cannot_infer": "weight distribution details",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 139,
+    "end_s": 213,
+    "topic": "movement",
+    "observation": "Full demonstration of the dance step from a side angle.",
+    "viewpoint": "side, unknown mirror status",
+    "cannot_infer": "exact foot pressure on the wooden floor",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Combining vocal counting with an accordion soundtrack during slow practice."
+ },
+ "attempts": 1
+}

@@ -1,6 +1,6 @@
 # The Mule — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -122,7 +122,7 @@ NARRATION: Step 1: Stand straight with feet a few inches apart facing a partner.
 NARRATION: Step 2: Lift right hand overhead with elbow bent and palms forward.
 NARRATION: Footwork from the sources: Alternating knee lifts to hip height with feet coming down to a neutral stance; later includes kicks.
 NARRATION: Drill: March in place to a 2/4 stride beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -195,7 +195,7 @@ NEEDS: tempo
 NARRATION: Step 1: Repeat the knee lift and arm strike on the left side.
 NARRATION: Step 2: Incorporate turns, kicks, and hand-flapping while maintaining the rhythm.
 NARRATION: Drill: Hold hands overhead with palms forward.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -269,7 +269,7 @@ NEEDS: tempo
 NARRATION: Step 1: Repeat the knee lift and arm strike on the left side.
 NARRATION: Step 2: Incorporate turns, kicks, and hand-flapping while maintaining the rhythm.
 NARRATION: Drill: Introduce a 360-degree turn over four counts.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -339,9 +339,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (5): https://en.wikipedia.org/wiki/Mule_(dance); https://www.wikidata.org/wiki/Q7752610; https://archive.org/details/b10408654; https://archive.org/details/ADN_1917032901; https://archive.org/details/EPE_1917041201

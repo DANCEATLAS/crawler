@@ -1,6 +1,6 @@
 # Uruguayan tango — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -293,7 +293,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the ballroom-partner family studied · videos studied: 16
+Source: 19 tutorial(s) of the ballroom-partner family studied · videos studied: 19
 Counting: 
 Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: walk walk; aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side

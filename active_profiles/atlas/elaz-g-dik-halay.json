@@ -1,0 +1,140 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not described in sources",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "circle dance",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "folk",
+        "popular"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Barış Manço",
+          "title": "İşte Hendek İşte Deve"
+        },
+        {
+          "artist": "Loudmila Khoshaba",
+          "title": "Kochari"
+        },
+        {
+          "artist": "Katy Garbi",
+          "title": "Agkires"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources beyond its association with Shoror folk songs and subsequent modern Turkish, Assyrian, and Greek pop and rock adaptations.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "circle dance",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "34b17ef2b07f7a2c229e3bc2ecc448ad0bfa0b48ef5687c6599231bb8b68f5bf",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific archival recordings or field notes document the exact footwork and musical accompaniment of Elazığ dik halay prior to its modern pop adaptations? Evidence needed: Regional folkloric archives of Elazığ dances."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:elaz-g-dik-halay",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Elazığ dik halay",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "00386fd6c6927fbb",
+      "next_evidence": "Regional folkloric archives of Elazığ dances.",
+      "question": "What specific archival recordings or field notes document the exact footwork and musical accompaniment of Elazığ dik halay prior to its modern pop adaptations?",
+      "source": "https://en.wikipedia.org/wiki/Elaz%C4%B1%C4%9F_dik_halay",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement and musical instruments are entirely undescribed in the current sources."
+    }
+  ],
+  "research_file": "research_results/elaz-g-dik-halay.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "elaz-g-dik-halay",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Elaz%C4%B1%C4%9F_dik_halay",
+    "https://www.wikidata.org/wiki/Q24913703"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

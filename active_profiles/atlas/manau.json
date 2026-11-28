@@ -1,13 +1,59 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Male dancers hold a traditional Kachin sword called a n'htu during the dance",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Procession of dancers in circles around the sacred manau poles",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Senior official leads dancers in circles around sacred manau poles.",
+          "name": "Procession around manau poles"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "loud"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Loud drums provide a beat for the dancers to follow.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Procession in circles around sacred manau poles led by a senior official"
+      ],
+      "formation": "Procession of dancers in circles around the sacred manau poles",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "3d16e47b81b23e473902247d57abf671526150a01b18d022a52595af85d65789",
+  "fingerprint": "a62e26be82d6be18b7efec419c25a2484ef30a2e1ba39538d9aa88be33e90976",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +61,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -34,7 +79,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact step counts and footwork patterns used by dancers during the procession around the manau poles? Evidence needed: Field recordings and instructional videos of traditional Kachin manau dances."
     ]
   },
   "id": "atlas:manau",
@@ -45,8 +91,18 @@
   ],
   "music_options": [],
   "name": "Manau",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "fba9068fddcb547e",
+      "next_evidence": "Field recordings and instructional videos of traditional Kachin manau dances.",
+      "question": "What are the exact step counts and footwork patterns used by dancers during the procession around the manau poles?",
+      "source": "https://en.wikipedia.org/wiki/Manau_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Essential for precise teaching and movement recreation."
+    }
+  ],
+  "research_file": "research_results/manau.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +114,8 @@
   "slug": "manau",
   "sources": [
     "https://en.wikipedia.org/wiki/Manau_(dance)",
-    "Source: Manau (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Manau_(dance)"
+    "https://www.wikidata.org/wiki/Q17009351"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

@@ -1,0 +1,157 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "",
+        "duration_minutes": "",
+        "game_version": ""
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "fast turns",
+          "abrupt changes of direction",
+          "over-stretching the circle chain"
+        ],
+        "counts": "4-count quaternary pulse matching the zabumba downbeat.",
+        "seated_version": "Sit in a circle holding hands or a light cloth tether, tapping the left foot forward on the beat.",
+        "standing_version": "Stand in a stationary circle holding hands with reduced travel distance, focusing on the left-foot stamp.",
+        "tempo_and_range": "Maintain slow tempo with reduced step range and smaller spatial movement."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "holding hands in a large ring, individuals may make choreographies with hands",
+      "difficulty": "beginner",
+      "footwork": "pisan forte com o pé esquerdo à frente, dois passos para trás e dois passos para a frente",
+      "formation_and_space": "large ring on beaches and squares, moving to the right, inner ring forms if too large",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "community circle with no fixed partners",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Stepping clockwise in the circle while stamping the left foot forward on the heavy zabumba beat, moving two steps back and two steps forward.",
+          "name": "Left-foot stamp and step sequence"
+        }
+      ],
+      "tempo_feel": "slow",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "zabumba",
+        "tarol",
+        "ganzá",
+        "maracá",
+        "pandeiro",
+        "cuíca",
+        "accordion"
+      ],
+      "meter": "quaternário simples",
+      "mood_keywords": [
+        "slow",
+        "community",
+        "repeated",
+        "celebratory"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Lia de Itamaracá",
+          "title": "Lia de Itamaracá Repertoire"
+        }
+      ],
+      "rhythm_pattern": "toque grave da zabumba na cabeça do compasso e toques abafados nos outros tempos",
+      "sound_description": "A slow, unhurried quaternary pulse driven by the heavy bass thud of the zabumba on beat one, surrounded by the dry rattle of the ganzá and maracá, while a lead singer carries a repetitive, call-and-response refrain.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "entoada pelo mestre cirandeiro with simple melodies and refrains"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hold hands in a circle facing the center",
+        "Step clockwise around the ring",
+        "Stamp firmly with the left foot forward on the zabumba downbeat",
+        "Take two steps backward",
+        "Take two steps forward"
+      ],
+      "formation": "large open circle holding hands, with nested inner rings if the crowd expands",
+      "level_notes": "Accessible to all ages and experience levels with no technical prerequisites",
+      "rhythm": "slow simple quaternary"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a2ee4687b1d4c3a853e336a6d7526043d72fdd0bf79ea4870f7dd8e601fb8b65",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How do dancers visually transition when a secondary inner ring forms inside the primary expanding circle? Evidence needed: Field video documentation of community ciranda circles in Itamaracá."
+    ]
+  },
+  "id": "atlas:ciranda",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Ciranda",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "64840d4c3b45f2f5",
+      "next_evidence": "Field video documentation of community ciranda circles in Itamaracá.",
+      "question": "How do dancers visually transition when a secondary inner ring forms inside the primary expanding circle?",
+      "source": "https://pt.wikipedia.org/wiki/Ciranda",
+      "status": "candidate_unreviewed",
+      "why_needed": "To accurately capture the spatial choreography in digital teaching modules."
+    }
+  ],
+  "research_file": "research_results/ciranda.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "ciranda",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Group_dance",
+    "https://www.wikidata.org/wiki/Q504476",
+    "https://pt.wikipedia.org/wiki/Ciranda",
+    "https://es.wikipedia.org/wiki/Ciranda",
+    "https://de.wikipedia.org/wiki/Ciranda"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

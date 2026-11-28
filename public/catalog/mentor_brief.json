@@ -2,11 +2,11 @@
  "contract": "da_mentor_brief_v1",
  "what_this_is": "How to teach anyone to dance, as far as the nightly study has come. Use 'default' as the way to teach, 'moments' at the points that decide whether a learner stays, 'when_it_is_hard' and 'when_a_feeling_shows' to answer the person, and 'remember' over time. It is evidence, not a verdict: watched and read by a machine, not checked by a person, not tested on learners. The whole study with its proof is in bdf_teaching_system.json.",
  "stands_on": {
-  "teachers_studied": 122,
-  "lessons_studied_for_method": 136,
-  "comments_read": 7777,
-  "science_findings_checked": 285,
-  "practices_with_two_or_more_kinds": 31,
+  "teachers_studied": 132,
+  "lessons_studied_for_method": 146,
+  "comments_read": 8213,
+  "science_findings_checked": 296,
+  "practices_with_two_or_more_kinds": 32,
   "practices_total": 37
  },
  "default": [
@@ -28,7 +28,7 @@
   {
    "theme": "Build it",
    "do": "Feet first; add arms, styling and turns only when the feet are steady.",
-   "kinds_of_evidence": 2
+   "kinds_of_evidence": 3
   },
   {
    "theme": "Build it",
@@ -157,6 +157,11 @@
   },
   {
    "theme": "Be a mentor",
+   "do": "Show the road ahead and how long it honestly takes.",
+   "kinds_of_evidence": 2
+  },
+  {
+   "theme": "Be a mentor",
    "do": "Ask the learner to notice how it felt.",
    "kinds_of_evidence": 2
   },
@@ -170,7 +175,7 @@
   {
    "moment": "opening",
    "title": "How they open",
-   "seen": 123,
+   "seen": 134,
    "teachers_do": [
     "Greets the viewers and introduces shuffle dance basics specifically tailored for older adults and those finding it difficult to train.",
     "The teacher introduces the lesson, listing the turns to be covered and inviting the learner to find a space to move.",
@@ -180,7 +185,7 @@
   {
    "moment": "before_hard_part",
    "title": "Before a hard part",
-   "seen": 200,
+   "seen": 210,
    "teachers_do": [
     "The teacher offers a simplified starting point on the spot if learners struggle at first.",
     "The teacher explains the correct knee alignment for a plié, emphasizing the importance of not overextending.",
@@ -190,7 +195,7 @@
   {
    "moment": "after_mistake",
    "title": "After a mistake",
-   "seen": 68,
+   "seen": 69,
    "teachers_do": [
     "The teacher shares her own past confusion about the term 'close your ribcage' to make the concept relatable and less intimidating.",
     "The teacher tells the learner to lift their legs to see the steps more clearly, framing the adjustment as a way to make the learning process easier.",
@@ -200,7 +205,7 @@
   {
    "moment": "after_success",
    "title": "After a success",
-   "seen": 67,
+   "seen": 71,
    "teachers_do": [
     "The teacher encourages the learner and expresses hope that the explanation was clear.",
     "The teacher tells the learner they are doing great and that if they can do this, they can definitely dance.",
@@ -210,7 +215,7 @@
   {
    "moment": "check_in",
    "title": "Checking in",
-   "seen": 51,
+   "seen": 54,
    "teachers_do": [
     "The teacher encourages the learner to return to the basics if they feel lost or overwhelmed during the turn breakdown.",
     "Maybe pause this video, put yourself some music on and practice this first movement.",
@@ -220,7 +225,7 @@
   {
    "moment": "closing",
    "title": "How they close",
-   "seen": 58,
+   "seen": 60,
    "teachers_do": [
     "The teacher transitions the learner into practicing the full sequence along with the music.",
     "The teacher invites the learner to check out their website for more in-depth dancing programs if they want to learn more technique.",
@@ -249,7 +254,7 @@
    "about": "error_correction",
    "learners_say": [
     "difficulty isolating chest without moving shoulders or waist",
-    "landing both feet at the same time incorrectly"
+    "getting stepped on or stuck going backwards"
    ],
    "teachers_offer": [
     "The teacher explains the correct knee alignment for a plié, emphasizing the importance of not overextending.",
@@ -291,6 +296,21 @@
    ]
   },
   {
+   "about": "counts_and_rhythm",
+   "learners_say": [
+    "quick quick slow slow rhythm counting confusion",
+    "tripped up by starting phrases on the 8"
+   ],
+   "teachers_offer": [
+    "The teacher introduces counting to the side-to-side step, helping the learner internalize the rhythm.",
+    "Demonstrates the first step with counts from 1 to 8, focusing on bending knees and adding flavor."
+   ],
+   "research_adds": [
+    "Incorporate full-body bouncing or vestibular motion early in the lesson to help learners physically feel and interpret the musical beat.",
+    "Use loud and rhythmic music when teaching dance to align with the universal acoustic features of dance songs."
+   ]
+  },
+  {
    "about": "imagery",
    "learners_say": [
     "struggled for years until the skipping analogy made it click"
@@ -302,21 +322,6 @@
    "research_adds": [
     "Replace a list of technical body positions with a single metaphor, such as 'imagine you are a puppet being pulled by a string'.",
     "Guide students through a brief mental rehearsal of a movement phrase before physically executing it."
-   ]
-  },
-  {
-   "about": "counts_and_rhythm",
-   "learners_say": [
-    "count discrepancy between quick-quick-slow-slow and standard 4-beat songs",
-    "tripped up by starting phrases on the 8"
-   ],
-   "teachers_offer": [
-    "The teacher introduces counting to the side-to-side step, helping the learner internalize the rhythm.",
-    "Demonstrates the first step with counts from 1 to 8, focusing on bending knees and adding flavor."
-   ],
-   "research_adds": [
-    "Incorporate full-body bouncing or vestibular motion early in the lesson to help learners physically feel and interpret the musical beat.",
-    "Use loud and rhythmic music when teaching dance to align with the universal acoustic features of dance songs."
    ]
   },
   {
@@ -346,20 +351,6 @@
    "research_adds": [
     "Let learners watch dance sequences repeatedly to build visual familiarity and engage their motor simulation networks before they try to execute the movements.",
     "Show the movement demonstration clearly before letting learners practice physically."
-   ]
-  },
-  {
-   "about": "music_early",
-   "learners_say": [
-    "difficulty keeping rhythm or getting steps right without music"
-   ],
-   "teachers_offer": [
-    "Applies all learned footwork to music in a guided warm-up drill.",
-    "Practices the first part of the choreography with music at a slow tempo."
-   ],
-   "research_adds": [
-    "Incorporate music early in the learning process to leverage its role as a natural reward system.",
-    "Use music with medium syncopation and strong groove elements to naturally elicit a desire to move in learners."
    ]
   },
   {
@@ -441,10 +432,10 @@
   },
   {
    "feeling": "afraid_of_looking_silly",
-   "seen": 10,
+   "seen": 11,
    "teachers_answer": [
     "The teacher validates this feeling by describing the common experience of standing on the sidelines and wanting to join in.",
-    "The teacher names the fear of stepping on a partner's feet and explains how to avoid it by keeping knees and ankles close."
+    "Explain that beginners are often afraid to step on feet and end up stepping around partner's feet awkwardly, advising them not to do that."
    ]
   },
   {
@@ -481,7 +472,7 @@
  "what_teachers_believe": [
   {
    "about": "Who can dance",
-   "teachers": 33,
+   "teachers": 36,
    "in_their_words": [
     "Dancing and learning shuffle moves are accessible to older adults and those who find training difficult.",
     "Anyone can look cool and confident at a party, even if they do not know how to dance initially."
@@ -489,7 +480,7 @@
   },
   {
    "about": "What dancing is for",
-   "teachers": 24,
+   "teachers": 27,
    "in_their_words": [
     "Dancing is for social situations, like weddings and parties, where you can have fun with others.",
     "Line dancing is versatile and can be performed to almost any country song."
@@ -497,7 +488,7 @@
   },
   {
    "about": "How people learn",
-   "teachers": 62,
+   "teachers": 69,
    "in_their_words": [
     "Repetition is the mother of learning for building muscle memory in the body.",
     "Consistent practice and patience are the keys to overcoming initial difficulties in learning to dance."
@@ -527,6 +518,6 @@
   "how much talk and how much movement they like",
   "their body, their room and whether they have a partner"
  ],
- "fingerprint": "f8a786dda2a03b55",
- "updated": "2026-11-27"
+ "fingerprint": "600cfb195d3b5c86",
+ "updated": "2026-11-28"
 }

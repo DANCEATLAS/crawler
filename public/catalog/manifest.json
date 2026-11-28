@@ -1,6 +1,6 @@
 {
  "contract": "da_manifest_v1",
- "generated_at": "2026-11-27T21:09:52Z",
+ "generated_at": "2026-11-28T19:18:55Z",
  "library": "Dance Atlas",
  "what_this_is": "The whole Dance Atlas library, readable by a website or by any agent. Start here, read the rules, then index.json, then one file per dance.",
  "base": "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/",
@@ -25,25 +25,25 @@
    "file": "index.json",
    "contract": "da_index_v1",
    "holds": "every dance in a few fields, with the address and fingerprint of its own file",
-   "bytes": 742741
+   "bytes": 759416
   },
   {
    "file": "bdf_teaching_system.json",
    "contract": "da_bdf_teaching_v1",
    "holds": "how to teach anyone to dance: the teaching DNA, how to adjust, the mentor, what to remember about a learner, with the evidence",
-   "bytes": 621766
+   "bytes": 641212
   },
   {
    "file": "active_ready.json",
    "contract": "da_active_ready_v1",
    "holds": "the starting line: which dances have everything a teaching service needs",
-   "bytes": 2576
+   "bytes": 2749
   },
   {
    "file": "machine.json",
    "contract": "da_machine_v1",
    "holds": "how the machine is doing: the last nights, the pace, what holds pages back",
-   "bytes": 14982
+   "bytes": 15077
   },
   {
    "file": "site.json",
@@ -61,13 +61,13 @@
    "file": "research.json",
    "contract": "da_research_v1",
    "holds": "the mentor's reading list: every research topic and where it stands, what was found with its checked quotes, the papers of the open search",
-   "bytes": 260677
+   "bytes": 269109
   },
   {
    "file": "mentor_brief.json",
    "contract": "da_mentor_brief_v1",
    "holds": "the mentor in a few thousand words, sized for an agent's context: the default behaviour, the six moments, what to do when it is hard",
-   "bytes": 19465
+   "bytes": 19018
   },
   {
    "file": "retired.json",
@@ -78,26 +78,26 @@
    "file": "episodes.json",
    "contract": "dw_episodes_v1",
    "holds": "draft scripts per dance (a presentation asset, not proof of readiness)",
-   "bytes": 195025
+   "bytes": 205206
   },
   {
    "file": "dances.app.json",
    "contract": "dw_app_v1",
    "holds": "the older single file the website loaded before the index; kept for compatibility",
-   "bytes": 6870415
+   "bytes": 7115465
   },
   {
    "file": "profiles_v2.json",
    "contract": "dw_profiles_v2",
    "holds": "the older single file of deep profiles; the same content is in d/<slug>.json",
-   "bytes": 7376077
+   "bytes": 7743124
   }
  ],
  "dance_file": {
   "pattern": "d/{slug}.json",
   "contract": "da_dance_v1",
-  "count": 1415,
-  "bytes": 16615445,
+  "count": 1439,
+  "bytes": 17395323,
   "sections": {
    "card": "identity and the short story: names, places, era, family, hero video, pictures, sources",
    "profile": "the deep profile of a published dance: story sections, music, movement, connections, footage, checked claims",
@@ -110,17 +110,17 @@
   "changes": "A dance file carries no clock. Compare the fingerprint in index.json (fp) with the one you kept and fetch only what moved."
  },
  "counts": {
-  "listed": 1415,
-  "researched": 838,
-  "published": 697,
-  "active_ready": 45,
-  "one_short": 73,
-  "two_short": 68,
-  "three_to_five_short": 164,
-  "story_ready_teaching_withheld": 74,
-  "lessons_studied": 406,
-  "performances_observed": 442,
-  "in_the_door": 1415
+  "listed": 1439,
+  "researched": 877,
+  "published": 734,
+  "active_ready": 46,
+  "one_short": 78,
+  "two_short": 74,
+  "three_to_five_short": 166,
+  "story_ready_teaching_withheld": 83,
+  "lessons_studied": 433,
+  "performances_observed": 492,
+  "in_the_door": 1439
  },
  "teaching": {
   "file": "bdf_teaching_system.json",
@@ -133,7 +133,7 @@
   ]
  },
  "whole_library": {
-  "bytes_behind_this_door": 33090432,
+  "bytes_behind_this_door": 34536962,
   "copy": "A dated copy of the whole repository is published every month: https://github.com/DANCEATLAS/crawler/releases",
   "note": "Small enough to keep on a phone or to load into an agent that works without a connection."
  },

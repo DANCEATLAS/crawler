@@ -1,0 +1,131 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Basket move: right arm around waist, left hand over right arm of person on left",
+      "difficulty": "beginner",
+      "footwork": "Flat along the floor with minimal heel lift",
+      "formation_and_space": "Square set of four couples, transitioning to a column of eight in the fifth figure",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Minimal heel lift; hopping in the basket move",
+      "partnering": "Gents on the left of their partners",
+      "posture": "Smooth, flowing",
+      "signature_moves": [
+        {
+          "description": "A formation where dancers clasp arms and hop while pushing with the back foot.",
+          "name": "Basket"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "Reel timing",
+      "mood_keywords": [],
+      "musical_form": "Reels",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Smooth flowing steps pushing flat along the floor",
+        "Basket left: right foot in center, knee bent, hop on right, push with left behind",
+        "Basket right: reverse footwork"
+      ],
+      "formation": "Square set of four couples",
+      "level_notes": "not described in sources",
+      "rhythm": "Reels"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "3808e61d735640a339aba54b2e04a4af82c361589c3781999651e865716283c4",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific musical instruments and tempo requirements for the reels used in the Clare Lancers Set? Evidence needed: Instructional manuals or audio recordings of the set."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:clare-lancers-set",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Clare Lancers Set",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1860c40358603c74",
+      "next_evidence": "Instructional manuals or audio recordings of the set.",
+      "question": "What are the specific musical instruments and tempo requirements for the reels used in the Clare Lancers Set?",
+      "source": "https://en.wikipedia.org/wiki/Clare_Lancers_Set",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not provide audio or musical specifications, which are essential for teaching."
+    }
+  ],
+  "research_file": "research_results/clare-lancers-set.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "clare-lancers-set",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Clare_Lancers_Set",
+    "https://www.wikidata.org/wiki/Q5126194"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

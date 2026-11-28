@@ -1,0 +1,148 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Overexertion from continuous high-force jumping"
+        ],
+        "counts": "not described in sources",
+        "duration_minutes": "5",
+        "game_version": "A call-and-response rhythm game mimicking the thumb piano and simple stamping steps."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "High-force jumping",
+          "Deep knee impact from stamping"
+        ],
+        "counts": "not described in sources",
+        "seated_version": "Seated foot stamping and rhythmic upper-body engagement matching the thumb piano tempo.",
+        "standing_version": "Standing step-touch or gentle weight shift instead of high jumps.",
+        "tempo_and_range": "Reduced jump height and modified tempo to protect joints."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Powerful jumping and foot stamping to drum accompaniment",
+          "source": "https://en.wikipedia.org/wiki/Okeme"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Participatory circle connecting experienced performers and audience members",
+          "source": "https://en.wikipedia.org/wiki/Okeme"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Jumping with great force while stamping feet on the ground",
+      "formation_and_space": "Inclusive, interactive layout where dancers and spectators share the performance space",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "High-energy vertical jumps with forceful floor landings",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "okeme (thumb piano / lamellophone)",
+        "drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "dynamic",
+        "rhythmic",
+        "participatory",
+        "celebratory"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A dynamic rhythmic ensemble featuring the melodic percussion of plucked metal keys on a wooden thumb piano, underpinned by traditional drumming and vocal singing.",
+      "tempo_bpm": "",
+      "vocal_style": "vocal singing by performers directed to the audience"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Jump with great force while dancing to drum tunes",
+        "Stamp feet firmly on the ground"
+      ],
+      "formation": "Participatory circle or gathering bringing dancers and spectators together in an inclusive space",
+      "level_notes": "Accessible to both experienced performers and members of the audience",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e8d51a8cd6b67f72adcc134f39c15870953169a9151b006f2b6dea6ed27bfd80",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the precise spatial formations and transitions used between dancers and spectators during an Okeme performance? Evidence needed: Field video recordings of traditional Lango village or festival Okeme performances."
+    ]
+  },
+  "id": "atlas:okeme",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Okeme",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "f941b57d55aa4d50",
+      "next_evidence": "Field video recordings of traditional Lango village or festival Okeme performances.",
+      "question": "What are the precise spatial formations and transitions used between dancers and spectators during an Okeme performance?",
+      "source": "https://en.wikipedia.org/wiki/Okeme",
+      "status": "candidate_unreviewed",
+      "why_needed": "While sources note it is highly interactive and brings people together, visual documentation is needed to map exact spatial paths."
+    }
+  ],
+  "research_file": "research_results/okeme.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "okeme",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Okeme",
+    "https://www.wikidata.org/wiki/Q125388701"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,6 +1,6 @@
 # Sallqaqucha wallata warak'ay — episode pack
 
-*Status: draft · built 2026-11-27 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -276,9 +276,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Sallqaqucha_wallata_warak%27ay; https://www.wikidata.org/wiki/Q17087247

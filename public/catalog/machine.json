@@ -1,29 +1,22 @@
 {
  "contract": "da_machine_v1",
- "generated_at": "2026-11-27T21:09:52Z",
+ "generated_at": "2026-11-28T19:18:55Z",
  "last_night": {
-  "date": "2026-11-27",
-  "started": "2026-11-27T19:03:24Z",
-  "finished": "2026-11-27T21:09:50Z",
-  "minutes": 126,
-  "questions": 341,
+  "date": "2026-11-28",
+  "started": "2026-11-28T17:38:02Z",
+  "finished": "2026-11-28T19:18:54Z",
+  "minutes": 101,
+  "questions": 326,
   "unanswered": 0,
   "stages": 13,
   "errors": [],
   "trouble": [
-   "research: model trouble: overloaded 7, day_quota_used_up 5, unusable_answer 3, model_gone 1",
-   "teaching: model trouble: waited_seconds 57",
-   "pedagogy: model trouble: timeout_or_network 3, unusable_answer 3"
+   "research: model trouble: waited_seconds 90, overloaded 31, unusable_answer 8, day_quota_used_up 5, timeout_or_network 3, model_gone 2",
+   "teaching: model trouble: waited_seconds 98",
+   "pedagogy: model trouble: unusable_answer 3"
   ]
  },
  "nights": [
-  {
-   "date": "2026-10-30",
-   "minutes": 142,
-   "questions": 0,
-   "unanswered": 0,
-   "errors": 0
-  },
   {
    "date": "2026-10-31",
    "minutes": 83,
@@ -222,23 +215,30 @@
   },
   {
    "date": "2026-11-27",
-   "minutes": 126,
+   "minutes": 128,
    "questions": 341,
+   "unanswered": 0,
+   "errors": 0
+  },
+  {
+   "date": "2026-11-28",
+   "minutes": 101,
+   "questions": 326,
    "unanswered": 0,
    "errors": 0
   }
  ],
  "counts": {
-  "listed": 1415,
-  "researched": 838,
-  "published": 697,
-  "active_ready": 45,
-  "one_short": 73,
-  "two_short": 68,
-  "three_to_five_short": 164,
-  "story_ready_teaching_withheld": 74,
-  "lessons_studied": 406,
-  "performances_observed": 442
+  "listed": 1439,
+  "researched": 877,
+  "published": 734,
+  "active_ready": 46,
+  "one_short": 78,
+  "two_short": 74,
+  "three_to_five_short": 166,
+  "story_ready_teaching_withheld": 83,
+  "lessons_studied": 433,
+  "performances_observed": 492
  },
  "line": [
   {
@@ -339,81 +339,90 @@
    "active_ready": 45,
    "lessons_studied": 406,
    "performances_observed": 442
+  },
+  {
+   "date": "2026-11-28",
+   "listed": 1439,
+   "researched": 877,
+   "published": 734,
+   "active_ready": 46,
+   "lessons_studied": 433,
+   "performances_observed": 492
   }
  ],
  "pace": {
-  "days": 11,
+  "days": 12,
   "per_night": {
-   "listed": 23.6,
-   "published": 30.7,
-   "active_ready": 3.6
+   "listed": 23.7,
+   "published": 31.2,
+   "active_ready": 3.4
   }
  },
  "blockers": [
   {
    "key": "footwork_counts",
    "label": "the steps with their counts",
-   "profiles": 394
+   "profiles": 413
   },
   {
    "key": "study_video",
    "label": "a lesson or performance the machine studied, with timestamps",
-   "profiles": 253
+   "profiles": 262
   },
   {
    "key": "mistakes",
    "label": "what to avoid: common mistakes or safety",
-   "profiles": 232
+   "profiles": 247
   },
   {
    "key": "hero_video",
    "label": "a hero video that passed the vision check",
-   "profiles": 200
+   "profiles": 204
   },
   {
    "key": "picture",
    "label": "a licensed picture or licensed footage",
-   "profiles": 171
+   "profiles": 182
   },
   {
    "key": "signature_moves",
    "label": "two or more signature moves",
-   "profiles": 171
+   "profiles": 179
   },
   {
    "key": "rhythm",
    "label": "tempo, meter or the teacher's count",
-   "profiles": 156
+   "profiles": 159
   },
   {
    "key": "posture",
    "label": "posture",
-   "profiles": 147
+   "profiles": 155
   },
   {
    "key": "arms",
    "label": "arms and hands",
-   "profiles": 114
+   "profiles": 121
   },
   {
    "key": "lesson_plan",
    "label": "ordered basic steps or a lesson ladder",
-   "profiles": 113
+   "profiles": 119
   },
   {
    "key": "sound",
    "label": "the instruments and what the music sounds like",
-   "profiles": 97
+   "profiles": 104
   },
   {
    "key": "story",
    "label": "origins, meaning and occasions, dress and setting — written from sources",
-   "profiles": 87
+   "profiles": 93
   },
   {
    "key": "formation",
    "label": "formation and use of space",
-   "profiles": 56
+   "profiles": 58
   },
   {
    "key": "status",
@@ -475,6 +484,16 @@
   {
    "slug": "barn-dance",
    "name": "Barn dance",
+   "needs": [
+    "what to avoid: common mistakes or safety"
+   ],
+   "need_keys": [
+    "mistakes"
+   ]
+  },
+  {
+   "slug": "black-bottom",
+   "name": "Black Bottom",
    "needs": [
     "what to avoid: common mistakes or safety"
    ],
@@ -793,6 +812,16 @@
    ]
   },
   {
+   "slug": "jig",
+   "name": "Jig",
+   "needs": [
+    "the steps with their counts"
+   ],
+   "need_keys": [
+    "footwork_counts"
+   ]
+  },
+  {
    "slug": "jota-aragonesa",
    "name": "Jota Aragonesa",
    "needs": [
@@ -800,26 +829,6 @@
    ],
    "need_keys": [
     "status"
-   ]
-  },
-  {
-   "slug": "kebyar-duduk",
-   "name": "Kebyar duduk",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
-   ]
-  },
-  {
-   "slug": "kikkli",
-   "name": "Kikkli",
-   "needs": [
-    "the steps with their counts"
-   ],
-   "need_keys": [
-    "footwork_counts"
    ]
   }
  ],
@@ -830,38 +839,34 @@
  },
  "study": {
   "topics": 80,
-  "topics_read": 65,
+  "topics_read": 69,
   "first": {
    "topics": 14,
    "read": 12
   },
   "next": [
-   "virtual_coaches",
-   "mentoring",
-   "deliberate_practice",
-   "adult_learners",
-   "dance_for_everyone",
-   "part_and_whole_practice"
+   "spacing",
+   "varied_practice"
   ],
   "papers_read": 28,
-  "lessons_studied": 136,
-  "teachers_studied": 122,
-  "findings_checked": 285,
+  "lessons_studied": 146,
+  "teachers_studied": 132,
+  "findings_checked": 296,
   "practices": 37,
-  "practices_in_dna": 31
+  "practices_in_dna": 32
  },
  "last_crawl": {
-  "at": "2026-11-27T18:12:26Z",
+  "at": "2026-11-28T16:52:31Z",
   "hero": {
-   "to_try": 27,
-   "tried": 27,
-   "found": 18
+   "to_try": 26,
+   "tried": 26,
+   "found": 17
   },
   "lessons": {
-   "due": 33,
-   "looked_at": 32,
-   "found": 14,
-   "second_looks": 19
+   "due": 11,
+   "looked_at": 10,
+   "found": 6,
+   "second_looks": 1
   },
   "viral": {
    "found": 0

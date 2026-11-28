@@ -1,8 +1,28 @@
 {
   "candidate_material": {
     "adaptations": {
+      "children": {
+        "avoid": [
+          "Competitive pressure",
+          "Flaming bars",
+          "Extreme low heights that cause falls"
+        ],
+        "counts": "Standard 4-count rhythm.",
+        "duration_minutes": "10",
+        "game_version": "A 'follow the leader' style contest with a soft foam bar."
+      },
       "derived": true,
-      "withheld": "sacred or restricted dance: no teaching adaptations"
+      "seniors": {
+        "avoid": [
+          "Deep back arches",
+          "Knee strain",
+          "Rapid weight shifts"
+        ],
+        "counts": "Slow 4-count walk.",
+        "seated_version": "Seated in a chair, lean back slightly while moving arms in a rhythmic 'rowing' motion to simulate the shuffle.",
+        "standing_version": "Walk under a high bar (head height) focusing on posture rather than arching.",
+        "tempo_and_range": "Reduced tempo; minimal back arching to protect the spine."
+      }
     },
     "interaction_profile": {
       "feedback_rules": [],
@@ -11,62 +31,72 @@
       "social_formats": []
     },
     "movement_profile": {
-      "arms_and_hands": "not described in sources",
+      "arms_and_hands": "Usually held out to the sides for balance; must not touch the floor or the bar.",
       "difficulty": "advanced",
-      "footwork": "Feet akimbo with knees extended backwards.",
-      "formation_and_space": "Single-file line passing under a horizontal bar.",
-      "hips_and_torso": "Torso bent backwards; hip movement is central to the technique.",
-      "levels_and_jumps": "Levels decrease as the bar is lowered.",
-      "partnering": "not described in sources",
-      "posture": "Backwards arch with chest facing the sky.",
+      "footwork": "Small, rhythmic shuffling steps with feet spread wide (akimbo).",
+      "formation_and_space": "Linear path moving forward under a fixed horizontal obstacle.",
+      "hips_and_torso": "Torso is the primary moving part, kept parallel to the floor during the pass; hips must remain low.",
+      "levels_and_jumps": "Low level only; no jumps.",
+      "partnering": "None, though others may hold the bar.",
+      "posture": "Back arched deeply toward the floor, knees bent forward, chest facing upward.",
       "signature_moves": [
         {
-          "description": "Bending the back towards the floor while moving forward under the bar.",
-          "name": "The Arch"
+          "description": "Passing under a bar that has been set ablaze.",
+          "name": "The Fire Pass"
+        },
+        {
+          "description": "Passing under the legs or arms of other dancers instead of a wooden pole.",
+          "name": "Human Bar"
         }
       ],
-      "tempo_feel": "not described in sources",
-      "what_to_avoid": "Touching the bar, touching the floor with hands, or turning the head/neck to the side."
+      "tempo_feel": "Steady and controlled, matching the drum pulse.",
+      "what_to_avoid": "Touching the bar with the chest, touching the floor with hands or back, turning the head to the side."
     },
     "music_profile": {
       "instruments": [
-        "drums"
+        "Drums",
+        "Steelpan",
+        "Guitar",
+        "Percussion"
       ],
-      "meter": "not described in sources",
+      "meter": "4/4",
       "mood_keywords": [
+        "energetic",
         "festive",
+        "competitive",
         "rhythmic"
       ],
-      "musical_form": "not described in sources",
+      "musical_form": "Strophic with repetitive rhythmic hooks.",
       "reference_recordings": [
         {
           "artist": "Chubby Checker",
           "title": "Limbo Rock"
         },
         {
-          "artist": "Brigo",
+          "artist": "Brigo (Samuel Abrahams)",
           "title": "Limbo Break"
         }
       ],
-      "rhythm_pattern": "Afro-Caribbean drum patterns",
-      "sound_description": "Characterized by driving Afro-Caribbean percussion rhythms that provide a steady pulse for the dancer's movements.",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "not described in sources"
+      "rhythm_pattern": "Clave-based or syncopated Afro-Caribbean drum patterns.",
+      "sound_description": "A driving, syncopated percussion-heavy sound characterized by the bright timbre of steelpans and a steady, mid-tempo beat that facilitates rhythmic shuffling.",
+      "tempo_bpm": "110-130",
+      "vocal_style": "Chanted or melodic Calypso/Soca vocals."
     },
     "teaching": {
       "basic_steps": [
-        "Approach the bar with feet akimbo.",
-        "Lower the body while leaning backwards.",
-        "Extend knees backwards while passing under the bar.",
-        "Maintain balance without touching the ground with hands."
+        "Approach the bar with feet akimbo (wide stance).",
+        "Extend knees forward while leaning the torso backward.",
+        "Maintain balance on the feet without letting hands or back touch the floor.",
+        "Shuffle forward using small, rhythmic steps to pass under the bar.",
+        "Recover to a standing position once the head has cleared the bar."
       ],
-      "formation": "Single-file line of contestants.",
-      "level_notes": "Difficulty increases as the bar is lowered.",
-      "rhythm": "Afro-Caribbean drum patterns."
+      "formation": "Single-file line for contestants; solo performance for exhibitions.",
+      "level_notes": "Beginners start with the bar at chest height; advanced dancers attempt heights below 20 inches.",
+      "rhythm": "Afro-Caribbean drum patterns, often 4/4 time or clave-based."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "0dbedbe480bb2e94cfa5b2b008d41b0a3a05591b032bf2a374e742705d1f2198",
+  "fingerprint": "4d39f8ad8fcc9008af396728902252b99f63f0f71ddc0c3d3808799cd11c62d6",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -74,9 +104,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites",
-      "Investigate: Are there specific, non-tourist-oriented traditional drum rhythms used in the original wake context? Evidence needed: Ethnomusicological field recordings from Tobago."
+      "Investigate: What are the specific names and rhythmic structures of the 'Afro-Caribbean drum patterns' used in traditional Tobagonian wakes? Evidence needed: https://en.wikipedia.org/wiki/Limbo_(dance)"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -92,7 +121,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Is there archival footage of Julia Edwards' original 1950s choreography to verify specific arm and hand placements? Evidence needed: https://en.wikipedia.org/wiki/Limbo_(dance)"
     ]
   },
   "id": "atlas:calypso-dance",
@@ -102,16 +132,25 @@
     "Video model observations are candidates, not motion capture or expert verification."
   ],
   "music_options": [],
-  "name": "Limbo (dance)",
+  "name": "Limbo",
   "open_questions": [
     {
       "domain": "research",
-      "id": "f01cd01df71d99ae",
-      "next_evidence": "Ethnomusicological field recordings from Tobago.",
-      "question": "Are there specific, non-tourist-oriented traditional drum rhythms used in the original wake context?",
+      "id": "dd1dedb5d9474ec6",
+      "next_evidence": "https://en.wikipedia.org/wiki/Limbo_(dance)",
+      "question": "What are the specific names and rhythmic structures of the 'Afro-Caribbean drum patterns' used in traditional Tobagonian wakes?",
       "source": "https://en.wikipedia.org/wiki/Limbo_(dance)",
       "status": "candidate_unreviewed",
-      "why_needed": "To distinguish between modern entertainment music and the original ritualistic accompaniment."
+      "why_needed": "To provide authentic music for teaching rather than relying solely on commercial pop versions."
+    },
+    {
+      "domain": "video",
+      "id": "e7ee06ae987b83c3",
+      "next_evidence": "https://en.wikipedia.org/wiki/Limbo_(dance)",
+      "question": "Is there archival footage of Julia Edwards' original 1950s choreography to verify specific arm and hand placements?",
+      "source": "https://en.wikipedia.org/wiki/Limbo_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To move beyond 'arms for balance' to specific stylistic markers of the tradition's pioneer."
     }
   ],
   "research_file": "research_results/calypso-dance.json",

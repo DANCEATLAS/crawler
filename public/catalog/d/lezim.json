@@ -99,7 +99,20 @@
    "verdict": "pass",
    "checked_at": "2026-11-27T20:17:09Z",
    "soft_fail": []
-  }
+  },
+  "tutorials": [
+   {
+    "youtube_id": "8JEAKIb4XUg",
+    "title": "Basic Lezim Steps For Beginners | Part - 1 | Shivam Dance Academy",
+    "channel": "Shivam Dance Academy",
+    "level": "beginner",
+    "pos": 2,
+    "neg": 1,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ]
  },
  "profile": {
   "sections": {
@@ -452,6 +465,166 @@
     "to_s": 480,
     "checked_by_a_person": false
    }
+  },
+  {
+   "youtube_id": "mqPkW4FBEnA",
+   "url": "https://www.youtube.com/watch?v=mqPkW4FBEnA",
+   "title": "Lezim Dance For Beginners | Learn Dance For Beginners | Indian Traditional Folk Dance Steps Tutorial",
+   "channel": "Pebbles Hindi",
+   "analysed_on": "2026-11-28",
+   "level": "beginner",
+   "language": "Hindi",
+   "counting_scheme": "5-6-7-8 and 1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:03",
+     "seconds": 3,
+     "segment": "intro",
+     "note": "Introduction to new lezim steps"
+    },
+    {
+     "t": "0:08",
+     "seconds": 8,
+     "segment": "breakdown",
+     "note": "Leg movements counted 1 to 8"
+    },
+    {
+     "t": "0:26",
+     "seconds": 26,
+     "segment": "layering",
+     "note": "Adding lezim stick movements to leg steps"
+    },
+    {
+     "t": "0:43",
+     "seconds": 43,
+     "segment": "follow_along",
+     "note": "Two dancers performing together without music"
+    },
+    {
+     "t": "1:00",
+     "seconds": 60,
+     "segment": "music_practice",
+     "note": "Practicing the first variation with music"
+    },
+    {
+     "t": "1:17",
+     "seconds": 77,
+     "segment": "breakdown",
+     "note": "Second variation leg movement breakdown"
+    },
+    {
+     "t": "1:47",
+     "seconds": 107,
+     "segment": "layering",
+     "note": "Adding lezim to second variation"
+    },
+    {
+     "t": "2:14",
+     "seconds": 134,
+     "segment": "follow_along",
+     "note": "Two dancers practicing second variation"
+    },
+    {
+     "t": "2:40",
+     "seconds": 160,
+     "segment": "music_practice",
+     "note": "Practicing second variation with music"
+    },
+    {
+     "t": "3:06",
+     "seconds": 186,
+     "segment": "breakdown",
+     "note": "Third variation leg movement breakdown"
+    },
+    {
+     "t": "3:34",
+     "seconds": 214,
+     "segment": "layering",
+     "note": "Adding lezim to third variation"
+    },
+    {
+     "t": "4:00",
+     "seconds": 240,
+     "segment": "follow_along",
+     "note": "Two dancers practicing third variation"
+    },
+    {
+     "t": "4:26",
+     "seconds": 266,
+     "segment": "music_practice",
+     "note": "Practicing third variation with music"
+    },
+    {
+     "t": "4:54",
+     "seconds": 294,
+     "segment": "music_practice",
+     "note": "Combining variations with music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Leg Movements Variation 1",
+     "counts": "1-8",
+     "description": "Stepping and tapping with leg raises while holding lezim sticks."
+    },
+    {
+     "name": "Leg Movements Variation 2",
+     "counts": "1-8",
+     "description": "Alternative foot pattern with coordinated lezim strikes."
+    },
+    {
+     "name": "Leg Movements Variation 3",
+     "counts": "1-8",
+     "description": "Stepping and knee lifts with overhead and downward lezim movements."
+    }
+   ],
+   "cues": [
+    "5-6-7 go",
+    "again"
+   ],
+   "teacher_style": "The instructor demonstrates footwork counts and lezim stick movements step by step, first without music and then with music. She transitions through multiple variations of leg and stick routines, often accompanied by a second dancer.",
+   "distinctive_method": "Progressing systematically from isolated footwork counts to stick integration, then dual-dancer practice, and finally full music execution.",
+   "what_works": [
+    "Breaking down footwork before adding arm and stick movements",
+    "Practicing both without music and with music"
+   ],
+   "what_hinders": [
+    "Lack of verbal explanation for intricate hand and stick angles"
+   ],
+   "evidence": [
+    {
+     "start_s": 8,
+     "end_s": 16,
+     "topic": "movement",
+     "observation": "Teacher demonstrates footwork counting 1 through 8 while facing front.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight distribution on the floor",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 28,
+     "end_s": 38,
+     "topic": "movement",
+     "observation": "Teacher incorporates lezim sticks while performing leg steps on counts.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "tension in the arms and wrists",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 46,
+     "end_s": 55,
+     "topic": "movement",
+     "observation": "Two dancers perform the sequence synchronously facing front.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "spatial spacing precision",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
   }
  ],
  "performances": [
@@ -509,6 +682,6 @@
   "polished": false,
   "file": "episodes/lezim.json"
  },
- "fingerprint": "cd397ef4a619fb3a",
- "updated": "2026-11-27"
+ "fingerprint": "9658bf4f126a9660",
+ "updated": "2026-11-28"
 }

@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "spiral-dance",
  "name": "Spiral Dance",
- "state": "teaching_withheld",
+ "state": "story_ready_teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -30,6 +30,23 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Spiral_dance",
   "wikidata_qid": "Q7577758",
   "unesco": false,
+  "hero_video_youtube_id": "5k8EU4TeBXM",
+  "video_stack": [
+   {
+    "youtube_id": "5k8EU4TeBXM",
+    "role": "hero",
+    "title": "Reclaiming's Spiral Dance: Three Decades of Magic",
+    "channel": "Star Hawk",
+    "hd": false
+   },
+   {
+    "youtube_id": "DgScQymHlXM",
+    "role": "rendition",
+    "title": "Spiral Dance Starhawk - Goddess Conference 2014",
+    "channel": "The Glastonbury Goddess Conference",
+    "hd": false
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -44,7 +61,16 @@
   "needs_eyes_on": true,
   "sacred_note": "The Spiral Dance is a Neopagan ritual practice used to raise power and honor the dead. Intimacy customs like kissing depend on participant consent and circle norms; rhythm and boundary respect should be maintained.",
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:qc_replaced",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-28T18:52:43Z",
+   "soft_fail": [
+    "hd",
+    "camera_ok"
+   ]
+  }
  },
  "profile": {
   "sections": {
@@ -135,30 +161,36 @@
   "movie_ready": true,
   "schema": 5,
   "tradition_status": "living",
+  "footage": [
+   {
+    "title": "2004.06.06.Spiral.Dance",
+    "url": "https://archive.org/details/2004.06.06.Spiral.Dance",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "attribution": "Internet Archive",
+    "description": "Spiral Dance at Reclaim the Commons gathering June 6, 2004 - San Francisco",
+    "source": "archive"
+   }
+  ],
   "researched_at": "2026-11-27T19:55:29Z",
   "qc_score": 10.0
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 5,
-  "of": 6,
-  "missing": [
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   }
-  ]
+  "have": 6,
+  "of": 6
  },
  "teaching_withheld": "The Spiral Dance is a Neopagan ritual practice used to raise power and honor the dead. Intimacy customs like kissing depend on participant consent and circle norms; rhythm and boundary respect should be maintained.",
  "episodes": {
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/spiral-dance.json"
  },
- "fingerprint": "4e444ecb324e87b5",
- "updated": "2026-11-27"
+ "fingerprint": "89f92e83870fac51",
+ "updated": "2026-11-28"
 }

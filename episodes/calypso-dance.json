@@ -1,14 +1,14 @@
 {
  "slug": "calypso-dance",
- "name": "Limbo (dance)",
+ "name": "Limbo",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:05Z",
- "researched_at": "2026-11-20T19:44:28Z",
- "qc_score": 9.85,
- "status": "withheld-chapters",
+ "built_at": "2026-11-28T19:18:05Z",
+ "researched_at": "2026-11-28T18:28:07Z",
+ "qc_score": 10.0,
+ "status": "draft",
  "release_status": "not_validated",
- "sacred": true,
- "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "sacred": false,
+ "chapters_note": null,
  "formula": {
   "episode_1": [
    "hook",
@@ -45,30 +45,30 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A cultural historian or experienced Caribbean dance practitioner.",
+   "persona": "An energetic Trinidadian cultural ambassador who emphasizes both the physical challenge and the spiritual history.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
-   "Limbo (dance)",
-   "calypso Carnival dance",
+   "Limbo",
+   "kaiso dance",
    "calypso road march",
-   "kaiso dance"
+   "calypso Carnival dance"
   ]
  },
  "episode_1": {
-  "title": "Meet Limbo (dance)",
+  "title": "Meet Limbo",
   "scenes": [
    {
     "code": "hook",
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Emerging from 19th-century Tobagonian funeral wakes, the limbo symbolizes the cycle of life and death, with the dancer's emergence from beneath the bar representing a triumph over the grave.",
-     "This is Limbo (dance). 19th century-present."
+     "How Low Can You Go? The Secret History of Limbo",
+     "This is Limbo. 19th century to present."
     ],
     "on_screen": [
      "Hero video — MISSING",
-     "Title card: Limbo (dance) · Trinidad and Tobago · 19th century-present"
+     "Title card: Limbo · Trinidad and Tobago · 19th century to present"
     ],
     "music": "theme (30 s)"
    },
@@ -77,9 +77,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Originating in 19th-century Tobago, the limbo was traditionally performed at wakes.",
-     "It is believed to be related to African legba or legua games and reflects the cycle of life.",
-     "It was popularized in the 1950s by Julia Edwards."
+     "The Limbo dates back to the mid-to-late 1800s in Tobago, where it was performed at funeral wakes.",
+     "It is conjectured to be related to the African 'legba' or 'legua' game.",
+     "Some scholars, like Dr. Alan Rice, link the movement to the restricted spaces of slave ships, where captive Africans used dance to communicate and bond."
     ],
     "on_screen": [
      "Map: Trinidad and Tobago · Caribbean",
@@ -92,12 +92,13 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Historically used at funeral wakes to symbolize the triumph of life over death.",
-     "In modern contexts, it is used as a social icebreaker at resorts and during Carnival.",
+     "Originally a ritual reflecting the cycle of life and death, the emergence from under the pole symbolized the triumph of life.",
+     "In contemporary Trinidad and Tobago, it is a point of national pride and a staple of the Carnival season.",
+     "Globally, it has transitioned into a social 'icebreaker' used to animate social gatherings and tropical-themed events.",
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage: “ JAMAICA ” 1974 TOURISM FILM w/ RAGGAE LEGEND BYRON LEE PORT ROYAL SCUBA DIVING 51304 (https://archive.org/details/51304-jamaica)"
+     "Footage: The Man Who Can (https://archive.org/details/TheManWhoCan)"
     ],
     "music": "underscore"
    },
@@ -106,15 +107,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Contestants pass under a horizontal bar with their backs facing the floor.",
-     "Players must bend backwards without touching the bar or the floor with their hands.",
-     "The bar is lowered after each round until only one player remains.",
-     "Watch for The Arch."
+     "Dancers approach a horizontal bar and must pass under it with their backs facing the floor.",
+     "The body must bend backwards without any part other than the feet touching the ground.",
+     "Turning the head or neck to the side is prohibited.",
+     "Watch for The Fire Pass, Human Bar."
     ],
     "on_screen": [
      "Hero video — MISSING",
      "Captions name each signature move as it appears",
-     "Formation: Single-file line passing under a horizontal bar."
+     "Formation: Linear path moving forward under a fixed horizontal obstacle."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -123,29 +124,27 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Performances typically respond to Afro-Caribbean drum patterns.",
-     "Popular music associated with the dance includes 'Limbo Rock' by Chubby Checker and 'Limbo Break' by Brigo.",
-     "Listen for the drums.",
-     "Characterized by driving Afro-Caribbean percussion rhythms that provide a steady pulse for the dancer's movements."
+     "The dance is traditionally performed to specific Afro-Caribbean drum patterns.",
+     "In the 1950s and 60s, it became associated with Calypso and Jamaican mento, often utilizing a clave rhythm.",
+     "Listen for the Drums, Steelpan, Guitar, Percussion.",
+     "The pulse is 4/4 at about 120 beats a minute.",
+     "A driving, syncopated percussion-heavy sound characterized by the bright timbre of steelpans and a steady, mid-tempo beat that facilitates rhythmic shuffling."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: Limbo Rock — Chubby Checker; Limbo Break — Brigo; Limbo Rock — Chubby Checker (1962)",
-     "Waveform or rhythm-pattern graphic: Afro-Caribbean drum patterns"
+     "Listen later: Limbo Rock — Chubby Checker; Limbo Break — Brigo (Samuel Abrahams); Limbo Rock — Chubby Checker (1962)",
+     "Waveform or rhythm-pattern graphic: Clave-based or syncopated Afro-Caribbean drum patterns."
     ],
-    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
-    "needs": [
-     "tempo",
-     "meter"
-    ]
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
    },
    {
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "The dance requires a horizontal bar supported by two vertical poles.",
-     "Performances may include the use of fire."
+     "While historically performed at wakes, modern Limbo is seen at festivals, Carnival, and tourist resorts.",
+     "Performers often wear vibrant Caribbean festival attire.",
+     "A key 'prop' introduced in the 1950s is the flaming limbo bar, where the horizontal pole is set on fire to increase the spectacle."
     ],
     "on_screen": [
      "Image gallery: 4 licensed images with attribution",
@@ -158,11 +157,14 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Julia Edwards (First Lady of Limbo), Edric Connor, Dennis Walston, Shemika Charles, Brigo (Samuel Abrahams).",
-     "Rooted in Afro-Caribbean cultural traditions and potentially linked to African legba or legua games."
+     "Julia Edwards is the most significant figure, credited with professionalizing the dance and touring it globally.",
+     "Edric Connor is noted for reviving the game in 1944.",
+     "While originating in Tobago, the dance spread to Trinidad and became a national symbol.",
+     "Limbo is part of the Afro-Caribbean folk tradition, sharing roots with other African-derived games and rituals."
     ],
     "on_screen": [
-     "Names on screen as they are spoken"
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
     ],
     "music": "underscore"
    },
@@ -171,34 +173,36 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Limbo (dance) is shares music of Calypso: Both are foundational to the cultural identity of Trinidad and Tobago."
+     "Limbo is shares music of Calypso: Limbo is frequently performed to Calypso music in theatrical and social settings.",
+     "Limbo is shares music of Soca: Modern Limbo competitions often use high-energy Soca tracks."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore",
-    "needs": [
-     "connections"
-    ]
+    "music": "underscore"
    },
    {
     "code": "first_step",
-    "title": "A respectful note",
-    "duration_s": 30,
+    "title": "Try one step",
+    "duration_s": 60,
     "narration": [
-     "Historically associated with funeral wakes and the cycle of life and death; outsiders should respect its origins as a ritualistic practice rather than purely entertainment."
+     "Before we go, one step. Approach the bar with feet akimbo (wide stance).",
+     "Extend knees forward while leaning the torso backward.",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
-     "Calm wide shot, no demonstration"
+     "Instructor, front view, slow",
+     "Count on screen"
     ],
-    "music": "underscore"
+    "music": "lesson_slow"
    },
    {
     "code": "close",
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Explore the history and technique of the limbo, from its origins in Tobagonian funeral wakes to the global stage.",
+     "From the somber wakes of Tobago to the world stage, discover how a ritual of the afterlife became the world's most famous test of flexibility.",
      "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
@@ -207,32 +211,481 @@
     "music": "theme (20 s)"
    }
   ],
-  "runtime_s": 525
+  "runtime_s": 555
  },
- "chapters": [],
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic arch and balance.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic arch and balance..",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: An energetic Trinidadian cultural ambassador who emphasizes both the physical challenge and the spiritual history."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Back arched deeply toward the floor, knees bent forward, chest facing upward.",
+      "Usually held out to the sides for balance; must not touch the floor or the bar.",
+      "Torso is the primary moving part, kept parallel to the floor during the pass; hips must remain low."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Clave-based or syncopated Afro-Caribbean drum patterns..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Approach the bar with feet akimbo (wide stance).",
+      "Step 2: Extend knees forward while leaning the torso backward.",
+      "Footwork from the sources: Small, rhythmic shuffling steps with feet spread wide (akimbo).",
+      "Drill: Wide-stance weight shifting."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Maintain balance on the feet without letting hands or back touch the floor.",
+      "Step 4: Shuffle forward using small, rhythmic steps to pass under the bar.",
+      "Drill: Back-bending stretches with wall support."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Walking forward while looking at the ceiling."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Touching the bar with the chest, touching the floor with hands or back, turning the head to the side."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated in a chair, lean back slightly while moving arms in a rhythmic 'rowing' motion to simulate the shuffle. · For children: A 'follow the leader' style contest with a soft foam bar."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated in a chair, lean back slightly while moving arms in a rhythmic 'rowing' motion to simulate the shuffle.",
+      "For children: A 'follow the leader' style contest with a soft foam bar."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic arch and balance..",
+      "Originally a ritual reflecting the cycle of life and death, the emergence from under the pole symbolized the triumph of life.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Pass under a bar at waist height.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Pass under a bar at waist height..",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: An energetic Trinidadian cultural ambassador who emphasizes both the physical challenge and the spiritual history."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Back arched deeply toward the floor, knees bent forward, chest facing upward.",
+      "Usually held out to the sides for balance; must not touch the floor or the bar.",
+      "Torso is the primary moving part, kept parallel to the floor during the pass; hips must remain low."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Clave-based or syncopated Afro-Caribbean drum patterns..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Recover to a standing position once the head has cleared the bar.",
+      "Drill: Rhythmic shuffling while maintaining a 45-degree back angle."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Fire Pass: Passing under a bar that has been set ablaze.",
+      "Human Bar: Passing under the legs or arms of other dancers instead of a wooden pole.",
+      "Drill: Knee strengthening exercises."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Core stability holds in the arched position."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Touching the bar with the chest, touching the floor with hands or back, turning the head to the side."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated in a chair, lean back slightly while moving arms in a rhythmic 'rowing' motion to simulate the shuffle. · For children: A 'follow the leader' style contest with a soft foam bar."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated in a chair, lean back slightly while moving arms in a rhythmic 'rowing' motion to simulate the shuffle.",
+      "For children: A 'follow the leader' style contest with a soft foam bar."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Linear path moving forward under a fixed horizontal obstacle."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Pass under a bar at waist height..",
+      "Julia Edwards is the most significant figure, credited with professionalizing the dance and touring it globally.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Pass under a bar below knee height.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Pass under a bar below knee height..",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: An energetic Trinidadian cultural ambassador who emphasizes both the physical challenge and the spiritual history."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Back arched deeply toward the floor, knees bent forward, chest facing upward.",
+      "Usually held out to the sides for balance; must not touch the floor or the bar.",
+      "Torso is the primary moving part, kept parallel to the floor during the pass; hips must remain low."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Clave-based or syncopated Afro-Caribbean drum patterns..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Shuffle forward using small, rhythmic steps to pass under the bar.",
+      "Step 2: Recover to a standing position once the head has cleared the bar.",
+      "Drill: Deep arch transitions."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Fire Pass: Passing under a bar that has been set ablaze.",
+      "Human Bar: Passing under the legs or arms of other dancers instead of a wooden pole.",
+      "Drill: Balance drills on the balls of the feet."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Speed-controlled passes under low obstacles."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Touching the bar with the chest, touching the floor with hands or back, turning the head to the side."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated in a chair, lean back slightly while moving arms in a rhythmic 'rowing' motion to simulate the shuffle. · For children: A 'follow the leader' style contest with a soft foam bar."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated in a chair, lean back slightly while moving arms in a rhythmic 'rowing' motion to simulate the shuffle.",
+      "For children: A 'follow the leader' style contest with a soft foam bar."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Linear path moving forward under a fixed horizontal obstacle."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Pass under a bar below knee height..",
+      "Limbo is part of the Afro-Caribbean folk tradition, sharing roots with other African-derived games and rituals.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
  "music_brief": {
   "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
-  "tempo_bpm": null,
-  "meter": null,
-  "rhythm_pattern": "Afro-Caribbean drum patterns",
+  "tempo_bpm": 120,
+  "meter": "4/4",
+  "rhythm_pattern": "Clave-based or syncopated Afro-Caribbean drum patterns.",
   "instruments": [
-   "drums"
+   "Drums",
+   "Steelpan",
+   "Guitar",
+   "Percussion"
   ],
-  "vocal_style": null,
-  "musical_form": null,
+  "vocal_style": "Chanted or melodic Calypso/Soca vocals.",
+  "musical_form": "Strophic with repetitive rhythmic hooks.",
   "mood": [
+   "energetic",
    "festive",
+   "competitive",
    "rhythmic"
   ],
-  "sound_description": "Characterized by driving Afro-Caribbean percussion rhythms that provide a steady pulse for the dancer's movements.",
+  "sound_description": "A driving, syncopated percussion-heavy sound characterized by the bright timbre of steelpans and a steady, mid-tempo beat that facilitates rhythmic shuffling.",
   "listen_before_composing": [
    "Limbo Rock — Chubby Checker",
-   "Limbo Break — Brigo",
+   "Limbo Break — Brigo (Samuel Abrahams)",
    "Limbo Rock — Chubby Checker (1962)"
   ],
-  "prompt": "Original instrumental composition in the musical world of Limbo (dance) (Trinidad and Tobago). Rhythm pattern: Afro-Caribbean drum patterns. Instruments: drums. Mood: festive, rhythmic. It should sound like this: Characterized by driving Afro-Caribbean percussion rhythms that provide a steady pulse for the dancer's movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Limbo (Trinidad and Tobago). Meter 4/4. Tempo about 120 bpm. Rhythm pattern: Clave-based or syncopated Afro-Caribbean drum patterns.. Instruments: Drums, Steelpan, Guitar, Percussion. Vocal style: Chanted or melodic Calypso/Soca vocals.. Form: Strophic with repetitive rhythmic hooks.. Mood: energetic, festive, competitive, rhythmic. It should sound like this: A driving, syncopated percussion-heavy sound characterized by the bright timbre of steelpans and a steady, mid-tempo beat that facilitates rhythmic shuffling. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -248,13 +701,13 @@
     "id": "lesson_slow",
     "use": "chapters: step practice",
     "length_s": 240,
-    "tempo_bpm": null
+    "tempo_bpm": 84
    },
    {
     "id": "lesson_full",
     "use": "chapters: dance it to the music",
     "length_s": 240,
-    "tempo_bpm": null
+    "tempo_bpm": 120
    }
   ],
   "rules": [
@@ -270,7 +723,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "The dance requires a horizontal bar supported by two vertical poles. Performances may include the use of fire.",
+   "from_sources": "While historically performed at wakes, modern Limbo is seen at festivals, Carnival, and tourist resorts. Performers often wear vibrant Caribbean festival attire. A key 'prop' introduced in the 1950s is the flaming limbo bar, where the horizontal pole is set on fire to increase the spectacle. The setting is typically an open floor or stage where spectators can form a circle around the performer.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ALimbo2.JPG",
     "https://commons.wikimedia.org/wiki/File%3AFolk_Music_%26_Limbo_Dance_C_IMG_2636.JPG",
@@ -319,20 +772,21 @@
   ],
   "footage": [
    {
-    "title": "“ JAMAICA ” 1974 TOURISM FILM w/ RAGGAE LEGEND BYRON LEE PORT ROYAL SCUBA DIVING 51304",
-    "url": "https://archive.org/details/51304-jamaica",
-    "year": null,
+    "title": "The Man Who Can",
+    "url": "https://archive.org/details/TheManWhoCan",
+    "year": 2006,
     "license": "unknown (Internet Archive)",
     "attribution": "Internet Archive"
    }
   ],
   "motifs": [
-   "The horizontal bar",
-   "Dancer arching backwards",
-   "Drummers"
+   "The horizontal bar lowering notch by notch.",
+   "Flames flickering on a wooden pole.",
+   "The silhouette of a dancer arched perfectly parallel to the ground.",
+   "Vibrant Caribbean colors and steel drums."
   ],
-  "costume_notes": "The dance requires a horizontal bar supported by two vertical poles. Performances may include the use of fire.",
-  "setting_notes": "Historically used at funeral wakes to symbolize the triumph of life over death. In modern contexts, it is used as a social icebreaker at resorts and during Carnival.",
+  "costume_notes": "While historically performed at wakes, modern Limbo is seen at festivals, Carnival, and tourist resorts. Performers often wear vibrant Caribbean festival attire. A key 'prop' introduced in the 1950s is the flaming limbo bar, where the horizontal pole is set on fire to increase the spectacle. The setting is typically an open floor or stage where spectators can form a circle around the performer.",
+  "setting_notes": "Originally a ritual reflecting the cycle of life and death, the emergence from under the pole symbolized the triumph of life. In contemporary Trinidad and Tobago, it is a point of national pride and a staple of the Carnival season. Globally, it has transitioned into a social 'icebreaker' used to animate social gatherings and tropical-themed events.",
   "map": {
    "country": "Trinidad and Tobago",
    "region": "Caribbean",
@@ -345,46 +799,44 @@
   ]
  },
  "teaching_formula": {
-  "source": "20 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 20,
-  "counting": "",
-  "counting_basis": "missing",
+  "source": "132 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 132,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
-   "tempo progression: slow → full",
+   "tempo progression: slow → half → full",
    "repetitions per step: about 4"
   ],
   "cues": [
-   "uno dos",
-   "stretch one and two",
-   "lift three and four",
-   "shift your weight",
-   "move your hips side to side",
-   "scrape it along the floor",
-   "remember to breathe",
+   "1-2-3-4",
+   "5-6-7-8",
+   "1 2 3 4",
+   "step together step",
+   "up knee",
+   "hop back",
+   "1 2 3 4 5 6",
+   "opa",
    "1-2-3",
-   "1 and 2",
-   "criss-cross now",
-   "forward and back",
-   "plant the left foot"
+   "putar",
+   "mundur",
+   "step to the right"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
-   "follow_along",
+   "warmup",
    "breakdown",
    "full_demo",
    "slow_practice",
-   "music_practice"
+   "music_practice",
+   "recap"
   ],
   "steps_as_taught": []
  },
  "gaps": [
-  "tempo (bpm)",
-  "meter",
-  "a hero video",
-  "two or more connections"
+  "a hero video"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Limbo_(dance)",
@@ -397,6 +849,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "3d749c8d6c4e7ed7211e6d01384f21333e2012280008d5435301106012397ffa",
+ "input_fingerprint": "862b36067da6ef76c0f193b6f81724c5bb03cd7ebdd45ce5c5ef9f032cc3d481",
  "hero_checked": null
 }

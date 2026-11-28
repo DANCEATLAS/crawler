@@ -1,13 +1,63 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "short steps",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "exaggerated movements that resemble stretching",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Short steps",
+        "Exaggerated stretching movements"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ac64de8f3168015049b22f2c5ca8d4360696ea79598e2855ef9d41bbe94e3151",
+  "fingerprint": "b13752fe7aa49a3d5476cf4d6b9b6db2a22dcaacddd3e734117637f09541a796",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +65,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific musical instruments accompany the Atsiapat sequence? Evidence needed: Ethnomusicological field recordings or academic studies on Pontic music."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -34,7 +84,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What is the precise footwork pattern for the 'short steps' mentioned? Evidence needed: Video documentation of traditional performances."
     ]
   },
   "id": "atlas:atsiapat",
@@ -45,8 +96,27 @@
   ],
   "music_options": [],
   "name": "Atsiapat",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "b433c692339f45b6",
+      "next_evidence": "Ethnomusicological field recordings or academic studies on Pontic music.",
+      "question": "What specific musical instruments accompany the Atsiapat sequence?",
+      "source": "https://en.wikipedia.org/wiki/Atsiapat",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not mention the music, which is essential for the music_profile."
+    },
+    {
+      "domain": "video",
+      "id": "6a5922256986e63f",
+      "next_evidence": "Video documentation of traditional performances.",
+      "question": "What is the precise footwork pattern for the 'short steps' mentioned?",
+      "source": "https://en.wikipedia.org/wiki/Atsiapat",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching instructions for the movement_profile."
+    }
+  ],
+  "research_file": "research_results/atsiapat.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +128,7 @@
   "slug": "atsiapat",
   "sources": [
     "https://en.wikipedia.org/wiki/Atsiapat",
-    "Source: Atsiapat on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Atsiapat"
+    "https://www.wikidata.org/wiki/Q3567515"
   ],
   "state": "researching",
   "video_evidence": []

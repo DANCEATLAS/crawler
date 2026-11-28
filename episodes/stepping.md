@@ -1,6 +1,6 @@
 # stepping — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.5 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -123,7 +123,7 @@ NARRATION: Step 1: Stomp right foot heavily onto floor to create bass beat
 NARRATION: Step 2: Clap both hands crisply in front of chest
 NARRATION: Footwork from the sources: Heavy foot stomps, walking in circles, marching steps, and percussive heel-toe strikes.
 NARRATION: Drill: Practice alternating heavy right and left foot stomps on a 4-count beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Polyrhythmic acapella meter bar out loud, then in pairs of bars · repetitions: 3
@@ -196,7 +196,7 @@ NEEDS: tempo
 NARRATION: Step 1: Stomp right foot heavily onto floor to create bass beat
 NARRATION: Step 2: Clap both hands crisply in front of chest
 NARRATION: Drill: Recite a call-and-response chant while maintaining steady foot stomps.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Polyrhythmic acapella meter bar out loud, then in pairs of bars · repetitions: 3
@@ -271,7 +271,7 @@ NEEDS: tempo
 NARRATION: Step 1: Slap right thigh with open palm
 NARRATION: Step 2: Stomp left foot firmly while chanting organizational cadence
 NARRATION: Drill: Perform close-order drill shifts while maintaining percussive clapping.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Polyrhythmic acapella meter bar out loud, then in pairs of bars · repetitions: 3
@@ -341,9 +341,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: count the Polyrhythmic acapella meter bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (4): https://en.wikipedia.org/wiki/Stepping_(African-American); https://www.wikidata.org/wiki/Q7611114; https://fr.wikipedia.org/wiki/Stepping_(danse); https://archive.org/details/smash-hits-1980-06-12

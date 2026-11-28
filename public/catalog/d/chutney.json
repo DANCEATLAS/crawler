@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "chutney",
  "name": "Chutney",
- "state": "listed",
+ "state": "building",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "TT"
@@ -11,7 +11,10 @@
   "slug": "chutney",
   "name": "Chutney",
   "country": "Trinidad and Tobago",
+  "country_code": "TT",
+  "flag_emoji": "🇹🇹",
   "region": "Caribbean",
+  "family": "folk-circle",
   "era": "Indo-Caribbean post-1845 · Modern fusion 1970s+",
   "tagline": "Indo-Caribbean dance — Trinidad's Indian indentured-labour descendants' Bhojpuri folk meets Caribbean wining, hips and hands telling the diaspora story.",
   "profile": "Chutney is the music and dance genre of Indo-Caribbean communities — particularly Trinidad and Tobago, Guyana, and Suriname — descended from the more than 500,000 South Asian indentured labourers brought by the British between 1838 and 1917. The dance combines Bhojpuri-Indian folk movements (hand mudras, hip rolls, ankle-bell footwork) with Caribbean wining, performed to chutney music's distinctive fusion of dholak/dhantal Indian percussion, harmonium, and modern soca rhythms. Major artists like Sundar Popo, Drupatee Ramgoonai, and Ravi B made chutney one of Trinidad's most distinctive genres, and the annual Chutney Soca Monarch competition is a defining moment of Trinidad Carnival season.",
@@ -31,9 +34,16 @@
    "rumba"
   ],
   "sources": [
-   "https://en.wikipedia.org/wiki/Chutney_music"
+   "https://en.wikipedia.org/wiki/Chutney_music",
+   "https://www.wikidata.org/wiki/Q1090048",
+   "https://fr.wikipedia.org/wiki/Chutney_(genre_musical)",
+   "https://pt.wikipedia.org/wiki/Música_chutney",
+   "https://de.wikipedia.org/wiki/Chutney_(Musik)",
+   "https://archive.org/details/NPDP19251022",
+   "https://archive.org/details/WWU_1950053101"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Chutney_music",
+  "wikidata_qid": "Q1090048",
   "unesco": false,
   "hero_video_youtube_id": "l0dvsd9UaX8",
   "tier": "content_ready",
@@ -60,6 +70,30 @@
    }
   ],
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 8.7,
+  "last_researched_at": "2026-11-28T18:33:39Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Chutney is a vibrant music and dance tradition that developed among Indo-Caribbean communities, primarily in Trinidad and Tobago, Guyana, and Suriname. The roots of this dynamic tradition stretch back to the mid-19th century, when more than 500,000 South Asian indentured labourers were brought by the British from the Hindi Belt to work on sugar plantations following the abolition of slavery. These labourers brought with them rich ancestral folk traditions, including Bhojpuri folk music, religious bhajans, and wedding songs. Over decades of cultural blending in the Caribbean, these Indian folk elements intersected with local musical forms such as calypso and soca, as well as Indian filmi music from Bollywood films, culminating in the creation of chutney music around the 1940s.\n\nFor many years, chutney remained a localized, domestic tradition closely tied to community life and Hindu wedding ceremonies. Traditionally, these songs were performed with basic instrumentation by women gathered at weddings and family celebrations. The watershed moment for the genre's public visibility occurred in 1968, when Surinamese singer Ramdew Chaitoe recorded 'King of Suriname,' an early collection of religious yet highly danceable tunes that resonated deeply with the diaspora. Shortly thereafter, singer Dropati released 'Let's Sing & Dance,' featuring traditional wedding songs that captured the imagination of ornamentation and united communities regardless of their specific geographic origins.\n\nThe year 1969 marked another crucial turning point when record producer Moean Mohammed recorded Sundar Popo backed by Harry Mahabir's BWIA Orchestra. Popo revolutionized the sound by incorporating western guitars and early electronics, earning him enduring renown as a pioneer of the genre. As other artists such as Rakesh Yankaran, Heeralal Rampartap, and Sam Boodram joined the movement, instrumentation expanded rapidly. Modern chutney ensembles incorporate a distinctive blend of traditional acoustic instruments—such as the dholak barrel drum, the harmonium for melody, and the metallic dhantal—alongside modern elements like bass guitars, synthesizers, drum machines, and the tassa drums associated with regional festivals like Hosay.\n\nAs the genre matured through the late 20th century, it continuously adapted to its multicultural Caribbean environment. In 1987, singer Drupatee Ramgoonai coined the term 'chutney soca' with her landmark album, bridging traditional Hindi lyrics and dholak-dhantal rhythms with the high-energy drive of soca. Subsequent hits, such as Sonny Mann's 1994 release 'Soca Chutney,' propelled the genre onto international charts in the United States, Canada, and the United Kingdom. Beyond its heartland in Trinidad and Tobago, Guyana, and Suriname, chutney music and its associated celebratory practices have found enthusiastic audiences across the wider Caribbean, Jamaica, Fiji, Mauritius, and South Africa. The lyrical content of chutney reflects this multicultural synthesis, with songs sung in Caribbean English, Caribbean Hindustani, and regional variations of Bhojpuri. While early compositions leaned heavily into devotional themes and matrimonial rites, contemporary chutney encompasses a broader range of secular themes, social commentary, and celebratory life-stage narratives. The active participation of both male and female performers has transformed chutney from a predominantly women-led domestic folk practice into a gender-mixed mainstream commercial powerhouse, securing its enduring legacy within world music.",
+  "album_candidates": [
+   {
+    "title": "King of Suriname",
+    "artist": "Ramdew Chaitoe",
+    "source": "https://en.wikipedia.org/wiki/Chutney_music",
+    "verified": false
+   },
+   {
+    "title": "Let's Sing & Dance",
+    "artist": "Dropati",
+    "source": "https://en.wikipedia.org/wiki/Chutney_music",
+    "verified": false
+   }
+  ],
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "not described as strictly sacred today, though early chutney roots included religious wedding songs and bhajans.",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:qc_replaced",
   "hero_qc": {
    "verdict": "pass",
@@ -73,6 +107,192 @@
    "son-cubano",
    "cuban-rumba"
   ]
+ },
+ "profile": {
+  "sections": {
+   "origins_and_history": "Indo-Caribbean people created chutney around the 1940s, drawing on ancestral Bhojpuri folk music from the Hindi Belt. British authorities brought these indentured labourers to replace enslaved workers on sugar plantations after 1838. Early chutney originated from traditional wedding songs performed largely by women in Trinidad and Tobago and Suriname. Ramdew Chaitoe recorded the first chutney album, King of Suriname, in 1968. Dropati followed with Let's Sing & Dance, and Sundar Popo brought the genre into the mainstream in 1969.",
+   "how_it_is_danced": "not described in sources",
+   "music_and_instruments": "Chutney is an uptempo genre combining Indian classical and folk music, Bhojpuri folk, Hindi film music, calypso, and soca. Key traditional instruments include the dholak drum, harmonium, and dhantal iron rod, later joined by bass guitars, synthesizers, drum machines, and tassa drums.",
+   "costume_and_setting": "not described in sources",
+   "occasions_and_meaning": "Originally rooted in Caribbean Hindu weddings and religious contexts, chutney later expanded to secular celebrations and major competitions like Trinidad Carnival. It serves as a vital cultural unifier and identity marker for the Indo-Caribbean diaspora.",
+   "notable_figures": "Ramdew Chaitoe, Dropati, Sundar Popo, Moean Mohammed, Drupatee Ramgoonai, Sonny Mann, Rakesh Yankaran, Heeralal Rampartap.",
+   "regional_variants": "Chutney soca (fusing chutney melodies and percussion with soca beats) and chutney parang. Popular across Trinidad and Tobago, Guyana, Suriname, Jamaica, Fiji, Mauritius, and South Africa.",
+   "lineage": "Rooted in Bhojpuri folk music from India's Bihar region, blended with Caribbean calypso, soca, and Indian filmi music."
+  },
+  "teaching": {
+   "basic_steps": [],
+   "rhythm": "not described in sources",
+   "formation": "not described in sources",
+   "level_notes": "not described in sources"
+  },
+  "claims": [
+   {
+    "text": "Chutney music is a fusion genre that blends Indian classical and folk music.",
+    "source": "https://en.wikipedia.org/wiki/Chutney_music"
+   },
+   {
+    "text": "There were no recordings of chutney until 1968 when Ramdew Chaitoe recorded an early rendition.",
+    "source": "https://en.wikipedia.org/wiki/Chutney_music"
+   },
+   {
+    "text": "Dropati released her album Let's Sing & Dance made up of traditional wedding songs.",
+    "source": "https://en.wikipedia.org/wiki/Chutney_music"
+   },
+   {
+    "text": "1969 was a turning point for chutney music when Moean Mohammed recorded Sundar Popo.",
+    "source": "https://en.wikipedia.org/wiki/Chutney_music"
+   },
+   {
+    "text": "Singer Drupatee Ramgoonai coined the term chutney soca with the release of her album in 1987.",
+    "source": "https://en.wikipedia.org/wiki/Chutney_music"
+   },
+   {
+    "text": "Le genre se développe à Trinité et en Guyane dans les années 1970.",
+    "source": "https://fr.wikipedia.org/wiki/Chutney_(genre_musical)"
+   }
+  ],
+  "citation": {
+   "claims": 6,
+   "supported": 6,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Detailed movement and choreography descriptions are absent from historical and musicological sources."
+  ],
+  "confidence": 0.9,
+  "music_profile": {
+   "tempo_bpm": "uptempo",
+   "meter": "not described in sources",
+   "rhythm_pattern": "dholak beats mixed with soca beat",
+   "instruments": [
+    "dholak",
+    "dhantal",
+    "harmonium",
+    "bass guitar",
+    "electric guitar",
+    "synthesizer",
+    "drum machine",
+    "tassa"
+   ],
+   "vocal_style": "sung in Caribbean English, Caribbean Hindustani, and Bhojpuri",
+   "musical_form": "fusion of traditional Indian songs over fast Caribbean beats",
+   "mood_keywords": [
+    "uptempo",
+    "danceable",
+    "festive"
+   ],
+   "reference_recordings": [
+    {
+     "title": "King of Suriname",
+     "artist": "Ramdew Chaitoe"
+    },
+    {
+     "title": "Let's Sing & Dance",
+     "artist": "Dropati"
+    },
+    {
+     "title": "Nana and Nani",
+     "artist": "Sundar Popo"
+    }
+   ],
+   "sound_description": "Chutney music features a fast, driving tempo driven by the acoustic rhythm of the dholak and dhantal, accompanied by the melodic lead of the harmonium and layered with modern bass guitars, synthesizers, and soca beats."
+  },
+  "movement_profile": {
+   "posture": "not described in sources",
+   "footwork": "not described in sources",
+   "arms_and_hands": "not described in sources",
+   "hips_and_torso": "not described in sources",
+   "formation_and_space": "not described in sources",
+   "partnering": "not described in sources",
+   "tempo_feel": "not described in sources",
+   "signature_moves": [],
+   "levels_and_jumps": "not described in sources",
+   "difficulty": "intermediate",
+   "what_to_avoid": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Sound of the Diaspora",
+   "logline": "Explore how indentured labourers' Bhojpuri folk music fused with Caribbean rhythms to create chutney.",
+   "beats": [
+    "Introduction to Indo-Caribbean heritage",
+    "The 1968 breakthrough of Ramdew Chaitoe",
+    "Sundar Popo's modern electronic integration",
+    "The evolution of chutney soca"
+   ],
+   "lesson_ladder": [],
+   "visual_motifs": [
+    "Traditional dholak drum",
+    "Dhantal iron rod",
+    "Harmonium",
+    "Carnival celebrations"
+   ],
+   "instructor_persona": "Cultural historian and ethnomusicologist",
+   "music_cue": "Upbeat dholak and dhantal rhythm mixed with soca"
+  },
+  "connections": [
+   {
+    "name": "Soca",
+    "relation": "influence",
+    "note": "Chutney fuses Indian percussion with soca beats."
+   },
+   {
+    "name": "Calypso",
+    "relation": "influence",
+    "note": "Calypso heavily influenced the development of Caribbean chutney."
+   }
+  ],
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "adaptations": {
+   "seniors": {
+    "seated_version": "not derivable yet",
+    "standing_version": "not derivable yet",
+    "tempo_and_range": "not derivable yet",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "children": {
+    "game_version": "not derivable yet",
+    "duration_minutes": "0",
+    "counts": "not derivable yet",
+    "avoid": []
+   },
+   "derived": true
+  },
+  "researched_at": "2026-11-28T18:33:39Z",
+  "qc_score": 8.7
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 11,
+  "of": 15,
+  "missing": [
+   {
+    "key": "footwork_counts",
+    "label": "the steps with their counts"
+   },
+   {
+    "key": "lesson_plan",
+    "label": "ordered basic steps or a lesson ladder"
+   },
+   {
+    "key": "mistakes",
+    "label": "what to avoid: common mistakes or safety"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ],
+  "via": {
+   "posture": "performance",
+   "arms": "performance",
+   "formation": "performance",
+   "signature_moves": "performance",
+   "study_video": "performance"
+  },
+  "ritual_context": true
  },
  "performances": [
   {
@@ -131,6 +351,15 @@
    }
   }
  ],
- "fingerprint": "4fd006bc9f1100c0",
- "updated": "2026-11-26"
+ "episodes": {
+  "status": "draft",
+  "chapters": 3,
+  "scenes": 37,
+  "gaps": 11,
+  "runtime_min": 50,
+  "polished": false,
+  "file": "episodes/chutney.json"
+ },
+ "fingerprint": "f680e14768ba8f7a",
+ "updated": "2026-11-28"
 }

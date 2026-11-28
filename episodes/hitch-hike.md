@@ -1,6 +1,6 @@
 # Hitch hike — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -122,7 +122,7 @@ NARRATION: Step 1: Extend right thumb and wave it over the right shoulder three 
 NARRATION: Step 2: Clap hands once
 NARRATION: Footwork from the sources: Steps back or sideways (optional, depends on the variant)
 NARRATION: Drill: Practice 3 right-hand thumb waves and a clap
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -193,7 +193,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Incorporate a shimmy (torso ripple) throughout the arm movements
 NARRATION: Drill: Isolate shoulder ripples without arm movement
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -266,7 +266,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Clap hands once
 NARRATION: Step 2: Incorporate a shimmy (torso ripple) throughout the arm movements
 NARRATION: Drill: Add a side-step on the first thumb wave
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (2): https://en.wikipedia.org/wiki/Hitch_hike_(dance); https://www.wikidata.org/wiki/Q5871753

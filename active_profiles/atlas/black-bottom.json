@@ -1,13 +1,93 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "provocative pelvic movements"
+        ],
+        "counts": "Simple 4-count steps",
+        "duration_minutes": "3",
+        "game_version": "Call-and-response stepping game using the mooch and hop steps"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "deep floor drops",
+          "rapid hopping"
+        ],
+        "counts": "4/4 syncopated counts simplified",
+        "seated_version": "Seated hip shifts and hand-on-hip upper body movements",
+        "standing_version": "Standing with a support bar, avoiding deep knee bends",
+        "tempo_and_range": "Reduced tempo, restricted range of pelvic motion"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hands on your hips",
+      "difficulty": "beginner",
+      "footwork": "Shuffle forward with both feet; hop down front then doodle back; hobbling break a leg step",
+      "formation_and_space": "Danced solo or by couples in ballrooms, cabarets, and stages",
+      "hips_and_torso": "Strong forward and backward movements of the pelvis, hips go first then feet during the mooch, and bumping posteriors together",
+      "levels_and_jumps": "Hops down front and moves near the ground",
+      "partnering": "Optional couple dancing with cheeky posterior bumps",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Shuffle forward with both feet where hips go first, then feet.",
+          "name": "The Mooch"
+        },
+        {
+          "description": "A hobbling step performed until near the ground.",
+          "name": "Break a Leg"
+        }
+      ],
+      "tempo_feel": "exuberant and brisk",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "piano"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "exuberant",
+        "provocative"
+      ],
+      "musical_form": "jazz standard / stomp",
+      "reference_recordings": [
+        {
+          "artist": "Jelly Roll Morton",
+          "title": "Black Bottom Stomp"
+        },
+        {
+          "artist": "Gus Horsley and Perry Bradford",
+          "title": "Original Black Bottom Dance"
+        }
+      ],
+      "rhythm_pattern": "syncopated",
+      "sound_description": "Syncopated 4/4 jazz music featuring prominent piano, driving rhythm, and playful stomp tempos reminiscent of 1920s revues.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hop down front then doodle back",
+        "Mooch to the left and right with hips leading",
+        "Hands on hips and do the mess around",
+        "Break a leg hobbling step near the ground"
+      ],
+      "formation": "Solo or by couples",
+      "level_notes": "Beginner-friendly social dance steps emphasizing hip coordination and foot shuffles.",
+      "rhythm": "Syncopated 4/4 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a8b6bd986a5f2044466c5ed32fb679ba9870f3b65bab4363e00a5e9117b2611e",
+  "fingerprint": "910b883d3075bf059084c2effe40df1a265e5feee80bba927a263c76aa845568",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +95,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific regional variations existed between the tent show performances in the rural South and the Broadway adaptations? Evidence needed: Historical accounts of southern tent show choreography from the early 1920s."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +124,17 @@
   ],
   "music_options": [],
   "name": "Black Bottom",
-  "open_questions": [],
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "bbd53e4971c30efd",
+      "next_evidence": "Historical accounts of southern tent show choreography from the early 1920s.",
+      "question": "What specific regional variations existed between the tent show performances in the rural South and the Broadway adaptations?",
+      "source": "https://en.wikipedia.org/wiki/Black_Bottom_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To understand how the vernacular dance transformed into a national stage craze."
+    }
+  ],
   "research_file": "research_results/black-bottom.json",
   "runtime_active": false,
   "scope": {
@@ -58,7 +147,10 @@
   "slug": "black-bottom",
   "sources": [
     "https://en.wikipedia.org/wiki/Black_Bottom_(dance)",
-    "Source: Black Bottom (dance) on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Black_Bottom_(dance)"
+    "https://www.wikidata.org/wiki/Q608451",
+    "https://es.wikipedia.org/wiki/Black_bottom",
+    "https://de.wikipedia.org/wiki/Black_Bottom",
+    "https://it.wikipedia.org/wiki/Black_bottom_(danza)"
   ],
   "state": "researching",
   "video_evidence": [

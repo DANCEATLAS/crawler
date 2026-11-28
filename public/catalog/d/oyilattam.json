@@ -26,6 +26,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Oyilattam",
   "wikidata_qid": "Q7116273",
   "unesco": false,
+  "hero_video_youtube_id": "02D2cfnf05g",
+  "video_stack": [
+   {
+    "youtube_id": "02D2cfnf05g",
+    "role": "hero",
+    "title": "தன்னானே பாட்டொன்னு பாட #கலைத்திருவிழா #oyilattam #kalaithiruvizha #tamilfolkdance#ஒயிலாட்டம்",
+    "channel": "Villupuram Kalvi TV",
+    "hd": true
+   },
+   {
+    "youtube_id": "Rnjimy7Dl80",
+    "role": "rendition",
+    "title": "Oyilattam Tamil Folk Dance by Sakthi",
+    "channel": "Taeko Kurokawa",
+    "hd": false
+   },
+   {
+    "youtube_id": "h6YnghN6aas",
+    "role": "rendition",
+    "title": "Oyilattam/Tamil folk dance/23rdVSNM School Annual day Celebration",
+    "channel": "VENKIDASAMY NAIDU MIDDLE SCHOOL",
+    "hd": true
+   },
+   {
+    "youtube_id": "-GgXOYnV9rM",
+    "role": "rendition",
+    "title": "Dance of Grace 'Oyilattam' |Tamil Folk Dance | #Short",
+    "channel": "Sangam Global INC",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -75,7 +106,13 @@
   "needs_eyes_on": true,
   "sacred_note": "not described in sources",
   "movie_ready": true,
-  "tradition_status": "living"
+  "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-28T18:51:36Z",
+   "soft_fail": []
+  }
  },
  "profile": {
   "sections": {
@@ -302,7 +339,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 9,
+  "have": 10,
   "of": 15,
   "missing": [
    {
@@ -322,10 +359,6 @@
     "label": "what to avoid: common mistakes or safety"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -336,11 +369,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 8,
+  "gaps": 7,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/oyilattam.json"
  },
- "fingerprint": "fc3f65faecd94003",
- "updated": "2026-11-27"
+ "fingerprint": "23a73679320704f3",
+ "updated": "2026-11-28"
 }

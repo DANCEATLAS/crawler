@@ -1,8 +1,8 @@
 # Margamkali — episode pack
 
-*Status: withheld-chapters · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-28 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Reverent, knowledgeable instructor grounded in Kerala Christian folk heritage
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Flame and the Apostles: The Sacred Circle of Margamkali
 NARRATION: This is Margamkali. 17th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (w6-3dQc05Ks)
 ON SCREEN: Title card: Margamkali · India · 17th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is performed in a circular formation around a lit brass lam
 NARRATION: Typically executed by a dozen dancers, the performance consists of two main parts (padham): a narrative singing and clapping phase recounting Saint Thomas's life, followed by Parichamuttukali, a martial phase incorporating artificial swords and shields.
 NARRATION: Dancers synchronize rhythmic stepping and hand-clapping to the timekeeping of palm-sized cymbals played by the singer.
 NARRATION: Watch for Nilavilakku step, Parichamuttukali segment.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (w6-3dQc05Ks)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circle around a lit Nilavilakku brass lamp on the floor
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'w6-3dQc05Ks', 'checked_by_vision_model': True, 'title': 'Margam kali - Kcym kothamangalam on Ulsav 2012'}
 Images: 4 licensed — Alexander J. Mapleton / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Abhijith Sheheer / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Abhijith Sheheer / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Subin Siby / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Margamkali - Saint Thomas Christian dance form.webm — https://upload.wikimedia.org/wikipedia/commons/e/ed/Margamkali_-_Saint_Thomas_Christian_dance_form.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Lit brass Nilavilakku lamp flame, Traditional white Chattayum Mundum garments, Palm-sized metallic cymbals, Artificial swords and shields
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Margamkali; https://www.wikidata.org/wiki/Q6759084

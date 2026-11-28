@@ -1,13 +1,70 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not described in sources",
+        "duration_minutes": "3",
+        "game_version": "A simplified expression game focusing on slow arm and hand movements to traditional singing."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not described in sources",
+        "seated_version": "Perform upper-body and arm movements while seated comfortably.",
+        "standing_version": "Stand with support, focusing entirely on upper body and arm gestures.",
+        "tempo_and_range": "Slower tempo with reduced arm range to ensure physical comfort."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "moving their arms and hands",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "moving upper body",
+      "levels_and_jumps": "standing",
+      "partnering": "not described in sources",
+      "posture": "on their feet, standing",
+      "signature_moves": [],
+      "tempo_feel": "slower song",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "voices",
+        "time-beating (implied)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "slow",
+        "traditional"
+      ],
+      "musical_form": "dancing song",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A slower traditional song accompanied by group singing and rhythmic time-beating.",
+      "tempo_bpm": "",
+      "vocal_style": "traditional Tuvaluan singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Standing upright on feet",
+        "Moving arms and hands gracefully",
+        "Moving upper body"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Very loose rules on how to dance to the slower song.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "685edee5faef5a0b7c374394e5515d527e044fefcde7b7d60a19a6a66a321c01",
+  "fingerprint": "5bf351bcbda044450c957f4bb5c343831d278c5fdde1bb99c31c76f3e5979c5a",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +72,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, formation_and_space, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific island-by-island names and local variations of the fakaseasea across Tuvalu's individual atolls? Evidence needed: Detailed field monographs from Gerd Koch or Dieter Christensen's Ellice Islands studies."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +102,18 @@
   ],
   "music_options": [],
   "name": "Fakaseasea",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "82fff51bbb2e13e8",
+      "next_evidence": "Detailed field monographs from Gerd Koch or Dieter Christensen's Ellice Islands studies.",
+      "question": "What are the specific island-by-island names and local variations of the fakaseasea across Tuvalu's individual atolls?",
+      "source": "https://en.wikipedia.org/wiki/Fakaseasea",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources note that there are variations on different islands with different names but do not detail them."
+    }
+  ],
+  "research_file": "research_results/fakaseasea.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +125,8 @@
   "slug": "fakaseasea",
   "sources": [
     "https://en.wikipedia.org/wiki/Fakaseasea",
-    "https://en.wikipedia.org/wiki/Music_of_Tuvalu"
+    "https://www.wikidata.org/wiki/Q17048822",
+    "https://de.wikipedia.org/wiki/Fakaseasea"
   ],
   "state": "researching",
   "video_evidence": []

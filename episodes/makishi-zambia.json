@@ -1,0 +1,389 @@
+{
+ "slug": "makishi-zambia",
+ "name": "Makishi masquerade",
+ "pack_version": "e2",
+ "built_at": "2026-11-28T19:18:06Z",
+ "researched_at": "2026-11-28T18:36:39Z",
+ "qc_score": 9.25,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A traditional cultural custodian or community elder",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Makishi masquerade",
+   "Makishi",
+   "Makisi",
+   "Mukanda masquerade",
+   "mascarade des Makishi"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Makishi masquerade",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Inscribed by UNESCO in 2008, the Makishi masquerade brings ancestral spirits to the village as boys emerge from months of isolation in a secret bush camp.",
+     "This is Makishi masquerade. Traditional, pre-colonial; UNESCO proclaimed 2005/2008."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (4NNDfgLn8B8)",
+     "Title card: Makishi masquerade · Zambia · Traditional, pre-colonial; UNESCO proclaimed 2005/2008"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Makishi masquerade originates in the pre-colonial traditions of the Vaka Chiyama Cha Mukwamayi communities of northwestern and western Zambia.",
+     "It forms an integral part of the mukanda initiation cycle shared by the Luvale, Chokwe, Luchazi, and Mbunda peoples.",
+     "Due to threats to its continuity from modern socio-economic changes and shifting religious practices, the masquerade was proclaimed a Masterpiece of the Oral and Intangible Heritage of Humanity and inscribed by UNESCO in 2008."
+    ],
+    "on_screen": [
+     "Map: Zambia · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The masquerade marks the celebratory conclusion of the mukanda initiation ritual for boys, symbolizing their transition from childhood death to rebirth as adult men equipped with community values and survival knowledge.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (4NNDfgLn8B8)",
+     "Signature moves — MISSING",
+     "Formation: pantomime-like performance attended by the entire village"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Dances are performed to the accompaniment of drums and songs performed by the women of the village.",
+     "Listen for the drums.",
+     "Performances are driven by traditional drumming accompanied by the singing voices of village women."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Masks and costumes represent deceased ancestors and various archetypes, featuring horns, points, trompes, and crests constructed during the bush camp period.",
+     "The ritual is set across isolated bush camps, cemeteries where men seek ancestral possession, and the village public spaces where the final graduation and pantomime take place."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key characters include Chisaluke representing a wealthy and powerful man, Mupala as the lord and protector of the mukanda, Pwevo as the ideal woman, and Chilea as the dance trainer.",
+     "Celebrated across the northwestern and western provinces of Zambia by the Luvale, Chokwe, Luchazi, and Mbunda peoples belonging to the Vaka Chiyama Cha Mukwamayi communities.",
+     "Linked broadly to southern savanna initiation rites and masking traditions extending across Central Africa from Angola through the Democratic Republic of Congo into Zambia."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Makishi masquerade is parent of Mukanda initiation: The initiation ritual that precedes and necessitates the masquerade."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The Makishi masquerade is tied to sacred mukanda initiation rites, where participants spend time in isolated bush camps and men spend the night before the ritual at the cemetery to be possessed by ancestors; outsiders must respect these sacred boundaries."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Witness the spectacular return of masked ancestral spirits celebrating the birth of new men in Zambia.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "drums"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "celebratory",
+   "ceremonial",
+   "pantomime"
+  ],
+  "sound_description": "Performances are driven by traditional drumming accompanied by the singing voices of village women.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Makishi masquerade (Zambia). Instruments: drums. Mood: celebratory, ceremonial, pantomime. It should sound like this: Performances are driven by traditional drumming accompanied by the singing voices of village women. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "4NNDfgLn8B8",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Masks and costumes represent deceased ancestors and various archetypes, featuring horns, points, trompes, and crests constructed during the bush camp period. The ritual is set across isolated bush camps, cemeteries where men seek ancestral possession, and the village public spaces where the final graduation and pantomime take place.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABrooklyn_Museum_73.178_Bwoom_Mask.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABrooklyn_Museum_22.230_Mask_Pwoom_Itok.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABrooklyn_Museum_22.1582_Mwaash_aMbooy_Mask.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Brooklyn_Museum_73.178_Bwoom_Mask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Brooklyn_Museum_73.178_Bwoom_Mask.jpg/1280px-Brooklyn_Museum_73.178_Bwoom_Mask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABrooklyn_Museum_73.178_Bwoom_Mask.jpg",
+    "description": "A mask from the Kuba Kingdom. Kuba mythology revolves around three figures, each represented by a masquerade character: Woot, the creator and founder of the ruling dynasty; Woot’s spouse; and Bwoom. Bwoom’s specific identity varies according to different versions of the myth. He may represent the king’s younger brother, a person of Twa descent, or a commoner. Embodying a subversive force within th"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Brooklyn_Museum_22.230_Mask_Pwoom_Itok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/64/Brooklyn_Museum_22.230_Mask_Pwoom_Itok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABrooklyn_Museum_22.230_Mask_Pwoom_Itok.jpg",
+    "description": "This mask may have represented a wise older man at boys' initiations. One of the principal Kuba dance masks is called pwoom itok. The chief identifying characteristic is the shape of the eyes, whose centers are cones surrounded by holes through which the wearer sees. Like many Kuba types of masks, pwoom itok is extensively polychromed, or multicolored. This example has a cane headdress covered wit"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Brooklyn_Museum_22.1582_Mwaash_aMbooy_Mask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Brooklyn_Museum_22.1582_Mwaash_aMbooy_Mask.jpg/1280px-Brooklyn_Museum_22.1582_Mwaash_aMbooy_Mask.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABrooklyn_Museum_22.1582_Mwaash_aMbooy_Mask.jpg",
+    "description": "Among the Kuba, masks are thought to be reflections of nature-spirits (mingesh) that act as intermediaries between the Supreme Being (Nyeem) and the world of mortals. There are more than twenty different types of masks that function within the men\\'s initiation society. Moshambwooy is one of the three most important and represents Woot, the founding hero from whom the Kuba believe themselves to be"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "elaborate masked costumes with horns and crests",
+   "isolated bush camp scenery",
+   "village gathering with drumming and singing"
+  ],
+  "costume_notes": "Masks and costumes represent deceased ancestors and various archetypes, featuring horns, points, trompes, and crests constructed during the bush camp period. The ritual is set across isolated bush camps, cemeteries where men seek ancestral possession, and the village public spaces where the final graduation and pantomime take place.",
+  "setting_notes": "The masquerade marks the celebratory conclusion of the mukanda initiation ritual for boys, symbolizing their transition from childhood death to rebirth as adult men equipped with community values and survival knowledge.",
+  "map": {
+   "country": "Zambia",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "20 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 20,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "uno dos",
+   "stretch one and two",
+   "lift three and four",
+   "shift your weight",
+   "move your hips side to side",
+   "scrape it along the floor",
+   "remember to breathe",
+   "1-2-3",
+   "1 and 2",
+   "criss-cross now",
+   "forward and back",
+   "plant the left foot"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "follow_along",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "signature moves",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kuba_masquerade",
+  "https://www.wikidata.org/wiki/Q2626703",
+  "https://fr.wikipedia.org/wiki/Mascarade_des_Makishi",
+  "https://pt.wikipedia.org/wiki/Mascarada_Makishi",
+  "https://ich.unesco.org/en/RL/00140"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "625acea77496cc707bd2bd95bf750bd0f0dd8cde14e8f244aa96c191efca8a2a",
+ "hero_checked": "pass"
+}

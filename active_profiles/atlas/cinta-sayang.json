@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex scarf wrapping that could cause tripping"
+        ],
+        "counts": "Simple 4-beat phrases.",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' game where children mimic the 'goodbye' gestures of the fishing families."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid weight shifts",
+          "Deep knee bends"
+        ],
+        "counts": "Simple 1-2, 1-2 swaying counts.",
+        "seated_version": "Focus on the upper body swaying and the manipulation of the scarf while seated in a chair.",
+        "standing_version": "Perform the swaying motions with a reduced range of motion, using a chair for balance if needed.",
+        "tempo_and_range": "Slower tempo to ensure stability; focus on the grace of the arms."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Performed in male-female pairs.",
+          "source": "https://en.wikipedia.org/wiki/Cinta_Sayang_(dance)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Women use a long scarf slung over the shoulder to accentuate gestures",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Performed in pairs (male and female)",
+      "hips_and_torso": "Swaying motions consistent with Malay 'lenggang'",
+      "levels_and_jumps": "Low to medium levels; no jumps described",
+      "partnering": "Male and female partners dancing in coordination",
+      "posture": "Upright and graceful, typical of Malay court and folk styles",
+      "signature_moves": [
+        {
+          "description": "The manipulation of the long scarf over the shoulder by female dancers",
+          "name": "Scarf Draping"
+        }
+      ],
+      "tempo_feel": "Moderate and fluid",
+      "what_to_avoid": "Avoid aggressive or jerky movements; maintain the 'sayang' (affectionate) and graceful quality."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "affectionate",
+        "traditional",
+        "welcoming",
+        "nostalgic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is designed to accompany a traditional Malay pair dance, likely featuring the rhythmic percussion and melodic flow typical of Kedah folk music.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in male-female pairs",
+        "Men maintain a steady posture in Baju Melayu",
+        "Women drape the long scarf over the shoulder",
+        "Execute swaying motions (lenggang) typical of Malay folk dance",
+        "Coordinate movements to reflect the narrative of farewell or relaxation"
+      ],
+      "formation": "Pairs (male and female)",
+      "level_notes": "Accessible to beginners as it focuses on grace and narrative rather than complex acrobatics.",
+      "rhythm": "Moderate tempo suitable for opening ceremonies"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "ee5e6b5759276438d033001e43aa7c8a7b4ef993a0cc8678ec75f2989ef228c5",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What are the specific rhythmic patterns or percussion instruments used in the music? Evidence needed: https://en.wikipedia.org/wiki/Cinta_Sayang_(dance)"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific hand gestures used when manipulating the scarf? Evidence needed: https://en.wikipedia.org/wiki/Cinta_Sayang_(dance)"
+    ]
+  },
+  "id": "atlas:cinta-sayang",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Cinta Sayang",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "2cd4e6d12e1a744b",
+      "next_evidence": "https://en.wikipedia.org/wiki/Cinta_Sayang_(dance)",
+      "question": "What are the specific hand gestures used when manipulating the scarf?",
+      "source": "https://en.wikipedia.org/wiki/Cinta_Sayang_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The scarf is a key visual element but its specific technical use is not described in text."
+    },
+    {
+      "domain": "research",
+      "id": "4f1c7b9eb1a4c4a3",
+      "next_evidence": "https://en.wikipedia.org/wiki/Cinta_Sayang_(dance)",
+      "question": "What are the specific rhythmic patterns or percussion instruments used in the music?",
+      "source": "https://en.wikipedia.org/wiki/Cinta_Sayang_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To recreate the sound profile for teaching, the specific meter and instrumentation are required."
+    }
+  ],
+  "research_file": "research_results/cinta-sayang.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "cinta-sayang",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cinta_Sayang_(dance)",
+    "https://www.wikidata.org/wiki/Q7447117"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

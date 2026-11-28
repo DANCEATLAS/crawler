@@ -1,6 +1,6 @@
 # Grotesque dance — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage
 
@@ -327,7 +327,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the classical-court family studied · videos studied: 19
+Source: 20 tutorial(s) of the classical-court family studied · videos studied: 20
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 4
 Cues: 1; 2; 3; 4; 5; 6; neutralize your pelvis; shoulders are dropped; squeeze your abs; keep your eyes locked; kick kick kick kick step; curtsy and bow

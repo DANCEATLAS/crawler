@@ -1,8 +1,8 @@
 # Pambiche — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An engaging musicologist and dance historian specializing in Dominican musical traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythm of Palm Beach: Dominican Pambiche
 NARRATION: This is Pambiche. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (AXKzQbQH2Ps)
 ON SCREEN: Title card: Pambiche · Dominican Republic · 20th century
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (AXKzQbQH2Ps)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -279,7 +279,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'AXKzQbQH2Ps', 'checked_by_vision_model': True, 'title': 'BAILE MERENGUE FOLKLORICO Edwin y Dakhóta'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Tambora drum playing cinquillo pattern, Dominican accordion performances

@@ -43,6 +43,19 @@
   "profile_long": "Podaraki is a historical Greek dance rooted in the Pontos region with documentation dating as far back as the 10th century. Over centuries of cultural continuity and geographic shift, the tradition has maintained its presence and is now actively performed in modern-day Turkey as well as the northern Thrace region. The name of the dance, Podaraki, translates from Greek as \"small foot,\" an ironic descriptor given that the physical execution centers heavily on powerful stomping performed with the 'podia', or feet, of the dancers. As a social form, Podaraki is danced by both men and women. Participants typically join together in an open circle formation, with straight-line formations appearing only rarely.\n\nThe auditory foundation of Podaraki is tied to a specific female song known alternatively as 'mpate koritsia sto horo', which translates to \"go girls to the dance.\" Lyrically, the song features a persona urging her peers to go out, dance, and embrace joy prior to entering marriage. As the song progresses into its second half, the thematic tone shifts into traditional social commentary. The protagonist voices sharp criticism directed at her husband, mother-in-law, and father-in-law for attempting to restrict her from dancing and seeking leisure. The narrative culminates as the singer details the methods she uses to exact revenge upon her husband, in-laws, and even her children for these constraints, blending playful rebellion with stark folk storytelling. Classified broadly under Greek folk dance traditions, Podaraki bridges ancient regional heritage with communal expression through its characteristic footwork and vocal accompaniment.",
   "movie_ready": false,
   "tradition_status": "living",
+  "tutorials": [
+   {
+    "youtube_id": "yH2LysZkqTA",
+    "title": "Podaraki, Grecia, tutorial di Juancarlos Battilani",
+    "channel": "Juan Carlos Battilani",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.25,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "tropanka"
   ]
@@ -241,6 +254,67 @@
  },
  "lessons": [
   {
+   "youtube_id": "dMv7Sqa5T0k",
+   "url": "https://www.youtube.com/watch?v=dMv7Sqa5T0k",
+   "title": "Trying to learn the traditional dance \"Podaraki\" - Ποδαράκι",
+   "channel": "Different Together",
+   "analysed_on": "2026-11-28",
+   "level": "beginner",
+   "language": "English",
+   "counting_scheme": "6 out of 8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Title and dance name introduction"
+    },
+    {
+     "t": "0:16",
+     "seconds": 16,
+     "segment": "context",
+     "note": "Written explanation of Podaraki dance origins and measure"
+    },
+    {
+     "t": "0:35",
+     "seconds": 35,
+     "segment": "full_demo",
+     "note": "Group dancing Podaraki to traditional music"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Podaraki basic step",
+     "counts": "6 out of 8",
+     "description": "Striking the foot on the ground characteristically in two alternating patterns"
+    }
+   ],
+   "teacher_style": "The instructor demonstrates the traditional dance alongside a group of children in traditional attire. The video uses text overlay to provide historical and structural context.",
+   "distinctive_method": "Combining traditional group performance with informative text cards explaining cultural context rather than spoken instruction.",
+   "what_works": [
+    "Clear written background information about the dance structure and origin"
+   ],
+   "what_hinders": [
+    "Lack of verbal instruction or step-by-step breakdown"
+   ],
+   "evidence": [
+    {
+     "start_s": 35,
+     "end_s": 50,
+     "topic": "movement",
+     "observation": "Instructor and three children in traditional costumes dancing in a circle holding hands.",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact footwork details due to wide angle and long skirts",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "yH2LysZkqTA",
    "url": "https://www.youtube.com/watch?v=yH2LysZkqTA",
    "title": "Podaraki, Grecia, tutorial di Juancarlos Battilani",
@@ -347,6 +421,6 @@
   "polished": false,
   "file": "episodes/podaraki.json"
  },
- "fingerprint": "62356fc1d0fa811c",
- "updated": "2026-11-27"
+ "fingerprint": "f4a36ff562537780",
+ "updated": "2026-11-28"
 }

@@ -1,6 +1,6 @@
 # Ahidous — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.6 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; the origins & history section; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Ahidous · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Pulse of the Atlas
+NARRATION: The pulse of the Atlas.
 NARRATION: This is Ahidous. Ancient.
 ON SCREEN: Hero video, first 10 seconds (8VbcXz-o2G4)
 ON SCREEN: Title card: Ahidous · Morocco · Ancient
@@ -41,9 +41,9 @@ ON SCREEN: Formation: Circle, semicircle, or two facing lines.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The dance is accompanied by the bendir (also called alloun), a frame drum, and the rhythmic clapping of the dancers.
-NARRATION: Vocal accompaniment consists of songs in the Berber language (izli or izlan), though some tribes in the Taza corridor use Arabic.
-NARRATION: Listen for the Bendir (alloun).
+NARRATION: The dance is accompanied by the bendir, also called alloun, a frame drum, and the rhythmic clapping of the dancers.
+NARRATION: Vocal accompaniment consists of songs in the Berber language, izli or izlan, though some tribes in the Taza corridor use Arabic.
+NARRATION: Listen for the bendir, alloun.
 NARRATION: The sound is defined by the steady, resonant beat of the bendir frame drum, punctuated by the rhythmic clapping of the dancers and the communal singing of traditional Berber chants.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
@@ -106,7 +106,7 @@ MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: .
-NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..
+NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -153,7 +153,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Master the shoulder-to-shoulder connection..
+NARRATION: You can now: Master the shoulder-to-shoulder connection.
 NARRATION: Ahidous is performed at festivals, weddings, naming ceremonies, and after the harvest.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
@@ -178,7 +178,7 @@ MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: .
-NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..
+NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -247,7 +247,7 @@ MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: .
-NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..
+NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (5): https://en.wikipedia.org/wiki/Ahidus; https://www.wikidata.org/wiki/Q2635155; https://fr.wikipedia.org/wiki/Ahidous; https://pt.wikipedia.org/wiki/Ahidous; https://de.wikipedia.org/wiki/Ahidous

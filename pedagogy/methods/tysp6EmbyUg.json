@@ -66,7 +66,28 @@
     "warm"
    ],
    "beliefs": [],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:08",
+     "moment": "opening",
+     "says": "The teacher welcomes the learner back to another fire tutorial.",
+     "tag": "autonomy"
+    },
+    {
+     "t": "1:52",
+     "moment": "after_success",
+     "says": "The teacher tells the learner they are doing a great and splendid job.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "4:31",
+     "moment": "before_hard_part",
+     "says": "The teacher promises to break down the pin drop step nicely for the learner.",
+     "tag": "progression"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable, stylish, and proud of their progress in mastering the jerk."
   },
   "learner_voice": {
    "struggles": [
@@ -127,5 +148,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-28T18:58:06Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 3,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

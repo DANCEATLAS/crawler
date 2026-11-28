@@ -1,0 +1,132 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Troupe performance of dancers and singers chanting religious praise accompanied by rebana, presided over by a Khalifah.",
+          "source": "https://en.wikipedia.org/wiki/Dabus_(dance)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "troupe of dancers",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "ensemble performance presided over by a Khalifah",
+      "posture": "heroic warrior posture expressing alertness and dexterity",
+      "signature_moves": [],
+      "tempo_feel": "heroic, cheerful, and resolute",
+      "what_to_avoid": "avoiding performance without spiritual oversight where traditional ritual protocol requires a presiding Khalifah"
+    },
+    "music_profile": {
+      "instruments": [
+        "rebana"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "heroic",
+        "devotional",
+        "spiritual",
+        "resolute"
+      ],
+      "musical_form": "call, choral praise chanting, and rebana accompaniment",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The sonic signature is defined by the steady resonance of rebana frame drums accompanying vocal chanting. Singers recite religious verses of praise, providing an earnest, elevated spiritual atmosphere to guide the heroic movements of the troupe.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "chanting religious songs of praise"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "troupe of dancers",
+      "level_notes": "demands dexterity, heroism, and physical cheerfulness under Khalifah oversight",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "9eb20111fdb6702635324c0ff618e7c4b1ce8057e04d252cab41615582dc7783",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What specific choreography, step sequences, and props (such as dabus awls/iron rods) are used by the dancer troupe in Perak? Evidence needed: Ethnographic fieldwork or official Perak heritage dance documentation describing Dabus choreographic notation."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review",
+      "Investigate: What ritual protocols must be maintained by the Khalifah regarding spiritual restrictions and public pedagogy? Evidence needed: Interviews with current practicing Khalifah figures in Perak or Aceh documenting teaching taboos and non-initiate participation rules."
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:dabus",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dabus",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1d4b8d843e628587",
+      "next_evidence": "Ethnographic fieldwork or official Perak heritage dance documentation describing Dabus choreographic notation.",
+      "question": "What specific choreography, step sequences, and props (such as dabus awls/iron rods) are used by the dancer troupe in Perak?",
+      "source": "https://en.wikipedia.org/wiki/Dabus_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profiles cannot provide actionable footwork or drills without documentation of physical dance technique beyond general traits."
+    },
+    {
+      "domain": "review",
+      "id": "1319e11e18d6b7df",
+      "next_evidence": "Interviews with current practicing Khalifah figures in Perak or Aceh documenting teaching taboos and non-initiate participation rules.",
+      "question": "What ritual protocols must be maintained by the Khalifah regarding spiritual restrictions and public pedagogy?",
+      "source": "https://en.wikipedia.org/wiki/Dabus_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Dabus involves sacred invocation and supervision by a Khalifah, dictating whether interactive educational adaptations are permissible."
+    }
+  ],
+  "research_file": "research_results/dabus.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dabus",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dabus_(dance)",
+    "https://www.wikidata.org/wiki/Q7447128"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

@@ -1,13 +1,108 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex pivots",
+          "deep dips",
+          "prolonged closed hold fatigue"
+        ],
+        "counts": "1-2 counts per walking step.",
+        "duration_minutes": "15",
+        "game_version": "A structured partner-walking game following ragtime music cues with simplified counts."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "balance",
+          "knees",
+          "spine",
+          "jumps"
+        ],
+        "counts": "1-2 per step in slow 2/4 time.",
+        "seated_version": "Seated upper-body frame and foot-tapping or weight shifts mirroring the walking rhythm.",
+        "standing_version": "Supported walking steps and gentle weight transfers without deep dips or fast pivots.",
+        "tempo_and_range": "Reduced tempo and shortened step range to protect joints and maintain balance."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Closed position hold with man's hand on woman's back",
+      "difficulty": "beginner",
+      "footwork": "Walking steps, pivoting on one foot, gliding into first, second, third, and fourth positions",
+      "formation_and_space": "Couples traveling counter-clockwise around the room",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "low level floor craft with walking and dipping actions",
+      "partnering": "Man leads and sets movements; woman follows without leading",
+      "posture": "upright ballroom posture with closed couple position",
+      "signature_moves": [
+        {
+          "description": "Walking step variant introduced by Vernon and Irene Castle",
+          "name": "Castle Walk"
+        },
+        {
+          "description": "Walking step pivoting on one foot to change direction with light knee contact",
+          "name": "The Turn"
+        },
+        {
+          "description": "Sinking on beat one and rising on beat two while transferring weight",
+          "name": "The Dip"
+        },
+        {
+          "description": "Five-count weight transfer pattern across two measures originating from the tango",
+          "name": "The Square"
+        }
+      ],
+      "tempo_feel": "steady walking tempo following the 2/4 beat",
+      "what_to_avoid": "rough romping or violent movement that deviates from standard ballroom politeness"
+    },
+    "music_profile": {
+      "instruments": [
+        "piano",
+        "early jazz band instruments"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "upbeat",
+        "lively",
+        "urban"
+      ],
+      "musical_form": "ragtime song form",
+      "reference_recordings": [
+        {
+          "artist": "Original Dixieland Jazz Band",
+          "title": "Original Dixieland One-Step"
+        },
+        {
+          "artist": "James M. Gallatly",
+          "title": "Bogey Walk"
+        }
+      ],
+      "rhythm_pattern": "ragtime syncopation",
+      "sound_description": "Bright 2/4 ragtime and early jazz accompaniment featuring syncopated piano rhythms and driving percussion designed to maintain a steady walking beat for dancers.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Square step: From posterior third position, step right foot to anterior fourth position.",
+        "Glide left foot to second position.",
+        "Glide right foot into first position.",
+        "Step left foot back to posterior fourth position.",
+        "Step right foot to anterior third position."
+      ],
+      "formation": "Closed position of the couple moving around the room.",
+      "level_notes": "Beginners should focus on mastering the basic walking step and maintaining closed position leadership before attempting turns or dips.",
+      "rhythm": "2/4 time, executed in half-time across two measures for figures like the Square."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b1f762144a38dd96c6fcd07c7f51e0cfa7fecb95a85c44449752fbcf73a43076",
+  "fingerprint": "852c667ea708bf3f1d7ac852146da4ca9de9a1b8a5fe65f318d5db3cc1bd92fe",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +110,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What exact tempos in beats per minute were standard for One-Step recordings in the 1910s? Evidence needed: Historical tempo markings on early ragtime orchestrations."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,8 +138,18 @@
   ],
   "music_options": [],
   "name": "One-Step",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5125781180c42391",
+      "next_evidence": "Historical tempo markings on early ragtime orchestrations.",
+      "question": "What exact tempos in beats per minute were standard for One-Step recordings in the 1910s?",
+      "source": "https://es.wikipedia.org/wiki/One-step",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide precise pedagogical timing for music synchronization."
+    }
+  ],
+  "research_file": "research_results/one-step.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,7 +161,12 @@
   "slug": "one-step",
   "sources": [
     "https://en.wikipedia.org/wiki/One-Step",
-    "Source: One-Step on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/One-Step"
+    "https://www.wikidata.org/wiki/Q1968059",
+    "https://es.wikipedia.org/wiki/One-step",
+    "https://fr.wikipedia.org/wiki/One-step",
+    "https://archive.org/details/danceman051",
+    "https://archive.org/details/EasterCelebrations",
+    "https://archive.org/details/socialdancingto00andegoog"
   ],
   "state": "researching",
   "video_evidence": []

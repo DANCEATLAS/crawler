@@ -1,13 +1,90 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex cross-ankle footwork",
+          "extended toe-standing without support"
+        ],
+        "counts": "1-2-3 counts matching basic light jig hops",
+        "duration_minutes": "3",
+        "game_version": "Follow-the-leader bouncing hops in a circle to fast fiddle music"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "sudden jumps",
+          "heavy impact hard shoe strikes",
+          "rapid balance shifts"
+        ],
+        "counts": "Slowed 6/8 counts (1-2-3, 4-5-6)",
+        "seated_version": "Seated foot tapping and heel/toe articulation matching 6/8 meter",
+        "standing_version": "Light supported weight shifts holding a barre or chair",
+        "tempo_and_range": "Reduced tempo, eliminating jumps"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "held close to the sides during Irish step, or framing partners in country dances",
+      "difficulty": "intermediate",
+      "footwork": "rapid toe and heel placements, light hops, and precise clicks",
+      "formation_and_space": "solo performance in competitions or linked chains in country and regional village dances",
+      "hips_and_torso": "upper body remains largely rigid while feet articulate intricate rhythms",
+      "levels_and_jumps": "low to moderate jumps, with feet staying close to the floor in light jigs and hard strikes in treble jigs",
+      "partnering": "solo, pairs, or groups in set formations",
+      "posture": "torso held upright and steady, arms relaxed by sides or placed on hips",
+      "signature_moves": [
+        {
+          "description": "hop on one foot while tucking the other behind, followed by weight shifts",
+          "name": "rising step"
+        }
+      ],
+      "tempo_feel": "fast, bouncy compound meter",
+      "what_to_avoid": "excessive upper body movement in Irish variants; harsh landing impacts in hard shoe work"
+    },
+    "music_profile": {
+      "instruments": [
+        "fiddle",
+        "pipe and tabor",
+        "five-string banjo",
+        "melodeon"
+      ],
+      "meter": "6/8",
+      "mood_keywords": [
+        "lively",
+        "energetic",
+        "merry"
+      ],
+      "musical_form": "AABB two eight-bar parts",
+      "reference_recordings": [
+        {
+          "artist": "I Suonatori delle quattro province",
+          "title": "Musica tradizionale dell'Appennino"
+        }
+      ],
+      "rhythm_pattern": "compound duple with triplet feel",
+      "sound_description": "Rapid bouncing compound meter tunes driven by fiddles and accordions, pulsing with alternating strong and weak beats.",
+      "tempo_bpm": "116",
+      "vocal_style": "instrumental or traditional folk singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hop on the left foot while lifting the right foot forward",
+        "Hop on the left foot again while bringing the right foot back behind",
+        "Shift weight onto the right foot, leaving the left foot in the air"
+      ],
+      "formation": "Solo or paired country dance formation",
+      "level_notes": "Beginners start with light jig rising step at moderate tempos before advancing to hard shoe treble jigs.",
+      "rhythm": "Compound duple (6/8 time)"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b9a84b2d272736764b5999c9881bd51b22fd5a456ba71d63f4570f29e9873af7",
+  "fingerprint": "9b518d8a480201cb01a4a7d6c1c253957492ed5839c89715cad0e5ff1f9041ab",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +92,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -33,7 +107,8 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How do subtle variations in hard-shoe treble jig timing affect audio-visual synchronization in digital teaching platforms? Evidence needed: High-speed multi-angle motion capture of competitive Irish steppers."
     ]
   },
   "id": "atlas:jig",
@@ -44,8 +119,18 @@
   ],
   "music_options": [],
   "name": "Jig",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "06aeb7522f93c3da",
+      "next_evidence": "High-speed multi-angle motion capture of competitive Irish steppers.",
+      "question": "How do subtle variations in hard-shoe treble jig timing affect audio-visual synchronization in digital teaching platforms?",
+      "source": "https://en.wikipedia.org/wiki/Jig",
+      "status": "candidate_unreviewed",
+      "why_needed": "Ensures automated feedback tools capture complex rhythmic strikes accurately."
+    }
+  ],
+  "research_file": "research_results/jig.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,10 +142,18 @@
   "slug": "jig",
   "sources": [
     "https://en.wikipedia.org/wiki/Jig",
-    "Source: Jig on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Jig"
+    "https://www.wikidata.org/wiki/Q1079270",
+    "https://fr.wikipedia.org/wiki/Jig",
+    "https://de.wikipedia.org/wiki/Jig",
+    "https://it.wikipedia.org/wiki/Giga_(danza_popolare)"
   ],
   "state": "researching",
   "video_evidence": [
+    {
+      "file": "pedagogy/videos/3N2RsCuzFPg.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=3N2RsCuzFPg"
+    },
     {
       "file": "pedagogy/videos/TdLxU3SuXtg.json",
       "status": "candidate_unreviewed",

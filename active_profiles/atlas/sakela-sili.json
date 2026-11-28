@@ -1,13 +1,64 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Large circle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Choreographed movements that depict different aspects of human life and their relationship with nature.",
+          "name": "Sili"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "drums",
+        "cymbals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "prayerful",
+        "communal",
+        "reverent"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is driven by the rhythmic pulse of drums and cymbals, providing a steady beat for the communal circle dance.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a large circle with other participants.",
+        "Follow the lead of the Silimangpa or Silimangma.",
+        "Mimic the sili movements as demonstrated by the leaders."
+      ],
+      "formation": "Large circle",
+      "level_notes": "Inclusive of all ages; requires following the lead of the designated Silimangpa or Silimangma.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "19a22aadbca146e46d7c0135aa2eb155f4fe3c470e1c78e68f39c9eb2c735940",
+  "fingerprint": "58a76c427ca18b4fe9eda05e25b59b995aa1c0c7556a46071e7119259085a601",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +66,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -46,7 +96,7 @@
   "music_options": [],
   "name": "Sakela Sili",
   "open_questions": [],
-  "research_file": null,
+  "research_file": "research_results/sakela-sili.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +108,8 @@
   "slug": "sakela-sili",
   "sources": [
     "https://en.wikipedia.org/wiki/Sakela",
-    "https://sikkimproject.org/dancing-indigeneity-in-the-eastern-himalaya-sakela-sili-as-world-making/"
+    "https://www.wikidata.org/wiki/Q7402891"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

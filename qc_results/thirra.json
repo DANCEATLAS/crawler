@@ -1,0 +1,119 @@
+{
+ "slug": "thirra",
+ "qc_at": "2026-11-28T18:51:08Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Thirra"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "73"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "134"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In Kerala's Malabar region temples, performers dance under the influence of todd"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "470"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2835"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'temple', 'possession', 'deity', 'deities', 'god', 'worship', 'prayer', 'religious', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 5,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Theyyam",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Accurate, respectful treatment of a sacred ritual dance tradition. Properly handles the sacred nature and withholds teaching steps."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.0",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-28T18:46:25Z"
+}

@@ -2,7 +2,7 @@
  "slug": "lilin-dance",
  "name": "Lilin dance",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:06Z",
+ "built_at": "2026-11-28T19:18:05Z",
  "researched_at": "2026-11-27T19:57:33Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Lilin dance. Kingdom era to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (oRK2hTRfpi0)",
      "Title card: Lilin dance · Indonesia · Kingdom era to present"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Plate Rotation."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (oRK2hTRfpi0)",
      "Captions name each signature move as it appears",
      "Formation: Group dancing, often involving circular or rotating paths."
     ],
@@ -722,7 +722,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "oRK2hTRfpi0",
+   "checked_by_vision_model": true,
+   "title": "Tari Lilin Natal, dari Perkauan, 24 Desember 2023"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -803,8 +807,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "122 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 122,
+  "source": "132 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 132,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -815,24 +819,24 @@
   "cues": [
    "1-2-3-4",
    "5-6-7-8",
-   "step together step",
-   "1 2 3 4 5 6",
    "1 2 3 4",
+   "step together step",
+   "up knee",
+   "hop back",
+   "1 2 3 4 5 6",
    "opa",
    "1-2-3",
    "putar",
    "mundur",
-   "step to the right",
-   "un dos tres",
-   "right together right touch"
+   "step to the right"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "warmup",
-   "full_demo",
    "breakdown",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -843,7 +847,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage",
   "notable figures"
  ],
@@ -854,6 +857,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "aeed46c35e5fb30807441b932d46307faa5935b6eb8093e4ef967670ab258a9e",
- "hero_checked": null
+ "input_fingerprint": "8bc4f49508455f722b0d6bbb2bfb0638065a5452abcda747bf2cd2c804703ca3",
+ "hero_checked": "pass"
 }

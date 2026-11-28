@@ -1,0 +1,133 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Performers hold cloth strips inscribed with characters, guide the dragon's head, or handle the sections of the 100-meter dragon body.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Performers line up in order before the Dragon Association gate and divide into alternating teams on the shores of Shijiu Lake.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group coordination involving over 500 performers operating in two alternating teams.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Guiding the dragon's head.",
+          "name": "Playing with the Pearl"
+        },
+        {
+          "description": "Performers alternating in two teams.",
+          "name": "Dragon Leaping"
+        },
+        {
+          "description": "Performers holding cloth strips inscribed with characters while circling the dragon's body.",
+          "name": "Cloud Leaping"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "horseshoe cannons"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ceremonial",
+        "festive",
+        "communal"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Accompanied by the sound of three cannon blasts and horseshoe cannons, with specific musical structures not described in sources.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Playing with the Pearl (guiding the dragon's head)",
+        "Dragon Leaping (performers alternating in two teams)",
+        "Cloud Leaping (holding cloth strips inscribed with characters while circling the dragon's body)"
+      ],
+      "formation": "Performers line up before the Dragon Association gate, operating in teams to maneuver the 100-meter dragon along the shores of Shijiu Lake.",
+      "level_notes": "Involves over 500 participants including children aged 8 to 12; at least one person from every household participates.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "cf21c6f04f2189fd304700149a05cfe3703748660936dd7c0138963e50ba615b",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact spatial formations and hand movements during Cloud Leaping and Dragon Leaping? Evidence needed: Field recordings of the Luoshan Dragon performance"
+    ]
+  },
+  "id": "atlas:luoshan-dragon",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Luoshan dragon",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "fe62fc53b0c14903",
+      "next_evidence": "Field recordings of the Luoshan Dragon performance",
+      "question": "What are the exact spatial formations and hand movements during Cloud Leaping and Dragon Leaping?",
+      "source": "https://en.wikipedia.org/wiki/Luoshan_dragon",
+      "status": "candidate_unreviewed",
+      "why_needed": "Source mentions the segments and cloth strips, but visual evidence is required for precise choreography and teaching."
+    }
+  ],
+  "research_file": "research_results/luoshan-dragon.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "luoshan-dragon",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Luoshan_dragon",
+    "https://www.wikidata.org/wiki/Q110108456"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

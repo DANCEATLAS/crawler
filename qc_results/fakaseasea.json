@@ -1,0 +1,120 @@
+{
+ "slug": "fakaseasea",
+ "qc_at": "2026-11-28T18:50:52Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Fakaseasea"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "97"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "184"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Documented in 1964 by Dieter Christensen, the Tuvaluan fakaseasea is a slow trad"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "526"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3918"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Tuvalu"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is well-researched, highly accurate to the provided evidence claims, and correctly handles a traditional Tuvaluan dance."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "banned_phrasing",
+  "judge_score=9.6"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-28T18:44:42Z"
+}

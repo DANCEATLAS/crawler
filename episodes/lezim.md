@@ -1,6 +1,6 @@
 # Lezim — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 7/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 7/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Hold the Lezim instrument with both hands, one on the wooden pole and one near the chain
 NARRATION: Strike the chain against the pole in time with the dholki beat to produce a jingle
-NARRATION: Count it: 1-2-3-4-5-6-7-8.
+NARRATION: Count it: 5-6-7-8 and 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -108,7 +108,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
 NARRATION: Rhythm pattern: Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -123,7 +123,7 @@ NARRATION: Drill: Hold the Lezim correctly with a firm grip
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step forward with the right foot while swinging the instrument to the right
@@ -131,7 +131,7 @@ NARRATION: Step 4: Step forward with the left foot while swinging the instrument
 NARRATION: Drill: Practice the basic 'jingle' strike on the downbeat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -152,7 +152,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation. · For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -183,7 +183,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
 NARRATION: Rhythm pattern: Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -197,7 +197,7 @@ NARRATION: Drill: Perform the forward-swing step with the instrument
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Nartakasamuhanni: A single circle formation where dancers move in unison
@@ -206,7 +206,7 @@ NARRATION: Drill: Practice the side-to-side transition in a row formation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -227,7 +227,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation. · For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Linear rows or concentric circles; dancers often interact with partners in opposite rows
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -258,7 +258,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4 or 2/4.
 NARRATION: Rhythm pattern: Steady, driving eighth-note pulses from the dholki punctuated by the metallic jingle of the Lezim.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -272,7 +272,7 @@ NARRATION: Drill: Maintain the rhythm while walking in a circle
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Nartakasamuhanni: A single circle formation where dancers move in unison
@@ -281,7 +281,7 @@ NARRATION: Drill: Execute a twirl while striking the Lezim
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -302,7 +302,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic striking of the Lezim instrument while seated, focusing on arm movements and upper body rotation. · For children: A 'follow the leader' game where children must change their step immediately upon hearing the whistle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Linear rows or concentric circles; dancers often interact with partners in opposite rows
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 140 bpm
@@ -339,10 +339,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 1-2-3-4-5-6-7-8
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 5-6-7-8 and 1-2-3-4-5-6-7-8
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: make sure; dhyan rakhna
+Cues: 5-6-7 go; again; make sure; dhyan rakhna
 Common mistakes the studied teachers name: lezim ko aise na bajaye; ungli upar hit na ho
 
 Sources (4): https://en.wikipedia.org/wiki/Lezim; https://www.wikidata.org/wiki/Q6538197; https://es.wikipedia.org/wiki/Lezim; https://archive.org/details/celebrationoflif0000pani

@@ -1,8 +1,8 @@
 # Spiral Dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-28 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A focused, respectful ritual facilitator emphasizing group coordination and shared rhythm.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Weaving the Circle: The 1979 Berkeley Spiral Dance
 NARRATION: This is Spiral Dance. 1970s (1979).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (5k8EU4TeBXM)
 ON SCREEN: Title card: Spiral Dance · United States · 1970s (1979)
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: Dancers hold hands in a single line and follow a designated leader us
 NARRATION: The leader moves counter-clockwise to form an inner spiral.
 NARRATION: Upon reaching the interior of the circle, the leader turns around to lead the line clockwise while facing the incoming dancers.
 NARRATION: Watch for Grapevine line step, The Center Turn.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (5k8EU4TeBXM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Single file line entering in counter-clockwise spiral, turning inward to uncoil clockwise face-to-face.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -97,7 +97,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '5k8EU4TeBXM', 'checked_by_vision_model': True, 'title': "Reclaiming's Spiral Dance: Three Decades of Magic"}
 Images: 0 licensed
 Footage: 2004.06.06.Spiral.Dance — https://archive.org/details/2004.06.06.Spiral.Dance
 Motifs: Overhead shot of coiling and uncoiling spirals., Close-up of hands linked in a single continuous line., Face-to-face passing moments between dancers.

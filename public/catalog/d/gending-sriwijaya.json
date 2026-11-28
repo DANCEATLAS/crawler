@@ -31,6 +31,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Gending_Sriwijaya",
   "wikidata_qid": "Q7337949",
   "unesco": false,
+  "hero_video_youtube_id": "1BQM836-e84",
+  "video_stack": [
+   {
+    "youtube_id": "1BQM836-e84",
+    "role": "hero",
+    "title": "Tari Gending Sriwijaya",
+    "channel": "Imans Channel",
+    "hd": false
+   },
+   {
+    "youtube_id": "_iOgonp5hEk",
+    "role": "rendition",
+    "title": "Tari Gending Sriwijaya",
+    "channel": "Pesona Sriwijaya",
+    "hd": true
+   },
+   {
+    "youtube_id": "gR11Z8iOxFI",
+    "role": "rendition",
+    "title": "Tari Gending Sriwijaya Sesuai Pakem & Orisinil By Sanggar Musi x Pegadaian Kanwil Palembang",
+    "channel": "Heriyandi Sanggar Musi Wedding Gallery",
+    "hd": true
+   },
+   {
+    "youtube_id": "HInesR2qlIQ",
+    "role": "rendition",
+    "title": "TARI GENDING SRIWIJAYA - PROV. SUMATERA SELATAN",
+    "channel": "APIaward",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -102,6 +133,14 @@
   "needs_eyes_on": true,
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-28T18:51:19Z",
+   "soft_fail": [
+    "hd"
+   ]
+  },
   "related_slugs": [
    "melinting-dance"
   ]
@@ -371,7 +410,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -387,10 +426,6 @@
     "label": "tempo, meter or the teacher's count"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -401,11 +436,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 5,
+  "gaps": 4,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/gending-sriwijaya.json"
  },
- "fingerprint": "d68bf2ca0e9438ba",
- "updated": "2026-11-27"
+ "fingerprint": "4247c999f052bde8",
+ "updated": "2026-11-28"
 }

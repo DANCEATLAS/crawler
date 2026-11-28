@@ -1,13 +1,51 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Approach from the south, coming down Greasy Hill, entering designated houses",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "The Shalako ceremony and feast has been closed to non-native peoples since 1990."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "sacred",
+        "ceremonial"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "Chants recounting the creation of the Zuni and their search for the Middle"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9b6cccd0d7332a395fe90a07ca22664b1829489189b0b1ef2e5a87f8cf2bf722",
+  "fingerprint": "4301ef51e0b36b1aefd88b1da4e19d77c16ee552fd9f968bcb7055c42eb23c18",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,8 +53,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
@@ -30,7 +67,8 @@
       "Declare languages, audiences, session modes and territories covered by review"
     ],
     "rights": [
-      "Two musically reviewed choices with composition AND recording rights for intended uses"
+      "Two musically reviewed choices with composition AND recording rights for intended uses",
+      "Investigate: How can researchers respect the closure of the Shalako ceremony to non-native peoples since 1990 while documenting its traditions? Evidence needed: Zuni tribal cultural preservation guidelines"
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
@@ -45,8 +83,18 @@
   ],
   "music_options": [],
   "name": "Shalako",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "rights",
+      "id": "948f914139fee03f",
+      "next_evidence": "Zuni tribal cultural preservation guidelines",
+      "question": "How can researchers respect the closure of the Shalako ceremony to non-native peoples since 1990 while documenting its traditions?",
+      "source": "https://en.wikipedia.org/wiki/Shalako",
+      "status": "candidate_unreviewed",
+      "why_needed": "The ceremony is strictly closed and restricted, limiting direct observation or outside instruction."
+    }
+  ],
+  "research_file": "research_results/shalako.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +106,8 @@
   "slug": "shalako",
   "sources": [
     "https://en.wikipedia.org/wiki/Shalako",
-    "Source: Shalako on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Shalako"
+    "https://www.wikidata.org/wiki/Q17116929"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

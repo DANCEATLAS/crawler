@@ -1,8 +1,8 @@
 # Oyilattam — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced Tamil folk artist from Madurai, combining grounded village tradition with clear instructional cues on row alignment and kerchief flourishes.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Wings of Grace: The Thavil Rhythm of Madurai
 NARRATION: This is Oyilattam.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (02D2cfnf05g)
 ON SCREEN: Title card: Oyilattam · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance begins with a small group of performers standing in a row, 
 NARRATION: Dancers execute rhythmic steps that sync with the musical accompaniment.
 NARRATION: As the dance proceeds, the row expands as additional dancers join the formation, intensifying the synchronized movements and footwork.
 NARRATION: Watch for Kerchief waving, Expanding row progression.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (02D2cfnf05g)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: A row of performers that expands outward as more dancers join.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -308,7 +308,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers wear ankle bells and have brightly colored handkerchiefs tied to their fingers. Oyilattam is traditionally presented in open-air settings, notably village festival grounds and outdoor agricultural clearings following the harvest.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '02D2cfnf05g', 'checked_by_vision_model': True, 'title': 'தன்னானே பாட்டொன்னு பாட #கலைத்திருவிழா #oyilattam #kalaithiruvizha #tamilfolkdance#ஒயிலாட்டம்'}
 Images: 3 licensed — w:user:Planemad / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Thoughlife / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Brightly colored kerchiefs fluttering in unison against open sky, Close-ups of brass ankle bells chiming against bare feet on dry earth, The expanding horizontal row of dancers stretching across the village square, Hands striking the skin of the thavil barrel drum
@@ -318,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Oyilattam; https://www.wikidata.org/wiki/Q7116273

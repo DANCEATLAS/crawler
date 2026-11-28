@@ -1,8 +1,8 @@
 # Skudrinka — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An authoritative Balkan ethnochoreologist precise about traditional line geometry and structural holds.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Stick Oro of Dolna Reka
 NARRATION: This is Skudrinka. 20th century (documented 1977).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (d83uk3brHk8)
 ON SCREEN: Title card: Skudrinka · North Macedonia · 20th century (documented 1977)
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance begins with performers arranged in a half-circle formation.
 NARRATION: Rather than holding hands directly, the dancers hold sticks placed between each participant, keeping their hands in a horizontal position.
 NARRATION: The movement is characterized by steady steps performed on the half-feet, interspersed with turns and vertical jumps.
 NARRATION: Watch for Stick hold position, Half-foot turn and jump.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (d83uk3brHk8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Half-circle chain formation traveling along a curved path.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -317,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'd83uk3brHk8', 'checked_by_vision_model': False, 'title': 'Skudrinka (Reuploaded) | Industrial Dance | L-Rina.BAT'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Horizontal line of wooden sticks connecting dancers' hands., Close-up of footwork pivoting on the balls of the feet., Wide shot of the half-circle arc sweeping across the floor.
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Skudrinka; https://www.wikidata.org/wiki/Q7536866

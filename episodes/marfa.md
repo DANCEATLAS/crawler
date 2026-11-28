@@ -1,6 +1,6 @@
 # Marfa — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections
 
@@ -140,6 +140,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lack of synchronization with the rapid 'teen maar' beats; improper handling of ceremonial weapons
+NARRATION: Teachers of this dance warn against: ఎక్కువ ఎగరొద్దండి (do not jump too much)
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the rhythmic jiggling and arm movements with canes while seated · For children: Rhythm imitation game using plastic pots and sticks
 MUSIC: silence
@@ -210,6 +211,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lack of synchronization with the rapid 'teen maar' beats; improper handling of ceremonial weapons
+NARRATION: Teachers of this dance warn against: ఎక్కువ ఎగరొద్దండి (do not jump too much)
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the rhythmic jiggling and arm movements with canes while seated · For children: Rhythm imitation game using plastic pots and sticks
 MUSIC: silence
@@ -278,6 +280,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lack of synchronization with the rapid 'teen maar' beats; improper handling of ceremonial weapons
+NARRATION: Teachers of this dance warn against: ఎక్కువ ఎగరొద్దండి (do not jump too much)
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the rhythmic jiggling and arm movements with canes while seated · For children: Rhythm imitation game using plastic pots and sticks
 MUSIC: silence
@@ -321,9 +324,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 1-2-3-4-5-6-7-8
 Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 8
-Cues: 5-6-7-go; 1-2-3-4; right leg; left leg; 1 2 3 start; simple
+Cues: 5-6-7-go; 1-2-3-4; right leg; left leg; 1 2 3 4; ready start; 1 2 3 start; simple
+Common mistakes the studied teachers name: ఎక్కువ ఎగరొద్దండి (do not jump too much)
 
 Sources (2): https://en.wikipedia.org/wiki/Marfa_(music); https://www.wikidata.org/wiki/Q6759033

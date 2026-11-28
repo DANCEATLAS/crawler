@@ -1,0 +1,129 @@
+{
+ "youtube_id": "vmu6zM0N45Y",
+ "slug": "regency-dance",
+ "dance": "Regency dance",
+ "title": "Regency Dance Lesson",
+ "channel": "Riversdale Historic Site & Museum",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-28T19:00:22Z",
+ "url": "https://www.youtube.com/watch?v=vmu6zM0N45Y",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor guides learners through historical context and visual plates before breaking down the steps step-by-step. She demonstrates the choreography at a steady tempo, combining voiceover instruction with full-body demonstration.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Listen to the music and view fashion plates."
+   },
+   {
+    "t": "0:27",
+    "segment": "breakdown",
+    "note": "Explanation and demonstration of footwork to a count of four."
+   },
+   {
+    "t": "1:06",
+    "segment": "follow_along",
+    "note": "Try the dance along with the instructor without music."
+   },
+   {
+    "t": "1:35",
+    "segment": "music_practice",
+    "note": "Watch the dance performed with music."
+   }
+  ],
+  "counting_scheme": "1-2-3-4",
+  "cues": [
+   "4 steps left",
+   "4 steps back to center",
+   "4 steps right",
+   "4 circle",
+   "4 steps forward",
+   "4 steps backward"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Steps Left",
+    "counts": "1-2-3-4",
+    "description": "Take four steps to the left and back to center."
+   },
+   {
+    "name": "Steps Right",
+    "counts": "1-2-3-4",
+    "description": "Take four steps to the right and back to center."
+   },
+   {
+    "name": "Circle",
+    "counts": "1-2-3-4",
+    "description": "Spin in a circle with four steps."
+   },
+   {
+    "name": "Steps Forward and Backward",
+    "counts": "1-2-3-4",
+    "description": "Take four steps forward, back to center, and backward."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "On-screen text cues match the spoken instructions",
+    "Clear visual breakdown of counts before adding music"
+   ],
+   "what_hinders": [
+    "Lack of multiple camera angles makes footwork detail harder to see"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:32",
+    "text": "We call this a count of four."
+   },
+   {
+    "t": "0:41",
+    "text": "Take four steps to the left and four steps back to center."
+   },
+   {
+    "t": "1:07",
+    "text": "This time try it along with me."
+   },
+   {
+    "t": "1:35",
+    "text": "Okay, let's put it all together."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 41,
+    "end_s": 50,
+    "topic": "movement",
+    "observation": "Instructor demonstrates side steps to the left and right in a formal room.",
+    "viewpoint": "front, unknown if mirrored",
+    "cannot_infer": "exact weight transfer details due to long dress",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Incorporating historical fashion plates and context before teaching any physical steps."
+ },
+ "attempts": 1
+}

@@ -35,6 +35,37 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Lilin_dance",
   "wikidata_qid": "Q7447193",
   "unesco": false,
+  "hero_video_youtube_id": "oRK2hTRfpi0",
+  "video_stack": [
+   {
+    "youtube_id": "oRK2hTRfpi0",
+    "role": "hero",
+    "title": "Tari Lilin Natal, dari Perkauan, 24 Desember 2023",
+    "channel": "GKII Purwodadi",
+    "hd": true
+   },
+   {
+    "youtube_id": "MZ6CC-R4pQM",
+    "role": "rendition",
+    "title": "Es Lilin Dance by EKI Dance Company.mp4",
+    "channel": "EKIDanceCo",
+    "hd": false
+   },
+   {
+    "youtube_id": "0FQsisO1gOY",
+    "role": "rendition",
+    "title": "Tari Lilin - Indonesian Candle Dance",
+    "channel": "myqthunni",
+    "hd": true
+   },
+   {
+    "youtube_id": "MDgLXlfvUPI",
+    "role": "rendition",
+    "title": "TARI LILIN Natal 2025 (KOLABORASI)",
+    "channel": "GKII Purwodadi",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -107,6 +138,12 @@
   "sacred_note": "While originally performed to honor a community god during harvest, the dance is now primarily a secular cultural and entertainment performance.",
   "movie_ready": true,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-28T18:51:23Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "tari-piring",
    "pandanggo-sa-ilaw"
@@ -375,7 +412,7 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 10,
+  "have": 11,
   "of": 15,
   "missing": [
    {
@@ -391,10 +428,6 @@
     "label": "tempo, meter or the teacher's count"
    },
    {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
-   },
-   {
     "key": "study_video",
     "label": "a lesson or performance the machine studied, with timestamps"
    }
@@ -405,11 +438,11 @@
   "status": "draft",
   "chapters": 3,
   "scenes": 37,
-  "gaps": 6,
+  "gaps": 5,
   "runtime_min": 50,
   "polished": false,
   "file": "episodes/lilin-dance.json"
  },
- "fingerprint": "76f1d11a3fa547e6",
- "updated": "2026-11-27"
+ "fingerprint": "9f6dea7c64b2d26c",
+ "updated": "2026-11-28"
 }

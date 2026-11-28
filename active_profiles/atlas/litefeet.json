@@ -1,13 +1,109 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex shoe tricks",
+          "subway performance risks"
+        ],
+        "counts": "not described in sources",
+        "duration_minutes": "3",
+        "game_version": "A fun rhythm game mimicking the weightless footwork of Litefeet."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "balance",
+          "knees",
+          "spine",
+          "jumps"
+        ],
+        "counts": "not described in sources",
+        "seated_version": "Seated shuffling and upper body movements inspired by Litefeet.",
+        "standing_version": "Standing with reduced range, avoiding jumping.",
+        "tempo_and_range": "Reduced tempo below 100-110 BPM and smaller range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "shuffling",
+      "formation_and_space": "performed on subways in New York City and at Union Square",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "commonly incorporated into the social dance Litefeet",
+          "name": "Harlem shake"
+        },
+        {
+          "description": "a popular Litefeet dance",
+          "name": "Chicken Noodle Soup"
+        },
+        {
+          "description": "a popular Litefeet dance",
+          "name": "Tone Wop"
+        },
+        {
+          "description": "a popular Litefeet dance",
+          "name": "Rev Up"
+        },
+        {
+          "description": "a popular Litefeet dance",
+          "name": "Aunt Jackie"
+        },
+        {
+          "description": "a popular Litefeet dance",
+          "name": "Bad One"
+        },
+        {
+          "description": "a popular Litefeet dance",
+          "name": "All In"
+        }
+      ],
+      "tempo_feel": "fast-paced",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "drum kits"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "fast-paced"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "fast-paced rap beats and drum kits",
+      "sound_description": "Fast-paced 100-110 BPM rap beats paired with drum kits, serving as the musical foundation for Litefeet dancing.",
+      "tempo_bpm": "100-110",
+      "vocal_style": "rap"
+    },
+    "teaching": {
+      "basic_steps": [
+        "shuffling",
+        "Tone Wop",
+        "Chicken Noodle Soup",
+        "Rev Up",
+        "Aunt Jackie",
+        "Bad One",
+        "All In"
+      ],
+      "formation": "performed on subways in New York City and at Union Square",
+      "level_notes": "not described in sources",
+      "rhythm": "fast-paced 100-110BPM rap beats and drum kits"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "699514983805bcd4c1ae0b58a0c5279cad20b51fcc0491aad114d6bd1479f208",
+  "fingerprint": "0d8a0e8cc0accb955e72c27293ee90c099ccf09f241a79b094dfd65b78f9bdb5",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +111,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: posture, what_to_avoid",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -33,8 +128,8 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the precise spatial formations and partner interactions during subway Showtime performances? Evidence needed: Field recordings and interviews with Litefeet teams like W.A.F.F.L.E."
     ]
   },
   "id": "atlas:litefeet",
@@ -45,8 +140,18 @@
   ],
   "music_options": [],
   "name": "Litefeet",
-  "open_questions": [],
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "7c03d26f235cf2d4",
+      "next_evidence": "Field recordings and interviews with Litefeet teams like W.A.F.F.L.E.",
+      "question": "What are the precise spatial formations and partner interactions during subway Showtime performances?",
+      "source": "https://en.wikipedia.org/wiki/Litefeet",
+      "status": "candidate_unreviewed",
+      "why_needed": "Sources mention performances on subways and Union Square but lack precise blocking details."
+    }
+  ],
+  "research_file": "research_results/litefeet.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -58,8 +163,15 @@
   "slug": "litefeet",
   "sources": [
     "https://en.wikipedia.org/wiki/Litefeet",
-    "Source: Litefeet on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Litefeet"
+    "https://www.wikidata.org/wiki/Q20657199",
+    "https://pt.wikipedia.org/wiki/Litefeet"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/r_Iw6hLlPBs.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=r_Iw6hLlPBs"
+    }
+  ]
 }

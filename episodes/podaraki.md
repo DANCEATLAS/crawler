@@ -1,6 +1,6 @@
 # Podaraki — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.3 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.3 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the costume & setting section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -303,9 +303,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: un e due e tre pam pam
-Demonstration: views used by most teachers: overhead; tempo progression: slow → full
+Demonstration: views used by most teachers: overhead, front; tempo progression: slow → full
 Cues: destro libero; giro; opa
 
 Sources (2): https://en.wikipedia.org/wiki/Podaraki; https://www.wikidata.org/wiki/Q7206621

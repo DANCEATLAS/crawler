@@ -34,6 +34,16 @@
   "wikipedia_url": "https://en.wikipedia.org/wiki/Sato_kagura",
   "wikidata_qid": "Q7426339",
   "unesco": false,
+  "hero_video_youtube_id": "Ko54C8Vu6G0",
+  "video_stack": [
+   {
+    "youtube_id": "Ko54C8Vu6G0",
+    "role": "hero",
+    "title": "Lion Dance by Special Guest Edo Sato Kagura - Orlando Japan Festival 2015",
+    "channel": "AsiaTrend.org",
+    "hd": true
+   }
+  ],
   "tier": "content_ready",
   "publish_gate": "publish",
   "_is_sacred": true,
@@ -49,6 +59,12 @@
   "sacred_note": "Sato kagura is a sacred Shinto ritual dance-drama performed during shrine festivals to honor deities; respectful observation is expected during performances.",
   "movie_ready": false,
   "tradition_status": "living",
+  "hero_source": "crawler:crowd_wisdom_confident",
+  "hero_qc": {
+   "verdict": "pass",
+   "checked_at": "2026-11-28T18:52:27Z",
+   "soft_fail": []
+  },
   "related_slugs": [
    "kagura"
   ]
@@ -151,16 +167,12 @@
  },
  "readiness": {
   "standard": "AR-1",
-  "have": 3,
+  "have": 4,
   "of": 6,
   "missing": [
    {
     "key": "story",
     "label": "origins, meaning and occasions, dress and setting — written from sources"
-   },
-   {
-    "key": "hero_video",
-    "label": "a hero video that passed the vision check"
    },
    {
     "key": "picture",
@@ -173,11 +185,11 @@
   "status": "withheld-chapters",
   "chapters": 0,
   "scenes": 10,
-  "gaps": 10,
+  "gaps": 9,
   "runtime_min": 9,
   "polished": false,
   "file": "episodes/sato-kagura.json"
  },
- "fingerprint": "ece589a4d12baaea",
- "updated": "2026-11-27"
+ "fingerprint": "34d5bbc970163325",
+ "updated": "2026-11-28"
 }

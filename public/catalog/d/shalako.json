@@ -2,7 +2,7 @@
  "contract": "da_dance_v1",
  "slug": "shalako",
  "name": "Shalako",
- "state": "listed",
+ "state": "teaching_withheld",
  "note": "Gathered and written by a machine from public sources and checked against them. Not reviewed by a person, not rights-cleared, not tested on learners. The rules are in manifest.json.",
  "countries": [
   "US"
@@ -11,11 +11,14 @@
   "slug": "shalako",
   "name": "Shalako",
   "country": "United States",
+  "country_code": "US",
+  "flag_emoji": "🇺🇸",
   "region": "North America",
+  "family": "ritual-sacred",
   "era": "1990",
-  "tagline": "United States, 1990 — series of dances and ceremonies conducted by the Native American Zuni people for the Zuni people at the win…",
-  "profile": "Shalako is a series of dances and ceremonies conducted by the Native American Zuni people for the Zuni people at the winter solstice, typically following the harvest. The Shalako ceremony and feast has been closed to non-native peoples since 1990. However, non-native peoples may be invited as guests by a Zuni tribal member. Nancy Bonvillain described the Shalakos, \"They brought good fortune, abundant crops, and many children.\" They are chosen at Winter Solstice, when they begin to learn the chants they will recite in the early December ceremony.",
-  "insight": "Shalako is a series of dances and ceremonies conducted by the Native American Zuni people for the Zuni people at the winter solstice, typically following the harvest.",
+  "tagline": "Zuni winter solstice ceremony featuring towering figures bringing fortune.",
+  "profile": "Shalako is a series of dances and ceremonies conducted by the Native American Zuni people for the Zuni people at the winter solstice, typically following the harvest. The Shalako ceremony and feast has been closed to non-native peoples since 1990. Nancy Bonvillain described the Shalakos as bringing good fortune, abundant crops, and many children. They are chosen at Winter Solstice, when they begin to learn the chants they will recite in the early December ceremony.",
+  "insight": "At dusk in December, towering Shalako figures descend Greasy Hill to enter Zuni houses, initiating a sacred winter solstice ritual.",
   "related": [
    "salsa",
    "charleston",
@@ -25,14 +28,26 @@
   ],
   "sources": [
    "https://en.wikipedia.org/wiki/Shalako",
-   "Source: Shalako on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Shalako"
+   "Source: Shalako on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Shalako",
+   "https://www.wikidata.org/wiki/Q17116929"
   ],
   "wikipedia_url": "https://en.wikipedia.org/wiki/Shalako",
   "wikidata_qid": "Q17116929",
   "unesco": false,
   "hero_video_youtube_id": "36d-QFlSKl4",
-  "tier": "needs_curation",
+  "tier": "content_ready",
   "_is_sacred": false,
+  "research_gate": "publish",
+  "qc_score": 8.95,
+  "last_researched_at": "2026-11-28T18:46:57Z",
+  "pipeline_version": "v3.3",
+  "profile_long": "Shalako is a series of dances and ceremonies conducted by the Native American Zuni people for the Zuni people at the winter solstice, typically following the harvest. The Shalako ceremony and feast has been closed to non-native peoples since 1990, though non-native peoples may be invited as guests by a Zuni tribal member. Nancy Bonvillain described the Shalakos, noting that \"They brought good fortune, abundant crops, and many children.\" They are chosen at Winter Solstice, when they begin to learn the chants they will recite in the early December ceremony. The mythology surrounding the ceremonies includes the Koyemshi, consisting of nine offspring and their father, Awan Tatchu, who accompany and interpret the kachinas. The children have characteristics of their father, dun-colored and marked with welts, including Awan Pekwin (Priest-speaker of the Sun), Awan Pithlashiwanni (Bow Priest-warrior), Eshotsi (the Bat), Itsepasha (the Glum or Aggrieved), Kalutsi (the Suckling), Tsathlashi (Old-youth), Muyapona (Wearer of the Eyelets of Invisibility), Posuki (the Pouter), and Nalashi (Aged Buck). The ceremony is preceded by the Council of the Gods. Shulawitsi, Little Fire God, and his father, Shulawatsi An Tatchu, precede the Shalako, with Shulawitsi portrayed by a young boy carrying cedar bark torches who lights preparatory fires. They are followed by Saiyatasha or Longhorn, Rain Priest of the North, and Hututu, Rain Priest of the South, accompanied by a Yamuhakto, their helpers. All are protected by the Salimopia, Warriors of the Six Directions, which include the Salimopia Shelow'ona from the south, Salimopia Kohan'ona from the east, Salimopia Thlian'ona from the west, Salimopia Thluptsin'ona from the north, Salimopia Shikan'ona from the nadir, and Salimopia Itapanahnan'ona from the zenith. Each kiva selects two men, one to portray one of the six Shalakos, and one who alternates in the role, the Shalako Anuthlona. They appear after the Council of the Gods complete their journey around the village at dusk. They approach the village from the south, coming down Greasy Hill. Each Shalako enters their designated house, and chants commence recounting the creation of the Zuni, and their search for the Middle. After midnight, a feast is consumed by all, followed with dancing by the Shalako. The ceremony finishes at dawn when Saiyatasha completes his final prayer.",
+  "publish_gate": "publish",
+  "is_sacred": true,
+  "needs_eyes_on": true,
+  "sacred_note": "The Shalako ceremony and feast has been closed to non-native peoples since 1990, and outsiders may only attend if invited by a Zuni tribal member.",
+  "movie_ready": false,
+  "tradition_status": "living",
   "hero_source": "crawler:qc_replaced",
   "hero_qc": {
    "verdict": "pass",
@@ -47,6 +62,117 @@
    "breaking"
   ]
  },
- "fingerprint": "1f2f4b487fdb6f86",
- "updated": "2026-11-21"
+ "profile": {
+  "sections": {
+   "origins_and_history": "Shalako is a series of dances and ceremonies conducted by the Native American Zuni people for the Zuni people at the winter solstice, typically following the harvest. The Shalako ceremony and feast has been closed to non-native peoples since 1990.",
+   "how_it_is_danced": "Each kiva selects two men, one to portray one of the six Shalakos, and one who alternates in the role, the Shalako Anuthlona. They appear after the Council of the Gods complete their journey around the village at dusk. They approach the village from the south, coming down Greasy Hill. Each Shalako enters their designated house, and chants commence, followed by a feast after midnight and dancing by the Shalako until dawn.",
+   "music_and_instruments": "Chants are learned by the participants starting at the Winter Solstice and are recited during the early December ceremony, recounting the creation of the Zuni and their search for the Middle.",
+   "costume_and_setting": "Shulawitsi is portrayed by a young boy carrying cedar bark torches to light preparatory fires. The Shalako figures approach from the south, coming down Greasy Hill to enter designated houses in the Zuni village.",
+   "occasions_and_meaning": "Conducted at the winter solstice following the harvest, the Shalakos bring good fortune, abundant crops, and many children.",
+   "notable_figures": "The ceremony involves the Koyemshi (father Awan Tatchu and nine offspring), the Council of the Gods including Shulawitsi, Shulawatsi An Tatchu, Saiyatasha, Hututu, Yamuhakto, and the Salimopia Warriors of the Six Directions.",
+   "regional_variants": "not described in sources",
+   "lineage": "An indigenous American dance and Zuni ceremonial dance tradition."
+  },
+  "claims": [
+   {
+    "text": "Shalako is a series of dances and ceremonies conducted by the Native American Zuni people for the Zuni people at the winter solstice, typically following the harvest.",
+    "source": "https://en.wikipedia.org/wiki/Shalako"
+   },
+   {
+    "text": "The Shalako ceremony and feast has been closed to non-native peoples since 1990.",
+    "source": "https://en.wikipedia.org/wiki/Shalako"
+   },
+   {
+    "text": "Nancy Bonvillain described the Shalakos, 'They brought good fortune, abundant crops, and many children.'",
+    "source": "https://en.wikipedia.org/wiki/Shalako"
+   },
+   {
+    "text": "Each kiva selects two men, one to portray one of the six Shalakos, and one who alternates in the role, the Shalako Anuthlona.",
+    "source": "https://en.wikipedia.org/wiki/Shalako"
+   },
+   {
+    "text": "Shulawitsi, Little Fire God, and his father, Shulawatsi An Tatchu, precede the Shalako.",
+    "source": "https://en.wikipedia.org/wiki/Shalako"
+   },
+   {
+    "text": "They approach the village from the south, coming down Greasy Hill.",
+    "source": "https://en.wikipedia.org/wiki/Shalako"
+   },
+   {
+    "text": "After midnight, a feast is consumed by all, followed with dancing by the Shalako.",
+    "source": "https://en.wikipedia.org/wiki/Shalako"
+   }
+  ],
+  "citation": {
+   "claims": 7,
+   "supported": 7,
+   "rate": 1.0
+  },
+  "gaps": [
+   "Detailed footwork, music instrumentation, and specific dance counts are not described in sources."
+  ],
+  "confidence": 0.95,
+  "music_profile": {
+   "tempo_bpm": "",
+   "meter": "not described in sources",
+   "rhythm_pattern": "not described in sources",
+   "instruments": [],
+   "vocal_style": "Chants recounting the creation of the Zuni and their search for the Middle",
+   "musical_form": "not described in sources",
+   "mood_keywords": [
+    "sacred",
+    "ceremonial"
+   ],
+   "reference_recordings": [],
+   "sound_description": "not described in sources"
+  },
+  "episode_brief": {
+   "title_hook": "The Descent from Greasy Hill",
+   "logline": "At the winter solstice, the Zuni people enact the sacred Shalako ceremony, bringing good fortune and creation chants to their village.",
+   "beats": [
+    "Council of the Gods journeying around the village at dusk",
+    "Shalako descending Greasy Hill from the south",
+    "Entering designated houses to begin creation chants",
+    "Midnight feast shared by all",
+    "Dancing by the Shalako continuing until dawn prayer by Saiyatasha"
+   ],
+   "visual_motifs": [
+    "cedar bark torches",
+    "towering Shalako figures"
+   ],
+   "music_cue": "Traditional Zuni chants"
+  },
+  "movie_ready": false,
+  "schema": 5,
+  "tradition_status": "living",
+  "researched_at": "2026-11-28T18:46:57Z",
+  "qc_score": 8.95
+ },
+ "readiness": {
+  "standard": "AR-1",
+  "have": 4,
+  "of": 6,
+  "missing": [
+   {
+    "key": "sound",
+    "label": "the instruments and what the music sounds like"
+   },
+   {
+    "key": "picture",
+    "label": "a licensed picture or licensed footage"
+   }
+  ]
+ },
+ "teaching_withheld": "The Shalako ceremony and feast has been closed to non-native peoples since 1990, and outsiders may only attend if invited by a Zuni tribal member.",
+ "episodes": {
+  "status": "withheld-chapters",
+  "chapters": 0,
+  "scenes": 10,
+  "gaps": 8,
+  "runtime_min": 9,
+  "polished": false,
+  "file": "episodes/shalako.json"
+ },
+ "fingerprint": "5ef0cfcbeed5daac",
+ "updated": "2026-11-28"
 }

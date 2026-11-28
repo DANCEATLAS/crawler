@@ -1,8 +1,8 @@
 # Raibenshe — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic martial artist and cultural historian passionate about preserving ancient South Asian physical traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Martial Bamboo Dancers of Bengal
 NARRATION: This is Raibenshe. Medieval Bengal to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (xBZkdkxqQsU)
 ON SCREEN: Title card: Raibenshe · India · Medieval Bengal to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: The dance features vigorous and manly body movements accompanied by a
 NARRATION: Male dancers enact martial actions such as drawing a bow, throwing a spear, and waving a sword.
 NARRATION: A single brass anklet (nupur) is worn on the right ankle to accent movement.
 NARRATION: Watch for Bow Drawing, Spear Throwing, Sword Waving.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (xBZkdkxqQsU)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -302,7 +302,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers wear a brass anklet called a nupur exclusively on their right ankle. The dance involves the physical prop of the raibansh, a long bamboo pole.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'xBZkdkxqQsU', 'checked_by_vision_model': True, 'title': 'Raibeshe'}
 Images: 5 licensed — Jonoikobangali / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ami.bangali / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Sumita Roy Dutta / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Rangan Datta Wiki / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:A video shows a performance of the martial folk dance Raibenshe at Kolkata during Poush Utsav 2025.webm — https://upload.wikimedia.org/wikipedia/commons/9/9a/A_video_shows_a_performance_of_the_martial_folk_dance_Raibenshe_at_Kolkata_during_Poush_Utsav_2025.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:A video clip of Raibeshe an energetic folk martial dance at Poush utsav, Barisha club.webm — https://upload.wikimedia.org/wikipedia/commons/a/a5/A_video_clip_of_Raibeshe_an_energetic_folk_martial_dance_at_Poush_utsav%2C_Barisha_club.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Long bamboo poles (raibansh) swinging in dynamic arcs., Close-up of the brass anklet (nupur) on the right ankle striking the ground., Traditional dhol and kanshi musicians playing rapidly.
@@ -312,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Raibenshe; https://www.wikidata.org/wiki/Q7283694

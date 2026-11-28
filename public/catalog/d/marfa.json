@@ -110,6 +110,17 @@
      "annayya ela nerchukovali memmalni na best teacher meru naku assala confdance koda ledhu nenu edi cheylenu"
     ],
     "lesson_status": "in_review"
+   },
+   {
+    "youtube_id": "NEN9SuslYmo",
+    "title": "Teenmaar Dance Steps Tutorial | Chatal Band Steps | Marfa Dance | PART 1 | MGS Dance Studio",
+    "channel": "MGS Dance Studio",
+    "level": "general",
+    "pos": 1,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
    }
   ]
  },
@@ -415,6 +426,100 @@
    }
   },
   {
+   "youtube_id": "rvwbXWys6BE",
+   "url": "https://www.youtube.com/watch?v=rvwbXWys6BE",
+   "title": "Teenmaar Dance Steps Tutorial | ChatalBand Steps | Marfa Dance | PART 1 | PraveenD2D",
+   "channel": "praveenD2D",
+   "analysed_on": "2026-11-28",
+   "level": "beginner",
+   "language": "Telugu",
+   "counting_scheme": "1-2-3-4-5-6-7-8",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Teacher introduces the video and explains what steps will be taught"
+    },
+    {
+     "t": "1:08",
+     "seconds": 68,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates the first step counting from 1 to 4"
+    },
+    {
+     "t": "2:18",
+     "seconds": 138,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates the second step in half-sitting position"
+    },
+    {
+     "t": "3:03",
+     "seconds": 183,
+     "segment": "breakdown",
+     "note": "Teacher demonstrates the third step with side jumps and hand movements"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Step 1",
+     "counts": "1-8",
+     "description": "Single leg step with hand movements"
+    },
+    {
+     "name": "Step 2",
+     "counts": "1-8",
+     "description": "Half sitting step with shaking hands"
+    },
+    {
+     "name": "Step 3",
+     "counts": "1-8",
+     "description": "Side jumping step with hand gestures"
+    }
+   ],
+   "cues": [
+    "1 2 3 4",
+    "ready start"
+   ],
+   "common_mistakes": [
+    "ఎక్కువ ఎగరొద్దండి (do not jump too much)"
+   ],
+   "teacher_style": "The teacher provides step-by-step tutorials with clear verbal counting and demonstration. He breaks down movements into manageable counts and combines footwork with hand gestures.",
+   "distinctive_method": "Breaking down Marfa steps into 8-count phrases with specific posture notes like half-sitting.",
+   "what_works": [
+    "Clear counts and step-by-step breakdown",
+    "Repetition of steps on both sides"
+   ],
+   "what_hinders": [
+    "Language barrier for non-Telugu speakers"
+   ],
+   "evidence": [
+    {
+     "start_s": 108,
+     "end_s": 120,
+     "topic": "movement",
+     "observation": "Teacher demonstrates foot tapping while counting aloud",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "exact weight transfer",
+     "verification": "model_candidate"
+    },
+    {
+     "start_s": 218,
+     "end_s": 230,
+     "topic": "movement",
+     "observation": "Teacher shows half-sitting leg movement with arms bent",
+     "viewpoint": "front, unmirrored",
+     "cannot_infer": "foot pressure",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "xI6hAs6g58c",
    "url": "https://www.youtube.com/watch?v=xI6hAs6g58c",
    "title": "Teenmaar Dance Steps Tutorial | Chatal Band Steps | Marfa Dance | PART 2 | MGS Dance Studio",
@@ -564,6 +669,6 @@
   "polished": false,
   "file": "episodes/marfa.json"
  },
- "fingerprint": "7f0a4ee75521622f",
- "updated": "2026-11-27"
+ "fingerprint": "1ddbdce609b12a0c",
+ "updated": "2026-11-28"
 }

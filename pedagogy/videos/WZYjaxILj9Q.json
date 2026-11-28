@@ -1,0 +1,129 @@
+{
+ "youtube_id": "WZYjaxILj9Q",
+ "slug": "peabody",
+ "dance": "Peabody",
+ "title": "For The Love of Dance with Sarita Lou - Learning The Peabody with Roddy Caravella",
+ "channel": "LoveofDanceTV",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-28T19:00:14Z",
+ "url": "https://www.youtube.com/watch?v=WZYjaxILj9Q",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher explains historical context and breaks down steps with a lively, conversational approach. He combines verbal explanations with group walk-throughs in an outdoor setting.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:10",
+    "segment": "context",
+    "note": "Discussion of the 1920s music and history behind the Peabody."
+   },
+   {
+    "t": "0:44",
+    "segment": "breakdown",
+    "note": "Instructor explains walking on an even count of one beat per step."
+   },
+   {
+    "t": "0:55",
+    "segment": "follow_along",
+    "note": "Group practices walking together to the count."
+   },
+   {
+    "t": "2:47",
+    "segment": "breakdown",
+    "note": "Introduction and explanation of the 'pony' or stay-at-home step."
+   },
+   {
+    "t": "3:12",
+    "segment": "follow_along",
+    "note": "Couples practice the step together on the dance floor."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "One beat per step",
+   "Five, six, seven and"
+  ],
+  "metaphors": [
+   "Compression, like a pushup"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "Follows leaning in and not providing enough resistance"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Peabody walk",
+    "counts": "1-8",
+    "description": "Walking step with one beat per step in dance position."
+   },
+   {
+    "name": "The pony",
+    "counts": "1-8",
+    "description": "A stay-at-home variation for crowded floors."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear verbal counts and direct demonstrations with a group."
+   ],
+   "what_hinders": [
+    "Outdoor ambient noise and crowds can make following specific footwork harder to see."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:46",
+    "text": "in an even count of one beat per step, which is very easy."
+   },
+   {
+    "t": "2:04",
+    "text": "You're leaning in, giving me a little resistance, compression, like a pushup."
+   },
+   {
+    "t": "2:51",
+    "text": "there are what we call a stay at home... I call them a stay at home step"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 44,
+    "end_s": 54,
+    "topic": "teaching",
+    "observation": "Teacher speaks to a group of participants standing in a line outdoors, gesturing with his hands.",
+    "viewpoint": "front, unmirrored",
+    "cannot_infer": "exact foot placement of participants in the background",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 58,
+    "end_s": 65,
+    "topic": "movement",
+    "observation": "Participants walk forward together in a line following the teacher's lead.",
+    "viewpoint": "side, unmirrored",
+    "cannot_infer": "individual weight transfer details",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Explaining steps using real-world situational analogies such as traffic on the floor and real estate."
+ },
+ "attempts": 1
+}

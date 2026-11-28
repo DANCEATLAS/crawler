@@ -2,7 +2,7 @@
  "slug": "sokkie",
  "name": "Sokkie",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:06Z",
+ "built_at": "2026-11-28T19:18:06Z",
  "researched_at": "2026-11-27T19:48:34Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Sokkie. 19th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (kycRqEKMQFM)",
      "Title card: Sokkie · South Africa · 19th century to present"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Boerewals, Loopdans."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (kycRqEKMQFM)",
      "Captions name each signature move as it appears",
      "Formation: Couples traveling counter-clockwise around a social dance floor."
     ],
@@ -279,7 +279,7 @@
       "Drill: Practice partner stance without shoes in socks to feel floor traction"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -321,7 +321,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Avoid footwear that slips on slick floors if dancing in socks."
+      "Avoid footwear that slips on slick floors if dancing in socks.",
+      "Teachers of this dance warn against: walking instead of shuffling",
+      "Teachers of this dance warn against: shifting shoulders back and forth or up and down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -425,7 +427,7 @@
       "Step 2: Step rhythmically using loopdans or two-step basic travel steps"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -469,7 +471,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Avoid footwear that slips on slick floors if dancing in socks."
+      "Avoid footwear that slips on slick floors if dancing in socks.",
+      "Teachers of this dance warn against: walking instead of shuffling",
+      "Teachers of this dance warn against: shifting shoulders back and forth or up and down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -573,7 +577,7 @@
       "Step 2: Blend in foxtrot, quickstep, or swing turns based on musical tempo"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -616,7 +620,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Avoid footwear that slips on slick floors if dancing in socks."
+      "Avoid footwear that slips on slick floors if dancing in socks.",
+      "Teachers of this dance warn against: walking instead of shuffling",
+      "Teachers of this dance warn against: shifting shoulders back and forth or up and down"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -719,7 +725,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "kycRqEKMQFM",
+   "checked_by_vision_model": true,
+   "title": "Sokkie Basic"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -754,43 +764,38 @@
   ]
  },
  "teaching_formula": {
-  "source": "16 tutorial(s) of the ballroom-partner family studied",
-  "videos_studied": 16,
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, mirror, back",
-   "tempo progression: slow → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front",
+   "tempo progression: slow"
   ],
   "cues": [
-   "walk walk",
-   "aprovechar la inercia",
-   "todo tiene que ir fluido",
-   "no se debera cortar el movimiento",
-   "step point",
-   "side by side",
-   "quick quick slow",
-   "side with the left",
-   "bring it in",
-   "switch weight",
-   "change weight onto the left",
-   "side close side"
+   "weight on my toes",
+   "keep your feet on the ground",
+   "natural sway"
   ],
-  "common_mistakes": [],
+  "common_mistakes": [
+   "walking instead of shuffling",
+   "shifting shoulders back and forth or up and down"
+  ],
   "segment_order": [
    "intro",
-   "full_demo",
-   "context",
    "breakdown",
-   "slow_practice",
-   "music_practice"
+   "recap"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Basic Shuffle",
+    "counts": "",
+    "description": "Shuffling forward and backward with weight mostly on the toes."
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
-  "a hero video",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -801,6 +806,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "ea3e74c28d6ec13bc415d4e92848fafb27ac8eeb6da0aac0d8179ed90c100291",
- "hero_checked": null
+ "input_fingerprint": "76a1893e335cce9552668e167fc38e3ee03dcf02205c4ea82e9ccd28c0a28be9",
+ "hero_checked": "pass"
 }

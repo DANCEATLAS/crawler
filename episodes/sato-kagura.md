@@ -1,8 +1,8 @@
 # Sato kagura — episode pack
 
-*Status: withheld-chapters · built 2026-11-27 · judge 8.5 · 5/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-28 · judge 8.5 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the costume & setting section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable cultural historian or Shinto ritual practitioner explaining the mythic theatrical elements of village kagura.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Restoring the Sun: The Village Shinto Dances of Sato Kagura
 NARRATION: This is Sato kagura. Traditional / Ancient origin.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Ko54C8Vu6G0)
 ON SCREEN: Title card: Sato kagura · Japan · Traditional / Ancient origin
 MUSIC: theme (30 s)
 
@@ -31,7 +31,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Ko54C8Vu6G0)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Ritual dance-drama stage or shrine environment.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -92,7 +92,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Ko54C8Vu6G0', 'checked_by_vision_model': True, 'title': 'Lion Dance by Special Guest Edo Sato Kagura - Orlando Japan Festival 2015'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Shinto shrine grounds during a festival, Traditional drums and bamboo flutes, Dancers portraying mythological characters

@@ -1,0 +1,119 @@
+{
+ "slug": "burmese-dance",
+ "qc_at": "2026-11-28T18:47:34Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 10.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Burmese dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "89"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "148"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1953, the dancer Oba Thaung codified the Burmese repertoire into a five-year "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "601"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3062"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/7 rate=0.857"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Myanmar"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'god', 'spirit', 'devotional', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Exceptional cultural profile with flawless grounding in the provided source text, accurate handling of sacred elements, and detailed movement analysis."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=10.0",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 6,
+  "rate": 0.857
+ },
+ "researched_at": "2026-11-28T18:36:03Z"
+}

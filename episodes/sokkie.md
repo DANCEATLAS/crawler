@@ -1,8 +1,8 @@
 # Sokkie — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic social dance instructor from Southern Africa passionate about communal partner dancing.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Socks on the Dance Floor: Southern Africa's Sokkie Tradition
 NARRATION: This is Sokkie. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (kycRqEKMQFM)
 ON SCREEN: Title card: Sokkie · South Africa · 19th century to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Sokkie is a social partner ballroom dance.
 NARRATION: Dancers combine steps from various styles such as loopdans, two-step, swing, boogie, social foxtrot, and quickstep.
 NARRATION: It can also include the 'boerewals', which is a Viennese waltz adapted for sokkie.
 NARRATION: Watch for Boerewals, Loopdans.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (kycRqEKMQFM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples traveling counter-clockwise around a social dance floor.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -119,7 +119,7 @@ NARRATION: Step 1: Adopt a closed or open social ballroom frame with partner
 NARRATION: Step 2: Step rhythmically using loopdans or two-step basic travel steps
 NARRATION: Footwork from the sources: Mix of loopdans, two-step, swing, boogie, social foxtrot, and quickstep steps; boerewals (Viennese waltz) steps used for waltz meters.
 NARRATION: Drill: Practice partner stance without shoes in socks to feel floor traction
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -141,6 +141,8 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid footwear that slips on slick floors if dancing in socks.
+NARRATION: Teachers of this dance warn against: walking instead of shuffling
+NARRATION: Teachers of this dance warn against: shifting shoulders back and forth or up and down
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated rhythm clapping and upper body lead-follow arm movements matching duple or triple music timing. · For children: Sock hop freeze dance where partners perform two-step until music stops.
 MUSIC: silence
@@ -188,7 +190,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Adopt a closed or open social ballroom frame with partner
 NARRATION: Step 2: Step rhythmically using loopdans or two-step basic travel steps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -212,6 +214,8 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid footwear that slips on slick floors if dancing in socks.
+NARRATION: Teachers of this dance warn against: walking instead of shuffling
+NARRATION: Teachers of this dance warn against: shifting shoulders back and forth or up and down
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated rhythm clapping and upper body lead-follow arm movements matching duple or triple music timing. · For children: Sock hop freeze dance where partners perform two-step until music stops.
 MUSIC: silence
@@ -259,7 +263,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step rhythmically using loopdans or two-step basic travel steps
 NARRATION: Step 2: Blend in foxtrot, quickstep, or swing turns based on musical tempo
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -282,6 +286,8 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid footwear that slips on slick floors if dancing in socks.
+NARRATION: Teachers of this dance warn against: walking instead of shuffling
+NARRATION: Teachers of this dance warn against: shifting shoulders back and forth or up and down
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated rhythm clapping and upper body lead-follow arm movements matching duple or triple music timing. · For children: Sock hop freeze dance where partners perform two-step until music stops.
 MUSIC: silence
@@ -317,7 +323,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: In formal venues and nightclubs, dancers wear smart-casual clothes and shoes. In informal settings, young dancers traditionally dance barefoot or in socks.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'kycRqEKMQFM', 'checked_by_vision_model': True, 'title': 'Sokkie Basic'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Close-up of sock-covered feet moving over a smooth floor, Couples navigating a lit social dance floor, Smart casual clothing contrasted with barefoot dancing
@@ -327,9 +333,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the ballroom-partner family studied · videos studied: 16
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: walk walk; aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side
+Demonstration: views used by most teachers: front; tempo progression: slow
+Cues: weight on my toes; keep your feet on the ground; natural sway
+Common mistakes the studied teachers name: walking instead of shuffling; shifting shoulders back and forth or up and down
 
 Sources (2): https://en.wikipedia.org/wiki/Sokkie; https://www.wikidata.org/wiki/Q7555120

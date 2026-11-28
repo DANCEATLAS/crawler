@@ -1,8 +1,8 @@
 # Peabody — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic, polished ballroom historian and instructor who emphasizes historical style, speed, and floor travel.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Cop Who Created America's Fastest Glide
 NARRATION: This is Peabody. 1910s–1920s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (_VOFkpsxuv0)
 ON SCREEN: Title card: Peabody · United States · 1910s–1920s
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The Peabody is a brisk dance that covers expansive floor space.
 NARRATION: Performed to 2/4 or 4/4 ragtime music, it operates essentially as a fast one-step featuring long, gliding strides and occasional syncopations.
 NARRATION: Dancers utilize an unusual English or right-outside position where the leader holds the partner on his right side.
 NARRATION: Watch for Right-Outside Glide, Leader Side-Change Promenade, Peabody Upper-Body Dip.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (_VOFkpsxuv0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Progressive partner travel covering large areas of the ballroom floor.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -77,7 +77,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Adopt the right-outside (English) partner position.
 NARRATION: Initiate forward progress with long, smooth, gliding strides around the room.
-NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -106,7 +106,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Brisk ragtime or fast one-step beat with steady accents and optional syncopation..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -118,10 +118,10 @@ NARRATION: Step 1: Adopt the right-outside (English) partner position.
 NARRATION: Step 2: Initiate forward progress with long, smooth, gliding strides around the room.
 NARRATION: Footwork from the sources: Long, smooth gliding strides with occasional syncopations and quick directional changes.
 NARRATION: Drill: Practice holding right-outside frame while walking in straight lines.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute simple promenade walks while maintaining right-side alignment.
@@ -129,7 +129,7 @@ NARRATION: Step 4: Incorporate simple left and right turns along the floor patte
 NARRATION: Drill: Execute continuous forward gliding steps to a moderate 2/4 rhythm.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -142,13 +142,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid heavy heel stomping, breaking frame in the right-outside hold, or stopping momentum on crowded floors.
+NARRATION: Teachers of this dance warn against: follows leaning in and not providing enough resistance
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform upper-body frame holds and rhythmic foot taps in 2/4 ragtime tempo while seated. · For children: 'Traffic Cop Glide' game where children mirror officer signals while gliding in right-outside pairs around a marked track.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform upper-body frame holds and rhythmic foot taps in 2/4 ragtime tempo while seated. · For children: 'Traffic Cop Glide' game where children mirror officer signals while gliding in right-outside pairs around a marked track. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -179,7 +180,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Brisk ragtime or fast one-step beat with steady accents and optional syncopation..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -189,10 +190,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Add optional subtle upper-body dipping motions in tempo.
 NARRATION: Drill: Perform promenade walks transitioning into basic turns.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Right-Outside Glide: Continuous fast forward gliding strides taken while holding partner offset on the right side.
@@ -201,7 +202,7 @@ NARRATION: Drill: Practice leader side-changes without disrupting forward veloci
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -214,13 +215,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid heavy heel stomping, breaking frame in the right-outside hold, or stopping momentum on crowded floors.
+NARRATION: Teachers of this dance warn against: follows leaning in and not providing enough resistance
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform upper-body frame holds and rhythmic foot taps in 2/4 ragtime tempo while seated. · For children: 'Traffic Cop Glide' game where children mirror officer signals while gliding in right-outside pairs around a marked track.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform upper-body frame holds and rhythmic foot taps in 2/4 ragtime tempo while seated. · For children: 'Traffic Cop Glide' game where children mirror officer signals while gliding in right-outside pairs around a marked track. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Progressive partner travel covering large areas of the ballroom floor.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -251,7 +253,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Brisk ragtime or fast one-step beat with steady accents and optional syncopation..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -262,10 +264,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Incorporate simple left and right turns along the floor pattern.
 NARRATION: Step 2: Add optional subtle upper-body dipping motions in tempo.
 NARRATION: Drill: Drill syncopated step patterns within long gliding runs.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Peabody Upper-Body Dip: A subtle dipping motion of the upper body integrated into the continuous gliding movement.
@@ -273,7 +275,7 @@ NARRATION: Drill: Incorporate upper-body dips while maintaining balance and fram
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -286,13 +288,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid heavy heel stomping, breaking frame in the right-outside hold, or stopping momentum on crowded floors.
+NARRATION: Teachers of this dance warn against: follows leaning in and not providing enough resistance
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform upper-body frame holds and rhythmic foot taps in 2/4 ragtime tempo while seated. · For children: 'Traffic Cop Glide' game where children mirror officer signals while gliding in right-outside pairs around a marked track.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform upper-body frame holds and rhythmic foot taps in 2/4 ragtime tempo while seated. · For children: 'Traffic Cop Glide' game where children mirror officer signals while gliding in right-outside pairs around a marked track. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Progressive partner travel covering large areas of the ballroom floor.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 110 bpm
@@ -321,7 +324,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: In exhibitions and competitions, dancers frequently wear period ragtime clothing. Gentlemen wear suits accompanied by bowler hats or straw boaters, while ladies wear long, full dresses. The setting is traditionally a ballroom floor allowing continuous travel along the line of dance.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '_VOFkpsxuv0', 'checked_by_vision_model': True, 'title': 'Peabody'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Straw boater hats and vintage ragtime suits., Sweeping floor-level tracking shots of couples gliding along ballroom perimeters., Archival footage clips and historic sheet music covers from the ragtime era.
@@ -331,9 +334,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the ballroom-partner family studied · videos studied: 16
-Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
-Cues: walk walk; aprovechar la inercia; todo tiene que ir fluido; no se debera cortar el movimiento; step point; side by side; quick quick slow; side with the left; bring it in; switch weight; change weight onto the left; side close side
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, side; tempo progression: full
+Cues: one beat per step; five six seven and
+Common mistakes the studied teachers name: follows leaning in and not providing enough resistance
 
 Sources (5): https://en.wikipedia.org/wiki/Peabody_(dance); https://www.wikidata.org/wiki/Q7157219; https://archive.org/details/childrensliterat0000curr; https://archive.org/details/childrenslitera00currgoog; https://archive.org/details/oldgreekfolkstor00peab

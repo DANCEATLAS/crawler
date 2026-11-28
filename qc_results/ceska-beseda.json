@@ -1,0 +1,119 @@
+{
+ "slug": "ceska-beseda",
+ "qc_at": "2026-11-28T18:50:56Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ceska beseda"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "85"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "137"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In November 1863 at Prague's Konviktsaal, 24 pairs including composer Bedřich Sm"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "555"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2356"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Czech Republic"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,communal spirit"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Comprehensive, exceptionally well-sourced, and accurate profile of the Czech salon quadrille."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=9.7"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-28T18:45:06Z"
+}

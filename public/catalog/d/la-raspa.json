@@ -60,6 +60,19 @@
    "checked_at": "2026-11-27T20:17:05Z",
    "soft_fail": []
   },
+  "tutorials": [
+   {
+    "youtube_id": "xygZjJXfMk8",
+    "title": "JVS la raspa pasos básicos folclor mexicano",
+    "channel": "Sofy Amezcua",
+    "level": "general",
+    "pos": 0,
+    "neg": 0,
+    "ratio": 0.5,
+    "evidence": [],
+    "lesson_status": "candidate"
+   }
+  ],
   "related_slugs": [
    "jarabe-tapatio"
   ]
@@ -274,6 +287,119 @@
  },
  "lessons": [
   {
+   "youtube_id": "78ZRR0pBZSE",
+   "url": "https://www.youtube.com/watch?v=78ZRR0pBZSE",
+   "title": "La Raspa Tutorial - Ballet Folklorico DFW",
+   "channel": "Ballet Folklorico DFW Academy",
+   "analysed_on": "2026-11-28",
+   "level": "beginner",
+   "language": "en",
+   "parts": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "segment": "intro",
+     "note": "Title screen displays La Raspa and music credit"
+    },
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "segment": "full_demo",
+     "note": "Teacher and students perform heel kicks with claps"
+    },
+    {
+     "t": "0:15",
+     "seconds": 15,
+     "segment": "breakdown",
+     "note": "Skip and freeze sequence demonstration"
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "segment": "breakdown",
+     "note": "Heel taps with claps demonstration"
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "segment": "breakdown",
+     "note": "Double stomp demonstration"
+    },
+    {
+     "t": "1:14",
+     "seconds": 74,
+     "segment": "breakdown",
+     "note": "Zapateado and stomp demonstration"
+    },
+    {
+     "t": "1:43",
+     "seconds": 103,
+     "segment": "breakdown",
+     "note": "Heel-toe-chasse demonstration"
+    },
+    {
+     "t": "2:13",
+     "seconds": 133,
+     "segment": "recap",
+     "note": "Turn sequence demonstration"
+    }
+   ],
+   "steps": [
+    {
+     "name": "Heel kicks with claps",
+     "description": "Alternating heel kicks while clapping to the beat"
+    },
+    {
+     "name": "Skip",
+     "counts": "14x + freeze",
+     "description": "Skipping steps followed by a freeze on count 15"
+    },
+    {
+     "name": "Heel taps with claps",
+     "description": "Heel taps performed with hand claps"
+    },
+    {
+     "name": "Double stomp",
+     "counts": "16x",
+     "description": "Double foot stomping sequence"
+    },
+    {
+     "name": "Zapateado",
+     "counts": "14x + stomp",
+     "description": "Zapateado footwork ending with a stomp on count 15"
+    },
+    {
+     "name": "Heel-toe-chasse",
+     "counts": "8x",
+     "description": "Heel and toe movements combined with chasse steps"
+    }
+   ],
+   "teacher_style": "The instructor leads a group of students in a studio setting, demonstrating folklorico footwork alongside them. The class is conducted primarily through music and visual demonstration without spoken dialogue.",
+   "distinctive_method": "Using on-screen text overlays to name each movement segment while the teacher dances silently with the class.",
+   "what_works": [
+    "Clear visual demonstration with on-screen text labels for each step"
+   ],
+   "what_hinders": [
+    "No spoken instruction or breakdown of counts"
+   ],
+   "evidence": [
+    {
+     "start_s": 4,
+     "end_s": 14,
+     "topic": "movement",
+     "observation": "Instructor and students perform heel kicks with rhythmic clapping",
+     "viewpoint": "front, mirror, unknown",
+     "cannot_infer": "exact foot weight distribution",
+     "verification": "model_candidate"
+    }
+   ],
+   "seen": {
+    "from_s": 0,
+    "to_s": 480,
+    "checked_by_a_person": false
+   }
+  },
+  {
    "youtube_id": "xygZjJXfMk8",
    "url": "https://www.youtube.com/watch?v=xygZjJXfMk8",
    "title": "JVS la raspa pasos básicos folclor mexicano",
@@ -435,6 +561,6 @@
   "polished": false,
   "file": "episodes/la-raspa.json"
  },
- "fingerprint": "3e05c3feb2c135b4",
- "updated": "2026-11-27"
+ "fingerprint": "41512c3c0450a449",
+ "updated": "2026-11-28"
 }

@@ -1,8 +1,8 @@
 # Oppana — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Warm, encouraging community elder or Youth Festival folk mentor celebrating Mappila heritage.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Clapping for the Bride: The Mappila Ring of Song
 NARRATION: This is Oppana. Traditional / Revival era.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ampQdhHjNmA)
 ON SCREEN: Title card: Oppana · India · Traditional / Revival era
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Oppana is generally presented by a group of about fifteen women, whic
 NARRATION: The bride, dressed in fine attire, adorned with gold ornaments, and decorated with intricate mylanchi (henna) patterns on her hands and feet, sits on a central chair known as a peetam.
 NARRATION: She acts as the chief spectator while the dancers form a circle around her.
 NARRATION: Watch for Oppana chayal, Oppana murukkam.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ampQdhHjNmA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular formation centered around a seated individual on a peetam.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -307,7 +307,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ampQdhHjNmA', 'checked_by_vision_model': True, 'title': 'കാണാം ഒരു കിടുക്കാച്ചി ഒപ്പന | Oppana | Higher Secondary | Kerala State School kalolsavam 2023'}
 Images: 3 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Rider_sanu / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Shagil Kannur / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Oppana.webm — https://upload.wikimedia.org/wikipedia/commons/9/9b/Oppana.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Mylanchi (henna) patterns on hands and feet, Gold ornaments and traditional festive attire, The bride seated centrally on a peetam chair, Close-up of elathaalam cymbals and hand clapping in unison
@@ -317,9 +317,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Oppana; https://www.wikidata.org/wiki/Q7098537

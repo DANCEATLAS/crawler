@@ -1,6 +1,6 @@
 # Mek Mulung — episode pack
 
-*Status: draft · built 2026-11-27 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Bertabuh: Await the opening simultaneous percussion roll.
 NARRATION: Bertabik: Group vocalization with coordinated forward and backward arm swinging.
-NARRATION: Count it: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count it: 5-6-7-8, 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -109,7 +109,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count: 5-6-7-8, 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -123,7 +123,7 @@ NARRATION: Drill: Clap the steady percussive beat alongside the kecerek pulse.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8, 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Ayunan Lengan: Up-and-down rhythmic swinging of the arms while standing in place.
@@ -131,7 +131,7 @@ NARRATION: Step 4: Pantun transition: Pausing dance motion to engage in alternat
 NARRATION: Drill: Practice vocalizing syllabic phrases without adding vocal ornamentation.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8, 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -149,7 +149,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the Bertabik arm motions while seated firmly on a stable chair, swinging arms gently forward, backward, up, and down in time with the percussion. · For children: The Barn Players: Children form a circle mimicking the Wang Tepus barn, taking turns playing the royal court while others match the rhythmic kecerek clapping and arm swings. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8, 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -179,7 +179,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count: 5-6-7-8, 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -193,7 +193,7 @@ NARRATION: Drill: Execute 8 counts of horizontal forward-and-back arm swings whi
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8, 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Ayunan Lengan: Up-and-down rhythmic swinging of the arms while standing in place.
@@ -204,7 +204,7 @@ NARRATION: Drill: Transition into 8 counts of vertical upward-and-downward arm s
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8, 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -223,7 +223,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the Bertabik arm motions while seated firmly on a stable chair, swinging arms gently forward, backward, up, and down in time with the percussion. · For children: The Barn Players: Children form a circle mimicking the Wang Tepus barn, taking turns playing the royal court while others match the rhythmic kecerek clapping and arm swings. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8, 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Staged centrally within an open barn with spectators enclosing the playing space.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -253,7 +253,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count: 5-6-7-8, 1-2-3-4-5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -267,7 +267,7 @@ NARRATION: Drill: Recite an opening chant while maintaining the upper-body swing
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8, 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: To-and-fro arm swing: Rhythmic horizontal swinging of both arms forward and backward during vocal chants.
@@ -276,7 +276,7 @@ NARRATION: Drill: Perform the full Bertabik sequence facing outward toward surro
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8, 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -294,7 +294,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform the Bertabik arm motions while seated firmly on a stable chair, swinging arms gently forward, backward, up, and down in time with the percussion. · For children: The Barn Players: Children form a circle mimicking the Wang Tepus barn, taking turns playing the royal court while others match the rhythmic kecerek clapping and arm swings. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8, 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Staged centrally within an open barn with spectators enclosing the playing space.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 5-6-7-8 and 1-2-3-4-5-6-7-8
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 5-6-7-8, 1-2-3-4-5-6-7-8
 Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: duduk timpuh; angkat sembah; sembah kanan dan kiri; sisir; anak rambut; ekor pipit; penyudah
+Cues: puteri mabuk kanan dan pusing; puteri mabuk kiri dan pusing; lenggang si puteri; sedayung kanan; sedayung kiri; anak menora kanan; anak menora kiri; pusing penutup; duduk timpuh; angkat sembah; sembah kanan dan kiri; sisir
 
 Sources (3): https://en.wikipedia.org/wiki/Mek_Mulung; https://www.wikidata.org/wiki/Q6810513; https://ich.unesco.org/en/USL/01610

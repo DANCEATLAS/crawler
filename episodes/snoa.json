@@ -1,0 +1,813 @@
+{
+ "slug": "snoa",
+ "name": "Snoa",
+ "pack_version": "e2",
+ "built_at": "2026-11-28T19:18:06Z",
+ "researched_at": "2026-11-28T17:40:30Z",
+ "qc_score": 9.6,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An inviting, grounded Scandinavian social dance teacher focused on natural partner balance and effortless rotation.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Snoa"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Snoa",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Endless Turn of the North",
+     "This is Snoa."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Snoa · Sweden · not described in sources"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Snoa is a Swedish couple dance that developed in northern Europe.",
+     "The Swedish word 'Snoa', meaning 'to turn or rotate', is used throughout a good part of northern Sweden to identify this dance, directly reflecting the movement style that defines it."
+    ],
+    "on_screen": [
+     "Map: Sweden · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Snoa is a social couple dance designed for participatory dance settings, representing a shared tradition of rotating partner dances in Scandinavia.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Pivot-spin step."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Couple dance travelling or rotating within a social dance space."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The pulse is 4/4.",
+     "A duple-meter 4/4 musical accompaniment that provides an even, rotating pulse for social couple dancing."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Snurran Snoa — 081010 Lohärad: Allspel",
+     "Waveform or rhythm-pattern graphic: Duple-meter 4/4 time"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The dance is particularly identified with northern Sweden.",
+     "Snoa stands alongside related Scandinavian rotational folk dances, maintaining a direct sibling relationship with the Norwegian rudl or rull."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Snoa is sibling of Rudl: Norwegian couple dance related to Snoa, often danced in 2/4 meter.",
+     "Snoa is variant of Rull: Alternative name or close regional variant of the Norwegian rudl related to Snoa."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Step into partner hold in duple meter (4/4 time)",
+     "Execute a simple pivot-spin step while turning continuously with a partner",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Couples in northern Sweden spin continuously to steady 4/4 melodies in the traditional pivot dance known simply as Snoa.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Feel the 4/4 duple pulse while stepping in place with a partner.",
+   "level": "Level 1: Pulse and Alignment",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Feel the 4/4 duple pulse while stepping in place with a partner..",
+      "Level: Level 1: Pulse and Alignment. Difficulty of the dance overall: beginner.",
+      "Your instructor: An inviting, grounded Scandinavian social dance teacher focused on natural partner balance and effortless rotation."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Duple-meter 4/4 time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step into partner hold in duple meter (4/4 time)",
+      "Step 2: Execute a simple pivot-spin step while turning continuously with a partner",
+      "Footwork from the sources: Simple pivot-spin step in 4/4 time.",
+      "Drill: March in place on counts 1, 2, 3, 4."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Weight transfer drill shifting smoothly beat by beat."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Couple connection drill maintaining frame while stepping."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform alternating foot taps to the 4/4 beat while gently rotating the upper torso in time with partner hands. · For children: The Spinning Top game: pairs hold hands and practice two slow turning steps, freezing on beat 4."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform alternating foot taps to the 4/4 beat while gently rotating the upper torso in time with partner hands.",
+      "For children: The Spinning Top game: pairs hold hands and practice two slow turning steps, freezing on beat 4."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Feel the 4/4 duple pulse while stepping in place with a partner..",
+      "Snoa is a social couple dance designed for participatory dance settings, representing a shared tradition of rotating partner dances in Scandinavia.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Initiate rotation using half-turn pivot mechanics.",
+   "level": "Level 2: The Half-Pivot",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Initiate rotation using half-turn pivot mechanics..",
+      "Level: Level 2: The Half-Pivot. Difficulty of the dance overall: beginner.",
+      "Your instructor: An inviting, grounded Scandinavian social dance teacher focused on natural partner balance and effortless rotation."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Duple-meter 4/4 time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step into partner hold in duple meter (4/4 time)",
+      "Step 2: Execute a simple pivot-spin step while turning continuously with a partner",
+      "Drill: Solo half-pivot turns across two counts."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Pivot-spin step: A simple rotational step executed by the couple in 4/4 time to turn or rotate smoothly.",
+      "Drill: Partnered half-pivot with shared center of gravity."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sustained two-step rotation without losing timing."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform alternating foot taps to the 4/4 beat while gently rotating the upper torso in time with partner hands. · For children: The Spinning Top game: pairs hold hands and practice two slow turning steps, freezing on beat 4."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform alternating foot taps to the 4/4 beat while gently rotating the upper torso in time with partner hands.",
+      "For children: The Spinning Top game: pairs hold hands and practice two slow turning steps, freezing on beat 4."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Couple dance travelling or rotating within a social dance space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Initiate rotation using half-turn pivot mechanics..",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Sustain a fluid, unbroken Snoa pivot-spin in 4/4 time.",
+   "level": "Level 3: Continuous Pivot-Spin",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Sustain a fluid, unbroken Snoa pivot-spin in 4/4 time..",
+      "Level: Level 3: Continuous Pivot-Spin. Difficulty of the dance overall: beginner.",
+      "Your instructor: An inviting, grounded Scandinavian social dance teacher focused on natural partner balance and effortless rotation."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Duple-meter 4/4 time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step into partner hold in duple meter (4/4 time)",
+      "Step 2: Execute a simple pivot-spin step while turning continuously with a partner",
+      "Drill: Continuous rotation across 8 counts of 4/4 music."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Pivot-spin step: A simple rotational step executed by the couple in 4/4 time to turn or rotate smoothly.",
+      "Drill: Traveling while maintaining rotation on the social floor."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Speed adjustment to match varying tempos of duple tunes."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform alternating foot taps to the 4/4 beat while gently rotating the upper torso in time with partner hands. · For children: The Spinning Top game: pairs hold hands and practice two slow turning steps, freezing on beat 4."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform alternating foot taps to the 4/4 beat while gently rotating the upper torso in time with partner hands.",
+      "For children: The Spinning Top game: pairs hold hands and practice two slow turning steps, freezing on beat 4."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Couple dance travelling or rotating within a social dance space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Sustain a fluid, unbroken Snoa pivot-spin in 4/4 time..",
+      "Snoa stands alongside related Scandinavian rotational folk dances, maintaining a direct sibling relationship with the Norwegian rudl or rull.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": "Duple-meter 4/4 time",
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "steady",
+   "rotational",
+   "social",
+   "folk"
+  ],
+  "sound_description": "A duple-meter 4/4 musical accompaniment that provides an even, rotating pulse for social couple dancing.",
+  "listen_before_composing": [
+   "Snurran Snoa — 081010 Lohärad: Allspel"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Snoa (Sweden). Meter 4/4. Rhythm pattern: Duple-meter 4/4 time. Mood: steady, rotational, social, folk. It should sound like this: A duple-meter 4/4 musical accompaniment that provides an even, rotating pulse for social couple dancing. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Interlocked feet pivoting on wooden floorboards",
+   "Spinning silhouettes against traditional Swedish social halls",
+   "Close-ups of partnered hands maintaining rotational tension"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Snoa is a social couple dance designed for participatory dance settings, representing a shared tradition of rotating partner dances in Scandinavia.",
+  "map": {
+   "country": "Sweden",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "132 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 132,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "1-2-3-4",
+   "5-6-7-8",
+   "1 2 3 4",
+   "step together step",
+   "up knee",
+   "hop back",
+   "1 2 3 4 5 6",
+   "opa",
+   "1-2-3",
+   "putar",
+   "mundur",
+   "step to the right"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "warmup",
+   "breakdown",
+   "full_demo",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "the music & instruments section",
+  "the costume & setting section",
+  "notable figures",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Snoa_(dance)",
+  "https://www.wikidata.org/wiki/Q7547873"
+ ],
+ "claims_verified": 6,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "1a89ad6fa2a31eb22a410adf56042a4fe2008a745dc6d67c8998426dfdda7abd",
+ "hero_checked": null
+}

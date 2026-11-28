@@ -1,6 +1,6 @@
 # Cajun Jitterbug — episode pack
 
-*Status: draft · built 2026-11-27 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-28 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the music & instruments section; the costume & setting section; notable figures
 
@@ -113,7 +113,7 @@ NARRATION: Step 1: Open-handed or cross-handed hold below waist level
 NARRATION: Step 2: Alternating stepping in time with the music
 NARRATION: Footwork from the sources: Alternating feet stepping or walking in time to the music; subtle weighting down of lead right leg / follower left leg to free the opposite leg.
 NARRATION: Drill: Practice joining hands below waist in open position
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 6-count bar out loud, then in pairs of bars · repetitions: 3
@@ -183,7 +183,7 @@ NEEDS: tempo
 NARRATION: Step 1: Open-handed or cross-handed hold below waist level
 NARRATION: Step 2: Alternating stepping in time with the music
 NARRATION: Drill: Isolate weighting on lead right foot / follower left foot
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 6-count bar out loud, then in pairs of bars · repetitions: 3
@@ -256,7 +256,7 @@ NEEDS: tempo
 NARRATION: Step 1: Weighting down lead right leg / follower left leg
 NARRATION: Step 2: Freeing opposite leg for underarm turns and swings
 NARRATION: Drill: Lead underarm turn from open-handed position
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 6-count bar out loud, then in pairs of bars · repetitions: 3
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 90 tutorial(s) of the street-urban family studied · videos studied: 90
+Source: 92 tutorial(s) of the street-urban family studied · videos studied: 92
 Counting: count the 6-count bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 3
 Cues: 5-6-7-8; down and up; step touch; one two three four; one and two; heel toe; twist your wrist; keep your arm tense; pivot your feet; turn your torso; heel step; stomp
 
 Sources (2): https://en.wikipedia.org/wiki/Cajun_Jitterbug; https://www.wikidata.org/wiki/Q5018008

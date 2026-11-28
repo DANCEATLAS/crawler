@@ -1,0 +1,149 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Processional parade (georigut or gilnori) around the market district led by a yeonggi flagbearer, followed by musicians and masked performers.",
+          "source": "https://en.wikipedia.org/wiki/Songpasandae-nori"
+        },
+        {
+          "description": "Seven-act madang arena drama presenting paired character interactions, choral monk groupings, and theatrical comedic dialogues.",
+          "source": "https://en.wikipedia.org/wiki/Songpasandae-nori"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Drum striking motions with small drums; other hand mechanics not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular town procession following the yeonggi flag, moving to a circular open-air madang stage",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Paired monk entrances, servant-master mockery encounters, and marital dispute enactments",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Ceremonial opening entrance and dance performed by two monks.",
+          "name": "Sangjwachumnori entrance"
+        },
+        {
+          "description": "Rhythmic dance performed by monks accompanied by small hand-held drums.",
+          "name": "Aesadangbuknori"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Do not treat the opening seomakgosa ritual or ancestral mask offering as casual play."
+    },
+    "music_profile": {
+      "instruments": [
+        "small drums (buk)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "cheerful",
+        "ceremonial",
+        "satirical",
+        "boisterous"
+      ],
+      "musical_form": "Processional prelude followed by episodic dramatic acts (gwajang)",
+      "reference_recordings": [],
+      "rhythm_pattern": "gilgunak marching rhythm",
+      "sound_description": "A brisk open-air soundscape led by the processional gilgunak military-style marching tunes, moving into episodic rhythmic scenes punctuated by small drum strikes and spoken comedic confrontations.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Spoken theatrical dialogue, comedic satire, and ceremonial chanting"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Processional march following the yeonggi flag during gilnori",
+        "Two-monk stage entrance dance in Sangjwachumnori",
+        "Small drum dance accompaniment in Aesadangbuknori"
+      ],
+      "formation": "Street parade circle transitioning to an open-air theatrical arena",
+      "level_notes": "Mask drama combining ritual offerings, theatrical pantomime, and physical comedy across seven acts.",
+      "rhythm": "gilgunak marching rhythm; drumming patterns not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "1d6ceef81f3902d93d2c3956657b3b1b485975ac735fdb6ba476a0f7f249bd79",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites",
+      "Investigate: What are the specific choreographic footwork patterns and step counts used in Sangjwachumnori and Aesadangbuknori? Evidence needed: Review the 1984 Cho Ohkon English script publication and preservation documentation from the Seoul Nori Madang group."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: How are the 33 individual masks physically manipulated and integrated with head tilts and gestures during performance? Evidence needed: Analyze video recordings from the Seoul Metropolitan Government and Seoul Nori Madang performance archives."
+    ]
+  },
+  "id": "atlas:songpasandaenori",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Songpasandaenori",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "8bb4369f7d61ed96",
+      "next_evidence": "Review the 1984 Cho Ohkon English script publication and preservation documentation from the Seoul Nori Madang group.",
+      "question": "What are the specific choreographic footwork patterns and step counts used in Sangjwachumnori and Aesadangbuknori?",
+      "source": "https://en.wikipedia.org/wiki/Songpasandae-nori",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profiles, lesson ladders, and beginner drills require documented mechanics before physical instruction can be verified."
+    },
+    {
+      "domain": "video",
+      "id": "d3f4e9494afd99c8",
+      "next_evidence": "Analyze video recordings from the Seoul Metropolitan Government and Seoul Nori Madang performance archives.",
+      "question": "How are the 33 individual masks physically manipulated and integrated with head tilts and gestures during performance?",
+      "source": "https://en.wikipedia.org/wiki/Songpasandae-nori",
+      "status": "candidate_unreviewed",
+      "why_needed": "Mask acting requires camera evaluation of specific angles and stylized head movements that text descriptions omit."
+    }
+  ],
+  "research_file": "research_results/songpasandaenori.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "songpasandaenori",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Songpasandae-nori",
+    "https://www.wikidata.org/wiki/Q7561302"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

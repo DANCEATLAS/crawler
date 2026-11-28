@@ -2,7 +2,7 @@
  "slug": "gending-sriwijaya",
  "name": "Gending Sriwijaya",
  "pack_version": "e2",
- "built_at": "2026-11-27T21:09:05Z",
+ "built_at": "2026-11-28T19:18:05Z",
  "researched_at": "2026-11-27T19:53:04Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Gending Sriwijaya. 1940s (1943–1944)."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (1BQM836-e84)",
      "Title card: Gending Sriwijaya · Indonesia · 1940s (1943–1944)"
     ],
     "music": "theme (30 s)"
@@ -109,7 +109,7 @@
      "Watch for Sekapur Sirih Offering."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (1BQM836-e84)",
      "Captions name each signature move as it appears",
      "Formation: Nine female dancers arranged with one central prime lady, flanked by two pridon carriers, guarded by two male dancers with parasols and spears"
     ],
@@ -719,7 +719,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "1BQM836-e84",
+   "checked_by_vision_model": true,
+   "title": "Tari Gending Sriwijaya"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -839,7 +843,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
   "licensed reference footage"
  ],
  "sources": [
@@ -849,6 +852,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "90cdeca7e70ae8f53b8c10207437b76d4e549fb26e92ae303305514236871bea",
- "hero_checked": null
+ "input_fingerprint": "b4cccf87c0e6bb6bf9943d225ada260c6ebf9e1fb18d54d1047dcf6efa8d1cd0",
+ "hero_checked": "pass"
 }

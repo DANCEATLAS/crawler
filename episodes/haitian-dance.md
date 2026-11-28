@@ -1,6 +1,6 @@
 # Haitian dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-27 · judge 8.75 · 6/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-28 · judge 8.75 · 6/7 claims verified · narration assembled from the profile*
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Haitian dance master with deep cultural roots and teaching experience
@@ -115,9 +115,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 122 tutorial(s) of the folk-circle family studied · videos studied: 122
+Source: 132 tutorial(s) of the folk-circle family studied · videos studied: 132
 Counting: count the Mostly duple (2/4 or 4/4), with polyrhythmic layering in Vodou music bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: 1-2-3-4; 5-6-7-8; step together step; 1 2 3 4 5 6; 1 2 3 4; opa; 1-2-3; putar; mundur; step to the right; un dos tres; right together right touch
+Cues: 1-2-3-4; 5-6-7-8; 1 2 3 4; step together step; up knee; hop back; 1 2 3 4 5 6; opa; 1-2-3; putar; mundur; step to the right
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Haiti; https://www.wikidata.org/wiki/Q125268369

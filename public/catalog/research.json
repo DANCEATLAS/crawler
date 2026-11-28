@@ -3,31 +3,27 @@
  "what_this_is": "The reading list of the mentor's study. A finding is shown only when the words quoted for it were found in the source. Most studies are about learning movement in general, not dance. Read by a machine, not yet checked by a person.",
  "counts": {
   "topics": 80,
-  "read": 65,
-  "next": 6,
+  "read": 69,
+  "next": 2,
   "waiting": 0,
-  "thin": 7,
+  "thin": 9,
   "no_sources": 0,
-  "unanswered": 2,
+  "unanswered": 0,
   "owner_topics": 14,
   "owner_read": 12,
   "papers": 28,
   "papers_shown": 28,
-  "findings_checked": 285,
+  "findings_checked": 296,
   "searches": 50,
-  "searches_asked": 16
+  "searches_asked": 17
  },
  "a_night": {
   "topics": 6,
   "papers": 4
  },
  "next": [
-  "virtual_coaches",
-  "mentoring",
-  "deliberate_practice",
-  "adult_learners",
-  "dance_for_everyone",
-  "part_and_whole_practice"
+  "spacing",
+  "varied_practice"
  ],
  "groups": [
   {
@@ -1016,18 +1012,51 @@
     {
      "key": "part_and_whole_practice",
      "name": "part and whole practice",
-     "state": "next",
+     "state": "read",
      "tags": [
       "chunking",
       "layering",
       "demo_first"
      ],
-     "on": "2026-11-17"
+     "on": "2026-11-28",
+     "principle": "Research indicates that whole practice can have some advantages over part practice, while the specific order of part-practice can also bias subsequent performance.",
+     "for_the_teacher": [
+      "Integrate whole-practice runs alongside part-practice to leverage its advantages for motor learning.",
+      "Be mindful of how breaking down movements into parts might bias the execution of the complete movement later."
+     ],
+     "findings": [
+      {
+       "finding": "Whole practice shows some advantages over part practice in certain contexts.",
+       "quote": "There were indications that whole practice had some advantages over part practice and random practice was superior to blocked practice on post-acquisition tests.",
+       "source": "https://europepmc.org/article/MED/26768734"
+      },
+      {
+       "finding": "The specific order of part-practice can influence and directionally bias the performance of the whole task.",
+       "quote": "Such findings suggest that the part-practice order of bimanual tasks can directionally bias whole-task performance.",
+       "source": "https://europepmc.org/article/MED/15753065"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/26768734",
+       "title": "A systematic review and meta-analysis of selected motor learning principles in physiotherapy and medical education",
+       "authors": "Sattelmayer M, Elsig S, Hilfiker R, Baer G.",
+       "year": "2016",
+       "journal": "BMC medical education"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/15753065",
+       "title": "Hand preference, practice order, and spatial assimilations in rapid bimanual movement",
+       "authors": "Sherwood DE.",
+       "year": "1994",
+       "journal": "Journal of motor behavior"
+      }
+     ]
     },
     {
      "key": "spacing",
      "name": "spacing",
-     "state": "unanswered",
+     "state": "next",
      "tags": [
       "recap_and_practice_plan",
       "repetition"
@@ -1407,7 +1436,7 @@
     {
      "key": "varied_practice",
      "name": "varied practice",
-     "state": "unanswered",
+     "state": "next",
      "tags": [
       "play_and_variation",
       "repetition"
@@ -3729,46 +3758,164 @@
     {
      "key": "virtual_coaches",
      "name": "virtual coaches",
-     "state": "next",
+     "state": "thin",
      "tags": [
       "checks_in",
       "reason_to_return"
-     ]
+     ],
+     "on": "2026-11-28"
     },
     {
      "key": "mentoring",
      "name": "mentoring",
-     "state": "next",
+     "state": "thin",
      "tags": [
       "own_story",
       "long_road"
-     ]
+     ],
+     "on": "2026-11-28"
     },
     {
      "key": "deliberate_practice",
      "name": "deliberate practice",
-     "state": "next",
+     "state": "read",
      "tags": [
       "long_road",
       "repetition"
+     ],
+     "on": "2026-11-28",
+     "principle": "Expertise is acquired through deliberate practice, which involves breaking down skills into specific chunks, engaging in sustained repetition, and receiving immediate feedback.",
+     "for_the_teacher": [
+      "Break down movements into small skill chunks for focused practice.",
+      "Provide immediate feedback during practice sessions so learners can adjust their performance."
+     ],
+     "findings": [
+      {
+       "finding": "Expert performers break down required skills into smaller parts and focus on improving those skill chunks during practice.",
+       "quote": "An expert breaks down the skills that are required to be expert and focuses on improving those skill chunks during practice",
+       "source": "https://en.wikipedia.org/wiki/Practice_(learning_method)"
+      },
+      {
+       "finding": "Deliberate practice requires immediate feedback so learners can make necessary changes to improve performance.",
+       "quote": "The student should be able to access immediate feedback about their performance, so they can make the changes needed to improve.",
+       "source": "https://en.wikipedia.org/wiki/Practice_(learning_method)"
+      },
+      {
+       "finding": "Active engagement in deliberate practice involves opportunities for repeated performance to refine behavior.",
+       "quote": "opportunities for repeated performance to refine behavior",
+       "source": "https://europepmc.org/article/MED/18778378"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Practice_(learning_method)",
+       "title": "Practice (learning method)",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/18778378",
+       "title": "Deliberate practice and acquisition of expert performance: a general overview",
+       "authors": "Ericsson KA.",
+       "year": "2008",
+       "journal": "Academic emergency medicine : official journal of the Society for Academic Emergency Medicine"
+      }
      ]
     },
     {
      "key": "adult_learners",
      "name": "adult learners",
-     "state": "next",
+     "state": "read",
      "tags": [
       "long_road",
       "autonomy"
+     ],
+     "on": "2026-11-28",
+     "principle": "Adult learners thrive when they understand the purpose of learning, direct their own progress, and apply active practice to solve practical problems.",
+     "for_the_teacher": [
+      "Explain the practical purpose and relevance of a movement combination before teaching it.",
+      "Encourage learners to actively practice and participate in problem-solving rather than just watching."
+     ],
+     "when_it_does_not_apply": "This theory focuses specifically on adults and does not apply to the pedagogical approaches required for children.",
+     "findings": [
+      {
+       "finding": "Adults need to understand the practical reason and relevance behind what they are learning.",
+       "quote": "Adults need to know the reason for learning something.",
+       "source": "https://en.wikipedia.org/wiki/Andragogy"
+      },
+      {
+       "finding": "Adult learning relies on active practice and participation rather than passive absorption.",
+       "quote": "Adults learn through active practice and participation. This helps in integrating component skills into a coherent whole.",
+       "source": "https://en.wikipedia.org/wiki/Andragogy"
+      },
+      {
+       "finding": "Adult education is centered on solving problems rather than following rigid content structures.",
+       "quote": "Adult learning is problem-centered rather than content-oriented.",
+       "source": "https://en.wikipedia.org/wiki/Andragogy"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Andragogy",
+       "title": "Andragogy",
+       "authors": "Wikipedia contributors",
+       "journal": "Wikipedia"
+      }
      ]
     },
     {
      "key": "dance_for_everyone",
      "name": "dance for everyone",
-     "state": "next",
+     "state": "read",
      "tags": [
       "dance_is_for_everyone",
       "body_adaptation"
+     ],
+     "on": "2026-11-28",
+     "principle": "Inclusive dance programs can be developed to challenge ableist notions and support motor and social functioning by fostering environments with no wrong way to move.",
+     "for_the_teacher": [
+      "Design lessons to ensure there is no wrong way to move, removing ableist expectations of how movement should look.",
+      "Foster a climate that supports learner autonomy and a strong sense of belonging."
+     ],
+     "findings": [
+      {
+       "finding": "Inclusive dance classes challenge traditional ableist notions of dance as spectacle.",
+       "quote": "This paper focuses on the aim of developing inclusive approaches to dance classes that challenge \"ableist\" notions of dance as spectacle",
+       "source": "https://europepmc.org/article/MED/34751219"
+      },
+      {
+       "finding": "Participants experiencing disability value learning climates that promote autonomy and belonging.",
+       "quote": "Participant value was considered to be enhanced via a learning climate affording opportunities for developing autonomy and a sense of belonging.",
+       "source": "https://europepmc.org/article/MED/37139344"
+      },
+      {
+       "finding": "Lack of interest is a primary reason reported by students for being inactive during recess.",
+       "quote": "Among 977 students with inactive recess, the most frequent reasons were lack of interest (40.3%) and absence of games, equipment, or a suitable place (29.1%).",
+       "source": "https://europepmc.org/article/MED/42794299"
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://europepmc.org/article/MED/34751219",
+       "title": "AllPlay Dance: Two Pilot Dance Projects for Children With Disability, Developed and Assessed With a Dance Studies Approach",
+       "authors": "Millard O, Lindor E, Papadopoulos N, Sivaratnam C, McGillivray J, Rinehart N.",
+       "year": "2021",
+       "journal": "Frontiers in psychology"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/37139344",
+       "title": "Physical literacy and the participant perspective: Exploring the value of physical literacy according to individuals experiencing disability through composite narratives",
+       "authors": "Pushkarenko K, Cavell M, Gosse N, Michalovic E.",
+       "year": "2023",
+       "journal": "Journal of exercise science and fitness"
+      },
+      {
+       "url": "https://europepmc.org/article/MED/42794299",
+       "title": "Liking of Physical Education and Active Recess Among Chilean Schoolchildren: A National Population-Based Study of Participation Gaps and Reasons for Inactivity",
+       "authors": "de Souza-Lima J, Giakoni-Ramírez F, Muñoz-Strale C, Alarcon-Aguilar J, Farías-Valenzuela C, Parra-Saldías M, Duclos-Bastías D, Godoy-Cumillaf A, Merellano-Navar",
+       "year": "2026",
+       "journal": "Children (Basel, Switzerland)"
+      }
      ]
     }
    ]
@@ -4992,6 +5139,6 @@
    ]
   }
  ],
- "fingerprint": "6fc966504b920981",
- "updated": "2026-11-27"
+ "fingerprint": "d0f188965ba6cfe7",
+ "updated": "2026-11-28"
 }
